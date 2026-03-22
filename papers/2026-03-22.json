@@ -1,0 +1,241 @@
+[
+  {
+    "id": "2603.19059v1",
+    "title": "SignAgent: Agentic LLMs for Linguistically-Grounded Sign Language Annotation and Dataset Curation",
+    "authors": [
+      "Oliver Cory",
+      "Ozge Mercanoglu Sincan",
+      "Richard Bowden"
+    ],
+    "abstract": "This paper introduces SignAgent, a novel agentic framework that utilises Large Language Models (LLMs) for scalable, linguistically-grounded Sign Language (SL) annotation and dataset curation. Traditional computational methods for SLs often operate at the gloss level, overlooking crucial linguistic nuances, while manual linguistic annotation remains a significant bottleneck, proving too slow and expensive for the creation of large-scale, phonologically-aware datasets. SignAgent addresses these challenges through SignAgent Orchestrator, a reasoning LLM that coordinates a suite of linguistic tools, and SignGraph, a knowledge-grounded LLM that provides lexical and linguistic grounding. We evaluate our framework on two downstream annotation tasks. First, on Pseudo-gloss Annotation, where the agent performs constrained assignment, using multi-modal evidence to extract and order suitable gloss labels for signed sequences. Second, on ID Glossing, where the agent detects and refines visual clusters by reasoning over both visual similarity and phonological overlap to correctly identify and group lexical sign variants. Our results demonstrate that our agentic approach achieves strong performance for large-scale, linguistically-aware data annotation and curation.",
+    "url": "http://arxiv.org/abs/2603.19059v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19059v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.19011v1",
+    "title": "Security awareness in LLM agents: the NDAI zone case",
+    "authors": [
+      "Enrico Bottazzi",
+      "Pia Park"
+    ],
+    "abstract": "NDAI zones let inventor and investor agents negotiate inside a Trusted Execution Environment (TEE) where any disclosed information is deleted if no deal is reached. This makes full IP disclosure the rational strategy for the inventor's agent. Leveraging this infrastructure, however, requires agents to distinguish a secure environment from an insecure one, a capability LLM agents lack natively, since they can rely only on evidence passed through the context window to form awareness of their execution environment. We ask: How do different LLM models weight various forms of evidence when forming awareness of the security of their execution environment? Using an NDAI-style negotiation task across 10 language models and various evidence scenarios, we find a clear asymmetry: a failing attestation universally suppresses disclosure across all models, whereas a passing attestation produces highly heterogeneous responses: some models increase disclosure, others are unaffected, and a few paradoxically reduce it. This reveals that current LLM models can reliably detect danger signals but cannot reliably verify safety, the very capability required for privacy-preserving agentic protocols such as NDAI zones. Bridging this gap, possibly through interpretability analysis, targeted fine-tuning, or improved evidence architectures, remains the central open challenge for deploying agents that calibrate information sharing to actual evidence quality.",
+    "url": "http://arxiv.org/abs/2603.19011v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19011v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.18897v1",
+    "title": "Act While Thinking: Accelerating LLM Agents via Pattern-Aware Speculative Tool Execution",
+    "authors": [
+      "Yifan Sui",
+      "Han Zhao",
+      "Rui Ma",
+      "Zhiyuan He",
+      "Hao Wang"
+    ],
+    "abstract": "LLM-powered agents are emerging as a dominant paradigm for autonomous task solving. Unlike standard inference workloads, agents operate in a strictly serial \"LLM-tool\" loop, where the LLM must wait for external tool execution at every step. This execution model introduces severe latency bottlenecks. To address this problem, we propose PASTE, a Pattern-Aware Speculative Tool Execution method designed to hide tool latency through speculation. PASTE is based on the insight that although agent requests are semantically diverse, they exhibit stable application level control flows (recurring tool-call sequences) and predictable data dependencies (parameter passing between tools). By exploiting these properties, PASTE improves agent serving performance through speculative tool execution. Experimental results against state of the art baselines show that PASTE reduces average task completion time by 48.5% and improves tool execution throughput by 1.8x.",
+    "url": "http://arxiv.org/abs/2603.18897v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18897v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.DC",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.18815v1",
+    "title": "ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents",
+    "authors": [
+      "Hao Zhang",
+      "Mingjie Liu",
+      "Shaokun Zhang",
+      "Songyang Han",
+      "Jian Hu"
+    ],
+    "abstract": "Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large numbers of sandboxed rollout trajectories, and existing infrastructures often couple rollout orchestration with the training loop, making systems hard to migrate and maintain. Under the rollout-as-a-service philosophy, we present ProRL Agent , a scalable infrastructure that serves the full agentic rollout lifecycle through an API service. ProRL Agent also provides standardized and extensible sandbox environments that support diverse agentic tasks in rootless HPC settings. We validate ProRL Agent through RL training on software engineering, math, STEM, and coding tasks. ProRL Agent is open-sourced and integrated as part of NVIDIA NeMo Gym.",
+    "url": "http://arxiv.org/abs/2603.18815v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18815v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.18631v1",
+    "title": "D-Mem: A Dual-Process Memory System for LLM Agents",
+    "authors": [
+      "Zhixing You",
+      "Jiachen Yuan",
+      "Jason Cai"
+    ],
+    "abstract": "Driven by the development of persistent, self-adapting autonomous agents, equipping these systems with high-fidelity memory access for long-horizon reasoning has emerged as a critical requirement. However, prevalent retrieval-based memory frameworks often follow an incremental processing paradigm that continuously extracts and updates conversational memories into vector databases, relying on semantic retrieval when queried. While this approach is fast, it inherently relies on lossy abstraction, frequently missing contextually critical information and struggling to resolve queries that rely on fine-grained contextual understanding. To address this, we introduce D-Mem, a dual-process memory system. It retains lightweight vector retrieval for routine queries while establishing an exhaustive Full Deliberation module as a high-fidelity fallback. To achieve cognitive economy without sacrificing accuracy, D-Mem employs a Multi-dimensional Quality Gating policy to dynamically bridge these two processes. Experiments on the LoCoMo and RealTalk benchmarks using GPT-4o-mini and Qwen3-235B-Instruct demonstrate the efficacy of our approach. Notably, our Multi-dimensional Quality Gating policy achieves an F1 score of 53.5 on LoCoMo with GPT-4o-mini. This outperforms our static retrieval baseline, Mem0$^\\ast$ (51.2), and recovers 96.7\\% of the Full Deliberation's performance (55.3), while incurring significantly lower computational costs.",
+    "url": "http://arxiv.org/abs/2603.18631v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18631v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.18859v1",
+    "title": "RewardFlow: Topology-Aware Reward Propagation on State Graphs for Agentic RL with Large Language Models",
+    "authors": [
+      "Xiao Feng",
+      "Bo Han",
+      "Zhanke Zhou",
+      "Jiaqi Fan",
+      "Jiangchao Yao"
+    ],
+    "abstract": "Reinforcement learning (RL) holds significant promise for enhancing the agentic reasoning capabilities of large language models (LLMs) with external environments. However, the inherent sparsity of terminal rewards hinders fine-grained, state-level optimization. Although process reward modeling offers a promising alternative, training dedicated reward models often entails substantial computational costs and scaling difficulties. To address these challenges, we introduce RewardFlow, a lightweight method for estimating state-level rewards tailored to agentic reasoning tasks. RewardFlow leverages the intrinsic topological structure of states within reasoning trajectories by constructing state graphs. This enables an analysis of state-wise contributions to success, followed by topology-aware graph propagation to quantify contributions and yield objective, state-level rewards. When integrated as dense rewards for RL optimization, RewardFlow substantially outperforms prior RL baselines across four agentic reasoning benchmarks, demonstrating superior performance, robustness, and training efficiency. The implementation of RewardFlow is publicly available at https://github.com/tmlr-group/RewardFlow.",
+    "url": "http://arxiv.org/abs/2603.18859v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18859v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.18718v1",
+    "title": "MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution",
+    "authors": [
+      "Minhua Lin",
+      "Zhiwei Zhang",
+      "Hanqing Lu",
+      "Hui Liu",
+      "Xianfeng Tang"
+    ],
+    "abstract": "Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.",
+    "url": "http://arxiv.org/abs/2603.18718v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18718v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.19166v1",
+    "title": "Meanings and Measurements: Multi-Agent Probabilistic Grounding for Vision-Language Navigation",
+    "authors": [
+      "Swagat Padhan",
+      "Lakshya Jain",
+      "Bhavya Minesh Shah",
+      "Omkar Patil",
+      "Thao Nguyen"
+    ],
+    "abstract": "Robots collaborating with humans must convert natural language goals into actionable, physically grounded decisions. For example, executing a command such as \"go two meters to the right of the fridge\" requires grounding semantic references, spatial relations, and metric constraints within a 3D scene. While recent vision language models (VLMs) demonstrate strong semantic grounding capabilities, they are not explicitly designed to reason about metric constraints in physically defined spaces. In this work, we empirically demonstrate that state-of-the-art VLM-based grounding approaches struggle with complex metric-semantic language queries. To address this limitation, we propose MAPG (Multi-Agent Probabilistic Grounding), an agentic framework that decomposes language queries into structured subcomponents and queries a VLM to ground each component. MAPG then probabilistically composes these grounded outputs to produce metrically consistent, actionable decisions in 3D space. We evaluate MAPG on the HM-EQA benchmark and show consistent performance improvements over strong baselines. Furthermore, we introduce a new benchmark, MAPG-Bench, specifically designed to evaluate metric-semantic goal grounding, addressing a gap in existing language grounding evaluations. We also present a real-world robot demonstration showing that MAPG transfers beyond simulation when a structured scene representation is available.",
+    "url": "http://arxiv.org/abs/2603.19166v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19166v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.18894v1",
+    "title": "I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems",
+    "authors": [
+      "Vedanta S P",
+      "Ponnurangam Kumaraguru"
+    ],
+    "abstract": "Large language models are increasingly proposed as autonomous agents for high-stakes public workflows, yet we lack systematic evidence about whether they would follow institutional rules when granted authority. We present evidence that integrity in institutional AI should be treated as a pre-deployment requirement rather than a post-deployment assumption. We evaluate multi-agent governance simulations in which agents occupy formal governmental roles under different authority structures, and we score rule-breaking and abuse outcomes with an independent rubric-based judge across 28,112 transcript segments. While we advance this position, the core contribution is empirical: among models operating below saturation, governance structure is a stronger driver of corruption-related outcomes than model identity, with large differences across regimes and model--governance pairings. Lightweight safeguards can reduce risk in some settings but do not consistently prevent severe failures. These results imply that institutional design is a precondition for safe delegation: before real authority is assigned to LLM agents, systems should undergo stress testing under governance-like constraints with enforceable rules, auditable logs, and human oversight on high-impact actions.",
+    "url": "http://arxiv.org/abs/2603.18894v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18894v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.18866v1",
+    "title": "Conflict-Based Search for Multi Agent Path Finding with Asynchronous Actions",
+    "authors": [
+      "Xuemian Wu",
+      "Shizhe Zhao",
+      "Zhongqiang Ren"
+    ],
+    "abstract": "Multi-Agent Path Finding (MAPF) seeks collision-free paths for multiple agents from their respective start locations to their respective goal locations while minimizing path costs. Most existing MAPF algorithms rely on a common assumption of synchronized actions, where the actions of all agents start at the same time and always take a time unit, which may limit the use of MAPF planners in practice. To get rid of this assumption, Continuous-time Conflict-Based Search (CCBS) is a popular approach that can find optimal solutions for MAPF with asynchronous actions (MAPF-AA). However, CCBS has recently been identified to be incomplete due to an uncountably infinite state space created by continuous wait durations. This paper proposes a new method, Conflict-Based Search with Asynchronous Actions (CBS-AA), which bypasses this theoretical issue and can solve MAPF-AA with completeness and solution optimality guarantees. Based on CBS-AA, we also develop conflict resolution techniques to improve the scalability of CBS-AA further. Our test results show that our method can reduce the number of branches by up to 90%.",
+    "url": "http://arxiv.org/abs/2603.18866v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18866v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.18729v1",
+    "title": "Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures",
+    "authors": [
+      "Martina Ullasci",
+      "Marco Rondina",
+      "Riccardo Coppola",
+      "Flavio Giobergia",
+      "Riccardo Bellanca"
+    ],
+    "abstract": "Many works in the literature show that LLM outputs exhibit discriminatory behaviour, triggering stereotype-based inferences based on the dialect in which the inputs are written. This bias has been shown to be particularly pronounced when the same inputs are provided to LLMs in Standard American English (SAE) and African-American English (AAE). In this paper, we replicate existing analyses of dialect-sensitive stereotype generation in LLM outputs and investigate the effects of mitigation strategies, including prompt engineering (role-based and Chain-Of-Thought prompting) and multi-agent architectures composed of generate-critique-revise models. We define eight prompt templates to analyse different ways in which dialect bias can manifest, such as suggested names, jobs, and adjectives for SAE or AAE speakers. We use an LLM-as-judge approach to evaluate the bias in the results. Our results show that stereotype-bearing differences emerge between SAE- and AAE-related outputs across all template categories, with the strongest effects observed in adjective and job attribution. Baseline disparities vary substantially by model, with the largest SAE-AAE differential observed in Claude Haiku and the smallest in Phi-4 Mini. Chain-Of-Thought prompting proved to be an effective mitigation strategy for Claude Haiku, whereas the use of a multi-agent architecture ensured consistent mitigation across all the models. These findings suggest that for intersectionality-informed software engineering, fairness evaluation should include model-specific validation of mitigation strategies, and workflow-level controls (e.g., agentic architectures involving critique models) in high-impact LLM deployments. The current results are exploratory in nature and limited in scope, but can lead to extensions and replications by increasing the dataset size and applying the procedure to different languages or dialects.",
+    "url": "http://arxiv.org/abs/2603.18729v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18729v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.18683v1",
+    "title": "HISR: Hindsight Information Modulated Segmental Process Rewards For Multi-turn Agentic Reinforcement Learning",
+    "authors": [
+      "Zhicong Lu",
+      "Zichuan Lin",
+      "Wei Jia",
+      "Changyuan Tian",
+      "Deheng Ye"
+    ],
+    "abstract": "While large language models excel in diverse domains, their performance on complex longhorizon agentic decision-making tasks remains limited. Most existing methods concentrate on designing effective reward models (RMs) to advance performance via multi-turn reinforcement learning. However, they suffer from delayed propagation in sparse outcome rewards and unreliable credit assignment with potentially overly fine-grained and unfocused turnlevel process rewards. In this paper, we propose (HISR) exploiting Hindsight Information to modulate Segmental process Rewards, which closely aligns rewards with sub-goals and underscores significant segments to enhance the reliability of credit assignment. Specifically, a segment-level process RM is presented to assign rewards for each sub-goal in the task, avoiding excessively granular allocation to turns. To emphasize significant segments in the trajectory, a hindsight model is devised to reflect the preference of performing a certain action after knowing the trajectory outcome. With this characteristic, we design the ratios of sequence likelihoods between hindsight and policy model to measure action importance. The ratios are subsequently employed to aggregate segment importance scores, which in turn modulate segmental process rewards, enhancing credit assignment reliability. Extensive experimental results on three publicly benchmarks demonstrate the validity of our method.",
+    "url": "http://arxiv.org/abs/2603.18683v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.18683v1",
+    "published": "2026-03-19",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Systems"
+  }
+]

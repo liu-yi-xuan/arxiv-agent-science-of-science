@@ -21,7 +21,34 @@
 ## 📅 Daily Updates
 
 <!-- DAILY_UPDATES_START -->
-*Updates will appear here automatically.*
+
+### 📅 2026-03-22
+
+**12 new papers found**
+
+#### 🤖 LLM Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SignAgent: Agentic LLMs for Linguistically-Grounded Sign Language Annotation and Dataset Curation](http://arxiv.org/abs/2603.19059v1) | Oliver Cory, Ozge Mercanoglu Sincan, Richard Bowden | This paper introduces SignAgent, a novel agentic framework that utilises Large Language Models (LLMs) for scalable, linguistically-grounded Sign Language (SL) annotation and dataset curation. |
+| [Security awareness in LLM agents: the NDAI zone case](http://arxiv.org/abs/2603.19011v1) | Enrico Bottazzi, Pia Park | NDAI zones let inventor and investor agents negotiate inside a Trusted Execution Environment (TEE) where any disclosed information is deleted if no deal is reached. |
+| [Act While Thinking: Accelerating LLM Agents via Pattern-Aware Speculative Tool Execution](http://arxiv.org/abs/2603.18897v1) | Yifan Sui, Han Zhao, Rui Ma et al. | LLM-powered agents are emerging as a dominant paradigm for autonomous task solving. Unlike standard inference workloads, agents operate in a strictly serial "LLM-tool" loop, where the LLM must wait... |
+| [ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents](http://arxiv.org/abs/2603.18815v1) | Hao Zhang, Mingjie Liu, Shaokun Zhang et al. | Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. |
+| [D-Mem: A Dual-Process Memory System for LLM Agents](http://arxiv.org/abs/2603.18631v1) | Zhixing You, Jiachen Yuan, Jason Cai | Driven by the development of persistent, self-adapting autonomous agents, equipping these systems with high-fidelity memory access for long-horizon reasoning has emerged as a critical requirement. |
+| [RewardFlow: Topology-Aware Reward Propagation on State Graphs for Agentic RL with Large Language Models](http://arxiv.org/abs/2603.18859v1) | Xiao Feng, Bo Han, Zhanke Zhou et al. | Reinforcement learning (RL) holds significant promise for enhancing the agentic reasoning capabilities of large language models (LLMs) with external environments. |
+| [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](http://arxiv.org/abs/2603.18718v1) | Minhua Lin, Zhiwei Zhang, Hanqing Lu et al. | Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. |
+
+#### 🧠 Multi-Agent Systems
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Meanings and Measurements: Multi-Agent Probabilistic Grounding for Vision-Language Navigation](http://arxiv.org/abs/2603.19166v1) | Swagat Padhan, Lakshya Jain, Bhavya Minesh Shah et al. | Robots collaborating with humans must convert natural language goals into actionable, physically grounded decisions. |
+| [I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems](http://arxiv.org/abs/2603.18894v1) | Vedanta S P, Ponnurangam Kumaraguru | Large language models are increasingly proposed as autonomous agents for high-stakes public workflows, yet we lack systematic evidence about whether they would follow institutional rules when grant... |
+| [Conflict-Based Search for Multi Agent Path Finding with Asynchronous Actions](http://arxiv.org/abs/2603.18866v1) | Xuemian Wu, Shizhe Zhao, Zhongqiang Ren | Multi-Agent Path Finding (MAPF) seeks collision-free paths for multiple agents from their respective start locations to their respective goal locations while minimizing path costs. |
+| [Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures](http://arxiv.org/abs/2603.18729v1) | Martina Ullasci, Marco Rondina, Riccardo Coppola et al. | Many works in the literature show that LLM outputs exhibit discriminatory behaviour, triggering stereotype-based inferences based on the dialect in which the inputs are written. |
+| [HISR: Hindsight Information Modulated Segmental Process Rewards For Multi-turn Agentic Reinforcement Learning](http://arxiv.org/abs/2603.18683v1) | Zhicong Lu, Zichuan Lin, Wei Jia et al. | While large language models excel in diverse domains, their performance on complex longhorizon agentic decision-making tasks remains limited. |
+
+
 <!-- DAILY_UPDATES_END -->
 
 ---
