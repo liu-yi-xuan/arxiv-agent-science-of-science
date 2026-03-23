@@ -22,6 +22,26 @@
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-23
+
+**6 new papers found**
+
+#### 🤖 LLM Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](http://arxiv.org/abs/2603.19935v1) | Luiz C. Borro, Luiz A. B. Macarini, Gordon Tindall et al. | As large language models (LLMs) evolve into autonomous agents, persistent memory at the API layer is essential for enabling context-aware behavior across LLMs and multi-session interactions. |
+| [DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations](http://arxiv.org/abs/2603.19909v1) | Boxun Song, Min Gao, Jiawei Cheng | Group recommendation systems play a pivotal role in supporting collective decisions across various contexts, from leisure activities to organizational team-building. |
+| [Utility-Guided Agent Orchestration for Efficient LLM Tool Use](http://arxiv.org/abs/2603.19896v1) | Boyan Liu, Gongming Zhao, Hongli Xu | Tool-using large language model (LLM) agents often face a fundamental tension between answer quality and execution cost. |
+| [AI Agents Can Already Autonomously Perform Experimental High Energy Physics](http://arxiv.org/abs/2603.20179v1) | Eric A. Moreno, Samuel Bright-Thonney, Andrzej Novak et al. | Large language model-based AI agents are now able to autonomously execute substantial portions of a high energy physics (HEP) analysis pipeline with minimal expert-curated input. |
+
+#### 🧠 Multi-Agent Systems
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Agentic Multi-Agent Architecture for Cybersecurity Risk Management](http://arxiv.org/abs/2603.20131v1) | Ravish Gupta, Saket Kumar, Shreeya Sharma et al. | Getting a real cybersecurity risk assessment for a small organization is expensive -- a NIST CSF-aligned engagement runs $15,000 on the low end, takes weeks, and depends on practitioners who are ge... |
+| [Beyond detection: cooperative multi-agent reasoning for rapid onboard EO crisis response](http://arxiv.org/abs/2603.19858v1) | Alejandro D. Mousist, Pedro Delgado de Robles Martín, Raquel Lladró Climent et al. | Rapid identification of hazardous events is essential for next-generation Earth Observation (EO) missions supporting disaster response. |
+
 ### 📅 2026-03-22
 
 **12 new papers found**
@@ -47,8 +67,6 @@
 | [Conflict-Based Search for Multi Agent Path Finding with Asynchronous Actions](http://arxiv.org/abs/2603.18866v1) | Xuemian Wu, Shizhe Zhao, Zhongqiang Ren | Multi-Agent Path Finding (MAPF) seeks collision-free paths for multiple agents from their respective start locations to their respective goal locations while minimizing path costs. |
 | [Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures](http://arxiv.org/abs/2603.18729v1) | Martina Ullasci, Marco Rondina, Riccardo Coppola et al. | Many works in the literature show that LLM outputs exhibit discriminatory behaviour, triggering stereotype-based inferences based on the dialect in which the inputs are written. |
 | [HISR: Hindsight Information Modulated Segmental Process Rewards For Multi-turn Agentic Reinforcement Learning](http://arxiv.org/abs/2603.18683v1) | Zhicong Lu, Zichuan Lin, Wei Jia et al. | While large language models excel in diverse domains, their performance on complex longhorizon agentic decision-making tasks remains limited. |
-
-
 <!-- DAILY_UPDATES_END -->
 
 ---
