@@ -22,6 +22,58 @@
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-24
+
+**28 new papers found**
+
+#### 🤖 LLM Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Chimera: Latency- and Performance-Aware Multi-agent Serving for Heterogeneous LLMs](http://arxiv.org/abs/2603.22206v1) | Kangqi Ni, Wenyue Hua, Xiaoxiang Shi et al. | Multi-agent applications often execute complex tasks as multi-stage workflows, where each stage is an LLM call whose output becomes part of context for subsequent steps. |
+| [AdaRubric: Task-Adaptive Rubrics for LLM Agent Evaluation](http://arxiv.org/abs/2603.21362v1) | Liang Ding | LLM-as-Judge evaluation fails agent tasks because a fixed rubric cannot capture what matters for this task: code debugging demands Correctness and Error Handling; web navigation demands Goal Alignm... |
+| [AgentHER: Hindsight Experience Replay for LLM Agent Trajectory Relabeling](http://arxiv.org/abs/2603.21357v1) | Liang Ding | LLM agents fail on the majority of real-world tasks -- GPT-4o succeeds on fewer than 15% of WebArena navigation tasks and below 55% pass@1 on ToolBench (Zhou et al., 2024; Qin et al., 2024) -- yet ... |
+| [WirelessBench: A Tolerance-Aware LLM Agent Benchmark for Wireless Network Intelligence](http://arxiv.org/abs/2603.21251v1) | Jingwen Tong, Fang Liu, Linkai Xv et al. | LLM agents are emerging as a key enabler for autonomous wireless network management. Reliably deploying them, however, demands benchmarks that reflect real engineering risk. |
+| [DiscoUQ: Structured Disagreement Analysis for Uncertainty Quantification in LLM Agent Ensembles](http://arxiv.org/abs/2603.20975v1) | Bo Jiang | Multi-agent LLM systems, where multiple prompted instances of a language model independently answer questions, are increasingly used for complex reasoning tasks. |
+| [Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification](http://arxiv.org/abs/2603.20965v1) | Kemal Kirtac | This paper studies whether a lightweight trained aggregator can combine diverse zero-shot large language model judgments into a stronger downstream signal for corporate disclosure classification. |
+| [User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction](http://arxiv.org/abs/2603.20939v1) | Yuren Hao, Shuhaib Mehri, ChengXiang Zhai et al. | Large language models are increasingly used as personal assistants, yet most lack a persistent user model, forcing users to repeatedly restate preferences across sessions. |
+| [Do LLM-Driven Agents Exhibit Engagement Mechanisms? Controlled Tests of Information Load, Descriptive Norms, and Popularity Cues](http://arxiv.org/abs/2603.20911v1) | Tai-Quan Peng, Yuan Tian, Songsong Liang et al. | Large language models make agent-based simulation more behaviorally expressive, but they also sharpen a basic methodological tension: fluent, human-like output is not, by itself, evidence for theory. |
+| [MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management](http://arxiv.org/abs/2603.22179v1) | Jack W O'Sullivan, Mohammad Asadi, Lennart Elbe et al. | Cardiovascular disease remains the leading cause of global mortality, with progress hindered by human interpretation of complex cardiac tests. |
+| [Deliberative multi-agent large language models improve clinical reasoning in ophthalmology](http://arxiv.org/abs/2603.21447v1) | Ehsan Misaghi, Sean T Berkowitz, Bing Yu Chen et al. | Large language models (LLMs) show potential for ophthalmic clinical reasoning, yet individual models risk introducing harm. |
+| [Reasoning Provenance for Autonomous AI Agents: Structured Behavioral Analytics Beyond State Checkpoints and Execution Traces](http://arxiv.org/abs/2603.21692v1) | Neelmani Vispute | As AI agents transition from human-supervised copilots to autonomous platform infrastructure, the ability to analyze their reasoning behavior across populations of investigations becomes a pressing... |
+| [TRACE: A Multi-Agent System for Autonomous Physical Reasoning in Seismological Science](http://arxiv.org/abs/2603.21152v1) | Feng Liu, Jian Xu, Xin Cui et al. | Inferring the physical mechanisms that govern earthquake sequences from indirect geophysical observations remains difficult, particularly across tectonically distinct environments where similar sei... |
+| [AutoMOOSE: An Agentic AI for Autonomous Phase-Field Simulation](http://arxiv.org/abs/2603.20986v1) | Sukriti Manna, Henry Chan, Subramanian K. R. S. Sankaranarayanan | Multiphysics simulation frameworks such as MOOSE provide rigorous engines for phase-field materials modeling, yet adoption is constrained by the expertise required to construct valid input files, c... |
+| [Before the Tool Call: Deterministic Pre-Action Authorization for Autonomous AI Agents](http://arxiv.org/abs/2603.20953v1) | Uchi Uchibeke | AI agents today have passwords but no permission slips. They execute tool calls (fund transfers, database queries, shell commands, sub-agent delegation) with no standard mechanism to enforce author... |
+| [Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation](http://arxiv.org/abs/2603.21522v1) | Lingzhe Zhang, Tong Jia, Mingyu Wang et al. | Large Language Models (LLM)-based Multi-Agent Systems (MASs) have emerged as a new paradigm in software system design, increasingly demonstrating strong reasoning and collaboration capabilities. |
+| [The Library Theorem: How External Organization Governs Agentic Reasoning Capacity](http://arxiv.org/abs/2603.21272v1) | Zachary F. Mainen | Externalized reasoning is already exploited by transformer-based agents through chain-of-thought, but structured retrieval -- indexing over one's own reasoning state -- remains underexplored. |
+| [LongCat-Flash-Prover: Advancing Native Formal Reasoning via Agentic Tool-Integrated Reinforcement Learning](http://arxiv.org/abs/2603.21065v1) | Jianing Wang, Jianfei Zhang, Qi Guo et al. | We introduce LongCat-Flash-Prover, a flagship 560-billion-parameter open-source Mixture-of- Experts (MoE) model that advances Native Formal Reasoning in Lean4 through agentic tool-integrated reason... |
+
+#### 🧠 Multi-Agent Systems
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Partial Attention in Deep Reinforcement Learning for Safe Multi-Agent Control](http://arxiv.org/abs/2603.21810v1) | Turki Bin Mohaya, Peter Seiler | Attention mechanisms excel at learning sequential patterns by discriminating data based on relevance and importance. |
+| [Can a Robot Walk the Robotic Dog: Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems](http://arxiv.org/abs/2603.21723v1) | Yaxuan Wang, Yifan Xiang, Ke Li et al. | We present Triple Zero Path Planning (TZPP), a collaborative framework for heterogeneous multi-robot systems that requires zero training, zero prior knowledge, and zero simulation. |
+| [MIND: Multi-agent inference for negotiation dialogue in travel planning](http://arxiv.org/abs/2603.21696v1) | Hunmin Do, Taejun Yoon, Kiyong Jung | While Multi-Agent Debate (MAD) research has advanced, its efficacy in coordinating complex stakeholder interests such as travel planning remains largely unexplored. |
+| [Strategic Infrastructure Design via Multi-Agent Congestion Games with Joint Placement and Pricing](http://arxiv.org/abs/2603.21691v1) | Niloofar Aminikalibar, Farzaneh Farhadi, Maria Chli | Real-world infrastructure planning increasingly involves strategic interactions among autonomous agents competing over congestible, limited resources. |
+| [Optimizing Multi-Agent Weather Captioning via Text Gradient Descent: A Training-Free Approach with Consensus-Aware Gradient Fusion](http://arxiv.org/abs/2603.21673v1) | Shixu Liu | Generating interpretable natural language captions from weather time series data remains a significant challenge at the intersection of meteorological science and natural language processing. |
+| [Spatio-Temporal Attention Enhanced Multi-Agent DRL for UAV-Assisted Wireless Networks with Limited Communications](http://arxiv.org/abs/2603.21594v1) | Che Chen, Lanhua Li, Shimin Gong et al. | In this paper, we employ multiple UAVs to accelerate data transmissions from ground users (GUs) to a remote base station (BS) via the UAVs' relay communications. |
+| [Adaptive Robust Estimator for Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2603.21574v1) | Zhongyi Li, Wan Tian, Jingyu Chen et al. | Multi-agent collaboration has emerged as a powerful paradigm for enhancing the reasoning capabilities of large language models, yet it suffers from interaction-level ambiguity that blurs generation... |
+| [Counterfactual Credit Policy Optimization for Multi-Agent Collaboration](http://arxiv.org/abs/2603.21563v1) | Zhongyi Li, Wan Tian, Yikun Ban et al. | Collaborative multi-agent large language models (LLMs) can solve complex reasoning tasks by decomposing roles and aggregating diverse hypotheses. |
+| [Agentic Automation of BT-RADS Scoring: End-to-End Multi-Agent System for Standardized Brain Tumor Follow-up Assessment](http://arxiv.org/abs/2603.21494v1) | Mohamed Sobhi Jabal, Jikai Zhang, Dominic LaBella et al. | The Brain Tumor Reporting and Data System (BT-RADS) standardizes post-treatment MRI response assessment in patients with diffuse gliomas but requires complex integration of imaging trends, medicati... |
+
+#### 🔬 Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Can we automatize scientific discovery in the cognitive sciences?](http://arxiv.org/abs/2603.20988v1) | Akshay K. Jagadish, Milena Rmus, Kristin Witte et al. | The cognitive sciences aim to understand intelligence by formalizing underlying operations as computational models. |
+
+#### 🛠️ Agent Frameworks & Benchmarks
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Context Engineering Framework for Improving Enterprise AI Agents based on Digital-Twin MDP](http://arxiv.org/abs/2603.22083v1) | Xi Yang, Aurelie Lozano, Naoki Abe et al. | Despite rapid progress in AI agents for enterprise automation and decision-making, their real-world deployment and further performance gains remain constrained by limited data quality and quantity,... |
+
 ### 📅 2026-03-23
 
 **6 new papers found**

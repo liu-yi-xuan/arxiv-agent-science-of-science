@@ -1,0 +1,550 @@
+[
+  {
+    "id": "2603.22206v1",
+    "title": "Chimera: Latency- and Performance-Aware Multi-agent Serving for Heterogeneous LLMs",
+    "authors": [
+      "Kangqi Ni",
+      "Wenyue Hua",
+      "Xiaoxiang Shi",
+      "Jiang Guo",
+      "Shiyu Chang"
+    ],
+    "abstract": "Multi-agent applications often execute complex tasks as multi-stage workflows, where each stage is an LLM call whose output becomes part of context for subsequent steps. Existing LLM serving systems largely assume homogeneous clusters with identical model replicas. This design overlooks the potential of heterogeneous deployments, where models of different sizes and capabilities enable finer trade-offs between latency and performance. However, heterogeneity introduces new challenges in scheduling across models with diverse throughput and performance. We present Chimera, a predictive scheduling system for multi-agent workflow serving on heterogeneous LLM clusters that jointly improves end-to-end latency and task performance. Chimera applies semantic routing to estimate per-model confidence scores for each request, predicts the total remaining output length of the workflow, and estimates per-model congestion using in-flight predicted token volumes for load balancing. We evaluate Chimera on representative agentic workflows for code generation and math reasoning using multiple heterogeneous LLM configurations. Across comparable settings, Chimera traces the best latency-performance frontier, reducing end-to-end latency by 1.2--2.4$\\times$ and improving task performance by 8.0-9.5 percentage points on average over competitive baselines including vLLM.",
+    "url": "http://arxiv.org/abs/2603.22206v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22206v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21362v1",
+    "title": "AdaRubric: Task-Adaptive Rubrics for LLM Agent Evaluation",
+    "authors": [
+      "Liang Ding"
+    ],
+    "abstract": "LLM-as-Judge evaluation fails agent tasks because a fixed rubric cannot capture what matters for this task: code debugging demands Correctness and Error Handling; web navigation demands Goal Alignment and Action Efficiency. We present ADARUBRIC, which closes this gap by generating task-specific evaluation rubrics on the fly from task descriptions, scoring trajectories step-by-step with confidence-weighted per-dimension feedback, and filtering preference pairs with the novel DimensionAwareFilter - a provably necessary condition for preventing high-scoring dimensions from masking dimension-level failures. On WebArena and ToolBench, ADARUBRIC achieves Pearson r=0.79 human correlation (+0.16 over the best static baseline) with deployment-grade reliability (Krippendorff's $α$=0.83). DPO agents trained on ADARUBRIC preference pairs gain +6.8 to +8.5 pp task success over Prometheus across three benchmarks; gains transfer to SWE-bench code repair (+4.9 pp) and accelerate PPO convergence by +6.6 pp at 5K steps - both without any rubric engineering. Code: https://github.com/alphadl/AdaRubrics.",
+    "url": "http://arxiv.org/abs/2603.21362v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21362v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21357v1",
+    "title": "AgentHER: Hindsight Experience Replay for LLM Agent Trajectory Relabeling",
+    "authors": [
+      "Liang Ding"
+    ],
+    "abstract": "LLM agents fail on the majority of real-world tasks -- GPT-4o succeeds on fewer than 15% of WebArena navigation tasks and below 55% pass@1 on ToolBench (Zhou et al., 2024; Qin et al., 2024) -- yet every failed trajectory is routinely discarded, wasting the dominant source of collected experience. We introduce AgentHER, a framework that recovers this lost training signal by adapting the Hindsight Experience Replay (HER; Andrychowicz et al., 2017) principle to natural-language agent trajectories for offline data augmentation. The key insight is simple: a trajectory that fails goal A is often a correct demonstration for some achievable alternative goal B. AgentHER realises this idea through a four-stage pipeline -- failure classification, outcome extraction, LLM-guided prompt relabeling with confidence gating, and data packaging -- that converts discarded failures into high-quality SFT, DPO, and ShareGPT training data, with both zero-cost rule-based and LLM-judge implementations. On WebArena (Zhou et al., 2024) and ToolBench (Qin et al., 2024), AgentHER improves over success-only SFT by +7.1-11.7 pp across four model families (GPT-4o, Qwen2.5-72B/7B, LLaMA-3.1-8B), while achieving 2x data efficiency -- matching baseline performance with only 50% of successful demonstrations. Gains are consistent from 1.5B to 72B parameters (+5.8-9.2 pp) and compound under iterative redeployment (+2.1 pp over additional rounds). Human evaluation confirms 97.7% relabeling precision under multi-judge verification.",
+    "url": "http://arxiv.org/abs/2603.21357v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21357v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21251v1",
+    "title": "WirelessBench: A Tolerance-Aware LLM Agent Benchmark for Wireless Network Intelligence",
+    "authors": [
+      "Jingwen Tong",
+      "Fang Liu",
+      "Linkai Xv",
+      "Shiliang Lu",
+      "Kangqi Li"
+    ],
+    "abstract": "LLM agents are emerging as a key enabler for autonomous wireless network management. Reliably deploying them, however, demands benchmarks that reflect real engineering risk. Existing wireless benchmarks evaluate single isolated capabilities and treat all errors uniformly, missing both cascaded-chain failures and catastrophic unit confusions (\\textit{e.g.}, dB vs.\\ dBm). We present \\wb{}, the first tolerance-aware, tool-integrated benchmark for LLM-based wireless agents. \\wb{} is organized as a three-tier cognitive hierarchy: domain knowledge reasoning (WCHW, 1{,}392 items), intent-driven resource allocation (WCNS, 1{,}000 items), and proactive multi-step decisions under mobility (WCMSA, 1{,}000 items). Moreover, \\wb{} is established on three design principles: \\emph{(i)}~tolerance-aware scoring with catastrophic-error detection; \\emph{(ii)}~tool-necessary tasks requiring a 3GPP-compliant ray-tracing query for channel quality; and \\emph{(iii)}~Chain-of-Thought (CoT)-traceable items, where every benchmark item ships with a complete CoT trajectory enabling fine-grained diagnosis of where in the reasoning chain an agent fails. Our numerical results show that the direct-prompting model (GPT-4o) scores $68\\%$, trailing a tool-integrated agent ($84.64\\%$) by $16.64$\\,pp; $23\\%$ of errors are catastrophic failures invisible to exact-match metrics. More importantly, the hierarchy decomposes errors into four actionable diagnostic categories that flat evaluation cannot reveal. Code and data: https://wirelessbench.github.io/.",
+    "url": "http://arxiv.org/abs/2603.21251v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21251v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.NI",
+      "eess.SP"
+    ],
+    "primary_category": "cs.NI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20975v1",
+    "title": "DiscoUQ: Structured Disagreement Analysis for Uncertainty Quantification in LLM Agent Ensembles",
+    "authors": [
+      "Bo Jiang"
+    ],
+    "abstract": "Multi-agent LLM systems, where multiple prompted instances of a language model independently answer questions, are increasingly used for complex reasoning tasks. However, existing methods for quantifying the uncertainty of their collective outputs rely on shallow voting statistics that discard the rich semantic information in agents' reasoning. We introduce DiscoUQ, a framework that extracts and leverages the structure of inter-agent disagreement -- both linguistic properties (evidence overlap, argument strength, divergence depth) and embedding geometry (cluster distances, dispersion, cohesion) -- to produce well-calibrated confidence estimates. We propose three methods of increasing complexity: DiscoUQ-LLM (logistic regression on LLM-extracted structure features), DiscoUQ-Embed (logistic regression on embedding geometry), and DiscoUQ-Learn (a neural network combining all features). Evaluated on four diverse benchmarks (StrategyQA, MMLU, TruthfulQA, ARC-Challenge) with a 5-agent system using Qwen3.5-27B, DiscoUQ-LLM achieves an average AUROC of 0.802, outperforming the best baseline (LLM Aggregator, 0.791) while being substantially better calibrated (ECE 0.036 vs. 0.098). The learned features generalize across benchmarks with near-zero performance degradation and provide the largest improvements where they are most needed: in the ambiguous \"weak disagreement\" tier where simple vote counting fails.",
+    "url": "http://arxiv.org/abs/2603.20975v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20975v1",
+    "published": "2026-03-21",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20965v1",
+    "title": "Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification",
+    "authors": [
+      "Kemal Kirtac"
+    ],
+    "abstract": "This paper studies whether a lightweight trained aggregator can combine diverse zero-shot large language model judgments into a stronger downstream signal for corporate disclosure classification. Zero-shot LLMs can read disclosures without task-specific fine-tuning, but their predictions often vary across prompts, reasoning styles, and model families. I address this problem with a multi-agent framework in which three zero-shot agents independently read each disclosure and output a sentiment label, a confidence score, and a short rationale. A logistic meta-classifier then aggregates these signals to predict next-day stock return direction. I use a sample of 18,420 U.S. corporate disclosures issued by Nasdaq and S&P 500 firms between 2018 and 2024, matched to next-day stock returns. Results show that the trained aggregator outperforms all single agents, majority vote, confidence-weighted voting, and a FinBERT baseline. Balanced accuracy rises from 0.561 for the best single agent to 0.612 for the trained aggregator, with the largest gains in disclosures combining strong current performance with weak guidance or elevated risk. The results suggest that zero-shot LLM agents capture complementary financial signals and that supervised aggregation can turn cross-agent disagreement into a more useful classification target.",
+    "url": "http://arxiv.org/abs/2603.20965v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20965v1",
+    "published": "2026-03-21",
+    "categories": [
+      "q-fin.TR",
+      "cs.AI",
+      "cs.MA",
+      "q-fin.CP",
+      "q-fin.ST"
+    ],
+    "primary_category": "q-fin.TR",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20939v1",
+    "title": "User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction",
+    "authors": [
+      "Yuren Hao",
+      "Shuhaib Mehri",
+      "ChengXiang Zhai",
+      "Dilek Hakkani-Tür"
+    ],
+    "abstract": "Large language models are increasingly used as personal assistants, yet most lack a persistent user model, forcing users to repeatedly restate preferences across sessions. We propose Vector-Adapted Retrieval Scoring (VARS), a pipeline-agnostic, frozen-backbone framework that represents each user with long-term and short-term vectors in a shared preference space and uses these vectors to bias retrieval scoring over structured preference memory. The vectors are updated online from weak scalar rewards from users' feedback, enabling personalization without per-user fine-tuning. We evaluate on \\textsc{MultiSessionCollab}, an online multi-session collaboration benchmark with rich user preference profiles, across math and code tasks. Under frozen backbones, the main benefit of user-aware retrieval is improved interaction efficiency rather than large gains in raw task accuracy: our full VARS agent achieves the strongest overall performance, matches a strong Reflection baseline in task success, and reduces timeout rate and user effort. The learned long-term vectors also align with cross-user preference overlap, while short-term vectors capture session-specific adaptation, supporting the interpretability of the dual-vector design. Code, model, and data are available at https://github.com/YurenHao0426/VARS.",
+    "url": "http://arxiv.org/abs/2603.20939v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20939v1",
+    "published": "2026-03-21",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.HC",
+      "cs.IR",
+      "stat.ML"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20911v1",
+    "title": "Do LLM-Driven Agents Exhibit Engagement Mechanisms? Controlled Tests of Information Load, Descriptive Norms, and Popularity Cues",
+    "authors": [
+      "Tai-Quan Peng",
+      "Yuan Tian",
+      "Songsong Liang",
+      "Dazhen Deng",
+      "Yingcai Wu"
+    ],
+    "abstract": "Large language models make agent-based simulation more behaviorally expressive, but they also sharpen a basic methodological tension: fluent, human-like output is not, by itself, evidence for theory. We evaluate what an LLM-driven simulation can credibly support using information engagement on social media as a test case. In a Weibo-like environment, we manipulate information load and descriptive norms, while allowing popularity cues (cumulative likes and Sina Weibo-style cumulative reshares) to evolve endogenously. We then ask whether simulated behavior changes in theoretically interpretable ways under these controlled variations, rather than merely producing plausible-looking traces. Engagement responds systematically to information load and descriptive norms, and sensitivity to popularity cues varies across contexts, indicating conditionality rather than rigid prompt compliance. We discuss methodological implications for simulation-based communication research, including multi-condition stress tests, explicit no-norm baselines because default prompts are not blank controls, and design choices that preserve endogenous feedback loops when studying bandwagon dynamics.",
+    "url": "http://arxiv.org/abs/2603.20911v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20911v1",
+    "published": "2026-03-21",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.22179v1",
+    "title": "MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management",
+    "authors": [
+      "Jack W O'Sullivan",
+      "Mohammad Asadi",
+      "Lennart Elbe",
+      "Akshay Chaudhari",
+      "Tahoura Nedaee"
+    ],
+    "abstract": "Cardiovascular disease remains the leading cause of global mortality, with progress hindered by human interpretation of complex cardiac tests. Current AI vision-language models are limited to single-modality inputs and are non-interactive. We present MARCUS (Multimodal Autonomous Reasoning and Chat for Ultrasound and Signals), an agentic vision-language system for end-to-end interpretation of electrocardiograms (ECGs), echocardiograms, and cardiac magnetic resonance imaging (CMR) independently and as multimodal input. MARCUS employs a hierarchical agentic architecture comprising modality-specific vision-language expert models, each integrating domain-trained visual encoders with multi-stage language model optimization, coordinated by a multimodal orchestrator. Trained on 13.5 million images (0.25M ECGs, 1.3M echocardiogram images, 12M CMR images) and our novel expert-curated dataset spanning 1.6 million questions, MARCUS achieves state-of-the-art performance surpassing frontier models (GPT-5 Thinking, Gemini 2.5 Pro Deep Think). Across internal (Stanford) and external (UCSF) test cohorts, MARCUS achieves accuracies of 87-91% for ECG, 67-86% for echocardiography, and 85-88% for CMR, outperforming frontier models by 34-45% (P<0.001). On multimodal cases, MARCUS achieved 70% accuracy, nearly triple that of frontier models (22-28%), with 1.7-3.0x higher free-text quality scores. Our agentic architecture also confers resistance to mirage reasoning, whereby vision-language models derive reasoning from unintended textual signals or hallucinated visual content. MARCUS demonstrates that domain-specific visual encoders with an agentic orchestrator enable multimodal cardiac interpretation. We release our models, code, and benchmark open-source.",
+    "url": "http://arxiv.org/abs/2603.22179v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22179v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21447v1",
+    "title": "Deliberative multi-agent large language models improve clinical reasoning in ophthalmology",
+    "authors": [
+      "Ehsan Misaghi",
+      "Sean T Berkowitz",
+      "Bing Yu Chen",
+      "Qingyu Chen",
+      "Renaud Duval"
+    ],
+    "abstract": "Large language models (LLMs) show potential for ophthalmic clinical reasoning, yet individual models risk introducing harm. We evaluated whether multi-agent LLM deliberative councils improve diagnostic performance and mitigate harm compared to individual LLMs. In a comparative cross-sectional study, we assessed 12 individual LLMs and three multi-agent councils on 100 ophthalmology clinical vignettes. Each council comprised four models assembled by type: proprietary flagship, proprietary fast, and open-source. Models independently answered a vignette, anonymously ranked one another's responses, and a designated chair synthesized all responses and peer reviews into a final answer. Councils consistently outperformed pooled individual models across all three tiers. Accuracy improved for proprietary flagship (95.0% vs 90.8%; risk difference [RD]: 4.25 [95% CI: 0.45, 8.05]), proprietary fast (96.0% vs 86.5%; RD: 9.50 [5.31, 13.59]), and open-source councils (91.0% vs 83.2%; RD: 7.75 [4.17, 11.33]). Harm rates declined for proprietary flagship (10.0% vs 22.5%; RD: -12.50 [-16.86, -8.14]), proprietary fast (16.0% vs 31.8%; RD: -15.75 [-21.49, -10.01]), and open-source councils (22.0% vs 38.5%; RD: -16.50 [-22.27, -10.73]). Coverage analysis revealed net positive gains for accuracy (ΔCoverage: 4.4-9.8 percentage points) and safety (ΔCoverage: 13.6-20.6), indicating councils recovered correct diagnoses and averted harm. Councils elevated correct diagnoses to higher rank positions; and produced more complete differentials and management plans (all P<.05). Harmful council responses showed reduced combined commission-and-omission errors and tended to be less severe. Structured deliberation via multi-agent LLM councils may enhance the reliability of LLM-assisted ophthalmic clinical reasoning.",
+    "url": "http://arxiv.org/abs/2603.21447v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21447v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.CY"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21692v1",
+    "title": "Reasoning Provenance for Autonomous AI Agents: Structured Behavioral Analytics Beyond State Checkpoints and Execution Traces",
+    "authors": [
+      "Neelmani Vispute"
+    ],
+    "abstract": "As AI agents transition from human-supervised copilots to autonomous platform infrastructure, the ability to analyze their reasoning behavior across populations of investigations becomes a pressing infrastructure requirement. Existing operational tooling addresses adjacent needs effectively: state checkpoint systems enable fault tolerance; observability platforms provide execution traces for debugging; telemetry standards ensure interoperability. What current systems do not natively provide as a first-class, schema-level primitive is structured reasoning provenance -- normalized, queryable records of why the agent chose each action, what it concluded from each observation, how each conclusion shaped its strategy, and which evidence supports its final verdict. This paper introduces the Agent Execution Record (AER), a structured reasoning provenance primitive that captures intent, observation, and inference as first-class queryable fields on every step, alongside versioned plans with revision rationale, evidence chains, structured verdicts with confidence scores, and delegation authority chains. We formalize the distinction between computational state persistence and reasoning provenance, argue that the latter cannot in general be faithfully reconstructed from the former, and show how AERs enable population-level behavioral analytics: reasoning pattern mining, confidence calibration, cross-agent comparison, and counterfactual regression testing via mock replay. We present a domain-agnostic model with extensible domain profiles, a reference implementation and SDK, and outline an evaluation methodology informed by preliminary deployment on a production platformized root cause analysis agent.",
+    "url": "http://arxiv.org/abs/2603.21692v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21692v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI",
+      "cs.DC",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21152v1",
+    "title": "TRACE: A Multi-Agent System for Autonomous Physical Reasoning in Seismological Science",
+    "authors": [
+      "Feng Liu",
+      "Jian Xu",
+      "Xin Cui",
+      "Xinghao Wang",
+      "Zijie Guo"
+    ],
+    "abstract": "Inferring the physical mechanisms that govern earthquake sequences from indirect geophysical observations remains difficult, particularly across tectonically distinct environments where similar seismic patterns can reflect different underlying processes. Current interpretations rely heavily on the expert synthesis of catalogs, spatiotemporal statistics, and candidate physical models, limiting reproducibility and the systematic transfer of insight across settings. Here we present TRACE (Trans-perspective Reasoning and Automated Comprehensive Evaluator), a multi-agent system that combines large language model planning with formal seismological constraints to derive auditable, physically grounded mechanistic inference from raw observations. Applied to the 2019 Ridgecrest sequence, TRACE autonomously identifies stress-perturbation-induced delayed triggering, resolving the cascading interaction between the Mw 6.4 and Mw 7.1 mainshocks; in the Santorini-Kolumbo case, the system identifies a structurally guided intrusion model, distinguishing fault-channeled episodic migration from the continuous propagation expected in homogeneous crustal failure. By providing a generalizable logical infrastructure for interpreting heterogeneous seismic phenomena, TRACE advances the field from expert-dependent analysis toward knowledge-guided autonomous discovery in Earth sciences.",
+    "url": "http://arxiv.org/abs/2603.21152v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21152v1",
+    "published": "2026-03-22",
+    "categories": [
+      "physics.geo-ph",
+      "cs.AI"
+    ],
+    "primary_category": "physics.geo-ph",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20986v1",
+    "title": "AutoMOOSE: An Agentic AI for Autonomous Phase-Field Simulation",
+    "authors": [
+      "Sukriti Manna",
+      "Henry Chan",
+      "Subramanian K. R. S. Sankaranarayanan"
+    ],
+    "abstract": "Multiphysics simulation frameworks such as MOOSE provide rigorous engines for phase-field materials modeling, yet adoption is constrained by the expertise required to construct valid input files, coordinate parameter sweeps, diagnose failures, and extract quantitative results. We introduce AutoMOOSE, an open-source agentic framework that orchestrates the full simulation lifecycle from a single natural-language prompt. AutoMOOSE deploys a five-agent pipeline in which the Input Writer coordinates six sub-agents and the Reviewer autonomously corrects runtime failures without user intervention. A modular plugin architecture enables new phase-field formulations without modifying the core framework, and a Model Context Protocol (MCP) server exposes the workflow as ten structured tools for interoperability with any MCP-compatible client. Validated on a four-temperature copper grain growth benchmark, AutoMOOSE generates MOOSE input files with 6 of 12 structural blocks matching a human expert reference exactly and 4 functionally equivalent, executes all runs in parallel with a 1.8x speedup, and performs an end-to-end physical consistency check spanning intent, finite-element execution, and Arrhenius kinetics with no human verification. Grain coarsening kinetics are recovered with R^2 = 0.90-0.95 at T >= 600 K; the recovered activation energy Q_fit = 0.296 eV is consistent with a human-written reference (Q_fit = 0.267 eV) under identical parameters. Three runtime failure classes were diagnosed and resolved autonomously within a single correction cycle, and every run produces a provenance record satisfying FAIR data principles. These results show that the gap between knowing the physics and executing a validated simulation campaign can be bridged by a lightweight multi-agent orchestration layer, providing a pathway toward AI-driven materials discovery and self-driving laboratories.",
+    "url": "http://arxiv.org/abs/2603.20986v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20986v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mes-hall"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20953v1",
+    "title": "Before the Tool Call: Deterministic Pre-Action Authorization for Autonomous AI Agents",
+    "authors": [
+      "Uchi Uchibeke"
+    ],
+    "abstract": "AI agents today have passwords but no permission slips. They execute tool calls (fund transfers, database queries, shell commands, sub-agent delegation) with no standard mechanism to enforce authorization before the action executes. Current safety architectures rely on model alignment (probabilistic, training-time) and post-hoc evaluation (retrospective, batch). Neither provides deterministic, policy-based enforcement at the individual tool call level.   We characterize this gap as the pre-action authorization problem and present the Open Agent Passport (OAP), an open specification and reference implementation that intercepts tool calls synchronously before execution, evaluates them against a declarative policy, and produces a cryptographically signed audit record. OAP enforces authorization decisions in a measured median of 53 ms (N=1,000). In a live adversarial testbed (4,437 authorization decisions across 1,151 sessions, $5,000 bounty), social engineering succeeded against the model 74.6% of the time under a permissive policy; under a restrictive OAP policy, a comparable population of attackers achieved a 0% success rate across 879 attempts.   We distinguish pre-action authorization from sandboxed execution (contains blast radius but does not prevent unauthorized actions) and model-based screening (probabilistic), and show they are complementary. The same infrastructure that enforces security constraints (spending limits, capability scoping) also enforces quality gates, operational contracts, and compliance controls. The specification is released under Apache 2.0 (DOI: 10.5281/zenodo.18901596).",
+    "url": "http://arxiv.org/abs/2603.20953v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20953v1",
+    "published": "2026-03-21",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21522v1",
+    "title": "Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation",
+    "authors": [
+      "Lingzhe Zhang",
+      "Tong Jia",
+      "Mingyu Wang",
+      "Weijie Hong",
+      "Chiming Duan"
+    ],
+    "abstract": "Large Language Models (LLM)-based Multi-Agent Systems (MASs) have emerged as a new paradigm in software system design, increasingly demonstrating strong reasoning and collaboration capabilities. As these systems become more complex and autonomous, effective failure management is essential to ensure reliability and availability. However, existing approaches often rely on per-trace reasoning, which leads to low efficiency, and neglect historical failure patterns, limiting diagnostic accuracy. In this paper, we conduct a preliminary empirical study to demonstrate the necessity, potential, and challenges of leveraging historical failure patterns to enhance failure management in MASs. Building on this insight, we propose \\textbf{EAGER}, an efficient failure management framework for multi-agent systems based on reasoning trace representation. EAGER employs unsupervised reasoning-scoped contrastive learning to encode both intra-agent reasoning and inter-agent coordination, enabling real-time step-wise failure detection, diagnosis, and reflexive mitigation guided by historical failure knowledge. Preliminary evaluations on three open-source MASs demonstrate the effectiveness of EAGER and highlight promising directions for future research in reliable multi-agent system operations.",
+    "url": "http://arxiv.org/abs/2603.21522v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21522v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21272v1",
+    "title": "The Library Theorem: How External Organization Governs Agentic Reasoning Capacity",
+    "authors": [
+      "Zachary F. Mainen"
+    ],
+    "abstract": "Externalized reasoning is already exploited by transformer-based agents through chain-of-thought, but structured retrieval -- indexing over one's own reasoning state -- remains underexplored. We formalize the transformer context window as an I/O page and prove that tool-augmented agents with indexed external memory achieve exponentially lower retrieval cost than agents restricted to sequential scanning: $O(\\log_b N)$ versus $Ω(N)$ page reads per query, and $O(T \\log_b T)$ versus $Θ(T^2)$ cumulative cost over $T$ reasoning steps -- a gap that widens as deliberation deepens. We test these predictions on a controlled lookup benchmark across three content types -- random hashes, ordered integers, and encyclopedia entries -- varying store size from 50 to 5,000 items, and replicate key conditions across two model generations (GPT-4o-mini and GPT-5.4). On abstract content, the indexed agent achieves median 1 page read regardless of store size, confirming the $O(1)$ prediction. Sorted pages without an index fail to close the gap: the weaker model cannot sustain binary search at scale, and the stronger model achieves near-optimal $\\log_2 N$ search but still loses to the index by $5\\times$. On familiar content (encyclopedia entries), a competing failure mode emerges: the model recognizes the domain, bypasses the retrieval protocol, and generates answers from parametric memory, producing catastrophic token expenditure even when the index is sound. This parametric memory competition dissociates the two cognitive operations that indexing combines: understanding content (where language models excel) and following navigational protocols (where they fail when understanding tempts them to shortcut). The result argues for a separation of concerns: use language models for index construction, where semantic understanding helps, and deterministic algorithms for index traversal, where it hurts.",
+    "url": "http://arxiv.org/abs/2603.21272v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21272v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.DS",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21065v1",
+    "title": "LongCat-Flash-Prover: Advancing Native Formal Reasoning via Agentic Tool-Integrated Reinforcement Learning",
+    "authors": [
+      "Jianing Wang",
+      "Jianfei Zhang",
+      "Qi Guo",
+      "Linsen Guo",
+      "Rumei Li"
+    ],
+    "abstract": "We introduce LongCat-Flash-Prover, a flagship 560-billion-parameter open-source Mixture-of- Experts (MoE) model that advances Native Formal Reasoning in Lean4 through agentic tool-integrated reasoning (TIR). We decompose the native formal reasoning task into three independent formal capabilities, i.e., auto-formalization, sketching, and proving. To facilitate these capabilities, we propose a Hybrid-Experts Iteration Framework to expand high-quality task trajectories, including generating a formal statement based on a given informal problem, producing a whole-proof directly from the statement, or a lemma-style sketch. During agentic RL, we present a Hierarchical Importance Sampling Policy Optimization (HisPO) algorithm, which aims to stabilize the MoE model training on such long-horizon tasks. It employs a gradient masking strategy that accounts for the policy staleness and the inherent train-inference engine discrepancies at both sequence and token levels. Additionally, we also incorporate theorem consistency and legality detection mechanisms to eliminate reward hacking issues. Extensive evaluations show that our LongCat-Flash-Prover sets a new state-of-the-art for open-weights models in both auto-formalization and theorem proving. Demonstrating remarkable sample efficiency, it achieves a 97.1% pass rate on MiniF2F-Test using only 72 inference budget per problem. On more challenging benchmarks, it solves 70.8% of ProverBench and 41.5% of PutnamBench with no more than 220 attempts per problem, significantly outperforming existing open-weights baselines.",
+    "url": "http://arxiv.org/abs/2603.21065v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21065v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.21810v1",
+    "title": "Partial Attention in Deep Reinforcement Learning for Safe Multi-Agent Control",
+    "authors": [
+      "Turki Bin Mohaya",
+      "Peter Seiler"
+    ],
+    "abstract": "Attention mechanisms excel at learning sequential patterns by discriminating data based on relevance and importance. This provides state-of-the-art performance in advanced generative artificial intelligence models. This paper applies this concept of an attention mechanism for multi-agent safe control. We specifically consider the design of a neural network to control autonomous vehicles in a highway merging scenario. The environment is modeled as a Decentralized Partially Observable Markov Decision Process (Dec-POMDP). Within a QMIX framework, we include partial attention for each autonomous vehicle, thus allowing each ego vehicle to focus on the most relevant neighboring vehicles. Moreover, we propose a comprehensive reward signal that considers the global objectives of the environment (e.g., safety and vehicle flow) and the individual interests of each agent. Simulations are conducted in the Simulation of Urban Mobility (SUMO). The results show better performance compared to other driving algorithms in terms of safety, driving speed, and reward.",
+    "url": "http://arxiv.org/abs/2603.21810v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21810v1",
+    "published": "2026-03-23",
+    "categories": [
+      "eess.SY",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "primary_category": "eess.SY",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21723v1",
+    "title": "Can a Robot Walk the Robotic Dog: Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems",
+    "authors": [
+      "Yaxuan Wang",
+      "Yifan Xiang",
+      "Ke Li",
+      "Xun Zhang",
+      "BoWen Ye"
+    ],
+    "abstract": "We present Triple Zero Path Planning (TZPP), a collaborative framework for heterogeneous multi-robot systems that requires zero training, zero prior knowledge, and zero simulation. TZPP employs a coordinator--explorer architecture: a humanoid robot handles task coordination, while a quadruped robot explores and identifies feasible paths using guidance from a multimodal large language model. We implement TZPP on Unitree G1 and Go2 robots and evaluate it across diverse indoor and outdoor environments, including obstacle-rich and landmark-sparse settings. Experiments show that TZPP achieves robust, human-comparable efficiency and strong adaptability to unseen scenarios. By eliminating reliance on training and simulation, TZPP offers a practical path toward real-world deployment of heterogeneous robot cooperation. Our code and video are provided at: https://github.com/triple-zeropp/Triple-zero-robot-agent",
+    "url": "http://arxiv.org/abs/2603.21723v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21723v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21696v1",
+    "title": "MIND: Multi-agent inference for negotiation dialogue in travel planning",
+    "authors": [
+      "Hunmin Do",
+      "Taejun Yoon",
+      "Kiyong Jung"
+    ],
+    "abstract": "While Multi-Agent Debate (MAD) research has advanced, its efficacy in coordinating complex stakeholder interests such as travel planning remains largely unexplored. To bridge this gap, we propose MIND (Multi-agent Inference for Negotiation Dialogue), a framework designed to simulate realistic consensus-building among travelers with heterogeneous preferences. Grounded in the Theory of Mind (ToM), MIND introduces a Strategic Appraisal phase that infers opponent willingness (w) from linguistic nuances with 90.2% accuracy. Experimental results demonstrate that MIND outperforms traditional MAD frameworks, achieving a 20.5% improvement in High-w Hit and a 30.7% increase in Debate Hit-Rate, effectively prioritizing high-stakes constraints. Furthermore, qualitative evaluations via LLM-as-a-Judge confirm that MIND surpasses baselines in Rationality (68.8%) and Fluency (72.4%), securing an overall win rate of 68.3%. These findings validate that MIND effectively models human negotiation dynamics to derive persuasive consensus.",
+    "url": "http://arxiv.org/abs/2603.21696v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21696v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21691v1",
+    "title": "Strategic Infrastructure Design via Multi-Agent Congestion Games with Joint Placement and Pricing",
+    "authors": [
+      "Niloofar Aminikalibar",
+      "Farzaneh Farhadi",
+      "Maria Chli"
+    ],
+    "abstract": "Real-world infrastructure planning increasingly involves strategic interactions among autonomous agents competing over congestible, limited resources. Applications such as Electric Vehicle (EV) charging, emergency response, and intelligent transportation require coordinated resource placement and pricing decisions, while anticipating the adaptive behaviour of decentralised, self-interested agents. We propose a novel multi-agent framework for joint placement and pricing under such interactions, formalised as a bi-level optimisation model. The upper level represents a central planner, while the lower level captures agent responses via coupled non-atomic congestion games. Motivated by the EV charging domain, we study a setting where a central planner provisions chargers and road capacity under budget and profitability constraints. The agent population includes both EV drivers and non-charging drivers (NCDs), who respond to congestion, delays, and costs. To solve the resulting NP-hard problem, we introduce ABO-MPN, a double-layer approximation framework that decouples agent types, applies integer adjustment and rounding, and targets high-impact placement and pricing decisions. Experiments on benchmark networks show that our model reduces social cost by up to 40% compared to placement- or pricing-only baselines, and generalises to other MAS-relevant domains.",
+    "url": "http://arxiv.org/abs/2603.21691v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21691v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.MA"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21673v1",
+    "title": "Optimizing Multi-Agent Weather Captioning via Text Gradient Descent: A Training-Free Approach with Consensus-Aware Gradient Fusion",
+    "authors": [
+      "Shixu Liu"
+    ],
+    "abstract": "Generating interpretable natural language captions from weather time series data remains a significant challenge at the intersection of meteorological science and natural language processing. While recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in time series forecasting and analysis, existing approaches either produce numerical predictions without human-accessible explanations or generate generic descriptions lacking domain-specific depth. We introduce WeatherTGD, a training-free multi-agent framework that reinterprets collaborative caption refinement through the lens of Text Gradient Descent (TGD). Our system deploys three specialized LLM agents including a Statistical Analyst, a Physics Interpreter, and a Meteorology Expert that generate domain-specific textual gradients from weather time series observations. These gradients are aggregated through a novel Consensus-Aware Gradient Fusion mechanism that extracts common signals while preserving unique domain perspectives. The fused gradients then guide an iterative refinement process analogous to gradient descent, where each LLM-generated feedback signal updates the caption toward an optimal solution. Experiments on real-world meteorological datasets demonstrate that WeatherTGD achieves significant improvements in both LLM-based evaluation and human expert evaluation, substantially outperforming existing multi-agent baselines while maintaining computational efficiency through parallel agent execution.",
+    "url": "http://arxiv.org/abs/2603.21673v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21673v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21594v1",
+    "title": "Spatio-Temporal Attention Enhanced Multi-Agent DRL for UAV-Assisted Wireless Networks with Limited Communications",
+    "authors": [
+      "Che Chen",
+      "Lanhua Li",
+      "Shimin Gong",
+      "Yu Zhao",
+      "Yuming Fang"
+    ],
+    "abstract": "In this paper, we employ multiple UAVs to accelerate data transmissions from ground users (GUs) to a remote base station (BS) via the UAVs' relay communications. The UAVs' intermittent information exchanges typically result in delays in acquiring the complete system state and hinder their effective collaboration. To maximize the overall throughput, we first propose a delay-tolerant multi-agent deep reinforcement learning (MADRL) algorithm that integrates a delay-penalized reward to encourage information sharing among UAVs, while jointly optimizing the UAVs' trajectory planning, network formation, and transmission control strategies. Additionally, considering information loss due to unreliable channel conditions, we further propose a spatio-temporal attention based prediction approach to recover the lost information and enhance each UAV's awareness of the network state. These two designs are envisioned to enhance the network capacity in UAV-assisted wireless networks with limited communications. The simulation results reveal that our new approach achieves over 50\\% reduction in information delay and 75% throughput gain compared to the conventional MADRL. Interestingly, it is shown that improving the UAVs' information sharing will not sacrifice the network capacity. Instead, it significantly improves the learning performance and throughput simultaneously. It is also effective in reducing the need for UAVs' information exchange and thus fostering practical deployment of MADRL in UAV-assisted wireless networks.",
+    "url": "http://arxiv.org/abs/2603.21594v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21594v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.IT",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.IT",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21574v1",
+    "title": "Adaptive Robust Estimator for Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Zhongyi Li",
+      "Wan Tian",
+      "Jingyu Chen",
+      "Kangyao Huang",
+      "Huiming Zhang"
+    ],
+    "abstract": "Multi-agent collaboration has emerged as a powerful paradigm for enhancing the reasoning capabilities of large language models, yet it suffers from interaction-level ambiguity that blurs generation, critique, and revision, making credit assignment across agents difficult. Moreover, policy optimization in this setting is vulnerable to heavy-tailed and noisy rewards, which can bias advantage estimation and trigger unstable or even divergent training. To address both issues, we propose a robust multi-agent reinforcement learning framework for collaborative reasoning, consisting of two components: Dual-Agent Answer-Critique-Rewrite (DACR) and an Adaptive Robust Estimator (ARE). DACR decomposes reasoning into a structured three-stage pipeline: answer, critique, and rewrite, while enabling explicit attribution of each agent's marginal contribution to its partner's performance. ARE provides robust estimation of batch experience means during multi-agent policy optimization. Across mathematical reasoning and embodied intelligence benchmarks, even under noisy rewards, our method consistently outperforms the baseline in both homogeneous and heterogeneous settings. These results indicate stronger robustness to reward noise and more stable training dynamics, effectively preventing optimization failures caused by noisy reward signals.",
+    "url": "http://arxiv.org/abs/2603.21574v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21574v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21563v1",
+    "title": "Counterfactual Credit Policy Optimization for Multi-Agent Collaboration",
+    "authors": [
+      "Zhongyi Li",
+      "Wan Tian",
+      "Yikun Ban",
+      "Jinju Chen",
+      "Huiming Zhang"
+    ],
+    "abstract": "Collaborative multi-agent large language models (LLMs) can solve complex reasoning tasks by decomposing roles and aggregating diverse hypotheses. Yet, reinforcement learning (RL) for such systems is often undermined by credit assignment: a shared global reward obscures individual contributions, inflating update variance and encouraging free-riding. We introduce Counterfactual Credit Policy Optimization (CCPO), a framework that assigns agent-specific learning signals by estimating each agent's marginal contribution through counterfactual trajectories. CCPO builds dynamic counterfactual baselines that simulate outcomes with an agent's contribution removed, yielding role-sensitive advantages for policy optimization. To further improve stability under heterogeneous tasks and data distributions, we propose a global-history-aware normalization scheme that calibrates advantages using global rollout statistics. We evaluate CCPO on two collaboration topologies: a sequential Think--Reason dyad and multi-agent voting. Across mathematical and logical reasoning benchmarks, CCPO mitigates free-riding and outperforms strong multi-agent RL baselines, yielding finer-grained and more effective credit assignment for collaborative LLM training. Our code is available at https://github.com/bhai114/ccpo.",
+    "url": "http://arxiv.org/abs/2603.21563v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21563v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.21494v1",
+    "title": "Agentic Automation of BT-RADS Scoring: End-to-End Multi-Agent System for Standardized Brain Tumor Follow-up Assessment",
+    "authors": [
+      "Mohamed Sobhi Jabal",
+      "Jikai Zhang",
+      "Dominic LaBella",
+      "Jessica L. Houk",
+      "Dylan Zhang"
+    ],
+    "abstract": "The Brain Tumor Reporting and Data System (BT-RADS) standardizes post-treatment MRI response assessment in patients with diffuse gliomas but requires complex integration of imaging trends, medication effects, and radiation timing. This study evaluates an end-to-end multi-agent large language model (LLM) and convolutional neural network (CNN) system for automated BT-RADS classification. A multi-agent LLM system combined with automated CNN-based tumor segmentation was retrospectively evaluated on 509 consecutive post-treatment glioma MRI examinations from a single high-volume center. An extractor agent identified clinical variables (steroid status, bevacizumab status, radiation date) from unstructured clinical notes, while a scorer agent applied BT-RADS decision logic integrating extracted variables with volumetric measurements. Expert reference standard classifications were established by an independent board-certified neuroradiologist. Of 509 examinations, 492 met inclusion criteria. The system achieved 374/492 (76.0%; 95% CI, 72.1%-79.6%) accuracy versus 283/492 (57.5%; 95% CI, 53.1%-61.8%) for initial clinical assessments (+18.5 percentage points; P<.001). Context-dependent categories showed high sensitivity (BT-1b 100%, BT-1a 92.7%, BT-3a 87.5%), while threshold-dependent categories showed moderate sensitivity (BT-3c 74.8%, BT-2 69.2%, BT-4 69.3%, BT-3b 57.1%). For BT-4, positive predictive value was 92.9%. The multi-agent LLM system achieved higher BT-RADS classification agreement with expert reference standard compared to initial clinical scoring, with high accuracy for context-dependent scores and high positive predictive value for BT-4 detection.",
+    "url": "http://arxiv.org/abs/2603.21494v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21494v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.20988v1",
+    "title": "Can we automatize scientific discovery in the cognitive sciences?",
+    "authors": [
+      "Akshay K. Jagadish",
+      "Milena Rmus",
+      "Kristin Witte",
+      "Marvin Mathony",
+      "Marcel Binz"
+    ],
+    "abstract": "The cognitive sciences aim to understand intelligence by formalizing underlying operations as computational models. Traditionally, this follows a cycle of discovery where researchers develop paradigms, collect data, and test predefined model classes. However, this manual pipeline is fundamentally constrained by the slow pace of human intervention and a search space limited by researchers' background and intuition. Here, we propose a paradigm shift toward a fully automated, in silico science of the mind that implements every stage of the discovery cycle using Large Language Models (LLMs). In this framework, experimental paradigms exploring conceptually meaningful task structures are directly sampled from an LLM. High-fidelity behavioral data are then simulated using foundation models of cognition. The tedious step of handcrafting cognitive models is replaced by LLM-based program synthesis, which performs a high-throughput search over a vast landscape of algorithmic hypotheses. Finally, the discovery loop is closed by optimizing for ''interestingness'', a metric of conceptual yield evaluated by an LLM-critic. By enabling a fast and scalable approach to theory development, this automated loop functions as a high-throughput in-silico discovery engine, surfacing informative experiments and mechanisms for subsequent validation in real human populations.",
+    "url": "http://arxiv.org/abs/2603.20988v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20988v1",
+    "published": "2026-03-22",
+    "categories": [
+      "cs.AI",
+      "q-bio.NC"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Science of Science"
+  },
+  {
+    "id": "2603.22083v1",
+    "title": "A Context Engineering Framework for Improving Enterprise AI Agents based on Digital-Twin MDP",
+    "authors": [
+      "Xi Yang",
+      "Aurelie Lozano",
+      "Naoki Abe",
+      "Bhavya",
+      "Saurabh Jha"
+    ],
+    "abstract": "Despite rapid progress in AI agents for enterprise automation and decision-making, their real-world deployment and further performance gains remain constrained by limited data quality and quantity, complex real-world reasoning demands, difficulties with self-play, and the lack of reliable feedback signals. To address these challenges, we propose a lightweight, model-agnostic framework for improving LLM-based enterprise agents via offline reinforcement learning (RL). The proposed Context Engineering via DT-MDP (DT-MDP-CE) framework comprises three key components: (1) A Digital-Twin Markov Decision Process (DT-MDP), which abstracts the agent's reasoning behavior as a finite MDP; (2) A robust contrastive inverse RL, which, armed with the DT-MDP, to efficiently estimate a well-founded reward function and induces policies from mixed-quality offline trajectories; and (3) RL-guided context engineering, which uses the policy obtained from the integrated process of (1) and (2), to improve the agent's decision-making behavior. As a case study, we apply the framework to a representative task in the enterprise-oriented domain of IT automation. Extensive experimental results demonstrate consistent and significant improvements over baseline agents across a wide range of evaluation settings, suggesting that the framework can generalize to other agents sharing similar characteristics in enterprise environments.",
+    "url": "http://arxiv.org/abs/2603.22083v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22083v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Agent Frameworks & Benchmarks"
+  }
+]
