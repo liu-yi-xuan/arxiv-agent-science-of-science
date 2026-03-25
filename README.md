@@ -24,6 +24,34 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-25
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AwesomeLit: Towards Hypothesis Generation with Agent-Supported Literature Research](http://arxiv.org/abs/2603.22648v1) | Zefei Xie, Yuhan Guo, Kai Xu | There are different goals for literature research, from understanding an unfamiliar topic to generate hypothesis for the next research project. |
+| [AgentHER: Hindsight Experience Replay for LLM Agent Trajectory Relabeling](http://arxiv.org/abs/2603.21357v1) | Liang Ding | LLM agents fail on the majority of real-world tasks -- GPT-4o succeeds on fewer than 15% of WebArena navigation tasks and below 55% pass@1 on ToolBench (Zhou et al., 2024; Qin et al., 2024) -- yet ... |
+| [AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models alongside LLM-based AI Agents with Cloud Computing Access](http://arxiv.org/abs/2603.22376v1) | Liwei Wu, Cho-Jui Hsieh | Recent advances in AI agents for software engineering and scientific discovery have demonstrated remarkable capabilities, yet their application to developing novel ranking models in commercial sear... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration](http://arxiv.org/abs/2603.22862v1) | Haoyuan Xu, Chang Li, Xinyan Ma et al. | Tool use enables large language models (LLMs) to access external information, invoke software systems, and act in digital environments beyond what can be solved from model parameters alone. |
+| [Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe](http://arxiv.org/abs/2603.21972v1) | Xixi Wu, Qianguo Sun, Ruiyang Zhang et al. | Reinforcement Learning (RL) is essential for evolving Large Language Models (LLMs) into autonomous agents capable of long-horizon planning, yet a practical recipe for scaling RL in complex, multi-t... |
+| [SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning](http://arxiv.org/abs/2603.23483v1) | Haoyu Huang, Jinfa Huang, Zhongwei Wan et al. | Agentic multimodal large language models (MLLMs) (e.g., OpenAI o3 and Gemini Agentic Vision) achieve remarkable reasoning capabilities through iterative visual tool invocation. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation](http://arxiv.org/abs/2603.21522v1) | Lingzhe Zhang, Tong Jia, Mingyu Wang et al. | Large Language Models (LLM)-based Multi-Agent Systems (MASs) have emerged as a new paradigm in software system design, increasingly demonstrating strong reasoning and collaboration capabilities. |
+| [TRACE: A Multi-Agent System for Autonomous Physical Reasoning in Seismological](http://arxiv.org/abs/2603.21152v2) | Feng Liu, Jian Xu, Xin Cui et al. | Inferring the physical mechanisms that govern earthquake sequences from indirect geophysical observations remains difficult, particularly across tectonically distinct environments where similar sei... |
+| [A Multimodal Framework for Human-Multi-Agent Interaction](http://arxiv.org/abs/2603.23271v1) | Shaid Hasan, Breenice Lee, Sujan Sarker et al. | Human-robot interaction is increasingly moving toward multi-robot, socially grounded environments. Existing systems struggle to integrate multimodal perception, embodied expression, and coordinated... |
+
 ### 📅 2026-03-24
 
 **28 new papers found**
