@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Daily ArXiv Paper Fetcher for Agent & Science of Science research.
+Daily ArXiv Paper Fetcher — AI Agents x Science of Science.
 
-Searches ArXiv for recent papers, classifies them, generates TLDRs,
-and updates the README.md automatically.
+Searches ArXiv for recent papers at the intersection of AI agents and
+the scientific research process. Classifies, generates TLDRs, and
+auto-updates the README.md.
 """
 
 import arxiv
@@ -16,49 +17,74 @@ from pathlib import Path
 # ── Configuration ──────────────────────────────────────────────────────────────
 
 QUERIES = {
-    "LLM Agents": [
-        "ti:LLM AND ti:agent",
-        "ti:language AND ti:model AND ti:agent",
-        "ti:autonomous AND ti:agent AND cat:cs.AI",
-        "ti:tool AND ti:use AND ti:LLM",
-        "ti:agent AND ti:planning AND cat:cs.CL",
-        "ti:agent AND ti:reasoning AND cat:cs.AI",
+    "AI Agents for Scientific Discovery": [
+        # Agents doing science — hypothesis, experiments, labs
+        "ti:agent AND ti:scientific AND ti:discovery",
+        "ti:LLM AND ti:scientific AND ti:discovery",
+        "ti:agent AND ti:hypothesis AND cat:cs.AI",
+        "ti:agent AND ti:experiment AND cat:cs.AI",
+        "ti:AI AND ti:scientist",
+        "ti:agent AND ti:drug AND ti:discovery",
+        "ti:agent AND ti:chemistry AND cat:cs.AI",
+        "ti:agent AND ti:mathematics AND ti:reasoning",
+        "ti:autonomous AND ti:research AND cat:cs.AI",
+        "ti:LLM AND ti:laboratory",
     ],
-    "Multi-Agent Systems": [
-        "ti:multi-agent AND (cat:cs.AI OR cat:cs.CL OR cat:cs.MA)",
-        "ti:cooperative AND ti:agent",
-        "ti:agent AND ti:collaboration AND cat:cs.AI",
+    "Research Workflow Agents": [
+        # Agents for literature review, writing, peer review, knowledge extraction
+        "ti:agent AND ti:literature AND ti:review",
+        "ti:agent AND ti:research AND ti:idea",
+        "ti:LLM AND ti:peer AND ti:review",
+        "ti:agent AND ti:paper AND ti:writing",
+        "ti:LLM AND ti:knowledge AND ti:extraction AND cat:cs.CL",
+        "ti:agent AND ti:summarization AND ti:scientific",
+        "ti:LLM AND ti:survey AND ti:generation",
+        "ti:agent AND ti:tool AND ti:use AND cat:cs.CL",
+        "ti:LLM AND ti:agent AND ti:planning",
+        "ti:autonomous AND ti:agent AND cat:cs.CL",
+    ],
+    "Multi-Agent Scientific Collaboration": [
+        # Multi-agent systems for research teams, debate, collaborative discovery
+        "ti:multi-agent AND ti:scientific",
+        "ti:multi-agent AND ti:research",
+        "ti:agent AND ti:debate AND cat:cs.AI",
+        "ti:agent AND ti:collaboration AND ti:scientific",
+        "ti:multi-agent AND cat:cs.AI AND ti:reasoning",
+        "ti:generative AND ti:agent AND ti:simulation",
+        "ti:multi-agent AND ti:framework AND cat:cs.AI",
         "ti:agent AND ti:communication AND cat:cs.CL",
     ],
-    "Science of Science": [
+    "Computational Science of Science": [
+        # Citation dynamics, research trends, scientometrics, knowledge diffusion
         "ti:science AND ti:science AND cat:cs.DL",
         "ti:scientometrics",
-        "ti:meta-research",
         "ti:citation AND ti:analysis AND cat:cs.DL",
         "ti:research AND ti:dynamics AND cat:cs.DL",
-        "ti:scholarly AND ti:communication",
-        "ti:scientific AND ti:discovery AND cat:cs.AI",
-    ],
-    "Agent Frameworks & Benchmarks": [
-        "ti:agent AND ti:benchmark AND cat:cs.AI",
-        "ti:agent AND ti:evaluation AND cat:cs.CL",
-        "ti:agent AND ti:framework AND cat:cs.AI",
-        "ti:agent AND ti:environment AND cat:cs.AI",
-    ],
-    "Research Analytics": [
+        "ti:knowledge AND ti:diffusion AND ti:scientific",
         "ti:citation AND ti:prediction",
         "ti:research AND ti:impact AND cat:cs.DL",
-        "ti:peer AND ti:review AND ti:AI",
         "ti:scientific AND ti:knowledge AND ti:graph",
+        "ti:scholarly AND ti:communication",
+        "ti:meta-research",
+        "ti:bibliometric",
+    ],
+    "Benchmarks & Evaluation for Research Agents": [
+        # Measuring agent capabilities in scientific contexts
+        "ti:agent AND ti:benchmark AND ti:scientific",
+        "ti:agent AND ti:evaluation AND ti:science",
+        "ti:agent AND ti:benchmark AND cat:cs.AI",
+        "ti:agent AND ti:reproducibility",
+        "ti:LLM AND ti:evaluation AND ti:research",
+        "ti:agent AND ti:benchmark AND cat:cs.CL",
     ],
 }
 
 CATEGORY_EMOJI = {
-    "LLM Agents": "🤖",
-    "Multi-Agent Systems": "🧠",
-    "Science of Science": "🔬",
-    "Agent Frameworks & Benchmarks": "🛠️",
-    "Research Analytics": "📊",
+    "AI Agents for Scientific Discovery": "🔬",
+    "Research Workflow Agents": "📖",
+    "Multi-Agent Scientific Collaboration": "🧠",
+    "Computational Science of Science": "📊",
+    "Benchmarks & Evaluation for Research Agents": "🛠️",
 }
 
 MAX_RESULTS_PER_QUERY = 10
@@ -116,18 +142,13 @@ def generate_tldr(abstract: str) -> str:
     and trims to a reasonable length. For better TLDRs, you can plug
     in an LLM API here (e.g., OpenAI, Anthropic).
     """
-    # Clean up
     text = abstract.strip()
-
-    # Split into sentences
     sentences = re.split(r'(?<=[.!?])\s+', text)
 
-    # Take first 1-2 sentences, aiming for ~150 chars
     tldr = sentences[0]
     if len(sentences) > 1 and len(tldr) < 100:
         tldr = tldr + " " + sentences[1]
 
-    # Trim if too long
     if len(tldr) > 200:
         tldr = tldr[:197] + "..."
 
@@ -171,7 +192,6 @@ def update_readme(papers: list[dict], date_str: str):
     if not papers:
         today_section = f"\n### 📅 {date_str}\n\n*No new papers found today.*\n"
     else:
-        # Group by category
         by_category: dict[str, list[dict]] = {}
         for p in papers:
             cat = p["our_category"]
@@ -192,7 +212,6 @@ def update_readme(papers: list[dict], date_str: str):
                 if len(p["authors"]) > 3:
                     authors += " et al."
                 tldr = generate_tldr(p["abstract"])
-                # Escape pipes for markdown table
                 tldr = tldr.replace("|", "\\|")
                 today_section += f"| {title_link} | {authors} | {tldr} |\n"
 
@@ -203,15 +222,12 @@ def update_readme(papers: list[dict], date_str: str):
     marker_end = "<!-- DAILY_UPDATES_END -->"
 
     if marker_start in content and marker_end in content:
-        # Find existing content between markers
         start_idx = content.index(marker_start) + len(marker_start)
         end_idx = content.index(marker_end)
         existing = content[start_idx:end_idx]
 
-        # Remove placeholder text if present
         existing = existing.replace("*Updates will appear here automatically.*", "").strip()
 
-        # Prepend today's section (newest first)
         new_content = (
             content[:start_idx]
             + "\n"
