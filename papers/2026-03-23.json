@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2603.19935v1",
+    "title": "Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents",
+    "authors": [
+      "Luiz C. Borro",
+      "Luiz A. B. Macarini",
+      "Gordon Tindall",
+      "Michael Montero",
+      "Adam B. Struck"
+    ],
+    "abstract": "As large language models (LLMs) evolve into autonomous agents, persistent memory at the API layer is essential for enabling context-aware behavior across LLMs and multi-session interactions. Existing approaches force vendor lock-in and rely on injecting large volumes of raw conversation into prompts, leading to high token costs and degraded performance.   We introduce Memori, an LLM-agnostic persistent memory layer that treats memory as a data structuring problem. Its Advanced Augmentation pipeline converts unstructured dialogue into compact semantic triples and conversation summaries, enabling precise retrieval and coherent reasoning.   Evaluated on the LoCoMo benchmark, Memori achieves 81.95% accuracy, outperforming existing memory systems while using only 1,294 tokens per query (~5% of full context). This results in substantial cost reductions, including 67% fewer tokens than competing approaches and over 20x savings compared to full-context methods.   These results show that effective memory in LLM agents depends on structured representations instead of larger context windows, enabling scalable and cost-efficient deployment.",
+    "url": "http://arxiv.org/abs/2603.19935v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19935v1",
+    "published": "2026-03-20",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.19909v1",
+    "title": "DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations",
+    "authors": [
+      "Boxun Song",
+      "Min Gao",
+      "Jiawei Cheng"
+    ],
+    "abstract": "Group recommendation systems play a pivotal role in supporting collective decisions across various contexts, from leisure activities to organizational team-building. Existing group recommendation approaches typically use either handcrafted aggregation rules (e.g. mean, least misery, weighted sum) or neural aggregation models (e.g. attention-based deep learning frameworks), yet both fall short in distinguishing leader-dominated from collaborative groups and often misrepresent true group preferences, especially when a single member disproportionately influences group choices. To address these limitations, we propose the Dual-stream Adaptive Leadership Identification (DALI) framework, which uniquely combines the symbolic reasoning capabilities of Large Language Models (LLMs) with neural network-based representation learning. Specifically, DALI introduces two key innovations: a dynamic rule generation module that autonomously formulates and evolves identification rules through iterative performance feedback, and a neuro-symbolic aggregation mechanism that concurrently employs symbolic reasoning to robustly recognize leadership groups and attention-based neural aggregation to accurately model collaborative group dynamics. Experiments conducted on the Mafengwo travel dataset confirm that DALI significantly improves recommendation accuracy compared to existing frameworks, highlighting its capability to dynamically adapt to complex, real-world group decision environments.",
+    "url": "http://arxiv.org/abs/2603.19909v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19909v1",
+    "published": "2026-03-20",
+    "categories": [
+      "cs.IR"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.19896v1",
+    "title": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use",
+    "authors": [
+      "Boyan Liu",
+      "Gongming Zhao",
+      "Hongli Xu"
+    ],
+    "abstract": "Tool-using large language model (LLM) agents often face a fundamental tension between answer quality and execution cost. Fixed workflows are stable but inflexible, while free-form multi-step reasoning methods such as ReAct may improve task performance at the expense of excessive tool calls, longer trajectories, higher token consumption, and increased latency. In this paper, we study agent orchestration as an explicit decision problem rather than leaving it entirely to prompt-level behavior. We propose a utility-guided orchestration policy that selects among actions such as respond, retrieve, tool call, verify, and stop by balancing estimated gain, step cost, uncertainty, and redundancy. Our goal is not to claim universally best task performance, but to provide a controllable and analyzable policy framework for studying quality-cost trade-offs in tool-using LLM agents. Experiments across direct answering, threshold control, fixed workflows, ReAct, and several policy variants show that explicit orchestration signals substantially affect agent behavior. Additional analyses on cost definitions, workflow fairness, and redundancy control further demonstrate that lightweight utility design can provide a defensible and practical mechanism for agent control.",
+    "url": "http://arxiv.org/abs/2603.19896v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19896v1",
+    "published": "2026-03-20",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20179v1",
+    "title": "AI Agents Can Already Autonomously Perform Experimental High Energy Physics",
+    "authors": [
+      "Eric A. Moreno",
+      "Samuel Bright-Thonney",
+      "Andrzej Novak",
+      "Dolores Garcia",
+      "Philip Harris"
+    ],
+    "abstract": "Large language model-based AI agents are now able to autonomously execute substantial portions of a high energy physics (HEP) analysis pipeline with minimal expert-curated input. Given access to a HEP dataset, an execution framework, and a corpus of prior experimental literature, we find that Claude Code succeeds in automating all stages of a typical analysis: event selection, background estimation, uncertainty quantification, statistical inference, and paper drafting. We argue that the experimental HEP community is underestimating the current capabilities of these systems, and that most proposed agentic workflows are too narrowly scoped or scaffolded to specific analysis structures. We present a proof-of-concept framework, Just Furnish Context (JFC), that integrates autonomous analysis agents with literature-based knowledge retrieval and multi-agent review, and show that this is sufficient to plan, execute, and document a credible high energy physics analysis. We demonstrate this by conducting analyses on open data from ALEPH, DELPHI, and CMS to perform electroweak, QCD, and Higgs boson measurements. Rather than replacing physicists, these tools promise to offload the repetitive technical burden of analysis code development, freeing researchers to focus on physics insight, truly novel method development, and rigorous validation. Given these developments, we advocate for new strategies for how the community trains students, organizes analysis efforts, and allocates human expertise.",
+    "url": "http://arxiv.org/abs/2603.20179v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20179v1",
+    "published": "2026-03-20",
+    "categories": [
+      "hep-ex",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "hep-ex",
+    "our_category": "LLM Agents"
+  },
+  {
+    "id": "2603.20131v1",
+    "title": "An Agentic Multi-Agent Architecture for Cybersecurity Risk Management",
+    "authors": [
+      "Ravish Gupta",
+      "Saket Kumar",
+      "Shreeya Sharma",
+      "Maulik Dang",
+      "Abhishek Aggarwal"
+    ],
+    "abstract": "Getting a real cybersecurity risk assessment for a small organization is expensive -- a NIST CSF-aligned engagement runs $15,000 on the low end, takes weeks, and depends on practitioners who are genuinely scarce. Most small companies skip it entirely. We built a six-agent AI system where each agent handles one analytical stage: profiling the organization, mapping assets, analyzing threats, evaluating controls, scoring risks, and generating recommendations. Agents share a persistent context that grows as the assessment proceeds, so later agents build on what earlier ones concluded -- the mechanism that distinguishes this from standard sequential agent pipelines. We tested it on a 15-person HIPAA-covered healthcare company and compared outputs to independent assessments by three CISSP practitioners -- the system agreed with them 85% of the time on severity classifications, covered 92% of identified risks, and finished in under 15 minutes. We then ran 30 repeated single-agent assessments across five synthetic but sector-realistic organizational profiles in healthcare, fintech, manufacturing, retail, and SaaS, comparing a general-purpose Mistral-7B against a domain fine-tuned model. Both completed every run. The fine-tuned model flagged threats the baseline could not see at all: PHI exposure in healthcare, OT/IIoT vulnerabilities in manufacturing, platform-specific risks in retail. The full multi-agent pipeline, however, failed every one of 30 attempts on a Tesla T4 with its 4,096-token default context window -- context capacity, not model quality, turned out to be the binding constraint.",
+    "url": "http://arxiv.org/abs/2603.20131v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.20131v1",
+    "published": "2026-03-20",
+    "categories": [
+      "eess.SY",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "eess.SY",
+    "our_category": "Multi-Agent Systems"
+  },
+  {
+    "id": "2603.19858v1",
+    "title": "Beyond detection: cooperative multi-agent reasoning for rapid onboard EO crisis response",
+    "authors": [
+      "Alejandro D. Mousist",
+      "Pedro Delgado de Robles Martín",
+      "Raquel Lladró Climent",
+      "Julian Cobos Aparicio"
+    ],
+    "abstract": "Rapid identification of hazardous events is essential for next-generation Earth Observation (EO) missions supporting disaster response. However, current monitoring pipelines remain largely ground-centric, introducing latency due to downlink limitations, multi-source data fusion constraints, and the computational cost of exhaustive scene analysis.   This work proposes a hierarchical multi-agent architecture for onboard EO processing under strict resource and bandwidth constraints. The system enables the exploitation of complementary multimodal observations by coordinating specialized AI agents within an event-driven decision pipeline. AI agents can be deployed across multiple nodes in a distributed setting, such as satellite platforms. An Early Warning agent generates fast hypotheses from onboard observations and selectively activates domain-specific analysis agents, while a Decision agent consolidates the evidence to issue a final alert. The architecture combines vision-language models, traditional remote sensing analysis tools, and role-specialized agents to enable structured reasoning over multimodal observations while minimizing unnecessary computation.   A proof-of-concept implementation was executed on the engineering model of an edge-computing platform currently deployed in orbit, using representative satellite data. Experiments on wildfire and flood monitoring scenarios show that the proposed routing-based pipeline significantly reduces computational overhead while maintaining coherent decision outputs, demonstrating the feasibility of distributed agent-based reasoning for future autonomous EO constellations.",
+    "url": "http://arxiv.org/abs/2603.19858v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.19858v1",
+    "published": "2026-03-20",
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Multi-Agent Systems"
+  }
+]
