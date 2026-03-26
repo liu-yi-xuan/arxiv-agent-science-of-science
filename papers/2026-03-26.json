@@ -1,0 +1,533 @@
+[
+  {
+    "id": "2603.22648v1",
+    "title": "AwesomeLit: Towards Hypothesis Generation with Agent-Supported Literature Research",
+    "authors": [
+      "Zefei Xie",
+      "Yuhan Guo",
+      "Kai Xu"
+    ],
+    "abstract": "There are different goals for literature research, from understanding an unfamiliar topic to generate hypothesis for the next research project. The nature of literature research also varies according to user's familiarity level of the topic. For inexperienced researchers, identifying gaps in the existing literature and generating feasible hypothesis are crucial but challenging. While general ``deep research'' tools can be used, they are not designed for such use case, thus often not effective. In addition, the ``black box\" nature and hallucination of Large Language Models (LLMs) often lead to distrust. In this paper, we introduce a human-agent collaborative visualization system AwesomeLit to address this need. It has several novel features: a transparent user-steerable agentic workflow; a dynamically generated query exploring tree, visualizing the exploration path and provenance; and a semantic similarity view, depicting the relationships between papers. It enables users to transition from general intentions to detailed research topics. Finally, a qualitative study involving several early researchers showed that AwesomeLit is effective in helping users explore unfamiliar topics, identify promising research directions, and improve confidence in research results.",
+    "url": "http://arxiv.org/abs/2603.22648v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22648v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.24533v1",
+    "title": "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience",
+    "authors": [
+      "Zichuan Lin",
+      "Feiyu Liu",
+      "Yijun Yang",
+      "Jiafei Lyu",
+      "Yiming Gao"
+    ],
+    "abstract": "Autonomous mobile GUI agents have attracted increasing attention along with the advancement of Multimodal Large Language Models (MLLMs). However, existing methods still suffer from inefficient learning from failed trajectories and ambiguous credit assignment under sparse rewards for long-horizon GUI tasks. To that end, we propose UI-Voyager, a novel two-stage self-evolving mobile GUI agent. In the first stage, we employ Rejection Fine-Tuning (RFT), which enables the continuous co-evolution of data and models in a fully autonomous loop. The second stage introduces Group Relative Self-Distillation (GRSD), which identifies critical fork points in group rollouts and constructs dense step-level supervision from successful trajectories to correct failed ones. Extensive experiments on AndroidWorld show that our 4B model achieves an 81.0% Pass@1 success rate, outperforming numerous recent baselines and exceeding human-level performance. Ablation and case studies further verify the effectiveness of GRSD. Our method represents a significant leap toward efficient, self-evolving, and high-performance mobile GUI automation without expensive manual data annotation.",
+    "url": "http://arxiv.org/abs/2603.24533v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24533v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.23951v1",
+    "title": "From AI Assistant to AI Scientist: Autonomous Discovery of LLM-RL Algorithms with LLM Agents",
+    "authors": [
+      "Sirui Xia",
+      "Yikai Zhang",
+      "Aili Chen",
+      "Siye Wu",
+      "Siyu Yuan"
+    ],
+    "abstract": "Discovering improved policy optimization algorithms for language models remains a costly manual process requiring repeated mechanism-level modification and validation. Unlike simple combinatorial code search, this problem requires searching over algorithmic mechanisms tightly coupled with training dynamics while reusing empirical evidence across iterations. We propose POISE, a closed-loop framework for automated discovery of policy optimization algorithms for language models. POISE maintains a structured, genealogically linked archive linking proposals, executable implementations, standardized evaluations, and natural-language reflections to support evidence-driven iteration. In mathematical reasoning experiments starting from GRPO, POISE evaluates 64 candidate algorithms and discovers improved mechanisms, including analytic-variance scaling and validity masking. The best variant improves weighted Overall from 47.8 to 52.5 (+4.6) and increases AIME25 pass@32 from 26.7% to 43.3%, demonstrating the feasibility of automated policy optimization discovery while supporting interpretable design principles.",
+    "url": "http://arxiv.org/abs/2603.23951v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23951v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.22376v1",
+    "title": "AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models alongside LLM-based AI Agents with Cloud Computing Access",
+    "authors": [
+      "Liwei Wu",
+      "Cho-Jui Hsieh"
+    ],
+    "abstract": "Recent advances in AI agents for software engineering and scientific discovery have demonstrated remarkable capabilities, yet their application to developing novel ranking models in commercial search engines remains unexplored. In this paper, we present an AI Co-Scientist framework that automates the full search ranking research pipeline: from idea generation to code implementation and GPU training job scheduling with expert in the loop. Our approach strategically employs single-LLM agents for routine tasks while leveraging multi-LLM consensus agents (GPT 5.2, Gemini Pro 3, and Claude Opus 4.5) for challenging phases such as results analysis and idea generation. To our knowledge, this is the first study in the ranking community to utilize an AI Co-Scientist framework for algorithmic research. We demonstrate that this framework discovered a novel technique for handling sequence features, with all model enhancements produced automatically, yielding substantial offline performance improvements. Our findings suggest that AI systems can discover ranking architectures comparable to those developed by human experts while significantly reducing routine research workloads.",
+    "url": "http://arxiv.org/abs/2603.22376v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22376v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.IR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.24402v1",
+    "title": "AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model",
+    "authors": [
+      "Yunbo Long"
+    ],
+    "abstract": "Existing automated research systems operate as stateless, linear pipelines, generating outputs without maintaining a persistent understanding of the research landscape. They process papers sequentially, propose ideas without structured gap analysis, and lack mechanisms for agents to verify or refine each other's findings. We present AutoProf (Autonomous Professor), a multi-agent orchestration framework where specialized agents provide end-to-end AI research supervision driven by human interests, from literature review through gap discovery, method development, evaluation, and paper writing, via autonomous exploration and self-correcting updates. Unlike sequential pipelines, AutoProf maintains a continuously evolving Research World Model implemented as a Knowledge Graph, capturing methods, benchmarks, limitations, and unexplored gaps as shared memory across agents. The framework introduces three contributions: first, structured gap discovery that decomposes methods into modules, evaluates them across benchmarks, and identifies module-level gaps; second, self-correcting discovery loops that analyze why modules succeed or fail, detect benchmark biases, and assess evaluation adequacy; third, self-improving development loops using cross-domain mechanism search to iteratively address failing components. All agents operate under a consensus mechanism where findings are validated before being committed to the shared model. The framework is model-agnostic, supports mainstream large language models, and scales elastically with token budget from lightweight exploration to full-scale investigation.",
+    "url": "http://arxiv.org/abs/2603.24402v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24402v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.22862v1",
+    "title": "The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration",
+    "authors": [
+      "Haoyuan Xu",
+      "Chang Li",
+      "Xinyan Ma",
+      "Xianhao Ou",
+      "Zihan Zhang"
+    ],
+    "abstract": "Tool use enables large language models (LLMs) to access external information, invoke software systems, and act in digital environments beyond what can be solved from model parameters alone. Early research mainly studied whether a model could select and execute a correct single tool call. As agent systems evolve, however, the central problem has shifted from isolated invocation to multi-tool orchestration over long trajectories with intermediate state, execution feedback, changing environments, and practical constraints such as safety, cost, and verifiability. We comprehensively review recent progress in multi-tool LLM agents and analyzes the state of the art in this rapidly developing area. First, we unify task formulations and distinguish single-call tool use from long-horizon orchestration. Then, we organize the literature around six core dimensions: inference-time planning and execution, training and trajectory construction, safety and control, efficiency under resource constraints, capability completeness in open environments, and benchmark design and evaluation. We further summarize representative applications in software engineering, enterprise workflows, graphical user interfaces, and mobile systems. Finally, we discuss major challenges and outline future directions for building reliable, scalable, and verifiable multi-tool agents.",
+    "url": "http://arxiv.org/abs/2603.22862v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22862v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.SE",
+      "cs.CL"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2603.21972v1",
+    "title": "Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe",
+    "authors": [
+      "Xixi Wu",
+      "Qianguo Sun",
+      "Ruiyang Zhang",
+      "Chao Song",
+      "Junlong Wu"
+    ],
+    "abstract": "Reinforcement Learning (RL) is essential for evolving Large Language Models (LLMs) into autonomous agents capable of long-horizon planning, yet a practical recipe for scaling RL in complex, multi-turn environments remains elusive. This paper presents a systematic empirical study using TravelPlanner, a challenging testbed requiring tool orchestration to satisfy multifaceted constraints. We decompose the agentic RL design space along 5 axes: reward shaping, model scaling, data composition, algorithm selection, and environmental stability. Our controlled experiments yield 7 key takeaways, e.g., (1) reward and algorithm choices are scale-dependent as smaller models benefit from staged rewards and enhanced exploration, whereas larger models converge efficiently with simpler dense rewards, (2) ~ 1K training samples with a balanced difficulty mixture mark a sweet spot for both in-domain and out-of-domain performance, and (3) environmental stability is critical to prevent policy degradation. Based on our distilled recipe, our RL-trained models achieve state-of-the-art performance on TravelPlanner, significantly outperforming leading LLMs.",
+    "url": "http://arxiv.org/abs/2603.21972v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21972v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2603.23909v1",
+    "title": "DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction",
+    "authors": [
+      "Keru Hua",
+      "Ding Wang",
+      "Yaoying Gu",
+      "Xiaoguang Ma"
+    ],
+    "abstract": "While Large Language Models (LLMs) provide semantic flexibility for robotic task planning, their susceptibility to hallucination and logical inconsistency limits their reliability in long-horizon domains. To bridge the gap between unstructured environments and rigorous plan synthesis, we propose DUPLEX, an agentic dual-system neuro-symbolic architecture that strictly confines the LLM to schema-guided information extraction rather than end-to-end planning or code generation. In our framework, a feed-forward Fast System utilizes a lightweight LLM to extract entities, relations etc. from natural language, deterministically mapping them into a Planning Domain Definition Language (PDDL) problem file for a classical symbolic planner. To resolve complex or underspecified scenarios, a Slow System is activated exclusively upon planning failure, leveraging solver diagnostics to drive a high-capacity LLM in iterative reflection and repair. Extensive evaluations across 12 classical and household planning domains demonstrate that DUPLEX significantly outperforms existing end-to-end and hybrid LLM baselines in both success rate and reliability. These results confirm that The key is not to make the LLM plan better, but to restrict the LLM to the part it is good at - structured semantic grounding - and leave logical plan synthesis to a symbolic planner.",
+    "url": "http://arxiv.org/abs/2603.23909v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23909v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2603.23483v1",
+    "title": "SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning",
+    "authors": [
+      "Haoyu Huang",
+      "Jinfa Huang",
+      "Zhongwei Wan",
+      "Xiawu Zheng",
+      "Rongrong Ji"
+    ],
+    "abstract": "Agentic multimodal large language models (MLLMs) (e.g., OpenAI o3 and Gemini Agentic Vision) achieve remarkable reasoning capabilities through iterative visual tool invocation. However, the cascaded perception, reasoning, and tool-calling loops introduce significant sequential overhead. This overhead, termed agentic depth, incurs prohibitive latency and seriously limits system-level concurrency. To this end, we propose SpecEyes, an agentic-level speculative acceleration framework that breaks this sequential bottleneck. Our key insight is that a lightweight, tool-free MLLM can serve as a speculative planner to predict the execution trajectory, enabling early termination of expensive tool chains without sacrificing accuracy. To regulate this speculative planning, we introduce a cognitive gating mechanism based on answer separability, which quantifies the model's confidence for self-verification without requiring oracle labels. Furthermore, we design a heterogeneous parallel funnel that exploits the stateless concurrency of the small model to mask the stateful serial execution of the large model, maximizing system throughput. Extensive experiments on V* Bench, HR-Bench, and POPE demonstrate that SpecEyes achieves 1.1-3.35x speedup over the agentic baseline while preserving or even improving accuracy (up to +6.7%), thereby boosting serving throughput under concurrent workloads.",
+    "url": "http://arxiv.org/abs/2603.23483v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23483v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2603.24481v1",
+    "title": "Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical MCQA",
+    "authors": [
+      "John Ray B. Martinez"
+    ],
+    "abstract": "Miscalibrated confidence scores are a practical obstacle to deploying AI in clinical settings. A model that is always overconfident offers no useful signal for deferral. We present a multi-agent framework that combines domain-specific specialist agents with Two-Phase Verification and S-Score Weighted Fusion to improve both calibration and discrimination in medical multiple-choice question answering. Four specialist agents (respiratory, cardiology, neurology, gastroenterology) generate independent diagnoses using Qwen2.5-7B-Instruct. Each diagnosis is then subjected to a two-phase self-verification process that measures internal consistency and produces a Specialist Confidence Score (S-score). The S-scores drive a weighted fusion strategy that selects the final answer and calibrates the reported confidence. We evaluate across four experimental settings, covering 100-question and 250-question high-disagreement subsets of both MedQA-USMLE and MedMCQA. Calibration improvement is the central finding, with ECE reduced by 49-74% across all four settings, including the harder MedMCQA benchmark where these gains persist even when absolute accuracy is constrained by knowledge-intensive recall demands. On MedQA-250, the full system achieves ECE = 0.091 (74.4% reduction over the single-specialist baseline) and AUROC = 0.630 (+0.056) at 59.2% accuracy. Ablation analysis identifies Two-Phase Verification as the primary calibration driver and multi-agent reasoning as the primary accuracy driver. These results establish that consistency-based verification produces more reliable uncertainty estimates across diverse medical question types, providing a practical confidence signal for deferral in safety-critical clinical AI applications.",
+    "url": "http://arxiv.org/abs/2603.24481v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24481v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2603.24329v1",
+    "title": "GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents",
+    "authors": [
+      "Yunzhe Wang",
+      "Runhui Xu",
+      "Kexin Zheng",
+      "Tianyi Zhang",
+      "Jayavibhav Niranjan Kogundi"
+    ],
+    "abstract": "Multimodal LLMs are increasingly deployed as perceptual backbones for autonomous agents in 3D environments, from robotics to virtual worlds. These applications require agents to perceive rapid state changes, attribute actions to the correct entities, and reason about concurrent multi-agent behaviors from a first-person perspective, capabilities that existing benchmarks do not adequately evaluate. We introduce GameplayQA, a framework for evaluating agentic-centric perception and reasoning through video understanding. Specifically, we densely annotate multiplayer 3D gameplay videos at 1.22 labels/second, with time-synced, concurrent captions of states, actions, and events structured around a triadic system of Self, Other Agents, and the World, a natural decomposition for multi-agent environments. From these annotations, we refined 2.4K diagnostic QA pairs organized into three levels of cognitive complexity, accompanied by a structured distractor taxonomy that enables fine-grained analysis of where models hallucinate. Evaluation of frontier MLLMs reveals a substantial gap from human performance, with common failures in temporal and cross-video grounding, agent-role attribution, and handling the decision density of the game. We hope GameplayQA stimulates future research at the intersection of embodied AI, agentic perception, and world modeling.",
+    "url": "http://arxiv.org/abs/2603.24329v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24329v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2603.23625v1",
+    "title": "Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework",
+    "authors": [
+      "Zeinab Dehghani",
+      "Rameez Raja Kureshi",
+      "Koorosh Aslansefat",
+      "Faezeh Alsadat Abedi",
+      "Dhavalkumar Thakker"
+    ],
+    "abstract": "Artificial intelligence (AI) is increasingly being explored in health and social care to reduce administrative workload and allow staff to spend more time on patient care. This paper evaluates a voice-enabled Care Home Smart Speaker designed to support everyday activities in residential care homes, including spoken access to resident records, reminders, and scheduling tasks. A safety-focused evaluation framework is presented that examines the system end-to-end, combining Whisper-based speech recognition with retrieval-augmented generation (RAG) approaches (hybrid, sparse, and dense). Using supervised care-home trials and controlled testing, we evaluated 330 spoken transcripts across 11 care categories, including 184 reminder-containing interactions. These evaluations focus on (i) correct identification of residents and care categories, (ii) reminder recognition and extraction, and (iii) end-to-end scheduling correctness under uncertainty (including safe deferral/clarification). Given the safety-critical nature of care homes, particular attention is also paid to reliability in noisy environments and across diverse accents, supported by confidence scoring, clarification prompts, and human-in-the-loop oversight. In the best-performing configuration (GPT-5.2), resident ID and care category matching reached 100% (95% CI: 98.86-100), while reminder recognition reached 89.09\\% (95% CI: 83.81-92.80) with zero missed reminders (100% recall) but some false positives. End-to-end scheduling via calendar integration achieved 84.65% exact reminder-count agreement (95% CI: 78.00-89.56), indicating remaining edge cases in converting informal spoken instructions into actionable events. The findings suggest that voice-enabled systems, when carefully evaluated and appropriately safeguarded, can support accurate documentation, effective task management, and trustworthy use of AI in care home settings.",
+    "url": "http://arxiv.org/abs/2603.23625v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23625v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2603.23271v1",
+    "title": "A Multimodal Framework for Human-Multi-Agent Interaction",
+    "authors": [
+      "Shaid Hasan",
+      "Breenice Lee",
+      "Sujan Sarker",
+      "Tariq Iqbal"
+    ],
+    "abstract": "Human-robot interaction is increasingly moving toward multi-robot, socially grounded environments. Existing systems struggle to integrate multimodal perception, embodied expression, and coordinated decision-making in a unified framework. This limits natural and scalable interaction in shared physical spaces. We address this gap by introducing a multimodal framework for human-multi-agent interaction in which each robot operates as an autonomous cognitive agent with integrated multimodal perception and Large Language Model (LLM)-driven planning grounded in embodiment. At the team level, a centralized coordination mechanism regulates turn-taking and agent participation to prevent overlapping speech and conflicting actions. Implemented on two humanoid robots, our framework enables coherent multi-agent interaction through interaction policies that combine speech, gesture, gaze, and locomotion. Representative interaction runs demonstrate coordinated multimodal reasoning across agents and grounded embodied responses. Future work will focus on larger-scale user studies and deeper exploration of socially grounded multi-agent interaction dynamics.",
+    "url": "http://arxiv.org/abs/2603.23271v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23271v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2603.24147v1",
+    "title": "Linking Global Science Funding to Research Publications",
+    "authors": [
+      "Jacob Aarup Dalsgaard",
+      "Filipi Nascimento Silva",
+      "Jin AI"
+    ],
+    "abstract": "Funding acknowledgments in scholarly publications provide large-scale trace data on organizations that support scientific research. We present a dataset for linking global science funding organizations to research publications by systematically disambiguating unique funding acknowledgment strings extracted from publication metadata. Funder names are matched to standardized organizational identifiers using a multi-stage pipeline that combines lexical normalization, similarity-based clustering, rule-based matching, named entity recognition assistance, and manual validation. The resulting dataset links 1.9 million unique funder strings to canonical organization identifiers and records match types and unresolved cases to support transparency. Technical validation includes paper-level comparisons across bibliometric sources and manual verification against full-text acknowledgment sections, with reported recall and precision metrics. This dataset supports analyses of funding flows, institutional funding portfolios, regional representation, and concentration patterns in the global research system.",
+    "url": "http://arxiv.org/abs/2603.24147v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24147v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.DL",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2603.23273v1",
+    "title": "Systemic Gendered Citation Imbalance in Computer Science: Evidence from Conferences and Journals",
+    "authors": [
+      "Kazuki Nakajima",
+      "Yuya Sasaki",
+      "Sohei Tokuno",
+      "George Fletcher"
+    ],
+    "abstract": "Gender imbalance persists across science, technology, engineering, and mathematics (STEM) fields, including computer science, where it appears in researcher demographics, productivity, recognition, hiring, and career progression. Given computer science's rapid expansion and global influence, addressing this imbalance is essential for broadening participation and fueling innovation. Although journal-oriented disciplines exhibit consistent gender imbalances in citation practices, it remains unclear whether similar patterns arise in the conference-centric culture of computer science. Here, we systematically investigate gender imbalance in citations of conference and journal papers in computer science. We find that papers for which a woman is listed as either first or last author receive fewer citations than expected, partly because of homophilic citation tendencies (i.e., authors tend to cite papers that share specific attributes). This imbalance is especially pronounced for conference papers--particularly those published at top-tier venues--relative to journals. Moreover, we find that the prominence of the first or last author and the structure of their local co-authorship networks are potential drivers of these imbalances. By exploring how conference-centric publishing practices can amplify systemic imbalances in computer science, our study offers insights that may inform efforts to foster more equitable representation in academia.",
+    "url": "http://arxiv.org/abs/2603.23273v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23273v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.DL",
+      "cs.CY",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2603.23136v1",
+    "title": "HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature",
+    "authors": [
+      "Devvrat Joshi",
+      "Islem Rekik"
+    ],
+    "abstract": "Automated knowledge graph (KG) construction is essential for navigating the rapidly expanding body of scientific literature. However, existing approaches struggle to recognize long multi-word entities, often fail to generalize across domains, and typically overlook the hierarchical nature of scientific knowledge. While general-purpose large language models (LLMs) offer adaptability, they are computationally expensive and yield inconsistent accuracy on specialized tasks. As a result, current KGs are shallow and inconsistent, limiting their utility for exploration and synthesis. We propose a two-stage framework for scalable, zero-shot scientific KG construction. The first stage, Z-NERD, introduces (i) Orthogonal Semantic Decomposition (OSD), which promotes domain-agnostic entity recognition by isolating semantic \"turns\" in text, and (ii) a Multi-Scale TCQK attention mechanism that captures coherent multi-word entities through n-gram-aware attention heads. The second stage, HGNet, performs relation extraction with hierarchy-aware message passing, explicitly modeling parent, child, and peer relations. To enforce global consistency, we introduce two complementary objectives: a Differentiable Hierarchy Loss to discourage cycles and shortcut edges, and a Continuum Abstraction Field (CAF) Loss that embeds abstraction levels along a learnable axis in Euclidean space. This is the first approach to formalize hierarchical abstraction as a continuous property within standard Euclidean embeddings, offering a simpler alternative to hyperbolic methods. We release SPHERE (https://github.com/basiralab/SPHERE), a multi-domain benchmark for hierarchical relation extraction. Our framework establishes a new state of the art on SciERC, SciER, and SPHERE, improving NER by 8.08% and RE by 5.99% on out-of-distribution tests. In zero-shot settings, gains reach 10.76% for NER and 26.2% for RE.",
+    "url": "http://arxiv.org/abs/2603.23136v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23136v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2603.21846v1",
+    "title": "Agentic Personas for Adaptive Scientific Explanations with Knowledge Graphs",
+    "authors": [
+      "Susana Nunes",
+      "Tiago Guerreiro",
+      "Catia Pesquita"
+    ],
+    "abstract": "AI explanation methods often assume a static user model, producing non-adaptive explanations regardless of expert goals, reasoning strategies, or decision contexts. Knowledge graph-based explanations, despite their capacity for grounded, path-based reasoning, inherit this limitation. In complex domains such as scientific discovery, this assumption fails to capture the diversity of cognitive strategies and epistemic stances among experts, preventing explanations that foster deeper understanding and informed decision-making. However, the scarcity of human experts limits the use of direct human feedback to produce adaptive explanations.   We present a reinforcement learning approach for scientific explanation generation that incorporates agentic personas, structured representations of expert reasoning strategies, that guide the explanation agent towards specific epistemic preferences. In an evaluation of knowledge graph-based explanations for drug discovery, we tested two personas that capture distinct epistemic stances derived from expert feedback.   Results show that persona-driven explanations match state-of-the-art predictive performance while persona preferences closely align with those of their corresponding experts. Adaptive explanations were consistently preferred over non-adaptive baselines (n = 22), and persona-based training reduces feedback requirements by two orders of magnitude. These findings demonstrate how agentic personas enable scalable adaptive explainability for AI systems in complex and high-stakes domains.",
+    "url": "http://arxiv.org/abs/2603.21846v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.21846v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2603.23569v1",
+    "title": "Trends in Equal-Contribution Authorship: A Large-Scale Bibliometric Analysis of Biomedical Literature",
+    "authors": [
+      "Binbin Xu"
+    ],
+    "abstract": "Equal-contribution authorship, in which two or more authors are designated as having contributed equally, is increasingly common in scientific publishing. Using approximately 480,000 tagged records from PubMed and PMC (2010-2024), we examine temporal trends, journal-level patterns, geographic distributions, and byline positions of equal-contributing authors. Results show a sharp rise after 2017, with both high-output mega-journals and smaller, discipline-specific journals contributing to the growth. Journal-level analysis indicates a median increase in the share of tagged articles from about 19% in 2015 to over 30% in 2024, with some journals exceeding 50%. Geographically, China accounts for the largest share (40.8% of fractionalized contributions), followed by the United States (15.2%) and Germany (5.2%). Normalizing to 2015 baselines, China shows a 13.1x; increase by 2024, while even the slowest-growing countries more than tripled their levels. Analysis of normalized byline positions shows that equal-contribution designations are concentrated near the first-author position, with fewer cases in middle or last positions. These findings document a broad shift toward shared first-author credit across journal sizes and regions within the biomedical literature and suggest that journals and evaluators may need to rely more on transparent contributorship information and to monitor the use of such labels over time.",
+    "url": "http://arxiv.org/abs/2603.23569v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23569v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2603.23840v1",
+    "title": "VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents",
+    "authors": [
+      "Yuhao Chen",
+      "Yi Xu",
+      "Xinyun Ding",
+      "Xiang Fang",
+      "Shuochen Liu"
+    ],
+    "abstract": "With the growing demand for intelligent in-vehicle experiences, vehicle-based agents are evolving from simple assistants to long-term companions. This evolution requires agents to continuously model multi-user preferences and make reliable decisions in the face of inter-user preference conflicts and changing habits over time. However, existing benchmarks are largely limited to single-user, static question-answer settings, failing to capture the temporal evolution of preferences and the multi-user, tool-interactive nature of real vehicle environments. To address this gap, we introduce VehicleMemBench, a multi-user long-context memory benchmark built on an executable in-vehicle simulation environment. The benchmark evaluates tool use and memory by comparing the post-action environment state with a predefined target state, enabling objective and reproducible evaluation without LLM-based or human scoring. VehicleMemBench includes 23 tool modules, and each sample contains over 80 historical memory events. Experiments show that powerful models perform well on direct instruction tasks but struggle in scenarios involving memory evolution, particularly when user preferences change dynamically. Even advanced memory systems struggle to handle domain-specific memory requirements in this environment. These findings highlight the need for more robust and specialized memory management mechanisms to support long-term adaptive decision-making in real-world in-vehicle systems. To facilitate future research, we release the data and code.",
+    "url": "http://arxiv.org/abs/2603.23840v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23840v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.23749v1",
+    "title": "Efficient Benchmarking of AI Agents",
+    "authors": [
+      "Franck Ndzomga"
+    ],
+    "abstract": "Evaluating AI agents on comprehensive benchmarks is expensive because each evaluation requires interactive rollouts with tool use and multi-step reasoning. We study whether small task subsets can preserve agent rankings at substantially lower cost. Unlike static language model benchmarks, agent evaluation is subject to scaffold-driven distribution shift, since performance depends on the framework wrapping the underlying model. Across eight benchmarks, 33 agent scaffolds, and 70+ model configurations, we find that absolute score prediction degrades under this shift, while rank-order prediction remains stable. Exploiting this asymmetry, we propose a simple optimization-free protocol: evaluate new agents only on tasks with intermediate historical pass rates (30-70%). This mid-range difficulty filter, motivated by Item Response Theory, reduces the number of evaluation tasks by 44-70% while maintaining high rank fidelity under scaffold and temporal shifts. It provides more reliable rankings than random sampling, which exhibits high variance across seeds, and outperforms greedy task selection under distribution shift. These results suggest that reliable leaderboard ranking does not require full-benchmark evaluation.",
+    "url": "http://arxiv.org/abs/2603.23749v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23749v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.23638v1",
+    "title": "Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",
+    "authors": [
+      "Yi Han",
+      "Lingfei Qian",
+      "Yan Wang",
+      "Yueru He",
+      "Xueqing Peng"
+    ],
+    "abstract": "Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions, allocation requires committing scarce resources over time while balancing competing objectives and preserving flexibility for future needs. We introduce EnterpriseArena, the first benchmark for evaluating agents on long-horizon enterprise resource allocation. It instantiates CFO-style decision-making in a 132-month enterprise simulator combining firm-level financial data, anonymized business documents, macroeconomic and industry signals, and expert-validated operating rules. The environment is partially observable and reveals the state only through budgeted organizational tools, forcing agents to trade off information acquisition against conserving scarce resources. Experiments on eleven advanced LLMs show that this setting remains highly challenging: only 16% of runs survive the full horizon, and larger models do not reliably outperform smaller ones. These results identify long-horizon resource allocation under uncertainty as a distinct capability gap for current LLM agents.",
+    "url": "http://arxiv.org/abs/2603.23638v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23638v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.23448v1",
+    "title": "Code Review Agent Benchmark",
+    "authors": [
+      "Yuntong Zhang",
+      "Zhiyuan Pan",
+      "Imam Nur Bani Yusuf",
+      "Haifeng Ruan",
+      "Ridwan Shariffdeen"
+    ],
+    "abstract": "Software engineering agents have shown significant promise in writing code. As AI agents permeate code writing, and generate huge volumes of code automatically -- the matter of code quality comes front and centre. As the automatically generated code gets integrated into huge code-bases -- the issue of code review and broadly quality assurance becomes important. In this paper, we take a fresh look at the problem and curate a code review dataset for AI agents to work with. Our dataset called c-CRAB (pronounced see-crab) can evaluate agents for code review tasks. Specifically given a pull-request (which could be coming from code generation agents or humans), if a code review agent produces a review, our evaluation framework can asses the reviewing capability of the code review agents. Our evaluation framework is used to evaluate the state of the art today -- the open-source PR-agent, as well as commercial code review agents from Devin, Claude Code, and Codex.   Our c-CRAB dataset is systematically constructed from human reviews -- given a human review of a pull request instance we generate corresponding tests to evaluate the code review agent generated reviews. Such a benchmark construction gives us several insights. Firstly, the existing review agents taken together can solve only around 40% of the c-CRAB tasks, indicating the potential to close this gap by future research. Secondly, we observe that the agent reviews often consider different aspects from the human reviews -- indicating the potential for human-agent collaboration for code review that could be deployed in future software teams. Last but not the least, the agent generated tests from our data-set act as a held out test-suite and hence quality gate for agent generated reviews. What this will mean for future collaboration of code generation agents, test generation agents and code review agents -- remains to be investigated.",
+    "url": "http://arxiv.org/abs/2603.23448v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23448v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.23231v1",
+    "title": "PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments",
+    "authors": [
+      "Shuochen Liu",
+      "Junyi Zhu",
+      "Long Shu",
+      "Junda Lin",
+      "Yuhao Chen"
+    ],
+    "abstract": "Empowering large language models with long-term memory is crucial for building agents that adapt to users' evolving needs. However, prior evaluations typically interleave preference-related dialogues with irrelevant conversations, reducing the task to needle-in-a-haystack retrieval while ignoring relationships between events that drive the evolution of user preferences. Such settings overlook a fundamental characteristic of real-world personalization: preferences emerge gradually and accumulate across interactions within noisy contexts. To bridge this gap, we introduce PERMA, a benchmark designed to evaluate persona consistency over time beyond static preference recall. Additionally, we incorporate (1) text variability and (2) linguistic alignment to simulate erratic user inputs and individual idiolects in real-world data. PERMA consists of temporally ordered interaction events spanning multiple sessions and domains, with preference-related queries inserted over time. We design both multiple-choice and interactive tasks to probe the model's understanding of persona along the interaction timeline. Experiments demonstrate that by linking related interactions, advanced memory systems can extract more precise preferences and reduce token consumption, outperforming traditional semantic retrieval of raw dialogues. Nevertheless, they still struggle to maintain a coherent persona across temporal depth and cross-domain interference, highlighting the need for more robust personalized memory management in agents. Our code and data are open-sourced at https://github.com/PolarisLiu1/PERMA.",
+    "url": "http://arxiv.org/abs/2603.23231v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23231v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.22651v1",
+    "title": "Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies",
+    "authors": [
+      "Siddhant Kulkarni",
+      "Yukta Kulkarni"
+    ],
+    "abstract": "The adoption of large language models (LLMs) for structured information extraction from financial documents has accelerated rapidly, yet production deployments face fundamental architectural decisions with limited empirical guidance. We present a systematic benchmark comparing four multi-agent orchestration architectures: sequential pipeline, parallel fan-out with merge, hierarchical supervisor-worker and reflexive self-correcting loop. These are evaluated across five frontier and open-weight LLMs on a corpus of 10,000 SEC filings (10-K, 10-Q and 8-K forms). Our evaluation spans 25 extraction field types covering governance structures, executive compensation and financial metrics, measured along five axes: field-level F1, document-level accuracy, end-to-end latency, cost per document and token efficiency. We find that reflexive architectures achieve the highest field-level F1 (0.943) but at 2.3x the cost of sequential baselines, while hierarchical architectures occupy the most favorable position on the cost-accuracy Pareto frontier (F1 0.921 at 1.4x cost). We further present ablation studies on semantic caching, model routing and adaptive retry strategies, demonstrating that hybrid configurations can recover 89\\% of the reflexive architecture's accuracy gains at only 1.15x baseline cost. Our scaling analysis from 1K to 100K documents per day reveals non-obvious throughput-accuracy degradation curves that inform capacity planning. These findings provide actionable guidance for practitioners deploying multi-agent LLM systems in regulated financial environments.",
+    "url": "http://arxiv.org/abs/2603.22651v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22651v1",
+    "published": "2026-03-24",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.22529v1",
+    "title": "Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos",
+    "authors": [
+      "Shoubin Yu",
+      "Lei Shu",
+      "Antoine Yang",
+      "Yao Fu",
+      "Srinivas Sunkara"
+    ],
+    "abstract": "Multimodal AI agents are increasingly automating complex real-world workflows that involve online web execution. However, current web-agent benchmarks suffer from a critical limitation: they focus entirely on web-based interaction and perception, lacking grounding in the user's real-world physical surroundings. This limitation prevents evaluation in crucial scenarios, such as when an agent must use egocentric visual perception (e.g., via AR glasses) to recognize an object in the user's surroundings and then complete a related task online. To address this gap, we introduce Ego2Web, the first benchmark designed to bridge egocentric video perception and web agent execution. Ego2Web pairs real-world first-person video recordings with web tasks that require visual understanding, web task planning, and interaction in an online environment for successful completion. We utilize an automatic data-generation pipeline combined with human verification and refinement to curate well-constructed, high-quality video-task pairs across diverse web task types, including e-commerce, media retrieval, knowledge lookup, etc. To facilitate accurate and scalable evaluation for our benchmark, we also develop a novel LLM-as-a-Judge automatic evaluation method, Ego2WebJudge, which achieves approximately 84% agreement with human judgment, substantially higher than existing evaluation methods. Experiments with diverse SoTA agents on our Ego2Web show that their performance is weak, with substantial headroom across all task categories. We also conduct a comprehensive ablation study on task design, highlighting the necessity of accurate video understanding in the proposed task and the limitations of current agents. We hope Ego2Web can be a critical new resource for developing truly capable AI assistants that can seamlessly see, understand, and act across the physical and digital worlds.",
+    "url": "http://arxiv.org/abs/2603.22529v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22529v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.22435v1",
+    "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
+    "authors": [
+      "Max Fu",
+      "Justin Yu",
+      "Karim El-Refai",
+      "Ethan Kou",
+      "Haoru Xue"
+    ],
+    "abstract": "\"Code-as-Policy\" considers how executable code can complement data-intensive Vision-Language-Action (VLA) methods, yet their effectiveness as autonomous controllers for embodied manipulation remains underexplored. We present CaP-X, an open-access framework for systematically studying Code-as-Policy agents in robot manipulation. At its core is CaP-Gym, an interactive environment in which agents control robots by synthesizing and executing programs that compose perception and control primitives. Building on this foundation, CaP-Bench evaluates frontier language and vision-language models across varying levels of abstraction, interaction, and perceptual grounding. Across 12 models, CaP-Bench reveals a consistent trend: performance improves with human-crafted abstractions but degrades as these priors are removed, exposing a dependence on designer scaffolding. At the same time, we observe that this gap can be mitigated through scaling agentic test-time computation--through multi-turn interaction, structured execution feedback, visual differencing, automatic skill synthesis, and ensembled reasoning--substantially improves robustness even when agents operate over low-level primitives. These findings allow us to derive CaP-Agent0, a training-free framework that recovers human-level reliability on several manipulation tasks in simulation and on real embodiments. We further introduce CaP-RL, showing reinforcement learning with verifiable rewards improves success rates and transfers from sim2real with minimal gap. Together, CaP-X provides a principled, open-access platform for advancing embodied coding agents.",
+    "url": "http://arxiv.org/abs/2603.22435v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.22435v1",
+    "published": "2026-03-23",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2603.23848v1",
+    "title": "BeliefShift: Benchmarking Temporal Belief Consistency and Opinion Drift in LLM Agents",
+    "authors": [
+      "Praveen Kumar Myakala",
+      "Manan Agrawal",
+      "Rahul Manche"
+    ],
+    "abstract": "LLMs are increasingly used as long-running conversational agents, yet every major benchmark evaluating their memory treats user information as static facts to be stored and retrieved. That's the wrong model. People change their minds, and over extended interactions, phenomena like opinion drift, over-alignment, and confirmation bias start to matter a lot.   BeliefShift introduces a longitudinal benchmark designed specifically to evaluate belief dynamics in multi-session LLM interactions. It covers three tracks: Temporal Belief Consistency, Contradiction Detection, and Evidence-Driven Revision. The dataset includes 2,400 human-annotated multi-session interaction trajectories spanning health, politics, personal values, and product preferences.   We evaluate seven models including GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, LLaMA-3, and Mistral-Large under zero-shot and retrieval-augmented generation (RAG) settings. Results reveal a clear trade-off: models that personalize aggressively resist drift poorly, while factually grounded models miss legitimate belief updates.   We further introduce four novel evaluation metrics: Belief Revision Accuracy (BRA), Drift Coherence Score (DCS), Contradiction Resolution Rate (CRR), and Evidence Sensitivity Index (ESI).",
+    "url": "http://arxiv.org/abs/2603.23848v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.23848v1",
+    "published": "2026-03-25",
+    "categories": [
+      "cs.CL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

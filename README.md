@@ -24,6 +24,62 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-26
+
+**27 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AwesomeLit: Towards Hypothesis Generation with Agent-Supported Literature Research](http://arxiv.org/abs/2603.22648v1) | Zefei Xie, Yuhan Guo, Kai Xu | There are different goals for literature research, from understanding an unfamiliar topic to generate hypothesis for the next research project. |
+| [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](http://arxiv.org/abs/2603.24533v1) | Zichuan Lin, Feiyu Liu, Yijun Yang et al. | Autonomous mobile GUI agents have attracted increasing attention along with the advancement of Multimodal Large Language Models (MLLMs). |
+| [From AI Assistant to AI Scientist: Autonomous Discovery of LLM-RL Algorithms with LLM Agents](http://arxiv.org/abs/2603.23951v1) | Sirui Xia, Yikai Zhang, Aili Chen et al. | Discovering improved policy optimization algorithms for language models remains a costly manual process requiring repeated mechanism-level modification and validation. |
+| [AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models alongside LLM-based AI Agents with Cloud Computing Access](http://arxiv.org/abs/2603.22376v1) | Liwei Wu, Cho-Jui Hsieh | Recent advances in AI agents for software engineering and scientific discovery have demonstrated remarkable capabilities, yet their application to developing novel ranking models in commercial sear... |
+| [AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model](http://arxiv.org/abs/2603.24402v1) | Yunbo Long | Existing automated research systems operate as stateless, linear pipelines, generating outputs without maintaining a persistent understanding of the research landscape. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration](http://arxiv.org/abs/2603.22862v1) | Haoyuan Xu, Chang Li, Xinyan Ma et al. | Tool use enables large language models (LLMs) to access external information, invoke software systems, and act in digital environments beyond what can be solved from model parameters alone. |
+| [Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe](http://arxiv.org/abs/2603.21972v1) | Xixi Wu, Qianguo Sun, Ruiyang Zhang et al. | Reinforcement Learning (RL) is essential for evolving Large Language Models (LLMs) into autonomous agents capable of long-horizon planning, yet a practical recipe for scaling RL in complex, multi-t... |
+| [DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction](http://arxiv.org/abs/2603.23909v1) | Keru Hua, Ding Wang, Yaoying Gu et al. | While Large Language Models (LLMs) provide semantic flexibility for robotic task planning, their susceptibility to hallucination and logical inconsistency limits their reliability in long-horizon d... |
+| [SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning](http://arxiv.org/abs/2603.23483v1) | Haoyu Huang, Jinfa Huang, Zhongwei Wan et al. | Agentic multimodal large language models (MLLMs) (e.g., OpenAI o3 and Gemini Agentic Vision) achieve remarkable reasoning capabilities through iterative visual tool invocation. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical MCQA](http://arxiv.org/abs/2603.24481v1) | John Ray B. Martinez | Miscalibrated confidence scores are a practical obstacle to deploying AI in clinical settings. A model that is always overconfident offers no useful signal for deferral. |
+| [GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](http://arxiv.org/abs/2603.24329v1) | Yunzhe Wang, Runhui Xu, Kexin Zheng et al. | Multimodal LLMs are increasingly deployed as perceptual backbones for autonomous agents in 3D environments, from robotics to virtual worlds. |
+| [Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework](http://arxiv.org/abs/2603.23625v1) | Zeinab Dehghani, Rameez Raja Kureshi, Koorosh Aslansefat et al. | Artificial intelligence (AI) is increasingly being explored in health and social care to reduce administrative workload and allow staff to spend more time on patient care. |
+| [A Multimodal Framework for Human-Multi-Agent Interaction](http://arxiv.org/abs/2603.23271v1) | Shaid Hasan, Breenice Lee, Sujan Sarker et al. | Human-robot interaction is increasingly moving toward multi-robot, socially grounded environments. Existing systems struggle to integrate multimodal perception, embodied expression, and coordinated... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Linking Global Science Funding to Research Publications](http://arxiv.org/abs/2603.24147v1) | Jacob Aarup Dalsgaard, Filipi Nascimento Silva, Jin AI | Funding acknowledgments in scholarly publications provide large-scale trace data on organizations that support scientific research. |
+| [Systemic Gendered Citation Imbalance in Computer Science: Evidence from Conferences and Journals](http://arxiv.org/abs/2603.23273v1) | Kazuki Nakajima, Yuya Sasaki, Sohei Tokuno et al. | Gender imbalance persists across science, technology, engineering, and mathematics (STEM) fields, including computer science, where it appears in researcher demographics, productivity, recognition,... |
+| [HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature](http://arxiv.org/abs/2603.23136v1) | Devvrat Joshi, Islem Rekik | Automated knowledge graph (KG) construction is essential for navigating the rapidly expanding body of scientific literature. |
+| [Agentic Personas for Adaptive Scientific Explanations with Knowledge Graphs](http://arxiv.org/abs/2603.21846v1) | Susana Nunes, Tiago Guerreiro, Catia Pesquita | AI explanation methods often assume a static user model, producing non-adaptive explanations regardless of expert goals, reasoning strategies, or decision contexts. |
+| [Trends in Equal-Contribution Authorship: A Large-Scale Bibliometric Analysis of Biomedical Literature](http://arxiv.org/abs/2603.23569v1) | Binbin Xu | Equal-contribution authorship, in which two or more authors are designated as having contributed equally, is increasingly common in scientific publishing. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents](http://arxiv.org/abs/2603.23840v1) | Yuhao Chen, Yi Xu, Xinyun Ding et al. | With the growing demand for intelligent in-vehicle experiences, vehicle-based agents are evolving from simple assistants to long-term companions. |
+| [Efficient Benchmarking of AI Agents](http://arxiv.org/abs/2603.23749v1) | Franck Ndzomga | Evaluating AI agents on comprehensive benchmarks is expensive because each evaluation requires interactive rollouts with tool use and multi-step reasoning. |
+| [Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments](http://arxiv.org/abs/2603.23638v1) | Yi Han, Lingfei Qian, Yan Wang et al. | Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. |
+| [Code Review Agent Benchmark](http://arxiv.org/abs/2603.23448v1) | Yuntong Zhang, Zhiyuan Pan, Imam Nur Bani Yusuf et al. | Software engineering agents have shown significant promise in writing code. As AI agents permeate code writing, and generate huge volumes of code automatically -- the matter of code quality comes f... |
+| [PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments](http://arxiv.org/abs/2603.23231v1) | Shuochen Liu, Junyi Zhu, Long Shu et al. | Empowering large language models with long-term memory is crucial for building agents that adapt to users' evolving needs. |
+| [Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies](http://arxiv.org/abs/2603.22651v1) | Siddhant Kulkarni, Yukta Kulkarni | The adoption of large language models (LLMs) for structured information extraction from financial documents has accelerated rapidly, yet production deployments face fundamental architectural decisi... |
+| [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](http://arxiv.org/abs/2603.22529v1) | Shoubin Yu, Lei Shu, Antoine Yang et al. | Multimodal AI agents are increasingly automating complex real-world workflows that involve online web execution. |
+| [CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation](http://arxiv.org/abs/2603.22435v1) | Max Fu, Justin Yu, Karim El-Refai et al. | "Code-as-Policy" considers how executable code can complement data-intensive Vision-Language-Action (VLA) methods, yet their effectiveness as autonomous controllers for embodied manipulation remain... |
+| [BeliefShift: Benchmarking Temporal Belief Consistency and Opinion Drift in LLM Agents](http://arxiv.org/abs/2603.23848v1) | Praveen Kumar Myakala, Manan Agrawal, Rahul Manche | LLMs are increasingly used as long-running conversational agents, yet every major benchmark evaluating their memory treats user information as static facts to be stored and retrieved. |
+
 ### 📅 2026-03-25
 
 **9 new papers found**
