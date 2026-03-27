@@ -24,6 +24,37 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-27
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](http://arxiv.org/abs/2603.24533v1) | Zichuan Lin, Feiyu Liu, Yijun Yang et al. | Autonomous mobile GUI agents have attracted increasing attention along with the advancement of Multimodal Large Language Models (MLLMs). |
+| [From AI Assistant to AI Scientist: Autonomous Discovery of LLM-RL Algorithms with LLM Agents](http://arxiv.org/abs/2603.23951v1) | Sirui Xia, Yikai Zhang, Aili Chen et al. | Discovering improved policy optimization algorithms for language models remains a costly manual process requiring repeated mechanism-level modification and validation. |
+| [AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model](http://arxiv.org/abs/2603.24402v2) | Yunbo Long | Existing automated research systems operate as stateless, linear pipelines -- generating outputs without maintaining any persistent understanding of the research landscape they navigate. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol](http://arxiv.org/abs/2603.24943v1) | Jie Zhu, Yimin Tian, Boyang Li et al. | This paper introduces \textbf{FinMCP-Bench}, a novel benchmark for evaluating large language models (LLMs) in solving real-world financial problems through tool invocation of financial model contex... |
+| [DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction](http://arxiv.org/abs/2603.23909v1) | Keru Hua, Ding Wang, Yaoying Gu et al. | While Large Language Models (LLMs) provide semantic flexibility for robotic task planning, their susceptibility to hallucination and logical inconsistency limits their reliability in long-horizon d... |
+| [SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning](http://arxiv.org/abs/2603.23483v1) | Haoyu Huang, Jinfa Huang, Zhongwei Wan et al. | Agentic multimodal large language models (MLLMs) (e.g., OpenAI o3 and Gemini Agentic Vision) achieve remarkable reasoning capabilities through iterative visual tool invocation. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical MCQA](http://arxiv.org/abs/2603.24481v1) | John Ray B. Martinez | Miscalibrated confidence scores are a practical obstacle to deploying AI in clinical settings. A model that is always overconfident offers no useful signal for deferral. |
+| [SentinelAI: A Multi-Agent Framework for Structuring and Linking NG9-1-1 Emergency Incident Data](http://arxiv.org/abs/2603.24856v1) | Kliment Ho, Ilya Zaslavsky | Emergency response systems generate data from many agencies and systems. In practice, correlating and updating this information across sources in a way that aligns with Next Generation 9-1-1 data s... |
+| [AutoSAM: an Agentic Framework for Automating Input File Generation for the SAM Code with Multi-Modal Retrieval-Augmented Generation](http://arxiv.org/abs/2603.24736v1) | Zaid Abulawi, Zavier Ndum Ndum, Eric Cervi et al. | In the design and safety analysis of advanced reactor systems, constructing input files for system-level thermal-hydraulics codes such as the System Analysis Module (SAM) remains a labor-intensive ... |
+| [GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](http://arxiv.org/abs/2603.24329v1) | Yunzhe Wang, Runhui Xu, Kexin Zheng et al. | Multimodal LLMs are increasingly deployed as perceptual backbones for autonomous agents in 3D environments, from robotics to virtual worlds. |
+| [Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework](http://arxiv.org/abs/2603.23625v1) | Zeinab Dehghani, Rameez Raja Kureshi, Koorosh Aslansefat et al. | Artificial intelligence (AI) is increasingly being explored in health and social care to reduce administrative workload and allow staff to spend more time on patient care. |
+| [A Multimodal Framework for Human-Multi-Agent Interaction](http://arxiv.org/abs/2603.23271v1) | Shaid Hasan, Breenice Lee, Sujan Sarker et al. | Human-robot interaction is increasingly moving toward multi-robot, socially grounded environments. Existing systems struggle to integrate multimodal perception, embodied expression, and coordinated... |
+
 ### 📅 2026-03-26
 
 **27 new papers found**
