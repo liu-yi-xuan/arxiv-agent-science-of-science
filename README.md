@@ -24,6 +24,46 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-28
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](http://arxiv.org/abs/2603.24533v1) | Zichuan Lin, Feiyu Liu, Yijun Yang et al. | Autonomous mobile GUI agents have attracted increasing attention along with the advancement of Multimodal Large Language Models (MLLMs). |
+| [AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model](http://arxiv.org/abs/2603.24402v2) | Yunbo Long | Existing automated research systems operate as stateless, linear pipelines -- generating outputs without maintaining any persistent understanding of the research landscape they navigate. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol](http://arxiv.org/abs/2603.24943v1) | Jie Zhu, Yimin Tian, Boyang Li et al. | This paper introduces \textbf{FinMCP-Bench}, a novel benchmark for evaluating large language models (LLMs) in solving real-world financial problems through tool invocation of financial model contex... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical MCQA](http://arxiv.org/abs/2603.24481v1) | John Ray B. Martinez | Miscalibrated confidence scores are a practical obstacle to deploying AI in clinical settings. A model that is always overconfident offers no useful signal for deferral. |
+| [SentinelAI: A Multi-Agent Framework for Structuring and Linking NG9-1-1 Emergency Incident Data](http://arxiv.org/abs/2603.24856v1) | Kliment Ho, Ilya Zaslavsky | Emergency response systems generate data from many agencies and systems. In practice, correlating and updating this information across sources in a way that aligns with Next Generation 9-1-1 data s... |
+| [AutoSAM: an Agentic Framework for Automating Input File Generation for the SAM Code with Multi-Modal Retrieval-Augmented Generation](http://arxiv.org/abs/2603.24736v1) | Zaid Abulawi, Zavier Ndum Ndum, Eric Cervi et al. | In the design and safety analysis of advanced reactor systems, constructing input files for system-level thermal-hydraulics codes such as the System Analysis Module (SAM) remains a labor-intensive ... |
+| [GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](http://arxiv.org/abs/2603.24329v1) | Yunzhe Wang, Runhui Xu, Kexin Zheng et al. | Multimodal LLMs are increasingly deployed as perceptual backbones for autonomous agents in 3D environments, from robotics to virtual worlds. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Linking Global Science Funding to Research Publications](http://arxiv.org/abs/2603.24147v1) | Jacob Aarup Dalsgaard, Filipi Nascimento Silva, Jin AI | Funding acknowledgments in scholarly publications provide large-scale trace data on organizations that support scientific research. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MolQuest: A Benchmark for Agentic Evaluation of Abductive Reasoning in Chemical Structure Elucidation](http://arxiv.org/abs/2603.25253v1) | Taolin Han, Shuang Wu, Jinghang Wang et al. | Large language models (LLMs) hold considerable potential for advancing scientific discovery, yet systematic assessment of their dynamic reasoning in real-world research remains limited. |
+| [Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation](http://arxiv.org/abs/2603.25001v1) | Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian et al. | Failure attribution is essential for diagnosing and improving multi-agent systems (MAS), yet existing benchmarks and methods largely assume a single deterministic root cause for each failure. |
+| [SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks](http://arxiv.org/abs/2603.24755v1) | Gabriel Orlanski, Devjeet Roy, Alexander Yun et al. | Software development is iterative, yet agentic coding benchmarks overwhelmingly evaluate single-shot solutions against complete specifications. |
+
 ### 📅 2026-03-27
 
 **12 new papers found**
