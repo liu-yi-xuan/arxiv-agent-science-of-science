@@ -24,6 +24,32 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-03-31
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Towards a Medical AI Scientist](http://arxiv.org/abs/2603.28589v1) | Hongtao Wu, Boyun Zheng, Dingjie Song et al. | Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. |
+| [Agent-Driven Autonomous Reinforcement Learning Research: Iterative Policy Improvement for Quadruped Locomotion](http://arxiv.org/abs/2603.27416v1) | Nimesh Khandelwal, Shakti S. Gupta | This paper documents a case study in agent-driven autonomous reinforcement learning research for quadruped locomotion. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Courtroom-Style Multi-Agent Debate with Progressive RAG and Role-Switching for Controversial Claim Verification](http://arxiv.org/abs/2603.28488v1) | Masnun Nuha Chowdhury, Nusrat Jahan Beg, Umme Hunny Khan et al. | Large language models (LLMs) remain unreliable for high-stakes claim verification due to hallucinations and shallow reasoning. |
+| [Towards Context-Aware Image Anonymization with Multi-Agent Reasoning](http://arxiv.org/abs/2603.27817v1) | Robert Aufschläger, Jakob Folz, Gautam Savaliya et al. | Street-level imagery contains personally identifiable information (PII), some of which is context-dependent. |
+| [HeteroHub: An Applicable Data Management Framework for Heterogeneous Multi-Embodied Agent System](http://arxiv.org/abs/2603.28010v1) | Xujia Li, Xin Li, Junquan Huang et al. | Heterogeneous Multi-Embodied Agent Systems involve coordinating multiple embodied agents with diverse capabilities to accomplish tasks in dynamic environments. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AMIGO: Agentic Multi-Image Grounding Oracle Benchmark](http://arxiv.org/abs/2603.28662v1) | Min Wang, Ata Mahjoubfar | Agentic vision-language models increasingly act through extended interactions, but most evaluations still focus on single-image, single-turn correctness. |
+| [MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome](http://arxiv.org/abs/2603.28407v1) | Fangda Ye, Yuxin Hu, Pengxiang Zhu et al. | Recent progress in deep research systems has been impressive, but evaluation still lags behind real user needs. |
+
 ### 📅 2026-03-30
 
 *No new papers found today.*
