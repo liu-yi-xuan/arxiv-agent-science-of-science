@@ -24,6 +24,17 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-01
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay](http://arxiv.org/abs/2603.29093v1) | Pratyay Banerjee, Masud Moshtaghi, Ankit Chadha | LLM-based autonomous agents lack persistent procedural memory: they re-derive solutions from scratch even when structurally identical tasks have been solved before. |
+| [Towards a Medical AI Scientist](http://arxiv.org/abs/2603.28589v1) | Hongtao Wu, Boyun Zheng, Dingjie Song et al. | Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. |
+
 ### 📅 2026-03-31
 
 **7 new papers found**
