@@ -24,6 +24,27 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-02
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CliffSearch: Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery](http://arxiv.org/abs/2604.01210v1) | Youssef Mroueh, Carlos Fonseca, Brian Belgodere et al. | Scientific algorithm discovery is iterative: hypotheses are proposed, implemented, stress-tested, and revised. |
+| [BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery](http://arxiv.org/abs/2604.00550v1) | Yao Qin, Yangyang Yan, Jinhua Pang et al. | The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of "AI Scientists." However, translating these theoretical capabilities into deployment-ready resear... |
+| [PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor](http://arxiv.org/abs/2604.00931v1) | Yutao Yang, Junsong Li, Qianjun Pan et al. | Existing methods for AI psychological counselors predominantly rely on supervised fine-tuning using static dialogue datasets. |
+| [Experience as a Compass: Multi-agent RAG with Evolving Orchestration and Agent Prompts](http://arxiv.org/abs/2604.00901v1) | Sha Li, Naren Ramakrishnan | Multi-agent Retrieval-Augmented Generation (RAG), wherein each agent takes on a specific role, supports hard queries that require multiple steps and sources, or complex reasoning. |
+| [APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay](http://arxiv.org/abs/2603.29093v1) | Pratyay Banerjee, Masud Moshtaghi, Ankit Chadha | LLM-based autonomous agents lack persistent procedural memory: they re-derive solutions from scratch even when structurally identical tasks have been solved before. |
+| [Towards a Medical AI Scientist](http://arxiv.org/abs/2603.28589v1) | Hongtao Wu, Boyun Zheng, Dingjie Song et al. | Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agentic Tool Use in Large Language Models](http://arxiv.org/abs/2604.00835v1) | Jinchao Hu, Meizhi Zhong, Kehai Chen et al. | Large language models are increasingly being deployed as autonomous agents yet their real world effectiveness depends on reliable tools for information retrieval, computation and external action. |
+
 ### 📅 2026-04-01
 
 **2 new papers found**

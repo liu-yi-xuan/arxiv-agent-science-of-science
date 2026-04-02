@@ -1,0 +1,139 @@
+[
+  {
+    "id": "2604.01210v1",
+    "title": "CliffSearch: Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery",
+    "authors": [
+      "Youssef Mroueh",
+      "Carlos Fonseca",
+      "Brian Belgodere",
+      "David Cox"
+    ],
+    "abstract": "Scientific algorithm discovery is iterative: hypotheses are proposed, implemented, stress-tested, and revised. Current LLM-guided search systems accelerate proposal generation, but often under-represent scientific structure by optimizing code-only artifacts with weak correctness/originality gating. We present CliffSearch, an agentic evolutionary framework in which the core evolution operators (pair selection, crossover, mutation, and review) are implemented as LLM agents, and the loop is designed around three principles: (1) each node is a structured scientific artifact, instantiated in either theory+code or code_only mode, (2) reviewer judgments of correctness and originality are first-class selection gates alongside optimization of the benchmark metric of interest, and (3) mutation is split into exploration and correction pathways with distinct objectives. Exploration mutation imports ideas from adjacent scientific domains to increase novelty, while correction mutation performs targeted evidence-guided repair using reviewer signals over theory, code, benchmark results, and runtime errors. We illustrate the framework on three benchmark-grounded studies: transformer hyper-connection evolution, optimizer discovery on a fixed nanoGPT stack, and a smaller native-optimizer ablation. Across these settings, the same loop supports explicit metric direction, reproducible persistence, and reviewer-gated comparison of discoveries under controlled search conditions. The result is a discovery workflow that prioritizes scientific interpretability and correctness while optimizing task metrics under controlled novelty constraints, rather than maximizing candidate throughput alone. Full run artifacts, interactive visualizations, and exported best nodes for the reported studies are available at https://cliffsearch.ai .",
+    "url": "http://arxiv.org/abs/2604.01210v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01210v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00550v1",
+    "title": "BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery",
+    "authors": [
+      "Yao Qin",
+      "Yangyang Yan",
+      "Jinhua Pang",
+      "Xiaoming Zhang"
+    ],
+    "abstract": "The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of \"AI Scientists.\" However, translating these theoretical capabilities into deployment-ready research environments exposes profound infrastructural vulnerabilities. Current frameworks are bottlenecked by fragile JSON-based tool-calling protocols, easily disrupted execution sandboxes that lose graphical outputs, and rigid conversational interfaces inherently ill-suited for high-dimensional scientific data.We introduce BloClaw, a unified, multi-modal operating system designed for Artificial Intelligence for Science (AI4S). BloClaw reconstructs the Agent-Computer Interaction (ACI) paradigm through three architectural innovations: (1) An XML-Regex Dual-Track Routing Protocol that statistically eliminates serialization failures (0.2% error rate vs. 17.6% in JSON); (2) A Runtime State Interception Sandbox that utilizes Python monkey-patching to autonomously capture and compile dynamic data visualizations (Plotly/Matplotlib), circumventing browser CORS policies; and (3) A State-Driven Dynamic Viewport UI that morphs seamlessly between a minimalist command deck and an interactive spatial rendering engine. We comprehensively benchmark BloClaw across cheminformatics (RDKit), de novo 3D protein folding via ESMFold, molecular docking, and autonomous Retrieval-Augmented Generation (RAG), establishing a highly robust, self-evolving paradigm for computational research assistants. The open-source repository is available at https://github.com/qinheming/BloClaw.",
+    "url": "http://arxiv.org/abs/2604.00550v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00550v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00931v1",
+    "title": "PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor",
+    "authors": [
+      "Yutao Yang",
+      "Junsong Li",
+      "Qianjun Pan",
+      "Jie Zhou",
+      "Kai Chen"
+    ],
+    "abstract": "Existing methods for AI psychological counselors predominantly rely on supervised fine-tuning using static dialogue datasets. However, this contrasts with human experts, who continuously refine their proficiency through clinical practice and accumulated experience. To bridge this gap, we propose an Experience-Driven Lifelong Learning Agent (\\texttt{PsychAgent}) for psychological counseling. First, we establish a Memory-Augmented Planning Engine tailored for longitudinal multi-session interactions, which ensures therapeutic continuity through persistent memory and strategic planning. Second, to support self-evolution, we design a Skill Evolution Engine that extracts new practice-grounded skills from historical counseling trajectories. Finally, we introduce a Reinforced Internalization Engine that integrates the evolved skills into the model via rejection fine-tuning, aiming to improve performance across diverse scenarios. Comparative analysis shows that our approach achieves higher scores than strong general LLMs (e.g., GPT-5.4, Gemini-3) and domain-specific baselines across all reported evaluation dimensions. These results suggest that lifelong learning can improve the consistency and overall quality of multi-session counseling responses.",
+    "url": "http://arxiv.org/abs/2604.00931v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00931v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00901v1",
+    "title": "Experience as a Compass: Multi-agent RAG with Evolving Orchestration and Agent Prompts",
+    "authors": [
+      "Sha Li",
+      "Naren Ramakrishnan"
+    ],
+    "abstract": "Multi-agent Retrieval-Augmented Generation (RAG), wherein each agent takes on a specific role, supports hard queries that require multiple steps and sources, or complex reasoning. Existing approaches, however, rely on static agent behaviors and fixed orchestration strategies, leading to brittle performance on diverse, multi-hop tasks. We identify two key limitations: the lack of continuously adaptive orchestration mechanisms and the absence of behavior-level learning for individual agents. To this end, we propose HERA, a hierarchical framework that jointly evolves multi-agent orchestration and role-specific agent prompts. At the global level, HERA optimizes query-specific agent topologies through reward-guided sampling and experience accumulation. At the local level, Role-Aware Prompt Evolution refines agent behaviors via credit assignment and dual-axes adaptation along operational and behavioral principles, enabling targeted, role-conditioned improvements. On six knowledge-intensive benchmarks, HERA achieves an average improvement of 38.69\\% over recent baselines while maintaining robust generalization and token efficiency. Topological analyses reveal emergent self-organization, where sparse exploration yields compact, high-utility multi-agent networks, demonstrating both efficient coordination and robust reasoning.",
+    "url": "http://arxiv.org/abs/2604.00901v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00901v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.29093v1",
+    "title": "APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay",
+    "authors": [
+      "Pratyay Banerjee",
+      "Masud Moshtaghi",
+      "Ankit Chadha"
+    ],
+    "abstract": "LLM-based autonomous agents lack persistent procedural memory: they re-derive solutions from scratch even when structurally identical tasks have been solved before. We present \\textbf{APEX-EM}, a non-parametric online learning framework that accumulates, retrieves, and reuses structured procedural plans without modifying model weights. APEX-EM introduces: (1) a \\emph{structured experience representation} encoding the full procedural-episodic trace of each execution -- planning steps, artifacts, iteration history with error analysis, and quality scores; (2) a \\emph{Plan-Retrieve-Generate-Iterate-Ingest} (PRGII) workflow with Task Verifiers providing multi-dimensional reward signals; and (3) a \\emph{dual-outcome Experience Memory} with hybrid retrieval combining semantic search, structural signature matching, and plan DAG traversal -- enabling cross-domain transfer between tasks sharing no lexical overlap but analogous operational structure. Successful experiences serve as positive in-context examples; failures as negative examples with structured error annotations.   We evaluate on BigCodeBench~\\cite{zhuo2025bigcodebench}, KGQAGen-10k~\\cite{zhang2025kgqagen}, and Humanity's Last Exam~\\cite{phan2025hle} using Claude Sonnet 4.5 and Opus 4.5. On KGQAGen-10k, APEX-EM achieves 89.6\\% accuracy versus 41.3\\% without memory (+48.3pp), surpassing the oracle-retrieval upper bound (84.9\\%). On BigCodeBench, it reaches 83.3\\% SR from a 53.9\\% baseline (+29.4pp), exceeding MemRL's~\\cite{memrl2025} +11.0pp gain under comparable frozen-backbone conditions (noting backbone differences controlled for in our analysis). On HLE, entity graph retrieval reaches 48.0\\% from 25.2\\% (+22.8pp). Ablations show component value is task-dependent: rich judge feedback is negligible for code generation but critical for structured queries (+10.3pp), while binary-signal iteration partially compensates for weaker feedback.",
+    "url": "http://arxiv.org/abs/2603.29093v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.29093v1",
+    "published": "2026-03-31",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2603.28589v1",
+    "title": "Towards a Medical AI Scientist",
+    "authors": [
+      "Hongtao Wu",
+      "Boyun Zheng",
+      "Dingjie Song",
+      "Yu Jiang",
+      "Jianfeng Gao"
+    ],
+    "abstract": "Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. However, existing AI Scientists remain largely domain-agnostic, limiting their applicability to clinical medicine, where research is required to be grounded in medical evidence with specialized data modalities. In this work, we introduce Medical AI Scientist, the first autonomous research framework tailored to clinical autonomous research. It enables clinically grounded ideation by transforming extensively surveyed literature into actionable evidence through clinician-engineer co-reasoning mechanism, which improves the traceability of generated research ideas. It further facilitates evidence-grounded manuscript drafting guided by structured medical compositional conventions and ethical policies. The framework operates under 3 research modes, namely paper-based reproduction, literature-inspired innovation, and task-driven exploration, each corresponding to a distinct level of automated scientific inquiry with progressively increasing autonomy. Comprehensive evaluations by both large language models and human experts demonstrate that the ideas generated by the Medical AI Scientist are of substantially higher quality than those produced by commercial LLMs across 171 cases, 19 clinical tasks, and 6 data modalities. Meanwhile, our system achieves strong alignment between the proposed method and its implementation, while also demonstrating significantly higher success rates in executable experiments. Double-blind evaluations by human experts and the Stanford Agentic Reviewer suggest that the generated manuscripts approach MICCAI-level quality, while consistently surpassing those from ISBI and BIBM. The proposed Medical AI Scientist highlights the potential of leveraging AI for autonomous scientific discovery in healthcare.",
+    "url": "http://arxiv.org/abs/2603.28589v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.28589v1",
+    "published": "2026-03-30",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00835v1",
+    "title": "Agentic Tool Use in Large Language Models",
+    "authors": [
+      "Jinchao Hu",
+      "Meizhi Zhong",
+      "Kehai Chen",
+      "Xuefeng Bai",
+      "Min Zhang"
+    ],
+    "abstract": "Large language models are increasingly being deployed as autonomous agents yet their real world effectiveness depends on reliable tools for information retrieval, computation and external action. Existing studies remain fragmented across tasks, tool types, and training settings, lacking a unified view of how tool-use methods differ and evolve. This paper organizes the literature into three paradigms: prompting as plug-and-play, supervised tool learning and reward-driven tool policy learning, analyzes their methods, strengths and failure modes, reviews the evaluation landscape and highlights key challenges, aiming to address this fragmentation and provide a more structured evolutionary view of agentic tool use.",
+    "url": "http://arxiv.org/abs/2604.00835v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00835v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  }
+]
