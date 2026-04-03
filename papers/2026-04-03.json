@@ -1,0 +1,393 @@
+[
+  {
+    "id": "2604.01210v1",
+    "title": "CliffSearch: Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery",
+    "authors": [
+      "Youssef Mroueh",
+      "Carlos Fonseca",
+      "Brian Belgodere",
+      "David Cox"
+    ],
+    "abstract": "Scientific algorithm discovery is iterative: hypotheses are proposed, implemented, stress-tested, and revised. Current LLM-guided search systems accelerate proposal generation, but often under-represent scientific structure by optimizing code-only artifacts with weak correctness/originality gating. We present CliffSearch, an agentic evolutionary framework in which the core evolution operators (pair selection, crossover, mutation, and review) are implemented as LLM agents, and the loop is designed around three principles: (1) each node is a structured scientific artifact, instantiated in either theory+code or code_only mode, (2) reviewer judgments of correctness and originality are first-class selection gates alongside optimization of the benchmark metric of interest, and (3) mutation is split into exploration and correction pathways with distinct objectives. Exploration mutation imports ideas from adjacent scientific domains to increase novelty, while correction mutation performs targeted evidence-guided repair using reviewer signals over theory, code, benchmark results, and runtime errors. We illustrate the framework on three benchmark-grounded studies: transformer hyper-connection evolution, optimizer discovery on a fixed nanoGPT stack, and a smaller native-optimizer ablation. Across these settings, the same loop supports explicit metric direction, reproducible persistence, and reviewer-gated comparison of discoveries under controlled search conditions. The result is a discovery workflow that prioritizes scientific interpretability and correctness while optimizing task metrics under controlled novelty constraints, rather than maximizing candidate throughput alone. Full run artifacts, interactive visualizations, and exported best nodes for the reported studies are available at https://cliffsearch.ai .",
+    "url": "http://arxiv.org/abs/2604.01210v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01210v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00550v1",
+    "title": "BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery",
+    "authors": [
+      "Yao Qin",
+      "Yangyang Yan",
+      "Jinhua Pang",
+      "Xiaoming Zhang"
+    ],
+    "abstract": "The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of \"AI Scientists.\" However, translating these theoretical capabilities into deployment-ready research environments exposes profound infrastructural vulnerabilities. Current frameworks are bottlenecked by fragile JSON-based tool-calling protocols, easily disrupted execution sandboxes that lose graphical outputs, and rigid conversational interfaces inherently ill-suited for high-dimensional scientific data.We introduce BloClaw, a unified, multi-modal operating system designed for Artificial Intelligence for Science (AI4S). BloClaw reconstructs the Agent-Computer Interaction (ACI) paradigm through three architectural innovations: (1) An XML-Regex Dual-Track Routing Protocol that statistically eliminates serialization failures (0.2% error rate vs. 17.6% in JSON); (2) A Runtime State Interception Sandbox that utilizes Python monkey-patching to autonomously capture and compile dynamic data visualizations (Plotly/Matplotlib), circumventing browser CORS policies; and (3) A State-Driven Dynamic Viewport UI that morphs seamlessly between a minimalist command deck and an interactive spatial rendering engine. We comprehensively benchmark BloClaw across cheminformatics (RDKit), de novo 3D protein folding via ESMFold, molecular docking, and autonomous Retrieval-Augmented Generation (RAG), establishing a highly robust, self-evolving paradigm for computational research assistants. The open-source repository is available at https://github.com/qinheming/BloClaw.",
+    "url": "http://arxiv.org/abs/2604.00550v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00550v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00931v2",
+    "title": "PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor",
+    "authors": [
+      "Yutao Yang",
+      "Junsong Li",
+      "Qianjun Pan",
+      "Jie Zhou",
+      "Kai Chen"
+    ],
+    "abstract": "Existing methods for AI psychological counselors predominantly rely on supervised fine-tuning using static dialogue datasets. However, this contrasts with human experts, who continuously refine their proficiency through clinical practice and accumulated experience. To bridge this gap, we propose an Experience-Driven Lifelong Learning Agent (\\texttt{PsychAgent}) for psychological counseling. First, we establish a Memory-Augmented Planning Engine tailored for longitudinal multi-session interactions, which ensures therapeutic continuity through persistent memory and strategic planning. Second, to support self-evolution, we design a Skill Evolution Engine that extracts new practice-grounded skills from historical counseling trajectories. Finally, we introduce a Reinforced Internalization Engine that integrates the evolved skills into the model via rejection fine-tuning, aiming to improve performance across diverse scenarios. Comparative analysis shows that our approach achieves higher scores than strong general LLMs (e.g., GPT-5.4, Gemini-3) and domain-specific baselines across all reported evaluation dimensions. These results suggest that lifelong learning can improve the consistency and overall quality of multi-session counseling responses.",
+    "url": "http://arxiv.org/abs/2604.00931v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.00931v2",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.00901v1",
+    "title": "Experience as a Compass: Multi-agent RAG with Evolving Orchestration and Agent Prompts",
+    "authors": [
+      "Sha Li",
+      "Naren Ramakrishnan"
+    ],
+    "abstract": "Multi-agent Retrieval-Augmented Generation (RAG), wherein each agent takes on a specific role, supports hard queries that require multiple steps and sources, or complex reasoning. Existing approaches, however, rely on static agent behaviors and fixed orchestration strategies, leading to brittle performance on diverse, multi-hop tasks. We identify two key limitations: the lack of continuously adaptive orchestration mechanisms and the absence of behavior-level learning for individual agents. To this end, we propose HERA, a hierarchical framework that jointly evolves multi-agent orchestration and role-specific agent prompts. At the global level, HERA optimizes query-specific agent topologies through reward-guided sampling and experience accumulation. At the local level, Role-Aware Prompt Evolution refines agent behaviors via credit assignment and dual-axes adaptation along operational and behavioral principles, enabling targeted, role-conditioned improvements. On six knowledge-intensive benchmarks, HERA achieves an average improvement of 38.69\\% over recent baselines while maintaining robust generalization and token efficiency. Topological analyses reveal emergent self-organization, where sparse exploration yields compact, high-utility multi-agent networks, demonstrating both efficient coordination and robust reasoning.",
+    "url": "http://arxiv.org/abs/2604.00901v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00901v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.01520v1",
+    "title": "LLM Agents as Social Scientists: A Human-AI Collaborative Platform for Social Science Automation",
+    "authors": [
+      "Lei Wang",
+      "Yuanzi Li",
+      "Jinchao Wu",
+      "Heyang Gao",
+      "Xiaohe Bo"
+    ],
+    "abstract": "Traditional social science research often requires designing complex experiments across vast methodological spaces and depends on real human participants, making it labor-intensive, costly, and difficult to scale. Here we present S-Researcher, an LLM-agent-based platform that assists researchers in conducting social science research more efficiently and at greater scale by \"siliconizing\" both the research process and the participant pool. To build S-Researcher, we first develop YuLan-OneSim, a large-scale social simulation system designed around three core requirements: generality via auto-programming from natural language to executable scenarios, scalability via a distributed architecture supporting up to 100,000 concurrent agents, and reliability via feedback-driven LLM fine-tuning. Leveraging this system, S-Researcher supports researchers in designing social experiments, simulating human behavior with LLM agents, analyzing results, and generating reports, forming a complete human-AI collaborative research loop in which researchers retain oversight and intervention at every stage. We operationalize LLM simulation research paradigms into three canonical reasoning modes (induction, deduction, and abduction) and validate S-Researcher through systematic case studies: inductive reproduction of cultural dynamics consistent with Axelrod's theory, deductive testing of competing hypotheses on teacher attention validated against survey data, and abductive identification of a cooperation mechanism in public goods games confirmed by human experiments. S-Researcher establishes a new human--AI collaborative paradigm for social science, in which computational simulation augments human researchers to accelerate discovery across the full spectrum of social inquiry.",
+    "url": "http://arxiv.org/abs/2604.01520v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01520v1",
+    "published": "2026-04-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.01452v1",
+    "title": "A Multi-Agent Human-LLM Collaborative Framework for Closed-Loop Scientific Literature Summarization",
+    "authors": [
+      "Maxwell J. Jacobson",
+      "Daniel Xie",
+      "Jackson Shen",
+      "Adil Wazeer",
+      "Haiyan Wang"
+    ],
+    "abstract": "Scientific discovery is slowed by fragmented literature that requires excessive human effort to gather, analyze, and understand. AI tools, including autonomous summarization and question answering, have been developed to aid in understanding scientific literature. However, these tools lack the structured, multi-step approach necessary for extracting deep insights from scientific literature. Large Language Models (LLMs) offer new possibilities for literature analysis, but remain unreliable due to hallucinations and incomplete extraction. We introduce Elhuyar, a multi-agent, human-in-the-loop system that integrates LLMs, structured AI, and human scientists to extract, analyze, and iteratively refine insights from scientific literature. The framework distributes tasks among specialized agents for filtering papers, extracting data, fitting models, and summarizing findings, with human oversight ensuring reliability. The system generates structured reports with extracted data, visualizations, model equations, and text summaries, enabling deeper inquiry through iterative refinement. Deployed in materials science, it analyzed literature on tungsten under helium-ion irradiation, showing experimentally correlated exponential helium bubble growth with irradiation dose and temperature, offering insight for plasma-facing materials (PFMs) in fusion reactors. This demonstrates how AI-assisted literature review can uncover scientific patterns and accelerate discovery.",
+    "url": "http://arxiv.org/abs/2604.01452v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01452v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.00835v1",
+    "title": "Agentic Tool Use in Large Language Models",
+    "authors": [
+      "Jinchao Hu",
+      "Meizhi Zhong",
+      "Kehai Chen",
+      "Xuefeng Bai",
+      "Min Zhang"
+    ],
+    "abstract": "Large language models are increasingly being deployed as autonomous agents yet their real world effectiveness depends on reliable tools for information retrieval, computation and external action. Existing studies remain fragmented across tasks, tool types, and training settings, lacking a unified view of how tool-use methods differ and evolve. This paper organizes the literature into three paradigms: prompting as plug-and-play, supervised tool learning and reward-driven tool policy learning, analyzes their methods, strengths and failure modes, reviews the evaluation landscape and highlights key challenges, aiming to address this fragmentation and provide a more structured evolutionary view of agentic tool use.",
+    "url": "http://arxiv.org/abs/2604.00835v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00835v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2603.29632v1",
+    "title": "An Empirical Study of Multi-Agent Collaboration for Automated Research",
+    "authors": [
+      "Yang Shen",
+      "Zhenyi Yi",
+      "Ziyi Zhao",
+      "Lijun Sun",
+      "Dongyang Li"
+    ],
+    "abstract": "As AI agents evolve, the community is rapidly shifting from single Large Language Models (LLMs) to Multi-Agent Systems (MAS) to overcome cognitive bottlenecks in automated research. However, the optimal multi-agent coordination framework for these autonomous agents remains largely unexplored. In this paper, we present a systematic empirical study investigating the comparative efficacy of distinct multi-agent structures for automated machine learning optimization. Utilizing a rigorously controlled, execution-based testbed equipped with Git worktree isolation and explicit global memory, we benchmark a single-agent baseline against two multi-agent paradigms: a subagent architecture (parallel exploration with post-hoc consolidation) and an agent team architecture (experts with pre-execution handoffs). By evaluating these systems under strictly fixed computational time budgets, our findings reveal a fundamental trade-off between operational stability and theoretical deliberation. The subagent mode functions as a highly resilient, high-throughput search engine optimal for broad, shallow optimizations under strict time constraints. Conversely, the agent team topology exhibits higher operational fragility due to multi-author code generation but achieves the deep theoretical alignment necessary for complex architectural refactoring given extended compute budgets. These empirical insights provide actionable guidelines for designing future autoresearch systems, advocating for dynamically routed architectures that adapt their collaborative structures to real-time task complexity.",
+    "url": "http://arxiv.org/abs/2603.29632v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.29632v1",
+    "published": "2026-03-31",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.00249v1",
+    "title": "A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation",
+    "authors": [
+      "Ha Na Cho"
+    ],
+    "abstract": "Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. We propose a safety-aware, role-orchestrated multi-agent LLM framework designed to simulate supportive behavioral health dialogue through coordinated, role-differentiated agents. Conversational responsibilities are decomposed across specialized agents, including empathy-focused, action-oriented, and supervisory roles, while a prompt-based controller dynamically activates relevant agents and enforces continuous safety auditing. Using semi-structured interview transcripts from the DAIC-WOZ corpus, we evaluate the framework with scalable proxy metrics capturing structural quality, functional diversity, and computational characteristics. Results illustrate clear role differentiation, coherent inter-agent coordination, and predictable trade-offs between modular orchestration, safety oversight, and response latency when compared to a single-agent baseline. This work emphasizes system design, interpretability, and safety, positioning the framework as a simulation and analysis tool for behavioral health informatics and decision-support research rather than a clinical intervention.",
+    "url": "http://arxiv.org/abs/2604.00249v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00249v1",
+    "published": "2026-03-31",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.01965v1",
+    "title": "Do We Need Bigger Models for Science? Task-Aware Retrieval with Small Language Models",
+    "authors": [
+      "Florian Kelber",
+      "Matthias Jobst",
+      "Yuni Susanti",
+      "Michael Färber"
+    ],
+    "abstract": "Scientific knowledge discovery increasingly relies on large language models, yet many existing scholarly assistants depend on proprietary systems with tens or hundreds of billions of parameters. Such reliance limits reproducibility and accessibility for the research community. In this work, we ask a simple question: do we need bigger models for scientific applications? Specifically, we investigate to what extent carefully designed retrieval pipelines can compensate for reduced model scale in scientific applications. We design a lightweight retrieval-augmented framework that performs task-aware routing to select specialized retrieval strategies based on the input query. The system further integrates evidence from full-text scientific papers and structured scholarly metadata, and employs compact instruction-tuned language models to generate responses with citations. We evaluate the framework across several scholarly tasks, focusing on scholarly question answering (QA), including single- and multi-document scenarios, as well as biomedical QA under domain shift and scientific text compression. Our findings demonstrate that retrieval and model scale are complementary rather than interchangeable. While retrieval design can partially compensate for smaller models, model capacity remains important for complex reasoning tasks. This work highlights retrieval and task-aware design as key factors for building practical and reproducible scholarly assistants.",
+    "url": "http://arxiv.org/abs/2604.01965v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01965v1",
+    "published": "2026-04-02",
+    "categories": [
+      "cs.IR",
+      "cs.AI",
+      "cs.CL",
+      "cs.DL"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2603.30004v1",
+    "title": "From Patterns to Policy: A Scoping Review Based on Bibliometric Analysis (ScoRBA) of Intelligent and Secure Smart Hospital Ecosystems",
+    "authors": [
+      "Adi Wijaya",
+      "Budi Hermawan",
+      "Wiga Maulana Baihaqi",
+      "Catur Supriyanto"
+    ],
+    "abstract": "This study examines the evolution of Intelligent and Secure Smart Hospital Ecosystems using a Scoping Review with Bibliometric Analysis (ScoRBA) to map research patterns, identify gaps, and derive policy implications. Analyzing 891 journal articles from Scopus (2006-2025) through co-occurrence analysis, network visualization, overlay analysis, and the Enhanced Strategic Diagram (ESD), the study applies the PAGER framework to link Patterns, Advances, Gaps, Research directions, and Evidence-based policy implications. Findings reveal three interrelated clusters: AI-driven intelligent healthcare systems, decentralized privacy-preserving digital health ecosystems, and scalable cloud-edge infrastructures, showing a convergence toward integrated ecosystem architectures where intelligence, trust, and infrastructure reinforce each other. Despite progress in AI, blockchain, and cloud computing, gaps remain in interoperability, real-world implementation, governance, and cross-layer integration. Emerging themes such as explainable AI, federated learning, and privacy mechanisms highlight areas needing further research. Policy-relevant recommendations focus on coordinated governance, scalable infrastructure, and secure data ecosystems, particularly for developing country contexts. The study bridges bibliometric evidence with actionable policies, supporting informed decision-making in smart hospital development.",
+    "url": "http://arxiv.org/abs/2603.30004v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.30004v1",
+    "published": "2026-03-31",
+    "categories": [
+      "q-bio.NC",
+      "cs.CY"
+    ],
+    "primary_category": "q-bio.NC",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.02022v1",
+    "title": "ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety",
+    "authors": [
+      "Yu Li",
+      "Haoyu Luo",
+      "Yuejin Xie",
+      "Yuqian Fu",
+      "Zhonghao Yang"
+    ],
+    "abstract": "Evaluating the safety of LLM-based agents is increasingly important because risks in realistic deployments often emerge over multi-step interactions rather than isolated prompts or final responses. Existing trajectory-level benchmarks remain limited by insufficient interaction diversity, coarse observability of safety failures, and weak long-horizon realism. We introduce ATBench, a trajectory-level benchmark for structured, diverse, and realistic evaluation of agent safety. ATBench organizes agentic risk along three dimensions: risk source, failure mode, and real-world harm. Based on this taxonomy, we construct trajectories with heterogeneous tool pools and a long-context delayed-trigger protocol that captures realistic risk emergence across multiple stages. The benchmark contains 1,000 trajectories (503 safe and 497 unsafe), averaging 9.01 turns and 3.95k tokens, with 1,954 invoked tools drawn from pools spanning 2,084 available tools. Data quality is supported by rule-based and LLM-based filtering plus full human audit. Experiments on frontier LLMs, open-source models, and specialized guard systems show that ATBench is challenging even for strong evaluators, while enabling taxonomy-stratified analysis, cross-benchmark comparison, and diagnosis of long-horizon failure patterns.",
+    "url": "http://arxiv.org/abs/2604.02022v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.02022v1",
+    "published": "2026-04-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.01532v1",
+    "title": "PHMForge: A Scenario-Driven Agentic Benchmark for Industrial Asset Lifecycle Maintenance",
+    "authors": [
+      "Ayan Das",
+      "Dhaval Patel"
+    ],
+    "abstract": "Large language model (LLM) agents are increasingly deployed for complex tool-orchestration tasks, yet existing benchmarks fail to capture the rigorous demands of industrial domains where incorrect decisions carry significant safety and financial consequences. To address this critical gap, we introduce PHMForge, the first comprehensive benchmark specifically designed to evaluate LLM agents on Prognostics and Health Management (PHM) tasks through realistic interactions with domain-specific MCP servers. Our benchmark encompasses 75 expert-curated scenarios spanning 7 industrial asset classes (turbofan engines, bearings, electric motors, gearboxes, aero-engines) across 5 core task categories: Remaining Useful Life (RUL) Prediction, Fault Classification, Engine Health Analysis, Cost-Benefit Analysis, and Safety/Policy Evaluation. To enable rigorous evaluation, we construct 65 specialized tools across two MCP servers and implement execution-based evaluators with task-commensurate metrics: MAE/RMSE for regression, F1-score for classification, and categorical matching for health assessments. Through extensive evaluation of leading frameworks (ReAct, Cursor Agent, Claude Code) paired with frontier LLMs (Claude Sonnet 4.0, GPT-4o, Granite-3.0-8B), we find that even top-performing configurations achieve only 68\\% task completion, with systematic failures in tool orchestration (23\\% incorrect sequencing), multi-asset reasoning (14.9 percentage point degradation), and cross-equipment generalization (42.7\\% on held-out datasets). We open-source our complete benchmark, including scenario specifications, ground truth templates, tool implementations, and evaluation scripts, to catalyze research in agentic industrial AI.",
+    "url": "http://arxiv.org/abs/2604.01532v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01532v1",
+    "published": "2026-04-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.01527v1",
+    "title": "ProdCodeBench: A Production-Derived Benchmark for Evaluating AI Coding Agents",
+    "authors": [
+      "Smriti Jha",
+      "Matteo Paltenghi",
+      "Chandra Maddila",
+      "Vijayaraghavan Murali",
+      "Shubham Ugare"
+    ],
+    "abstract": "Benchmarks that reflect production workloads are better for evaluating AI coding agents in industrial settings, yet existing benchmarks differ from real usage in programming language distribution, prompt style and codebase structure. This paper presents a methodology for curating production-derived benchmarks, illustrated through ProdCodeBench - a benchmark built from real sessions with a production AI coding assistant. We detail our data collection and curation practices including LLM-based task classification, test relevance validation, and multi-run stability checks which address challenges in constructing reliable evaluation signals from monorepo environments. Each curated sample consists of a verbatim prompt, a committed code change and fail-to-pass tests spanning seven programming languages. Our systematic analysis of four foundation models yields solve rates from 53.2% to 72.2% revealing that models making greater use of work validation tools, such as executing tests and invoking static analysis, achieve higher solve rates. This suggests that iterative verification helps achieve effective agent behavior and that exposing codebase-specific verification mechanisms may significantly improve the performance of externally trained agents operating in unfamiliar environments. We share our methodology and lessons learned to enable other organizations to construct similar production-derived benchmarks.",
+    "url": "http://arxiv.org/abs/2604.01527v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01527v1",
+    "published": "2026-04-02",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.01508v1",
+    "title": "ToolMisuseBench: An Offline Deterministic Benchmark for Tool Misuse and Recovery in Agentic Systems",
+    "authors": [
+      "Akshey Sigdel",
+      "Rista Baral"
+    ],
+    "abstract": "Tool using agents often fail for operational reasons even when language understanding is strong. Common causes include invalid arguments, interface drift, weak recovery, and inefficient retry behavior. We introduce ToolMisuseBench, an offline deterministic benchmark for evaluating tool misuse and recovery under explicit step, call, and retry budgets. The benchmark covers CRUD, retrieval, file, and scheduling environments with replayable fault injection. It reports success, invalid call behavior, policy violations, recovery quality, and budgeted efficiency. We release a public dataset with 6800 tasks and a reproducible evaluation pipeline. Baseline results show fault specific recovery gains for schema aware methods, while overall success remains limited under the released authorization and hard failure settings.",
+    "url": "http://arxiv.org/abs/2604.01508v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01508v1",
+    "published": "2026-04-02",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.01221v1",
+    "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+    "authors": [
+      "Zhe Yang",
+      "Shulin Tian",
+      "Kairui Hu",
+      "Shuai Liu",
+      "Hoang-Nhat Nguyen"
+    ],
+    "abstract": "We present HippoCamp, a new benchmark designed to evaluate agents' capabilities on multimodal file management. Unlike existing agent benchmarks that focus on tasks like web interaction, tool use, or software automation in generic settings, HippoCamp evaluates agents in user-centric environments to model individual user profiles and search massive personal files for context-aware reasoning. Our benchmark instantiates device-scale file systems over real-world profiles spanning diverse modalities, comprising 42.4 GB of data across over 2K real-world files. Building upon the raw files, we construct 581 QA pairs to assess agents' capabilities in search, evidence perception, and multi-step reasoning. To facilitate fine-grained analysis, we provide 46.1K densely annotated structured trajectories for step-wise failure diagnosis. We evaluate a wide range of state-of-the-art multimodal large language models (MLLMs) and agentic methods on HippoCamp. Our comprehensive experiments reveal a significant performance gap: even the most advanced commercial models achieve only 48.3% accuracy in user profiling, struggling particularly with long-horizon retrieval and cross-modal reasoning within dense personal file systems. Furthermore, our step-wise failure diagnosis identifies multimodal perception and evidence grounding as the primary bottlenecks. Ultimately, HippoCamp exposes the critical limitations of current agents in realistic, user-centric environments and provides a robust foundation for developing next-generation personal AI assistants.",
+    "url": "http://arxiv.org/abs/2604.01221v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01221v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.01212v1",
+    "title": "$\\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
+    "authors": [
+      "Muyu He",
+      "Adit Jain",
+      "Anand Kumar",
+      "Vincent Tu",
+      "Soumyadeep Bakshi"
+    ],
+    "abstract": "As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback, and adapting when early mistakes compound. We introduce $\\texttt{YC-Bench}$, a benchmark that evaluates these capabilities by tasking an agent with running a simulated startup over a one-year horizon spanning hundreds of turns. The agent must manage employees, select task contracts, and maintain profitability in a partially observable environment where adversarial clients and growing payroll create compounding consequences for poor decisions. We evaluate 12 models, both proprietary and open source, across 3 seeds each. Only three models consistently surpass the starting capital of \\$200K, with Claude Opus 4.6 achieving the highest average final funds at \\$1.27 M, followed by GLM-5 at \\$1.21 M at 11$\\times$ lower inference cost. Scratchpad usage, the sole mechanism for persisting information across context truncation, is the strongest predictor of success, and adversarial client detection is the primary failure mode, accounting for $47\\%$ of bankruptcies. Our analysis reveals that frontier models still fail through distinct failure modes such as over-parallelization, demonstrating the capability gaps for long-horizon performance. $\\texttt{YC-Bench}$ is open-source, reproducible, and configurable.",
+    "url": "http://arxiv.org/abs/2604.01212v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01212v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.00594v1",
+    "title": "Agent psychometrics: Task-level performance prediction in agentic coding benchmarks",
+    "authors": [
+      "Chris Ge",
+      "Daria Kryvosheieva",
+      "Daniel Fried",
+      "Uzay Girit",
+      "Kaivalya Hariharan"
+    ],
+    "abstract": "As the focus in LLM-based coding shifts from static single-step code generation to multi-step agentic interaction with tools and environments, understanding which tasks will challenge agents and why becomes increasingly difficult. This is compounded by current practice: agent performance is typically measured by aggregate pass rates on benchmarks, but single-number metrics obscure the diversity of tasks within a benchmark. We present a framework for predicting success or failure on individual tasks tailored to the agentic coding regime. Our approach augments Item Response Theory (IRT) with rich features extracted from tasks, including issue statements, repository contexts, solutions, and test cases, and introduces a novel decomposition of agent ability into LLM and scaffold ability components. This parameterization enables us to aggregate evaluation data across heterogeneous leaderboards and accurately predict task-level performance for unseen benchmarks, as well as unseen LLM-scaffold combinations. Our methods have practical utility for benchmark designers, who can better calibrate the difficulty of their new tasks without running computationally expensive agent evaluations.",
+    "url": "http://arxiv.org/abs/2604.00594v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00594v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.00284v1",
+    "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
+    "authors": [
+      "Gaurav Rajesh Parikh",
+      "Angikar Ghosal"
+    ],
+    "abstract": "We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. Playing Connections combines skills in knowledge retrieval, summarization and awareness of cognitive states of other agents. We show how the game serves as a good benchmark for social intelligence abilities of language model based agents that go beyond the agents' own memory and deductive reasoning and also involve gauging the understanding capabilities of other agents. Finally, we show how through communication with other agents in a constrained environment, AI agents must demonstrate social awareness and intelligence in games involving collaboration.",
+    "url": "http://arxiv.org/abs/2604.00284v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.00284v1",
+    "published": "2026-03-31",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.01437v1",
+    "title": "Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering",
+    "authors": [
+      "Jingyue Li",
+      "André Storhaug"
+    ],
+    "abstract": "With the advancement of Agentic AI, researchers are increasingly leveraging autonomous agents to address challenges in software engineering (SE). However, the large language models (LLMs) that underpin these agents often function as black boxes, making it difficult to justify the superiority of Agentic AI approaches over baselines. Furthermore, missing information in the evaluation design description frequently renders the reproduction of results infeasible. To synthesize current evaluation practices for Agentic AI in SE, this study analyzes 18 papers on the topic, published or accepted by ICSE 2026, ICSE 2025, FSE 2025, ASE 2025, and ISSTA 2025. The analysis identifies prevailing approaches and their limitations in evaluating Agentic AI for SE, both in current research and potential future studies. To address these shortcomings, this position paper proposes a set of guidelines and recommendations designed to empower reproducible, explainable, and effective evaluations of Agentic AI in software engineering. In particular, we recommend that Agentic AI researchers make their Thought-Action-Result (TAR) trajectories and LLM interaction data, or summarized versions of these artifacts, publicly accessible. Doing so will enable subsequent studies to more effectively analyze the strengths and weaknesses of different Agentic AI approaches. To demonstrate the feasibility of such comparisons, we present a proof-of-concept case study that illustrates how TAR trajectories can support systematic analysis across approaches.",
+    "url": "http://arxiv.org/abs/2604.01437v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01437v1",
+    "published": "2026-04-01",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

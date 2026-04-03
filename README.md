@@ -24,6 +24,55 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-03
+
+**20 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CliffSearch: Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery](http://arxiv.org/abs/2604.01210v1) | Youssef Mroueh, Carlos Fonseca, Brian Belgodere et al. | Scientific algorithm discovery is iterative: hypotheses are proposed, implemented, stress-tested, and revised. |
+| [BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery](http://arxiv.org/abs/2604.00550v1) | Yao Qin, Yangyang Yan, Jinhua Pang et al. | The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of "AI Scientists." However, translating these theoretical capabilities into deployment-ready resear... |
+| [PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor](http://arxiv.org/abs/2604.00931v2) | Yutao Yang, Junsong Li, Qianjun Pan et al. | Existing methods for AI psychological counselors predominantly rely on supervised fine-tuning using static dialogue datasets. |
+| [Experience as a Compass: Multi-agent RAG with Evolving Orchestration and Agent Prompts](http://arxiv.org/abs/2604.00901v1) | Sha Li, Naren Ramakrishnan | Multi-agent Retrieval-Augmented Generation (RAG), wherein each agent takes on a specific role, supports hard queries that require multiple steps and sources, or complex reasoning. |
+| [LLM Agents as Social Scientists: A Human-AI Collaborative Platform for Social Science Automation](http://arxiv.org/abs/2604.01520v1) | Lei Wang, Yuanzi Li, Jinchao Wu et al. | Traditional social science research often requires designing complex experiments across vast methodological spaces and depends on real human participants, making it labor-intensive, costly, and dif... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Multi-Agent Human-LLM Collaborative Framework for Closed-Loop Scientific Literature Summarization](http://arxiv.org/abs/2604.01452v1) | Maxwell J. Jacobson, Daniel Xie, Jackson Shen et al. | Scientific discovery is slowed by fragmented literature that requires excessive human effort to gather, analyze, and understand. |
+| [Agentic Tool Use in Large Language Models](http://arxiv.org/abs/2604.00835v1) | Jinchao Hu, Meizhi Zhong, Kehai Chen et al. | Large language models are increasingly being deployed as autonomous agents yet their real world effectiveness depends on reliable tools for information retrieval, computation and external action. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Empirical Study of Multi-Agent Collaboration for Automated Research](http://arxiv.org/abs/2603.29632v1) | Yang Shen, Zhenyi Yi, Ziyi Zhao et al. | As AI agents evolve, the community is rapidly shifting from single Large Language Models (LLMs) to Multi-Agent Systems (MAS) to overcome cognitive bottlenecks in automated research. |
+| [A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation](http://arxiv.org/abs/2604.00249v1) | Ha Na Cho | Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do We Need Bigger Models for Science? Task-Aware Retrieval with Small Language Models](http://arxiv.org/abs/2604.01965v1) | Florian Kelber, Matthias Jobst, Yuni Susanti et al. | Scientific knowledge discovery increasingly relies on large language models, yet many existing scholarly assistants depend on proprietary systems with tens or hundreds of billions of parameters. |
+| [From Patterns to Policy: A Scoping Review Based on Bibliometric Analysis (ScoRBA) of Intelligent and Secure Smart Hospital Ecosystems](http://arxiv.org/abs/2603.30004v1) | Adi Wijaya, Budi Hermawan, Wiga Maulana Baihaqi et al. | This study examines the evolution of Intelligent and Secure Smart Hospital Ecosystems using a Scoping Review with Bibliometric Analysis (ScoRBA) to map research patterns, identify gaps, and derive ... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety](http://arxiv.org/abs/2604.02022v1) | Yu Li, Haoyu Luo, Yuejin Xie et al. | Evaluating the safety of LLM-based agents is increasingly important because risks in realistic deployments often emerge over multi-step interactions rather than isolated prompts or final responses. |
+| [PHMForge: A Scenario-Driven Agentic Benchmark for Industrial Asset Lifecycle Maintenance](http://arxiv.org/abs/2604.01532v1) | Ayan Das, Dhaval Patel | Large language model (LLM) agents are increasingly deployed for complex tool-orchestration tasks, yet existing benchmarks fail to capture the rigorous demands of industrial domains where incorrect ... |
+| [ProdCodeBench: A Production-Derived Benchmark for Evaluating AI Coding Agents](http://arxiv.org/abs/2604.01527v1) | Smriti Jha, Matteo Paltenghi, Chandra Maddila et al. | Benchmarks that reflect production workloads are better for evaluating AI coding agents in industrial settings, yet existing benchmarks differ from real usage in programming language distribution, ... |
+| [ToolMisuseBench: An Offline Deterministic Benchmark for Tool Misuse and Recovery in Agentic Systems](http://arxiv.org/abs/2604.01508v1) | Akshey Sigdel, Rista Baral | Tool using agents often fail for operational reasons even when language understanding is strong. Common causes include invalid arguments, interface drift, weak recovery, and inefficient retry behav... |
+| [HippoCamp: Benchmarking Contextual Agents on Personal Computers](http://arxiv.org/abs/2604.01221v1) | Zhe Yang, Shulin Tian, Kairui Hu et al. | We present HippoCamp, a new benchmark designed to evaluate agents' capabilities on multimodal file management. |
+| [$\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution](http://arxiv.org/abs/2604.01212v1) | Muyu He, Adit Jain, Anand Kumar et al. | As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback,... |
+| [Agent psychometrics: Task-level performance prediction in agentic coding benchmarks](http://arxiv.org/abs/2604.00594v1) | Chris Ge, Daria Kryvosheieva, Daniel Fried et al. | As the focus in LLM-based coding shifts from static single-step code generation to multi-step agentic interaction with tools and environments, understanding which tasks will challenge agents and wh... |
+| [Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections](http://arxiv.org/abs/2604.00284v1) | Gaurav Rajesh Parikh, Angikar Ghosal | We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. |
+| [Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering](http://arxiv.org/abs/2604.01437v1) | Jingyue Li, André Storhaug | With the advancement of Agentic AI, researchers are increasingly leveraging autonomous agents to address challenges in software engineering (SE). |
+
 ### 📅 2026-04-02
 
 **7 new papers found**
