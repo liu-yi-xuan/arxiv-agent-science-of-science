@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-06
+
+**2 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Self-Optimizing Multi-Agent Systems for Deep Research](http://arxiv.org/abs/2604.02988v1) | Arthur Câmara, Vincent Slot, Jakub Zavrel | Given a user's complex information need, a multi-agent Deep Research system iteratively plans, retrieves, and synthesizes evidence across hundreds of documents to produce a high-quality answer. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents](http://arxiv.org/abs/2604.02947v1) | Yunhao Feng, Yifan Ding, Yingshui Tan et al. | Computer-use agents extend language models from text generation to persistent action over tools, files, and execution environments. |
+
 ### 📅 2026-04-05
 
 *No new papers found today.*
