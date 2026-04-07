@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2604.04847v1",
+    "title": "Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency",
+    "authors": [
+      "Guan-Ting Lin",
+      "Chen Chen",
+      "Zhehuai Chen",
+      "Hung-yi Lee"
+    ],
+    "abstract": "We introduce Full-Duplex-Bench-v3 (FDB-v3), a benchmark for evaluating spoken language models under naturalistic speech conditions and multi-step tool use. Unlike prior work, our dataset consists entirely of real human audio annotated for five disfluency categories, paired with scenarios requiring chained API calls across four task domains. We evaluate six model configurations -- GPT-Realtime, Gemini Live 2.5, Gemini Live 3.1, Grok, Ultravox v0.7, and a traditional Cascaded pipeline (Whisper$\\rightarrow$GPT-4o$\\rightarrow$TTS) -- across accuracy, latency, and turn-taking dimensions. GPT-Realtime leads on Pass@1 (0.600) and interruption avoidance (13.5\\%); Gemini Live 3.1 achieves the fastest latency (4.25~s) but the lowest turn-take rate (78.0\\%); and the Cascaded baseline, despite a perfect turn-take rate, incurs the highest latency (10.12~s). Across all systems, self-correction handling and multi-step reasoning under hard scenarios remain the most consistent failure modes.",
+    "url": "http://arxiv.org/abs/2604.04847v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.04847v1",
+    "published": "2026-04-06",
+    "categories": [
+      "eess.AS",
+      "cs.CL"
+    ],
+    "primary_category": "eess.AS",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.04017v1",
+    "title": "GeoBrowse: A Geolocation Benchmark for Agentic Tool Use with Expert-Annotated Reasoning Traces",
+    "authors": [
+      "Xinyu Geng",
+      "Yanjing Xiao",
+      "Yuyang Zhang",
+      "Hanwen Wang",
+      "Xinyan Liu"
+    ],
+    "abstract": "Deep research agents integrate fragmented evidence through multi-step tool use. BrowseComp offers a text-only testbed for such agents, but existing multimodal benchmarks rarely require both weak visual cues composition and BrowseComp-style multi-hop verification. Geolocation is a natural testbed because answers depend on combining multiple ambiguous visual cues and validating them with open-web evidence. Thus, we introduce GeoBrowse, a geolocation benchmark that combines visual reasoning with knowledge-intensive multi-hop queries. Level 1 tests extracting and composing fragmented visual cues, and Level 2 increases query difficulty by injecting long-tail knowledge and obfuscating key entities. To support evaluation, we provide an agentic workflow GATE with five think-with-image tools and four knowledge-intensive tools, and release expert-annotated stepwise traces grounded in verifiable evidence for trajectory-level analysis. Experiments show that GATE outperforms direct inference and open-source agents, indicating that no-tool, search-only or image-only setups are insufficient. Gains come from coherent, level-specific tool-use plans rather than more tool calls, as they more reliably reach annotated key evidence steps and make fewer errors when integrating into the final decision. The GeoBrowse bernchmark and codes are provided in https://github.com/ornamentt/GeoBrowse",
+    "url": "http://arxiv.org/abs/2604.04017v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.04017v1",
+    "published": "2026-04-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  }
+]

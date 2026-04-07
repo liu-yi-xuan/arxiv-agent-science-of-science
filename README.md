@@ -24,6 +24,17 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-07
+
+**2 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency](http://arxiv.org/abs/2604.04847v1) | Guan-Ting Lin, Chen Chen, Zhehuai Chen et al. | We introduce Full-Duplex-Bench-v3 (FDB-v3), a benchmark for evaluating spoken language models under naturalistic speech conditions and multi-step tool use. |
+| [GeoBrowse: A Geolocation Benchmark for Agentic Tool Use with Expert-Annotated Reasoning Traces](http://arxiv.org/abs/2604.04017v1) | Xinyu Geng, Yanjing Xiao, Yuyang Zhang et al. | Deep research agents integrate fragmented evidence through multi-step tool use. BrowseComp offers a text-only testbed for such agents, but existing multimodal benchmarks rarely require both weak vi... |
+
 ### 📅 2026-04-06
 
 **2 new papers found**
