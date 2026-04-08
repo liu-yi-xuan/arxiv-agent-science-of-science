@@ -24,6 +24,36 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-08
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Experience Transfer for Multimodal LLM Agents in Minecraft Game](http://arxiv.org/abs/2604.05533v1) | Chenghao Li, Jun Liu, Songbo Zhang et al. | Multimodal LLM agents operating in complex game environments must continually reuse past experience to solve new tasks efficiently. |
+| [MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library](http://arxiv.org/abs/2604.05458v1) | Md Shamimul Islam, Luis G. Jaimes, Ayesha S. Dina | Network Intrusion Detection Systems (NIDS) face important limitations. Signature-based methods are effective for known attack patterns, but they struggle to detect zero-day attacks and often miss m... |
+| [Decocted Experience Improves Test-Time Inference in LLM Agents](http://arxiv.org/abs/2604.04373v1) | Maohao Shen, Kaiwen Zha, Zexue He et al. | There is growing interest in improving LLMs without updating model parameters. One well-established direction is test-time scaling, where increased inference-time computation (e.g., longer reasonin... |
+| [Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring](http://arxiv.org/abs/2604.05854v1) | Xiangyue Zhang | We present \textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing](http://arxiv.org/abs/2604.05018v1) | Yiwen Song, Yale Song, Tomas Pfister et al. | Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. |
+| [Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency](http://arxiv.org/abs/2604.04847v1) | Guan-Ting Lin, Chen Chen, Zhehuai Chen et al. | We introduce Full-Duplex-Bench-v3 (FDB-v3), a benchmark for evaluating spoken language models under naturalistic speech conditions and multi-step tool use. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework](http://arxiv.org/abs/2604.06170v1) | Komal Kumar, Aman Chadha, Salman Khan et al. | The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. |
+| [EpiBench: Benchmarking Multi-turn Research Workflows for Multimodal Agents](http://arxiv.org/abs/2604.05557v1) | Xuan Dong, Huanyang Zheng, Tianhao Niu et al. | Scientific research follows multi-turn, multi-step workflows that require proactively searching the literature, consulting figures and tables, and integrating evidence across papers to align experi... |
+| [MMORF: A Multi-agent Framework for Designing Multi-objective Retrosynthesis Planning Systems](http://arxiv.org/abs/2604.05075v1) | Frazier N. Baker, Trieu Nguyen, Reza Averly et al. | Multi-objective retrosynthesis planning is a critical chemistry task requiring dynamic balancing of quality, safety, and cost objectives. |
+| [ROSClaw: A Hierarchical Semantic-Physical Framework for Heterogeneous Multi-Agent Collaboration](http://arxiv.org/abs/2604.04664v1) | Rongfeng Zhao, Xuanhao Zhang, Zhaochen Guo et al. | The integration of large language models (LLMs) with embodied agents has improved high-level reasoning capabilities; however, a critical gap remains between semantic understanding and physical exec... |
+| [Human Values Matter: Investigating How Misalignment Shapes Collective Behaviors in LLM Agent Communities](http://arxiv.org/abs/2604.05339v1) | Xiangxu Zhang, Jiamin Wang, Qinlin Zhao et al. | As LLMs become increasingly integrated into human society, evaluating their orientations on human values from social science has drawn growing attention. |
+
 ### 📅 2026-04-07
 
 **2 new papers found**
