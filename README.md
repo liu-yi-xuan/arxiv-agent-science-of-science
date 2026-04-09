@@ -24,6 +24,27 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-09
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Experience Transfer for Multimodal LLM Agents in Minecraft Game](http://arxiv.org/abs/2604.05533v1) | Chenghao Li, Jun Liu, Songbo Zhang et al. | Multimodal LLM agents operating in complex game environments must continually reuse past experience to solve new tasks efficiently. |
+| [MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library](http://arxiv.org/abs/2604.05458v1) | Md Shamimul Islam, Luis G. Jaimes, Ayesha S. Dina | Network Intrusion Detection Systems (NIDS) face important limitations. Signature-based methods are effective for known attack patterns, but they struggle to detect zero-day attacks and often miss m... |
+| [Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring](http://arxiv.org/abs/2604.05854v1) | Xiangyue Zhang | We present \textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing](http://arxiv.org/abs/2604.05018v1) | Yiwen Song, Yale Song, Tomas Pfister et al. | Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. |
+| [Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency](http://arxiv.org/abs/2604.04847v1) | Guan-Ting Lin, Chen Chen, Zhehuai Chen et al. | We introduce Full-Duplex-Bench-v3 (FDB-v3), a benchmark for evaluating spoken language models under naturalistic speech conditions and multi-step tool use. |
+| [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](http://arxiv.org/abs/2604.07189v1) | Jia Yu, Weiwei Yu, Pengfei Xiao et al. | Corpus linguistics has traditionally relied on human researchers to formulate hypotheses, construct queries, and interpret results - a process demanding specialized technical skills and considerabl... |
+| [From Perception to Autonomous Computational Modeling: A Multi-Agent Approach](http://arxiv.org/abs/2604.06788v1) | Daniel N. Wilke | We present a solver-agnostic framework in which coordinated large language model (LLM) agents autonomously execute the complete computational mechanics workflow, from perceptual data of an engineer... |
+
 ### 📅 2026-04-08
 
 **11 new papers found**

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "2604.05533v1",
+    "title": "Experience Transfer for Multimodal LLM Agents in Minecraft Game",
+    "authors": [
+      "Chenghao Li",
+      "Jun Liu",
+      "Songbo Zhang",
+      "Huadong Jian",
+      "Hao Ni"
+    ],
+    "abstract": "Multimodal LLM agents operating in complex game environments must continually reuse past experience to solve new tasks efficiently. In this work, we propose Echo, a transfer-oriented memory framework that enables agents to derive actionable knowledge from prior interactions rather than treating memory as a passive repository of static records. To make transfer explicit, Echo decomposes reusable knowledge into five dimensions: structure, attribute, process, function, and interaction. This formulation allows the agent to identify recurring patterns shared across different tasks and infer what prior experience remains applicable in new situations. Building on this formulation, Echo leverages In-Context Analogy Learning (ICAL) to retrieve relevant experiences and adapt them to unseen tasks through contextual examples. Experiments in Minecraft show that, under a from-scratch learning setting, Echo achieves a 1.3x to 1.7x speed-up on object-unlocking tasks. Moreover, Echo exhibits a burst-like chain-unlocking phenomenon, rapidly unlocking multiple similar items within a short time interval after acquiring transferable experience. These results suggest that experience transfer is a promising direction for improving the efficiency and adaptability of multimodal LLM agents in complex interactive environments.",
+    "url": "http://arxiv.org/abs/2604.05533v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.05533v1",
+    "published": "2026-04-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.05458v1",
+    "title": "MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library",
+    "authors": [
+      "Md Shamimul Islam",
+      "Luis G. Jaimes",
+      "Ayesha S. Dina"
+    ],
+    "abstract": "Network Intrusion Detection Systems (NIDS) face important limitations. Signature-based methods are effective for known attack patterns, but they struggle to detect zero-day attacks and often miss modified variants of previously known attacks, while many machine learning approaches offer limited interpretability. These challenges become even more severe in IoT environments because of resource constraints and heterogeneous protocols. To address these issues, we propose MA-IDS, a Multi-Agent Intrusion Detection System that combines Large Language Models (LLMs) with Retrieval Augmented Generation (RAG) for reasoning-driven intrusion detection. The proposed framework grounds LLM reasoning through a persistent, self-building Experience Library. Two specialized agents collaborate through a FAISS-based vector database: a Traffic Classification Agent that retrieves past error rules before each inference, and an Error Analysis Agent that converts misclassifications into human-readable detection rules stored for future retrieval, enabling continual learning through external knowledge accumulation, without modifying the underlying language model. Evaluated on NF-BoT-IoT and NF-ToN-IoT benchmark datasets, MA-IDS achieves Macro F1-Scores of 89.75% and 85.22%, improving over zero-shot baselines of 17% and 4.96% by more than 72 and 80 percentage points. These results are competitive with SVM while providing rule-level explanations for every classification decision, demonstrating that retrieval-augmented reasoning offers a principled path toward explainable, self-improving intrusion detection for IoT networks.",
+    "url": "http://arxiv.org/abs/2604.05458v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.05458v1",
+    "published": "2026-04-07",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.05854v1",
+    "title": "Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring",
+    "authors": [
+      "Xiangyue Zhang"
+    ],
+    "abstract": "We present \\textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. Unlike existing AI research assistants that focus on paper writing or code generation, our system addresses the full experiment lifecycle: hypothesis formation, code implementation, training execution, result analysis, and iterative refinement. The framework introduces three key innovations: (1) \\textbf{Zero-Cost Monitoring} -- a monitoring paradigm that incurs zero LLM API costs during model training by relying solely on process-level checks and log file reads; (2) \\textbf{Two-Tier Constant-Size Memory} -- a memory architecture capped at $\\sim$5K characters regardless of runtime duration, preventing the unbounded context growth that plagues long-running agents; and (3) \\textbf{Minimal-Toolset Leader-Worker Architecture} -- a multi-agent design where each worker agent is equipped with only 3--5 tools, reducing per-call token overhead by up to 73\\%. In sustained deployments spanning 30+ days, the framework autonomously completed 500+ experiment cycles across four concurrent research projects, achieving a 52\\% improvement over baseline metrics in one project through 200+ automated experiments -- all at an average LLM cost of \\$0.08 per 24-hour cycle. Code is available at https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7.",
+    "url": "http://arxiv.org/abs/2604.05854v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.05854v1",
+    "published": "2026-04-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.05018v1",
+    "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+    "authors": [
+      "Yiwen Song",
+      "Yale Song",
+      "Tomas Pfister",
+      "Jinsung Yoon"
+    ],
+    "abstract": "Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial literature reviews. We introduce PaperOrchestra, a multi-agent framework for automated AI research paper writing. It flexibly transforms unconstrained pre-writing materials into submission-ready LaTeX manuscripts, including comprehensive literature synthesis and generated visuals, such as plots and conceptual diagrams. To evaluate performance, we present PaperWritingBench, the first standardized benchmark of reverse-engineered raw materials from 200 top-tier AI conference papers, alongside a comprehensive suite of automated evaluators. In side-by-side human evaluations, PaperOrchestra significantly outperforms autonomous baselines, achieving an absolute win rate margin of 50%-68% in literature review quality, and 14%-38% in overall manuscript quality.",
+    "url": "http://arxiv.org/abs/2604.05018v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.05018v1",
+    "published": "2026-04-06",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.04847v1",
+    "title": "Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency",
+    "authors": [
+      "Guan-Ting Lin",
+      "Chen Chen",
+      "Zhehuai Chen",
+      "Hung-yi Lee"
+    ],
+    "abstract": "We introduce Full-Duplex-Bench-v3 (FDB-v3), a benchmark for evaluating spoken language models under naturalistic speech conditions and multi-step tool use. Unlike prior work, our dataset consists entirely of real human audio annotated for five disfluency categories, paired with scenarios requiring chained API calls across four task domains. We evaluate six model configurations -- GPT-Realtime, Gemini Live 2.5, Gemini Live 3.1, Grok, Ultravox v0.7, and a traditional Cascaded pipeline (Whisper$\\rightarrow$GPT-4o$\\rightarrow$TTS) -- across accuracy, latency, and turn-taking dimensions. GPT-Realtime leads on Pass@1 (0.600) and interruption avoidance (13.5\\%); Gemini Live 3.1 achieves the fastest latency (4.25~s) but the lowest turn-take rate (78.0\\%); and the Cascaded baseline, despite a perfect turn-take rate, incurs the highest latency (10.12~s). Across all systems, self-correction handling and multi-step reasoning under hard scenarios remain the most consistent failure modes.",
+    "url": "http://arxiv.org/abs/2604.04847v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.04847v1",
+    "published": "2026-04-06",
+    "categories": [
+      "eess.AS",
+      "cs.CL"
+    ],
+    "primary_category": "eess.AS",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.07189v1",
+    "title": "Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery",
+    "authors": [
+      "Jia Yu",
+      "Weiwei Yu",
+      "Pengfei Xiao",
+      "Fukun Xing"
+    ],
+    "abstract": "Corpus linguistics has traditionally relied on human researchers to formulate hypotheses, construct queries, and interpret results - a process demanding specialized technical skills and considerable time. We propose Agent-Driven Corpus Linguistics, an approach in which a large language model (LLM), connected to a corpus query engine via a structured tool-use interface, takes over the investigative cycle: generating hypotheses, querying the corpus, interpreting results, and refining analysis across multiple rounds. The human researcher sets direction and evaluates final output. Unlike unconstrained LLM generation, every finding is anchored in verifiable corpus evidence. We treat this not as a replacement for the corpus-based/corpus-driven distinction but as a complementary dimension: it concerns who conducts the inquiry, not the epistemological relationship between theory and data. We demonstrate the framework by linking an LLM agent to a CQP-indexed Gutenberg corpus (5 million tokens) via the Model Context Protocol (MCP). Given only \"investigate English intensifiers,\" the agent identified a diachronic relay chain (so+ADJ > very > really), three pathways of semantic change (delexicalization, polarity fixation, metaphorical constraint), and register-sensitive distributions. A controlled baseline experiment shows that corpus grounding contributes quantification and falsifiability that the model cannot produce from training data alone. To test external validity, the agent replicated two published studies on the CLMET corpus (40 million tokens) - Claridge (2025) and De Smet (2013) - with close quantitative agreement. Agent-driven corpus research can thus produce empirically grounded findings at machine speed, lowering the technical barrier for a broader range of researchers.",
+    "url": "http://arxiv.org/abs/2604.07189v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.07189v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.06788v1",
+    "title": "From Perception to Autonomous Computational Modeling: A Multi-Agent Approach",
+    "authors": [
+      "Daniel N. Wilke"
+    ],
+    "abstract": "We present a solver-agnostic framework in which coordinated large language model (LLM) agents autonomously execute the complete computational mechanics workflow, from perceptual data of an engineering component through geometry extraction, material inference, discretisation, solver execution, uncertainty quantification, and code-compliant assessment, to an engineering report with actionable recommendations. Agents are formalised as conditioned operators on a shared context space with quality gates that introduce conditional iteration between pipeline layers. We introduce a mathematical framework for extracting engineering information from perceptual data under uncertainty using interval bounds, probability densities, and fuzzy membership functions, and introduce task-dependent conservatism to resolve the ambiguity of what `conservative' means when different limit states are governed by opposing parameter trends. The framework is demonstrated through a finite element analysis pipeline applied to a photograph of a steel L-bracket, producing a 171,504-node tetrahedral mesh, seven analyses across three boundary condition hypotheses, and a code-compliant assessment revealing structural failure with a quantified redesign. All results are presented as generated in the first autonomous iteration without manual correction, reinforcing that a professional engineer must review and sign off on any such analysis.",
+    "url": "http://arxiv.org/abs/2604.06788v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.06788v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.CE",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CE",
+    "our_category": "Research Workflow Agents"
+  }
+]
