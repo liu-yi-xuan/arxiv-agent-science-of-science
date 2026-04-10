@@ -1,0 +1,253 @@
+[
+  {
+    "id": "2604.08491v1",
+    "title": "Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery",
+    "authors": [
+      "Yifang Wang",
+      "Rui Sheng",
+      "Erzhuo Shao",
+      "Yifan Qian",
+      "Haotian Li"
+    ],
+    "abstract": "Large language models (LLMs) are transforming scientific workflows, not only through their generative capabilities but also through their emerging ability to use tools, reason about data, and coordinate complex analytical tasks. Yet in most human-AI collaborations, the primary outputs, figures, are still treated as static visual summaries: once rendered, they are handled by both humans and multimodal LLMs as images to be re-interpreted from pixels or captions. The emergent capabilities of LLMs open an opportunity to fundamentally rethink this paradigm. In this paper, we introduce the concept of LLM-native figures: data-driven artifacts that are simultaneously human-legible and machine-addressable. Unlike traditional plots, each artifact embeds complete provenance: the data subset, analytical operations and code, and visualization specification used to generate it. As a result, an LLM can \"see through\" the figure--tracing selections back to their sources, generating code to extend analyses, and orchestrating new visualizations through natural-language instructions or direct manipulation. We implement this concept through a hybrid language-visual interface that integrates LLM agents with a bidirectional mapping between figures and underlying data. Using the science of science domain as a testbed, we demonstrate that LLM-native figures can accelerate discovery, improve reproducibility, and make reasoning transparent across agents and users. More broadly, this work establishes a general framework for embedding provenance, interactivity, and explainability into the artifacts of modern research, redefining the figure not as an end product, but as an interface for discovery. For more details, please refer to the demo video available at www.llm-native-figure.com.",
+    "url": "http://arxiv.org/abs/2604.08491v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.08491v1",
+    "published": "2026-04-09",
+    "categories": [
+      "cs.HC"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.07487v1",
+    "title": "CLEAR: Context Augmentation from Contrastive Learning of Experience via Agentic Reflection",
+    "authors": [
+      "Linbo Liu",
+      "Guande Wu",
+      "Han Ding",
+      "Yawei Wang",
+      "Qiang Zhou"
+    ],
+    "abstract": "Large language model agents rely on effective model context to obtain task-relevant information for decision-making. Many existing context engineering approaches primarily rely on the context generated from the past experience and retrieval mechanisms that reuse these context. However, retrieved context from past tasks must be adapted by the execution agent to fit new situations, placing additional reasoning burden on the underlying LLM. To address this limitation, we propose a generative context augmentation framework using Contrastive Learning of Experience via Agentic Reflection (CLEAR). CLEAR first employs a reflection agent to perform contrastive analysis over past execution trajectories and summarize useful context for each observed task. These summaries are then used as supervised fine-tuning data to train a context augmentation model (CAM). Then we further optimize CAM using reinforcement learning, where the reward signal is obtained by running the task execution agent. By learning to generate task-specific knowledge rather than retrieve knowledge from the past, CAM produces context that is better tailored to the current task. We conduct comprehensive evaluations on the AppWorld and WebShop benchmarks. Experimental results show that CLEAR consistently outperforms strong baselines. It improves task completion rate from 72.62% to 81.15% on AppWorld test set and averaged reward from 0.68 to 0.74 on a subset of WebShop, compared with baseline agent. Our code is publicly available at https://github.com/awslabs/CLEAR.",
+    "url": "http://arxiv.org/abs/2604.07487v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.07487v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.05854v1",
+    "title": "Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring",
+    "authors": [
+      "Xiangyue Zhang"
+    ],
+    "abstract": "We present \\textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. Unlike existing AI research assistants that focus on paper writing or code generation, our system addresses the full experiment lifecycle: hypothesis formation, code implementation, training execution, result analysis, and iterative refinement. The framework introduces three key innovations: (1) \\textbf{Zero-Cost Monitoring} -- a monitoring paradigm that incurs zero LLM API costs during model training by relying solely on process-level checks and log file reads; (2) \\textbf{Two-Tier Constant-Size Memory} -- a memory architecture capped at $\\sim$5K characters regardless of runtime duration, preventing the unbounded context growth that plagues long-running agents; and (3) \\textbf{Minimal-Toolset Leader-Worker Architecture} -- a multi-agent design where each worker agent is equipped with only 3--5 tools, reducing per-call token overhead by up to 73\\%. In sustained deployments spanning 30+ days, the framework autonomously completed 500+ experiment cycles across four concurrent research projects, achieving a 52\\% improvement over baseline metrics in one project through 200+ automated experiments -- all at an average LLM cost of \\$0.08 per 24-hour cycle. Code is available at https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7.",
+    "url": "http://arxiv.org/abs/2604.05854v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.05854v1",
+    "published": "2026-04-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.07189v1",
+    "title": "Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery",
+    "authors": [
+      "Jia Yu",
+      "Weiwei Yu",
+      "Pengfei Xiao",
+      "Fukun Xing"
+    ],
+    "abstract": "Corpus linguistics has traditionally relied on human researchers to formulate hypotheses, construct queries, and interpret results - a process demanding specialized technical skills and considerable time. We propose Agent-Driven Corpus Linguistics, an approach in which a large language model (LLM), connected to a corpus query engine via a structured tool-use interface, takes over the investigative cycle: generating hypotheses, querying the corpus, interpreting results, and refining analysis across multiple rounds. The human researcher sets direction and evaluates final output. Unlike unconstrained LLM generation, every finding is anchored in verifiable corpus evidence. We treat this not as a replacement for the corpus-based/corpus-driven distinction but as a complementary dimension: it concerns who conducts the inquiry, not the epistemological relationship between theory and data. We demonstrate the framework by linking an LLM agent to a CQP-indexed Gutenberg corpus (5 million tokens) via the Model Context Protocol (MCP). Given only \"investigate English intensifiers,\" the agent identified a diachronic relay chain (so+ADJ > very > really), three pathways of semantic change (delexicalization, polarity fixation, metaphorical constraint), and register-sensitive distributions. A controlled baseline experiment shows that corpus grounding contributes quantification and falsifiability that the model cannot produce from training data alone. To test external validity, the agent replicated two published studies on the CLMET corpus (40 million tokens) - Claridge (2025) and De Smet (2013) - with close quantitative agreement. Agent-driven corpus research can thus produce empirically grounded findings at machine speed, lowering the technical barrier for a broader range of researchers.",
+    "url": "http://arxiv.org/abs/2604.07189v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.07189v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.06788v1",
+    "title": "From Perception to Autonomous Computational Modeling: A Multi-Agent Approach",
+    "authors": [
+      "Daniel N. Wilke"
+    ],
+    "abstract": "We present a solver-agnostic framework in which coordinated large language model (LLM) agents autonomously execute the complete computational mechanics workflow, from perceptual data of an engineering component through geometry extraction, material inference, discretisation, solver execution, uncertainty quantification, and code-compliant assessment, to an engineering report with actionable recommendations. Agents are formalised as conditioned operators on a shared context space with quality gates that introduce conditional iteration between pipeline layers. We introduce a mathematical framework for extracting engineering information from perceptual data under uncertainty using interval bounds, probability densities, and fuzzy membership functions, and introduce task-dependent conservatism to resolve the ambiguity of what `conservative' means when different limit states are governed by opposing parameter trends. The framework is demonstrated through a finite element analysis pipeline applied to a photograph of a steel L-bracket, producing a 171,504-node tetrahedral mesh, seven analyses across three boundary condition hypotheses, and a code-compliant assessment revealing structural failure with a quantified redesign. All results are presented as generated in the first autonomous iteration without manual correction, reinforcing that a professional engineer must review and sign off on any such analysis.",
+    "url": "http://arxiv.org/abs/2604.06788v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.06788v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.CE",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CE",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.06170v1",
+    "title": "Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework",
+    "authors": [
+      "Komal Kumar",
+      "Aman Chadha",
+      "Salman Khan",
+      "Fahad Shahbaz Khan",
+      "Hisham Cholakkal"
+    ],
+    "abstract": "The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated strong potential for understanding user intent and are being trained to utilize various tools. In this paper, we introduce Paper Circle, a multi-agent research discovery and analysis system designed to reduce the effort required to find, assess, organize, and understand academic literature. The system comprises two complementary pipelines: (1) a Discovery Pipeline that integrates offline and online retrieval from multiple sources, multi-criteria scoring, diversity-aware ranking, and structured outputs; and (2) an Analysis Pipeline that transforms individual papers into structured knowledge graphs with typed nodes such as concepts, methods, experiments, and figures, enabling graph-aware question answering and coverage verification. Both pipelines are implemented within a coder LLM-based multi-agent orchestration framework and produce fully reproducible, synchronized outputs including JSON, CSV, BibTeX, Markdown, and HTML at each agent step. This paper describes the system architecture, agent roles, retrieval and scoring methods, knowledge graph schema, and evaluation interfaces that together form the Paper Circle research workflow. We benchmark Paper Circle on both paper retrieval and paper review generation, reporting hit rate, MRR, and Recall at K. Results show consistent improvements with stronger agent models. We have publicly released the website at https://papercircle.vercel.app/ and the code at https://github.com/MAXNORM8650/papercircle.",
+    "url": "http://arxiv.org/abs/2604.06170v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.06170v1",
+    "published": "2026-04-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.07667v1",
+    "title": "From Debate to Decision: Conformal Social Choice for Safe Multi-Agent Deliberation",
+    "authors": [
+      "Mengdie Flora Wang",
+      "Haochen Xie",
+      "Guanghui Wang",
+      "Aijing Gao",
+      "Guang Yang"
+    ],
+    "abstract": "Multi-agent debate improves LLM reasoning, yet agreement among agents is not evidence of correctness. When agents converge on a wrong answer through social reinforcement, consensus-based stopping commits that error to an automated action with no recourse. We introduce Conformal Social Choice, a post-hoc decision layer that converts debate outputs into calibrated act-versus-escalate decisions. Verbalized probability distributions from heterogeneous agents are aggregated via a linear opinion pool and calibrated with split conformal prediction, yielding prediction sets with a marginal coverage guarantee: the correct answer is included with probability ${\\geq}\\,1{-}α$, without assumptions on individual model calibration. A hierarchical action policy maps singleton sets to autonomous action and larger sets to human escalation. On eight MMLU-Pro domains with three agents (Claude Haiku, DeepSeek-R1, Qwen-3 32B), coverage stays within 1--2 points of the target. The key finding is not that debate becomes more accurate, but that the conformal layer makes its failures actionable: 81.9% of wrong-consensus cases are intercepted at $α{=}0.05$. Because the layer refuses to act on cases where debate is confidently wrong, the remaining conformal singletons reach 90.0--96.8% accuracy (up to 22.1pp above consensus stopping) -- a selection effect, not a reasoning improvement. This safety comes at the cost of automation, but the operating point is user-adjustable via $α$.",
+    "url": "http://arxiv.org/abs/2604.07667v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.07667v1",
+    "published": "2026-04-09",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "cs.SI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.07165v1",
+    "title": "Reason in Chains, Learn in Trees: Self-Rectification and Grafting for Multi-turn Agent Policy Optimization",
+    "authors": [
+      "Yu Li",
+      "Sizhe Tang",
+      "Tian Lan"
+    ],
+    "abstract": "Reinforcement learning for Large Language Model agents is often hindered by sparse rewards in multi-step reasoning tasks. Existing approaches like Group Relative Policy Optimization treat sampled trajectories as independent chains, assigning uniform credit to all steps in each chain and ignoring the existence of critical steps that may disproportionally impact reasoning outcome. In this paper, we propose T-STAR(Tree-structured Self-Taught Agent Rectification), a framework that recovers the latent correlated reward structure across seemingly independent trajectories. Specifically, we consolidate trajectories into a unified Cognitive Tree by identifying and merging functionally similar steps/nodes. It enables an Introspective Valuation mechanism that back-propagates trajectory-level rewards through the tree to obtain a new notion of variance-reduced relative advantage at step-level. Using the Cognitive Tree, we also develop In-Context Thought Grafting to synthesize corrective reasoning by contrasting successful and failed branches at critical divergence points/steps. Our proposed Surgical Policy Optimization then capitalizes on the rich policy gradient information concentrated at these critical points/steps through a Bradley-Terry type of surgical loss. Extensive experiments across embodied, interactive, reasoning, and planning benchmarks demonstrate that T-STAR achieves consistent improvements over strong baselines, with gains most pronounced on tasks requiring extended reasoning chains.",
+    "url": "http://arxiv.org/abs/2604.07165v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.07165v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.06747v2",
+    "title": "TurboAgent: An LLM-Driven Autonomous Multi-Agent Framework for Turbomachinery Aerodynamic Design",
+    "authors": [
+      "Juan Du",
+      "Yueteng Wu",
+      "Pan Zhao",
+      "Yuze Liu",
+      "Min Zhang"
+    ],
+    "abstract": "The aerodynamic design of turbomachinery is a complex and tightly coupled multi-stage process involving geometry generation, performance prediction, optimization, and high-fidelity physical validation. Existing intelligent design approaches typically focus on individual stages or rely on loosely coupled pipelines, making fully autonomous end-to-end design challenging. To address this issue, this study proposes TurboAgent, a large language model (LLM)-driven autonomous multi-agent framework for turbomachinery aerodynamic design and optimization. The LLM serves as the core for task planning and coordination, while specialized agents handle generative design, rapid performance prediction, multi-objective optimization, and physics-based validation. The framework transforms traditional trial-and-error design into a data-driven collaborative workflow, with high-fidelity simulations retained for final verification. A transonic single-rotor compressor is used for validation. The results show strong agreement between target performance, generated designs, and CFD simulations. The coefficients of determination for mass flow rate, total pressure ratio, and isentropic efficiency all exceed 0.91, with normalized RMSE values below 8%. The optimization agent further improves isentropic efficiency by 1.61% and total pressure ratio by 3.02%. The complete workflow can be executed within approximately 30 minutes under parallel computing. These results demonstrate that TurboAgent enables an autonomous closed-loop design process from natural language requirements to final design generation, providing an efficient and scalable paradigm for turbomachinery aerodynamic design.",
+    "url": "http://arxiv.org/abs/2604.06747v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.06747v2",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.06452v1",
+    "title": "Learning to Interrupt in Language-based Multi-agent Communication",
+    "authors": [
+      "Danqing Wang",
+      "Da Yin",
+      "Ruta Desai",
+      "Lei Li",
+      "Asli Celikyilmaz"
+    ],
+    "abstract": "Multi-agent systems using large language models (LLMs) have demonstrated impressive capabilities across various domains. However, current agent communication suffers from verbose output that overload context and increase computational costs. Although existing approaches focus on compressing the message from the speaker side, they struggle to adapt to different listeners and identify relevant information. An effective way in human communication is to allow the listener to interrupt and express their opinion or ask for clarification. Motivated by this, we propose an interruptible communication framework that allows the agent who is listening to interrupt the current speaker. Through prompting experiments, we find that current LLMs are often overconfident and interrupt before receiving enough information. Therefore, we propose a learning method that predicts the appropriate interruption points based on the estimated future reward and cost. We evaluate our framework across various multi-agent scenarios, including 2-agent text pictionary games, 3-agent meeting scheduling, and 3-agent debate. The results of the experiment show that our HANDRAISER can reduce the communication cost by 32.2% compared to the baseline with comparable or superior task performance. This learned interruption behavior can also be generalized to different agents and tasks.",
+    "url": "http://arxiv.org/abs/2604.06452v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.06452v1",
+    "published": "2026-04-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.08501v1",
+    "title": "sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing",
+    "authors": [
+      "Sergey V Samsonau"
+    ],
+    "abstract": "Science currently offers two options for quality assurance, both inadequate. Journal gatekeeping claims to verify both integrity and contribution, but actually measures prestige: peer review is slow, biased, and misses fabricated citations even at top venues. Open science provides no quality assurance at all: the only filter between AI-generated text and the public record is the author's integrity. AI-assisted writing makes both worse by producing more papers faster than either system can absorb.   We propose a third option: measure the paper itself. sciwrite-lint (pip install sciwrite-lint) is an open-source linter for scientific manuscripts that runs entirely on the researcher's machine (free public databases, a single consumer GPU, and open-weights models) with no manuscripts sent to external services. The pipeline verifies that references exist, checks retraction status, compares metadata against canonical records, downloads and parses cited papers, verifies that they support the claims made about them, and follows one level further to check cited papers' own bibliographies. Each reference receives a per-reference reliability score aggregating all verification signals. We evaluate the pipeline on 30 unseen papers from arXiv and bioRxiv with error injection and LLM-adjudicated false positive analysis.   As an experimental extension, we propose SciLint Score, combining integrity verification with a contribution component that operationalizes five frameworks from philosophy of science (Popper, Lakatos, Kitcher, Laudan, Mayo) into computable structural properties of scientific arguments. The integrity component is the core of the tool and is evaluated in this paper; the contribution component is released as experimental code for community development.",
+    "url": "http://arxiv.org/abs/2604.08501v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.08501v1",
+    "published": "2026-04-09",
+    "categories": [
+      "cs.DL",
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.07530v1",
+    "title": "The Shrinking Lifespan of LLMs in Science",
+    "authors": [
+      "Ana Trišović"
+    ],
+    "abstract": "Scaling laws describe how language model capabilities grow with compute and data, but say nothing about how long a model matters once released. We provide the first large-scale empirical account of how scientists adopt and abandon language models over time. We track 62 LLMs across over 108k citing papers (2018-2025), each with at least three years of post-release data, and classify every citation as active adoption or background reference to construct per-model adoption trajectories that raw citation counts cannot resolve. We find three regularities. First, scientific adoption follows an inverted-U trajectory: usage rises after release, peaks, and declines as newer models appear, a pattern we term the \\textit{scientific adoption curve}. Second, this curve is compressing: each additional release year is associated with a 27\\% reduction in time-to-peak adoption ($p < 0.001$), robust to minimum-age thresholds and controls for model size. Third, release timing dominates model-level attributes as a predictor of lifecycle dynamics. Release year explains both time-to-peak and scientific lifespan more strongly than architecture, openness, or scale, though model size and access modality retain modest predictive power for total adoption volume. Together, these findings complement scaling laws with adoption-side regularities and suggest that the forces driving rapid capability progress may be the same forces compressing scientific relevance.",
+    "url": "http://arxiv.org/abs/2604.07530v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.07530v1",
+    "published": "2026-04-08",
+    "categories": [
+      "cs.DL",
+      "cs.AI",
+      "cs.CY",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.08178v1",
+    "title": "Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling",
+    "authors": [
+      "Jiaxuan Wang",
+      "Yulan Hu",
+      "Wenjin Yang",
+      "Zheng Pan",
+      "Xin Li"
+    ],
+    "abstract": "In classical Reinforcement Learning from Human Feedback (RLHF), Reward Models (RMs) serve as the fundamental signal provider for model alignment. As Large Language Models evolve into agentic systems capable of autonomous tool invocation and complex reasoning, the paradigm of reward modeling faces unprecedented challenges--most notably, the lack of benchmarks specifically designed to assess RM capabilities within tool-integrated environments. To address this gap, we present Plan-RewardBench, a trajectory-level preference benchmark designed to evaluate how well judges distinguish preferred versus distractor agent trajectories in complex tool-using scenarios. Plan-RewardBench covers four representative task families -- (i) Safety Refusal, (ii) Tool-Irrelevance / Unavailability, (iii) Complex Planning, and (iv) Robust Error Recovery -- comprising validated positive trajectories and confusable hard negatives constructed via multi-model natural rollouts, rule-based perturbations, and minimal-edit LLM perturbations. We benchmark representative RMs (generative, discriminative, and LLM-as-Judge) under a unified pairwise protocol, reporting accuracy trends across varying trajectory lengths and task categories. Furthermore, we provide diagnostic analyses of prevalent failure modes. Our results reveal that all three evaluator families face substantial challenges, with performance degrading sharply on long-horizon trajectories, underscoring the necessity for specialized training in agentic, trajectory-level reward modeling. Ultimately, Plan-RewardBench aims to serve as both a practical evaluation suite and a reusable blueprint for constructing agentic planning preference data.",
+    "url": "http://arxiv.org/abs/2604.08178v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.08178v1",
+    "published": "2026-04-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

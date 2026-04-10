@@ -24,6 +24,48 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-10
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery](http://arxiv.org/abs/2604.08491v1) | Yifang Wang, Rui Sheng, Erzhuo Shao et al. | Large language models (LLMs) are transforming scientific workflows, not only through their generative capabilities but also through their emerging ability to use tools, reason about data, and coord... |
+| [CLEAR: Context Augmentation from Contrastive Learning of Experience via Agentic Reflection](http://arxiv.org/abs/2604.07487v1) | Linbo Liu, Guande Wu, Han Ding et al. | Large language model agents rely on effective model context to obtain task-relevant information for decision-making. |
+| [Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring](http://arxiv.org/abs/2604.05854v1) | Xiangyue Zhang | We present \textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](http://arxiv.org/abs/2604.07189v1) | Jia Yu, Weiwei Yu, Pengfei Xiao et al. | Corpus linguistics has traditionally relied on human researchers to formulate hypotheses, construct queries, and interpret results - a process demanding specialized technical skills and considerabl... |
+| [From Perception to Autonomous Computational Modeling: A Multi-Agent Approach](http://arxiv.org/abs/2604.06788v1) | Daniel N. Wilke | We present a solver-agnostic framework in which coordinated large language model (LLM) agents autonomously execute the complete computational mechanics workflow, from perceptual data of an engineer... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework](http://arxiv.org/abs/2604.06170v1) | Komal Kumar, Aman Chadha, Salman Khan et al. | The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. |
+| [From Debate to Decision: Conformal Social Choice for Safe Multi-Agent Deliberation](http://arxiv.org/abs/2604.07667v1) | Mengdie Flora Wang, Haochen Xie, Guanghui Wang et al. | Multi-agent debate improves LLM reasoning, yet agreement among agents is not evidence of correctness. |
+| [Reason in Chains, Learn in Trees: Self-Rectification and Grafting for Multi-turn Agent Policy Optimization](http://arxiv.org/abs/2604.07165v1) | Yu Li, Sizhe Tang, Tian Lan | Reinforcement learning for Large Language Model agents is often hindered by sparse rewards in multi-step reasoning tasks. |
+| [TurboAgent: An LLM-Driven Autonomous Multi-Agent Framework for Turbomachinery Aerodynamic Design](http://arxiv.org/abs/2604.06747v2) | Juan Du, Yueteng Wu, Pan Zhao et al. | The aerodynamic design of turbomachinery is a complex and tightly coupled multi-stage process involving geometry generation, performance prediction, optimization, and high-fidelity physical validat... |
+| [Learning to Interrupt in Language-based Multi-agent Communication](http://arxiv.org/abs/2604.06452v1) | Danqing Wang, Da Yin, Ruta Desai et al. | Multi-agent systems using large language models (LLMs) have demonstrated impressive capabilities across various domains. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing](http://arxiv.org/abs/2604.08501v1) | Sergey V Samsonau | Science currently offers two options for quality assurance, both inadequate. Journal gatekeeping claims to verify both integrity and contribution, but actually measures prestige: peer review is slo... |
+| [The Shrinking Lifespan of LLMs in Science](http://arxiv.org/abs/2604.07530v1) | Ana Trišović | Scaling laws describe how language model capabilities grow with compute and data, but say nothing about how long a model matters once released. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling](http://arxiv.org/abs/2604.08178v1) | Jiaxuan Wang, Yulan Hu, Wenjin Yang et al. | In classical Reinforcement Learning from Human Feedback (RLHF), Reward Models (RMs) serve as the fundamental signal provider for model alignment. |
+
 ### 📅 2026-04-09
 
 **7 new papers found**
