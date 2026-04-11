@@ -24,6 +24,29 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-11
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery](http://arxiv.org/abs/2604.08491v1) | Yifang Wang, Rui Sheng, Erzhuo Shao et al. | Large language models (LLMs) are transforming scientific workflows, not only through their generative capabilities but also through their emerging ability to use tools, reason about data, and coord... |
+| [CLEAR: Context Augmentation from Contrastive Learning of Experience via Agentic Reflection](http://arxiv.org/abs/2604.07487v1) | Linbo Liu, Guande Wu, Han Ding et al. | Large language model agents rely on effective model context to obtain task-relevant information for decision-making. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](http://arxiv.org/abs/2604.07189v1) | Jia Yu, Weiwei Yu, Pengfei Xiao et al. | Corpus linguistics has traditionally relied on human researchers to formulate hypotheses, construct queries, and interpret results - a process demanding specialized technical skills and considerabl... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Debate to Decision: Conformal Social Choice for Safe Multi-Agent Deliberation](http://arxiv.org/abs/2604.07667v1) | Mengdie Flora Wang, Haochen Xie, Guanghui Wang et al. | Multi-agent debate improves LLM reasoning, yet agreement among agents is not evidence of correctness. |
+
 ### 📅 2026-04-10
 
 **13 new papers found**
