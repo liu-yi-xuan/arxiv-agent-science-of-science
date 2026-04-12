@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-12
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery](http://arxiv.org/abs/2604.08491v1) | Yifang Wang, Rui Sheng, Erzhuo Shao et al. | Large language models (LLMs) are transforming scientific workflows, not only through their generative capabilities but also through their emerging ability to use tools, reason about data, and coord... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing](http://arxiv.org/abs/2604.08501v1) | Sergey V Samsonau | Science currently offers two options for quality assurance, both inadequate. Journal gatekeeping claims to verify both integrity and contribution, but actually measures prestige: peer review is slo... |
+
 ### 📅 2026-04-11
 
 **4 new papers found**
