@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-13
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents](http://arxiv.org/abs/2604.09308v1) | Maochen Sun, Youzhi Zhang, Gaofeng Meng | Large language models are making autonomous drug discovery agents increasingly feasible, but reliable success in this setting is not determined by any single action or molecule. |
+
 ### 📅 2026-04-12
 
 **2 new papers found**
