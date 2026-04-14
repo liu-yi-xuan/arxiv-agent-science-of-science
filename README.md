@@ -24,6 +24,46 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-14
+
+**16 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](http://arxiv.org/abs/2604.10923v1) | Zihao Cheng, Zeming Liu, Yingyu Shan et al. | While large language model--powered agents can self-evolve by accumulating experience or by dynamically creating new assets (i.e., tools or expert agents), existing frameworks typically treat these... |
+| [A collaborative agent with two lightweight synergistic models for autonomous crystal materials research](http://arxiv.org/abs/2604.11540v1) | Tongyu Shi, Yutang Li, Zhanyuan Li et al. | Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. |
+| [Camyla: Scaling Autonomous Research in Medical Image Segmentation](http://arxiv.org/abs/2604.10696v1) | Yifan Gao, Haoyue Li, Feng Yuan et al. | We present Camyla, a system for fully autonomous research within the scientific domain of medical image segmentation. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HTAA: Enhancing LLM Planning via Hybrid Toolset Agentization & Adaptation](http://arxiv.org/abs/2604.10917v1) | Chengrui Huang, Junshuo Zhang, Zhiyuan Ma et al. | Enabling large language models to scale and reliably use hundreds of tools is critical for real-world applications, yet challenging due to the inefficiency and error accumulation inherent in flat t... |
+| [Agentic Video Generation: From Text to Executable Event Graphs via Tool-Constrained LLM Planning](http://arxiv.org/abs/2604.10383v1) | Nicolae Cudlenco, Mihai Masala, Marius Leordeanu | Existing multi-agent video generation systems use LLM agents to orchestrate neural video generators, producing visually impressive but semantically unreliable outputs with no ground truth annotations. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers](http://arxiv.org/abs/2604.11307v1) | Lei Xiong, Huaying Yuan, Zheng Liu et al. | Leveraging Multi-modal Large Language Models (MLLMs) to accelerate frontier scientific research is promising, yet how to rigorously evaluate such systems remains unclear. |
+| [Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games](http://arxiv.org/abs/2604.11741v1) | Keyang Zhong, Junlin Xie, Hefeng Wu et al. | Vision-language models (VLMs) have shown impressive capabilities in perceptual tasks, yet they degrade in complex multi-hop reasoning under multiplayer game settings with imperfect and deceptive in... |
+| [From Query to Counsel: Structured Reasoning with a Multi-Agent Framework and Dataset for Legal Consultation](http://arxiv.org/abs/2604.10470v1) | Mingfei Lu, Yi Zhang, Mengjia Wu et al. | Legal consultation question answering (Legal CQA) presents unique challenges compared to traditional legal QA tasks, including the scarcity of high-quality training data, complex task composition, ... |
+| [TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection](http://arxiv.org/abs/2604.10386v1) | Sihang Zeng, Young Won Kim, Wilson Lau et al. | Accurate estimation of cancer risk from longitudinal electronic health records (EHRs) could support earlier detection and improved care, but modeling such complex patient trajectories remains chall... |
+| [RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents](http://arxiv.org/abs/2604.11655v1) | Riccardo Rosati, Edoardo Colucci, Massimiliano Bolognini et al. | The rapid adoption of Large Language Models (LLMs) in interactive systems has enabled the creation of dynamic, open-ended Role-Playing Agents (RPAs). |
+| [MADQRL: Distributed Quantum Reinforcement Learning Framework for Multi-Agent Environments](http://arxiv.org/abs/2604.11131v1) | Abhishek Sawaika, Samuel Yen-Chi Chen, Udaya Parampalli et al. | Reinforcement learning (RL) is one of the most practical ways to learn from real-life use-cases. Motivated from the cognitive methods used by humans makes it a widely acceptable strategy in the fie... |
+| [MAFIG: Multi-agent Driven Formal Instruction Generation Framework](http://arxiv.org/abs/2604.10989v1) | Shixing Zhao, Zheng Si, Pengpeng Ouyang et al. | Emergency situations in scheduling systems often trigger local functional failures that undermine system stability and even cause system collapse. |
+| [EvoNash-MARL: A Closed-Loop Multi-Agent Reinforcement Learning Framework for Medium-Horizon Equity Allocation](http://arxiv.org/abs/2604.10911v1) | Chongliu Jia, Yi Luo, Sipeng Han et al. | Medium-to-long-horizon stock allocation presents significant challenges due toveak predictive structures, non-stadonary market regimes, and the degradationf signals following the application of tra... |
+| [Tracing the Roots: A Multi-Agent Framework for Uncovering Data Lineage in Post-Training LLMs](http://arxiv.org/abs/2604.10480v1) | Yu Li, Xiaoran Shang, Qizhi Pei et al. | Post-training data plays a pivotal role in shaping the capabilities of Large Language Models (LLMs), yet datasets are often treated as isolated artifacts, overlooking the systemic connections that ... |
+| [A Dual-Positive Monotone Parameterization for Multi-Segment Bids and a Validity Assessment Framework for Reinforcement Learning Agent-based Simulation of Electricity Markets](http://arxiv.org/abs/2604.10252v1) | Zunnan Xu, Zhaoxia Jing, Zhanhua Pan | Reinforcement learning agent-based simulation (RL-ABS) has become an important tool for electricity market mechanism analysis and evaluation. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Visible, Trackable, Forkable: Opening the Process of Science](http://arxiv.org/abs/2604.10932v1) | Sergey V. Samsonau | The way science is currently practiced shows conclusions but hides how they were reached. Researchers work privately, polish their results, publish a finished paper, and defend it. |
+
 ### 📅 2026-04-13
 
 **1 new papers found**

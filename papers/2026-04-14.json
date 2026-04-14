@@ -1,0 +1,323 @@
+[
+  {
+    "id": "2604.10923v1",
+    "title": "Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
+    "authors": [
+      "Zihao Cheng",
+      "Zeming Liu",
+      "Yingyu Shan",
+      "Xinyi Wang",
+      "Xiangrong Zhu"
+    ],
+    "abstract": "While large language model--powered agents can self-evolve by accumulating experience or by dynamically creating new assets (i.e., tools or expert agents), existing frameworks typically treat these two evolutionary processes in isolation. This separation overlooks their intrinsic interdependence: the former is inherently bounded by a manually predefined static toolset, while the latter generates new assets from scratch without experiential guidance, leading to limited capability growth and unstable evolution. To address this limitation, we introduce a novel paradigm of co-evolutionary Capability Expansion and Experience Distillation. Guided by this paradigm, we propose the \\textbf{Mem$^{\\textbf{2}}$Evolve}, which integrates two core components: \\textbf{Experience Memory} and \\textbf{Asset Memory}. Specifically, Mem$^{2}$Evolve leverages accumulated experience to guide the dynamic creation of assets, thereby expanding the agent's capability space while simultaneously acquiring new experience to achieve co-evolution. Extensive experiments across 6 task categories and 8 benchmarks demonstrate that Mem$^{2}$Evolve achieves improvement of 18.53\\% over standard LLMs, 11.80\\% over agents evolving solely through experience, and 6.46\\% over those evolving solely through asset creation, establishing it as a substantially more effective and stable self-evolving agent framework. Code is available at: https://buaa-irip-llm.github.io/Mem2Evolve.",
+    "url": "http://arxiv.org/abs/2604.10923v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10923v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.11540v1",
+    "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+    "authors": [
+      "Tongyu Shi",
+      "Yutang Li",
+      "Zhanyuan Li",
+      "Qian Liu",
+      "Jie Zhou"
+    ],
+    "abstract": "Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. Here, we present MatBrain, a lightweight collaborative agent system with two synergistic models specialization for crystal materials research. MatBrain employs a dual-model architecture: Mat-R1 (30B parameters) as the analytical model providing expert-level domain reasoning, and Mat-T1 (14B parameters) as the executive model orchestrating tool-based actions. Entropy analysis confirms that this architecture resolves the conflict between tool planning and analytical reasoning by decoupling their distinct entropy dynamics. Enabled by this dual-model architecture and structural efficiency, MatBrain significantly outperforms larger general-purpose models while reducing the hardware deployment barrier by over 95%. MatBrain exhibits versatility across structure generation, property prediction, and synthesis planning tasks. Applied to catalyst design, MatBrain generated 30,000 candidate structures and identified 38 promising materials within 48 hours, achieving approximately 100-fold acceleration over traditional approaches. These results demonstrate the potential of lightweight collaborative intelligence for advancing materials research capabilities.",
+    "url": "http://arxiv.org/abs/2604.11540v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.11540v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.10696v1",
+    "title": "Camyla: Scaling Autonomous Research in Medical Image Segmentation",
+    "authors": [
+      "Yifan Gao",
+      "Haoyue Li",
+      "Feng Yuan",
+      "Xin Gao",
+      "Weiran Huang"
+    ],
+    "abstract": "We present Camyla, a system for fully autonomous research within the scientific domain of medical image segmentation. Camyla transforms raw datasets into literature-grounded research proposals, executable experiments, and complete manuscripts without human intervention. Autonomous experimentation over long horizons poses three interrelated challenges: search effort drifts toward unpromising directions, knowledge from earlier trials degrades as context accumulates, and recovery from failures collapses into repetitive incremental fixes. To address these challenges, the system combines three coupled mechanisms: Quality-Weighted Branch Exploration for allocating effort across competing proposals, Layered Reflective Memory for retaining and compressing cross-trial knowledge at multiple granularities, and Divergent Diagnostic Feedback for diversifying recovery after underperforming trials. The system is evaluated on CamylaBench, a contamination-free benchmark of 31 datasets constructed exclusively from 2025 publications, under a strict zero-intervention protocol across two independent runs within a total of 28 days on an 8-GPU cluster. Across the two runs, Camyla generates more than 2,700 novel model implementations and 40 complete manuscripts, and surpasses the strongest per-dataset baseline selected from 14 established architectures, including nnU-Net, on 22 and 18 of 31 datasets under identical training budgets, respectively (union: 24/31). Senior human reviewers score the generated manuscripts at the T1/T2 boundary of contemporary medical imaging journals. Relative to automated baselines, Camyla outperforms AutoML and NAS systems on aggregate segmentation performance and exceeds six open-ended research agents on both task completion and baseline-surpassing frequency. These results suggest that domain-scale autonomous research is achievable in medical image segmentation.",
+    "url": "http://arxiv.org/abs/2604.10696v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10696v1",
+    "published": "2026-04-12",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.10917v1",
+    "title": "HTAA: Enhancing LLM Planning via Hybrid Toolset Agentization & Adaptation",
+    "authors": [
+      "Chengrui Huang",
+      "Junshuo Zhang",
+      "Zhiyuan Ma",
+      "Xikun Wang",
+      "Ximeng Wang"
+    ],
+    "abstract": "Enabling large language models to scale and reliably use hundreds of tools is critical for real-world applications, yet challenging due to the inefficiency and error accumulation inherent in flat tool-calling architectures. To address this, we propose Hybrid Toolset Agentization & Adaptation (HTAA), a hierarchical framework for scalable tool-use planning. We propose a novel toolset agentization paradigm, which encapsulates frequently co-used tools into specialized agent tools, thereby reducing the planner's action space and mitigating redundancy. To ensure effective coordination, we design Asymmetric Planner Adaptation, a trajectory-based training paradigm that aligns the high-level planner with agent tools via backward reconstruction and forward refinement. To validate the performance of HTAA, we conduct experiments on a real-world internal dataset, InfoVerify, based on the POI validation workflow of China's largest online large-scale ride-hailing platform, featuring long-horizon executable tool trajectories. Experiments on InfoVerify and widely-used benchmarks show that HTAA consistently achieves higher task success rates, requires short tool calling trajectories, and significantly reduces context overhead compared to strong baselines. Furthermore, in a production deployment, HTAA substantially reduces manual validation effort and operational cost, demonstrating its practical efficacy.",
+    "url": "http://arxiv.org/abs/2604.10917v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10917v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.10383v1",
+    "title": "Agentic Video Generation: From Text to Executable Event Graphs via Tool-Constrained LLM Planning",
+    "authors": [
+      "Nicolae Cudlenco",
+      "Mihai Masala",
+      "Marius Leordeanu"
+    ],
+    "abstract": "Existing multi-agent video generation systems use LLM agents to orchestrate neural video generators, producing visually impressive but semantically unreliable outputs with no ground truth annotations. We present an agentic system that inverts this paradigm: instead of generating pixels, the LLM constructs a formal Graph of Events in Space and Time (GEST) -- a structured specification of actors, actions, objects, and temporal constraints -- which is then executed deterministically in a 3D game engine. A staged LLM refinement pipeline fails entirely at this task (0 of 50 attempts produce an executable specification), motivating a fundamentally different architecture based on a separation of concerns: the LLM handles narrative planning through natural language reasoning, while a programmatic state backend enforces all simulator constraints through validated tool calls, guaranteeing that every generated specification is executable by construction. The system uses a hierarchical two-agent architecture -- a Director that plans the story and a Scene Builder that constructs individual scenes through a round-based state machine -- with dedicated Relation Subagents that populate the logical and semantic edge types of the GEST formalism that procedural generation leaves empty, making this the first approach to exercise the full expressive capacity of the representation. We evaluate in two stages: autonomous generation against procedural baselines via a 3-model LLM jury, where agentic narratives win 79% of text and 74% of video comparisons; and seeded generation where the same text is given to our system, VEO 3.1, and WAN 2.2, with human annotations showing engine-generated videos substantially outperform neural generators on physical validity (58% vs 25% and 20%) and semantic alignment (3.75/5 vs 2.33 and 1.50).",
+    "url": "http://arxiv.org/abs/2604.10383v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10383v1",
+    "published": "2026-04-11",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.11307v1",
+    "title": "PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers",
+    "authors": [
+      "Lei Xiong",
+      "Huaying Yuan",
+      "Zheng Liu",
+      "Zhao Cao",
+      "Zhicheng Dou"
+    ],
+    "abstract": "Leveraging Multi-modal Large Language Models (MLLMs) to accelerate frontier scientific research is promising, yet how to rigorously evaluate such systems remains unclear. Existing benchmarks mainly focus on single-document understanding, whereas real scientific workflows require integrating evidence from multiple papers, including their text, tables, and figures. As a result, multi-modal, multi-document scientific reasoning remains underexplored and lacks systematic evaluation. To address this gap, we introduce PaperScope, a multi-modal multi-document benchmark designed for agentic deep research. PaperScope presents three advantages: (1) Structured scientific grounding. It is built on a knowledge graph of over 2,000 AI papers spanning three years, providing a structured foundation for research-oriented queries. (2) Semantically dense evidence construction. It integrates semantically related key information nodes and employs optimized random-walk article selector to sample thematically coherent paper sets, thereby ensuring adequate semantic density and task complexity. (3) Multi-task evaluation of scientific reasoning. It contains over 2,000 QA pairs across reasoning, retrieval, summarization, and problem solving, enabling evaluation of multi-step scientific reasoning. Experimental results show that even advanced systems such as OpenAI Deep Research and Tongyi Deep Research achieve limited scores on PaperScope, highlighting the difficulty of long-context retrieval and deep multi-source reasoning. PaperScope thus provides a rigorous benchmark alongside a scalable pipeline for constructing large-scale multi-modal, multi-source deep research datasets.",
+    "url": "http://arxiv.org/abs/2604.11307v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.11307v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.11741v1",
+    "title": "Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games",
+    "authors": [
+      "Keyang Zhong",
+      "Junlin Xie",
+      "Hefeng Wu",
+      "Haofeng Li",
+      "Guanbin Li"
+    ],
+    "abstract": "Vision-language models (VLMs) have shown impressive capabilities in perceptual tasks, yet they degrade in complex multi-hop reasoning under multiplayer game settings with imperfect and deceptive information. In this paper, we study a representative multiplayer task, Murder Mystery Games, which require inferring hidden truths based on partial clues provided by roles with different intentions. To address this challenge, we propose a collaborative multi-agent framework for evaluating and synthesizing high-quality, role-driven multiplayer game scripts, enabling fine-grained interaction patterns tailored to character identities (i.e., murderer vs. innocent). Our system generates rich multimodal contexts, including character backstories, visual and textual clues, and multi-hop reasoning chains, through coordinated agent interactions. We design a two-stage agent-monitored training strategy to enhance the reasoning ability of VLMs: (1) chain-of-thought based fine-tuning on curated and synthetic datasets that model uncertainty and deception; (2) GRPO-based reinforcement learning with agent-monitored reward shaping, encouraging the model to develop character-specific reasoning behaviors and effective multimodal multi-hop inference. Extensive experiments demonstrate that our method significantly boosts the performance of VLMs in narrative reasoning, hidden fact extraction, and deception-resilient understanding. Our contributions offer a scalable solution for training and evaluating VLMs under uncertain, adversarial, and socially complex conditions, laying the groundwork for future benchmarks in multimodal multi-hop reasoning under imperfect information.",
+    "url": "http://arxiv.org/abs/2604.11741v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.11741v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10470v1",
+    "title": "From Query to Counsel: Structured Reasoning with a Multi-Agent Framework and Dataset for Legal Consultation",
+    "authors": [
+      "Mingfei Lu",
+      "Yi Zhang",
+      "Mengjia Wu",
+      "Yue Feng"
+    ],
+    "abstract": "Legal consultation question answering (Legal CQA) presents unique challenges compared to traditional legal QA tasks, including the scarcity of high-quality training data, complex task composition, and strong contextual dependencies. To address these, we construct JurisCQAD, a large-scale dataset of over 43,000 real-world Chinese legal queries annotated with expert-validated positive and negative responses, and design a structured task decomposition that converts each query into a legal element graph integrating entities, events, intents, and legal issues. We further propose JurisMA, a modular multi-agent framework supporting dynamic routing, statutory grounding, and stylistic optimization. Combined with the element graph, the framework enables strong context-aware reasoning, effectively capturing dependencies across legal facts, norms, and procedural logic. Trained on JurisCQAD and evaluated on a refined LawBench, our system significantly outperforms both general-purpose and legal-domain LLMs across multiple lexical and semantic metrics, demonstrating the benefits of interpretable decomposition and modular collaboration in Legal CQA.",
+    "url": "http://arxiv.org/abs/2604.10470v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10470v1",
+    "published": "2026-04-12",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10386v1",
+    "title": "TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection",
+    "authors": [
+      "Sihang Zeng",
+      "Young Won Kim",
+      "Wilson Lau",
+      "Ehsan Alipour",
+      "Ruth Etzioni"
+    ],
+    "abstract": "Accurate estimation of cancer risk from longitudinal electronic health records (EHRs) could support earlier detection and improved care, but modeling such complex patient trajectories remains challenging. We present TrajOnco, a training-free, multi-agent large language model (LLM) framework designed for scalable multi-cancer early detection. Using a chain-of-agents architecture with long-term memory, TrajOnco performs temporal reasoning over sequential clinical events to generate patient-level summaries, evidence-linked rationales, and predicted risk scores. We evaluated TrajOnco on de-identified Truveta EHR data across 15 cancer types using matched case-control cohorts, predicting risk of cancer diagnosis at 1 year. In zero-shot evaluation, TrajOnco achieved AUROCs of 0.64-0.80, performing comparably to supervised machine learning in a lung cancer benchmark while demonstrating better temporal reasoning than single-agent LLMs. The multi-agent design also enabled effective temporal reasoning with smaller-capacity models such as GPT-4.1-mini. The fidelity of TrajOnco's output was validated through human evaluation. Furthermore, TrajOnco's interpretable reasoning outputs can be aggregated to reveal population-level risk patterns that align with established clinical knowledge. These findings highlight the potential of multi-agent LLMs to execute interpretable temporal reasoning over longitudinal EHRs, advancing both scalable multi-cancer early detection and clinical insight generation.",
+    "url": "http://arxiv.org/abs/2604.10386v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10386v1",
+    "published": "2026-04-12",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.11655v1",
+    "title": "RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents",
+    "authors": [
+      "Riccardo Rosati",
+      "Edoardo Colucci",
+      "Massimiliano Bolognini",
+      "Adriano Mancini",
+      "Paolo Sernani"
+    ],
+    "abstract": "The rapid adoption of Large Language Models (LLMs) in interactive systems has enabled the creation of dynamic, open-ended Role-Playing Agents (RPAs). However, evaluating these agents remains a significant challenge, as standard NLP metrics fail to capture the nuances of role adherence, logical consistency, and long-term narrative stability. This paper introduces RPA-Check, a multi-stage automated evaluation framework designed to objectively assess the performance of LLM-based RPAs in complex, constraints-heavy environments. Our methodology is based on a four-step pipeline: (1) Dimension Definition, establishing high-level qualitative behavioral criteria; (2) Augmentation, where these requirements are expanded into granular boolean checklist indicators; (3) Semantic Filtering, to ensure indicator objectivity, no redundancy and agent isolation; and (4) LLM-as-a-Judge Evaluation, which employs chain-of-thought verification to score agent fidelity. We validate this framework by applying it to LLM Court, a serious game for forensic training involving several quantized local models. Experimental results across five distinct legal scenarios demonstrate the framework's ability to identify subtle trade-offs between model size, reasoning depth, and operational stability. Notably, the findings reveal an inverse relationship between parametric scale and procedural consistency, showing that smaller, adequately instruction-tuned models (8-9B) can outperform larger architectures prone to user-alignment bias or sycophancy. RPA-Check thus provides a standardized and reproducible metric for future research in generative agent evaluation within specialized domains.",
+    "url": "http://arxiv.org/abs/2604.11655v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.11655v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.11131v1",
+    "title": "MADQRL: Distributed Quantum Reinforcement Learning Framework for Multi-Agent Environments",
+    "authors": [
+      "Abhishek Sawaika",
+      "Samuel Yen-Chi Chen",
+      "Udaya Parampalli",
+      "Rajkumar Buyya"
+    ],
+    "abstract": "Reinforcement learning (RL) is one of the most practical ways to learn from real-life use-cases. Motivated from the cognitive methods used by humans makes it a widely acceptable strategy in the field of artificial intelligence. Most of the environments used for RL are often high-dimensional, and traditional RL algorithms becomes computationally expensive and challenging to effectively learn from such systems. Recent advancements in practical demonstration of quantum computing (QC) theories, such as compact encoding, enhanced representation and learning algorithms, random sampling, or the inherent stochastic nature of quantum systems, have opened up new directions to tackle these challenges. Quantum reinforcement learning (QRL) is seeking significant traction over the past few years. However, the current state of quantum hardware is not enough to cater for such high-dimensional environments with complex multi-agent setup. To tackle this issue, we propose a distributed framework for QRL where multiple agents learn independently, distributing the load of joint training from individual machines. Our method works well for environments with disjoint sets of action and observation spaces, but can also be extended to other systems with reasonable approximations. We analyze the proposed method on cooperative-pong environment and our results indicate ~10% improvement from other distribution strategies, and ~5% improvement from classical models of policy representation.",
+    "url": "http://arxiv.org/abs/2604.11131v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.11131v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10989v1",
+    "title": "MAFIG: Multi-agent Driven Formal Instruction Generation Framework",
+    "authors": [
+      "Shixing Zhao",
+      "Zheng Si",
+      "Pengpeng Ouyang",
+      "Zhengqing Hu",
+      "Wanqi Zhu"
+    ],
+    "abstract": "Emergency situations in scheduling systems often trigger local functional failures that undermine system stability and even cause system collapse. Existing methods primarily rely on robust scheduling or reactive scheduling, handling emergencies through predefined rules or rescheduling strategies. However, the diversity and unpredictability of real-world emergencies make them difficult to anticipate, which limits the adaptability of these methods in complex scenarios. Recent studies have shown that Large Language Models (LLMs) possess strong potential for complex scheduling tasks because of their extensive prior knowledge and strong reasoning capabilities. Nevertheless, the high inference latency of LLMs and the lengthy contextual information of scheduling systems significantly hinder their application for emergency handling. To mitigate these issues, we propose the Multi-agent Driven Formal Instruction Generation Framework (MAFIG). The framework constrains the decision scope to local functional modules affected by emergency situations and repairs scheduling logic rapidly by generating formal instructions. MAFIG contains a Perception Agent and an Emergency Decision Agent, which mitigates the adverse impact of lengthy system contexts on emergency decision-making. We further introduce span-focused loss-driven local distillation mechanism (SFL) to transfer the decision-making capability of powerful Cloud Large Language Models (C-LLMs) to lightweight local models, reducing inference latency while preserving decision-making effectiveness. Experiments in the Port, Warehousing, and Deck scheduling datasets show success rates of 98.49\\%, 94.97\\%, and 97.50\\%, with average processing times of 0.33 s, 0.23 s, and 0.19 s. These results demonstrate that MAFIG effectively mitigates the impact of emergencies and improves the robustness and adaptability of scheduling systems.",
+    "url": "http://arxiv.org/abs/2604.10989v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10989v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10911v1",
+    "title": "EvoNash-MARL: A Closed-Loop Multi-Agent Reinforcement Learning Framework for Medium-Horizon Equity Allocation",
+    "authors": [
+      "Chongliu Jia",
+      "Yi Luo",
+      "Sipeng Han",
+      "Pengwei Li",
+      "Jie Ding"
+    ],
+    "abstract": "Medium-to-long-horizon stock allocation presents significant challenges due toveak predictive structures, non-stadonary market regimes, and the degradationf signals following the application of transaction costs, capacity limits, and tail-isk constraints. Conventional approaches commonly rely on a single predictor orloosely coupled prediction-to-allocation pipeline, limiting robustness underThis work addresses a targeted design question: whetherlistribution shift. 1coupling reinforcement learning (RL), multi-agent policy populations, Policy-Space Response Oracle (PSRO)-style aggregation, league best-response trainingevolutionary replacement, and execution-aware checkpoint selection within ainified walk-forward loop improves allocator robustness at medium to longhorizons. The proposed framework, EvoNash-MARL, integrates these componentswithin an execution-aware allocation loop and further introduces a layeredpolicy architecture comprising a direction head and a risk head, nonlinear signalenhancement, feature-quality reweighting, and constraint-aware checkpointselection. Under a 120-window walk-forward protocol, the resolved v21configuration achieves mean excess Sharpe 0.7600 and robust score -0.0203,anking first among internal controls; on aligned daily out-of-sample returnsrom 2014-01-02 to 2024-01-05, it delivers 19.6% annualized return versus 11.7% for SPY, and in an extended walk-forward evaluation through 2026-02-10 it delivers 20.5% rersus 13.5%. The framework maintains positive performance under realistictress constraints and exhibits structured cross-market generalization; however,lobal strong significance under White's Reality Check (WRC) and SPA-lite testingestablished. Therefore, the results are presented as evidence supporting asnotnore stable medium-to long-horizon training and selection paradigm, ratherhan as prooffof universally superior market-timing performance.",
+    "url": "http://arxiv.org/abs/2604.10911v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10911v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10480v1",
+    "title": "Tracing the Roots: A Multi-Agent Framework for Uncovering Data Lineage in Post-Training LLMs",
+    "authors": [
+      "Yu Li",
+      "Xiaoran Shang",
+      "Qizhi Pei",
+      "Yun Zhu",
+      "Xin Gao"
+    ],
+    "abstract": "Post-training data plays a pivotal role in shaping the capabilities of Large Language Models (LLMs), yet datasets are often treated as isolated artifacts, overlooking the systemic connections that underlie their evolution. To disentangle these complex relationships, we introduce the concept of \\textbf{data lineage} to the LLM ecosystem and propose an automated multi-agent framework to reconstruct the evolutionary graph of dataset development. Through large-scale lineage analysis, we characterize domain-specific structural patterns, such as vertical refinement in math-oriented datasets and horizontal aggregation in general-domain corpora. Moreover, we uncover pervasive systemic issues, including \\textit{structural redundancy} induced by implicit dataset intersections and the \\textit{propagation of benchmark contamination} along lineage paths. To demonstrate the practical value of lineage analysis for data construction, we leverage the reconstructed lineage graph to create a \\textit{lineage-aware diversity-oriented dataset}. By anchoring instruction sampling at upstream root sources, this approach mitigates downstream homogenization and hidden redundancy, yielding a more diverse post-training corpus. We further highlight lineage-centric analysis as an efficient and robust topological alternative to sample-level dataset comparison for large-scale data ecosystems. By grounding data construction in explicit lineage structures, our work advances post-training data curation toward a more systematic and controllable paradigm.",
+    "url": "http://arxiv.org/abs/2604.10480v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10480v1",
+    "published": "2026-04-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10252v1",
+    "title": "A Dual-Positive Monotone Parameterization for Multi-Segment Bids and a Validity Assessment Framework for Reinforcement Learning Agent-based Simulation of Electricity Markets",
+    "authors": [
+      "Zunnan Xu",
+      "Zhaoxia Jing",
+      "Zhanhua Pan"
+    ],
+    "abstract": "Reinforcement learning agent-based simulation (RL-ABS) has become an important tool for electricity market mechanism analysis and evaluation. In the modeling of monotone, bounded, multi-segment stepwise bids, existing methods typically let the policy network first output an unconstrained action and then convert it into a feasible bid curve satisfying monotonicity and boundedness through post-processing mappings such as sorting, clipping, or projection. However, such post-processing mappings often fail to satisfy continuous differentiability, injectivity, and invertibility at boundaries or kinks, thereby causing gradient distortion and leading to spurious convergence in simulation results. Meanwhile, most existing studies conduct mechanism analysis and evaluation mainly on the basis of training-curve convergence, without rigorously assessing the distance between the simulation outcomes and Nash equilibrium, which severely undermines the credibility of the results. To address these issues, this paper proposes...",
+    "url": "http://arxiv.org/abs/2604.10252v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10252v1",
+    "published": "2026-04-11",
+    "categories": [
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.10932v1",
+    "title": "Visible, Trackable, Forkable: Opening the Process of Science",
+    "authors": [
+      "Sergey V. Samsonau"
+    ],
+    "abstract": "The way science is currently practiced shows conclusions but hides how they were reached. Researchers work privately, polish their results, publish a finished paper, and defend it. Errors are punished by retraction rather than corrected by amendment. Alternative directions are pursued through competing papers with no shared history. The reasoning, the dead ends, the trade-offs, the corrections: everything that would let others understand how a conclusion was reached is invisible. Two decades of open science reform have addressed this by opening specific artifacts: papers, data, code, notebooks, protocols. Each is valuable, but the unit remains a finished product. None opens the thinking process itself: the evolving sequence of questions, interpretations, dead ends, and direction changes that constitutes the actual scientific contribution.   This paper argues that opening the process of science (not just its outputs) would produce a step change in the speed of scientific progress, the accessibility of scientific reasoning, the trustworthiness of scientific claims, and the scalability of scientific quality assurance. We identify three properties the workflow needs: visible (the process is open, not just the product), trackable (every change is recorded and attributable), and forkable (anyone can branch from any point with shared history preserved). A visible, trackable flow is inherently verifiable: by humans, by automated tools, by AI agents. Software development adopted this flow decades ago, and the results (faster correction, broader contribution, maintained quality at scale) demonstrate the opportunity for science.",
+    "url": "http://arxiv.org/abs/2604.10932v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.10932v1",
+    "published": "2026-04-13",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]
