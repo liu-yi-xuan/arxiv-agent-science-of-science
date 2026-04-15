@@ -24,6 +24,40 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-15
+
+**15 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](http://arxiv.org/abs/2604.10923v1) | Zihao Cheng, Zeming Liu, Yingyu Shan et al. | While large language model--powered agents can self-evolve by accumulating experience or by dynamically creating new assets (i.e., tools or expert agents), existing frameworks typically treat these... |
+| [Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics](http://arxiv.org/abs/2604.12198v1) | Haonan Huang | Recent autonomous LLM agents have demonstrated end-to-end automation of machine-learning research. Real-world physical science is intrinsically harder, requiring deep reasoning bounded by physical ... |
+| [A collaborative agent with two lightweight synergistic models for autonomous crystal materials research](http://arxiv.org/abs/2604.11540v1) | Tongyu Shi, Yutang Li, Zhanyuan Li et al. | Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. |
+| [Camyla: Scaling Autonomous Research in Medical Image Segmentation](http://arxiv.org/abs/2604.10696v1) | Yifan Gao, Haoyue Li, Feng Yuan et al. | We present Camyla, a system for fully autonomous research within the scientific domain of medical image segmentation. |
+| [Agentic LLM Reasoning in a Self-Driving Laboratory for Air-Sensitive Lithium Halide Spinel Conductors](http://arxiv.org/abs/2604.11957v1) | Yuxing Fei, Bernardus Rendy, Xiaochen Yang et al. | Self-driving laboratories promise to accelerate materials discovery. Yet current automated solid-state synthesis platforms are limited to ambient conditions, thereby precluding their use for air-se... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HTAA: Enhancing LLM Planning via Hybrid Toolset Agentization & Adaptation](http://arxiv.org/abs/2604.10917v1) | Chengrui Huang, Junshuo Zhang, Zhiyuan Ma et al. | Enabling large language models to scale and reliably use hundreds of tools is critical for real-world applications, yet challenging due to the inefficiency and error accumulation inherent in flat t... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers](http://arxiv.org/abs/2604.11307v1) | Lei Xiong, Huaying Yuan, Zheng Liu et al. | Leveraging Multi-modal Large Language Models (MLLMs) to accelerate frontier scientific research is promising, yet how to rigorously evaluate such systems remains unclear. |
+| [TRUST Agents: A Collaborative Multi-Agent Framework for Fake News Detection, Explainable Verification, and Logic-Aware Claim Reasoning](http://arxiv.org/abs/2604.12184v1) | Gautama Shastry Bulusu Venkata, Santhosh Kakarla, Maheedhar Omtri Mohan et al. | TRUST Agents is a collaborative multi-agent framework for explainable fact verification and fake news detection. |
+| [Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games](http://arxiv.org/abs/2604.11741v1) | Keyang Zhong, Junlin Xie, Hefeng Wu et al. | Vision-language models (VLMs) have shown impressive capabilities in perceptual tasks, yet they degrade in complex multi-hop reasoning under multiplayer game settings with imperfect and deceptive in... |
+| [Agentic Insight Generation in VSM Simulations](http://arxiv.org/abs/2604.12421v1) | Micha Selak, Dirk Krechel, Adrian Ulges et al. | Extracting actionable insights from complex value stream map simulations can be challenging, time-consuming, and error-prone. |
+| [AutoSurrogate: An LLM-Driven Multi-Agent Framework for Autonomous Construction of Deep Learning Surrogate Models in Subsurface Flow](http://arxiv.org/abs/2604.11945v1) | Jiale Liu, Nanzhe Wang | High-fidelity numerical simulation of subsurface flow is computationally intensive, especially for many-query tasks such as uncertainty quantification and data assimilation. |
+| [RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents](http://arxiv.org/abs/2604.11655v1) | Riccardo Rosati, Edoardo Colucci, Massimiliano Bolognini et al. | The rapid adoption of Large Language Models (LLMs) in interactive systems has enabled the creation of dynamic, open-ended Role-Playing Agents (RPAs). |
+| [MADQRL: Distributed Quantum Reinforcement Learning Framework for Multi-Agent Environments](http://arxiv.org/abs/2604.11131v1) | Abhishek Sawaika, Samuel Yen-Chi Chen, Udaya Parampalli et al. | Reinforcement learning (RL) is one of the most practical ways to learn from real-life use-cases. Motivated from the cognitive methods used by humans makes it a widely acceptable strategy in the fie... |
+| [MAFIG: Multi-agent Driven Formal Instruction Generation Framework](http://arxiv.org/abs/2604.10989v1) | Shixing Zhao, Zheng Si, Pengpeng Ouyang et al. | Emergency situations in scheduling systems often trigger local functional failures that undermine system stability and even cause system collapse. |
+| [EvoNash-MARL: A Closed-Loop Multi-Agent Reinforcement Learning Framework for Medium-Horizon Equity Allocation](http://arxiv.org/abs/2604.10911v2) | Chongliu Jia, Yi Luo, Sipeng Han et al. | Medium- to long-horizon equity allocation is challenging due to weak predictive structure, non-stationary market regimes, and the degradation of signals under realistic trading constraints. |
+
 ### 📅 2026-04-14
 
 **16 new papers found**
