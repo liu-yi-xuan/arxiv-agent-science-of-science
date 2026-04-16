@@ -24,6 +24,26 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-16
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MIND: AI Co-Scientist for Material Research](http://arxiv.org/abs/2604.13699v1) | Geonhee Ahn, Donghyun Lee, Hayoung Doo et al. | Large language models (LLMs) have enabled agentic AI systems for scientific discovery, but most approaches remain limited to textbased reasoning without automated experimental verification. |
+| [Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics](http://arxiv.org/abs/2604.12198v1) | Haonan Huang | Recent autonomous LLM agents have demonstrated end-to-end automation of machine-learning research. Real-world physical science is intrinsically harder, requiring deep reasoning bounded by physical ... |
+| [A collaborative agent with two lightweight synergistic models for autonomous crystal materials research](http://arxiv.org/abs/2604.11540v1) | Tongyu Shi, Yutang Li, Zhanyuan Li et al. | Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. |
+| [Agentic LLM Reasoning in a Self-Driving Laboratory for Air-Sensitive Lithium Halide Spinel Conductors](http://arxiv.org/abs/2604.11957v1) | Yuxing Fei, Bernardus Rendy, Xiaochen Yang et al. | Self-driving laboratories promise to accelerate materials discovery. Yet current automated solid-state synthesis platforms are limited to ambient conditions, thereby precluding their use for air-se... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution](http://arxiv.org/abs/2604.13787v1) | Shouzheng Huang, Meishan Zhang, Baotian Hu et al. | Large Language Models (LLMs) enhance their problem-solving capability by utilizing external tools. However, in open-world scenarios with massive and evolving tool repositories, existing methods rel... |
+| [WebXSkill: Skill Learning for Autonomous Web Agents](http://arxiv.org/abs/2604.13318v1) | Zhaoyang Wang, Qianhui Wu, Xuchao Zhang et al. | Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. |
+
 ### 📅 2026-04-15
 
 **15 new papers found**
