@@ -1,0 +1,327 @@
+[
+  {
+    "id": "2604.14615v1",
+    "title": "CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors",
+    "authors": [
+      "Yubin Kim",
+      "Salman Rahman",
+      "Samuel Schmidgall",
+      "Chunjong Park",
+      "A. Ali Heydari"
+    ],
+    "abstract": "Scientific discovery in digital health requires converting continuous physiological signals from wearable devices into clinically actionable biomarkers. We introduce CoDaS (AI Co-Data-Scientist), a multi-agent system that structures biomarker discovery as an iterative process combining hypothesis generation, statistical analysis, adversarial validation, and literature-grounded reasoning with human oversight using large-scale wearable datasets. Across three cohorts totaling 9,279 participant-observations, CoDaS identified 41 candidate digital biomarkers for mental health and 25 for metabolic outcomes, each subjected to an internal validation battery spanning replication, stability, robustness, and discriminative power. Across two independent depression cohorts, CoDaS surfaced circadian instability-related features in both datasets, reflected in sleep duration variability (DWB, ρ= 0.252, p < 0.001) and sleep onset variability (GLOBEM, ρ= 0.126, p < 0.001). In a metabolic cohort, CoDaS derived a cardiovascular fitness index (steps/resting heart rate; ρ= -0.374, p < 0.001), and recovered established clinical associations, including the hepatic function ratio (AST/ALT; ρ= -0.375, p < 0.001), a known correlate of insulin resistance. Incorporating CoDaS-derived features alongside demographic variables led to modest but consistent improvements in predictive performance, with cross-validated ΔR^2 increases of 0.040 for depression and 0.021 for insulin resistance. These findings suggest that CoDaS enables systematic and traceable hypothesis generation and prioritization for biomarker discovery from large-scale wearable data.",
+    "url": "http://arxiv.org/abs/2604.14615v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14615v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.13699v1",
+    "title": "MIND: AI Co-Scientist for Material Research",
+    "authors": [
+      "Geonhee Ahn",
+      "Donghyun Lee",
+      "Hayoung Doo",
+      "Jonggeol Na",
+      "Hyunsoo Cho"
+    ],
+    "abstract": "Large language models (LLMs) have enabled agentic AI systems for scientific discovery, but most approaches remain limited to textbased reasoning without automated experimental verification. We propose MIND, an LLM-driven framework for automated hypothesis validation in materials research. MIND organizes the scientific discovery process into hypothesis refinement, experimentation, and debate-based validation within a multi-agent pipeline. For experimental verification, the system integrates Machine Learning Interatomic Potentials, particularly SevenNet-Omni, enabling scalable in-silico experiments. We also provide a web-based user interface for automated hypothesis testing. The modular design allows additional experimental modules to be integrated, making the framework adaptable to broader scientific workflows. The code is available at: https://github.com/IMMS-Ewha/MIND, and a demonstration video at: https://youtu.be/lqiFe1OQzN4.",
+    "url": "http://arxiv.org/abs/2604.13699v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13699v1",
+    "published": "2026-04-15",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.13787v1",
+    "title": "ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution",
+    "authors": [
+      "Shouzheng Huang",
+      "Meishan Zhang",
+      "Baotian Hu",
+      "Min Zhang"
+    ],
+    "abstract": "Large Language Models (LLMs) enhance their problem-solving capability by utilizing external tools. However, in open-world scenarios with massive and evolving tool repositories, existing methods relying on static embedding retrieval or parameter memorization of tools struggle to align user intent with tool semantics or generalize to unseen tools, respectively, leading to suboptimal accuracy of open-world tool retrieval and execution. To address these, we present ToolOmni, a unified agentic framework that enables LLMs for open-world tool use by proactive retrieval and grounded execution within a reasoning loop. First, we construct a cold-start multi-turn interaction dataset to instill foundational agentic capabilities via Supervised Fine-Tuning (SFT). Then, we introduce open-world tool learning based on a Decoupled Multi-Objective GRPO algorithm, which simultaneously optimizes LLMs for both tool retrieval accuracy and execution efficacy in online environments. Extensive experiments demonstrate that ToolOmni achieves state-of-the-art performance both in retrieval and execution, surpassing strong baselines by a significant margin of +10.8% in end-to-end execution success rate, while exhibiting exceptional robustness and generalization capabilities.",
+    "url": "http://arxiv.org/abs/2604.13787v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13787v1",
+    "published": "2026-04-15",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.13318v1",
+    "title": "WebXSkill: Skill Learning for Autonomous Web Agents",
+    "authors": [
+      "Zhaoyang Wang",
+      "Qianhui Wu",
+      "Xuchao Zhang",
+      "Chaoyun Zhang",
+      "Wenlin Yao"
+    ],
+    "abstract": "Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. A key bottleneck is the grounding gap in existing skill formulations: textual workflow skills provide natural language guidance but cannot be directly executed, while code-based skills are executable but opaque to the agent, offering no step-level understanding for error recovery or adaptation. We introduce WebXSkill, a framework that bridges this gap with executable skills, each pairing a parameterized action program with step-level natural language guidance, enabling both direct execution and agent-driven adaptation. WebXSkill operates in three stages: skill extraction mines reusable action subsequences from readily available synthetic agent trajectories and abstracts them into parameterized skills, skill organization indexes skills into a URL-based graph for context-aware retrieval, and skill deployment exposes two complementary modes, grounded mode for fully automated multi-step execution and guided mode where skills serve as step-by-step instructions that the agent follows with its native planning. On WebArena and WebVoyager, WebXSkill improves task success rate by up to 9.8 and 12.9 points over the baseline, respectively, demonstrating the effectiveness of executable skills for web agents. The code is publicly available at https://github.com/aiming-lab/WebXSkill.",
+    "url": "http://arxiv.org/abs/2604.13318v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13318v1",
+    "published": "2026-04-14",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.14786v1",
+    "title": "CogEvolution: A Human-like Generative Educational Agent to Simulate Student's Cognitive Evolution",
+    "authors": [
+      "Wei Zhang",
+      "Yihang Cheng",
+      "Zhirong Ye",
+      "Kezhen Huang"
+    ],
+    "abstract": "Generative Agents, owing to their precise modeling and simulation capabilities of human behavior, have become a pivotal tool in the field of Artificial Intelligence in Education (AIEd) for uncovering complex cognitive processes of learners. However, existing educational agents predominantly rely on static personas to simulate student learning behaviors, neglecting the decisive role of deep cognitive capabilities in learning outcomes during practice interactions. Furthermore, they struggle to characterize the dynamic fluidity of knowledge internalization, transfer, and cognitive state transitions. To overcome this bottleneck, this paper proposes a human-like educational agent capable of simulating student cognitive evolution: CogEvolution. Specifically, we first construct a cognitive depth perceptron based on the Interactive, Constructive, Active, Passive (ICAP) taxonomy from cognitive psychology, achieving precise quantification of learner cognitive engagement. Subsequently, we propose a memory retrieval method based on Item Response Theory (IRT) to simulate the connection and assimilation of new and prior knowledge. Finally, we design a dynamic cognitive update mechanism based on evolutionary algorithms to simulate the real-time integration of student learning behaviors and cognitive evolution processes. Comprehensive evaluations demonstrate that CogEvolution not only significantly outperforms baseline models in behavioral fidelity and learning curve fitting but also uniquely reproduces plausible and robust cognitive evolutionary paths consistent with educational psychology expectations, providing a novel paradigm for constructing highly interpretable educational agents.",
+    "url": "http://arxiv.org/abs/2604.14786v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14786v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.14609v1",
+    "title": "El Agente Forjador: Task-Driven Agent Generation for Quantum Simulation",
+    "authors": [
+      "Zijian Zhang",
+      "Aiwei Yin",
+      "Amaan Baweja",
+      "Jiaru Bai",
+      "Ignacio Gustin"
+    ],
+    "abstract": "AI for science promises to accelerate the discovery process. The advent of large language models (LLMs) and agentic workflows enables the expediting of a growing range of scientific tasks. However, most of the current generation of agentic systems depend on static, hand-curated toolsets that hinder adaptation to new domains and evolving libraries. We present El Agente Forjador, a multi-agent framework in which universal coding agents autonomously forge, validate, and reuse computational tools through a four-stage workflow of tool analysis, tool generation, task execution, and iterative solution evaluation. Evaluated across 24 tasks spanning quantum chemistry and quantum dynamics on five coding agent setups, we compare three operating modes: zero-shot generation of tools per task, reuse of a curriculum-built toolset, and direct problem-solving with the coding agents as the baseline. We find that our tool generation and reuse framework consistently improves accuracy over the baseline. We also show that reusing a toolset built by a stronger coding agent can reduce API cost and substantially raises the solution quality for weaker coding agents. Case studies further demonstrate that tools forged for different domains can be combined to solve hybrid tasks. Taken together, these results show that LLM-based agents can use their scientific knowledge and coding capabilities to autonomously build reusable scientific tools, pointing toward a paradigm in which agent capabilities are defined by the tasks they are designed to solve rather than by explicitly engineered implementations.",
+    "url": "http://arxiv.org/abs/2604.14609v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14609v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.15044v1",
+    "title": "CoGrid & the Multi-User Gymnasium: A Framework for Multi-Agent Experimentation",
+    "authors": [
+      "Chase McDonald",
+      "Cleotilde Gonzalez"
+    ],
+    "abstract": "The increasing integration of artificial intelligence (AI) in everyday life brings with it new challenges and questions for regarding how humans interact with autonomous agents. Multi-agent experiments, where humans and AI act together, can offer important opportunities to study social decision making, but there is a lack of accessible tooling available to researchers to run such experiments. We introduce two tools designed to reduce these barriers. The first, CoGrid, is a multi-agent grid-based simulation library with dual NumPy and JAX backends. The second, Multi-User Gymnasium (MUG), translates such simulation environments directly into interactive web-based experiments. MUG supports interactions with arbitrary numbers of humans and AI, utilizing either server-authoritative or peer-to-peer networking with rollback netcode to account for latency. Together, these tools can enable researchers to deploy studies of human-AI interaction, facilitating inquiry into core questions of psychology, cognition, and decision making and their relationship to human-AI interaction. Both tools are open source and available to the broader research community. Documentation and source code is available at {cogrid, multi-user-gymnasium}.readthedocs.io. This paper details the functionality of these tools and presents several case studies to illustrate their utility in human-AI multi-agent experimentation.",
+    "url": "http://arxiv.org/abs/2604.15044v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.15044v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.14687v1",
+    "title": "M2-PALE: A Framework for Explaining Multi-Agent MCTS--Minimax Hybrids via Process Mining and LLMs",
+    "authors": [
+      "Yiyu Qian",
+      "Liyuan Zhao",
+      "Tim Miller"
+    ],
+    "abstract": "Monte-Carlo Tree Search (MCTS) is a fundamental sampling-based search algorithm widely used for online planning in sequential decision-making domains. Despite its success in driving recent advances in artificial intelligence, understanding the behavior of MCTS agents remains a challenge for both developers and users. This difficulty stems from the complex search trees produced through the simulation of numerous future states and their intricate relationships. A known weakness of standard MCTS is its reliance on highly selective tree construction, which may lead to the omission of crucial moves and a vulnerability to tactical traps. To resolve this, we incorporate shallow, full-width Minimax search into the rollout phase of multi-agent MCTS to enhance strategic depth. Furthermore, to demystify the resulting decision-making logic, we introduce \\textsf{M2-PALE} (MCTS--Minimax Process-Aided Linguistic Explanations). This framework employs process mining techniques, specifically the Alpha Miner, iDHM, and Inductive Miner algorithms, to extract underlying behavioral workflows from agent execution traces. These process models are then synthesized by LLMs to generate human-readable causal and distal explanations. We demonstrate the efficacy of our approach in a small-scale checkers environment, establishing a scalable foundation for interpreting hybrid agents in increasingly complex strategic domains.",
+    "url": "http://arxiv.org/abs/2604.14687v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14687v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.14550v1",
+    "title": "VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs",
+    "authors": [
+      "Sazzadul Islam",
+      "Tasnim Tabassum",
+      "Hao Zheng"
+    ],
+    "abstract": "Generating synthesizable Verilog for large, hierarchical hardware designs remains a significant challenge for large language models (LLMs), which struggle to replicate the structured reasoning that human experts employ when translating complex specifications into RTL. When tasked with producing hierarchical Verilog, LLMs frequently lose context across modules, hallucinate interfaces, fabricate inter-module wiring, and fail to maintain structural coherence - failures that intensify as design complexity grows and specifications involve informal prose, figures, and tables that resist direct operationalization. To address these challenges, we present VeriGraphi, a framework that introduces a spec-anchored Knowledge Graph as the architectural substrate driving the RTL generation pipeline. VeriGraphi constructs a HDA, a structured knowledge graph that explicitly encodes module hierarchy, port-level interfaces, wiring semantics, and inter-module dependencies as first-class graph entities and relations. Built through iterative multi-agent analysis of the specification, this Knowledge Graph provides a deterministic, machine-checkable structural scaffold before code generation. Guided by the KG, a progressive coding module incrementally generates pseudo-code and synthesizable RTL while enforcing interface consistency and dependency correctness at each submodule stage. We evaluate VeriGraphi on a benchmark of three representative specification documents from the National Institute of Standards and Technology and their corresponding implementations, and we present a RV32I processor as a detailed case study to illustrate the full pipeline. The results demonstrate that VeriGraphi enables reliable hierarchical RTL generation with minimal human intervention for RISC-V, marking a significant milestone for LLM-generated hardware design while maintaining strong functional correctness.",
+    "url": "http://arxiv.org/abs/2604.14550v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14550v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.AR",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA",
+      "cs.PL"
+    ],
+    "primary_category": "cs.AR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.13236v1",
+    "title": "SemiFA: An Agentic Multi-Modal Framework for Autonomous Semiconductor Failure Analysis Report Generation",
+    "authors": [
+      "Shivam Chand Kaushik"
+    ],
+    "abstract": "Semiconductor failure analysis (FA) requires engineers to examine inspection images, correlate equipment telemetry, consult historical defect records, and write structured reports, a process that can consume several hours of expert time per case. We present SemiFA, an agentic multi-modal framework that autonomously generates structured FA reports from semiconductor inspection images in under one minute. SemiFA decomposes FA into a four-agent LangGraph pipeline: a DefectDescriber that classifies and narrates defect morphology using DINOv2 and LLaVA-1.6, a RootCauseAnalyzer that fuses SECS/GEM equipment telemetry with historically similar defects retrieved from a Qdrant vector database, a SeverityClassifier that assigns severity and estimates yield impact, and a RecipeAdvisor that proposes corrective process adjustments. A fifth node assembles a PDF report. We introduce SemiFA-930, a dataset of 930 annotated semiconductor defect images paired with structured FA narratives across nine defect classes, drawn from procedural synthesis, WM-811K, and MixedWM38. Our DINOv2-based classifier achieves 92.1% accuracy on 140 validation images (macro F1 = 0.917), and the full pipeline produces complete FA reports in 48 seconds on an NVIDIA A100-SXM4-40 GB GPU. A GPT-4o judge ablation across four modality conditions demonstrates that multi-modal fusion improves root cause reasoning by +0.86 composite points (1-5 scale) over an image-only baseline, with equipment telemetry as the more load-bearing modality. To our knowledge, SemiFA is the first system to integrate SECS/GEM equipment telemetry into a vision-language model pipeline for autonomous FA report generation.",
+    "url": "http://arxiv.org/abs/2604.13236v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13236v1",
+    "published": "2026-04-14",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "eess.IV"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.14047v1",
+    "title": "Demanding peer review is associated with higher impact in published science",
+    "authors": [
+      "Huihuang Jiang",
+      "Heyang Li",
+      "Zifan Wang",
+      "Ying Fan",
+      "An Zeng"
+    ],
+    "abstract": "Peer review shapes which scientific claims enter the published record, but its internal dynamics are hard to measure at scale because reviewer criticism and author revision are usually embedded in long, unstructured correspondence. Here we use a fixed-prompt large language model pipeline to convert the review correspondence of \\textit{Nature Communications} papers published from 2017 to 2024 into structured reviewer--author interactions. We find that review pressure is concentrated in the first round and focused disproportionately on core claims rather than peripheral presentation. Higher average opinion strength is also associated with more reviewer disagreement, while review patterns vary little with broad team attributes, consistent with relatively impartial evaluation. Contrary to the intuition that stronger papers should pass review more smoothly, with greater reviewer--author agreement and less extensive revision, we find that stronger criticism, higher-quality comments, and greater revision burden are associated with higher later citation impact within accepted papers. We finally show that fields differ more in review style than in review length, pointing to disciplinary variation in how criticism is negotiated and resolved. These findings position open peer review not just as a gatekeeping mechanism but as a measurable record of how influential scientific claims are challenged, defended, and revised before entering the published record.",
+    "url": "http://arxiv.org/abs/2604.14047v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14047v1",
+    "published": "2026-04-15",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.15267v1",
+    "title": "CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas",
+    "authors": [
+      "Emanuel Tewolde",
+      "Xiao Zhang",
+      "David Guzman Piedrahita",
+      "Vincent Conitzer",
+      "Zhijing Jin"
+    ],
+    "abstract": "It is increasingly important that LLM agents interact effectively and safely with other goal-pursuing agents, yet, recent works report the opposite trend: LLMs with stronger reasoning capabilities behave _less_ cooperatively in mixed-motive games such as the prisoner's dilemma and public goods settings. Indeed, our experiments show that recent models -- with or without reasoning enabled -- consistently defect in single-shot social dilemmas.   To tackle this safety concern, we present the first comparative study of game-theoretic mechanisms that are designed to enable cooperative outcomes between rational agents _in equilibrium_. Across four social dilemmas testing distinct components of robust cooperation, we evaluate the following mechanisms: (1) repeating the game for many rounds, (2) reputation systems, (3) third-party mediators to delegate decision making to, and (4) contract agreements for outcome-conditional payments between players. Among our findings, we establish that contracting and mediation are most effective in achieving cooperative outcomes between capable LLM models, and that repetition-induced cooperation deteriorates drastically when co-players vary. Moreover, we demonstrate that these cooperation mechanisms become _more effective_ under evolutionary pressures to maximize individual payoffs.",
+    "url": "http://arxiv.org/abs/2604.15267v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.15267v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.GT",
+      "cs.AI",
+      "cs.CL",
+      "cs.CY",
+      "cs.MA"
+    ],
+    "primary_category": "cs.GT",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.14709v1",
+    "title": "HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks",
+    "authors": [
+      "Fan Cui",
+      "Hongyuan Hou",
+      "Zizhang Luo",
+      "Chenyun Yin",
+      "Yun Liang"
+    ],
+    "abstract": "Existing benchmarks for hardware design primarily evaluate Large Language Models (LLMs) on isolated, component-level tasks such as generating HDL modules from specifications, leaving repository-scale evaluation unaddressed. We introduce HWE-Bench, the first large-scale, repository-level benchmark for evaluating LLM agents on real-world hardware bug repair tasks. HWE-Bench comprises 417 task instances derived from real historical bug-fix pull requests across six major open-source projects spanning both Verilog/SystemVerilog and Chisel, covering RISC-V cores, SoCs, and security roots-of-trust. Each task is grounded in a fully containerized environment where the agent must resolve a real bug report, with correctness validated through the project's native simulation and regression flows. The benchmark is built through a largely automated pipeline that enables efficient expansion to new repositories. We evaluate seven LLMs with four agent frameworks and find that the best agent resolves 70.7% of tasks overall, with performance exceeding 90% on smaller cores but dropping below 65% on complex SoC-level projects. We observe larger performance gaps across models than commonly reported on software benchmarks, and difficulty is driven by project scope and bug-type distribution rather than code size alone. Our failure analysis traces agent failures to three stages of the debugging process: fault localization, hardware-semantic reasoning, and cross-artifact coordination across RTL, configuration, and verification components, providing concrete directions for developing more capable hardware-aware agents.",
+    "url": "http://arxiv.org/abs/2604.14709v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14709v1",
+    "published": "2026-04-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.13954v1",
+    "title": "HINTBench: Horizon-agent Intrinsic Non-attack Trajectory Benchmark",
+    "authors": [
+      "Jiacheng Wang",
+      "Jinchang Hou",
+      "Fabian Wang",
+      "Ping Jian",
+      "Chenfu Bao"
+    ],
+    "abstract": "Existing agent-safety evaluation has focused mainly on externally induced risks. Yet agents may still enter unsafe trajectories under benign conditions. We study this complementary but underexplored setting through the lens of \\emph{intrinsic} risk, where intrinsic failures remain latent, propagate across long-horizon execution, and eventually lead to high-consequence outcomes. To evaluate this setting, we introduce \\emph{non-attack intrinsic risk auditing} and present \\textbf{HINTBench}, a benchmark of 629 agent trajectories (523 risky, 106 safe; 33 steps on average) supporting three tasks: risk detection, risk-step localization, and intrinsic failure-type identification. Its annotations are organized under a unified five-constraint taxonomy. Experiments reveal a substantial capability gap: strong LLMs perform well on trajectory-level risk detection, but their performance drops to below 35 Strict-F1 on risk-step localization, while fine-grained failure diagnosis proves even harder. Existing guard models transfer poorly to this setting. These findings establish intrinsic risk auditing as an open challenge for agent safety.",
+    "url": "http://arxiv.org/abs/2604.13954v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13954v1",
+    "published": "2026-04-15",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.13888v1",
+    "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+    "authors": [
+      "Bo Yu",
+      "Cheng Yang",
+      "Dongyang Hou",
+      "Chengfu Liu",
+      "Jiayao Liu"
+    ],
+    "abstract": "The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating these LLM-based agents remains challenging due to the complex, multi-step nature of geospatial workflows. Existing benchmarks primarily rely on static text or code matching, neglecting dynamic runtime feedback and the multimodal nature of spatial outputs. To address this gap, we introduce GeoAgentBench (GABench), a dynamic and interactive evaluation benchmark tailored for tool-augmented GIS agents. GABench provides a realistic execution sandbox integrating 117 atomic GIS tools, encompassing 53 typical spatial analysis tasks across 6 core GIS domains. Recognizing that precise parameter configuration is the primary determinant of execution success in dynamic GIS environments, we designed the Parameter Execution Accuracy (PEA) metric, which utilizes a \"Last-Attempt Alignment\" strategy to quantify the fidelity of implicit parameter inference. Complementing this, a Vision-Language Model (VLM) based verification is proposed to assess data-spatial accuracy and cartographic style adherence. Furthermore, to address the frequent task failures caused by parameter misalignments and runtime anomalies, we developed a novel agent architecture, Plan-and-React, that mimics expert cognitive workflows by decoupling global orchestration from step-wise reactive execution. Extensive experiments with seven representative LLMs demonstrate that the Plan-and-React paradigm significantly outperforms traditional frameworks, achieving the optimal balance between logical rigor and execution robustness, particularly in multi-step reasoning and error recovery. Our findings highlight current capability boundaries and establish a robust standard for assessing and advancing the next generation of autonomous GeoAI.",
+    "url": "http://arxiv.org/abs/2604.13888v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13888v1",
+    "published": "2026-04-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.13531v1",
+    "title": "RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management",
+    "authors": [
+      "Renqi Chen",
+      "Zeyin Tao",
+      "Jianming Guo",
+      "Jing Wang",
+      "Zezhou Xu"
+    ],
+    "abstract": "Graphical User Interface (GUI) agents show strong capabilities for automating web tasks, but existing interactive benchmarks primarily target benign, predictable consumer environments. Their effectiveness in high-stakes, investigative domains such as authentic e-commerce risk management remains underexplored. To bridge this gap, we present RiskWebWorld, the first highly realistic interactive benchmark for evaluating GUI agents in e-commerce risk management. RiskWebWorld features 1,513 tasks sourced from production risk-control pipelines across 8 core domains, and captures the authentic challenges of risk operations on uncooperative websites, partially environmental hijackments. To support scalable evaluation and agentic reinforcement learning (RL), we further build a Gymnasium-compliant infrastructure that decouples policy planning from environment mechanics. Our evaluation across diverse models reveals a dramatic capability gap: top-tier generalist models achieve 49.1% success, while specialized open-weights GUI models lag at near-total failure. This highlights that foundation model scale currently matters more than zero-shot interface grounding in long-horizon professional tasks. We also demonstrate the viability of our infrastructure through agentic RL, which improves open-source models by 16.2%. These results position RiskWebWorld as a practical testbed for developing robust digital workers.",
+    "url": "http://arxiv.org/abs/2604.13531v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13531v1",
+    "published": "2026-04-15",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

@@ -24,6 +24,51 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-17
+
+**16 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors](http://arxiv.org/abs/2604.14615v1) | Yubin Kim, Salman Rahman, Samuel Schmidgall et al. | Scientific discovery in digital health requires converting continuous physiological signals from wearable devices into clinically actionable biomarkers. |
+| [MIND: AI Co-Scientist for Material Research](http://arxiv.org/abs/2604.13699v1) | Geonhee Ahn, Donghyun Lee, Hayoung Doo et al. | Large language models (LLMs) have enabled agentic AI systems for scientific discovery, but most approaches remain limited to textbased reasoning without automated experimental verification. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution](http://arxiv.org/abs/2604.13787v1) | Shouzheng Huang, Meishan Zhang, Baotian Hu et al. | Large Language Models (LLMs) enhance their problem-solving capability by utilizing external tools. However, in open-world scenarios with massive and evolving tool repositories, existing methods rel... |
+| [WebXSkill: Skill Learning for Autonomous Web Agents](http://arxiv.org/abs/2604.13318v1) | Zhaoyang Wang, Qianhui Wu, Xuchao Zhang et al. | Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CogEvolution: A Human-like Generative Educational Agent to Simulate Student's Cognitive Evolution](http://arxiv.org/abs/2604.14786v1) | Wei Zhang, Yihang Cheng, Zhirong Ye et al. | Generative Agents, owing to their precise modeling and simulation capabilities of human behavior, have become a pivotal tool in the field of Artificial Intelligence in Education (AIEd) for uncoveri... |
+| [El Agente Forjador: Task-Driven Agent Generation for Quantum Simulation](http://arxiv.org/abs/2604.14609v1) | Zijian Zhang, Aiwei Yin, Amaan Baweja et al. | AI for science promises to accelerate the discovery process. The advent of large language models (LLMs) and agentic workflows enables the expediting of a growing range of scientific tasks. |
+| [CoGrid & the Multi-User Gymnasium: A Framework for Multi-Agent Experimentation](http://arxiv.org/abs/2604.15044v1) | Chase McDonald, Cleotilde Gonzalez | The increasing integration of artificial intelligence (AI) in everyday life brings with it new challenges and questions for regarding how humans interact with autonomous agents. |
+| [M2-PALE: A Framework for Explaining Multi-Agent MCTS--Minimax Hybrids via Process Mining and LLMs](http://arxiv.org/abs/2604.14687v1) | Yiyu Qian, Liyuan Zhao, Tim Miller | Monte-Carlo Tree Search (MCTS) is a fundamental sampling-based search algorithm widely used for online planning in sequential decision-making domains. |
+| [VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs](http://arxiv.org/abs/2604.14550v1) | Sazzadul Islam, Tasnim Tabassum, Hao Zheng | Generating synthesizable Verilog for large, hierarchical hardware designs remains a significant challenge for large language models (LLMs), which struggle to replicate the structured reasoning that... |
+| [SemiFA: An Agentic Multi-Modal Framework for Autonomous Semiconductor Failure Analysis Report Generation](http://arxiv.org/abs/2604.13236v1) | Shivam Chand Kaushik | Semiconductor failure analysis (FA) requires engineers to examine inspection images, correlate equipment telemetry, consult historical defect records, and write structured reports, a process that c... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Demanding peer review is associated with higher impact in published science](http://arxiv.org/abs/2604.14047v1) | Huihuang Jiang, Heyang Li, Zifan Wang et al. | Peer review shapes which scientific claims enter the published record, but its internal dynamics are hard to measure at scale because reviewer criticism and author revision are usually embedded in ... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas](http://arxiv.org/abs/2604.15267v1) | Emanuel Tewolde, Xiao Zhang, David Guzman Piedrahita et al. | It is increasingly important that LLM agents interact effectively and safely with other goal-pursuing agents, yet, recent works report the opposite trend: LLMs with stronger reasoning capabilities ... |
+| [HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks](http://arxiv.org/abs/2604.14709v1) | Fan Cui, Hongyuan Hou, Zizhang Luo et al. | Existing benchmarks for hardware design primarily evaluate Large Language Models (LLMs) on isolated, component-level tasks such as generating HDL modules from specifications, leaving repository-sca... |
+| [HINTBench: Horizon-agent Intrinsic Non-attack Trajectory Benchmark](http://arxiv.org/abs/2604.13954v1) | Jiacheng Wang, Jinchang Hou, Fabian Wang et al. | Existing agent-safety evaluation has focused mainly on externally induced risks. Yet agents may still enter unsafe trajectories under benign conditions. |
+| [GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis](http://arxiv.org/abs/2604.13888v1) | Bo Yu, Cheng Yang, Dongyang Hou et al. | The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. |
+| [RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management](http://arxiv.org/abs/2604.13531v1) | Renqi Chen, Zeyin Tao, Jianming Guo et al. | Graphical User Interface (GUI) agents show strong capabilities for automating web tasks, but existing interactive benchmarks primarily target benign, predictable consumer environments. |
+
 ### 📅 2026-04-16
 
 **6 new papers found**
