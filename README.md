@@ -24,6 +24,33 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-18
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors](http://arxiv.org/abs/2604.14615v1) | Yubin Kim, Salman Rahman, Samuel Schmidgall et al. | Scientific discovery in digital health requires converting continuous physiological signals from wearable devices into clinically actionable biomarkers. |
+| [MIND: AI Co-Scientist for Material Research](http://arxiv.org/abs/2604.13699v1) | Geonhee Ahn, Donghyun Lee, Hayoung Doo et al. | Large language models (LLMs) have enabled agentic AI systems for scientific discovery, but most approaches remain limited to textbased reasoning without automated experimental verification. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution](http://arxiv.org/abs/2604.13787v1) | Shouzheng Huang, Meishan Zhang, Baotian Hu et al. | Large Language Models (LLMs) enhance their problem-solving capability by utilizing external tools. However, in open-world scenarios with massive and evolving tool repositories, existing methods rel... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CogEvolution: A Human-like Generative Educational Agent to Simulate Student's Cognitive Evolution](http://arxiv.org/abs/2604.14786v1) | Wei Zhang, Yihang Cheng, Zhirong Ye et al. | Generative Agents, owing to their precise modeling and simulation capabilities of human behavior, have become a pivotal tool in the field of Artificial Intelligence in Education (AIEd) for uncoveri... |
+| [El Agente Forjador: Task-Driven Agent Generation for Quantum Simulation](http://arxiv.org/abs/2604.14609v1) | Zijian Zhang, Aiwei Yin, Amaan Baweja et al. | AI for science promises to accelerate the discovery process. The advent of large language models (LLMs) and agentic workflows enables the expediting of a growing range of scientific tasks. |
+| [CoGrid & the Multi-User Gymnasium: A Framework for Multi-Agent Experimentation](http://arxiv.org/abs/2604.15044v1) | Chase McDonald, Cleotilde Gonzalez | The increasing integration of artificial intelligence (AI) in everyday life brings with it new challenges and questions for regarding how humans interact with autonomous agents. |
+| [M2-PALE: A Framework for Explaining Multi-Agent MCTS--Minimax Hybrids via Process Mining and LLMs](http://arxiv.org/abs/2604.14687v1) | Yiyu Qian, Liyuan Zhao, Tim Miller | Monte-Carlo Tree Search (MCTS) is a fundamental sampling-based search algorithm widely used for online planning in sequential decision-making domains. |
+| [VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs](http://arxiv.org/abs/2604.14550v1) | Sazzadul Islam, Tasnim Tabassum, Hao Zheng | Generating synthesizable Verilog for large, hierarchical hardware designs remains a significant challenge for large language models (LLMs), which struggle to replicate the structured reasoning that... |
+
 ### 📅 2026-04-17
 
 **16 new papers found**
