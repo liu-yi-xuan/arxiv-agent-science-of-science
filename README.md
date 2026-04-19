@@ -24,6 +24,23 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-19
+
+**3 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CogEvolution: A Human-like Generative Educational Agent to Simulate Student's Cognitive Evolution](http://arxiv.org/abs/2604.14786v1) | Wei Zhang, Yihang Cheng, Zhirong Ye et al. | Generative Agents, owing to their precise modeling and simulation capabilities of human behavior, have become a pivotal tool in the field of Artificial Intelligence in Education (AIEd) for uncoveri... |
+| [CoGrid & the Multi-User Gymnasium: A Framework for Multi-Agent Experimentation](http://arxiv.org/abs/2604.15044v1) | Chase McDonald, Cleotilde Gonzalez | The increasing integration of artificial intelligence (AI) in everyday life brings with it new challenges and questions for regarding how humans interact with autonomous agents. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas](http://arxiv.org/abs/2604.15267v1) | Emanuel Tewolde, Xiao Zhang, David Guzman Piedrahita et al. | It is increasingly important that LLM agents interact effectively and safely with other goal-pursuing agents, yet, recent works report the opposite trend: LLMs with stronger reasoning capabilities ... |
+
 ### 📅 2026-04-18
 
 **8 new papers found**
