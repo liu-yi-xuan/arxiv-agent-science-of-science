@@ -24,6 +24,17 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-20
+
+**2 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems](http://arxiv.org/abs/2604.16022v1) | Hikaru Shindo, Hanzhao Lin, Lukas Helff et al. | As Large Language Models (LLMs) transition from text processors to autonomous agents, evaluating their social reasoning in embodied multi-agent settings becomes critical. |
+| [Weak-Link Optimization for Multi-Agent Reasoning and Collaboration](http://arxiv.org/abs/2604.15972v1) | Haoyu Bian, Chaoning Zhang, Jiaquan Zhang et al. | LLM-driven multi-agent frameworks address complex reasoning tasks through multi-role collaboration. However, existing approaches often suffer from reasoning instability, where individual agent erro... |
+
 ### 📅 2026-04-19
 
 **3 new papers found**
