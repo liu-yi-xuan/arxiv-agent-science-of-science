@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-21
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The implicated scientist: on the role of AI researchers in the development of weapons systems](http://arxiv.org/abs/2604.18380v1) | Alexandra Volokhova, Alex Hernandez-Garcia | Artificial intelligence (AI) technologies are increasingly used in modern weapons systems. Notably, these systems have recently been involved in mass killings and destruction at scale. |
+
 ### 📅 2026-04-20
 
 **2 new papers found**
