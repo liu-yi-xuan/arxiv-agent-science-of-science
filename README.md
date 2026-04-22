@@ -24,6 +24,33 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-22
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning](http://arxiv.org/abs/2604.19516v1) | Beining Wu, Fuyou Mao, Jiong Lin et al. | Generative engines (GEs) are reshaping information access by replacing ranked links with citation-grounded answers, yet current Generative Engine Optimization (GEO) methods optimize each instance i... |
+| [AI scientists produce results without reasoning scientifically](http://arxiv.org/abs/2604.18805v1) | Martiño Ríos-García, Nawaf Alampara, Chandan Gupta et al. | Large language model (LLM)-based systems are increasingly deployed to conduct scientific research autonomously, yet whether their reasoning adheres to the epistemic norms that make scientific inqui... |
+| [The implicated scientist: on the role of AI researchers in the development of weapons systems](http://arxiv.org/abs/2604.18380v1) | Alexandra Volokhova, Alex Hernandez-Garcia | Artificial intelligence (AI) technologies are increasingly used in modern weapons systems. Notably, these systems have recently been involved in mass killings and destruction at scale. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Scientific tools and Innovation: Big Science Facilities Yield More Novel and Interdisciplinary Knowledge](http://arxiv.org/abs/2604.19396v1) | Mingze Zhang, Yizhan Li, Yutong Li et al. | Scientific tools dictate the boundaries of human knowledge, serving as the foundation for perceptions and explorations. |
+| [Market Dynamics, Governance and Open Research Metadata in the AI Era](http://arxiv.org/abs/2604.19507v1) | Daniel W. Hook | The debate about scholarly knowledge infrastructure has long been framed as a contest between openness and commercial enclosure. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps](http://arxiv.org/abs/2604.19533v1) | Alankrit Chona, Igor Kozlov, Ambuj Kumar | We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows e... |
+| [AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation](http://arxiv.org/abs/2604.18240v1) | Wentao Shi, Yu Wang, Yuyang Zhao et al. | As reinforcement learning continues to scale the training of large language model-based agents, reliably verifying agent behaviors in complex environments has become increasingly challenging. |
+| [AblateCell: A Reproduce-then-Ablate Agent for Virtual Cell Repositories](http://arxiv.org/abs/2604.19606v1) | Xue Xia, Chengkai Yao, Mingyu Tsoi et al. | Systematic ablations are essential to attribute performance gains in AI Virtual Cells, yet they are rarely performed because biological repositories are under-standardized and tightly coupled to do... |
+
 ### 📅 2026-04-21
 
 **1 new papers found**
