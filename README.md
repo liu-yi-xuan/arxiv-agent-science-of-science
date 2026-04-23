@@ -24,6 +24,54 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-23
+
+**19 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Separable Pathways for Causal Reasoning: How Architectural Scaffolding Enables Hypothesis-Space Restructuring in LLM Agents](http://arxiv.org/abs/2604.20039v1) | John Alderete, Sebastian Benthal, Connie Xu et al. | Causal discovery through experimentation and intervention is fundamental to robust problem solving. It requires not just updating beliefs within a fixed framework but revising the hypothesis space ... |
+| [From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning](http://arxiv.org/abs/2604.19516v1) | Beining Wu, Fuyou Mao, Jiong Lin et al. | Generative engines (GEs) are reshaping information access by replacing ranked links with citation-grounded answers, yet current Generative Engine Optimization (GEO) methods optimize each instance i... |
+| [AI scientists produce results without reasoning scientifically](http://arxiv.org/abs/2604.18805v1) | Martiño Ríos-García, Nawaf Alampara, Chandan Gupta et al. | Large language model (LLM)-based systems are increasingly deployed to conduct scientific research autonomously, yet whether their reasoning adheres to the epistemic norms that make scientific inqui... |
+| [The implicated scientist: on the role of AI researchers in the development of weapons systems](http://arxiv.org/abs/2604.18380v1) | Alexandra Volokhova, Alex Hernandez-Garcia | Artificial intelligence (AI) technologies are increasingly used in modern weapons systems. Notably, these systems have recently been involved in mass killings and destruction at scale. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies](http://arxiv.org/abs/2604.20548v1) | Shuai Chen, Chengzhi Zhang | Scientific progress depends on the continual generation of innovative re-search ideas. However, the rapid growth of scientific literature has greatly increased the cost of knowledge filtering, maki... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Mol-Debate: Multi-Agent Debate Improves Structural Reasoning in Molecular Design](http://arxiv.org/abs/2604.20254v1) | Wengyu Zhang, Xiao-Yong Wei, Qing Li | Text-guided molecular design is a key capability for AI-driven drug discovery, yet it remains challenging to map sequential natural-language instructions with non-linear molecular structures under ... |
+| [ActuBench: A Multi-Agent LLM Pipeline for Generation and Evaluation of Actuarial Reasoning Tasks](http://arxiv.org/abs/2604.20273v1) | Jan-Philipp Schmidt | We present ActuBench, a multi-agent LLM pipeline for the automated generation and evaluation of advanced actuarial assessment items aligned with the International Actuarial Association (IAA) Educat... |
+| [TriEx: A Game-based Tri-View Framework for Explaining Internal Reasoning in Multi-Agent LLMs](http://arxiv.org/abs/2604.20043v1) | Ziyi Wang, Chen Zhang, Wenjun Peng et al. | Explainability for Large Language Model (LLM) agents is especially challenging in interactive, partially observable settings, where decisions depend on evolving beliefs and other agents. |
+| [Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization](http://arxiv.org/abs/2604.20714v1) | Shan He, Runze Wang, Zhuoyun Du et al. | Designing and optimizing multi-agent systems (MAS) is a complex, labor-intensive process of "Agent Engineering." Existing automatic optimization methods, primarily focused on flat prompt tuning, la... |
+| [AgentSOC: A Multi-Layer Agentic AI Framework for Security Operations Automation](http://arxiv.org/abs/2604.20134v1) | Joyjit Roy, Samaresh Kumar Singh | Security Operations Centers (SOCs) increasingly encounter difficulties in correlating heterogeneous alerts, interpreting multi-stage attack progressions, and selecting safe and effective response a... |
+| [EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation](http://arxiv.org/abs/2604.20133v1) | Aimin Zhang, Jiajing Guo, Fuwei Jia et al. | This paper proposes EvoAgent - an evolvable large language model (LLM) agent framework that integrates structured skill learning with a hierarchical sub-agent delegation mechanism. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evolution of Research Method Usage Across the Academic Careers of Library and Information Science Scholars](http://arxiv.org/abs/2604.20528v1) | Jiayi Hao, Chengzhi Zhang | Research methods constitute an indispensable tool for scholars engaged in scientific inquiry. Investigating how scholars use research methods throughout their careers can reveal distinct patterns i... |
+| [Scientific tools and Innovation: Big Science Facilities Yield More Novel and Interdisciplinary Knowledge](http://arxiv.org/abs/2604.19396v1) | Mingze Zhang, Yizhan Li, Yutong Li et al. | Scientific tools dictate the boundaries of human knowledge, serving as the foundation for perceptions and explorations. |
+| [Market Dynamics, Governance and Open Research Metadata in the AI Era](http://arxiv.org/abs/2604.19507v1) | Daniel W. Hook | The debate about scholarly knowledge infrastructure has long been framed as a contest between openness and commercial enclosure. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps](http://arxiv.org/abs/2604.19533v2) | Alankrit Chona, Igor Kozlov, Ambuj Kumar | We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows e... |
+| [AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation](http://arxiv.org/abs/2604.18240v1) | Wentao Shi, Yu Wang, Yuyang Zhao et al. | As reinforcement learning continues to scale the training of large language model-based agents, reliably verifying agent behaviors in complex environments has become increasingly challenging. |
+| [AblateCell: A Reproduce-then-Ablate Agent for Virtual Cell Repositories](http://arxiv.org/abs/2604.19606v1) | Xue Xia, Chengkai Yao, Mingyu Tsoi et al. | Systematic ablations are essential to attribute performance gains in AI Virtual Cells, yet they are rarely performed because biological repositories are under-standardized and tightly coupled to do... |
+| [SkillLearnBench: Benchmarking Continual Learning Methods for Agent Skill Generation on Real-World Tasks](http://arxiv.org/abs/2604.20087v1) | Shanshan Zhong, Yi Lu, Jingjie Ning et al. | Skills have become the de facto way to enable LLM agents to perform complex real-world tasks with customized instructions, workflows, and tools, but how to learn them automatically and effectively ... |
+| [From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents](http://arxiv.org/abs/2604.20006v1) | Md Nayem Uddin, Kumar Shubham, Eduardo Blanco et al. | Personalized agents that interact with users over long periods must maintain persistent memory across sessions and update it as circumstances change. |
+
 ### 📅 2026-04-22
 
 **8 new papers found**
