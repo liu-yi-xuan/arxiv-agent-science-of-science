@@ -1,0 +1,512 @@
+[
+  {
+    "id": "2604.20039v1",
+    "title": "Separable Pathways for Causal Reasoning: How Architectural Scaffolding Enables Hypothesis-Space Restructuring in LLM Agents",
+    "authors": [
+      "John Alderete",
+      "Sebastian Benthal",
+      "Connie Xu",
+      "John Xing"
+    ],
+    "abstract": "Causal discovery through experimentation and intervention is fundamental to robust problem solving. It requires not just updating beliefs within a fixed framework but revising the hypothesis space itself, a capacity current AI agents lack when evidence demands representations they have not previously constructed. We extend the blicket detector paradigm from developmental science to test this capacity in AI agents equipped with architectural scaffolding that targets hypothesis-space restructuring. Our compositional architecture has two discrete components: context graphs, which structure exploration as typed state machines, and dynamic behaviors, which monitor for evidence that the current hypothesis space is inadequate and expand it at runtime. Across 1,085 experimental trials, these components make orthogonal contributions: context graphs drive reasoning quality within the post-switch hypothesis space, accounting for 94\\% of the accuracy gain, while dynamic behaviors drive reasoning eligibility by detecting regime changes and preventing premature commitment to outdated hypotheses.",
+    "url": "http://arxiv.org/abs/2604.20039v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20039v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.19516v1",
+    "title": "From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning",
+    "authors": [
+      "Beining Wu",
+      "Fuyou Mao",
+      "Jiong Lin",
+      "Cheng Yang",
+      "Jiaxuan Lu"
+    ],
+    "abstract": "Generative engines (GEs) are reshaping information access by replacing ranked links with citation-grounded answers, yet current Generative Engine Optimization (GEO) methods optimize each instance in isolation, unable to accumulate or transfer effective strategies across tasks and engines. We reframe GEO as a strategy learning problem and propose MAGEO, a multi-agent framework in which coordinated planning, editing, and fidelity-aware evaluation serve as the execution layer, while validated editing patterns are progressively distilled into reusable, engine-specific optimization skills. To enable controlled assessment, we introduce a Twin Branch Evaluation Protocol for causal attribution of content edits and DSV-CF, a dual-axis metric that unifies semantic visibility with attribution accuracy. We further release MSME-GEO-Bench, a multi-scenario, multi-engine benchmark grounded in real-world queries. Experiments on three mainstream engines show that MAGEO substantially outperforms heuristic baselines in both visibility and citation fidelity, with ablations confirming that engine-specific preference modeling and strategy reuse are central to these gains, suggesting a scalable learning-driven paradigm for trustworthy GEO. Code is available at https://github.com/Wu-beining/MAGEO",
+    "url": "http://arxiv.org/abs/2604.19516v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19516v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.20548v1",
+    "title": "Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies",
+    "authors": [
+      "Shuai Chen",
+      "Chengzhi Zhang"
+    ],
+    "abstract": "Scientific progress depends on the continual generation of innovative re-search ideas. However, the rapid growth of scientific literature has greatly increased the cost of knowledge filtering, making it harder for researchers to identify novel directions. Although existing large language model (LLM)-based methods show promise in research idea generation, the ideas they produce are often repetitive and lack depth. To address this issue, this study proposes a multi-agent iterative planning search strategy inspired by com-binatorial innovation theory. The framework combines iterative knowledge search with an LLM-based multi-agent system to generate, evaluate, and re-fine research ideas through repeated interaction, with the goal of improving idea diversity and novelty. Experiments in the natural language processing domain show that the proposed method outperforms state-of-the-art base-lines in both diversity and novelty. Further comparison with ideas derived from top-tier machine learning conference papers indicates that the quality of the generated ideas falls between that of accepted and rejected papers. These results suggest that the proposed framework is a promising approach for supporting high-quality research idea generation. The source code and dataset used in this paper are publicly available on Github repository: https://github.com/ChenShuai00/MAGenIdeas. The demo is available at https://huggingface.co/spaces/cshuai20/MAGenIdeas.",
+    "url": "http://arxiv.org/abs/2604.20548v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20548v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.DL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.21590v1",
+    "title": "AgenticQwen: Training Small Agentic Language Models with Dual Data Flywheels for Industrial-Scale Tool Use",
+    "authors": [
+      "Yuanjie Lyu",
+      "Chengyu Wang",
+      "Haonan Zheng",
+      "Yuanhao Yue",
+      "Junbing Yan"
+    ],
+    "abstract": "Modern industrial applications increasingly demand language models that act as agents, capable of multi-step reasoning and tool use in real-world settings. These tasks are typically performed under strict cost and latency constraints, making small agentic models highly desirable. In this paper, we introduce the AgenticQwen family of models, trained via multi-round reinforcement learning (RL) on synthetic data and a limited amount of open-source data. Our training framework combines reasoning RL and agentic RL with dual data flywheels that automatically generate increasingly challenging tasks. The reasoning flywheel increases task difficulty by learning from errors, while the agentic flywheel expands linear workflows into multi-branch behavior trees that better reflect the decision complexity of real-world applications. We validate AgenticQwen on public benchmarks and in an industrial agent system. The models achieve strong performance on multiple agentic benchmarks, and in our industrial agent system, close the gap with much larger models on search and data analysis tasks. Model checkpoints and part of the synthetic data: https://huggingface.co/collections/alibaba-pai/agenticqwen. Data synthesis and RL training code: https://github.com/haruhi-sudo/data_synth_and_rl. The data synthesis pipeline is also integrated into EasyDistill: https://github.com/modelscope/easydistill.",
+    "url": "http://arxiv.org/abs/2604.21590v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21590v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.21255v1",
+    "title": "When Agents Look the Same: Quantifying Distillation-Induced Similarity in Tool-Use Behaviors",
+    "authors": [
+      "Chenghao Yang",
+      "Yuning Zhang",
+      "Zhoufutu Wen",
+      "Tao Gong",
+      "Jiaheng Liu"
+    ],
+    "abstract": "Model distillation is a primary driver behind the rapid progress of LLM agents, yet it often leads to behavioral homogenization. Many emerging agents share nearly identical reasoning steps and failure modes, suggesting they may be distilled echoes of a few dominant teachers. Existing metrics, however, fail to distinguish mandatory behaviors required for task success from non-mandatory patterns that reflect a model's autonomous preferences. We propose two complementary metrics to isolate non-mandatory behavioral patterns: \\textbf{Response Pattern Similarity (RPS)} for verbal alignment and \\textbf{Action Graph Similarity (AGS)} for tool-use habits modeled as directed graphs. Evaluating 18 models from 8 providers on $τ$-Bench and $τ^2$-Bench against Claude Sonnet 4.5 (thinking), we find that within-family model pairs score 5.9 pp higher in AGS than cross-family pairs, and that Kimi-K2 (thinking) reaches 82.6\\% $S_{\\text{node}}$ and 94.7\\% $S_{\\text{dep}}$, exceeding Anthropic's own Opus 4.1. A controlled distillation experiment further confirms that AGS distinguishes teacher-specific convergence from general improvement. RPS and AGS capture distinct behavioral dimensions (Pearson $r$ = 0.491), providing complementary diagnostic signals for behavioral convergence in the agent ecosystem. Our code is available at https://github.com/Syuchin/AgentEcho.",
+    "url": "http://arxiv.org/abs/2604.21255v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21255v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.20254v1",
+    "title": "Mol-Debate: Multi-Agent Debate Improves Structural Reasoning in Molecular Design",
+    "authors": [
+      "Wengyu Zhang",
+      "Xiao-Yong Wei",
+      "Qing Li"
+    ],
+    "abstract": "Text-guided molecular design is a key capability for AI-driven drug discovery, yet it remains challenging to map sequential natural-language instructions with non-linear molecular structures under strict chemical constraints. Most existing approaches, including RAG, CoT prompting, and fine-tuning or RL, emphasize a small set of ad-hoc reasoning perspectives implemented in a largely one-shot generation pipeline. In contrast, real-world drug discovery relies on dynamic, multi-perspective critique and iterative refinement to reconcile semantic intent with structural feasibility. Motivated by this, we propose Mol-Debate, a generation paradigm that enables such dynamic reasoning through an iterative generate-debate-refine loop. We further characterize key challenges in this paradigm and address them through perspective-oriented orchestration, including developer-debater conflict, global-local structural reasoning, and static-dynamic integration. Experiments demonstrate that Mol-Debate achieves state-of-the-art performance against strong general and chemical baselines, reaching 59.82% exact match on ChEBI-20 and 50.52% weighted success rate on S$^2$-Bench. Our code is available at https://github.com/wyuzh/Mol-Debate.",
+    "url": "http://arxiv.org/abs/2604.20254v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20254v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21444v1",
+    "title": "HiCrew: Hierarchical Reasoning for Long-Form Video Understanding via Question-Aware Multi-Agent Collaboration",
+    "authors": [
+      "Yuehan Zhu",
+      "Jingqi Zhao",
+      "Jiawen Zhao",
+      "Xudong Mao",
+      "Baoquan Zhao"
+    ],
+    "abstract": "Long-form video understanding remains fundamentally challenged by pervasive spatiotemporal redundancy and intricate narrative dependencies that span extended temporal horizons. While recent structured representations compress visual information effectively, they frequently sacrifice temporal coherence, which is critical for causal reasoning. Meanwhile, existing multi-agent frameworks operate through rigid, pre-defined workflows that fail to adapt their reasoning strategies to question-specific demands. In this paper, we introduce HiCrew, a hierarchical multi-agent framework that addresses these limitations through three core contributions. First, we propose a Hybrid Tree structure that leverages shot boundary detection to preserve temporal topology while performing relevance-guided hierarchical clustering within semantically coherent segments. Second, we develop a Question-Aware Captioning mechanism that synthesizes intent-driven visual prompts to generate precision-oriented semantic descriptions. Third, we integrate a Planning Layer that dynamically orchestrates agent collaboration by adaptively selecting roles and execution paths based on question complexity. Extensive experiments on EgoSchema and NExT-QA validate the effectiveness of our approach, demonstrating strong performance across diverse question types with particularly pronounced gains in temporal and causal reasoning tasks that benefit from our hierarchical structure-preserving design.",
+    "url": "http://arxiv.org/abs/2604.21444v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21444v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20273v1",
+    "title": "ActuBench: A Multi-Agent LLM Pipeline for Generation and Evaluation of Actuarial Reasoning Tasks",
+    "authors": [
+      "Jan-Philipp Schmidt"
+    ],
+    "abstract": "We present ActuBench, a multi-agent LLM pipeline for the automated generation and evaluation of advanced actuarial assessment items aligned with the International Actuarial Association (IAA) Education Syllabus. The pipeline separates four LLM roles by adapter: one agent drafts items, one constructs distractors, a third independently verifies both stages and drives bounded one-shot repair loops, and a cost-optimized auxiliary agent handles Wikipedia-note summarization and topic labelling. The items, per-model responses and complete leaderboard are published as a browsable web interface at https://actubench.de/en/, allowing readers and practitioners to inspect individual items without a repository checkout. We evaluate 50 language models from eight providers on two complementary benchmarks -- 100 empirically hardest multiple-choice items and 100 open-ended items scored by an LLM judge -- and report three headline findings. First, multi-agent verification is load-bearing: the independent verifier flags a majority of drafted items on first pass, most of which the one-shot repair loop resolves. Second, locally-hosted open-weights inference sits on the cost-performance Pareto front: a Gemma~4 model running on consumer hardware and a Cerebras-hosted 120B open-weights model dominate the near-zero-cost region, with the latter within one item of the top of the leaderboard. Third, MCQ and LLM-as-Judge rankings differ meaningfully: the MCQ scaffold inflates the performance ceiling, and Judge-mode evaluation is needed to discriminate at the frontier.",
+    "url": "http://arxiv.org/abs/2604.20273v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20273v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20043v1",
+    "title": "TriEx: A Game-based Tri-View Framework for Explaining Internal Reasoning in Multi-Agent LLMs",
+    "authors": [
+      "Ziyi Wang",
+      "Chen Zhang",
+      "Wenjun Peng",
+      "Qi Wu",
+      "Xinyu Wang"
+    ],
+    "abstract": "Explainability for Large Language Model (LLM) agents is especially challenging in interactive, partially observable settings, where decisions depend on evolving beliefs and other agents. We present \\textbf{TriEx}, a tri-view explainability framework that instruments sequential decision making with aligned artifacts: (i) structured first-person self-reasoning bound to an action, (ii) explicit second-person belief states about opponents updated over time, and (iii) third-person oracle audits grounded in environment-derived reference signals. This design turns explanations from free-form narratives into evidence-anchored objects that can be compared and checked across time and perspectives. Using imperfect-information strategic games as a controlled testbed, we show that TriEx enables scalable analysis of explanation faithfulness, belief dynamics, and evaluator reliability, revealing systematic mismatches between what agents say, what they believe, and what they do. Our results highlight explainability as an interaction-dependent property and motivate multi-view, evidence-grounded evaluation for LLM agents. Code is available at https://github.com/Einsam1819/TriEx.",
+    "url": "http://arxiv.org/abs/2604.20043v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20043v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21420v1",
+    "title": "FairQE: Multi-Agent Framework for Mitigating Gender Bias in Translation Quality Estimation",
+    "authors": [
+      "Jinhee Jang",
+      "Juhwan Choi",
+      "Dongjin Lee",
+      "Seunguk Yu",
+      "Youngbin Kim"
+    ],
+    "abstract": "Quality Estimation (QE) aims to assess machine translation quality without reference translations, but recent studies have shown that existing QE models exhibit systematic gender bias. In particular, they tend to favor masculine realizations in gender-ambiguous contexts and may assign higher scores to gender-misaligned translations even when gender is explicitly specified. To address these issues, we propose FairQE, a multi-agent-based, fairness-aware QE framework that mitigates gender bias in both gender-ambiguous and gender-explicit scenarios. FairQE detects gender cues, generates gender-flipped translation variants, and combines conventional QE scores with LLM-based bias-mitigating reasoning through a dynamic bias-aware aggregation mechanism. This design preserves the strengths of existing QE models while calibrating their gender-related biases in a plug-and-play manner. Extensive experiments across multiple gender bias evaluation settings demonstrate that FairQE consistently improves gender fairness over strong QE baselines. Moreover, under MQM-based meta-evaluation following the WMT 2023 Metrics Shared Task, FairQE achieves competitive or improved general QE performance. These results show that gender bias in QE can be effectively mitigated without sacrificing evaluation accuracy, enabling fairer and more reliable translation evaluation.",
+    "url": "http://arxiv.org/abs/2604.21420v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21420v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21154v1",
+    "title": "Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction",
+    "authors": [
+      "Abhishek Dharmaratnakar",
+      "Srivaths Ranganathan",
+      "Anushree Sinha",
+      "Debanshu Das"
+    ],
+    "abstract": "At-home physiotherapy compliance remains critically low due to a lack of personalized supervision and dynamic feedback. Existing digital health solutions rely on static, pre-recorded video libraries or generic 3D avatars that fail to account for a patient's specific injury limitations or home environment. In this paper, we propose a novel Multi-Agent System (MAS) architecture that leverages Generative AI and computer vision to close the tele-rehabilitation loop. Our framework consists of four specialized micro-agents: a Clinical Extraction Agent that parses unstructured medical notes into kinematic constraints; a Video Synthesis Agent that utilizes foundational video generation models to create personalized, patient-specific exercise videos; a Vision Processing Agent for real-time pose estimation; and a Diagnostic Feedback Agent that issues corrective instructions. We present the system architecture, detail the prototype pipeline using Large Language Models and MediaPipe, and outline our clinical evaluation plan. This work demonstrates the feasibility of combining generative media with agentic autonomous decision-making to scale personalized patient care safely and effectively.",
+    "url": "http://arxiv.org/abs/2604.21154v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21154v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20714v1",
+    "title": "Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization",
+    "authors": [
+      "Shan He",
+      "Runze Wang",
+      "Zhuoyun Du",
+      "Huiyu Bai",
+      "Zouying Cao"
+    ],
+    "abstract": "Designing and optimizing multi-agent systems (MAS) is a complex, labor-intensive process of \"Agent Engineering.\" Existing automatic optimization methods, primarily focused on flat prompt tuning, lack the structural awareness to debug the intricate web of interactions in MAS. More critically, these optimizers are static; they do not learn from experience to improve their own optimization strategies. To address these gaps, we introduce Textual Parameter Graph Optimization (TPGO), a framework that enables a multi-agent system to learn to evolve. TPGO first models the MAS as a Textual Parameter Graph (TPG), where agents, tools, and workflows are modular, optimizable nodes. To guide evolution, we derive \"textual gradients,\" structured natural language feedback from execution traces, to pinpoint failures and suggest granular modifications. The core of our framework is Group Relative Agent Optimization (GRAO), a novel meta-learning strategy that learns from historical optimization experiences. By analyzing past successes and failures, GRAO becomes progressively better at proposing effective updates, allowing the system to learn how to optimize itself. Extensive experiments on complex benchmarks like GAIA and MCP-Universe show that TPGO significantly enhances the performance of state-of-the-art agent frameworks, achieving higher success rates through automated, self-improving optimization.",
+    "url": "http://arxiv.org/abs/2604.20714v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20714v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20134v1",
+    "title": "AgentSOC: A Multi-Layer Agentic AI Framework for Security Operations Automation",
+    "authors": [
+      "Joyjit Roy",
+      "Samaresh Kumar Singh"
+    ],
+    "abstract": "Security Operations Centers (SOCs) increasingly encounter difficulties in correlating heterogeneous alerts, interpreting multi-stage attack progressions, and selecting safe and effective response actions. This study introduces AgentSOC, a multi-layered agentic AI framework that enhances SOC automation by integrating perception, anticipatory reasoning, and risk-based action planning. The proposed architecture consolidates several layers of abstraction to provide a single operational loop to support normalizing alerts, enriching context, generating hypotheses, validating structural feasibility, and executing policy-compliant responses. Conceptually evaluated within a large enterprise environment, AgentSOC improves triage consistency, anticipates attackers' intentions, and provides recommended containment options that are both operationally feasible and well-balanced between security efficacy and operational impact. The results suggest that hybrid agentic reasoning has the potential to serve as a foundation for developing adaptive, safer SOC automation in large enterprises. Additionally, a minimal Proof-Of-Concept (POC) demonstration using LANL authentication data demonstrated the feasibility of the proposed architecture.",
+    "url": "http://arxiv.org/abs/2604.20134v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20134v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20133v1",
+    "title": "EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation",
+    "authors": [
+      "Aimin Zhang",
+      "Jiajing Guo",
+      "Fuwei Jia",
+      "Chen Lv",
+      "Boyu Wang"
+    ],
+    "abstract": "This paper proposes EvoAgent - an evolvable large language model (LLM) agent framework that integrates structured skill learning with a hierarchical sub-agent delegation mechanism. EvoAgent models skills as multi-file structured capability units equipped with triggering mechanisms and evolutionary metadata, and enables continuous skill generation and optimization through a user-feedback-driven closed-loop process. In addition, by incorporating a three-stage skill matching strategy and a three-layer memory architecture, the framework supports dynamic task decomposition for complex problems and long-term capability accumulation. Experimental results based on real-world foreign trade scenarios demonstrate that, after integrating EvoAgent, GPT5.2 achieves significant improvements in professionalism, accuracy, and practical utility. Under a five-dimensional LLM-as-Judge evaluation protocol, the overall average score increases by approximately 28%. Further model transfer experiments indicate that the performance of an agent system depends not only on the intrinsic capabilities of the underlying model, but also on the degree of synergy between the model and the agent architecture.",
+    "url": "http://arxiv.org/abs/2604.20133v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20133v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21794v1",
+    "title": "Learning to Communicate: Toward End-to-End Optimization of Multi-Agent Language Systems",
+    "authors": [
+      "Ye Yu",
+      "Heming Liu",
+      "Haibo Jin",
+      "Xiaopeng Yuan",
+      "Peng Kuang"
+    ],
+    "abstract": "Multi-agent systems built on large language models have shown strong performance on complex reasoning tasks, yet most work focuses on agent roles and orchestration while treating inter-agent communication as a fixed interface. Latent communication through internal representations such as key-value caches offers a promising alternative to text-based protocols, but existing approaches do not jointly optimize communication with multi-agent reasoning. Therefore we propose DiffMAS, a training framework that treats latent communication as a learnable component of multi-agent systems. DiffMAS performs parameter-efficient supervised training over multi-agent latent trajectories, enabling agents to jointly learn how information should be encoded and interpreted across interactions. Experiments on mathematical reasoning, scientific QA, code generation, and commonsense benchmarks show that DiffMAS consistently improves reasoning accuracy and decoding stability over single-agent inference, text-based multi-agent systems, and prior latent communication methods, achieving 26.7% on AIME24, 20.2% on GPQA-Diamond, and consistent gains across reasoning benchmarks.",
+    "url": "http://arxiv.org/abs/2604.21794v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21794v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20528v1",
+    "title": "Evolution of Research Method Usage Across the Academic Careers of Library and Information Science Scholars",
+    "authors": [
+      "Jiayi Hao",
+      "Chengzhi Zhang"
+    ],
+    "abstract": "Research methods constitute an indispensable tool for scholars engaged in scientific inquiry. Investigating how scholars use research methods throughout their careers can reveal distinct patterns in method adoption, providing valuable insights for novice researchers in selecting appropriate methods. This study employs a comprehensive dataset comprising full-text journal articles and bibliographic records from the Library and Information Science (LIS) domain. Utilizing an automated classification model based on full-text cognitive analysis, the research methods employed by LIS scholars are systematically identified. Topic modeling was then conducted using Top2Vec. Subsequently, author name disambiguation is performed, and academic age is calculated for each scholar. This study focuses on 435 senior scholars with an academic age of more than 14 years and a consistent publication record at five-year intervals, covering a total of 6,116 articles. The corpus covers 16 research method categories and 20 research topics. The findings indicate that bibliometric methods are the most frequently used across career stages, accounting for 19.61% among early-career scholars and 31.81% among senior scholars. Over the course of a scholarly career, the diversity of research methods initially increases and then declines. Furthermore, scholars exhibit a propensity for combining multiple research methods, including both conventional and unconventional pairings. Notably, the research methods most commonly used by researchers change with age and seniority.",
+    "url": "http://arxiv.org/abs/2604.20528v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20528v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.19396v1",
+    "title": "Scientific tools and Innovation: Big Science Facilities Yield More Novel and Interdisciplinary Knowledge",
+    "authors": [
+      "Mingze Zhang",
+      "Yizhan Li",
+      "Yutong Li",
+      "Zexia Li"
+    ],
+    "abstract": "Scientific tools dictate the boundaries of human knowledge, serving as the foundation for perceptions and explorations. In the era of Big Science, science are increasingly dependent on advanced analytical technologies and experimental platforms. Over the past decades, national and supranational entities have invested massive financial resources, collaborative networks, and collective intelligence to construct Big Science Facilities (BSFs) aimed at generating cutting edge knowledge. However, empirical evaluations of these machines actual performance in driving scientific innovation remain scarce. To address this gap, we collected 310,086 publications from 88 global BSFs and constructed a matched control dataset of approximately 3 million publications sharing the same last authors. Our analysis reveals that the utilization of BSFs has expanded significantly since 1950s. Crucially, publications supported by these facilities exhibit higher recombinant novelty and interdisciplinary integration. Furthermore, this improvement is most pronounced in non physical sciences domains traditionally peripheral to BSFs core focus indicating the emergence of a powerful intra facility knowledge spillover effect. By enriching the Facilitymetrics framework, our findings provide empirical evidence that BSFs act as vital engines for scientific discovery, offering policymakers essential metrics to justify infrastructural investments, while prompting the science of science community to reassess the profound impact of scientific tools on knowledge production",
+    "url": "http://arxiv.org/abs/2604.19396v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19396v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.19507v1",
+    "title": "Market Dynamics, Governance and Open Research Metadata in the AI Era",
+    "authors": [
+      "Daniel W. Hook"
+    ],
+    "abstract": "The debate about scholarly knowledge infrastructure has long been framed as a contest between openness and commercial enclosure. This framing distorts both policy and practice. The real tension lies between the persistent cost of producing and refining structured metadata under deep technological friction, and the differentiated demands distinct communities place on data quality, focus and granularity. We introduce the innovation annulus: the zone between freely available structured data and the advancing frontier of commercially refined knowledge products. This zone is a permanent, functional feature of the ecosystem -- not a pathology to eliminate. By analogy with the efficient market hypothesis, its width measures production inefficiency, set by the interplay of friction and demand. Artificial intelligence reshapes the annulus, lowering barriers to basic structuring, raising the threshold at which refinement adds value, and introducing systemic risks through unprovenanced AI-derived metadata. CRediT contributions, funding acknowledgements and AI disclosure statements illustrate the annulus lifecycle. Governance should calibrate the annulus, not abolish it: thin enough to serve research efficiently, wide enough to sustain innovation. A formal welfare framework, analogous to the Nordhaus optimal patent life, characterises the trade-offs and yields testable predictions. The Barcelona Declaration offers a promising forum for boundary governance.",
+    "url": "http://arxiv.org/abs/2604.19507v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19507v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.21569v1",
+    "title": "Research Streams in Biodiversity Finance: A Bibliometric Analysis and Research Agenda",
+    "authors": [
+      "Lennart Ante",
+      "Friedrich-Philipp Wazinski",
+      "Aman Saggu"
+    ],
+    "abstract": "Biodiversity loss is accelerating at an unprecedented pace, threatening ecosystem stability, economic resilience, and human well-being, with billions required to reverse current trends. Against this backdrop, biodiversity finance has emerged as a rapidly expanding but highly fragmented field spanning ecology, economics, finance, accounting, and policy. However, it remains emerging and complex, with the majority of relevant knowledge being produced in non-finance journals. This study employs quantitative bibliometric analysis to examine a corpus of 189,456 references underlying 3,998 articles related to biodiversity and finance. The analysis identifies eight primary research streams within the field that concern (1) strategic and financial approaches in global biodiversity conservation, (2) the impact and implementation of payments for environmental services (PES) in developing countries, (3) neoliberal influences and implications in environmental conservation, (4) biodiversity offsets and conservation, (5) ecosystem services and biodiversity, (6) integrating conservation and community interests in biodiversity management, (7) balancing agricultural intensification with biodiversity conservation, and (8) global and corporate biodiversity reporting. The characteristics of each research stream and its prevalent publications are outlined, alongside an analysis of their temporal evolution and the degree of information exchange among the research streams. The findings provide a structured map of the intellectual architecture of biodiversity finance, document pronounced silos between economically-oriented and critical/political-economy research streams, and translate these patterns into a focused research agenda and implications for policymakers, financial institutions, and corporate actors.",
+    "url": "http://arxiv.org/abs/2604.21569v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21569v1",
+    "published": "2026-04-23",
+    "categories": [
+      "q-fin.GN"
+    ],
+    "primary_category": "q-fin.GN",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.21304v1",
+    "title": "PAPERMIND: Benchmarking Agentic Reasoning and Critique over Scientific Papers in Multimodal LLMs",
+    "authors": [
+      "Yanjun Zhao",
+      "Tianxin Wei",
+      "Jiaru Zou",
+      "Xuying Ning",
+      "Yuanchen Bei"
+    ],
+    "abstract": "Understanding scientific papers requires more than answering isolated questions or summarizing content. It involves an integrated reasoning process that grounds textual and visual information, interprets experimental evidence, synthesizes information across sources, and critically evaluates scientific claims. However, existing benchmarks typically assess these abilities in isolation, making it difficult to evaluate scientific paper understanding as a unified set of interacting cognitive abilities. In this work, we introduce PAPERMIND, a benchmark designed to evaluate integrated and agent-oriented scientific reasoning over research papers. PAPERMIND is constructed from real scientific papers across seven domains, including agriculture, biology, chemistry, computer science, medicine, physics, and economics. It comprises four complementary task families that collectively operationalize distinct cognitive facets of scientific paper reasoning, including multimodal grounding, experimental interpretation, cross-source evidence reasoning, and critical assessment. By analyzing model behavior across multiple tasks, PAPERMIND enables a diagnostic evaluation of integrated scientific reasoning behaviors that are difficult to assess through isolated task evaluations. Extensive experiments on both opensource and closed-source multimodal LLMs reveal consistent performance gaps across tasks, highlighting persistent challenges in integrated scientific reasoning and critique. Our benchmark and dataset are available at https:// github.com/Yanjun-Zhao/PaperMind.",
+    "url": "http://arxiv.org/abs/2604.21304v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21304v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.IR"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.21131v1",
+    "title": "Cross-Session Threats in AI Agents: Benchmark, Evaluation, and Algorithms",
+    "authors": [
+      "Ari Azarafrooz"
+    ],
+    "abstract": "AI-agent guardrails are memoryless: each message is judged in isolation, so an adversary who spreads a single attack across dozens of sessions slips past every session-bound detector because only the aggregate carries the payload. We make three contributions to cross-session threat detection.   (1) Dataset. CSTM-Bench is 26 executable attack taxonomies classified by kill-chain stage and cross-session operation (accumulate, compose, launder, inject_on_reader), each bound to one of seven identity anchors that ground-truth \"violation\" as a policy predicate, plus matched Benign-pristine and Benign-hard confounders. Released on Hugging Face as intrinsec-ai/cstm-bench with two 54-scenario splits: dilution (compositional) and cross_session (12 isolation-invisible scenarios produced by a closed-loop rewriter that softens surface phrasing while preserving cross-session artefacts).   (2) Measurement. Framing cross-session detection as an information bottleneck to a downstream correlator LLM, we find that a session-bound judge and a Full-Log Correlator concatenating every prompt into one long-context call both lose roughly half their attack recall moving from dilution to cross_session, well inside any frontier context window. Scope: 54 scenarios per shard, one correlator family (Anthropic Claude), no prompt optimisation; we release it to motivate larger, multi-provider datasets.   (3) Algorithm and metric. A bounded-memory Coreset Memory Reader retaining highest-signal fragments at $K=50$ is the only reader whose recall survives both shards. Because ranker reshuffles break KV-cache prefix reuse, we promote $\\mathrm{CSR\\_prefix}$ (ordered prefix stability, LLM-free) to a first-class metric and fuse it with detection into $\\mathrm{CSTM} = 0.7 F_1(\\mathrm{CSDA@action}, \\mathrm{precision}) + 0.3 \\mathrm{CSR\\_prefix}$, benchmarking rankers on a single Pareto of recall versus serving stability.",
+    "url": "http://arxiv.org/abs/2604.21131v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21131v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.19533v3",
+    "title": "Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps",
+    "authors": [
+      "Alankrit Chona",
+      "Igor Kozlov",
+      "Ambuj Kumar"
+    ],
+    "abstract": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events.   The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment. Each episode presents the agent with an in-memory SQLite database of 75,000-135,000 log records produced by a deterministic campaign simulator that time-shifts and entity-obfuscates the raw recordings.   The agent must iteratively submit SQL queries to discover malicious event timestamps and explicitly flag them, scored CTF-style against Sigma-rule-derived ground truth.   Evaluating five frontier models - Claude Opus 4.6, GPT-5, Gemini 3.1 Pro, Kimi K2.5, and Gemini 3 Flash - on 26 campaigns covering 105 of 106 procedures, we find that all models fail dramatically: the best model (Claude Opus 4.6) submits correct flags for only 3.8% of malicious events on average, and no run across any model ever finds all flags.   We define a passing score as >= 50% recall on every ATT&CK tactic - the minimum bar for unsupervised SOC deployment. No model passes: the leader clears this bar on 5 of 13 tactics and the remaining four on zero.   These results suggest that current LLMs are poorly suited for open-ended, evidence-driven threat hunting despite strong performance on curated Q&A security benchmarks.",
+    "url": "http://arxiv.org/abs/2604.19533v3",
+    "pdf_url": "https://arxiv.org/pdf/2604.19533v3",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.19606v1",
+    "title": "AblateCell: A Reproduce-then-Ablate Agent for Virtual Cell Repositories",
+    "authors": [
+      "Xue Xia",
+      "Chengkai Yao",
+      "Mingyu Tsoi",
+      "Xinjie Mao",
+      "Wenxuan Huang"
+    ],
+    "abstract": "Systematic ablations are essential to attribute performance gains in AI Virtual Cells, yet they are rarely performed because biological repositories are under-standardized and tightly coupled to domain-specific data and formats. While recent coding agents can translate ideas into implementations, they typically stop at producing code and lack a verifier that can reproduce strong baselines and rigorously test which components truly matter. We introduce AblateCell, a reproduce-then-ablate agent for virtual cell repositories that closes this verification gap. AblateCell first reproduces reported baselines end-to-end by auto-configuring environments, resolving dependency and data issues, and rerunning official evaluations while emitting verifiable artifacts. It then conducts closed-loop ablation by generating a graph of isolated repository mutations and adaptively selecting experiments under a reward that trades off performance impact and execution cost. Evaluated on three single-cell perturbation prediction repositories (CPA, GEARS, BioLORD), AblateCell achieves 88.9% (+29.9% to human expert) end-to-end workflow success and 93.3% (+53.3% to heuristic) accuracy in recovering ground-truth critical components. These results enable scalable, repository-grounded verification and attribution directly on biological codebases.",
+    "url": "http://arxiv.org/abs/2604.19606v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19606v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.21308v1",
+    "title": "CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents",
+    "authors": [
+      "Wenjie Fu",
+      "Xiaoting Qin",
+      "Jue Zhang",
+      "Qingwei Lin",
+      "Lukas Wutschitz"
+    ],
+    "abstract": "Enterprise LLM agents can dramatically improve workplace productivity, but their core capability, retrieving and using internal context to act on a user's behalf, also creates new risks for sensitive information leakage. We introduce CI-Work, a Contextual Integrity (CI)-grounded benchmark that simulates enterprise workflows across five information-flow directions and evaluates whether agents can convey essential content while withholding sensitive context in dense retrieval settings. Our evaluation of frontier models reveals that privacy failures are prevalent (violation rates range from 15.8%-50.9%, with leakage reaching up to 26.7%) and uncovers a counterintuitive trade-off critical for industrial deployment: higher task utility often correlates with increased privacy violations. Moreover, the massive scale of enterprise data and potential user behavior further amplify this vulnerability. Simply increasing model size or reasoning depth fails to address the problem. We conclude that safeguarding enterprise workflows requires a paradigm shift, moving beyond model-centric scaling toward context-centric architectures.",
+    "url": "http://arxiv.org/abs/2604.21308v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21308v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.20087v1",
+    "title": "SkillLearnBench: Benchmarking Continual Learning Methods for Agent Skill Generation on Real-World Tasks",
+    "authors": [
+      "Shanshan Zhong",
+      "Yi Lu",
+      "Jingjie Ning",
+      "Yibing Wan",
+      "Lihan Feng"
+    ],
+    "abstract": "Skills have become the de facto way to enable LLM agents to perform complex real-world tasks with customized instructions, workflows, and tools, but how to learn them automatically and effectively remains unclear. We introduce SkillLearnBench, the first benchmark for evaluating continual skill learning methods, comprising 20 verified, skill-dependent tasks across 15 sub-domains derived from a real-world skill taxonomy , evaluated at three levels: skill quality, execution trajectory, and task outcome. Using this benchmark, we evaluate recent continual learning techniques, those leveraging one-shot, self/teacher feedback, and skill creator to generate skills from agent experiences. We find that all continual learning methods improve over the no-skill baseline, yet consistent gains remain elusive: no method leads across all tasks and LLMs, and scaling to stronger LLMs does not reliably help. Continual learning improves tasks with clear, reusable workflows but struggles on open-ended tasks, and using stronger LLM backbones does not consistently produce better skills. Our analysis also revealed that multiple iterations in continual learning facilitate genuine improvement via external feedback, whereas self-feedback alone induces recursive drift. Our data and code are open-source at https://github.com/cxcscmu/SkillLearnBench to enable further studies of automatic skill generation and continual learning techniques.",
+    "url": "http://arxiv.org/abs/2604.20087v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20087v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.20006v1",
+    "title": "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents",
+    "authors": [
+      "Md Nayem Uddin",
+      "Kumar Shubham",
+      "Eduardo Blanco",
+      "Chitta Baral",
+      "Gengyu Wang"
+    ],
+    "abstract": "Personalized agents that interact with users over long periods must maintain persistent memory across sessions and update it as circumstances change. However, existing benchmarks predominantly frame long-term memory evaluation as fact retrieval from past conversations, providing limited insight into agents' ability to consolidate memory over time or handle frequent knowledge updates. We introduce Memora, a long-term memory benchmark spanning weeks to months long user conversations. The benchmark evaluates three memory-grounded tasks: remembering, reasoning, and recommending. To ensure data quality, we employ automated memory-grounding checks and human evaluation. We further introduce Forgetting-Aware Memory Accuracy (FAMA), a metric that penalizes reliance on obsolete or invalidated memory when evaluating long-term memory. Evaluations of four LLMs and six memory agents reveal frequent reuse of invalid memories and failures to reconcile evolving memories. Memory agents offer marginal improvements, exposing shortcomings in long-term memory for personalized agents.",
+    "url": "http://arxiv.org/abs/2604.20006v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20006v1",
+    "published": "2026-04-21",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
