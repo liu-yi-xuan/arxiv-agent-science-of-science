@@ -24,6 +24,35 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-25
+
+**10 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies](http://arxiv.org/abs/2604.20548v1) | Shuai Chen, Chengzhi Zhang | Scientific progress depends on the continual generation of innovative re-search ideas. However, the rapid growth of scientific literature has greatly increased the cost of knowledge filtering, maki... |
+| [AgenticQwen: Training Small Agentic Language Models with Dual Data Flywheels for Industrial-Scale Tool Use](http://arxiv.org/abs/2604.21590v1) | Yuanjie Lyu, Chengyu Wang, Haonan Zheng et al. | Modern industrial applications increasingly demand language models that act as agents, capable of multi-step reasoning and tool use in real-world settings. |
+| [When Agents Look the Same: Quantifying Distillation-Induced Similarity in Tool-Use Behaviors](http://arxiv.org/abs/2604.21255v1) | Chenghao Yang, Yuning Zhang, Zhoufutu Wen et al. | Model distillation is a primary driver behind the rapid progress of LLM agents, yet it often leads to behavioral homogenization. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HiCrew: Hierarchical Reasoning for Long-Form Video Understanding via Question-Aware Multi-Agent Collaboration](http://arxiv.org/abs/2604.21444v1) | Yuehan Zhu, Jingqi Zhao, Jiawen Zhao et al. | Long-form video understanding remains fundamentally challenged by pervasive spatiotemporal redundancy and intricate narrative dependencies that span extended temporal horizons. |
+| [FairQE: Multi-Agent Framework for Mitigating Gender Bias in Translation Quality Estimation](http://arxiv.org/abs/2604.21420v1) | Jinhee Jang, Juhwan Choi, Dongjin Lee et al. | Quality Estimation (QE) aims to assess machine translation quality without reference translations, but recent studies have shown that existing QE models exhibit systematic gender bias. |
+| [Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction](http://arxiv.org/abs/2604.21154v1) | Abhishek Dharmaratnakar, Srivaths Ranganathan, Anushree Sinha et al. | At-home physiotherapy compliance remains critically low due to a lack of personalized supervision and dynamic feedback. |
+| [Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization](http://arxiv.org/abs/2604.20714v1) | Shan He, Runze Wang, Zhuoyun Du et al. | Designing and optimizing multi-agent systems (MAS) is a complex, labor-intensive process of "Agent Engineering." Existing automatic optimization methods, primarily focused on flat prompt tuning, la... |
+| [Learning to Communicate: Toward End-to-End Optimization of Multi-Agent Language Systems](http://arxiv.org/abs/2604.21794v1) | Ye Yu, Heming Liu, Haibo Jin et al. | Multi-agent systems built on large language models have shown strong performance on complex reasoning tasks, yet most work focuses on agent roles and orchestration while treating inter-agent commun... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evolution of Research Method Usage Across the Academic Careers of Library and Information Science Scholars](http://arxiv.org/abs/2604.20528v1) | Jiayi Hao, Chengzhi Zhang | Research methods constitute an indispensable tool for scholars engaged in scientific inquiry. Investigating how scholars use research methods throughout their careers can reveal distinct patterns i... |
+| [Research Streams in Biodiversity Finance: A Bibliometric Analysis and Research Agenda](http://arxiv.org/abs/2604.21569v1) | Lennart Ante, Friedrich-Philipp Wazinski, Aman Saggu | Biodiversity loss is accelerating at an unprecedented pace, threatening ecosystem stability, economic resilience, and human well-being, with billions required to reverse current trends. |
+
 ### 📅 2026-04-24
 
 **26 new papers found**

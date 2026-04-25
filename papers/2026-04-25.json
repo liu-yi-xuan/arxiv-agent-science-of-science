@@ -1,0 +1,199 @@
+[
+  {
+    "id": "2604.20548v1",
+    "title": "Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies",
+    "authors": [
+      "Shuai Chen",
+      "Chengzhi Zhang"
+    ],
+    "abstract": "Scientific progress depends on the continual generation of innovative re-search ideas. However, the rapid growth of scientific literature has greatly increased the cost of knowledge filtering, making it harder for researchers to identify novel directions. Although existing large language model (LLM)-based methods show promise in research idea generation, the ideas they produce are often repetitive and lack depth. To address this issue, this study proposes a multi-agent iterative planning search strategy inspired by com-binatorial innovation theory. The framework combines iterative knowledge search with an LLM-based multi-agent system to generate, evaluate, and re-fine research ideas through repeated interaction, with the goal of improving idea diversity and novelty. Experiments in the natural language processing domain show that the proposed method outperforms state-of-the-art base-lines in both diversity and novelty. Further comparison with ideas derived from top-tier machine learning conference papers indicates that the quality of the generated ideas falls between that of accepted and rejected papers. These results suggest that the proposed framework is a promising approach for supporting high-quality research idea generation. The source code and dataset used in this paper are publicly available on Github repository: https://github.com/ChenShuai00/MAGenIdeas. The demo is available at https://huggingface.co/spaces/cshuai20/MAGenIdeas.",
+    "url": "http://arxiv.org/abs/2604.20548v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20548v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.DL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.21590v1",
+    "title": "AgenticQwen: Training Small Agentic Language Models with Dual Data Flywheels for Industrial-Scale Tool Use",
+    "authors": [
+      "Yuanjie Lyu",
+      "Chengyu Wang",
+      "Haonan Zheng",
+      "Yuanhao Yue",
+      "Junbing Yan"
+    ],
+    "abstract": "Modern industrial applications increasingly demand language models that act as agents, capable of multi-step reasoning and tool use in real-world settings. These tasks are typically performed under strict cost and latency constraints, making small agentic models highly desirable. In this paper, we introduce the AgenticQwen family of models, trained via multi-round reinforcement learning (RL) on synthetic data and a limited amount of open-source data. Our training framework combines reasoning RL and agentic RL with dual data flywheels that automatically generate increasingly challenging tasks. The reasoning flywheel increases task difficulty by learning from errors, while the agentic flywheel expands linear workflows into multi-branch behavior trees that better reflect the decision complexity of real-world applications. We validate AgenticQwen on public benchmarks and in an industrial agent system. The models achieve strong performance on multiple agentic benchmarks, and in our industrial agent system, close the gap with much larger models on search and data analysis tasks. Model checkpoints and part of the synthetic data: https://huggingface.co/collections/alibaba-pai/agenticqwen. Data synthesis and RL training code: https://github.com/haruhi-sudo/data_synth_and_rl. The data synthesis pipeline is also integrated into EasyDistill: https://github.com/modelscope/easydistill.",
+    "url": "http://arxiv.org/abs/2604.21590v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21590v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.21255v1",
+    "title": "When Agents Look the Same: Quantifying Distillation-Induced Similarity in Tool-Use Behaviors",
+    "authors": [
+      "Chenghao Yang",
+      "Yuning Zhang",
+      "Zhoufutu Wen",
+      "Tao Gong",
+      "Jiaheng Liu"
+    ],
+    "abstract": "Model distillation is a primary driver behind the rapid progress of LLM agents, yet it often leads to behavioral homogenization. Many emerging agents share nearly identical reasoning steps and failure modes, suggesting they may be distilled echoes of a few dominant teachers. Existing metrics, however, fail to distinguish mandatory behaviors required for task success from non-mandatory patterns that reflect a model's autonomous preferences. We propose two complementary metrics to isolate non-mandatory behavioral patterns: \\textbf{Response Pattern Similarity (RPS)} for verbal alignment and \\textbf{Action Graph Similarity (AGS)} for tool-use habits modeled as directed graphs. Evaluating 18 models from 8 providers on $τ$-Bench and $τ^2$-Bench against Claude Sonnet 4.5 (thinking), we find that within-family model pairs score 5.9 pp higher in AGS than cross-family pairs, and that Kimi-K2 (thinking) reaches 82.6\\% $S_{\\text{node}}$ and 94.7\\% $S_{\\text{dep}}$, exceeding Anthropic's own Opus 4.1. A controlled distillation experiment further confirms that AGS distinguishes teacher-specific convergence from general improvement. RPS and AGS capture distinct behavioral dimensions (Pearson $r$ = 0.491), providing complementary diagnostic signals for behavioral convergence in the agent ecosystem. Our code is available at https://github.com/Syuchin/AgentEcho.",
+    "url": "http://arxiv.org/abs/2604.21255v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21255v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.21444v1",
+    "title": "HiCrew: Hierarchical Reasoning for Long-Form Video Understanding via Question-Aware Multi-Agent Collaboration",
+    "authors": [
+      "Yuehan Zhu",
+      "Jingqi Zhao",
+      "Jiawen Zhao",
+      "Xudong Mao",
+      "Baoquan Zhao"
+    ],
+    "abstract": "Long-form video understanding remains fundamentally challenged by pervasive spatiotemporal redundancy and intricate narrative dependencies that span extended temporal horizons. While recent structured representations compress visual information effectively, they frequently sacrifice temporal coherence, which is critical for causal reasoning. Meanwhile, existing multi-agent frameworks operate through rigid, pre-defined workflows that fail to adapt their reasoning strategies to question-specific demands. In this paper, we introduce HiCrew, a hierarchical multi-agent framework that addresses these limitations through three core contributions. First, we propose a Hybrid Tree structure that leverages shot boundary detection to preserve temporal topology while performing relevance-guided hierarchical clustering within semantically coherent segments. Second, we develop a Question-Aware Captioning mechanism that synthesizes intent-driven visual prompts to generate precision-oriented semantic descriptions. Third, we integrate a Planning Layer that dynamically orchestrates agent collaboration by adaptively selecting roles and execution paths based on question complexity. Extensive experiments on EgoSchema and NExT-QA validate the effectiveness of our approach, demonstrating strong performance across diverse question types with particularly pronounced gains in temporal and causal reasoning tasks that benefit from our hierarchical structure-preserving design.",
+    "url": "http://arxiv.org/abs/2604.21444v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21444v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21420v1",
+    "title": "FairQE: Multi-Agent Framework for Mitigating Gender Bias in Translation Quality Estimation",
+    "authors": [
+      "Jinhee Jang",
+      "Juhwan Choi",
+      "Dongjin Lee",
+      "Seunguk Yu",
+      "Youngbin Kim"
+    ],
+    "abstract": "Quality Estimation (QE) aims to assess machine translation quality without reference translations, but recent studies have shown that existing QE models exhibit systematic gender bias. In particular, they tend to favor masculine realizations in gender-ambiguous contexts and may assign higher scores to gender-misaligned translations even when gender is explicitly specified. To address these issues, we propose FairQE, a multi-agent-based, fairness-aware QE framework that mitigates gender bias in both gender-ambiguous and gender-explicit scenarios. FairQE detects gender cues, generates gender-flipped translation variants, and combines conventional QE scores with LLM-based bias-mitigating reasoning through a dynamic bias-aware aggregation mechanism. This design preserves the strengths of existing QE models while calibrating their gender-related biases in a plug-and-play manner. Extensive experiments across multiple gender bias evaluation settings demonstrate that FairQE consistently improves gender fairness over strong QE baselines. Moreover, under MQM-based meta-evaluation following the WMT 2023 Metrics Shared Task, FairQE achieves competitive or improved general QE performance. These results show that gender bias in QE can be effectively mitigated without sacrificing evaluation accuracy, enabling fairer and more reliable translation evaluation.",
+    "url": "http://arxiv.org/abs/2604.21420v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21420v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21154v1",
+    "title": "Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction",
+    "authors": [
+      "Abhishek Dharmaratnakar",
+      "Srivaths Ranganathan",
+      "Anushree Sinha",
+      "Debanshu Das"
+    ],
+    "abstract": "At-home physiotherapy compliance remains critically low due to a lack of personalized supervision and dynamic feedback. Existing digital health solutions rely on static, pre-recorded video libraries or generic 3D avatars that fail to account for a patient's specific injury limitations or home environment. In this paper, we propose a novel Multi-Agent System (MAS) architecture that leverages Generative AI and computer vision to close the tele-rehabilitation loop. Our framework consists of four specialized micro-agents: a Clinical Extraction Agent that parses unstructured medical notes into kinematic constraints; a Video Synthesis Agent that utilizes foundational video generation models to create personalized, patient-specific exercise videos; a Vision Processing Agent for real-time pose estimation; and a Diagnostic Feedback Agent that issues corrective instructions. We present the system architecture, detail the prototype pipeline using Large Language Models and MediaPipe, and outline our clinical evaluation plan. This work demonstrates the feasibility of combining generative media with agentic autonomous decision-making to scale personalized patient care safely and effectively.",
+    "url": "http://arxiv.org/abs/2604.21154v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21154v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20714v1",
+    "title": "Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization",
+    "authors": [
+      "Shan He",
+      "Runze Wang",
+      "Zhuoyun Du",
+      "Huiyu Bai",
+      "Zouying Cao"
+    ],
+    "abstract": "Designing and optimizing multi-agent systems (MAS) is a complex, labor-intensive process of \"Agent Engineering.\" Existing automatic optimization methods, primarily focused on flat prompt tuning, lack the structural awareness to debug the intricate web of interactions in MAS. More critically, these optimizers are static; they do not learn from experience to improve their own optimization strategies. To address these gaps, we introduce Textual Parameter Graph Optimization (TPGO), a framework that enables a multi-agent system to learn to evolve. TPGO first models the MAS as a Textual Parameter Graph (TPG), where agents, tools, and workflows are modular, optimizable nodes. To guide evolution, we derive \"textual gradients,\" structured natural language feedback from execution traces, to pinpoint failures and suggest granular modifications. The core of our framework is Group Relative Agent Optimization (GRAO), a novel meta-learning strategy that learns from historical optimization experiences. By analyzing past successes and failures, GRAO becomes progressively better at proposing effective updates, allowing the system to learn how to optimize itself. Extensive experiments on complex benchmarks like GAIA and MCP-Universe show that TPGO significantly enhances the performance of state-of-the-art agent frameworks, achieving higher success rates through automated, self-improving optimization.",
+    "url": "http://arxiv.org/abs/2604.20714v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20714v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.21794v1",
+    "title": "Learning to Communicate: Toward End-to-End Optimization of Multi-Agent Language Systems",
+    "authors": [
+      "Ye Yu",
+      "Heming Liu",
+      "Haibo Jin",
+      "Xiaopeng Yuan",
+      "Peng Kuang"
+    ],
+    "abstract": "Multi-agent systems built on large language models have shown strong performance on complex reasoning tasks, yet most work focuses on agent roles and orchestration while treating inter-agent communication as a fixed interface. Latent communication through internal representations such as key-value caches offers a promising alternative to text-based protocols, but existing approaches do not jointly optimize communication with multi-agent reasoning. Therefore we propose DiffMAS, a training framework that treats latent communication as a learnable component of multi-agent systems. DiffMAS performs parameter-efficient supervised training over multi-agent latent trajectories, enabling agents to jointly learn how information should be encoded and interpreted across interactions. Experiments on mathematical reasoning, scientific QA, code generation, and commonsense benchmarks show that DiffMAS consistently improves reasoning accuracy and decoding stability over single-agent inference, text-based multi-agent systems, and prior latent communication methods, achieving 26.7% on AIME24, 20.2% on GPQA-Diamond, and consistent gains across reasoning benchmarks.",
+    "url": "http://arxiv.org/abs/2604.21794v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21794v1",
+    "published": "2026-04-23",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.20528v1",
+    "title": "Evolution of Research Method Usage Across the Academic Careers of Library and Information Science Scholars",
+    "authors": [
+      "Jiayi Hao",
+      "Chengzhi Zhang"
+    ],
+    "abstract": "Research methods constitute an indispensable tool for scholars engaged in scientific inquiry. Investigating how scholars use research methods throughout their careers can reveal distinct patterns in method adoption, providing valuable insights for novice researchers in selecting appropriate methods. This study employs a comprehensive dataset comprising full-text journal articles and bibliographic records from the Library and Information Science (LIS) domain. Utilizing an automated classification model based on full-text cognitive analysis, the research methods employed by LIS scholars are systematically identified. Topic modeling was then conducted using Top2Vec. Subsequently, author name disambiguation is performed, and academic age is calculated for each scholar. This study focuses on 435 senior scholars with an academic age of more than 14 years and a consistent publication record at five-year intervals, covering a total of 6,116 articles. The corpus covers 16 research method categories and 20 research topics. The findings indicate that bibliometric methods are the most frequently used across career stages, accounting for 19.61% among early-career scholars and 31.81% among senior scholars. Over the course of a scholarly career, the diversity of research methods initially increases and then declines. Furthermore, scholars exhibit a propensity for combining multiple research methods, including both conventional and unconventional pairings. Notably, the research methods most commonly used by researchers change with age and seniority.",
+    "url": "http://arxiv.org/abs/2604.20528v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20528v1",
+    "published": "2026-04-22",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.21569v1",
+    "title": "Research Streams in Biodiversity Finance: A Bibliometric Analysis and Research Agenda",
+    "authors": [
+      "Lennart Ante",
+      "Friedrich-Philipp Wazinski",
+      "Aman Saggu"
+    ],
+    "abstract": "Biodiversity loss is accelerating at an unprecedented pace, threatening ecosystem stability, economic resilience, and human well-being, with billions required to reverse current trends. Against this backdrop, biodiversity finance has emerged as a rapidly expanding but highly fragmented field spanning ecology, economics, finance, accounting, and policy. However, it remains emerging and complex, with the majority of relevant knowledge being produced in non-finance journals. This study employs quantitative bibliometric analysis to examine a corpus of 189,456 references underlying 3,998 articles related to biodiversity and finance. The analysis identifies eight primary research streams within the field that concern (1) strategic and financial approaches in global biodiversity conservation, (2) the impact and implementation of payments for environmental services (PES) in developing countries, (3) neoliberal influences and implications in environmental conservation, (4) biodiversity offsets and conservation, (5) ecosystem services and biodiversity, (6) integrating conservation and community interests in biodiversity management, (7) balancing agricultural intensification with biodiversity conservation, and (8) global and corporate biodiversity reporting. The characteristics of each research stream and its prevalent publications are outlined, alongside an analysis of their temporal evolution and the degree of information exchange among the research streams. The findings provide a structured map of the intellectual architecture of biodiversity finance, document pronounced silos between economically-oriented and critical/political-economy research streams, and translate these patterns into a focused research agenda and implications for policymakers, financial institutions, and corporate actors.",
+    "url": "http://arxiv.org/abs/2604.21569v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21569v1",
+    "published": "2026-04-23",
+    "categories": [
+      "q-fin.GN"
+    ],
+    "primary_category": "q-fin.GN",
+    "our_category": "Computational Science of Science"
+  }
+]
