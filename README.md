@@ -24,6 +24,23 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-26
+
+**3 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgenticQwen: Training Small Agentic Language Models with Dual Data Flywheels for Industrial-Scale Tool Use](http://arxiv.org/abs/2604.21590v1) | Yuanjie Lyu, Chengyu Wang, Haonan Zheng et al. | Modern industrial applications increasingly demand language models that act as agents, capable of multi-step reasoning and tool use in real-world settings. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HiCrew: Hierarchical Reasoning for Long-Form Video Understanding via Question-Aware Multi-Agent Collaboration](http://arxiv.org/abs/2604.21444v1) | Yuehan Zhu, Jingqi Zhao, Jiawen Zhao et al. | Long-form video understanding remains fundamentally challenged by pervasive spatiotemporal redundancy and intricate narrative dependencies that span extended temporal horizons. |
+| [Learning to Communicate: Toward End-to-End Optimization of Multi-Agent Language Systems](http://arxiv.org/abs/2604.21794v1) | Ye Yu, Heming Liu, Haibo Jin et al. | Multi-agent systems built on large language models have shown strong performance on complex reasoning tasks, yet most work focuses on agent roles and orchestration while treating inter-agent commun... |
+
 ### 📅 2026-04-25
 
 **10 new papers found**
