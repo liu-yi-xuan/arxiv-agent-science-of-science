@@ -1,0 +1,299 @@
+[
+  {
+    "id": "2604.25256v1",
+    "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+    "authors": [
+      "Lei Xiong",
+      "Kun Luo",
+      "Ziyi Xia",
+      "Wenbo Zhang",
+      "Jin-Ge Yao"
+    ],
+    "abstract": "Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing knowledge for a research problem, or to acquire evidence for verifying assumptions and supporting claims. To assess AI agents' capability in driving this process, we present AutoResearchBench, a dedicated benchmark for autonomous scientific literature discovery. AutoResearchBench consists of two complementary task types: (1) Deep Research, which requires tracking down a specific target paper through a progressive, multi-step probing process, and (2) Wide Research, which requires comprehensively collecting a set of papers satisfying given conditions. Compared to previous benchmarks on agentic web browsing, AutoResearchBench is distinguished along three dimensions: it is research-oriented, calling for in-depth comprehension of scientific concepts; literature-focused, demanding fine-grained utilization of detailed information; and open-ended, involving an unknown number of qualified papers and thus requiring deliberate reasoning and search throughout. These properties make AutoResearchBench uniquely suited for evaluating autonomous research capabilities, and extraordinarily challenging. Even the most powerful LLMs, despite having largely conquered general agentic web-browsing benchmarks such as BrowseComp, achieve only 9.39% accuracy on Deep Research and 9.31% IoU on Wide Research, while many other strong baselines fall below 5%. We publicly release the dataset and evaluation pipeline to facilitate future research in this direction. We publicly release the dataset, evaluation pipeline, and code at https://github.com/CherYou/AutoResearchBench.",
+    "url": "http://arxiv.org/abs/2604.25256v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25256v1",
+    "published": "2026-04-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.25135v1",
+    "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+    "authors": [
+      "Amir Saeidi",
+      "Venkatesh Mishra",
+      "Souradeep Mukhopadhyay",
+      "Gaowen Liu",
+      "Ali Payani"
+    ],
+    "abstract": "Large Language Models are being increasingly deployed as the decision-making core of autonomous agents capable of effecting change in external environments. Yet, in conversational benchmarks, which simulate real-world customer-centric issue resolution scenarios, these agents frequently fail due to the cascading effects of incorrect decision-making. These challenges are particularly pronounced for open-source LLMs with smaller parameter sizes, limited context windows, and constrained inference budgets, which contribute to increased error accumulation in agentic settings. To tackle these challenges, we present the Failure-Aware Meta-Agentic (FAMA) framework. FAMA operates in two stages: first, it analyzes failure trajectories from baseline agents to identify the most prevalent errors; second, it employs an orchestration mechanism that activates a minimal subset of specialized agents tailored to address these failures by injecting a targeted context for the tool-use agent before the decision-making step. Experiments across open-source LLMs demonstrate performance gains up to 27% across evaluation modes over standard baselines. These results highlight that targeted curation of context through specialized agents to address common failures is a valuable design principle for building reliable, multi-turn tool-use LLM agents that simulate real-world conversational scenarios.",
+    "url": "http://arxiv.org/abs/2604.25135v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25135v1",
+    "published": "2026-04-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.23970v1",
+    "title": "LLM-Guided Agentic Floor Plan Parsing for Accessible Indoor Navigation of Blind and Low-Vision People",
+    "authors": [
+      "Aydin Ayanzadeh",
+      "Tim Oates"
+    ],
+    "abstract": "Indoor navigation remains a critical accessibility challenge for the blind and low-vision (BLV) individuals, as existing solutions rely on costly per-building infrastructure. We present an agentic framework that converts a single floor plan image into a structured, retrievable knowledge base to generate safe, accessible navigation instructions with lightweight infrastructure. The system has two phases: a multi-agent module that parses the floor plan into a spatial knowledge graph through a self-correcting pipeline with iterative retry loops and corrective feedback; and a Path Planner that generates accessible navigation instructions, with a Safety Evaluator agent assessing potential hazards along each route. We evaluate the system on the real-world UMBC Math and Psychology building (floors MP-1 and MP-3) and on the CVC-FP benchmark. On MP-1, we achieve success rates of 92.31%, 76.92%, and 61.54% for short, medium, and long routes, outperforming the strongest single-call baseline (Claude 3.7 Sonnet) at 84.62%, 69.23%, and 53.85%. On MP-3, we reach 76.92%, 61.54%, and 38.46%, compared to the best baseline at 61.54%, 46.15%, and 23.08%. These results show consistent gains over single-call LLM baselines and demonstrate that our workflow is a scalable solution for accessible indoor navigation for BLV individuals.",
+    "url": "http://arxiv.org/abs/2604.23970v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.23970v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.HC",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.25847v1",
+    "title": "From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling",
+    "authors": [
+      "Jianghao Lin",
+      "Zi Ling",
+      "Chenyu Zhou",
+      "Tianyi Xu",
+      "Ruoqing Jiang"
+    ],
+    "abstract": "Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose \\emph{Agora-Opt}, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time. This design is flexible across both backbones and methods: it reduces base-model lock-in, transfers across different LLM families, and can be layered onto existing pipelines with minimal coupling. Across public benchmarks, Agora-Opt achieves the strongest overall performance among all compared methods, outperforming strong zero-shot LLMs, training-centric approaches, and prior agentic baselines. Further analyses show robust gains across backbone choices and component variants, and demonstrate that decentralized debate offers a structural advantage over centralized selection by enabling agents to refine candidate solutions through interaction and even recover correct formulations when all initial candidates are flawed. These results suggest that reliable optimization modeling benefits from combining collaborative cross-checking with reusable experience, and position Agora-Opt as a practical and extensible foundation for trustworthy optimization modeling assistance. Our code and data are available at https://github.com/CHIANGEL/Agora-Opt.",
+    "url": "http://arxiv.org/abs/2604.25847v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25847v1",
+    "published": "2026-04-28",
+    "categories": [
+      "math.OC",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "math.OC",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.24881v1",
+    "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
+    "authors": [
+      "John Seon Keun Yi",
+      "Aaron Mueller",
+      "Dokyun Lee"
+    ],
+    "abstract": "Multi-agent debate has been shown to improve reasoning in large language models (LLMs). However, it is compute-intensive, requiring generation of long transcripts before answering questions. To address this inefficiency, we develop a framework that distills multi-agent debate into a single LLM through a two-stage fine-tuning pipeline combining debate structure learning with internalization via dynamic reward scheduling and length clipping. Across multiple models and benchmarks, our internalized models match or exceed explicit multi-agent debate performance using up to 93% fewer tokens. We then investigate the mechanistic basis of this capability through activation steering, finding that internalization creates agent-specific subspaces: interpretable directions in activation space corresponding to different agent perspectives. We further demonstrate a practical application: by instilling malicious agents into the LLM through internalized debate, then applying negative steering to suppress them, we show that distillation makes harmful behaviors easier to localize and control with smaller reductions in general performance compared to steering base models. Our findings offer a new perspective for understanding multi-agent capabilities in distilled models and provide practical guidelines for controlling internalized reasoning behaviors. Code available at https://github.com/johnsk95/latent_agents",
+    "url": "http://arxiv.org/abs/2604.24881v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24881v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.24477v1",
+    "title": "GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems",
+    "authors": [
+      "Pablo Mateo-Torrejón",
+      "Alfonso Sánchez-Macián"
+    ],
+    "abstract": "The rapid integration of Large Language Models (LLMs) into Multi-Agent Systems (MAS) has significantly enhanced their collaborative problem-solving capabilities, but it has also expanded their attack surfaces, exposing them to vulnerabilities such as prompt infection and compromised inter-agent communication. While emerging graph-based anomaly detection methods show promise in protecting these networks, the field currently lacks a standardized, reproducible environment to train these models and evaluate their efficacy. To address this gap, we introduce Gammaf (Graph-based Anomaly Monitoring for LLM Multi-Agent systems Framework), an open-source benchmarking platform. Gammaf is not a novel defense mechanism itself, but rather a comprehensive evaluation architecture designed to generate synthetic multi-agent interaction datasets and benchmark the performance of existing and future defense models. The proposed framework operates through two interdependent pipelines: a Training Data Generation stage, which simulates debates across varied network topologies to capture interactions as robust attributed graphs, and a Defense System Benchmarking stage, which actively evaluates defense models by dynamically isolating flagged adversarial nodes during live inference rounds. Through rigorous evaluation using established defense baselines (XG-Guard and BlindGuard) across multiple knowledge tasks (such as MMLU-Pro and GSM8K), we demonstrate Gammaf's high utility, topological scalability, and execution efficiency. Furthermore, our experimental results reveal that equipping an LLM-MAS with effective attack remediation not only recovers system integrity but also substantially reduces overall operational costs by facilitating early consensus and cutting off the extensive token generation typical of adversarial agents.",
+    "url": "http://arxiv.org/abs/2604.24477v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24477v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.24038v1",
+    "title": "AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment",
+    "authors": [
+      "Yuxuan Gao",
+      "Megan Wang",
+      "Yi Ling Yu"
+    ],
+    "abstract": "Static benchmarks measure what AI agents can do at a fixed point in time but not how they are adopted, maintained, or experienced in deployment. We introduce AgentPulse, a continuous evaluation framework scoring 50 agents across 10 workload categories along four factors (Benchmark Performance, Adoption Signals, Community Sentiment, and Ecosystem Health) aggregated from 18 real-time signals across GitHub, package registries, IDE marketplaces, social platforms, and benchmark leaderboards. Three analyses ground the framework. The four factors capture largely complementary information (n=50; $ρ_{\\max}=0.61$ for Adoption-Ecosystem, all others $|ρ| \\leq 0.37$). A circularity-controlled test (n=35) shows the Benchmark+Sentiment sub-composite, which contains no GitHub-derived signals, predicts external adoption proxies it does not aggregate: GitHub stars ($ρ_s=0.52$, $p<0.01$) and Stack Overflow question volume ($ρ_s=0.49$, $p<0.01$), with VS Code installs ($ρ_s=0.44$, $p<0.05$) reported as illustrative given that only 11 of 35 agents have non-zero installs. On the n=11 subset with published SWE-bench scores, composite and benchmark-only rankings are nearly uncorrelated ($ρ_s=0.25$; 9 of 11 agents shift by at least 2 ranks), driven by a strong negative Adoption-Capability correlation among closed-source high-capability agents within this subset. This is precisely why we rest the framework's validity claim on the broader n=35 test rather than the SWE-bench overlap. AgentPulse surfaces deployment signal absent from benchmarks; it is a methodology, not a ground-truth ranking. The framework, all collected signals, scoring outputs, and evaluation harness are released under CC BY 4.0.",
+    "url": "http://arxiv.org/abs/2604.24038v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24038v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.23947v2",
+    "title": "GamED.AI: A Hierarchical Multi-Agent Framework for Automated Educational Game Generation",
+    "authors": [
+      "Shiven Agarwal",
+      "Yash Shah",
+      "Ashish Raj Shekhar",
+      "Priyanuj Bordoloi",
+      "Vivek Gupta"
+    ],
+    "abstract": "We introduce GamED.AI, a hierarchical multi-agent framework that transforms instructor-provided questions into fully playable, pedagogically grounded educational games validated through formal mechanic contracts. Built on phase-based LangGraph sub-graphs, deterministic Quality Gates, and structured Pydantic schemas, GamED.AI supports two template families encompassing 15 interaction mechanics across spatial reasoning, procedural execution, and higher-order Bloom's Taxonomy objectives. Evaluated on 200 questions spanning five subject domains, the system achieves a 90% validation pass rate, 98.3% schema compliance, and 73% token reduction over ReAct agents (${\\sim}$73,500 $\\rightarrow$ ${\\sim}$19,900 tokens/game) at $0.46 per game. Within this model configuration, these results suggest that phase-bounded architectural structure correlates more strongly with alignment quality than prompting strategy alone. Our demonstration lets attendees generate Bloom's-aligned games from natural language in under 60 seconds, inspect Quality Gate outputs at each pipeline phase, and browse a curated library of 50 games spanning all 15 mechanic types.",
+    "url": "http://arxiv.org/abs/2604.23947v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.23947v2",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.25487v1",
+    "title": "A contemporary science map through the lens of IEEE and ACM periodicals",
+    "authors": [
+      "George Margaritis",
+      "Dionysios Kritsas",
+      "Dimitrios Katsaros",
+      "Yannis Manolopoulos"
+    ],
+    "abstract": "ACM and IEEE are the two premier associations on computing and electrical/electronics engineering which publish and organize the great majority of periodicals and conferences, respectively, serving these disciplines. Science is a constantly evolving process, and these publication fora are expected to follow the trends. In this article, we focus on the periodicals published by the two associations and seek to detect and/or confirm any contemporary science trends as these are reflected to the periodical titles established recently. Our study is rather qualitative than quantitative, aiming at revealing patterns immediately comprehensible and validatable by the reader. Among the most notable patterns, we see a growing preference of both associations for the open access mode of publication; we also observe ACM's orientation toward AI-focused periodicals, and most importantly, a significant theme overlap among periodicals of the same association and this is valid for both ACM and IEEE.",
+    "url": "http://arxiv.org/abs/2604.25487v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25487v1",
+    "published": "2026-04-28",
+    "categories": [
+      "cs.DL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.23820v1",
+    "title": "The software space of science",
+    "authors": [
+      "Zhouming Wu",
+      "Dakota Murray"
+    ],
+    "abstract": "Science advances not only through the accumulation of facts but also through the evolution of tools. Crucially, tools are rarely used in isolation. They form tool portfolios, combinations shaped by a discipline's workflows and analytical demands. Software, near-ubiquitous in modern research and traceable across the published literature, offers a unique window to study tool use in science. Here, we map the software space of science by analyzing mentions to software from 1.3 million publications from 2004 to 2021. We construct a network of 520 software tools linked by disciplinary co-usage, with link strength weighted by proximity based on revealed comparative advantage. This network reveals a structured landscape in which tools cluster into 8 functional communities, including computing and statistics, wet lab instrumentation, and several bioinformatics specializations, with each discipline occupying a distinct position reflecting its characteristic tool portfolios. The breadth of a discipline's tool portfolio is shaped by the nature of its research workflow: fields combining experimental and computational tasks draw on multiple communities, while those with narrower methodological demands concentrate in one. These structural differences are stable across the observation period. At the same time, across all broad disciplinary categories, disciplinary tool portfolios are crystallizing, settling on a common set of tools.",
+    "url": "http://arxiv.org/abs/2604.23820v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.23820v1",
+    "published": "2026-04-26",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.24955v1",
+    "title": "BenchGuard: Who Guards the Benchmarks? Automated Auditing of LLM Agent Benchmarks",
+    "authors": [
+      "Xinming Tu",
+      "Tianze Wang",
+      "Yingzhou",
+      "Lu",
+      "Kexin Huang"
+    ],
+    "abstract": "As benchmarks grow in complexity, many apparent agent failures are not failures of the agent at all - they are failures of the benchmark itself: broken specifications, implicit assumptions, and rigid evaluation scripts that penalize valid alternative approaches. We propose employing frontier LLMs as systematic auditors of evaluation infrastructure, and realize this vision through BenchGuard, the first automated auditing framework for task-oriented, execution-based agent benchmarks. BenchGuard cross-verifies all benchmark artifacts via structured LLM protocols, optionally incorporating agent solutions or execution traces as additional diagnostic evidence. Deployed on two prominent scientific benchmarks, BenchGuard identified 12 author-confirmed issues in ScienceAgentBench - including fatal errors rendering tasks unsolvable - and exactly matched 83.3% of expert-identified issues on the BIXBench Verified-50 subset, catching defects that prior human review missed entirely. A full audit of 50 complex bioinformatics tasks costs under USD 15, making automated benchmark auditing a practical and valuable complement to human review. These findings point toward AI-assisted benchmark development, where frontier models serve not only as subjects of evaluation but as active participants in validating the evaluation infrastructure itself.",
+    "url": "http://arxiv.org/abs/2604.24955v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24955v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.24929v1",
+    "title": "GAIA-v2-LILT: Multilingual Adaptation of Agent Benchmark beyond Translation",
+    "authors": [
+      "Yunsu Kim",
+      "Kaden Uhlig",
+      "Joern Wuebker"
+    ],
+    "abstract": "Agent benchmarks remain largely English-centric, while their multilingual versions are often built with machine translation (MT) and limited post-editing. We argue that, for agentic tasks, this minimal workflow can easily break benchmark validity through query-answer misalignment or culturally off-target context. We propose a refined workflow for adapting English benchmarks into multiple languages with explicit functional alignment, cultural alignment, and difficulty calibration using both automated checks and human review. Using this workflow, we introduce GAIA-v2-LILT, a re-audited multilingual extension of GAIA covering five non-English languages. In experiments, our workflow improves agent success rates by up to 32.7% over minimally translated versions, bringing the closest audited setting to within 3.1% of English performance while substantial gaps remain in many other cases. This indicates that a substantial share of the multilingual performance gap is benchmark-induced measurement error, motivating task-level alignment when adapting English benchmarks across languages. The data is available as part of the MAPS package at https://huggingface.co/datasets/Fujitsu-FRE/MAPS/viewer/GAIA-v2-LILT. We also release the code used in our experiments at https://github.com/lilt/gaia-v2-lilt.",
+    "url": "http://arxiv.org/abs/2604.24929v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24929v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.24690v1",
+    "title": "Can LLMs Act as Historians? Evaluating Historical Research Capabilities of LLMs via the Chinese Imperial Examination",
+    "authors": [
+      "Lirong Gao",
+      "Zeqing Wang",
+      "Yuyan Cai",
+      "Jiayi Deng",
+      "Yanmei Gu"
+    ],
+    "abstract": "While Large Language Models (LLMs) have increasingly assisted in historical tasks such as text processing, their capacity for professional-level historical reasoning remains underexplored. Existing benchmarks primarily assess basic knowledge breadth or lexical understanding, failing to capture the higher-order skills, such as evidentiary reasoning,that are central to historical research. To fill this gap, we introduce ProHist-Bench, a novel benchmark anchored in the Chinese Imperial Examination (Keju) system, a comprehensive microcosm of East Asian political, social, and intellectual history spanning over 1,300 years. Developed through deep interdisciplinary collaboration, ProHist-Bench features 400 challenging, expert-curated questions across eight dynasties, accompanied by 10,891 fine-grained evaluation rubrics. Through a rigorous evaluation of 18 LLMs, we reveal a significant proficiency gap: even state-of-the-art LLMs struggle with complex historical research questions. We hope ProHist-Bench will facilitate the development of domain-specific reasoning LLMs, advance computational historical research, and further uncover the untapped potential of LLMs. We release ProHist-Bench at https://github.com/inclusionAI/ABench/tree/main/ProHist-Bench.",
+    "url": "http://arxiv.org/abs/2604.24690v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24690v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.25914v1",
+    "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+    "authors": [
+      "Jinxiang Meng",
+      "Shaoping Huang",
+      "Fangyu Lei",
+      "Jingyu Guo",
+      "Haoxiang Liu"
+    ],
+    "abstract": "Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinement, single-language creation-only tasks, and assumption of perfect intent. To bridge these gaps, we introduce DV-World, a benchmark of 260 tasks designed to evaluate DV agents across real-world professional lifecycles. DV-World spans three domains: DV-Sheet for native spreadsheet manipulation including chart and dashboard creation as well as diagnostic repair; DV-Evolution for adapting and restructuring reference visual artifacts to fit new data across diverse programming paradigms and DV-Interact for proactive intent alignment with a user simulator that mimics real-world ambiguous requirements. Our hybrid evaluation framework integrates Table-value Alignment for numerical precision and MLLM-as-a-Judge with rubrics for semantic-visual assessment. Experiments reveal that state-of-the-art models achieve less than 50% overall performance, exposing critical deficits in handling the complex challenges of real-world data visualization. DV-World provides a realistic testbed to steer development toward the versatile expertise required in enterprise workflows. Our data and code are available at \\href{https://github.com/DA-Open/DV-World}{this project page}.",
+    "url": "http://arxiv.org/abs/2604.25914v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25914v1",
+    "published": "2026-04-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.24964v1",
+    "title": "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks",
+    "authors": [
+      "Lawrence Keunho Jang",
+      "Jing Yu Koh",
+      "Daniel Fried",
+      "Ruslan Salakhutdinov"
+    ],
+    "abstract": "Existing web agent benchmarks have largely converged on short, single-site tasks that frontier models are approaching saturation on. However, real world web use consists of long-horizon, multi-site workflows. Common web navigation tasks, such as comparing products across different domains, planning trips across multiple services, or summarizing information from multiple search queries, require sustained context and cross-site reasoning over potentially hours of browsing. To capture and evaluate such behaviors, we introduce Odysseys: a benchmark of 200 long-horizon web tasks derived from real world browsing sessions evaluated on the live Internet. We find that binary pass/fail evaluation is inadequate for long-horizon settings and introduce a rubric-based evaluation, annotating each Odysseys task with an average of 6.1 graded rubrics. We demonstrate that this yields higher agreement with humans and provides a more fine-grained signal than commonly used trajectory-level LLM-as-a-judge evaluation metrics. We tested several leading frontier models and find that the strongest models achieve a success rate of 44.5%, which leaves substantial room for future improvements. Beyond task success, we argue that efficiency is a first-class concern for long-horizon agents. We introduce a Trajectory Efficiency metric (rubric score per step) and find that even frontier agents achieve only 1.15%, marking an evident need for agents that can succeed efficiently and not simply eventually. Odysseys isolates the critical evaluation of long-horizon proficiency in open-web environments, providing a realistic benchmark to measure progress towards computer-use agents that can potentially productively operate for hours. We release our tasks, evaluation scripts, and other results at https://odysseys-website.pages.dev",
+    "url": "http://arxiv.org/abs/2604.24964v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24964v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

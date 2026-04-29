@@ -24,6 +24,50 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-29
+
+**15 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery](http://arxiv.org/abs/2604.25256v1) | Lei Xiong, Kun Luo, Ziyi Xia et al. | Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments](http://arxiv.org/abs/2604.25135v1) | Amir Saeidi, Venkatesh Mishra, Souradeep Mukhopadhyay et al. | Large Language Models are being increasingly deployed as the decision-making core of autonomous agents capable of effecting change in external environments. |
+| [LLM-Guided Agentic Floor Plan Parsing for Accessible Indoor Navigation of Blind and Low-Vision People](http://arxiv.org/abs/2604.23970v1) | Aydin Ayanzadeh, Tim Oates | Indoor navigation remains a critical accessibility challenge for the blind and low-vision (BLV) individuals, as existing solutions rely on costly per-building infrastructure. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling](http://arxiv.org/abs/2604.25847v1) | Jianghao Lin, Zi Ling, Chenyu Zhou et al. | Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains ch... |
+| [Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate](http://arxiv.org/abs/2604.24881v1) | John Seon Keun Yi, Aaron Mueller, Dokyun Lee | Multi-agent debate has been shown to improve reasoning in large language models (LLMs). However, it is compute-intensive, requiring generation of long transcripts before answering questions. |
+| [GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems](http://arxiv.org/abs/2604.24477v1) | Pablo Mateo-Torrejón, Alfonso Sánchez-Macián | The rapid integration of Large Language Models (LLMs) into Multi-Agent Systems (MAS) has significantly enhanced their collaborative problem-solving capabilities, but it has also expanded their atta... |
+| [AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment](http://arxiv.org/abs/2604.24038v1) | Yuxuan Gao, Megan Wang, Yi Ling Yu | Static benchmarks measure what AI agents can do at a fixed point in time but not how they are adopted, maintained, or experienced in deployment. |
+| [GamED.AI: A Hierarchical Multi-Agent Framework for Automated Educational Game Generation](http://arxiv.org/abs/2604.23947v2) | Shiven Agarwal, Yash Shah, Ashish Raj Shekhar et al. | We introduce GamED.AI, a hierarchical multi-agent framework that transforms instructor-provided questions into fully playable, pedagogically grounded educational games validated through formal mech... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A contemporary science map through the lens of IEEE and ACM periodicals](http://arxiv.org/abs/2604.25487v1) | George Margaritis, Dionysios Kritsas, Dimitrios Katsaros et al. | ACM and IEEE are the two premier associations on computing and electrical/electronics engineering which publish and organize the great majority of periodicals and conferences, respectively, serving... |
+| [The software space of science](http://arxiv.org/abs/2604.23820v1) | Zhouming Wu, Dakota Murray | Science advances not only through the accumulation of facts but also through the evolution of tools. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [BenchGuard: Who Guards the Benchmarks? Automated Auditing of LLM Agent Benchmarks](http://arxiv.org/abs/2604.24955v1) | Xinming Tu, Tianze Wang, Yingzhou et al. | As benchmarks grow in complexity, many apparent agent failures are not failures of the agent at all - they are failures of the benchmark itself: broken specifications, implicit assumptions, and rig... |
+| [GAIA-v2-LILT: Multilingual Adaptation of Agent Benchmark beyond Translation](http://arxiv.org/abs/2604.24929v1) | Yunsu Kim, Kaden Uhlig, Joern Wuebker | Agent benchmarks remain largely English-centric, while their multilingual versions are often built with machine translation (MT) and limited post-editing. |
+| [Can LLMs Act as Historians? Evaluating Historical Research Capabilities of LLMs via the Chinese Imperial Examination](http://arxiv.org/abs/2604.24690v1) | Lirong Gao, Zeqing Wang, Yuyan Cai et al. | While Large Language Models (LLMs) have increasingly assisted in historical tasks such as text processing, their capacity for professional-level historical reasoning remains underexplored. |
+| [DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios](http://arxiv.org/abs/2604.25914v1) | Jinxiang Meng, Shaoping Huang, Fangyu Lei et al. | Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. |
+| [Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks](http://arxiv.org/abs/2604.24964v1) | Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried et al. | Existing web agent benchmarks have largely converged on short, single-site tasks that frontier models are approaching saturation on. |
+
 ### 📅 2026-04-28
 
 **1 new papers found**
