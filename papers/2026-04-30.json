@@ -1,0 +1,140 @@
+[
+  {
+    "id": "2604.25256v1",
+    "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+    "authors": [
+      "Lei Xiong",
+      "Kun Luo",
+      "Ziyi Xia",
+      "Wenbo Zhang",
+      "Jin-Ge Yao"
+    ],
+    "abstract": "Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing knowledge for a research problem, or to acquire evidence for verifying assumptions and supporting claims. To assess AI agents' capability in driving this process, we present AutoResearchBench, a dedicated benchmark for autonomous scientific literature discovery. AutoResearchBench consists of two complementary task types: (1) Deep Research, which requires tracking down a specific target paper through a progressive, multi-step probing process, and (2) Wide Research, which requires comprehensively collecting a set of papers satisfying given conditions. Compared to previous benchmarks on agentic web browsing, AutoResearchBench is distinguished along three dimensions: it is research-oriented, calling for in-depth comprehension of scientific concepts; literature-focused, demanding fine-grained utilization of detailed information; and open-ended, involving an unknown number of qualified papers and thus requiring deliberate reasoning and search throughout. These properties make AutoResearchBench uniquely suited for evaluating autonomous research capabilities, and extraordinarily challenging. Even the most powerful LLMs, despite having largely conquered general agentic web-browsing benchmarks such as BrowseComp, achieve only 9.39% accuracy on Deep Research and 9.31% IoU on Wide Research, while many other strong baselines fall below 5%. We publicly release the dataset and evaluation pipeline to facilitate future research in this direction. We publicly release the dataset, evaluation pipeline, and code at https://github.com/CherYou/AutoResearchBench.",
+    "url": "http://arxiv.org/abs/2604.25256v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25256v1",
+    "published": "2026-04-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.26703v1",
+    "title": "A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch",
+    "authors": [
+      "Yue Li",
+      "Bijun Tang"
+    ],
+    "abstract": "Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predicting metallic behaviour for materials that experiments report as semiconductors. Each such mismatch encodes a specific non-ideality -- magnetic ordering, electron correlation, an alternative polymorph, or a defect -- that the calculation excluded, but extracting that signal at scale has remained a manual exercise. Here we introduce XDFT, a closed-loop agent that diagnoses the mismatch automatically: it draws candidate hypotheses from a curated catalogue, executes the corresponding first-principles tests, and updates a global Bayesian posterior over hypothesis usefulness from each verdict. On a verified benchmark of 124 materials, XDFT identifies a resolving mechanism for 70 of 90 mismatch cases (78\\%), an order of magnitude above a uniform-random baseline (19\\%) and a static LLM ordering (20\\%). The internal posterior aligns with empirical performance over the benchmark timeline, and resolved cases collapse into a tri-partite element-class taxonomy that we distil into a four-line static rule. Each diagnosed material is returned with a corrected protocol and a mechanistic attribution; failed cases are flagged as evidence-backed targets for experimental re-examination.",
+    "url": "http://arxiv.org/abs/2604.26703v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.26703v1",
+    "published": "2026-04-29",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.26835v1",
+    "title": "HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists",
+    "authors": [
+      "Yusuke Sakai",
+      "Hidetaka Kamigaito",
+      "Taro Watanabe"
+    ],
+    "abstract": "We introduce HalluCiteChecker, a toolkit for detecting and verifying hallucinated citations in scientific papers. While AI assistant technologies have transformed the academic writing process, including citation recommendation, they have also led to the emergence of hallucinated citations that do not correspond to any existing work. Such citations not only undermine the credibility of scientific papers but also impose an additional burden on reviewers and authors, who must manually verify their validity during the review process. In this study, we formalize hallucinated citation detection as an NLP task and provide a corresponding toolkit as a practical foundation for addressing this problem. Our package is lightweight and can perform verification in seconds on a standard laptop. It can also be executed entirely offline and runs efficiently using only CPUs. We hope that HalluCiteChecker will help reduce reviewer workload and support organizers by enabling systematic pre-review and publication checks. Our code is released under the Apache 2.0 license on GitHub and is distributed as an installable package via PyPI. A demonstration video is available on YouTube.",
+    "url": "http://arxiv.org/abs/2604.26835v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.26835v1",
+    "published": "2026-04-29",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.DL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.25135v1",
+    "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+    "authors": [
+      "Amir Saeidi",
+      "Venkatesh Mishra",
+      "Souradeep Mukhopadhyay",
+      "Gaowen Liu",
+      "Ali Payani"
+    ],
+    "abstract": "Large Language Models are being increasingly deployed as the decision-making core of autonomous agents capable of effecting change in external environments. Yet, in conversational benchmarks, which simulate real-world customer-centric issue resolution scenarios, these agents frequently fail due to the cascading effects of incorrect decision-making. These challenges are particularly pronounced for open-source LLMs with smaller parameter sizes, limited context windows, and constrained inference budgets, which contribute to increased error accumulation in agentic settings. To tackle these challenges, we present the Failure-Aware Meta-Agentic (FAMA) framework. FAMA operates in two stages: first, it analyzes failure trajectories from baseline agents to identify the most prevalent errors; second, it employs an orchestration mechanism that activates a minimal subset of specialized agents tailored to address these failures by injecting a targeted context for the tool-use agent before the decision-making step. Experiments across open-source LLMs demonstrate performance gains up to 27% across evaluation modes over standard baselines. These results highlight that targeted curation of context through specialized agents to address common failures is a valuable design principle for building reliable, multi-turn tool-use LLM agents that simulate real-world conversational scenarios.",
+    "url": "http://arxiv.org/abs/2604.25135v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25135v1",
+    "published": "2026-04-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.25847v1",
+    "title": "From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling",
+    "authors": [
+      "Jianghao Lin",
+      "Zi Ling",
+      "Chenyu Zhou",
+      "Tianyi Xu",
+      "Ruoqing Jiang"
+    ],
+    "abstract": "Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose \\emph{Agora-Opt}, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time. This design is flexible across both backbones and methods: it reduces base-model lock-in, transfers across different LLM families, and can be layered onto existing pipelines with minimal coupling. Across public benchmarks, Agora-Opt achieves the strongest overall performance among all compared methods, outperforming strong zero-shot LLMs, training-centric approaches, and prior agentic baselines. Further analyses show robust gains across backbone choices and component variants, and demonstrate that decentralized debate offers a structural advantage over centralized selection by enabling agents to refine candidate solutions through interaction and even recover correct formulations when all initial candidates are flawed. These results suggest that reliable optimization modeling benefits from combining collaborative cross-checking with reusable experience, and position Agora-Opt as a practical and extensible foundation for trustworthy optimization modeling assistance. Our code and data are available at https://github.com/CHIANGEL/Agora-Opt.",
+    "url": "http://arxiv.org/abs/2604.25847v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25847v1",
+    "published": "2026-04-28",
+    "categories": [
+      "math.OC",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "math.OC",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.24881v1",
+    "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
+    "authors": [
+      "John Seon Keun Yi",
+      "Aaron Mueller",
+      "Dokyun Lee"
+    ],
+    "abstract": "Multi-agent debate has been shown to improve reasoning in large language models (LLMs). However, it is compute-intensive, requiring generation of long transcripts before answering questions. To address this inefficiency, we develop a framework that distills multi-agent debate into a single LLM through a two-stage fine-tuning pipeline combining debate structure learning with internalization via dynamic reward scheduling and length clipping. Across multiple models and benchmarks, our internalized models match or exceed explicit multi-agent debate performance using up to 93% fewer tokens. We then investigate the mechanistic basis of this capability through activation steering, finding that internalization creates agent-specific subspaces: interpretable directions in activation space corresponding to different agent perspectives. We further demonstrate a practical application: by instilling malicious agents into the LLM through internalized debate, then applying negative steering to suppress them, we show that distillation makes harmful behaviors easier to localize and control with smaller reductions in general performance compared to steering base models. Our findings offer a new perspective for understanding multi-agent capabilities in distilled models and provide practical guidelines for controlling internalized reasoning behaviors. Code available at https://github.com/johnsk95/latent_agents",
+    "url": "http://arxiv.org/abs/2604.24881v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24881v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.24477v1",
+    "title": "GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems",
+    "authors": [
+      "Pablo Mateo-Torrejón",
+      "Alfonso Sánchez-Macián"
+    ],
+    "abstract": "The rapid integration of Large Language Models (LLMs) into Multi-Agent Systems (MAS) has significantly enhanced their collaborative problem-solving capabilities, but it has also expanded their attack surfaces, exposing them to vulnerabilities such as prompt infection and compromised inter-agent communication. While emerging graph-based anomaly detection methods show promise in protecting these networks, the field currently lacks a standardized, reproducible environment to train these models and evaluate their efficacy. To address this gap, we introduce Gammaf (Graph-based Anomaly Monitoring for LLM Multi-Agent systems Framework), an open-source benchmarking platform. Gammaf is not a novel defense mechanism itself, but rather a comprehensive evaluation architecture designed to generate synthetic multi-agent interaction datasets and benchmark the performance of existing and future defense models. The proposed framework operates through two interdependent pipelines: a Training Data Generation stage, which simulates debates across varied network topologies to capture interactions as robust attributed graphs, and a Defense System Benchmarking stage, which actively evaluates defense models by dynamically isolating flagged adversarial nodes during live inference rounds. Through rigorous evaluation using established defense baselines (XG-Guard and BlindGuard) across multiple knowledge tasks (such as MMLU-Pro and GSM8K), we demonstrate Gammaf's high utility, topological scalability, and execution efficiency. Furthermore, our experimental results reveal that equipping an LLM-MAS with effective attack remediation not only recovers system integrity but also substantially reduces overall operational costs by facilitating early consensus and cutting off the extensive token generation typical of adversarial agents.",
+    "url": "http://arxiv.org/abs/2604.24477v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24477v1",
+    "published": "2026-04-27",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]

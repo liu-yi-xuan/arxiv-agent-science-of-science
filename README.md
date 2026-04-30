@@ -24,6 +24,32 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-04-30
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery](http://arxiv.org/abs/2604.25256v1) | Lei Xiong, Kun Luo, Ziyi Xia et al. | Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing... |
+| [A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch](http://arxiv.org/abs/2604.26703v1) | Yue Li, Bijun Tang | Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predicting metallic behaviour for materials that exper... |
+| [HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists](http://arxiv.org/abs/2604.26835v1) | Yusuke Sakai, Hidetaka Kamigaito, Taro Watanabe | We introduce HalluCiteChecker, a toolkit for detecting and verifying hallucinated citations in scientific papers. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments](http://arxiv.org/abs/2604.25135v1) | Amir Saeidi, Venkatesh Mishra, Souradeep Mukhopadhyay et al. | Large Language Models are being increasingly deployed as the decision-making core of autonomous agents capable of effecting change in external environments. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling](http://arxiv.org/abs/2604.25847v1) | Jianghao Lin, Zi Ling, Chenyu Zhou et al. | Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains ch... |
+| [Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate](http://arxiv.org/abs/2604.24881v1) | John Seon Keun Yi, Aaron Mueller, Dokyun Lee | Multi-agent debate has been shown to improve reasoning in large language models (LLMs). However, it is compute-intensive, requiring generation of long transcripts before answering questions. |
+| [GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems](http://arxiv.org/abs/2604.24477v1) | Pablo Mateo-Torrejón, Alfonso Sánchez-Macián | The rapid integration of Large Language Models (LLMs) into Multi-Agent Systems (MAS) has significantly enhanced their collaborative problem-solving capabilities, but it has also expanded their atta... |
+
 ### 📅 2026-04-29
 
 **15 new papers found**
