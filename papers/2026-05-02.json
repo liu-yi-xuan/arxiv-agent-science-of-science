@@ -1,0 +1,236 @@
+[
+  {
+    "id": "2604.27725v1",
+    "title": "AgentEconomist: An End-to-end Agentic System Translating Economic Intuitions into Executable Computational Experiments",
+    "authors": [
+      "Jiaju Chen",
+      "Jinghua Piao",
+      "Xia Xu",
+      "Songwei Li",
+      "Tong Xia"
+    ],
+    "abstract": "A long-standing challenge in economics lies not in the lack of intuition, but in the difficulty of translating intuitive insights into verifiable research. To address this challenge, we introduce AgentEconomist, an end-to-end interactive system designed to translate abstract intuitions into executable computational experiments. Grounded in a domain-specific knowledge base covering over 13,000 high-quality academic papers, the system employs a modular multi-stage architecture. Specifically, the Idea Development Stage generates literature-grounded hypotheses, the Experimental Design Stage configures simulator-aligned experimental parameters and protocols, and the Experimental Execution Stage runs experiments and returns structured analyses. Together, these stages form a human-in-the-loop, iterative workflow that translates economic intuitions into executable computational experiments. Through extensive experiments involving human expert evaluation and large language models (LLMs) as judges, we show that the system generates research ideas with stronger literature grounding and higher novelty and insight than state-of-the-art generic LLMs. Overall, AgentEconomist adopts a human-AI collaboration paradigm that enables researchers to focus on high-level intuitions, while delegating the labor-intensive processes of translation and computational execution to agents.",
+    "url": "http://arxiv.org/abs/2604.27725v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.27725v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.26703v1",
+    "title": "A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch",
+    "authors": [
+      "Yue Li",
+      "Bijun Tang"
+    ],
+    "abstract": "Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predicting metallic behaviour for materials that experiments report as semiconductors. Each such mismatch encodes a specific non-ideality -- magnetic ordering, electron correlation, an alternative polymorph, or a defect -- that the calculation excluded, but extracting that signal at scale has remained a manual exercise. Here we introduce XDFT, a closed-loop agent that diagnoses the mismatch automatically: it draws candidate hypotheses from a curated catalogue, executes the corresponding first-principles tests, and updates a global Bayesian posterior over hypothesis usefulness from each verdict. On a verified benchmark of 124 materials, XDFT identifies a resolving mechanism for 70 of 90 mismatch cases (78\\%), an order of magnitude above a uniform-random baseline (19\\%) and a static LLM ordering (20\\%). The internal posterior aligns with empirical performance over the benchmark timeline, and resolved cases collapse into a tri-partite element-class taxonomy that we distil into a four-line static rule. Each diagnosed material is returned with a corrected protocol and a mechanistic attribution; failed cases are flagged as evidence-backed targets for experimental re-examination.",
+    "url": "http://arxiv.org/abs/2604.26703v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.26703v1",
+    "published": "2026-04-29",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.28158v1",
+    "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+    "authors": [
+      "Yujun Wu",
+      "Dongxu Zhang",
+      "Xinchen Li",
+      "Jinhang Xu",
+      "Yiling Duan"
+    ],
+    "abstract": "Existing research infrastructure is fundamentally document-centric, providing citation links between papers but lacking explicit representations of methodological evolution. In particular, it does not capture the structured relationships that explain how and why research methods emerge, adapt, and build upon one another. With the rise of AI-driven research agents as a new class of consumers of scientific knowledge, this limitation becomes increasingly consequential, as such agents cannot reliably reconstruct method evolution topologies from unstructured text. We introduce Intern-Atlas, a methodological evolution graph that automatically identifies method-level entities, infers lineage relationships among methodologies, and captures the bottlenecks that drive transitions between successive innovations. Built from 1,030,314 papers spanning AI conferences, journals, and arXiv preprints, the resulting graph comprises 9,410,201 semantically typed edges, each grounded in verbatim source evidence, forming a queryable causal network of methodological development. To operationalize this structure, we further propose a self-guided temporal tree search algorithm for constructing evolution chains that trace the progression of methods over time. We evaluate the quality of the resulting graph against expert-curated ground-truth evolution chains and observe strong alignment. In addition, we demonstrate that Intern-Atlas enables downstream applications in idea evaluation and automated idea generation. We position methodological evolution graphs as a foundational data layer for the emerging automated scientific discovery.",
+    "url": "http://arxiv.org/abs/2604.28158v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.28158v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.26835v1",
+    "title": "HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists",
+    "authors": [
+      "Yusuke Sakai",
+      "Hidetaka Kamigaito",
+      "Taro Watanabe"
+    ],
+    "abstract": "We introduce HalluCiteChecker, a toolkit for detecting and verifying hallucinated citations in scientific papers. While AI assistant technologies have transformed the academic writing process, including citation recommendation, they have also led to the emergence of hallucinated citations that do not correspond to any existing work. Such citations not only undermine the credibility of scientific papers but also impose an additional burden on reviewers and authors, who must manually verify their validity during the review process. In this study, we formalize hallucinated citation detection as an NLP task and provide a corresponding toolkit as a practical foundation for addressing this problem. Our package is lightweight and can perform verification in seconds on a standard laptop. It can also be executed entirely offline and runs efficiently using only CPUs. We hope that HalluCiteChecker will help reduce reviewer workload and support organizers by enabling systematic pre-review and publication checks. Our code is released under the Apache 2.0 license on GitHub and is distributed as an installable package via PyPI. A demonstration video is available on YouTube.",
+    "url": "http://arxiv.org/abs/2604.26835v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.26835v1",
+    "published": "2026-04-29",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.DL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2604.27776v1",
+    "title": "WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments",
+    "authors": [
+      "Jinchao Li",
+      "Yunxin Li",
+      "Chenrui Zhao",
+      "Zhenran Xu",
+      "Baotian Hu"
+    ],
+    "abstract": "While GUI agents have shown impressive capabilities in common computer-use tasks such as OSWorld, current benchmarks mainly focus on isolated and single-application tasks. This overlooks a critical real-world requirement of coordinating across multiple applications to accomplish complex profession-specific workflows. To bridge this gap, we present a computer-use benchmark in cross-application workflows, named WindowsWorld, designed to systematically assess GUI Agents on complex multi-step tasks that mirror real-world professional activities. Our methodology uses a multi-agent framework steered by 16 occupations to generate four difficulty-level tasks with intermediate inspection, which are then refined by human review and executed in a simulated environment. The resulting benchmark contains 181 tasks with an average of 5.0 sub-goals across 17 common desktop applications, of which 78% are inherently multi-application. Experimental results of leading large models and agents show that: 1) All computer-use agents perform poorly on multi-application tasks (< 21% success rate), far below the performance of simple single-app tasks; 2) They largely fail at tasks requiring conditional judgment and reasoning across $\\geq$ 3 applications, stalling at early sub-goals; 3) Low execution efficiency, where tasks often fail despite far exceeding human step limits. Code, benchmark data, and evaluation resources are available at github.com/HITsz-TMG/WindowsWorld.",
+    "url": "http://arxiv.org/abs/2604.27776v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.27776v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2604.27616v1",
+    "title": "RoadMapper: A Multi-Agent System for Roadmap Generation of Solving Complex Research Problems",
+    "authors": [
+      "Jiacheng Liu",
+      "Zichen Tang",
+      "Zhongjun Yang",
+      "Xinyi Hu",
+      "Xueyuan Lin"
+    ],
+    "abstract": "People commonly leverage structured content to accelerate knowledge acquisition and research problem solving. Among these, roadmaps guide researchers through hierarchical subtasks to solve complex research problems step by step. Despite progress in structured content generation, the roadmap generation task has remained unexplored. To bridge this gap, we introduce RoadMap, a novel benchmark designed to evaluate the ability of large language models (LLMs) to construct high-quality roadmaps for solving complex research problems. Based on this, we identify three limitations of LLMs: (1) lack of professional knowledge, (2) unreasonable task decomposition, and (3) disordered logical relationships. To address these challenges, we propose RoadMapper, an LLM-based multi-agent system that decomposes the research roadmap generation task into three key stages (i.e., initial generation, knowledge augmentation, and iterative \"critique-revise-evaluate\"). Extensive experiments demonstrate that RoadMapper can improve LLMs' ability for roadmap generation, while enhancing average performance by more than 8% and saving 84% of the time required by human experts, highlighting its effectiveness and application potential.",
+    "url": "http://arxiv.org/abs/2604.27616v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.27616v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.27819v1",
+    "title": "MCPHunt: An Evaluation Framework for Cross-Boundary Data Propagation in Multi-Server MCP Agents",
+    "authors": [
+      "Haonan Li",
+      "Tianjun Sun",
+      "Yongqing Wang",
+      "Qisheng Zhang"
+    ],
+    "abstract": "Multi-server MCP agents create an information-flow control problem: faithful tool composition can turn individually benign read/write permissions into cross-boundary credential propagation -- a structural side effect of workflow topology, not necessarily malicious model behavior. We present MCPHunt, to our knowledge the first controlled benchmark that isolates non-adversarial, verbatim credential propagation across multi-server MCP trust boundaries, with three methodological contributions: (1) canary-based taint tracking that reduces propagation detection to objective string matching; (2) an environment-controlled coverage design with risky, benign, and hard-negative conditions that validates pipeline soundness and controls for credential-format confounds; (3) CRS stratification that disentangles task-mandated propagation (faithful execution of verbatim-transfer instructions) from policy-violating propagation (credentials included despite the option to redact). Across 3,615 main-benchmark traces from 5 models spanning 147 tasks and 9 mechanism families, policy-violating propagation rates reach 11.5--41.3% across all models. This propagation is pathway-specific (25x cross-mechanism range) and concentrated in browser-mediated data flows; hard-negative controls provide evidence that production-format credentials are not necessary -- prompt-directed cross-boundary data flow is sufficient. A prompt-mitigation study across 3 models reduces policy-violating propagation by up to 97% while preserving 80.5% utility, but effectiveness varies with instruction-following capability -- suggesting that prompt-level defenses alone may not suffice. Code, traces, and labeling pipeline are released under MIT and CC BY 4.0.",
+    "url": "http://arxiv.org/abs/2604.27819v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.27819v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.27358v1",
+    "title": "Safe Bilevel Delegation (SBD): A Formal Framework for Runtime Delegation Safety in Multi-Agent Systems",
+    "authors": [
+      "Yuan Sun"
+    ],
+    "abstract": "As large language model (LLM) agents are deployed in high-stakes environments, the question of how safely to delegate subtasks to specialized sub-agents becomes critical. Existing work addresses multi-agent architecture selection at design time or provides broad empirical guidelines, but neither provides a runtime mechanism that dynamically adjusts the safety-efficiency trade-off as task context changes during execution.   We propose Safe Bilevel Delegation (SBD), a formal framework for runtime delegation safety in hierarchical multi-agent systems. SBD formulates task delegation as a bilevel optimization problem: an outer meta-weight network phi learns context-dependent safety-efficiency weights lambda(s) in [0,1]; an inner loop optimizes the delegation policy pi subject to a probabilistic safety constraint P(safe) >= 1-delta. The continuous delegation degree alpha in [0, 1] controls how much decision authority is transferred to each sub-agent, interpolating smoothly between full human override (alpha=0) and fully autonomous execution (alpha=1).   We establish three theoretical results: (1) Safety Monotonicity--higher outer safety weight produces a weakly safer inner policy; (2) Inner Policy Convergence--projected gradient descent on the inner problem converges linearly under standard smoothness assumptions; (3) an Accountability Propagation bound that distributes responsibility across multi-hop delegation chains with a provable per-agent ceiling. We instantiate SBD in three high-stakes domains--medical AI (MIMIC-III), financial risk control (S and P 500), and educational agent supervision (ASSISTments)--specifying datasets, safety constraint sets, baselines, and evaluation protocols. This manuscript presents the formal framework and theoretical results in full; empirical validation following the protocols described herein is planned and will be reported in a forthcoming revision.",
+    "url": "http://arxiv.org/abs/2604.27358v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.27358v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2604.28061v1",
+    "title": "Measuring research data reuse in scholarly publications using generative artificial intelligence: Open Science Indicator development and preliminary results",
+    "authors": [
+      "Lauren Cadwallader",
+      "Iain Hrynaszkiewicz",
+      "parth sarin",
+      "Tim Vines"
+    ],
+    "abstract": "Numerous metascience studies and other initiatives have begun to monitor the prevalence of open science practices when it is more important to understand the 'downstream' effects or impacts of open science. PLOS and DataSeer have developed a new LLM-based indicator to measure an important effect of open science: the reuse of research data. Our results show a data reuse rate of 43%, which is higher than established bibliometric techniques. We show that data reuse can be measured at scale using LLMs and generative artificial intelligence. The positive effects of research data sharing and reuse may currently be underestimated.",
+    "url": "http://arxiv.org/abs/2604.28061v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.28061v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.DL",
+      "cs.CL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.27344v1",
+    "title": "Bibliometric Mapping of AI-Supported Social Presence in Online Learning Environments: Trends, Collaboration, and Thematic Directions",
+    "authors": [
+      "Almer B. Gamboa",
+      "Erika M. Pineda",
+      "Rhiziel P. Manalese",
+      "Aileen P. De Leon",
+      "Vernon Grace M. Maniago"
+    ],
+    "abstract": "This study examines the development, influence, and collaboration patterns in AI-supported social presence research within online learning environments. Utilizing 59 open-access empirical studies from Scopus, the study applies citation analysis, co-authorship mapping, institutional analysis, and keyword clustering using Python-based bibliometric tools. Findings reveal an upward trend in publications since 2020, with research focusing on engagement, AI tools, instructional design, and ethical issues. While countries such as the United States and Brazil are leading contributors, international collaboration remains limited. Ethical concerns related to trust and fairness are emerging but underexplored. The study highlights the importance of ethical integration, interdisciplinary collaboration, and learner-centered AI applications in education.",
+    "url": "http://arxiv.org/abs/2604.27344v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.27344v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.CY"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2604.28139v1",
+    "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+    "authors": [
+      "Chenxin Li",
+      "Zhengyang Tang",
+      "Huangxin Lin",
+      "Yunlong Lin",
+      "Shijue Huang"
+    ],
+    "abstract": "LLM agents are expected to complete end-to-end units of work across software tools, business services, and local workspaces. Yet many agent benchmarks freeze a curated task set at release time and grade mainly the final response, making it difficult to evaluate agents against evolving workflow demand or verify whether a task was executed. We introduce Claw-Eval-Live, a live benchmark for workflow agents that separates a refreshable signal layer, updated across releases from public workflow-demand signals, from a reproducible, time-stamped release snapshot. Each release is constructed from public workflow-demand signals, with ClawHub Top-500 skills used in the current release, and materialized as controlled tasks with fixed fixtures, services, workspaces, and graders. For grading, Claw-Eval-Live records execution traces, audit logs, service state, and post-run workspace artifacts, using deterministic checks when evidence is sufficient and structured LLM judging only for semantic dimensions. The release contains 105 tasks spanning controlled business services and local workspace repair, and evaluates 13 frontier models under a shared public pass rule. Experiments reveal that reliable workflow automation remains far from solved: the leading model passes only 66.7% of tasks and no model reaches 70%. Failures are structured by task family and execution surface, with HR, management, and multi-system business workflows as persistent bottlenecks and local workspace repair comparatively easier but unsaturated. Leaderboard rank alone is insufficient because models with similar pass rates can diverge in overall completion, and task-level discrimination concentrates in a middle band of tasks. Claw-Eval-Live suggests that workflow-agent evaluation should be grounded twice, in fresh external demand and in verifiable agent action.",
+    "url": "http://arxiv.org/abs/2604.28139v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.28139v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2604.28093v1",
+    "title": "What Makes a Good Terminal-Agent Benchmark Task: A Guideline for Adversarial, Difficult, and Legible Evaluation Design",
+    "authors": [
+      "Ivan Bercovich"
+    ],
+    "abstract": "Terminal-agent benchmarks have become a primary signal for measuring the coding and system-administration capabilities of large language models. As the market for evaluation environments grows, so does the pressure to ship tasks quickly, often without thorough adversarial review of the verification logic. This paper is a guideline for writing good benchmark tasks, drawn from over a year of contributing to and reviewing tasks for Terminal Bench. Most people write benchmark tasks the way they write prompts. They shouldn't. A prompt is designed to help the agent succeed; a benchmark is designed to find out if it can. We argue that good tasks are adversarial, difficult, and legible, and that a large class of common failure modes -- AI-generated instructions, over-prescriptive specifications, clerical difficulty, oracle solutions that assume hidden knowledge, tests that validate the wrong things, and reward-hackable environments -- are predictable consequences of treating task authoring as prompt authoring. We catalog these failure modes, argue that real difficulty is conceptual rather than environmental, and discuss recent empirical evidence that over 15% of tasks in popular terminal-agent benchmarks are reward-hackable. We hope this serves as a useful reference for benchmark maintainers, task contributors, and researchers using benchmark scores as evidence.",
+    "url": "http://arxiv.org/abs/2604.28093v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.28093v1",
+    "published": "2026-04-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

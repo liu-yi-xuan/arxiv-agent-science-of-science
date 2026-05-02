@@ -24,6 +24,47 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-02
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgentEconomist: An End-to-end Agentic System Translating Economic Intuitions into Executable Computational Experiments](http://arxiv.org/abs/2604.27725v1) | Jiaju Chen, Jinghua Piao, Xia Xu et al. | A long-standing challenge in economics lies not in the lack of intuition, but in the difficulty of translating intuitive insights into verifiable research. |
+| [A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch](http://arxiv.org/abs/2604.26703v1) | Yue Li, Bijun Tang | Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predicting metallic behaviour for materials that exper... |
+| [Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists](http://arxiv.org/abs/2604.28158v1) | Yujun Wu, Dongxu Zhang, Xinchen Li et al. | Existing research infrastructure is fundamentally document-centric, providing citation links between papers but lacking explicit representations of methodological evolution. |
+| [HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists](http://arxiv.org/abs/2604.26835v1) | Yusuke Sakai, Hidetaka Kamigaito, Taro Watanabe | We introduce HalluCiteChecker, a toolkit for detecting and verifying hallucinated citations in scientific papers. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](http://arxiv.org/abs/2604.27776v1) | Jinchao Li, Yunxin Li, Chenrui Zhao et al. | While GUI agents have shown impressive capabilities in common computer-use tasks such as OSWorld, current benchmarks mainly focus on isolated and single-application tasks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RoadMapper: A Multi-Agent System for Roadmap Generation of Solving Complex Research Problems](http://arxiv.org/abs/2604.27616v1) | Jiacheng Liu, Zichen Tang, Zhongjun Yang et al. | People commonly leverage structured content to accelerate knowledge acquisition and research problem solving. |
+| [MCPHunt: An Evaluation Framework for Cross-Boundary Data Propagation in Multi-Server MCP Agents](http://arxiv.org/abs/2604.27819v1) | Haonan Li, Tianjun Sun, Yongqing Wang et al. | Multi-server MCP agents create an information-flow control problem: faithful tool composition can turn individually benign read/write permissions into cross-boundary credential propagation -- a str... |
+| [Safe Bilevel Delegation (SBD): A Formal Framework for Runtime Delegation Safety in Multi-Agent Systems](http://arxiv.org/abs/2604.27358v1) | Yuan Sun | As large language model (LLM) agents are deployed in high-stakes environments, the question of how safely to delegate subtasks to specialized sub-agents becomes critical. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Measuring research data reuse in scholarly publications using generative artificial intelligence: Open Science Indicator development and preliminary results](http://arxiv.org/abs/2604.28061v1) | Lauren Cadwallader, Iain Hrynaszkiewicz, parth sarin et al. | Numerous metascience studies and other initiatives have begun to monitor the prevalence of open science practices when it is more important to understand the 'downstream' effects or impacts of open... |
+| [Bibliometric Mapping of AI-Supported Social Presence in Online Learning Environments: Trends, Collaboration, and Thematic Directions](http://arxiv.org/abs/2604.27344v1) | Almer B. Gamboa, Erika M. Pineda, Rhiziel P. Manalese et al. | This study examines the development, influence, and collaboration patterns in AI-supported social presence research within online learning environments. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows](http://arxiv.org/abs/2604.28139v1) | Chenxin Li, Zhengyang Tang, Huangxin Lin et al. | LLM agents are expected to complete end-to-end units of work across software tools, business services, and local workspaces. |
+| [What Makes a Good Terminal-Agent Benchmark Task: A Guideline for Adversarial, Difficult, and Legible Evaluation Design](http://arxiv.org/abs/2604.28093v1) | Ivan Bercovich | Terminal-agent benchmarks have become a primary signal for measuring the coding and system-administration capabilities of large language models. |
+
 ### 📅 2026-05-01
 
 **16 new papers found**
