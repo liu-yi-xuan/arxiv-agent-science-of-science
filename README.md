@@ -24,6 +24,29 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-03
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgentEconomist: An End-to-end Agentic System Translating Economic Intuitions into Executable Computational Experiments](http://arxiv.org/abs/2604.27725v1) | Jiaju Chen, Jinghua Piao, Xia Xu et al. | A long-standing challenge in economics lies not in the lack of intuition, but in the difficulty of translating intuitive insights into verifiable research. |
+| [Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists](http://arxiv.org/abs/2604.28158v1) | Yujun Wu, Dongxu Zhang, Xinchen Li et al. | Existing research infrastructure is fundamentally document-centric, providing citation links between papers but lacking explicit representations of methodological evolution. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](http://arxiv.org/abs/2604.27776v1) | Jinchao Li, Yunxin Li, Chenrui Zhao et al. | While GUI agents have shown impressive capabilities in common computer-use tasks such as OSWorld, current benchmarks mainly focus on isolated and single-application tasks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MCPHunt: An Evaluation Framework for Cross-Boundary Data Propagation in Multi-Server MCP Agents](http://arxiv.org/abs/2604.27819v1) | Haonan Li, Tianjun Sun, Yongqing Wang et al. | Multi-server MCP agents create an information-flow control problem: faithful tool composition can turn individually benign read/write permissions into cross-boundary credential propagation -- a str... |
+
 ### 📅 2026-05-02
 
 **12 new papers found**
