@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-05
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science](http://arxiv.org/abs/2605.02092v1) | Bing Zhou, Xiao Huang, Huan Ning et al. | The automation of scientific research workflows has emerged as a transformative frontier in artificial intelligence, yet existing autonomous research agents remain largely domain-agnostic, lacking ... |
+
 ### 📅 2026-05-04
 
 *No new papers found today.*
