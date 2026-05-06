@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-06
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration](http://arxiv.org/abs/2605.03989v1) | Dutao Zhang, Tian Liao | Retrieval-augmented generation systems often assume that one fixed retrieval pipeline is sufficient across heterogeneous tasks, yet factoid question answering, multi-hop reasoning, and scientific v... |
+| [ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration](http://arxiv.org/abs/2605.03042v1) | Ruofeng Yang, Yongcan Li, Shuai Li | This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. |
+| [NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science](http://arxiv.org/abs/2605.02092v1) | Bing Zhou, Xiao Huang, Huan Ning et al. | The automation of scientific research workflows has emerged as a transformative frontier in artificial intelligence, yet existing autonomous research agents remain largely domain-agnostic, lacking ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CuraView: A Multi-Agent Framework for Medical Hallucination Detection with GraphRAG-Enhanced Knowledge Verification](http://arxiv.org/abs/2605.03476v1) | Severin Ye, Xiao Kong, Xiaopeng He et al. | Discharge summaries require extracting critical information from lengthy electronic health records (EHRs), a process that is labor-intensive when performed manually. |
+| [From Experimental Limits to Physical Insight: A Retrieval-Augmented Multi-Agent Framework for Interpreting Searches Beyond the Standard Model](http://arxiv.org/abs/2605.02491v1) | Altan Cakir, Ayca Yerlikaya | Modern searches for physics beyond the Standard Model produce rapidly expanding literature containing heterogeneous information, including textual analyses, numerical datasets, and graphical exclus... |
+| [Planner Matters! An Efficient and Unbalanced Multi-agent Collaboration Framework for Long-horizon Planning](http://arxiv.org/abs/2605.02168v1) | Wenyi Wu, Sibo Zhu, Kun Zhou et al. | Language model (LM)-based agents have demonstrated promising capabilities in automating complex tasks from natural language instructions, yet they continue to struggle with long-horizon planning an... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Liberata -- Graph Scientometrics for a Share Based System of Academic Publishing](http://arxiv.org/abs/2605.02128v1) | Han Zhang, Anshuman Sabath, Timothy W. Dunn et al. | Contemporary scientometric indicators remain anchored in paradigms and axioms from when academic research was conducted in small scholarly communities. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies](http://arxiv.org/abs/2605.03596v1) | Zirui Tang, Xuanhe Zhou, Yumou Liu et al. | Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete b... |
+| [Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios](http://arxiv.org/abs/2605.03242v1) | Zuoyu Zhang, Yancheng Zhu | Tool-using agent systems powered by large language models (LLMs) are increasingly deployed across web, app, operating-system, and transactional environments. |
+| [DataClaw: A Process-Oriented Agent Benchmark for Exploratory Real-World Data Analysis](http://arxiv.org/abs/2605.02503v1) | Qiaohong Zhang, Weihao Ye, Jialong Chen et al. | Evaluating autonomous data analysis agents requires testing their ability to perform exploratory analysis in underexplored data environments. |
+| [NeuroState-Bench: A Human-Calibrated Benchmark for Commitment Integrity in LLM Agent Profiles](http://arxiv.org/abs/2605.01847v1) | Jia Xiao | Outcome-only evaluation under-specifies whether an evaluated agent profile preserves the commitments required to solve a multi-turn task coherently. |
+| [ARA: Agentic Reproducibility Assessment For Scalable Support Of Scientific Peer-Review](http://arxiv.org/abs/2605.02651v1) | Kevin Riehl, Andres L. Marin, Nikofors Zacharof et al. | Scientific peer review increasingly struggles to assess reproducibility at the scale and complexity of modern research output. |
+
 ### 📅 2026-05-05
 
 **1 new papers found**

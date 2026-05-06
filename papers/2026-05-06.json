@@ -1,0 +1,237 @@
+[
+  {
+    "id": "2605.03989v1",
+    "title": "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
+    "authors": [
+      "Dutao Zhang",
+      "Tian Liao"
+    ],
+    "abstract": "Retrieval-augmented generation systems often assume that one fixed retrieval pipeline is sufficient across heterogeneous tasks, yet factoid question answering, multi-hop reasoning, and scientific verification exhibit different retrieval preferences. We present Experience-RAG Skill, an agent-oriented pluggable retrieval orchestration layer positioned between the agent and the retriever pool. The proposed skill analyzes the current scene, consults an experience memory, selects an appropriate retrieval strategy, and returns structured evidence to the agent. Under a fixed candidate pool, Experience-RAG Skill achieves an overall nDCG@10 of 0.8924 on BeIR/nq, BeIR/hotpotqa, and BeIR/scifact, outperforming fixed single-retriever baselines and remaining competitive with Adaptive-RAG-style routing. The results suggest that retrieval strategy selection can be productively encapsulated as a reusable agent skill rather than being hard-coded in the upper workflow.",
+    "url": "http://arxiv.org/abs/2605.03989v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03989v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.03042v1",
+    "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+    "authors": [
+      "Ruofeng Yang",
+      "Yongcan Li",
+      "Shuai Li"
+    ],
+    "abstract": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.",
+    "url": "http://arxiv.org/abs/2605.03042v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03042v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.02092v1",
+    "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+    "authors": [
+      "Bing Zhou",
+      "Xiao Huang",
+      "Huan Ning",
+      "Qiusheng Wu",
+      "Diya Li"
+    ],
+    "abstract": "The automation of scientific research workflows has emerged as a transformative frontier in artificial intelligence, yet existing autonomous research agents remain largely domain-agnostic, lacking the specialized reasoning, method selection, and data acquisition capabilities required for rigorous spatial data science. This paper introduces NORA (Night Owl Research Agent), a harness-engineered, multi-agent autonomous research system purpose-built for GIScience and spatial data science. NORA orchestrates the complete research lifecycle through a skills-first architecture comprising 21 domain-specialized workflow skills, 9 specialist sub-agents, and custom Model Context Protocol (MCP) servers. Central to the system's design are two novel domain-specialized skills: a spatial analysis skill unit that encodes decision frameworks for exploratory spatial data analysis, spatial regression, and diagnostics; and a spatial data download skill that supports reproducible acquisition from authoritative geospatial data sources. We formalize the concept of harness engineering for scientific research agents, demonstrating how lifecycle hooks, safety gates, generator-evaluator separation, human-in-the-loop, and state persistence ensure reliable and reproducible autonomous research. We evaluate NORA through case studies by 6 domain specialists and 3 LLM reviewers across seven dimensions (novelty, quality, rigor, etc). Results demonstrate that domain-specialized harness engineering substantially improves the efficiency and quality of research output compared to general-purpose agent configurations.",
+    "url": "http://arxiv.org/abs/2605.02092v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02092v1",
+    "published": "2026-05-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.03476v1",
+    "title": "CuraView: A Multi-Agent Framework for Medical Hallucination Detection with GraphRAG-Enhanced Knowledge Verification",
+    "authors": [
+      "Severin Ye",
+      "Xiao Kong",
+      "Xiaopeng He",
+      "Guangsu Yan",
+      "Dongsuk Oh"
+    ],
+    "abstract": "Discharge summaries require extracting critical information from lengthy electronic health records (EHRs), a process that is labor-intensive when performed manually. Large language models (LLMs) can improve generation efficiency; however, they are prone to producing faithfulness hallucinations, statements that contradict source records, posing direct risks to patient safety. To address this, we present CuraView, a multi-agent framework for sentence-level detection and evidence-grounded explanation of faithfulness hallucinations in discharge summaries. CuraView constructs a GraphRAG-based knowledge graph from patient-level EHRs and implements a closed-loop generation-detection pipeline with sentence-level evidence retrieval and classification spanning four evidence grades from strong support to direct contradiction (E1-E4), yielding structured and interpretable evidence chains.   We evaluate CuraView on a subset of 250 patients from the Discharge-Me benchmark, with 50 patients held out for testing. Our fine-tuned Qwen3-14B detection model achieves an F1 of 0.831 on the safety-critical E4 metric (90.9% recall, 76.5% precision) and an F1 of 0.823 on E3+E4, representing a 50.0% relative improvement over the base model and outperforming RAGTruth-style and QAGS-style baselines. These results demonstrate that evidence-chain-based graph retrieval verification substantially improves the factual reliability of clinical documentation, while simultaneously producing reusable annotated datasets for downstream model training and distillation.",
+    "url": "http://arxiv.org/abs/2605.03476v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03476v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.02491v1",
+    "title": "From Experimental Limits to Physical Insight: A Retrieval-Augmented Multi-Agent Framework for Interpreting Searches Beyond the Standard Model",
+    "authors": [
+      "Altan Cakir",
+      "Ayca Yerlikaya"
+    ],
+    "abstract": "Modern searches for physics beyond the Standard Model produce rapidly expanding literature containing heterogeneous information, including textual analyses, numerical datasets, and graphical exclusion limits. Integrating these distributed sources remains a time-consuming and manual process for physicists.   We present HEP-CoPilot, a retrieval-augmented multi-agent AI framework for the exploration and interpretation of high-energy physics literature. The system unifies textual information from publications, structured experimental data from HEPData, and reconstructed physics plots within a multimodal retrieval and reasoning architecture. By combining retrieval-augmented language models with coordinated agent workflows, it enables evidence-grounded reasoning over experimental analyses and structured interpretation of collider results.   We evaluate the framework on recent CMS searches for physics beyond the Standard Model. Case studies show that HEP-CoPilot can retrieve relevant measurements, reconstruct exclusion limits directly from HEPData records, and perform cross-paper comparisons of experimental constraints. This enables consistent, physics-aware comparison across analyses without manual data integration.   These results demonstrate that retrieval-augmented AI systems can function as scientific co-pilots for particle physics, facilitating navigation of complex literature, structuring heterogeneous evidence, and accelerating the interpretation pipeline for new physics searches.",
+    "url": "http://arxiv.org/abs/2605.02491v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02491v1",
+    "published": "2026-05-04",
+    "categories": [
+      "hep-ex",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "hep-ex",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.02168v1",
+    "title": "Planner Matters! An Efficient and Unbalanced Multi-agent Collaboration Framework for Long-horizon Planning",
+    "authors": [
+      "Wenyi Wu",
+      "Sibo Zhu",
+      "Kun Zhou",
+      "Biwei Huang"
+    ],
+    "abstract": "Language model (LM)-based agents have demonstrated promising capabilities in automating complex tasks from natural language instructions, yet they continue to struggle with long-horizon planning and reasoning. To address this, we propose an enhanced multi-agent framework that decomposes automation into three roles: a planner for high-level decision-making, an actor for task execution, and a memory manager for contextual reasoning. While this modular decomposition aligns with established design patterns, our core contribution lies in a systematic compute-allocation analysis, revealing that planning is the dominant factor influencing task performance. Execution and memory management require significantly less compute and model capacity to achieve competitive results. Building on these insights, we introduce a planner-centric reinforcement learning approach, which exclusively optimizes the planner using trajectory-level rewards from a VLM-as-judge, while freezing the other components. Extensive experiments on benchmarks spanning web navigation, OS control, and tool use demonstrate that concentrating model capacity and learning on high-level planning yields robust and compute-efficient improvements in long-horizon agent automation. Our code is publicly released.",
+    "url": "http://arxiv.org/abs/2605.02168v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02168v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.02128v1",
+    "title": "Liberata -- Graph Scientometrics for a Share Based System of Academic Publishing",
+    "authors": [
+      "Han Zhang",
+      "Anshuman Sabath",
+      "Timothy W. Dunn",
+      "L. Catherine Brinson"
+    ],
+    "abstract": "Contemporary scientometric indicators remain anchored in paradigms and axioms from when academic research was conducted in small scholarly communities. With the global proliferation of scientific research, academia is now organized in large communities with high rates of information incompleteness regarding work impact and individual contributions. This has significant implications for how research output is measured and quality controlled, especially as the rate of academic publishing continues to rise. Exploits of complex systems are typically found at discrete transition points where rules turn on or off, and academia is not immune to this pattern. Exploitative career boosting strategies are a growing problem, largely enabled by misaligned incentives and traditional metrics that force discretization of credit to authors and prior works despite their fundamentally continuous nature.   This article introduces Liberata's scientometrics, a share based framework for academic publishing and quality control. In this system, authorship positions are replaced with contribution shares that sum to unity and encode both ordinality and relative contribution distances. These shares can be traded on Liberata's academic marketplaces for quality control services such as peer review and replication, rewarding contributors based on the long term success of the work. Citations are weighted to guard against frivolous referencing and credit inflation, and modular correction factors allow multiple measures of impact. Liberata's metrics are formalized through two fundamental graphs, Shares and References, from which the system constructs academic capital and derives scientometrics capturing impact, risk, collaboration, collusion, value of quality control, and diversification. These metrics represent academic contributions and extend naturally to institutions, regions, time periods, and research fields.",
+    "url": "http://arxiv.org/abs/2605.02128v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02128v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.DL",
+      "cs.DM",
+      "cs.GT"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2605.03596v1",
+    "title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+    "authors": [
+      "Zirui Tang",
+      "Xuanhe Zhou",
+      "Yumou Liu",
+      "Linchun Li",
+      "Weizheng Wang"
+    ],
+    "abstract": "Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete both routine and advanced tasks effectively. Despite its importance, existing relevant benchmarks largely evaluate agents on pre-specified or synthesized files with limited real-world dependencies, leaving workspace-level evaluation underexplored. To this end, we introduce Workspace-Bench, a benchmark for evaluating AI agents on Workspace Learning invOlving Large-Scale File Dependencies. We construct realistic workspaces with 5 worker profiles, 74 file types, 20,476 files (up to 20GB) and curate 388 tasks, each with its own file dependency graph, evaluated across 7,399 total rubrics that require cross-file retrieval, contextual reasoning, and adaptive decision-making. We further provide Workspace-Bench-Lite, a 100-task subset that preserves the benchmark distribution while reducing evaluation costs by about 70%. We evaluate 4 popular agent harnesses and 7 foundation models. Experimental results show that current agents remain far from reliable workspace learning, where the best reaches only 68.7%, substantially below the human result of 80.7%, and the average performance across agents is only 47.4%.",
+    "url": "http://arxiv.org/abs/2605.03596v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03596v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.DB",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.03242v1",
+    "title": "Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios",
+    "authors": [
+      "Zuoyu Zhang",
+      "Yancheng Zhu"
+    ],
+    "abstract": "Tool-using agent systems powered by large language models (LLMs) are increasingly deployed across web, app, operating-system, and transactional environments. Yet existing safety benchmarks still emphasize explicit risks, potentially overstating a model's ability to judge deceptive or ambiguous trajectories. To address this gap, we introduce ROME (Red-team Orchestrated Multi-agent Evolution), a controlled benchmark-construction pipeline that rewrites known unsafe trajectories into more deceptive evaluation instances while preserving their underlying risk labels. Starting from 100 unsafe source trajectories, ROME produces 300 challenge instances spanning contextual ambiguity, implicit risks, and shortcut decision-making. Experiments show that these challenge sets substantially degrade safety-judgment performance, with hidden-risk cases remaining particularly non-trivial even for recent frontier models. We further study ARISE (Analogical Reasoning for Inference-time Safety Enhancement), a retrieval-guided inference-time enhancement that retrieves ReAct-style analogical safety trajectories from an external analogical base and injects them as structured reasoning exemplars. ARISE improves judgment quality without retraining, but is best viewed as a task-specific robustness enhancement rather than a standalone safety guarantee. Together, ROME and ARISE provide practical tools for stress-testing and improving agent safety judgment under deceptive distribution shifts.",
+    "url": "http://arxiv.org/abs/2605.03242v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03242v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.02503v1",
+    "title": "DataClaw: A Process-Oriented Agent Benchmark for Exploratory Real-World Data Analysis",
+    "authors": [
+      "Qiaohong Zhang",
+      "Weihao Ye",
+      "Jialong Chen",
+      "Yi Luo",
+      "BoYuan Li"
+    ],
+    "abstract": "Evaluating autonomous data analysis agents requires testing their ability to perform exploratory analysis in underexplored data environments. However, many existing benchmarks emphasize final answer accuracy in prior-guided data settings and provide limited support for reasoning process evaluation. We introduce DataClaw, a process-oriented benchmark for exploratory real-world data analysis. DataClaw contains approximately 2.06 million real-world records across enterprise, industry and policy domains, with native data noise preserved. It further includes 492 cross-domain tasks derived from think-tank consulting scenarios, each annotated with intermediate milestones for process-level evaluation. These annotations allow DataClaw to measure how far an agent progresses and where its reasoning breaks down. Experiments with eight advanced LLMs show that current agents remain far from reliable in this setting, with seven models achieving below 50% overall accuracy. Process analysis further reveals partial progress hidden behind wrong answers and distinct exploration strategies across models. Overall, DataClaw provides a less data constrained diagnostic testbed for probing the capability boundaries of autonomous data-analysis agents.",
+    "url": "http://arxiv.org/abs/2605.02503v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02503v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.01847v1",
+    "title": "NeuroState-Bench: A Human-Calibrated Benchmark for Commitment Integrity in LLM Agent Profiles",
+    "authors": [
+      "Jia Xiao"
+    ],
+    "abstract": "Outcome-only evaluation under-specifies whether an evaluated agent profile preserves the commitments required to solve a multi-turn task coherently. NeuroState-Bench is a human-calibrated benchmark that operationalizes commitment integrity through benchmark-defined side-query probes rather than inferred hidden activations. The released inventory contains 144 deterministic tasks and 306 benchmark-defined side-query probes spanning eight cognitively motivated failure families, paired clean and distractor variants, and three difficulty bands. The main 32-profile evaluation contains a fixed 16-profile local subset and a matched 16-profile hosted large-model subset evaluated through the same benchmark pipeline. Human calibration uses the final merged reporting scope: 104 sampled task units, 216 raw annotations, and 108 adjudicated task rows, with weighted kappa = 0.977 and ICC(2,1) = 0.977. Empirically, task success and commitment integrity diverge across this expanded grid: the success leader is not the integrity leader, 31 of 32 profiles change rank when integrity replaces task success, and integrity rankings are more stable under distractor perturbation. The primary confidence-free score HCCIS-CORE reaches 0.8469 AUC and 0.6992 PR-AUC for post-probe diagnostic discrimination of terminal task failure; the legacy full heuristic variant HCCIS-FULL reaches 0.7997 AUC and 0.6410 PR-AUC. Probe accuracy and state drift achieve slightly higher ROC-AUC, 0.8587, and better Brier/ECE, while HCCIS-CORE has substantially higher point-estimate PR-AUC and remains more closely tied to the benchmark's intended construct. The exploratory neural-augmented variant HCCIS+N is weaker overall, and a randomized subspace control approaches chance. NeuroState-Bench therefore contributes a calibrated evaluation axis for exposing commitment failures over a broader model grid than the original local-only subset.",
+    "url": "http://arxiv.org/abs/2605.01847v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.01847v1",
+    "published": "2026-05-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.02651v1",
+    "title": "ARA: Agentic Reproducibility Assessment For Scalable Support Of Scientific Peer-Review",
+    "authors": [
+      "Kevin Riehl",
+      "Andres L. Marin",
+      "Nikofors Zacharof",
+      "Fan Wu",
+      "Patrick Langer"
+    ],
+    "abstract": "Scientific peer review increasingly struggles to assess reproducibility at the scale and complexity of modern research output. Evaluating reproducibility requires reconstructing experimental dependencies, methodological choices, data flows, and result-generating procedures, which often exceeds what human reviewers can provide. Agentic Reproducibility Assessment (ARA) formalizes reproducibility assessment as a structured reasoning task over scientific documents. Given a paper, ARA extracts a directed workflow graph linking sources, methods, experiments, and outputs, then evaluates its reconstructability using structural and content-based scores for reproducibility assessments. Experiments on 213 ReScience C articles - the largest cross-domain benchmark of human-validated computational reproducibility studies considered to date - demonstrate ARA's generalizability and consistent workflow reconstruction and assessment across LLMs, model temperatures, and scientific domains. ARA achieves ~61% accuracy on three benchmarks, and the highest accuracy reported on ReproBench (60.71% vs. 36.84%) and GoldStandardDB (61.68% vs. 43.56%), highlighting its potential to complement human review at scale and enabling next-generation peer review. Code and Data available: https://github.com/AndresLaverdeMarin/agentic_reproducibility_assessment.",
+    "url": "http://arxiv.org/abs/2605.02651v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02651v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.DL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
