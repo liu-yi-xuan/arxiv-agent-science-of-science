@@ -24,6 +24,30 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-07
+
+**10 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation](http://arxiv.org/abs/2605.04922v1) | Jiangwen Dong, Bo Li, Wanyu Lin | LLM-empowered multi-agent systems offer new potential to accelerate scientific discovery by generating novel research ideas. |
+| [Strat-Reasoner: Reinforcing Strategic Reasoning of LLMs in Multi-Agent Games](http://arxiv.org/abs/2605.04906v1) | Yidong He, Yutao Lai, Pengxu Yang et al. | While Large Language Models (LLMs) excel in certain reasoning tasks, they struggle in multi-agent games where the final outcome depends on the joint strategies of all agents. |
+| [SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition](http://arxiv.org/abs/2605.04608v1) | Naiyu Zheng, Tianlong Yu, Haochen Yin et al. | Human Activity Recognition (HAR) using Inertial Measurement Unit (IMU) sensors is a cornerstone of mobile health, smart environments, and human-computer interaction. |
+| [CuraView: A Multi-Agent Framework for Medical Hallucination Detection with GraphRAG-Enhanced Knowledge Verification](http://arxiv.org/abs/2605.03476v1) | Severin Ye, Xiao Kong, Xiaopeng He et al. | Discharge summaries require extracting critical information from lengthy electronic health records (EHRs), a process that is labor-intensive when performed manually. |
+| [From Experimental Limits to Physical Insight: A Retrieval-Augmented Multi-Agent Framework for Interpreting Searches Beyond the Standard Model](http://arxiv.org/abs/2605.02491v1) | Altan Cakir, Ayca Yerlikaya | Modern searches for physics beyond the Standard Model produce rapidly expanding literature containing heterogeneous information, including textual analyses, numerical datasets, and graphical exclus... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games](http://arxiv.org/abs/2605.04312v1) | Connacher Murphy | Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. |
+| [Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies](http://arxiv.org/abs/2605.03596v1) | Zirui Tang, Xuanhe Zhou, Yumou Liu et al. | Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete b... |
+| [Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios](http://arxiv.org/abs/2605.03242v1) | Zuoyu Zhang, Yancheng Zhu | Tool-using agent systems powered by large language models (LLMs) are increasingly deployed across web, app, operating-system, and transactional environments. |
+| [DataClaw: A Process-Oriented Agent Benchmark for Exploratory Real-World Data Analysis](http://arxiv.org/abs/2605.02503v1) | Qiaohong Zhang, Weihao Ye, Jialong Chen et al. | Evaluating autonomous data analysis agents requires testing their ability to perform exploratory analysis in underexplored data environments. |
+| [ARA: Agentic Reproducibility Assessment For Scalable Support Of Scientific Peer-Review](http://arxiv.org/abs/2605.02651v1) | Kevin Riehl, Andres L. Marin, Nikofors Zacharof et al. | Scientific peer review increasingly struggles to assess reproducibility at the scale and complexity of modern research output. |
+
 ### 📅 2026-05-06
 
 **12 new papers found**

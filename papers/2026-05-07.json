@@ -1,0 +1,199 @@
+[
+  {
+    "id": "2605.04922v1",
+    "title": "Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation",
+    "authors": [
+      "Jiangwen Dong",
+      "Bo Li",
+      "Wanyu Lin"
+    ],
+    "abstract": "LLM-empowered multi-agent systems offer new potential to accelerate scientific discovery by generating novel research ideas. However, existing methods typically coordinate agents through temporary texts, such as drafts or chat logs; it is difficult to pinpoint the weaknesses in the generated ideas and how the agents refine them. To this end, we introduce \\textbf{Evolving Idea Graphs} (EIG), a graph-based multi-agent scientific ideation framework that can generate high-performance research ideas across various benchmark-native metrics, such as novelty, feasibility, and clarity. Instead of coordinating solely through texts, EIG represents a partially formed proposal as an evolving idea graph, where nodes capture scientific claims and edges encode relations (e.g., support and conflict), enabling unresolved weaknesses to remain identifiable throughout the idea evolving process. Specifically, a learned two-head controller operates over the evolving graph to guide the ideation: one head selects graph edits for agents to execute, while the other decides when the graph is ready for commit as final proposal synthesis. On AI Idea Bench 2025 and LiveIdeaBench, EIG outperforms all compared systems on both automatic benchmark scores and blind expert ratings. Ablations further show that explicit graph state provides the main performance gains, and learned edit-and-commit control adds consistent improvements.",
+    "url": "http://arxiv.org/abs/2605.04922v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04922v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.04906v1",
+    "title": "Strat-Reasoner: Reinforcing Strategic Reasoning of LLMs in Multi-Agent Games",
+    "authors": [
+      "Yidong He",
+      "Yutao Lai",
+      "Pengxu Yang",
+      "Jiarui Gan",
+      "Jiexin Wang"
+    ],
+    "abstract": "While Large Language Models (LLMs) excel in certain reasoning tasks, they struggle in multi-agent games where the final outcome depends on the joint strategies of all agents. In multi-agent games, the non-stationarity of other agents brings significant challenges on the evaluation of the reasoning process and the credit assignment over multiple reasoning steps. Existing single-agent reinforcement learning (RL) approaches and their multi-agent extensions fail to address these challenges as they do not incorporate other agents in the reasoning process. In this work, we propose Strat-Reasoner, a novel RL-based framework that improves LLMs' strategic reasoning ability in multi-agent games. We introduce a novel recursive reasoning paradigm where an agent's reasoning also integrates other agents' reasoning processes. To provide effective reward signals for the intermediate reasoning sequences, we employ a centralized Chain-of-Thought (CoT) comparison module to evaluate the reasoning quality. Finally, we compute an accurate hybrid advantage and develop a group-relative RL approach to optimize the LLM policy. Experimental results show that Strat-Reasoner substantially improves strategic abilities of underlying LLMs, achieving 22.1\\% average performance improvements across various multi-agent games.",
+    "url": "http://arxiv.org/abs/2605.04906v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04906v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.04608v1",
+    "title": "SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition",
+    "authors": [
+      "Naiyu Zheng",
+      "Tianlong Yu",
+      "Haochen Yin",
+      "Xiaoyi Fan",
+      "Xiping Hu"
+    ],
+    "abstract": "Human Activity Recognition (HAR) using Inertial Measurement Unit (IMU) sensors is a cornerstone of mobile health, smart environments, and human-computer interaction. However, current deep learning-based HAR models often struggle with heavy reliance on labeled data, position-specific ambiguity, and a lack of transparent reasoning. Inspired by the advanced agents framework, which emulates a collaborative agent using Large Language Models (LLMs), we propose SensingAgents, a novel multi-agent system for robust IMU activity recognition. SensingAgents organizes LLM-powered agents into specialized roles: a group of Analyst Agents for position-specific sensor analysis (arm, wrist, belt, pocket), a pair of Advocate Agents that resolves sensor conflicts through dynamic and static dialectical debates, and a Decision Agent that ensures reliability under sensor drift or failure. Evaluation on the Shoaib dataset demonstrates that SensingAgents significantly outperforms state-of-the-art single-agent and multi-agent LLM models, achieving an accuracy of 79.5% in a zero setting--29% higher than existing agent models and 9.4% higher than deep learning baselines--particularly in complex scenarios where multi-sensor data is conflicting or noisy. Our work highlights the potential of multi-agent collaborative reasoning for advancing the robustness and interpretability of ubiquitous sensing systems.",
+    "url": "http://arxiv.org/abs/2605.04608v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04608v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.03476v1",
+    "title": "CuraView: A Multi-Agent Framework for Medical Hallucination Detection with GraphRAG-Enhanced Knowledge Verification",
+    "authors": [
+      "Severin Ye",
+      "Xiao Kong",
+      "Xiaopeng He",
+      "Guangsu Yan",
+      "Dongsuk Oh"
+    ],
+    "abstract": "Discharge summaries require extracting critical information from lengthy electronic health records (EHRs), a process that is labor-intensive when performed manually. Large language models (LLMs) can improve generation efficiency; however, they are prone to producing faithfulness hallucinations, statements that contradict source records, posing direct risks to patient safety. To address this, we present CuraView, a multi-agent framework for sentence-level detection and evidence-grounded explanation of faithfulness hallucinations in discharge summaries. CuraView constructs a GraphRAG-based knowledge graph from patient-level EHRs and implements a closed-loop generation-detection pipeline with sentence-level evidence retrieval and classification spanning four evidence grades from strong support to direct contradiction (E1-E4), yielding structured and interpretable evidence chains.   We evaluate CuraView on a subset of 250 patients from the Discharge-Me benchmark, with 50 patients held out for testing. Our fine-tuned Qwen3-14B detection model achieves an F1 of 0.831 on the safety-critical E4 metric (90.9% recall, 76.5% precision) and an F1 of 0.823 on E3+E4, representing a 50.0% relative improvement over the base model and outperforming RAGTruth-style and QAGS-style baselines. These results demonstrate that evidence-chain-based graph retrieval verification substantially improves the factual reliability of clinical documentation, while simultaneously producing reusable annotated datasets for downstream model training and distillation.",
+    "url": "http://arxiv.org/abs/2605.03476v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03476v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.02491v1",
+    "title": "From Experimental Limits to Physical Insight: A Retrieval-Augmented Multi-Agent Framework for Interpreting Searches Beyond the Standard Model",
+    "authors": [
+      "Altan Cakir",
+      "Ayca Yerlikaya"
+    ],
+    "abstract": "Modern searches for physics beyond the Standard Model produce rapidly expanding literature containing heterogeneous information, including textual analyses, numerical datasets, and graphical exclusion limits. Integrating these distributed sources remains a time-consuming and manual process for physicists.   We present HEP-CoPilot, a retrieval-augmented multi-agent AI framework for the exploration and interpretation of high-energy physics literature. The system unifies textual information from publications, structured experimental data from HEPData, and reconstructed physics plots within a multimodal retrieval and reasoning architecture. By combining retrieval-augmented language models with coordinated agent workflows, it enables evidence-grounded reasoning over experimental analyses and structured interpretation of collider results.   We evaluate the framework on recent CMS searches for physics beyond the Standard Model. Case studies show that HEP-CoPilot can retrieve relevant measurements, reconstruct exclusion limits directly from HEPData records, and perform cross-paper comparisons of experimental constraints. This enables consistent, physics-aware comparison across analyses without manual data integration.   These results demonstrate that retrieval-augmented AI systems can function as scientific co-pilots for particle physics, facilitating navigation of complex literature, structuring heterogeneous evidence, and accelerating the interpretation pipeline for new physics searches.",
+    "url": "http://arxiv.org/abs/2605.02491v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02491v1",
+    "published": "2026-05-04",
+    "categories": [
+      "hep-ex",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "hep-ex",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.04312v1",
+    "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+    "authors": [
+      "Connacher Murphy"
+    ],
+    "abstract": "Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. We introduce Agent Island, a multiplayer simulation environment in which language-model agents compete in a game of interagent cooperation, conflict, and persuasion. The environment yields a dynamic benchmark designed to mitigate both saturation and contamination; new models can always outperform the current leading player in this winner-take-all game, and agents compete against other adaptive agents rather than face a fixed task set. We rank players with a Bayesian Plackett-Luce model, allowing us to quantify uncertainty in player skill. In 999 games involving 49 unique models, openai/gpt-5.5 dominates its peers with a posterior mean skill of 5.64, compared with 3.10 for the second-ranked model, openai/gpt-5.2, and 2.86 for the third-ranked model, openai/gpt-5.3-codex. We release the game logs as a dataset for analyses of model behavior. As an example, we investigate same-provider preference in final-round votes and find that models are 8.3 p.p. more likely to support a same-provider finalist than finalists from other providers. This preference is not uniform across providers: among separately estimated providers, the effect is strongest for OpenAI models and weakest for Anthropic models.",
+    "url": "http://arxiv.org/abs/2605.04312v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04312v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.03596v1",
+    "title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+    "authors": [
+      "Zirui Tang",
+      "Xuanhe Zhou",
+      "Yumou Liu",
+      "Linchun Li",
+      "Weizheng Wang"
+    ],
+    "abstract": "Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete both routine and advanced tasks effectively. Despite its importance, existing relevant benchmarks largely evaluate agents on pre-specified or synthesized files with limited real-world dependencies, leaving workspace-level evaluation underexplored. To this end, we introduce Workspace-Bench, a benchmark for evaluating AI agents on Workspace Learning invOlving Large-Scale File Dependencies. We construct realistic workspaces with 5 worker profiles, 74 file types, 20,476 files (up to 20GB) and curate 388 tasks, each with its own file dependency graph, evaluated across 7,399 total rubrics that require cross-file retrieval, contextual reasoning, and adaptive decision-making. We further provide Workspace-Bench-Lite, a 100-task subset that preserves the benchmark distribution while reducing evaluation costs by about 70%. We evaluate 4 popular agent harnesses and 7 foundation models. Experimental results show that current agents remain far from reliable workspace learning, where the best reaches only 68.7%, substantially below the human result of 80.7%, and the average performance across agents is only 47.4%.",
+    "url": "http://arxiv.org/abs/2605.03596v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03596v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.DB",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.03242v1",
+    "title": "Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios",
+    "authors": [
+      "Zuoyu Zhang",
+      "Yancheng Zhu"
+    ],
+    "abstract": "Tool-using agent systems powered by large language models (LLMs) are increasingly deployed across web, app, operating-system, and transactional environments. Yet existing safety benchmarks still emphasize explicit risks, potentially overstating a model's ability to judge deceptive or ambiguous trajectories. To address this gap, we introduce ROME (Red-team Orchestrated Multi-agent Evolution), a controlled benchmark-construction pipeline that rewrites known unsafe trajectories into more deceptive evaluation instances while preserving their underlying risk labels. Starting from 100 unsafe source trajectories, ROME produces 300 challenge instances spanning contextual ambiguity, implicit risks, and shortcut decision-making. Experiments show that these challenge sets substantially degrade safety-judgment performance, with hidden-risk cases remaining particularly non-trivial even for recent frontier models. We further study ARISE (Analogical Reasoning for Inference-time Safety Enhancement), a retrieval-guided inference-time enhancement that retrieves ReAct-style analogical safety trajectories from an external analogical base and injects them as structured reasoning exemplars. ARISE improves judgment quality without retraining, but is best viewed as a task-specific robustness enhancement rather than a standalone safety guarantee. Together, ROME and ARISE provide practical tools for stress-testing and improving agent safety judgment under deceptive distribution shifts.",
+    "url": "http://arxiv.org/abs/2605.03242v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03242v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.02503v1",
+    "title": "DataClaw: A Process-Oriented Agent Benchmark for Exploratory Real-World Data Analysis",
+    "authors": [
+      "Qiaohong Zhang",
+      "Weihao Ye",
+      "Jialong Chen",
+      "Yi Luo",
+      "BoYuan Li"
+    ],
+    "abstract": "Evaluating autonomous data analysis agents requires testing their ability to perform exploratory analysis in underexplored data environments. However, many existing benchmarks emphasize final answer accuracy in prior-guided data settings and provide limited support for reasoning process evaluation. We introduce DataClaw, a process-oriented benchmark for exploratory real-world data analysis. DataClaw contains approximately 2.06 million real-world records across enterprise, industry and policy domains, with native data noise preserved. It further includes 492 cross-domain tasks derived from think-tank consulting scenarios, each annotated with intermediate milestones for process-level evaluation. These annotations allow DataClaw to measure how far an agent progresses and where its reasoning breaks down. Experiments with eight advanced LLMs show that current agents remain far from reliable in this setting, with seven models achieving below 50% overall accuracy. Process analysis further reveals partial progress hidden behind wrong answers and distinct exploration strategies across models. Overall, DataClaw provides a less data constrained diagnostic testbed for probing the capability boundaries of autonomous data-analysis agents.",
+    "url": "http://arxiv.org/abs/2605.02503v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02503v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.02651v1",
+    "title": "ARA: Agentic Reproducibility Assessment For Scalable Support Of Scientific Peer-Review",
+    "authors": [
+      "Kevin Riehl",
+      "Andres L. Marin",
+      "Nikofors Zacharof",
+      "Fan Wu",
+      "Patrick Langer"
+    ],
+    "abstract": "Scientific peer review increasingly struggles to assess reproducibility at the scale and complexity of modern research output. Evaluating reproducibility requires reconstructing experimental dependencies, methodological choices, data flows, and result-generating procedures, which often exceeds what human reviewers can provide. Agentic Reproducibility Assessment (ARA) formalizes reproducibility assessment as a structured reasoning task over scientific documents. Given a paper, ARA extracts a directed workflow graph linking sources, methods, experiments, and outputs, then evaluates its reconstructability using structural and content-based scores for reproducibility assessments. Experiments on 213 ReScience C articles - the largest cross-domain benchmark of human-validated computational reproducibility studies considered to date - demonstrate ARA's generalizability and consistent workflow reconstruction and assessment across LLMs, model temperatures, and scientific domains. ARA achieves ~61% accuracy on three benchmarks, and the highest accuracy reported on ReproBench (60.71% vs. 36.84%) and GoldStandardDB (61.68% vs. 43.56%), highlighting its potential to complement human review at scale and enabling next-generation peer review. Code and Data available: https://github.com/AndresLaverdeMarin/agentic_reproducibility_assessment.",
+    "url": "http://arxiv.org/abs/2605.02651v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02651v1",
+    "published": "2026-05-04",
+    "categories": [
+      "cs.DL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
