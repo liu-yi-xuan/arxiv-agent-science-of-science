@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-08
+
+**14 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents](http://arxiv.org/abs/2605.06334v1) | Ashwani Anand, Ivi Chatzi, Ritam Raha et al. | Tool-using large language model (LLM) agents are increasingly deployed in settings where their reliable behavior is governed by strict procedural manuals. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation](http://arxiv.org/abs/2605.04922v1) | Jiangwen Dong, Bo Li, Wanyu Lin | LLM-empowered multi-agent systems offer new potential to accelerate scientific discovery by generating novel research ideas. |
+| [Strat-Reasoner: Reinforcing Strategic Reasoning of LLMs in Multi-Agent Games](http://arxiv.org/abs/2605.04906v1) | Yidong He, Yutao Lai, Pengxu Yang et al. | While Large Language Models (LLMs) excel in certain reasoning tasks, they struggle in multi-agent games where the final outcome depends on the joint strategies of all agents. |
+| [Detecting Time Series Anomalies Like an Expert: A Multi-Agent LLM Framework with Specialized Analyzers](http://arxiv.org/abs/2605.05725v1) | Hyeongwon Kang, Jeongseob Kim, Jinwoo Park et al. | Recent studies have explored large language models for time-series anomaly detection, yet existing approaches often rely on a single general-purpose model to directly infer anomaly indices or inter... |
+| [AlphaCrafter: A Full-Stack Multi-Agent Framework for Cross-Sectional Quantitative Trading](http://arxiv.org/abs/2605.05580v1) | Yishuo Yuan, Jiayi Sheng, Sirui Zeng et al. | Financial markets are inherently non-stationary, driven by complex interactions among macroeconomic regimes, microstructural frictions, and behavioral dynamics. |
+| [SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition](http://arxiv.org/abs/2605.04608v1) | Naiyu Zheng, Tianlong Yu, Haochen Yin et al. | Human Activity Recognition (HAR) using Inertial Measurement Unit (IMU) sensors is a cornerstone of mobile health, smart environments, and human-computer interaction. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge](http://arxiv.org/abs/2605.06033v1) | Andrés F. Castro Torres, Joan Giner-Miguelez, Mercè Crosas | The extent to which Artificial Intelligence (AI) can trigger generalized paradigm shifts in science is unclear. |
+| [Science discussions of retracted articles on Bluesky: public scrutiny or misinformation spreading?](http://arxiv.org/abs/2605.04334v1) | Er-Te Zheng, Hui-Zhen Fu, Xiaorui Jiang et al. | Post-publication peer review (PPPR) has emerged as an important supplement to traditional peer review, with social media playing a growing role in publicising potential problems in published research. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SkillRet: A Large-Scale Benchmark for Skill Retrieval in LLM Agents](http://arxiv.org/abs/2605.05726v1) | Hongcheol Cho, Ryangkyung Kang, Youngeun Kim | As LLM agents are increasingly deployed with large libraries of reusable skills, selecting the right skill for a user request has become a critical systems challenge. |
+| [Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems](http://arxiv.org/abs/2605.05379v1) | Krti Tallam | Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. |
+| [Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games](http://arxiv.org/abs/2605.04312v1) | Connacher Murphy | Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. |
+| [Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies](http://arxiv.org/abs/2605.03596v1) | Zirui Tang, Xuanhe Zhou, Yumou Liu et al. | Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete b... |
+| [From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work](http://arxiv.org/abs/2605.06365v1) | Josh Rosen, Seth Rosen | Large language model systems are increasingly deployed as agentic workflows that interleave reasoning, tool use, memory, and iterative refinement. |
+| [Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents](http://arxiv.org/abs/2605.06635v1) | Hailey Onweller, Elias Lumer, Austin Huber et al. | Large language models (LLMs) power deep research agents that synthesize information from hundreds of web sources into cited reports, yet these citations cannot be reliably verified. |
+
 ### 📅 2026-05-07
 
 **10 new papers found**

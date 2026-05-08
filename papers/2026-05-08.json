@@ -1,0 +1,279 @@
+[
+  {
+    "id": "2605.06334v1",
+    "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents",
+    "authors": [
+      "Ashwani Anand",
+      "Ivi Chatzi",
+      "Ritam Raha",
+      "Anne-Kathrin Schmuck"
+    ],
+    "abstract": "Tool-using large language model (LLM) agents are increasingly deployed in settings where their reliable behavior is governed by strict procedural manuals. Ensuring that such agents comply with the rules from these manuals is challenging, as they are typically written for humans in natural language while agent behavior manifests as an execution trace of tool calls. Existing evaluations of LLM agents rely on manually constructed benchmarks or LLM-based judges, which either do not scale or lack reliability for complex, long-horizon manuals. To overcome these limitations, we present MANTRA, a framework for automatically synthesizing machine-checkable compliance benchmarks from natural-language manuals and tool schemas. MANTRA independently generates (i) a symbolic world model capturing procedural dependencies, and (ii) a set of trace-level compliance checks for a given task, and validates their consistency using SMT solving. A structured repair loop resolves inconsistencies, requiring human intervention only as a fallback. %This yields benchmarks that are formally validated. Importantly, MANTRA supports arbitrary domains and long procedural manuals, and provides a tunable notion of task complexity which is utilized to automatically derive challenging tasks accompanying compliance checks. Using MANTRA, we build a new benchmark suite with 285 tasks across 6 domains scaling to 50+ page manuals with minimal human effort. Empirically, we show that the compliance checks are richer with stronger constraint enforcement compared to existing benchmarks. Additionally, the granularity of the checks can be used for debugging the agents' failure modes. These results demonstrate that combining automated benchmark generation with formally grounded validation methods enables scalable and reliable benchmarking of tool-using agents.",
+    "url": "http://arxiv.org/abs/2605.06334v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06334v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "cs.LO"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.04922v1",
+    "title": "Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation",
+    "authors": [
+      "Jiangwen Dong",
+      "Bo Li",
+      "Wanyu Lin"
+    ],
+    "abstract": "LLM-empowered multi-agent systems offer new potential to accelerate scientific discovery by generating novel research ideas. However, existing methods typically coordinate agents through temporary texts, such as drafts or chat logs; it is difficult to pinpoint the weaknesses in the generated ideas and how the agents refine them. To this end, we introduce \\textbf{Evolving Idea Graphs} (EIG), a graph-based multi-agent scientific ideation framework that can generate high-performance research ideas across various benchmark-native metrics, such as novelty, feasibility, and clarity. Instead of coordinating solely through texts, EIG represents a partially formed proposal as an evolving idea graph, where nodes capture scientific claims and edges encode relations (e.g., support and conflict), enabling unresolved weaknesses to remain identifiable throughout the idea evolving process. Specifically, a learned two-head controller operates over the evolving graph to guide the ideation: one head selects graph edits for agents to execute, while the other decides when the graph is ready for commit as final proposal synthesis. On AI Idea Bench 2025 and LiveIdeaBench, EIG outperforms all compared systems on both automatic benchmark scores and blind expert ratings. Ablations further show that explicit graph state provides the main performance gains, and learned edit-and-commit control adds consistent improvements.",
+    "url": "http://arxiv.org/abs/2605.04922v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04922v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.04906v1",
+    "title": "Strat-Reasoner: Reinforcing Strategic Reasoning of LLMs in Multi-Agent Games",
+    "authors": [
+      "Yidong He",
+      "Yutao Lai",
+      "Pengxu Yang",
+      "Jiarui Gan",
+      "Jiexin Wang"
+    ],
+    "abstract": "While Large Language Models (LLMs) excel in certain reasoning tasks, they struggle in multi-agent games where the final outcome depends on the joint strategies of all agents. In multi-agent games, the non-stationarity of other agents brings significant challenges on the evaluation of the reasoning process and the credit assignment over multiple reasoning steps. Existing single-agent reinforcement learning (RL) approaches and their multi-agent extensions fail to address these challenges as they do not incorporate other agents in the reasoning process. In this work, we propose Strat-Reasoner, a novel RL-based framework that improves LLMs' strategic reasoning ability in multi-agent games. We introduce a novel recursive reasoning paradigm where an agent's reasoning also integrates other agents' reasoning processes. To provide effective reward signals for the intermediate reasoning sequences, we employ a centralized Chain-of-Thought (CoT) comparison module to evaluate the reasoning quality. Finally, we compute an accurate hybrid advantage and develop a group-relative RL approach to optimize the LLM policy. Experimental results show that Strat-Reasoner substantially improves strategic abilities of underlying LLMs, achieving 22.1\\% average performance improvements across various multi-agent games.",
+    "url": "http://arxiv.org/abs/2605.04906v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04906v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.05725v1",
+    "title": "Detecting Time Series Anomalies Like an Expert: A Multi-Agent LLM Framework with Specialized Analyzers",
+    "authors": [
+      "Hyeongwon Kang",
+      "Jeongseob Kim",
+      "Jinwoo Park",
+      "Pilsung Kang"
+    ],
+    "abstract": "Recent studies have explored large language models for time-series anomaly detection, yet existing approaches often rely on a single general-purpose model to directly infer anomaly indices or intervals, limiting controllability, interpretability, and reliability for complex anomaly patterns. We propose SAGE (Specialized Analyzer Group for Expert-like Detection), a multi-agent framework for structured anomaly diagnosis in univariate time series. It decomposes anomaly analysis into four specialized Analyzers for point, structural, seasonal, and pattern anomalies. Each Analyzer applies family-specific numerical tools and diagnostic visualizations to generate evidence, while an evidence-grounded Detector consolidates the evidence into confidence-scored anomaly records with intervals and candidate types. A Supervisor then converts these structured records into analyst-facing diagnostic reports. SAGE further constructs synthetic in-context examples from normal-reference training segments, without using real anomalous segments or anomaly-type labels as in-context examples. Across three benchmarks, SAGE achieves the best average performance among strong ML/DL and language-model-based baselines. Ablation studies and human evaluation further show that the proposed framework improves detection reliability and the practical usefulness of diagnostic outputs.",
+    "url": "http://arxiv.org/abs/2605.05725v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05725v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.05580v1",
+    "title": "AlphaCrafter: A Full-Stack Multi-Agent Framework for Cross-Sectional Quantitative Trading",
+    "authors": [
+      "Yishuo Yuan",
+      "Jiayi Sheng",
+      "Sirui Zeng",
+      "Jiaqi Wang",
+      "Jiaheng Liu"
+    ],
+    "abstract": "Financial markets are inherently non-stationary, driven by complex interactions among macroeconomic regimes, microstructural frictions, and behavioral dynamics. Building quantitative strategies that remain profitable demands the continuous coupling of factor discovery, regime-adaptive selection, and risk-constrained execution. Prevailing approaches, however, optimize these components under static or isolated assumptions. Factor mining frameworks typically treat alpha discovery as a one-time search process, implicitly assuming that factor efficacy persists across market regimes. Execution-oriented systems often adopt role-playing agent architectures that simulate anthropomorphic trading committees, introducing behavioral noise rather than systematic rationality. Consequently, a fully automated, rationality-driven framework unifying a coherent quantitative pipeline remains absent. We introduce AlphaCrafter, a full-stack multi-agent framework that closes this gap through a continuously adaptive factor-to-execution pipeline, designed to track and respond to evolving market conditions without manual intervention. AlphaCrafter operates via three specialized agents: a Miner that continuously expands the factor pool via LLM-guided search, a Screener that assesses prevailing market conditions to construct regime-conditioned factor ensembles, and a Trader that translates these ensembles into quantitative strategies under explicit risk constraints. Together, these three agents form a closed-loop cross-sectional trading system that adapts holistically to evolving market dynamics. Extensive experiments on CSI 300 and S&P 500 demonstrate that AlphaCrafter consistently outperforms state-of-the-art baselines in risk-adjusted returns while exhibiting the lowest cross-trial variance, confirming that integrated and adaptive factor-to-execution design yields robust trading performance.",
+    "url": "http://arxiv.org/abs/2605.05580v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05580v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.04608v1",
+    "title": "SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition",
+    "authors": [
+      "Naiyu Zheng",
+      "Tianlong Yu",
+      "Haochen Yin",
+      "Xiaoyi Fan",
+      "Xiping Hu"
+    ],
+    "abstract": "Human Activity Recognition (HAR) using Inertial Measurement Unit (IMU) sensors is a cornerstone of mobile health, smart environments, and human-computer interaction. However, current deep learning-based HAR models often struggle with heavy reliance on labeled data, position-specific ambiguity, and a lack of transparent reasoning. Inspired by the advanced agents framework, which emulates a collaborative agent using Large Language Models (LLMs), we propose SensingAgents, a novel multi-agent system for robust IMU activity recognition. SensingAgents organizes LLM-powered agents into specialized roles: a group of Analyst Agents for position-specific sensor analysis (arm, wrist, belt, pocket), a pair of Advocate Agents that resolves sensor conflicts through dynamic and static dialectical debates, and a Decision Agent that ensures reliability under sensor drift or failure. Evaluation on the Shoaib dataset demonstrates that SensingAgents significantly outperforms state-of-the-art single-agent and multi-agent LLM models, achieving an accuracy of 79.5% in a zero setting--29% higher than existing agent models and 9.4% higher than deep learning baselines--particularly in complex scenarios where multi-sensor data is conflicting or noisy. Our work highlights the potential of multi-agent collaborative reasoning for advancing the robustness and interpretability of ubiquitous sensing systems.",
+    "url": "http://arxiv.org/abs/2605.04608v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04608v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.06033v1",
+    "title": "When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge",
+    "authors": [
+      "Andrés F. Castro Torres",
+      "Joan Giner-Miguelez",
+      "Mercè Crosas"
+    ],
+    "abstract": "The extent to which Artificial Intelligence (AI) can trigger generalized paradigm shifts in science is unclear. Although some of these technologies have revolutionized data collection and analysis in specific scientific fields such as Chemistry, their overall impact depends on the scope of adoption and the ways scholars use them. In this study, we document substantial differences in the timing and extent of AI adoption across countries and scientific domains from 1960 to 2015. After 2015, we find generalized exponential growth in AI adoption, with the number of AI-supported works multiplying by at least four across all domains. The transformative nature of this rapid growth is less apparent and points to multiple challenges should adoption trends persist. According to our analyses, AI-supported research is confined to very few topics with strong ties to Computer Science and conventional statistical frameworks, suggesting limited transformational potential in epistemological terms. AI-supported works are also associated with an unwarranted citation premium and exhibit substantially higher retraction rates than non-AI-supported works across most fields. Geographically, AI adoption displays pronounced heterogeneity at the country level, along with an acceleration in the relevance of middle-income countries in Asia, from China and beyond. Thus, the transformative capacity of AI in science remains largely untapped, and its rapid adoption underlines challenges in research openness, transparency, reproducibility, and ethics from a global perspective. We discuss how best research practices could boost the benefits of AI adoption and highlight fields and geographies where these trends warrant closer scrutiny.",
+    "url": "http://arxiv.org/abs/2605.06033v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06033v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.DL",
+      "cs.AI",
+      "cs.CY",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2605.04334v1",
+    "title": "Science discussions of retracted articles on Bluesky: public scrutiny or misinformation spreading?",
+    "authors": [
+      "Er-Te Zheng",
+      "Hui-Zhen Fu",
+      "Xiaorui Jiang",
+      "Zhichao Fang",
+      "Mike Thelwall"
+    ],
+    "abstract": "Post-publication peer review (PPPR) has emerged as an important supplement to traditional peer review, with social media playing a growing role in publicising potential problems in published research. However, it remains unclear whether social media discussions of retracted articles primarily reflect good practices, such as exposing flaws and acknowledging retraction status, or bad practices, such as overlooking retractions and continuing to disseminate scientific misinformation. In this study, we collected Bluesky posts referencing scholarly articles from Altmetric and retrieved metadata for the referenced articles using OpenAlex. The final dataset included 284 retracted articles with 79 pre-retraction posts and 857 post-retraction posts, 59 retraction notices with 186 posts, and 609,461 non-retracted articles with 1,344,756 posts. We manually coded Bluesky posts discussing retracted articles to identify instances of good and bad practice. The results show that posts demonstrating good practice (89.9%) substantially outnumbered those demonstrating bad practice (10.1%). Posts reflecting good practice also had more user engagement. In the pre-retraction phase, good practice posts constituted a slight minority (43.0%), whereas in the post-retraction phase they were dominant (94.2%). Most negative posts in the pre-retraction phase (90.0%) had good practice while only 17.3% positive posts in the post-retraction phase showed bad practice. Thus, sentiment analysis can be helpful to filter posts that could flag potential flaws before retraction, but it may struggle to accurately identify the spread of misinformation after retraction. More broadly, this study highlights the potential of Bluesky to support responsible scientific communication, public scrutiny, and research integrity.",
+    "url": "http://arxiv.org/abs/2605.04334v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04334v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.DL",
+      "cs.CY",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2605.05726v1",
+    "title": "SkillRet: A Large-Scale Benchmark for Skill Retrieval in LLM Agents",
+    "authors": [
+      "Hongcheol Cho",
+      "Ryangkyung Kang",
+      "Youngeun Kim"
+    ],
+    "abstract": "As LLM agents are increasingly deployed with large libraries of reusable skills, selecting the right skill for a user request has become a critical systems challenge. In small libraries, users may invoke skills explicitly by name, but this assumption breaks down as skill ecosystems grow under tight context and latency budgets. Despite its practical importance, skill retrieval remains underexplored, with limited benchmarks and little understanding of retrieval behavior on realistic skill libraries. To address this gap, we introduce SkillRet, a large-scale benchmark for skill retrieval in LLM agents. SkillRet contains 17,810 public agent skills, organized with structured semantic tags and a two-level taxonomy spanning 6 major categories and 18 sub-categories. It provides 63,259 training samples and 4,997 evaluation queries with disjoint skill pools, enabling both benchmarking and retrieval-oriented training. Across a diverse set of retrievers, we find that skill retrieval remains far from solved: off-the-shelf models struggle on realistic large-scale skill libraries, and prior skill-retrieval models still leave substantial headroom. Task-specific fine-tuning on SkillRet substantially improves performance, improving NDCG@10 by +13.1 points over the strongest prior retriever and by +16.9 points over the strongest off-the-shelf retriever. Our analysis further suggests that these gains arise because fine-tuned models better focus on the small skill-relevant signals within long and noisy queries. These results establish SkillRet as a strong benchmark and foundation for future research on retrieval in large-scale agent systems.",
+    "url": "http://arxiv.org/abs/2605.05726v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05726v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.05379v1",
+    "title": "Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems",
+    "authors": [
+      "Krti Tallam"
+    ],
+    "abstract": "Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. In these settings, access control can be enforced correctly while the system still produces an answer that appears complete even though material evidence lies outside the caller's authorization boundary. This paper introduces Partial Evidence Bench, a deterministic benchmark for measuring that failure mode. The benchmark ships three scenario families -- due diligence, compliance audit, and security incident response -- with 72 tasks total, ACL-partitioned corpora, oracle complete answers, oracle authorized-view answers, oracle completeness judgments, and structured gap-report oracles. It evaluates systems along four surfaces: answer correctness, completeness awareness, gap-report quality, and unsafe completeness behavior. Checked-in baselines show that silent filtering is catastrophically unsafe across all shipped families, while explicit fail-and-report behavior eliminates unsafe completeness without collapsing the task into trivial abstention. Preliminary real-model runs show model-dependent and scenario-sensitive differences in whether systems overclaim completeness, conservatively underclaim, or report incompleteness in an enterprise-usable form. The benchmark's broader contribution is to make a governance-critical agent failure measurable without human judges or contamination-prone static corpora.",
+    "url": "http://arxiv.org/abs/2605.05379v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05379v1",
+    "published": "2026-05-06",
+    "categories": [
+      "cs.AI",
+      "cs.CC",
+      "cs.ET"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.04312v1",
+    "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+    "authors": [
+      "Connacher Murphy"
+    ],
+    "abstract": "Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. We introduce Agent Island, a multiplayer simulation environment in which language-model agents compete in a game of interagent cooperation, conflict, and persuasion. The environment yields a dynamic benchmark designed to mitigate both saturation and contamination; new models can always outperform the current leading player in this winner-take-all game, and agents compete against other adaptive agents rather than face a fixed task set. We rank players with a Bayesian Plackett-Luce model, allowing us to quantify uncertainty in player skill. In 999 games involving 49 unique models, openai/gpt-5.5 dominates its peers with a posterior mean skill of 5.64, compared with 3.10 for the second-ranked model, openai/gpt-5.2, and 2.86 for the third-ranked model, openai/gpt-5.3-codex. We release the game logs as a dataset for analyses of model behavior. As an example, we investigate same-provider preference in final-round votes and find that models are 8.3 p.p. more likely to support a same-provider finalist than finalists from other providers. This preference is not uniform across providers: among separately estimated providers, the effect is strongest for OpenAI models and weakest for Anthropic models.",
+    "url": "http://arxiv.org/abs/2605.04312v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04312v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.03596v1",
+    "title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+    "authors": [
+      "Zirui Tang",
+      "Xuanhe Zhou",
+      "Yumou Liu",
+      "Linchun Li",
+      "Weizheng Wang"
+    ],
+    "abstract": "Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete both routine and advanced tasks effectively. Despite its importance, existing relevant benchmarks largely evaluate agents on pre-specified or synthesized files with limited real-world dependencies, leaving workspace-level evaluation underexplored. To this end, we introduce Workspace-Bench, a benchmark for evaluating AI agents on Workspace Learning invOlving Large-Scale File Dependencies. We construct realistic workspaces with 5 worker profiles, 74 file types, 20,476 files (up to 20GB) and curate 388 tasks, each with its own file dependency graph, evaluated across 7,399 total rubrics that require cross-file retrieval, contextual reasoning, and adaptive decision-making. We further provide Workspace-Bench-Lite, a 100-task subset that preserves the benchmark distribution while reducing evaluation costs by about 70%. We evaluate 4 popular agent harnesses and 7 foundation models. Experimental results show that current agents remain far from reliable workspace learning, where the best reaches only 68.7%, substantially below the human result of 80.7%, and the average performance across agents is only 47.4%.",
+    "url": "http://arxiv.org/abs/2605.03596v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03596v1",
+    "published": "2026-05-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.DB",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.06365v1",
+    "title": "From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work",
+    "authors": [
+      "Josh Rosen",
+      "Seth Rosen"
+    ],
+    "abstract": "Large language model systems are increasingly deployed as agentic workflows that interleave reasoning, tool use, memory, and iterative refinement. These systems are effective at producing answers, but they often rely on implicit conversational state, making it difficult to preserve stable work products, isolate irrelevant updates, or propagate changes through intermediate artifacts.   We introduce execution lineage: an execution model in which AI-native work is represented as a directed acyclic graph (DAG) of artifact-producing computations with explicit dependencies, stable intermediate boundaries, and identity-based replay. The goal is not to make the model a better one-shot writer, but to make evolving AI-generated work maintainable under change.   We compare execution-lineage replay against loop-centric update baselines on two controlled policy-memo update tasks. In an unrelated-branch update, DAG replay preserved the final memo exactly in all runs, with zero churn and zero unrelated-branch contamination, while loop baselines regenerated the memo and frequently imported unrelated context. In an intermediate-artifact edit, all systems reflected the new constraint in the final memo, but only DAG replay achieved perfect upstream preservation, downstream propagation, unaffected-artifact preservation, and cross-artifact consistency.   These results show that final answer quality and maintained-state quality are distinct. Strong loop baselines can remain competitive at producing polished final outputs when the task is a bounded synthesis/update problem and all current sources fit in context, but immediate task success can mask partial state inconsistency that may compound over future revisions. Execution lineage provides stronger guarantees about what should change, what should remain stable, and how work evolves across revisions.",
+    "url": "http://arxiv.org/abs/2605.06365v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06365v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.06635v1",
+    "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+    "authors": [
+      "Hailey Onweller",
+      "Elias Lumer",
+      "Austin Huber",
+      "Pia Ramchandani",
+      "Vamse Kumar Subbiah"
+    ],
+    "abstract": "Large language models (LLMs) power deep research agents that synthesize information from hundreds of web sources into cited reports, yet these citations cannot be reliably verified. Current approaches either trust models to self-cite accurately, risking bias, or employ retrieval-augmented generation (RAG) that does not validate source accessibility, relevance, or factual consistency. We introduce the first source attribution evaluation framework that uses a reproducible AST parser to extract and evaluate inline citations from LLM-generated Markdown reports at scale. Unlike methods that verify claims in isolation, our framework closes the loop by retrieving the actual cited content, enabling human or model evaluators to judge each citation against its source. Citations are evaluated along three dimensions. (1) Link Works verifies URL accessibility, (2) Relevant Content measures topical alignment, and (3) Fact Check validates factual accuracy against source content. We benchmark 14 closed-source and open-source LLMs across three evaluation dimensions using rubric-based LLM-as-a-judge evaluators calibrated through human review. Our results reveal that even the strongest frontier models maintain link validity above 94% and relevance above 80%, yet achieve only 39-77% factual accuracy, while fewer than half of open-source models successfully generate cited reports in a one-shot setting. Ablation studies on research depth show that Fact Check accuracy drops by approximately 42% on average across two frontier models as tool calls scale from 2 to 150, demonstrating that more retrieval does not produce more accurate citations. These findings reveal a critical disconnect between surface-level citation quality and factual reliability, and our framework provides the evaluation infrastructure to assess the disconnect.",
+    "url": "http://arxiv.org/abs/2605.06635v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06635v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
