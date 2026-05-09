@@ -24,6 +24,28 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-09
+
+**3 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents](http://arxiv.org/abs/2605.06607v1) | Nithin Somasekharan, Rabi Pathak, Manushri Dhanakoti et al. | Recent LLM-based agents have closed substantial portions of the scientific discovery loop in software-only machine-learning research, in chemistry, and in biology. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents](http://arxiv.org/abs/2605.06334v1) | Ashwani Anand, Ivi Chatzi, Ritam Raha et al. | Tool-using large language model (LLM) agents are increasingly deployed in settings where their reliable behavior is governed by strict procedural manuals. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation](http://arxiv.org/abs/2605.04922v1) | Jiangwen Dong, Bo Li, Wanyu Lin | LLM-empowered multi-agent systems offer new potential to accelerate scientific discovery by generating novel research ideas. |
+
 ### 📅 2026-05-08
 
 **14 new papers found**
