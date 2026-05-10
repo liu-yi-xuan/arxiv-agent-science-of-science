@@ -24,6 +24,35 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-10
+
+**5 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents](http://arxiv.org/abs/2605.06607v1) | Nithin Somasekharan, Rabi Pathak, Manushri Dhanakoti et al. | Recent LLM-based agents have closed substantial portions of the scientific discovery loop in software-only machine-learning research, in chemistry, and in biology. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents](http://arxiv.org/abs/2605.06334v1) | Ashwani Anand, Ivi Chatzi, Ritam Raha et al. | Tool-using large language model (LLM) agents are increasingly deployed in settings where their reliable behavior is governed by strict procedural manuals. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge](http://arxiv.org/abs/2605.06033v1) | Andrés F. Castro Torres, Joan Giner-Miguelez, Mercè Crosas | The extent to which Artificial Intelligence (AI) can trigger generalized paradigm shifts in science is unclear. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work](http://arxiv.org/abs/2605.06365v1) | Josh Rosen, Seth Rosen | Large language model systems are increasingly deployed as agentic workflows that interleave reasoning, tool use, memory, and iterative refinement. |
+| [Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents](http://arxiv.org/abs/2605.06635v1) | Hailey Onweller, Elias Lumer, Austin Huber et al. | Large language models (LLMs) power deep research agents that synthesize information from hundreds of web sources into cited reports, yet these citations cannot be reliably verified. |
+
 ### 📅 2026-05-09
 
 **3 new papers found**

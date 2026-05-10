@@ -1,0 +1,104 @@
+[
+  {
+    "id": "2605.06607v1",
+    "title": "AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents",
+    "authors": [
+      "Nithin Somasekharan",
+      "Rabi Pathak",
+      "Manushri Dhanakoti",
+      "Tingwen Zhang",
+      "Ling Yue"
+    ],
+    "abstract": "Recent LLM-based agents have closed substantial portions of the scientific discovery loop in software-only machine-learning research, in chemistry, and in biology. Extending the same loop to high-fidelity physical simulators is harder, because solver completion does not imply physical validity and many failure modes appear only in field-level imagery rather than in solver logs. We present AI CFD Scientist, an open-source AI scientist for computational fluid dynamics (CFD) that, to our knowledge, is the first to span literature-grounded ideation, validated execution, vision-based physics verification, source-code modification, and figure-grounded writing within a single inspectable workflow. Three coupled pathways cover parameter sweeps within a fixed solver, case-local C++ library compilation for new physical models, and open-ended hypothesis search against a reference comparator, all running on OpenFOAM through Foam-Agent. At the center of the framework is a vision-language physics-verification gate that inspects rendered flow fields before any result is accepted, rerun, or written into a manuscript. On five tasks under a shared GPT-5.5 backbone, AI CFD Scientist autonomously discovers a Spalart-Allmaras runtime correction that reduces lower-wall Cf RMSE against DNS by 7.89% on the periodic hill at Reh=5600; under matched LLM cost, two strong general AI-scientist baselines (ARIS, DeepScientist) execute partial CFD workflows but lack the domain-specific validity gates needed to convert runs into defensible scientific claims; and a controlled planted-failure ablation shows that the vision-language gate detects 14 of 16 silent failures missed by solver-level checks. Code, prompts, and run artifacts are released at https://github.com/csml-rpi/cfd-scientist.",
+    "url": "http://arxiv.org/abs/2605.06607v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06607v1",
+    "published": "2026-05-07",
+    "categories": [
+      "physics.flu-dyn",
+      "cs.AI"
+    ],
+    "primary_category": "physics.flu-dyn",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.06334v1",
+    "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents",
+    "authors": [
+      "Ashwani Anand",
+      "Ivi Chatzi",
+      "Ritam Raha",
+      "Anne-Kathrin Schmuck"
+    ],
+    "abstract": "Tool-using large language model (LLM) agents are increasingly deployed in settings where their reliable behavior is governed by strict procedural manuals. Ensuring that such agents comply with the rules from these manuals is challenging, as they are typically written for humans in natural language while agent behavior manifests as an execution trace of tool calls. Existing evaluations of LLM agents rely on manually constructed benchmarks or LLM-based judges, which either do not scale or lack reliability for complex, long-horizon manuals. To overcome these limitations, we present MANTRA, a framework for automatically synthesizing machine-checkable compliance benchmarks from natural-language manuals and tool schemas. MANTRA independently generates (i) a symbolic world model capturing procedural dependencies, and (ii) a set of trace-level compliance checks for a given task, and validates their consistency using SMT solving. A structured repair loop resolves inconsistencies, requiring human intervention only as a fallback. %This yields benchmarks that are formally validated. Importantly, MANTRA supports arbitrary domains and long procedural manuals, and provides a tunable notion of task complexity which is utilized to automatically derive challenging tasks accompanying compliance checks. Using MANTRA, we build a new benchmark suite with 285 tasks across 6 domains scaling to 50+ page manuals with minimal human effort. Empirically, we show that the compliance checks are richer with stronger constraint enforcement compared to existing benchmarks. Additionally, the granularity of the checks can be used for debugging the agents' failure modes. These results demonstrate that combining automated benchmark generation with formally grounded validation methods enables scalable and reliable benchmarking of tool-using agents.",
+    "url": "http://arxiv.org/abs/2605.06334v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06334v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "cs.LO"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.06033v1",
+    "title": "When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge",
+    "authors": [
+      "Andrés F. Castro Torres",
+      "Joan Giner-Miguelez",
+      "Mercè Crosas"
+    ],
+    "abstract": "The extent to which Artificial Intelligence (AI) can trigger generalized paradigm shifts in science is unclear. Although some of these technologies have revolutionized data collection and analysis in specific scientific fields such as Chemistry, their overall impact depends on the scope of adoption and the ways scholars use them. In this study, we document substantial differences in the timing and extent of AI adoption across countries and scientific domains from 1960 to 2015. After 2015, we find generalized exponential growth in AI adoption, with the number of AI-supported works multiplying by at least four across all domains. The transformative nature of this rapid growth is less apparent and points to multiple challenges should adoption trends persist. According to our analyses, AI-supported research is confined to very few topics with strong ties to Computer Science and conventional statistical frameworks, suggesting limited transformational potential in epistemological terms. AI-supported works are also associated with an unwarranted citation premium and exhibit substantially higher retraction rates than non-AI-supported works across most fields. Geographically, AI adoption displays pronounced heterogeneity at the country level, along with an acceleration in the relevance of middle-income countries in Asia, from China and beyond. Thus, the transformative capacity of AI in science remains largely untapped, and its rapid adoption underlines challenges in research openness, transparency, reproducibility, and ethics from a global perspective. We discuss how best research practices could boost the benefits of AI adoption and highlight fields and geographies where these trends warrant closer scrutiny.",
+    "url": "http://arxiv.org/abs/2605.06033v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06033v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.DL",
+      "cs.AI",
+      "cs.CY",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2605.06365v1",
+    "title": "From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work",
+    "authors": [
+      "Josh Rosen",
+      "Seth Rosen"
+    ],
+    "abstract": "Large language model systems are increasingly deployed as agentic workflows that interleave reasoning, tool use, memory, and iterative refinement. These systems are effective at producing answers, but they often rely on implicit conversational state, making it difficult to preserve stable work products, isolate irrelevant updates, or propagate changes through intermediate artifacts.   We introduce execution lineage: an execution model in which AI-native work is represented as a directed acyclic graph (DAG) of artifact-producing computations with explicit dependencies, stable intermediate boundaries, and identity-based replay. The goal is not to make the model a better one-shot writer, but to make evolving AI-generated work maintainable under change.   We compare execution-lineage replay against loop-centric update baselines on two controlled policy-memo update tasks. In an unrelated-branch update, DAG replay preserved the final memo exactly in all runs, with zero churn and zero unrelated-branch contamination, while loop baselines regenerated the memo and frequently imported unrelated context. In an intermediate-artifact edit, all systems reflected the new constraint in the final memo, but only DAG replay achieved perfect upstream preservation, downstream propagation, unaffected-artifact preservation, and cross-artifact consistency.   These results show that final answer quality and maintained-state quality are distinct. Strong loop baselines can remain competitive at producing polished final outputs when the task is a bounded synthesis/update problem and all current sources fit in context, but immediate task success can mask partial state inconsistency that may compound over future revisions. Execution lineage provides stronger guarantees about what should change, what should remain stable, and how work evolves across revisions.",
+    "url": "http://arxiv.org/abs/2605.06365v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06365v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.06635v1",
+    "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+    "authors": [
+      "Hailey Onweller",
+      "Elias Lumer",
+      "Austin Huber",
+      "Pia Ramchandani",
+      "Vamse Kumar Subbiah"
+    ],
+    "abstract": "Large language models (LLMs) power deep research agents that synthesize information from hundreds of web sources into cited reports, yet these citations cannot be reliably verified. Current approaches either trust models to self-cite accurately, risking bias, or employ retrieval-augmented generation (RAG) that does not validate source accessibility, relevance, or factual consistency. We introduce the first source attribution evaluation framework that uses a reproducible AST parser to extract and evaluate inline citations from LLM-generated Markdown reports at scale. Unlike methods that verify claims in isolation, our framework closes the loop by retrieving the actual cited content, enabling human or model evaluators to judge each citation against its source. Citations are evaluated along three dimensions. (1) Link Works verifies URL accessibility, (2) Relevant Content measures topical alignment, and (3) Fact Check validates factual accuracy against source content. We benchmark 14 closed-source and open-source LLMs across three evaluation dimensions using rubric-based LLM-as-a-judge evaluators calibrated through human review. Our results reveal that even the strongest frontier models maintain link validity above 94% and relevance above 80%, yet achieve only 39-77% factual accuracy, while fewer than half of open-source models successfully generate cited reports in a one-shot setting. Ablation studies on research depth show that Fact Check accuracy drops by approximately 42% on average across two frontier models as tool calls scale from 2 to 150, demonstrating that more retrieval does not produce more accurate citations. These findings reveal a critical disconnect between surface-level citation quality and factual reliability, and our framework provides the evaluation infrastructure to assess the disconnect.",
+    "url": "http://arxiv.org/abs/2605.06635v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06635v1",
+    "published": "2026-05-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
