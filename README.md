@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-11
+
+**1 new papers found**
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CyBiasBench: Benchmarking Bias in LLM Agents for Cyber-Attack Scenarios](http://arxiv.org/abs/2605.07830v1) | Taein Lim, Seongyong Ju, Munhyeok Kim et al. | Large language models (LLMs) are increasingly deployed as autonomous agents in offensive cybersecurity. |
+
 ### 📅 2026-05-10
 
 **5 new papers found**

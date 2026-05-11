@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2605.07830v1",
+    "title": "CyBiasBench: Benchmarking Bias in LLM Agents for Cyber-Attack Scenarios",
+    "authors": [
+      "Taein Lim",
+      "Seongyong Ju",
+      "Munhyeok Kim",
+      "Hyunjun Kim",
+      "Hoki Kim"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly deployed as autonomous agents in offensive cybersecurity. In this paper, we reveal an interesting phenomenon: different agents exhibit distinct attack patterns. Specifically, each agent exhibits an attack-selection bias, disproportionately concentrating its efforts on a narrow subset of attack families regardless of prompt variations. To systematically quantify this behavior, we introduce CyBiasBench, a comprehensive 630-session benchmark that evaluates five agents on three targets and four prompt conditions with ten attack families. We identify explicit bias across agents, with different dominant attack families and varying entropy levels in their attack-family allocation distributions. Such bias is better characterized as a trait of the agents, rather than a factor associated with the attack success rate. Furthermore, our experiments reveal a bias momentum effect, where agents resist explicit steering toward attack families that conflict with their bias. This forced distribution shift does not yield measurable improvements in attack performance. To ensure reproducibility and facilitate future research, we release an interactive result dashboard at https://trustworthyai.co.kr/CyBiasBench/ and a reproducibility artifact with aggregated session-level statistics and full evaluation scripts at https://github.com/Harry24k/CyBiasBench.",
+    "url": "http://arxiv.org/abs/2605.07830v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.07830v1",
+    "published": "2026-05-08",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
