@@ -24,6 +24,62 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-12
+
+**27 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agentic AI Scientists Are Not Built For Autonomous Scientific Discovery](http://arxiv.org/abs/2605.08956v1) | Harshit Bisht, Vinay Kumar, Kevin Maik Jablonka et al. | A growing body of work pursues AI scientists capable of end-to-end autonomous scientific discovery. This position paper argues that although they already function as co-scientists, agentic AI scien... |
+| [Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](http://arxiv.org/abs/2605.10663v1) | Zhiyuan Fan, Wenwei Jin, Feng Zhang et al. | Experience-driven self-evolving agents aim to overcome the static nature of large language models by distilling reusable experience from past interactions, thus enabling adaptation to novel tasks a... |
+| [SciIntegrity-Bench: A Benchmark for Evaluating Academic Integrity in AI Scientist Systems](http://arxiv.org/abs/2605.10246v1) | Zonglin Yang, Xingtong Liu, Xinyan Xu | AI scientist systems are increasingly deployed for autonomous research, yet their academic integrity has never been systematically evaluated. |
+| [M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models](http://arxiv.org/abs/2605.09879v1) | Junjian Wang, Xin Zhou, Qiran Xu et al. | While reasoning has become a central capability of large language models (LLMs), the reasoning patterns required for different scenarios are often misaligned. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents](http://arxiv.org/abs/2605.09934v1) | Bihui Yu, Caijun Jia, Jing Chi et al. | Multimodal large language models increasingly solve vision-centric tasks by calling external tools for visual inspection, OCR, retrieval, calculation, and multi-step reasoning. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium](http://arxiv.org/abs/2605.09278v1) | Yuqiao Meng, Sakshi Sunil Narvekar, Luoxi Tang et al. | Multi-agent debate (MAD) systems increasingly rely on shared memory to support long-horizon reasoning, but this convenience opens a critical vulnerability: a single corrupted entry can contaminate ... |
+| [The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions](http://arxiv.org/abs/2605.10698v1) | Dahlia Shehata, Ming Li | Multi-agent systems (MAS) assume that collaborating inherently improves Large Language Model (LLM) reasoning. |
+| [ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models](http://arxiv.org/abs/2605.10106v1) | Tingshu Mou, Jiabo He, Renying Wang et al. | Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated benchmarks, leaving the inference-t... |
+| [Route by State, Recover from Trace: STAR with Failure-Aware Markov Routing for Multi-Agent Spatiotemporal Reasoning](http://arxiv.org/abs/2605.10057v1) | Ruiyi Yang, Lihuan Li, Hao Xue et al. | Compositional spatiotemporal reasoning often requires a system to invoke multiple heterogeneous specialists, such as geometric, temporal, topological, and trajectory agents. |
+| [UTS at PsyDefDetect: Multi-Agent Councils and Absence-Based Reasoning for Defense Mechanism Classification](http://arxiv.org/abs/2605.09769v1) | Dima Galat, Marian-Andrei Rizoiu | This paper describes our system for classifying psychological defense mechanisms in emotional support dialogues using the Defense Mechanism Rating Scales (DMRS), placing second (F1 0.406) among 64 ... |
+| [An agentic framework for gravitational-wave counterpart association in the multi-messenger era](http://arxiv.org/abs/2605.10584v1) | Yiming Dong, Yacheng Kang, Junjie Zhao et al. | With the detection of gravitational waves (GWs), multi-messenger astronomy has opened a new window for advancing our understanding of astrophysics, dense matter, gravitation, and cosmology. |
+| [A Communication-Theoretic Framework for LLM Agents: Cost-Aware Adaptive Reliability](http://arxiv.org/abs/2605.09121v1) | Hamed Omidvar, Vahideh Akhlaghi | Agents built on large language models (LLMs) rely on a range of reliability techniques, including retry, majority voting, and self-consistency, that have been developed in parallel rather than with... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Horizontal and Longitudinal Comparisons Among AI Subfields: A Bibliometric Perspective](http://arxiv.org/abs/2605.08869v1) | Zeyu Li, Yalan Jin, Shuyu Chen et al. | Recent artificial intelligence has developed rapidly with significant interdisciplinary expansion, yet existing studies often treat it as a whole, lacking systematic long-term subfield comparisons ... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents](http://arxiv.org/abs/2605.10876v1) | Edward De Brouwer, Carl Edwards, Alexander Wu et al. | Recent advances in machine learning and large-scale biological data collections have revived the prospect of building a virtual cell, a computational model of cellular behavior that could accelerat... |
+| [Can Agent Benchmarks Support Their Scores? Evidence-Supported Bounds for Interactive-Agent Evaluation](http://arxiv.org/abs/2605.10448v1) | Shanshan Gao, Liyi Zhou | Interactive agent benchmarks map an agent run to a binary outcome through outcome checks. When these checks rely on surface level signals or fail to capture the agent's actual action path, they can... |
+| [Agentic Performance at the Edge: Insights from Benchmarking](http://arxiv.org/abs/2605.10384v1) | Shiqiang Wang, Herbert Woisetschläger | Agentic artificial intelligence (AI) is a natural fit for Internet of Things (IoT) and edge systems, but edge deployments are often constrained to models around 8 billion parameters or smaller. |
+| [Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values](http://arxiv.org/abs/2605.10365v1) | Haonan Dong, Qiguan Feng, Kehan Jiang et al. | Autonomous agents have rapidly matured as task executors and seen widespread deployment via harnesses such as OpenClaw. |
+| [AgentRx: A Benchmark Study of LLM Agents for Multimodal Clinical Prediction Tasks](http://arxiv.org/abs/2605.10286v1) | Baraa Al Jorf, Farah E. Shamout | Building effective clinical decision support systems requires the synthesis of complex heterogeneous multimodal data. |
+| [EnactToM: An Evolving Benchmark for Functional Theory of Mind in Embodied Agents](http://arxiv.org/abs/2605.09826v1) | Gurusha Juneja, Dylan Lu, Saaket Agashe et al. | Theory of Mind (ToM), the ability to track others epistemic state, makes humans efficient collaborators. |
+| [Ambig-DS: A Benchmark for Task-Framing Ambiguity in Data-Science Agents](http://arxiv.org/abs/2605.09698v1) | Josefa Lia Stoisser, Marc Boubnovski Martell, Sidsel Boldsen et al. | As data-science agents shift from co-pilots to auto-pilots, silent misframing becomes a critical failure mode. |
+| [DeepTumorVQA: A Hierarchical 3D CT Benchmark for Stage-Wise Evaluation of Medical VLMs and Tool-Augmented Agents](http://arxiv.org/abs/2605.09679v1) | Yixiong Chen, Wenjie Xiao, Pedro R. A. S. Bassi et al. | Medical vision-language models (VLMs) and AI agents have made significant progress in learning to analyze and reason about clinical images. |
+| [FORTIS: Benchmarking Over-Privilege in Agent Skills](http://arxiv.org/abs/2605.09163v1) | Shawn Li, Chenxiao Yu, Han Wang et al. | Large language model agents increasingly operate through an intermediate skill layer that mediates between user intent and concrete task execution. |
+| [MDGYM: Benchmarking AI Agents on Molecular Simulations](http://arxiv.org/abs/2605.08941v1) | Vinay Kumar, Satyendra Rajput, Mausam et al. | The promise of AI-driven scientific discovery hinges on whether AI agents can autonomously design and execute the computational workflows that underpin modern science. |
+| [Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs](http://arxiv.org/abs/2605.09063v1) | Guijin Son, Seungone Kim, Catherine Arnett et al. | Following the recent achievement of gold-medal performance on the IMO by frontier LLMs, the community is searching for the next meaningful and challenging target for measuring LLM reasoning. |
+| [WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation](http://arxiv.org/abs/2605.10912v1) | Shuangrui Ding, Xuanlang Dai, Long Xing et al. | Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. |
+| [LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments](http://arxiv.org/abs/2605.10779v1) | Chiyu Zhang, Huiqin Yang, Bendong Jiang et al. | The rapid proliferation of LLM-based autonomous agents in real operating system environments introduces a new category of safety risk beyond content safety: behavior jailbreak, where an adversary i... |
+| [GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives](http://arxiv.org/abs/2605.09027v1) | Alexandre Le Mercier, Chris Develder, Thomas Demeester | In multi-agent systems (MAS), a single deceptive agent can nullify all gains of an agentic AI collective and evade deployed defenses. |
+
 ### 📅 2026-05-11
 
 **1 new papers found**
