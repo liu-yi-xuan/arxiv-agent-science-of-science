@@ -24,6 +24,38 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-13
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive](http://arxiv.org/abs/2605.11518v1) | Taicheng Guo, Nitesh V. Chawla, Olaf Wiest et al. | Effectively configuring scalable large language model (LLM) experiments, spanning architecture design, hyperparameter tuning, and beyond, is crucial for advancing LLM research, as poor configuratio... |
+| [Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](http://arxiv.org/abs/2605.10663v1) | Zhiyuan Fan, Wenwei Jin, Feng Zhang et al. | Experience-driven self-evolving agents aim to overcome the static nature of large language models by distilling reusable experience from past interactions, thus enabling adaptation to novel tasks a... |
+| [SciIntegrity-Bench: A Benchmark for Evaluating Academic Integrity in AI Scientist Systems](http://arxiv.org/abs/2605.10246v1) | Zonglin Yang, Xingtong Liu, Xinyan Xu | AI scientist systems are increasingly deployed for autonomous research, yet their academic integrity has never been systematically evaluated. |
+| [M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models](http://arxiv.org/abs/2605.09879v1) | Junjian Wang, Xin Zhou, Qiran Xu et al. | While reasoning has become a central capability of large language models (LLMs), the reasoning patterns required for different scenarios are often misaligned. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents](http://arxiv.org/abs/2605.09934v1) | Bihui Yu, Caijun Jia, Jing Chi et al. | Multimodal large language models increasingly solve vision-centric tasks by calling external tools for visual inspection, OCR, retrieval, calculation, and multi-step reasoning. |
+| [AgentShield: Deception-based Compromise Detection for Tool-using LLM Agents](http://arxiv.org/abs/2605.11026v1) | Yassin H. Rassul, Tarik A. Rashid | Defenses against indirect prompt injection (IPI) in tool-using LLM agents share two structural weaknesses. |
+| [FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems](http://arxiv.org/abs/2605.11514v1) | Fanxiao Li, Jiaying Wu, Tingchao Fu et al. | Multi-agent systems (MAS) powered by large language models (LLMs) increasingly adopt planner--executor architectures, where planners convert prompts into subtasks, roles, dependencies, and routing ... |
+| [PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement](http://arxiv.org/abs/2605.11225v1) | Tuo Zhang, Alin-Ionut Popa, Yan Xu et al. | Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Predictive Maps of Multi-Agent Reasoning: A Successor-Representation Spectrum for LLM Communication Topologies](http://arxiv.org/abs/2605.11453v1) | Ethan David James Park, Dalal Alharthi | Practitioners deploying multi-agent large language model (LLM) systems must currently choose between communication topologies such as chain, star, mesh, and richer variants without any pre-inferenc... |
+| [The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions](http://arxiv.org/abs/2605.10698v1) | Dahlia Shehata, Ming Li | Multi-agent systems (MAS) assume that collaborating inherently improves Large Language Model (LLM) reasoning. |
+| [ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models](http://arxiv.org/abs/2605.10106v1) | Tingshu Mou, Jiabo He, Renying Wang et al. | Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated benchmarks, leaving the inference-t... |
+| [STAR: Failure-Aware Markovian Routing for Multi-Agent Spatiotemporal Reasoning](http://arxiv.org/abs/2605.10057v2) | Ruiyi Yang, Lihuan Li, Hao Xue et al. | Compositional spatiotemporal reasoning often requires a system to invoke multiple heterogeneous specialists, such as geometric, temporal, topological, and trajectory agents. |
+| [UTS at PsyDefDetect: Multi-Agent Councils and Absence-Based Reasoning for Defense Mechanism Classification](http://arxiv.org/abs/2605.09769v2) | Dima Galat, Marian-Andrei Rizoiu | This paper describes our system for classifying psychological defense mechanisms in emotional support dialogues using the Defense Mechanism Rating Scales (DMRS), placing second (F1 0.406) among 64 ... |
+
 ### 📅 2026-05-12
 
 **27 new papers found**

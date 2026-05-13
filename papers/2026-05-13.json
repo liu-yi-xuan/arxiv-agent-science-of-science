@@ -1,0 +1,257 @@
+[
+  {
+    "id": "2605.11518v1",
+    "title": "AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive",
+    "authors": [
+      "Taicheng Guo",
+      "Nitesh V. Chawla",
+      "Olaf Wiest",
+      "Xiangliang Zhang"
+    ],
+    "abstract": "Effectively configuring scalable large language model (LLM) experiments, spanning architecture design, hyperparameter tuning, and beyond, is crucial for advancing LLM research, as poor configuration choices can waste substantial computational resources and prevent models from realizing their full potential. Prior automated methods are designed for low-cost settings where repeated trial and error is feasible, but scalable LLM experiments are too expensive for such extensive iteration. To our knowledge, no work has addressed the automation of high-cost LLM experiment configurations, leaving this problem labor-intensive and dependent on expert intuition. Motivated by this gap, we propose AutoLLMResearch, an agentic framework that mimics how human researchers learn generalizable principles from low-fidelity experiments and extrapolate to efficiently identify promising configurations in expensive LLM settings. The core challenge is how to enable an agent to learn, through interaction with a multi-fidelity experimental environment that captures the structure of the LLM configuration landscape. To achieve this, we propose a systematic framework with two key components: 1) LLMConfig-Gym, a multi-fidelity environment encompassing four critical LLM experiment tasks, supported by over one million GPU hours of verifiable experiment outcomes; 2) A structured training pipeline that formulates configuration research as a long-horizon Markov Decision Process and accordingly incentivizes cross-fidelity extrapolation reasoning. Extensive evaluation against diverse strong baselines on held-out experiments demonstrates the effectiveness, generalization, and interpretability of our framework, supporting its potential as a practical and general solution for scalable real-world LLM experiment automation.",
+    "url": "http://arxiv.org/abs/2605.11518v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11518v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.10663v1",
+    "title": "Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents",
+    "authors": [
+      "Zhiyuan Fan",
+      "Wenwei Jin",
+      "Feng Zhang",
+      "Bin Li",
+      "Yihong Dong"
+    ],
+    "abstract": "Experience-driven self-evolving agents aim to overcome the static nature of large language models by distilling reusable experience from past interactions, thus enabling adaptation to novel tasks at deployment time. This process places substantial demands on the foundation model's capacities for abstraction, generalization, and in-context learning. However, most existing studies focus primarily on system-level design choices, such as how experience is represented and managed, neglecting the inherent capabilities of the underlying model. While some recent works have started to optimize the experience utilization stage via reinforcement learning, they still fail to treat self-evolution as a unified process to be jointly optimized. To this end, we propose Evolving-RL, an efficient algorithmic framework that jointly improves the experience extraction and utilization capabilities required for self-evolution. Specifically, we center the learning process on experience extraction and evaluation, using the two supervisory signals derived from evaluation to optimize the extractor and solver separately and thus enable their coordinated co-evolution. Experiments on ALFWorld and Mind2Web show that Evolving-RL effectively enhances LLMs' ability to extract and reuse experience, leading to strong performance gains on out-of-distribution tasks (up to 98.7% relative improvement over the GRPO baseline on ALFWorld unseen tasks and 35.8% on Mind2Web), and these gains are fully unlocked only through the coordinated co-evolution of experience extraction and utilization. Furthermore, Evolving-RL inherently functions as an experience-augmented RL algorithm. By internalizing reusable experience patterns directly into model parameters, it achieves remarkable performance gains over standard baselines on both seen and unseen tasks, even in the absence of test-time experience accumulation.",
+    "url": "http://arxiv.org/abs/2605.10663v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10663v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.10246v1",
+    "title": "SciIntegrity-Bench: A Benchmark for Evaluating Academic Integrity in AI Scientist Systems",
+    "authors": [
+      "Zonglin Yang",
+      "Xingtong Liu",
+      "Xinyan Xu"
+    ],
+    "abstract": "AI scientist systems are increasingly deployed for autonomous research, yet their academic integrity has never been systematically evaluated. We introduce SCIINTEGRITY-BENCH, the first benchmark designed around a dilemmatic evaluation paradigm: each of its 33 scenarios across 11 trap categories is constructed so that honest acknowledgment of failure is the only correct response, while task completion requires misconduct. Across 231 evaluation runs spanning 7 state-of-the-art LLMs, the overall integrity problem rate reaches 34.2%, and no model achieves zero failures. Most strikingly, across missing-data scenarios, all seven models generate synthetic data rather than acknowledging infeasibility, differing only in whether they disclose the substitution. A further prompt ablation study separates two drivers: removing explicit completion pressure sharply reduces undisclosed fabrication from 20.6% to 3.2%, while the underlying synthesis rate remains unchanged, revealing an intrinsic completion bias that persists independent of prompt-level instructions. These findings point to the absence of honest refusal as a trained disposition as the primary driver of observed failures. We release SCIINTEGRITY-BENCH at https://github.com/liuxingtong/Sci-Integrity-Bench.",
+    "url": "http://arxiv.org/abs/2605.10246v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10246v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.09879v1",
+    "title": "M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models",
+    "authors": [
+      "Junjian Wang",
+      "Xin Zhou",
+      "Qiran Xu",
+      "Kun Zhan"
+    ],
+    "abstract": "While reasoning has become a central capability of large language models (LLMs), the reasoning patterns required for different scenarios are often misaligned. Mathematical reasoning typically relies on intrinsic logic to solve closed-world problems in a single response, whereas agentic reasoning requires not only internal reasoning but also multi-turn interaction with external environments, interleaving thought and action. This misalignment prevents mathematical and agentic reasoning from effectively benefiting from each other, often yielding unstable reasoning behavior and only limited performance gains under multi-task learning. In this paper, we propose M2A, a novel paradigm that synergizes mathematical and agentic reasoning via model merging. To avoid overfitting to superficial reasoning patterns under joint training, M2A operates directly in parameter space: it identifies the feature subspace critical for agent behavior, and merges the mathematical reasoning task vector only along its null space, thereby injecting reasoning capability along directions that do not perturb agent behavior. Unlike SFT or RL, M2A requires no additional gradient-update and exposes the merging coefficient as a simple knob for controlling reasoning length. Experiments in a challenging real-world coding agent setting show that our method effectively extends agentic reasoning depth and delivers substantial performance improvements. Applied to a fine-tuned Qwen3-8B, M2A improves its SWE-Bench Verified resolved rate from 44.0% to 51.2% without retraining the model. Code is available at https://github.com/laplucky/M2A.git.",
+    "url": "http://arxiv.org/abs/2605.09879v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.09879v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.09934v1",
+    "title": "TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents",
+    "authors": [
+      "Bihui Yu",
+      "Caijun Jia",
+      "Jing Chi",
+      "Xiaohan Liu",
+      "Yining Wang"
+    ],
+    "abstract": "Multimodal large language models increasingly solve vision-centric tasks by calling external tools for visual inspection, OCR, retrieval, calculation, and multi-step reasoning. Current tool-using agents usually expose the executed tool trajectory and the final answer, but they rarely specify which tool observation supports each generated claim. We call this missing claim-level dependency structure the provenance gap. The gap makes tool use hard to verify and hard to optimize, because useful evidence, redundant exploration, and unsupported reasoning are mixed in the same trajectory. We introduce TRACER, a framework for verifiable generative provenance in multimodal tool-using agents. Instead of adding citations after generation, TRACER generates each answer sentence together with a structured provenance record that identifies the supporting tool turn, evidence unit, and semantic support relation. Its relation space contains Quotation, Compression, and Inference, covering direct reuse, faithful condensation, and grounded derivation. TRACER verifies each record through schema checking, tool-turn alignment, source authenticity, and relation rationality, and then converts verified provenance into traceability constraints and provenance-derived local credit for reinforcement learning. We further construct TRACE-Bench, a benchmark for sentence-level provenance reconstruction from coarse multimodal tool trajectories. On TRACE-Bench, simply adding tools often introduces noise. With Qwen3-VL-8B, TRACER reaches 78.23% answer accuracy and 95.72% summary accuracy, outperforming the strongest closed-source tool-augmented baseline by 23.80 percentage points. Compared with tool-only supervised fine-tuning, it also reduces total test-set tool calls from 4949 to 3486. These results show that reliable multimodal tool reasoning depends on provenance-aware use of observations, not on more tool calls alone.",
+    "url": "http://arxiv.org/abs/2605.09934v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.09934v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.11026v1",
+    "title": "AgentShield: Deception-based Compromise Detection for Tool-using LLM Agents",
+    "authors": [
+      "Yassin H. Rassul",
+      "Tarik A. Rashid"
+    ],
+    "abstract": "Defenses against indirect prompt injection (IPI) in tool-using LLM agents share two structural weaknesses. First, they all attempt to prevent attacks rather than detect the compromises that slip through. Second, they have only been evaluated in English, leaving users of low-resource languages such as Kurdish and Arabic without tested protection. This paper addresses both gaps with AgentShield, a deception-based detection framework that places three layers of traps inside the agent's tool interface: fake tools, fake credentials, and allowlisted parameters. The same trap triggers serve as high-precision labels for a self-supervised classifier. An LLM agent that follows an attacker's hidden instruction almost always touches one of these traps, which gives both a real-time compromise signal and a zero-FP label for training a downstream detector without manual annotation. Across 176 cross-lingual attack prompts and four LLMs from three providers, and because modern LLMs already refuse most IPI attempts on their own (attack success rate <= 10%), AgentShield's job is to catch the attacks that do slip through. On commercial models, it catches 90.7%-100% of such successful attacks, with zero false alarms on 485 normal-use tests. It survives a systematic adaptive-attack evaluation with zero evasion on commercial models, and the self-supervised classifier transfers across models and languages without retraining.",
+    "url": "http://arxiv.org/abs/2605.11026v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11026v1",
+    "published": "2026-05-10",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.11514v1",
+    "title": "FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems",
+    "authors": [
+      "Fanxiao Li",
+      "Jiaying Wu",
+      "Tingchao Fu",
+      "Natasha Jaques",
+      "Wei Zhou"
+    ],
+    "abstract": "Multi-agent systems (MAS) powered by large language models (LLMs) increasingly adopt planner--executor architectures, where planners convert prompts into subtasks, roles, dependencies, and routing paths. This flexibility enables adaptive coordination, but exposes an attack surface in workflow formation: prompts can shape agent organization without modifying MAS infrastructure. We study this risk through social influence probing workflows to identify high-impact subtasks and malicious-signal propagation. The analysis reveals two vulnerabilities: workflow position can amplify or suppress a malicious signal, and sycophantic framing makes downstream agents more likely to relay it. We translate these findings into FlowSteer, a prompt-only workflow steering attack that converts vulnerability priors into one crafted prompt. FlowSteer aligns a malicious signal with influential task components and guides replanning toward dependencies that preserve propagation. Experiments show that FlowSteer increases malicious success by up to 55% over naive prompting, transfers across MAS setups, and remains effective with black-box topology inference. As FlowSteer biases the planning signals that generate the workflow, MAS defenses that inspect only the generated workflow provide limited protection. As such, we introduce FlowGuard, an input-side defense that reduces malicious success by up to 34% while preserving prompt utility. Our results position workflow formation as a new safety frontier for multi-agent LLM systems, opening a planning-time security perspective on how agent coordination itself can be attacked and defended.",
+    "url": "http://arxiv.org/abs/2605.11514v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11514v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.11225v1",
+    "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+    "authors": [
+      "Tuo Zhang",
+      "Alin-Ionut Popa",
+      "Yan Xu",
+      "Rui Song",
+      "Dimitrios Dimitriadis"
+    ],
+    "abstract": "Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended horizons. PIVOT (Plan-Inspect-eVOlve Trajectories) addresses this plan-execution misalignment through a self-supervised framework that treats trajectories as optimizable objects iteratively refined via environment interaction. The framework comprises four stages: PLAN generates candidate trajectories; INSPECT executes them and computes structured losses with textual gradients encoding plan-execution discrepancies; EVOLVE applies these signals to produce improved trajectories; and VERIFY performs a final global check against task constraints. A monotonic acceptance process ensures a non-decreasing solution quality. Empirical evaluations on DeepPlanning and GAIA demonstrate state-of-the-art performance: with human-in-the-loop (HITL) feedback, PIVOT establishes a strong upper bound up to 94% relative improvement in constraint satisfaction, while its fully autonomous variant retains substantial gains, showing that the core trajectory-refinement mechanism remains effective without external supervision. At the same time, PIVOT remains computationally efficient, requiring up to 3x to 5x fewer tokens than competing refinement methods. These findings establish that (self- or human-supervised) feedback-based trajectory optimization is a principled methodology for mitigating plan-execution gaps in autonomous agent systems.",
+    "url": "http://arxiv.org/abs/2605.11225v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11225v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.11453v1",
+    "title": "Predictive Maps of Multi-Agent Reasoning: A Successor-Representation Spectrum for LLM Communication Topologies",
+    "authors": [
+      "Ethan David James Park",
+      "Dalal Alharthi"
+    ],
+    "abstract": "Practitioners deploying multi-agent large language model (LLM) systems must currently choose between communication topologies such as chain, star, mesh, and richer variants without any pre-inference diagnostic for which topology will amplify drift, converge to consensus, or remain robust under perturbation. Existing evaluation answers these questions only post hoc and only for the task measured. We introduce a structural diagnostic for multi-agent LLM communication graphs based on the successor representation $M = (I - γP)^{-1}$ of the row-stochastic communication operator, and we connect three of its spectral quantities, the spectral radius $ρ(M)$, the spectral gap $Δ(M)$, and the condition number $κ(M)$, to three distinct failure modes. We derive closed-form spectra for the chain, star, and mesh under row-stochastic normalization, and validate the predictions on a 12-step structured state-tracking task with Qwen2.5-7B-Instruct over 100 independent trials. The condition number is a perfect rank-order predictor of empirical perturbation robustness ($r_s = 1.0$); the spectral gap partially predicts consensus dynamics ($r_s = 0.5$); and the spectral radius is perfectly \\emph{inverted} with respect to cumulative error ($r_s = -1.0$). We trace this inversion to a regime in which linear spectra are blind to non-contracting bias drift, and we propose an affine-noise extension of the predictive map that recovers the empirical ordering. We read this as a first step toward representational, drift-aware structural diagnostics for multi-agent LLM systems, sitting alongside classical spectral and consensus theory.",
+    "url": "http://arxiv.org/abs/2605.11453v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11453v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.LG",
+      "cs.SI",
+      "math.SP"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.10698v1",
+    "title": "The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions",
+    "authors": [
+      "Dahlia Shehata",
+      "Ming Li"
+    ],
+    "abstract": "Multi-agent systems (MAS) assume that collaborating inherently improves Large Language Model (LLM) reasoning. We challenge this by demonstrating that simulated social pressure triggers an algorithmic ``Bystander Effect,'' inducing severe cognitive loafing. By evaluating 22,500 deterministic trajectories across 3 dataset contexts (GAIA, SWE-bench, Multi-Challenge) with 3 state-of-the-art (SOTA) models, we semantically audit internal reasoning traces against external outputs. We formalize the \\textit{Interaction Depth Limit} ($D_L$), the exact plurality threshold where an agent's logical sovereignty collapses into social compliance. Crucially, we uncover the \\textit{Sovereignty Gap}: models frequently compute the correct derivation internally but suffer ``Alignment Hallucinations'' -- actively subjugating empirical evidence to sycophantically appease a simulated swarm. We prove that multi-agent social load is strictly non-commutative; the \"brand\" identity of the ``Lead Anchor'' auditor disproportionately dictates the swarm's integrity. These findings expose architectural vulnerabilities, proving that unstructured multi-agent topologies can degrade independent reasoning.",
+    "url": "http://arxiv.org/abs/2605.10698v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10698v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.10106v1",
+    "title": "ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models",
+    "authors": [
+      "Tingshu Mou",
+      "Jiabo He",
+      "Renying Wang",
+      "Ce Liu",
+      "Hao Yang"
+    ],
+    "abstract": "Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated benchmarks, leaving the inference-time approach relatively underexplored. In this paper, we take a training-free perspective and introduce ViSRA, a human-aligned Video-based Spatial Reasoning Agent, as a framework to probe the spatial reasoning mechanism of MLLMs. ViSRA elicits spatial reasoning in a modular and extensible manner by leveraging explicit spatial information from expert models, enabling a plug-and-play flexible paradigm. ViSRA offers two key advantages: (1) human-aligned and transferable 3D understanding rather than task-specific overfitting; and (2) no post-training computational cost along with heavy manual curation of spatial reasoning datasets. Experimental results demonstrate consistent improvement across a set of MLLMs on both existing benchmarks and unseen 3D spatial reasoning tasks, with ViSRA outperforming baselines by up to a 15.6% and 28.9% absolute margin respectively.",
+    "url": "http://arxiv.org/abs/2605.10106v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10106v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.10057v2",
+    "title": "STAR: Failure-Aware Markovian Routing for Multi-Agent Spatiotemporal Reasoning",
+    "authors": [
+      "Ruiyi Yang",
+      "Lihuan Li",
+      "Hao Xue",
+      "Flora D. Salim"
+    ],
+    "abstract": "Compositional spatiotemporal reasoning often requires a system to invoke multiple heterogeneous specialists, such as geometric, temporal, topological, and trajectory agents. A central question is how such a system should route among specialists when execution does not simply succeed or fail, but fails in qualitatively different ways. Existing tool-augmented and multi-agent LLM systems typically leave this routing decision implicit in language generation, making recovery ad hoc, difficult to interpret, and hard to optimize. This paper presents STAR (Spatio-Temporal Agent Router), a failure-aware routing framework that externalizes inter-agent control as a state-conditioned transition policy over the current agent, task type, and typed execution status. At the center of STARis an agent routing matrix that combines expert-specified nominal routes with recovery transitions learned from execution traces. Because the matrix conditions on distinct failure states, the router can respond differently to malformed outputs, missing dependencies, and tool--query mismatches, rather than collapsing them into a generic retry signal. Specialists execute through a tool-grounded extract--compute--deposit protocol and write intermediate results to a shared blackboard for downstream fusion. Results prove that retaining unsuccessful traces during training enlarges the support of the routing policy on error states, enabling recovery transitions that success-only training cannot represent. Across three spatiotemporal benchmarks and eight backbone LLMs, STAR improves over multiple baselines with the clearest gains on queries whose execution deviates from the nominal routing path. Router-specific ablations and recovery analyses further show that typed failure-aware routing, rather than specialist composition alone, is a key factor for these improvements.",
+    "url": "http://arxiv.org/abs/2605.10057v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.10057v2",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.09769v2",
+    "title": "UTS at PsyDefDetect: Multi-Agent Councils and Absence-Based Reasoning for Defense Mechanism Classification",
+    "authors": [
+      "Dima Galat",
+      "Marian-Andrei Rizoiu"
+    ],
+    "abstract": "This paper describes our system for classifying psychological defense mechanisms in emotional support dialogues using the Defense Mechanism Rating Scales (DMRS), placing second (F1 0.406) among 64 teams. A central insight is that defense mechanisms are defined by what is absent: missing affect, blocked cognition, denied reality. We encode this as an affect-cognition integration spectrum in prompt-level clinical rules, which account for the largest single gain (+11.4pp F1). Our architecture is a multi-phase deliberative council of Gemini 2.5 agents where class-specific advocates rate evidence strength rather than voting, achieving F1 0.382 with no fine-tuning - a top-5 result on its own. We find, however, that the council is confidently wrong about minority classes: 59-80% of stable minority predictions are incorrect, driven by a systematic \"L7 attractor\" in which emotional content defaults to the majority class. A targeted override ensemble from three fine-tuned Qwen3.5 models applies 16 overrides (+2.4pp), selected by a structured multi-agent system (builder, critic, regression guard) that produced a larger F1 gain in one iteration than 8 prior attempts combined.",
+    "url": "http://arxiv.org/abs/2605.09769v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.09769v2",
+    "published": "2026-05-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
