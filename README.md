@@ -24,6 +24,40 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-14
+
+**15 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive](http://arxiv.org/abs/2605.11518v1) | Taicheng Guo, Nitesh V. Chawla, Olaf Wiest et al. | Effectively configuring scalable large language model (LLM) experiments, spanning architecture design, hyperparameter tuning, and beyond, is crucial for advancing LLM research, as poor configuratio... |
+| [Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](http://arxiv.org/abs/2605.10663v1) | Zhiyuan Fan, Wenwei Jin, Feng Zhang et al. | Experience-driven self-evolving agents aim to overcome the static nature of large language models by distilling reusable experience from past interactions, thus enabling adaptation to novel tasks a... |
+| [ToolMol: Evolutionary Agentic Framework for Multi-objective Drug Discovery](http://arxiv.org/abs/2605.12784v1) | Andrew Y. Zhou, Sharvaree Vadgama, Sumanth Varambally et al. | Advances in large language models (LLMs) have recently opened new and promising avenues for small-molecule drug discovery. |
+| [DataMaster: Data-Centric Autonomous AI Research](http://arxiv.org/abs/2605.10906v2) | Yaxin Du, Xiyuan Yang, Zhifan Zhou et al. | As model families, training recipes, and compute budgets become increasingly standardized, further gains in machine learning systems depend increasingly on data. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents](http://arxiv.org/abs/2605.13481v1) | Mikhail Menschikov, Matvey Iskornev, Alexander Kharitonov et al. | We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). |
+| [FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems](http://arxiv.org/abs/2605.11514v1) | Fanxiao Li, Jiaying Wu, Tingchao Fu et al. | Multi-agent systems (MAS) powered by large language models (LLMs) increasingly adopt planner--executor architectures, where planners convert prompts into subtasks, roles, dependencies, and routing ... |
+| [PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement](http://arxiv.org/abs/2605.11225v1) | Tuo Zhang, Alin-Ionut Popa, Yan Xu et al. | Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning](http://arxiv.org/abs/2605.13213v1) | Hao Zhou, Tiru Wu, Yan Jiang et al. | Multi-modal multi-agent systems (MM-MAS) have gained increasing attention for their capacity to enable complex reasoning and coordination across diverse modalities. |
+| [Counterfactual Reasoning for Causal Responsibility Attribution in Probabilistic Multi-Agent Systems](http://arxiv.org/abs/2605.13077v1) | Chunyan Mu, Muhammad Najib | Responsibility allocation -- determining the extent to which agents are accountable for outcomes -- is a fundamental challenge in the design and analysis of multi-agent systems. |
+| [Predictive Maps of Multi-Agent Reasoning: A Successor-Representation Spectrum for LLM Communication Topologies](http://arxiv.org/abs/2605.11453v1) | Ethan David James Park, Dalal Alharthi | Practitioners deploying multi-agent large language model (LLM) systems must currently choose between communication topologies such as chain, star, mesh, and richer variants without any pre-inferenc... |
+| [The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions](http://arxiv.org/abs/2605.10698v1) | Dahlia Shehata, Ming Li | Multi-agent systems (MAS) assume that collaborating inherently improves Large Language Model (LLM) reasoning. |
+| [Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents](http://arxiv.org/abs/2605.12894v1) | Harshita Chopra, Kshitish Ghate, Aylin Caliskan et al. | Large Language Model (LLM) agents are increasingly deployed in settings where they interact with a wide variety of people, including users who are unclear, impatient, or reluctant to share informat... |
+| [IdeaForge: A Knowledge Graph-Grounded Multi-Agent Framework for Cross-Methodology Innovation Analysis and Patent Claim Generation](http://arxiv.org/abs/2605.13311v1) | Joy Bose | Current AI-assisted innovation systems typically apply a single ideation methodology (such as TRIZ or Design Thinking) using sequential prompt-based workflows that do not preserve intermediate reas... |
+| [A Multi-Agent Orchestration Framework for Venture Capital Due Diligence](http://arxiv.org/abs/2605.13110v1) | Grigorios Alexandrou, Katerina Pramatari | We present a fully automated multi-agent framework for corporate due diligence and market analysis in venture capital. |
+| [An agentic framework for gravitational-wave counterpart association in the multi-messenger era](http://arxiv.org/abs/2605.10584v1) | Yiming Dong, Yacheng Kang, Junjie Zhao et al. | With the detection of gravitational waves (GWs), multi-messenger astronomy has opened a new window for advancing our understanding of astrophysics, dense matter, gravitation, and cosmology. |
+
 ### 📅 2026-05-13
 
 **13 new papers found**

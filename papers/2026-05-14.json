@@ -1,0 +1,305 @@
+[
+  {
+    "id": "2605.11518v1",
+    "title": "AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive",
+    "authors": [
+      "Taicheng Guo",
+      "Nitesh V. Chawla",
+      "Olaf Wiest",
+      "Xiangliang Zhang"
+    ],
+    "abstract": "Effectively configuring scalable large language model (LLM) experiments, spanning architecture design, hyperparameter tuning, and beyond, is crucial for advancing LLM research, as poor configuration choices can waste substantial computational resources and prevent models from realizing their full potential. Prior automated methods are designed for low-cost settings where repeated trial and error is feasible, but scalable LLM experiments are too expensive for such extensive iteration. To our knowledge, no work has addressed the automation of high-cost LLM experiment configurations, leaving this problem labor-intensive and dependent on expert intuition. Motivated by this gap, we propose AutoLLMResearch, an agentic framework that mimics how human researchers learn generalizable principles from low-fidelity experiments and extrapolate to efficiently identify promising configurations in expensive LLM settings. The core challenge is how to enable an agent to learn, through interaction with a multi-fidelity experimental environment that captures the structure of the LLM configuration landscape. To achieve this, we propose a systematic framework with two key components: 1) LLMConfig-Gym, a multi-fidelity environment encompassing four critical LLM experiment tasks, supported by over one million GPU hours of verifiable experiment outcomes; 2) A structured training pipeline that formulates configuration research as a long-horizon Markov Decision Process and accordingly incentivizes cross-fidelity extrapolation reasoning. Extensive evaluation against diverse strong baselines on held-out experiments demonstrates the effectiveness, generalization, and interpretability of our framework, supporting its potential as a practical and general solution for scalable real-world LLM experiment automation.",
+    "url": "http://arxiv.org/abs/2605.11518v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11518v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.10663v1",
+    "title": "Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents",
+    "authors": [
+      "Zhiyuan Fan",
+      "Wenwei Jin",
+      "Feng Zhang",
+      "Bin Li",
+      "Yihong Dong"
+    ],
+    "abstract": "Experience-driven self-evolving agents aim to overcome the static nature of large language models by distilling reusable experience from past interactions, thus enabling adaptation to novel tasks at deployment time. This process places substantial demands on the foundation model's capacities for abstraction, generalization, and in-context learning. However, most existing studies focus primarily on system-level design choices, such as how experience is represented and managed, neglecting the inherent capabilities of the underlying model. While some recent works have started to optimize the experience utilization stage via reinforcement learning, they still fail to treat self-evolution as a unified process to be jointly optimized. To this end, we propose Evolving-RL, an efficient algorithmic framework that jointly improves the experience extraction and utilization capabilities required for self-evolution. Specifically, we center the learning process on experience extraction and evaluation, using the two supervisory signals derived from evaluation to optimize the extractor and solver separately and thus enable their coordinated co-evolution. Experiments on ALFWorld and Mind2Web show that Evolving-RL effectively enhances LLMs' ability to extract and reuse experience, leading to strong performance gains on out-of-distribution tasks (up to 98.7% relative improvement over the GRPO baseline on ALFWorld unseen tasks and 35.8% on Mind2Web), and these gains are fully unlocked only through the coordinated co-evolution of experience extraction and utilization. Furthermore, Evolving-RL inherently functions as an experience-augmented RL algorithm. By internalizing reusable experience patterns directly into model parameters, it achieves remarkable performance gains over standard baselines on both seen and unseen tasks, even in the absence of test-time experience accumulation.",
+    "url": "http://arxiv.org/abs/2605.10663v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10663v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.12784v1",
+    "title": "ToolMol: Evolutionary Agentic Framework for Multi-objective Drug Discovery",
+    "authors": [
+      "Andrew Y. Zhou",
+      "Sharvaree Vadgama",
+      "Sumanth Varambally",
+      "Peter Eckmann",
+      "Michael K. Gilson"
+    ],
+    "abstract": "Advances in large language models (LLMs) have recently opened new and promising avenues for small-molecule drug discovery. Yet existing LLM-based approaches for molecular generation often suffer from high rates of invalid and low-quality ligand candidates, a result of the syntactic limitations of current models with regard to molecular strings. In this paper, we introduce $\\texttt{ToolMol}$, an evolutionary agentic framework for de novo drug design. $\\texttt{ToolMol}$ combines a multi-objective genetic algorithm with an agentic LLM operator that iteratively updates the ligand population. We build a comprehensive toolbox of RDKit-backed functions that allows our agentic operator to consisently make precise ligand modifications. $\\texttt{ToolMol}$ achieves state-of-the-art performance on multi-objective property optimization tasks, discovering drug-like and synthesizable ligands that have $>10\\%$ stronger predicted binding affinity compared to existing methods, evaluated on three protein targets. $\\texttt{ToolMol}$ ligands additionally achieve state-of-the-art results in gold-standard Absolute Binding Free Energy scores, gaining over existing methods by over $35\\%$. By studying chain-of-thought reasoning traces, we observe that tool-calling enables the model to more faithfully execute its planned modifications, efficiently exploiting the strong chemical prior knowledge in LLMs.",
+    "url": "http://arxiv.org/abs/2605.12784v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.12784v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "q-bio.QM"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.10906v2",
+    "title": "DataMaster: Data-Centric Autonomous AI Research",
+    "authors": [
+      "Yaxin Du",
+      "Xiyuan Yang",
+      "Zhifan Zhou",
+      "Wanxu Liu",
+      "Zixing Lei"
+    ],
+    "abstract": "As model families, training recipes, and compute budgets become increasingly standardized, further gains in machine learning systems depend increasingly on data. Yet data engineering remains largely manual and ad hoc: practitioners repeatedly search for external datasets, adapt them to existing pipelines, validate candidate data through downstream training, and carry forward lessons from prior attempts. We study task-conditioned autonomous data engineering, where an autonomous agent improves a fixed learning algorithm by optimizing only the data side, including external data discovery, data selection and composition, cleaning and transformation. The goal is to obtain a stronger downstream solution while leaving the learning algorithm unchanged. To address the open-ended search space, branch-dependent refinement, and delayed validation inherent in autonomous data engineering, we propose DataMaster, a data-agent framework that integrates tree-structured search, shared candidate data, and cumulative memory. DataMaster consists of three key components: a DataTree that organizes alternative data-engineering branches, a shared Data Pool that stores discovered external data sources for reuse, and a Global Memory that records node outcomes, artifacts, and reusable findings. Together, these components allow the agent to discover candidate data, construct executable training inputs, evaluate them through downstream feedback, and carry useful evidence across branches. We evaluate DataMaster on two types of benchmarks, MLE-Bench Lite and PostTrainBench. On MLE-Bench Lite, it improves medal rate by 32.27% over the initial score; on PostTrainBench, it surpasses the instruct model on GPQA (31.02% vs 30.35%).",
+    "url": "http://arxiv.org/abs/2605.10906v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.10906v2",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.13481v1",
+    "title": "PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents",
+    "authors": [
+      "Mikhail Menschikov",
+      "Matvey Iskornev",
+      "Alexander Kharitonov",
+      "Alina Bogdanova",
+      "Mikhail Belkin"
+    ],
+    "abstract": "We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). The proposed approach addresses key limitations of existing Graph Retrieval-Augmented Generation (GraphRAG) methods by incorporating a dynamic, multistage query processing pipeline. The central point of PAI-2 design is its ability to perform adaptive, iterative information search, guided by extracted entities, matched graph vertices and generated clue-queries. Conducted evaluation over six benchmarks (Natural Questions, TriviaQA, HotpotQA, 2WikiMultihopQA, MuSiQue and DiaASQ) demonstrates improvement in factual correctness of generating answers compared to analogues methods (LightRAG, RAPTOR, and HippoRAG 2). PAI-2 achieves 4% average gain by LLM-as-a-Judge across four benchmarks, reflecting its effectiveness in reducing hallucination rates and increasing precision. We show that use of graph traversal algorithms (e.g. BeamSearch, WaterCircles) gain superior results compared to standard flatten retriever on average 6%, while enabled search plan enhancement mechanism gain 18% boost compared to disabled one by LLM-as-a-Judge across six datasets. In addition, ablation study reveals that PAI-2 achieves the SOTA result on MINE-1 benchmark, achieving 89% information-retention score, using LLMs from 7-14B tiers. Collectively, these findings underscore the potential of PAI-2 to serve as a foundational model for next-generation personalized AI applications, requiring scalable, context-aware knowledge representation and reasoning capabilities.",
+    "url": "http://arxiv.org/abs/2605.13481v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.13481v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.11514v1",
+    "title": "FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems",
+    "authors": [
+      "Fanxiao Li",
+      "Jiaying Wu",
+      "Tingchao Fu",
+      "Natasha Jaques",
+      "Wei Zhou"
+    ],
+    "abstract": "Multi-agent systems (MAS) powered by large language models (LLMs) increasingly adopt planner--executor architectures, where planners convert prompts into subtasks, roles, dependencies, and routing paths. This flexibility enables adaptive coordination, but exposes an attack surface in workflow formation: prompts can shape agent organization without modifying MAS infrastructure. We study this risk through social influence probing workflows to identify high-impact subtasks and malicious-signal propagation. The analysis reveals two vulnerabilities: workflow position can amplify or suppress a malicious signal, and sycophantic framing makes downstream agents more likely to relay it. We translate these findings into FlowSteer, a prompt-only workflow steering attack that converts vulnerability priors into one crafted prompt. FlowSteer aligns a malicious signal with influential task components and guides replanning toward dependencies that preserve propagation. Experiments show that FlowSteer increases malicious success by up to 55% over naive prompting, transfers across MAS setups, and remains effective with black-box topology inference. As FlowSteer biases the planning signals that generate the workflow, MAS defenses that inspect only the generated workflow provide limited protection. As such, we introduce FlowGuard, an input-side defense that reduces malicious success by up to 34% while preserving prompt utility. Our results position workflow formation as a new safety frontier for multi-agent LLM systems, opening a planning-time security perspective on how agent coordination itself can be attacked and defended.",
+    "url": "http://arxiv.org/abs/2605.11514v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11514v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.11225v1",
+    "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+    "authors": [
+      "Tuo Zhang",
+      "Alin-Ionut Popa",
+      "Yan Xu",
+      "Rui Song",
+      "Dimitrios Dimitriadis"
+    ],
+    "abstract": "Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended horizons. PIVOT (Plan-Inspect-eVOlve Trajectories) addresses this plan-execution misalignment through a self-supervised framework that treats trajectories as optimizable objects iteratively refined via environment interaction. The framework comprises four stages: PLAN generates candidate trajectories; INSPECT executes them and computes structured losses with textual gradients encoding plan-execution discrepancies; EVOLVE applies these signals to produce improved trajectories; and VERIFY performs a final global check against task constraints. A monotonic acceptance process ensures a non-decreasing solution quality. Empirical evaluations on DeepPlanning and GAIA demonstrate state-of-the-art performance: with human-in-the-loop (HITL) feedback, PIVOT establishes a strong upper bound up to 94% relative improvement in constraint satisfaction, while its fully autonomous variant retains substantial gains, showing that the core trajectory-refinement mechanism remains effective without external supervision. At the same time, PIVOT remains computationally efficient, requiring up to 3x to 5x fewer tokens than competing refinement methods. These findings establish that (self- or human-supervised) feedback-based trajectory optimization is a principled methodology for mitigating plan-execution gaps in autonomous agent systems.",
+    "url": "http://arxiv.org/abs/2605.11225v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11225v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.13213v1",
+    "title": "Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning",
+    "authors": [
+      "Hao Zhou",
+      "Tiru Wu",
+      "Yan Jiang",
+      "Wanqi Zhou",
+      "Junxing Hu"
+    ],
+    "abstract": "Multi-modal multi-agent systems (MM-MAS) have gained increasing attention for their capacity to enable complex reasoning and coordination across diverse modalities. As these systems continue to expand in scale and functionality, investigating their potential vulnerabilities has become increasingly important. However, existing studies on adversarial attacks in multi-agent systems primarily focus on isolated agents or unimodal settings, leaving the vulnerabilities of MM-MAS largely underexplored. To bridge this gap, we introduce HAM$^{3}$, a Hierarchical Attack framework for multi-modal multi-agent systems that decomposes attacks into three interconnected layers. Specifically, at the perception layer, HAM$^{3}$ mounts attacks by perturbing visual inputs, textual inputs, and their fused visual-textual representations. At the communication layer, it performs communication-level attacks that corrupt message content and interaction topology, such as manipulating shared context or communication links to distort collective information flow. At the reasoning layer, it conducts reasoning-level attacks that interfere with each agent's cognitive pipeline, biasing reasoning trajectories and ultimately compromising final decisions. We evaluate HAM$^{3}$ on the GQA benchmark through multi-agent systems built on distinct reasoning paradigms including ReAct, Plan-and-Solve, and Reflexion. Experiments demonstrate that our framework achieves an Attack Success Rate of up to 78.3%, with reasoning-layer attacks being the most effective. More than half of the successful attacks lead multiple agents to produce consistent errors. These findings offer valuable insights for building more robust and interpretable multi-agent intelligence.",
+    "url": "http://arxiv.org/abs/2605.13213v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.13213v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.13077v1",
+    "title": "Counterfactual Reasoning for Causal Responsibility Attribution in Probabilistic Multi-Agent Systems",
+    "authors": [
+      "Chunyan Mu",
+      "Muhammad Najib"
+    ],
+    "abstract": "Responsibility allocation -- determining the extent to which agents are accountable for outcomes -- is a fundamental challenge in the design and analysis of multi-agent systems. In this work, we model such systems as concurrent stochastic multi-player games and introduce a notion of retrospective (backward) counterfactual responsibility, which quantifies an agent's accountability for outcomes resulting from a given strategy profile. To allocate responsibility among agents, we utilise the Shapley value and formally show that this method satisfies key desirable properties, including fairness and consistency. Building on this foundation, we propose a formal framework that supports both verification and strategic reasoning in responsibility-aware multi-agent systems. Furthermore, by adopting Nash equilibrium as the solution concept, we demonstrate how to compute stable strategy profiles in which agents trade off responsibility against expected reward.",
+    "url": "http://arxiv.org/abs/2605.13077v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.13077v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.11453v1",
+    "title": "Predictive Maps of Multi-Agent Reasoning: A Successor-Representation Spectrum for LLM Communication Topologies",
+    "authors": [
+      "Ethan David James Park",
+      "Dalal Alharthi"
+    ],
+    "abstract": "Practitioners deploying multi-agent large language model (LLM) systems must currently choose between communication topologies such as chain, star, mesh, and richer variants without any pre-inference diagnostic for which topology will amplify drift, converge to consensus, or remain robust under perturbation. Existing evaluation answers these questions only post hoc and only for the task measured. We introduce a structural diagnostic for multi-agent LLM communication graphs based on the successor representation $M = (I - γP)^{-1}$ of the row-stochastic communication operator, and we connect three of its spectral quantities, the spectral radius $ρ(M)$, the spectral gap $Δ(M)$, and the condition number $κ(M)$, to three distinct failure modes. We derive closed-form spectra for the chain, star, and mesh under row-stochastic normalization, and validate the predictions on a 12-step structured state-tracking task with Qwen2.5-7B-Instruct over 100 independent trials. The condition number is a perfect rank-order predictor of empirical perturbation robustness ($r_s = 1.0$); the spectral gap partially predicts consensus dynamics ($r_s = 0.5$); and the spectral radius is perfectly \\emph{inverted} with respect to cumulative error ($r_s = -1.0$). We trace this inversion to a regime in which linear spectra are blind to non-contracting bias drift, and we propose an affine-noise extension of the predictive map that recovers the empirical ordering. We read this as a first step toward representational, drift-aware structural diagnostics for multi-agent LLM systems, sitting alongside classical spectral and consensus theory.",
+    "url": "http://arxiv.org/abs/2605.11453v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.11453v1",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.LG",
+      "cs.SI",
+      "math.SP"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.10698v1",
+    "title": "The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions",
+    "authors": [
+      "Dahlia Shehata",
+      "Ming Li"
+    ],
+    "abstract": "Multi-agent systems (MAS) assume that collaborating inherently improves Large Language Model (LLM) reasoning. We challenge this by demonstrating that simulated social pressure triggers an algorithmic ``Bystander Effect,'' inducing severe cognitive loafing. By evaluating 22,500 deterministic trajectories across 3 dataset contexts (GAIA, SWE-bench, Multi-Challenge) with 3 state-of-the-art (SOTA) models, we semantically audit internal reasoning traces against external outputs. We formalize the \\textit{Interaction Depth Limit} ($D_L$), the exact plurality threshold where an agent's logical sovereignty collapses into social compliance. Crucially, we uncover the \\textit{Sovereignty Gap}: models frequently compute the correct derivation internally but suffer ``Alignment Hallucinations'' -- actively subjugating empirical evidence to sycophantically appease a simulated swarm. We prove that multi-agent social load is strictly non-commutative; the \"brand\" identity of the ``Lead Anchor'' auditor disproportionately dictates the swarm's integrity. These findings expose architectural vulnerabilities, proving that unstructured multi-agent topologies can degrade independent reasoning.",
+    "url": "http://arxiv.org/abs/2605.10698v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10698v1",
+    "published": "2026-05-11",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.12894v1",
+    "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
+    "authors": [
+      "Harshita Chopra",
+      "Kshitish Ghate",
+      "Aylin Caliskan",
+      "Tadayoshi Kohno",
+      "Chirag Shah"
+    ],
+    "abstract": "Large Language Model (LLM) agents are increasingly deployed in settings where they interact with a wide variety of people, including users who are unclear, impatient, or reluctant to share information. However, collecting real interaction data at scale remains expensive. The field has turned to LLM-based user simulators as stand-ins, but these simulators inherit the behavior of their underlying models: cooperative and homogeneous. As a result, agents that appear strong in simulation often fail under the unseen, diverse communication patterns of real users. To narrow this gap, we introduce Persona Policies (PPol), a plug-and-play control layer that induces realistic behavioral variation in user simulators while preserving the original task goals. Rather than hand-crafting personas, we cast persona generation as an LLM-driven evolutionary program search that optimizes a Python generator to discover behaviors and translate them into task-preserving roleplay policies. Candidate generators are guided by a multi-objective fitness score combining human-likeness with broad coverage of human behavioral patterns. Once optimized, the generator produces a diverse population of human-like personas for any task in the domain. Across tau^2-bench retail and airline domains, evolved PPol programs yield 33-62% absolute gains in fitness score over the baseline simulator. In a blinded evaluation, annotators rated PPol-conditioned users as human 80.4% of the time, close to real human traces and nearly twice as frequently as baseline simulators. Agents trained with PPol are more robust to challenging, out-of-distribution behaviors, improving task success by +17% relative to training only on existing simulated interactions. This offers a novel approach to strengthen simulator-based evaluation and training without changing tasks or rewards.",
+    "url": "http://arxiv.org/abs/2605.12894v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.12894v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.13311v1",
+    "title": "IdeaForge: A Knowledge Graph-Grounded Multi-Agent Framework for Cross-Methodology Innovation Analysis and Patent Claim Generation",
+    "authors": [
+      "Joy Bose"
+    ],
+    "abstract": "Current AI-assisted innovation systems typically apply a single ideation methodology (such as TRIZ or Design Thinking) using sequential prompt-based workflows that do not preserve intermediate reasoning structure. As a result, insights generated across methodologies remain fragmented, limiting traceability, synthesis, and systematic evaluation of novelty. We present IdeaForge, a knowledge graph-grounded multi-agent framework for innovation analysis and patent claim generation. IdeaForge integrates multiple innovation methodologies (TRIZ, Design Thinking, and SCAMPER) through specialist agents operating over a persistent FalkorDB knowledge graph. Each agent contributes structured entities and relationships representing contradictions, inventive principles, user needs, transformations, analogies, and candidate claims. The central contribution of IdeaForge is a cross-methodology convergence mechanism implemented through graph-based claim linkage. Claims independently supported by multiple methodologies are connected using CONVERGENT relationships, enabling identification of high-confidence innovation candidates through graph traversal. A downstream patent drafting agent generates structured patent drafts grounded in convergent claim subgraphs, reducing reliance on unconstrained language model generation. An InnovationScore formula ranks claims by convergent support, methodology diversity, claim strength, and prior art challenge count. We describe the graph schema, agent architecture, convergence detection pipeline, and patent synthesis workflow. Experiments on a legal technology use case demonstrate that graph-grounded multi-methodology synthesis produces more diverse and traceable innovation candidates compared to single-methodology baselines. We discuss implications for computational creativity, explainable AI-assisted invention, and graph-native innovation systems.",
+    "url": "http://arxiv.org/abs/2605.13311v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.13311v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.AI",
+      "cs.IR",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.13110v1",
+    "title": "A Multi-Agent Orchestration Framework for Venture Capital Due Diligence",
+    "authors": [
+      "Grigorios Alexandrou",
+      "Katerina Pramatari"
+    ],
+    "abstract": "We present a fully automated multi-agent framework for corporate due diligence and market analysis in venture capital. The system runs on an event-driven orchestration architecture, combining Large Language Models (LLMs) with real-time web retrieval to synthesize unstructured data into structured investment intelligence. A central technical contribution is a programmatic extraction pipeline that reverse-engineers the frontend-to-backend communication of the Greek Business Registry ($Γ$.E.MH.), querying dynamic endpoints to retrieve official financial filings that are then parsed using a layout-aware OCR extractor. A structural fallback mechanism explicitly flags data absence rather than generating unverified figures, directly targeting hallucination in financial contexts. All workflow artifacts are publicly available to support replication.",
+    "url": "http://arxiv.org/abs/2605.13110v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.13110v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.10584v1",
+    "title": "An agentic framework for gravitational-wave counterpart association in the multi-messenger era",
+    "authors": [
+      "Yiming Dong",
+      "Yacheng Kang",
+      "Junjie Zhao",
+      "Xinyuan Zhu",
+      "Ziming Wang"
+    ],
+    "abstract": "With the detection of gravitational waves (GWs), multi-messenger astronomy has opened a new window for advancing our understanding of astrophysics, dense matter, gravitation, and cosmology. The GW sources detected to date are from mergers of compact object binaries, which possess the potential to generate detectable electromagnetic (EM) counterparts. Searching for associations between GW signals and their EM counterparts is an essential step toward enabling subsequent multi-messenger studies. In the era of next-generation GW and EM detectors, the rapid increase in the number of events brings not only unprecedented scientific opportunities, but also substantial challenges to the existing data analysis paradigm. To help address these challenges, we develop GW-Eyes, an agentic framework powered by large language models (LLMs). For the first time, GW-Eyes integrates domain-specific tools and autonomously performs counterpart association tasks between GW and candidate EM events. It supports natural language interaction to assist human experts with auxiliary tasks such as catalog management, skymap visualization, and rapid verification. Our framework leverages the complex decision-making capabilities of LLMs and their traceable reasoning processes, offering a new perspective to the multi-messenger astronomy.",
+    "url": "http://arxiv.org/abs/2605.10584v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.10584v1",
+    "published": "2026-05-11",
+    "categories": [
+      "astro-ph.IM",
+      "cs.AI",
+      "gr-qc"
+    ],
+    "primary_category": "astro-ph.IM",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
