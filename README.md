@@ -24,6 +24,28 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-15
+
+**3 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolMol: Evolutionary Agentic Framework for Multi-objective Drug Discovery](http://arxiv.org/abs/2605.12784v2) | Andrew Y. Zhou, Sharvaree Vadgama, Sumanth Varambally et al. | Advances in large language models (LLMs) have recently opened new and promising avenues for small-molecule drug discovery. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents](http://arxiv.org/abs/2605.13481v1) | Mikhail Menschikov, Matvey Iskornev, Alexander Kharitonov et al. | We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification](http://arxiv.org/abs/2605.14495v1) | Truong Thanh Hung Nguyen, Vo Thanh Khang Nguyen, Hoang-Loc Cao et al. | Multimedia verification requires not only accurate conclusions but also transparent and contestable reasoning. |
+
 ### 📅 2026-05-14
 
 **15 new papers found**

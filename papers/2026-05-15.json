@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2605.12784v2",
+    "title": "ToolMol: Evolutionary Agentic Framework for Multi-objective Drug Discovery",
+    "authors": [
+      "Andrew Y. Zhou",
+      "Sharvaree Vadgama",
+      "Sumanth Varambally",
+      "Peter Eckmann",
+      "Michael K. Gilson"
+    ],
+    "abstract": "Advances in large language models (LLMs) have recently opened new and promising avenues for small-molecule drug discovery. Yet existing LLM-based approaches for molecular generation often suffer from high rates of invalid and low-quality ligand candidates, a result of the syntactic limitations of current models with regard to molecular strings. In this paper, we introduce $\\texttt{ToolMol}$, an evolutionary agentic framework for de novo drug design. $\\texttt{ToolMol}$ combines a multi-objective genetic algorithm with an agentic LLM operator that iteratively updates the ligand population. We build a comprehensive toolbox of RDKit-backed functions that allows our agentic operator to consisently make precise ligand modifications. $\\texttt{ToolMol}$ achieves state-of-the-art performance on multi-objective property optimization tasks, discovering drug-like and synthesizable ligands that have $>10\\%$ stronger predicted binding affinity compared to existing methods, evaluated on three protein targets. $\\texttt{ToolMol}$ ligands additionally achieve state-of-the-art results in gold-standard Absolute Binding Free Energy scores, gaining over existing methods by over $35\\%$. By studying chain-of-thought reasoning traces, we observe that tool-calling enables the model to more faithfully execute its planned modifications, efficiently exploiting the strong chemical prior knowledge in LLMs.",
+    "url": "http://arxiv.org/abs/2605.12784v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.12784v2",
+    "published": "2026-05-12",
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "q-bio.QM"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.13481v1",
+    "title": "PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents",
+    "authors": [
+      "Mikhail Menschikov",
+      "Matvey Iskornev",
+      "Alexander Kharitonov",
+      "Alina Bogdanova",
+      "Mikhail Belkin"
+    ],
+    "abstract": "We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). The proposed approach addresses key limitations of existing Graph Retrieval-Augmented Generation (GraphRAG) methods by incorporating a dynamic, multistage query processing pipeline. The central point of PAI-2 design is its ability to perform adaptive, iterative information search, guided by extracted entities, matched graph vertices and generated clue-queries. Conducted evaluation over six benchmarks (Natural Questions, TriviaQA, HotpotQA, 2WikiMultihopQA, MuSiQue and DiaASQ) demonstrates improvement in factual correctness of generating answers compared to analogues methods (LightRAG, RAPTOR, and HippoRAG 2). PAI-2 achieves 4% average gain by LLM-as-a-Judge across four benchmarks, reflecting its effectiveness in reducing hallucination rates and increasing precision. We show that use of graph traversal algorithms (e.g. BeamSearch, WaterCircles) gain superior results compared to standard flatten retriever on average 6%, while enabled search plan enhancement mechanism gain 18% boost compared to disabled one by LLM-as-a-Judge across six datasets. In addition, ablation study reveals that PAI-2 achieves the SOTA result on MINE-1 benchmark, achieving 89% information-retention score, using LLMs from 7-14B tiers. Collectively, these findings underscore the potential of PAI-2 to serve as a foundational model for next-generation personalized AI applications, requiring scalable, context-aware knowledge representation and reasoning capabilities.",
+    "url": "http://arxiv.org/abs/2605.13481v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.13481v1",
+    "published": "2026-05-13",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.14495v1",
+    "title": "Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification",
+    "authors": [
+      "Truong Thanh Hung Nguyen",
+      "Vo Thanh Khang Nguyen",
+      "Hoang-Loc Cao",
+      "Phuc Ho",
+      "Van Pham"
+    ],
+    "abstract": "Multimedia verification requires not only accurate conclusions but also transparent and contestable reasoning. We propose a contestable multi-agent framework that integrates multimodal large language models, external verification tools, and arena-based quantitative bipolar argumentation (A-QBAF) as a submission to the ICMR 2026 Grand Challenge on Multimedia Verification. Our method decomposes each case into claim-centered sections, retrieves targeted evidence, and converts evidence into structured support and attack arguments with provenance and strength scores. These arguments are resolved through small local argument graphs with selective clash resolution and uncertainty-aware escalation. The resulting system generates section-wise verification reports that are transparent, editable, and computationally practical for real-world multimedia verification. Our implementation is public at: https://github.com/Analytics-Everywhere-Lab/MV2026_the_liems.",
+    "url": "http://arxiv.org/abs/2605.14495v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.14495v1",
+    "published": "2026-05-14",
+    "categories": [
+      "cs.MM",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MM",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
