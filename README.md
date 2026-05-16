@@ -24,6 +24,43 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-16
+
+**18 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents](http://arxiv.org/abs/2605.13481v1) | Mikhail Menschikov, Matvey Iskornev, Alexander Kharitonov et al. | We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification](http://arxiv.org/abs/2605.14495v1) | Truong Thanh Hung Nguyen, Vo Thanh Khang Nguyen, Hoang-Loc Cao et al. | Multimedia verification requires not only accurate conclusions but also transparent and contestable reasoning. |
+| [A Deterministic Agentic Workflow for HS Tariff Classification: Multi-Dimensional Rule Reasoning with Interpretable Decisions](http://arxiv.org/abs/2605.14857v1) | Yu Zhang, Dongjiang Zhuang, Qu Zhou et al. | Harmonized System (HS) tariff classification is a high-stakes, expert-level task in which a free-form product description must be mapped to a specific six- or eight-digit code under the General Int... |
+| [IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification](http://arxiv.org/abs/2605.14851v1) | Zhigao Huang, Zhengqing Hu, Dong Chen et al. | Operational plan generation and verification are critical for modern complex and rapidly changing battlefield environments, yet traditional generation and verification methods still respectively fa... |
+| [Agentic AI Ecosystems in Higher Education: A Perspective on AI Agents to Emerging Inclusive, Agentic Multi-Agent AI Framework for Learning, Teaching and Institutional Intelligence](http://arxiv.org/abs/2605.14266v1) | Vidya K Sudarshan, Anushka Sisodia, Reshma A Ramachandra et al. | Integration of artificial intelligent (AI) agents in higher education is transforming teaching, learning and administrative processes. |
+| [IdeaForge: A Knowledge Graph-Grounded Multi-Agent Framework for Cross-Methodology Innovation Analysis and Patent Claim Generation](http://arxiv.org/abs/2605.13311v1) | Joy Bose | Current AI-assisted innovation systems typically apply a single ideation methodology (such as TRIZ or Design Thinking) using sequential prompt-based workflows that do not preserve intermediate reas... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Cattle Trade: A Multi-Agent Benchmark for LLM Bluffing, Bidding, and Bargaining](http://arxiv.org/abs/2605.14537v1) | Robert Müller, Clemens Müller | We introduce \textsc{Cattle Trade, a multi-agent benchmark for evaluating large language models (LLMs) as agents in strategic reasoning under imperfect information, adversarial interaction, and res... |
+| [When Robots Do the Chores: A Benchmark and Agent for Long-Horizon Household Task Execution](http://arxiv.org/abs/2605.14504v1) | Zilin Zhu, Longteng Guo, Yanghong Mei et al. | Long-horizon household tasks demand robust high-level planning and sustained reasoning capabilities, which are largely overlooked by existing embodied AI benchmarks that emphasize short-horizon nav... |
+| [SWE-Chain: Benchmarking Coding Agents on Chained Release-Level Package Upgrades](http://arxiv.org/abs/2605.14415v1) | Man Ho Lam, Chaozheng Wang, Hange Liu et al. | Coding agents powered by large language models are increasingly expected to perform realistic software maintenance tasks beyond isolated issue resolution. |
+| [Herculean: An Agentic Benchmark for Financial Intelligence](http://arxiv.org/abs/2605.14355v1) | Xueqing Peng, Zhuohan Xie, Yupeng Cao et al. | As AI agents improve, the central question is no longer whether they can solve isolated well-defined financial tasks, but whether they can reliably carry out financial professional work. |
+| [Are Agents Ready to Teach? A Multi-Stage Benchmark for Real-World Teaching Workflows](http://arxiv.org/abs/2605.14322v1) | Zixin Chen, Peng Liu, Rui Sheng et al. | Language agents are increasingly deployed in complex professional workflows, with tutoring emerging as a particularly high-stakes capability that remains largely unmeasured in existing benchmarks. |
+| [ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents](http://arxiv.org/abs/2605.14153v1) | Seunghyun Lee, David Brumley | Exploitation is not a binary event. It is a ladder of acquiring progressive capabilities, from executing a single buggy line of code to taking full control of the target. |
+| [ClawForge: Generating Executable Interactive Benchmarks for Command-Line Agents](http://arxiv.org/abs/2605.14133v1) | Yuxiang Lai, Peng Xia, Haonian Ji et al. | Interactive agent benchmarks face a tension between scalable construction and realistic workflow evaluation. |
+| [PolitNuggets: Benchmarking Agentic Discovery of Long-Tail Political Facts](http://arxiv.org/abs/2605.14002v1) | Yifei Zhu | Large Reasoning Models (LRMs) embedded in agentic frameworks have transformed information retrieval from static, long context question answering into open-ended exploration. |
+| [Collider-Bench: Benchmarking AI Agents with Particle Physics Analysis Reproduction](http://arxiv.org/abs/2605.13950v1) | Darius A. Faroughy, Sofia Palacios Schweitzer, Ian Pang et al. | Autonomous language-model agents are increasingly evaluated on long-horizon tool-use tasks, but existing benchmarks rarely capture the complexity and nuance of real scientific work. |
+| [RealICU: Do LLM Agents Understand Long-Context ICU Data? A Benchmark Beyond Behavior Imitation](http://arxiv.org/abs/2605.13542v1) | Chengzhi Shen, Weixiang Shen, Tobias Susetzky et al. | Intensive care units (ICU) generate long, dense and evolving streams of clinical information, where physicians must repeatedly reassess patient states under time pressure, underscoring a clear need... |
+| [From Text to Voice: A Reproducible and Verifiable Framework for Evaluating Tool Calling LLM Agents](http://arxiv.org/abs/2605.15104v1) | Md Tahmid Rahman Laskar, Xue-Yong Fu, Seyyed Saeed Sarfjoo et al. | Voice agents increasingly require reliable tool use from speech, whereas prominent tool-calling benchmarks remain text-based. |
+| [GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations](http://arxiv.org/abs/2605.14498v1) | Jingbo Yang, Kwei-Herng Lai, Xiaowen Wang et al. | Large Language Model (LLM) agents increasingly serve as personal assistants and workplace collaborators, where their utility depends on memory systems that extract, retrieve, and apply information ... |
+
 ### 📅 2026-05-15
 
 **3 new papers found**
