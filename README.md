@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-17
+
+**2 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Deterministic Agentic Workflow for HS Tariff Classification: Multi-Dimensional Rule Reasoning with Interpretable Decisions](http://arxiv.org/abs/2605.14857v1) | Yu Zhang, Dongjiang Zhuang, Qu Zhou et al. | Harmonized System (HS) tariff classification is a high-stakes, expert-level task in which a free-form product description must be mapped to a specific six- or eight-digit code under the General Int... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Text to Voice: A Reproducible and Verifiable Framework for Evaluating Tool Calling LLM Agents](http://arxiv.org/abs/2605.15104v1) | Md Tahmid Rahman Laskar, Xue-Yong Fu, Seyyed Saeed Sarfjoo et al. | Voice agents increasingly require reliable tool use from speech, whereas prominent tool-calling benchmarks remain text-based. |
+
 ### 📅 2026-05-16
 
 **18 new papers found**
