@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-18
+
+**2 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Look Before You Leap: Autonomous Exploration for LLM Agents](http://arxiv.org/abs/2605.16143v1) | Ziang Ye, Wentao Shi, Yuxin Liu et al. | Large language model based agents often fail in unfamiliar environments due to premature exploitation: a tendency to act on prior knowledge before acquiring sufficient environment-specific informat... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ShopGym: An Integrated Framework for Realistic Simulation and Scalable Benchmarking of E-Commerce Web Agents](http://arxiv.org/abs/2605.16116v1) | Chinmay Savadikar, Mingyu Zhao, Yuanzheng Zhu et al. | Developing and evaluating e-commerce web agents requires environments that preserve meaningful task structure while enabling controllable, reproducible, and scalable scientific comparison. |
+
 ### 📅 2026-05-17
 
 **2 new papers found**
