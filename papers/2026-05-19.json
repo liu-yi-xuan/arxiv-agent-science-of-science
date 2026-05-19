@@ -1,0 +1,142 @@
+[
+  {
+    "id": "2605.17976v1",
+    "title": "Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery",
+    "authors": [
+      "Xinzhe Yuan",
+      "Zhuo Chen",
+      "Jianshu Zhang",
+      "Huan Xiong",
+      "Nanyang Ye"
+    ],
+    "abstract": "Scientific discovery is increasingly constrained by costly experiments and limited resources, underscoring the need for efficient optimization in AI for science. Bayesian Optimization (BO), though widely adopted for balancing exploration and exploitation, often exhibits slow cold-start performance and poor scalability in high-dimensional settings, limiting its applicability in real-world scientific problems. To overcome these challenges, we propose LLM-Guided Bayesian Optimization (LGBO), the first LLM preference-guided BO framework that continuously integrates the semantic reasoning of large language models (LLMs) into the optimization loop. Unlike prior works that use LLMs only for warm-start initialization or candidate generation, LGBO introduces a region-lifted preference mechanism that embeds LLM-driven preferences into every iteration, shifting the surrogate mean in a stable and controllable way. Theoretically, we prove that LGBO does not perform significantly worse than standard BO in the worst case, while achieving significantly faster convergence when preferences align with the objective. Empirically, LGBO consistently outperforms existing methods across diverse dry benchmarks in physics, chemistry, biology, and materials science. Most notably, in a new wet-lab optimization of Fe-Cr battery electrolytes, LGBO attains \\textbf{90\\% of the best observed value within 6 iterations}, whereas standard BO and existing LLM-augmented baselines require more than 10. Together, these results suggest that LGBO offers a promising direction for integrating LLMs into scientific optimization workflows.",
+    "url": "http://arxiv.org/abs/2605.17976v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.17976v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.AI",
+      "math.OC"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.18144v1",
+    "title": "Evidence-Grounded Frontier Mapping and Agentic Hypothesis Generation in Nanomedicine",
+    "authors": [
+      "Christiaan G. A. Viviers",
+      "Koen de Bruin",
+      "Mirre M. Trines",
+      "Ayla M. Hokke",
+      "Roy van der Meel"
+    ],
+    "abstract": "Nanomedicine research spans delivery chemistry, immunology, imaging, biomaterials, and disease-specific translational science, yet its conceptual design space remains fragmented across a large and heterogeneous literature. To date, artificial intelligence in nanomedicine has focused primarily on property prediction and formulation optimization, with much less attention to evidence-grounded discovery support at the level of research direction selection. We introduce pArticleMap, a literature-mapping and research-hypothesis-generation system that combines article embeddings, similarity-graph analysis, sparse frontier extraction, structured evidence-pack retrieval, and an audited large-language-model (LLM) workflow for grounded ideation. Rather than forecasting future concept co-occurrence, pArticleMap targets low-density article-level bridge regions and cluster interfaces, then generates and scores citation-grounded hypotheses with large language models in an agentic setup. We evaluate the system with a retrospective realization benchmark (generate later literature under a historical cutoff) and a blinded human reader assessment layer across cue-conditioned nanomedicine tasks. Across 4 selected retrospective bundles, pArticleMap generated ideas and selected task-retained hypotheses (winner ideas) under the benchmark protocol. For task-level retained hypotheses, a pooled gold recovery rate of 10.8% was obtained, with a recall@10 of 15.9% and a future-neighborhood rate of 61.0%, indicating that the system often reached the correct forward-looking neighborhood (paper ideas) even without exact paper-level recovery. Human-agent agreement is modest overall, indicating that internal scoring is useful as a support signal but does not replace expert judgment. These results position pArticleMap as a conservative, evidence-grounded research assistant for nanomedicine.",
+    "url": "http://arxiv.org/abs/2605.18144v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18144v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.17746v1",
+    "title": "Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science",
+    "authors": [
+      "Yingjie Zhang",
+      "Chun Feng",
+      "Weizhang Zhu",
+      "Tianshu Sun"
+    ],
+    "abstract": "AI systems are becoming active participants in organizational and knowledge work. They increasingly interact with humans, coordinate workflows, and operate in multi-agent arrangements. Understanding their effects therefore requires more than measuring output accuracy; it requires evidence about mechanisms, delegation, feedback, and control. Experiments remain central to this task, but they also face a recursive challenge: we need experiments for agents to study these arrangements, and we may need agents for experiments to help search the expanding space of possible designs. Yet experimental conditions for human-AI and agentic workflows are still largely specified in prose, making them difficult to compare, reuse, or audit. We frame this as a problem of workflow representation, traceability, and governance in AI-enabled knowledge production. We introduce SEED (Structural Encoding for Experimental Discovery), a framework that represents experimental conditions as typed actor-flow graphs. SEED supports three design functions: describing conditions as interaction structures, evaluating structural novelty relative to encoded prior designs, and generating candidate designs under feasibility and governance constraints. We report a lightweight empirical feasibility test that compares graph-blind and SEEDguided generation in a medical-triage design task. In this diagnostic contrast, SEED-guided candidate designs show clearer actor-flow changes, assumptions, and governance checks, supporting the feasibility of the grammar as a design aid. The commentary closes by identifying governance tensions around novelty, replication, validity, diversity of inquiry, and accountability.",
+    "url": "http://arxiv.org/abs/2605.17746v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.17746v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.17721v1",
+    "title": "EXG: Self-Evolving Agents with Experience Graphs",
+    "authors": [
+      "Yuxin Jin",
+      "Siyuan Zhang",
+      "Hanchen Wang",
+      "Lu Qin",
+      "Ying Zhang"
+    ],
+    "abstract": "Large language model (LLM)-based agents have demonstrated strong capabilities in complex reasoning and problem solving through multi-step interactions, yet most deployed agents remain behaviorally static, with knowledge acquired during execution rarely translating into systematic improvement over time. In response, a growing line of work on self-evolving agents explores how agents can improve through experience during deployment, but most existing approaches either rely on ad hoc reflection limited to single-task correction or adopt unstructured memory that accumulates fragmented experience with delayed usability. To address this limitation, we introduce EXG, an experience graph framework for self-evolving agents that explicitly organizes accumulated successes and failures into a structured, relational representation. EXG is the first experience graph designed for self-evolving agents, supporting both online, real-time graph growth during execution for immediate cross-task experience reuse, and offline reuse of a consolidated experience graph as an external memory module. This design also enables EXG to serve as a plug-and-play component for existing self-evolving agents, organizing prior experience into a unified experience graph and improving both solution quality and resource efficiency as deployment progresses. Extensive experiments across code generation and reasoning benchmarks show that EXG attains more favorable performance-efficiency trade-offs than reflection- and memory-based baselines in both online and offline evaluations. Our results suggest that structuring experience as a graph provides a principled foundation for scalable and transferable self-evolving agent behavior.",
+    "url": "http://arxiv.org/abs/2605.17721v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.17721v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.18703v1",
+    "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
+    "authors": [
+      "Minrui Xu",
+      "Zilin Wang",
+      "Mengyi DENG",
+      "Zhiwei Li",
+      "Zhicheng Yang"
+    ],
+    "abstract": "Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of realistic training data that captures implicit human reasoning. Existing approaches depend on costly real-world APIs, hallucination-prone LLM simulators, or synthetic environments that are often single-turn or depend on pre-collected documents. Moreover, synthetic trajectories are frequently over-specified, resembling instruction sequences rather than natural human intents, reducing their effectiveness for RL training. We introduce EnvFactory, a fully automated framework that addresses both challenges. EnvFactory autonomously explores and verifies stateful, executable tool environments from authentic resources, and synthesizes natural multi-turn trajectories through topology-aware sampling and calibrated refinement, producing grounded queries with implicit intents. Using only 85 verified environments across 7 domains, EnvFactory generates 2,575 SFT and RL trajectories. Despite using significantly fewer environments than prior work, which are often 5 times more, EnvFactory achieves superior training efficiency and downstream performance, improving Qwen3-series models by up to +15% on BFCLv3, +8.6% on MCP-Atlas, and +6% on conversational benchmarks including $τ^2$-Bench and VitaBench. By fully automating both environment construction and trajectory synthesis, EnvFactory provides a scalable, extensible, and robust foundation for Agentic RL.",
+    "url": "http://arxiv.org/abs/2605.18703v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18703v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.18572v1",
+    "title": "MA$^{2}$P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion",
+    "authors": [
+      "Dingyi Zhang",
+      "Ziqing Zhuang",
+      "Linhai Zhang",
+      "Ziyang Gao",
+      "Deyu Zhou"
+    ],
+    "abstract": "Persuasive dialogue generation plays a vital role in decision-making, negotiation, counseling, and behavior change, yet it remains a challenging problem. In complex persuasion where the persuadee's internal states are not expressed clearly, the persuader must interpret responses, infer the persuadee's latent mental states (e.g., beliefs and desires), and translate them into targeted, strategy-consistent actions; however, current approaches often produce generic or weakly grounded responses even when such cues are identified. Moreover, although large language models (LLMs) can generate persuasive content, their performance varies substantially across domains due to uneven knowledge coverage and limited reasoning generalization. To address these challenges, we propose MA$^{2}$P, a meta-cognitive autonomous intelligent agent framework for complex persuasion. Specifically, we develop an autonomous multi-agent architecture that coordinates perception management, mental-state inference, strategy execution, memory maintenance, and performance evaluation. To mitigate cross-domain performance variation, we further design a meta-cognitive configurator that selects an appropriate meta-strategy from a structured knowledge base at the outset, thereby guiding subsequent reasoning and planning. Experimental results show that our approach achieves a higher persuasion success rate than baselines.",
+    "url": "http://arxiv.org/abs/2605.18572v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18572v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.17072v1",
+    "title": "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
+    "authors": [
+      "Chengrui Han",
+      "Zesheng Cheng"
+    ],
+    "abstract": "Existing LLM-driven knowledge graph (KG) construction methods predominantly employ stateless batch processing pipelines, exhibiting structural deficiencies in cross-chunk semantic relation capture, entity disambiguation, and construction process interpretability. These limitations undermine KG quality, retrieval precision, and deployment trust in high-stakes domains.   We propose RAGA (Reading And Graph-building Agent), an LLM-based autonomous KG construction and retrieval fusion framework. RAGA provides an atomic toolset supporting full KG lifecycle CRUD operations and embeds a Read-Search-Verify-Construct cognitive constraint into a ReAct tool loop. A KG-vector synchronization mechanism enables hybrid symbolic-vector retrieval, while evidence-anchored verification links every knowledge entry to its source text for auditable provenance.   Preliminary experiments on a subset of the QASPER scientific QA dataset indicate that RAGA's fusion retrieval outperforms zero-shot baselines, with KG integration providing measurable gains in both answer and evidence quality. The framework design and experimental baseline serve as a reference for agent-driven autonomous KG construction.",
+    "url": "http://arxiv.org/abs/2605.17072v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.17072v1",
+    "published": "2026-05-16",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  }
+]

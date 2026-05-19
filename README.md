@@ -24,6 +24,27 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-19
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery](http://arxiv.org/abs/2605.17976v1) | Xinzhe Yuan, Zhuo Chen, Jianshu Zhang et al. | Scientific discovery is increasingly constrained by costly experiments and limited resources, underscoring the need for efficient optimization in AI for science. |
+| [Evidence-Grounded Frontier Mapping and Agentic Hypothesis Generation in Nanomedicine](http://arxiv.org/abs/2605.18144v1) | Christiaan G. A. Viviers, Koen de Bruin, Mirre M. Trines et al. | Nanomedicine research spans delivery chemistry, immunology, imaging, biomaterials, and disease-specific translational science, yet its conceptual design space remains fragmented across a large and ... |
+| [Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science](http://arxiv.org/abs/2605.17746v1) | Yingjie Zhang, Chun Feng, Weizhang Zhu et al. | AI systems are becoming active participants in organizational and knowledge work. They increasingly interact with humans, coordinate workflows, and operate in multi-agent arrangements. |
+| [EXG: Self-Evolving Agents with Experience Graphs](http://arxiv.org/abs/2605.17721v1) | Yuxin Jin, Siyuan Zhang, Hanchen Wang et al. | Large language model (LLM)-based agents have demonstrated strong capabilities in complex reasoning and problem solving through multi-step interactions, yet most deployed agents remain behaviorally ... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL](http://arxiv.org/abs/2605.18703v1) | Minrui Xu, Zilin Wang, Mengyi DENG et al. | Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of ... |
+| [MA$^{2}$P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion](http://arxiv.org/abs/2605.18572v1) | Dingyi Zhang, Ziqing Zhuang, Linhai Zhang et al. | Persuasive dialogue generation plays a vital role in decision-making, negotiation, counseling, and behavior change, yet it remains a challenging problem. |
+| [RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation](http://arxiv.org/abs/2605.17072v1) | Chengrui Han, Zesheng Cheng | Existing LLM-driven knowledge graph (KG) construction methods predominantly employ stateless batch processing pipelines, exhibiting structural deficiencies in cross-chunk semantic relation capture,... |
+
 ### 📅 2026-05-18
 
 **2 new papers found**
