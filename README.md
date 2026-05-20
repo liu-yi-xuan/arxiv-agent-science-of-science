@@ -24,6 +24,59 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-20
+
+**24 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery](http://arxiv.org/abs/2605.17976v1) | Xinzhe Yuan, Zhuo Chen, Jianshu Zhang et al. | Scientific discovery is increasingly constrained by costly experiments and limited resources, underscoring the need for efficient optimization in AI for science. |
+| [Evidence-Grounded Frontier Mapping and Agentic Hypothesis Generation in Nanomedicine](http://arxiv.org/abs/2605.18144v1) | Christiaan G. A. Viviers, Koen de Bruin, Mirre M. Trines et al. | Nanomedicine research spans delivery chemistry, immunology, imaging, biomaterials, and disease-specific translational science, yet its conceptual design space remains fragmented across a large and ... |
+| [OEP: Poisoning Self-Evolving LLM Agents via Locally Correct but Non-Transferable Experiences](http://arxiv.org/abs/2605.18930v1) | Kaixiang Wang, Jiong Lou, Zhaojiacheng Zhou et al. | Memory-augmented large language model (LLM) agents use iterative reflection and self-evolution to solve complex tasks, but these mechanisms introduce security risks. |
+| [Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science](http://arxiv.org/abs/2605.17746v1) | Yingjie Zhang, Chun Feng, Weizhang Zhu et al. | AI systems are becoming active participants in organizational and knowledge work. They increasingly interact with humans, coordinate workflows, and operate in multi-agent arrangements. |
+| [EXG: Self-Evolving Agents with Experience Graphs](http://arxiv.org/abs/2605.17721v1) | Yuxin Jin, Siyuan Zhang, Hanchen Wang et al. | Large language model (LLM)-based agents have demonstrated strong capabilities in complex reasoning and problem solving through multi-step interactions, yet most deployed agents remain behaviorally ... |
+| [AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration](http://arxiv.org/abs/2605.20025v1) | Jiaqi Liu, Shi Qiu, Mairui Li et al. | Automating scientific discovery requires more than generating papers from ideas. Real research is iterative: hypotheses are challenged from multiple perspectives, experiments fail and inform the ne... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL](http://arxiv.org/abs/2605.18703v1) | Minrui Xu, Zilin Wang, Mengyi DENG et al. | Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of ... |
+| [MA$^{2}$P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion](http://arxiv.org/abs/2605.18572v1) | Dingyi Zhang, Ziqing Zhuang, Linhai Zhang et al. | Persuasive dialogue generation plays a vital role in decision-making, negotiation, counseling, and behavior change, yet it remains a challenging problem. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Conflict-Resilient Multi-Agent Reasoning via Signed Graph Modeling](http://arxiv.org/abs/2605.19418v1) | Longgang He, Longzhu He, Daojing He et al. | LLM-based multi-agent systems (MAS) have demonstrated strong reasoning and decision-making capabilities that consistently surpass those of single LLM agents. |
+| [STAR-PólyaMath: Multi-Agent Reasoning under Persistent Meta-Strategic Supervision](http://arxiv.org/abs/2605.19338v1) | Jiaao Wu, Xian Zhang, Hanzhang Liu et al. | Frontier AI models and multi-agent systems have led to significant improvements in mathematical reasoning. |
+| [A Closed-loop, State-centric, Multi-agent Framework for Passenger Load Estimation from Heterogeneous Data Streams](http://arxiv.org/abs/2605.19834v1) | Yiyao Xu, Hao Zhou, Yuhang Wang et al. | To support operations and passenger-facing services, transit agencies need reliable passenger load trajectories. |
+| [EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design](http://arxiv.org/abs/2605.19743v1) | Gioele Molinari, Florian Felten, Soheyl Massoudi et al. | Large Language Model (LLM) agents are increasingly applied to engineering design tasks, yet existing evaluation frameworks do not adequately address multi-agent systems that combine simulation, ret... |
+| [Whispers in the Noise: Surrogate-Guided Concept Awakening via a Multi-Agent Framework](http://arxiv.org/abs/2605.18150v1) | Mengyu Sun, Ziyuan Yang, Zunlong Zhou et al. | Diffusion models (DMs) are widely used for text-to-image generation, but their strong generative capabilities also raise concerns about unsafe or undesirable content. |
+| [Interaction-Breaking Adversarial Learning Framework for Robust Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2605.18024v1) | Sunwoo Lee, Mingu Kang, Yonghyeon Jo et al. | Cooperation is central to multi-agent reinforcement learning (MARL), yet learned coordination can be fragile when external perturbations disrupt inter-agent interactions. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Global training and the collaborative structure of elite U.S. science](http://arxiv.org/abs/2605.18715v1) | Erjia Yan, Chaoqun Ni, Xiang Zheng | Globally trained scientific labor is a substantial component of U.S. universities, yet the organizational mechanisms linking foreign degree training to elite scientific output remain poorly underst... |
+| [General Science Ranking (GSR): An Open-Source, Citation-Normalized Journal and Conference Classification System for Computer Science and Medicine](http://arxiv.org/abs/2605.17657v1) | Zhikai Yu | The academic journal zoning system is central to evaluating research talent, funding, and institutions. |
+| [Temporal Decay of Co-Citation Predictability: A 20-Year Statute Retrieval Benchmark from 396M Ukrainian Court Citations](http://arxiv.org/abs/2605.17639v1) | Volodymyr Ovcharov | Co-citation structure is widely assumed to provide stable retrieval signal in legal information systems. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CutVerse: A Compositional GUI Agents Benchmark for Media Post-Production Editing](http://arxiv.org/abs/2605.19484v1) | Haobo Hu, Xiangwu Guo, Zhiheng Chen et al. | While GUI agents have made significant progress in web navigation and basic operating system tasks, their capabilities in professional creative workflows remain largely underexplored. |
+| [POLAR-Bench: A Diagnostic Benchmark for Privacy-Utility Trade-offs in LLM Agents](http://arxiv.org/abs/2605.19127v1) | Qiaoyuan Zheng, Yiqu Yang, Qi Gao et al. | LLM agents increasingly have access to private user data and act on the user's behalf when interacting with third-party systems. |
+| [DecisionBench: A Benchmark for Emergent Delegation in Long-Horizon Agentic Workflows](http://arxiv.org/abs/2605.19099v1) | Yuxuan Gao, Megan Wang, Yi Ling Yu et al. | We introduce DecisionBench, a benchmark substrate for emergent delegation in long-horizon agentic workflows. |
+| [SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents](http://arxiv.org/abs/2605.18693v1) | Yifan Zhou, Zhentao Zhang, Ziming Cheng et al. | As LLM agents are increasingly built around reusable skills, a central challenge is no longer only whether agents can use provided skills, but whether they can generate correct, reusable, and execu... |
+| [EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective](http://arxiv.org/abs/2605.18421v1) | Yuyao Wang, Zhongjian Zhang, Mo Chi et al. | Recent benchmarks for Large Language Model (LLM) agents mainly evaluate reasoning, planning, and execution. |
+| [LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injectio](http://arxiv.org/abs/2605.17986v1) | Lei Zhao, Abhay Bhaskar, Edgar Dobriban | AI agents such as OpenClaw are increasingly deployed in local workflows with access to external tools. |
+| [Evaluating Deep Research Agents on Expert Consulting Work: A Benchmark with Verifiers, Rubrics, and Cognitive Traps](http://arxiv.org/abs/2605.17554v1) | Tanmay Asthana, Aman Saksena, Divyansh Sahu | Frontier deep research agents (DRAs) plan a research task, synthesize across documents, and return a structured deliverable on demand. |
+
 ### 📅 2026-05-19
 
 **7 new papers found**
