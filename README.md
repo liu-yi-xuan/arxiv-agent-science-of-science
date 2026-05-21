@@ -24,6 +24,43 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-21
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Training Language Agents to Learn from Experience](http://arxiv.org/abs/2605.20477v1) | Yuval Shalev, Zifeng Ding, Mateja Jamnik | Language agents can adapt from experience in interactive environments, but current reflection-based methods can only self-correct within a single task instance. |
+| [OEP: Poisoning Self-Evolving LLM Agents via Locally Correct but Non-Transferable Experiences](http://arxiv.org/abs/2605.18930v1) | Kaixiang Wang, Jiong Lou, Zhaojiacheng Zhou et al. | Memory-augmented large language model (LLM) agents use iterative reflection and self-evolution to solve complex tasks, but these mechanisms introduce security risks. |
+| [AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists](http://arxiv.org/abs/2605.21481v1) | Junshu Pan, Panzhong Lu, Yixuan Weng et al. | Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing sy... |
+| [On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists](http://arxiv.org/abs/2605.20668v1) | Seungone Kim, Dongkeun Yoon, Kiril Gashteovski et al. | With the advancement of AI capabilities, AI reviewers are beginning to be deployed in scientific peer review, yet their capability and credibility remain in question: many scientists simply view th... |
+| [AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration](http://arxiv.org/abs/2605.20025v1) | Jiaqi Liu, Shi Qiu, Mairui Li et al. | Automating scientific discovery requires more than generating papers from ideas. Real research is iterative: hypotheses are challenged from multiple perspectives, experiments fail and inform the ne... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL](http://arxiv.org/abs/2605.18703v1) | Minrui Xu, Zilin Wang, Mengyi DENG et al. | Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of ... |
+| [MA$^{2}$P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion](http://arxiv.org/abs/2605.18572v1) | Dingyi Zhang, Ziqing Zhuang, Linhai Zhang et al. | Persuasive dialogue generation plays a vital role in decision-making, negotiation, counseling, and behavior change, yet it remains a challenging problem. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Conflict-Resilient Multi-Agent Reasoning via Signed Graph Modeling](http://arxiv.org/abs/2605.19418v1) | Longgang He, Longzhu He, Daojing He et al. | LLM-based multi-agent systems (MAS) have demonstrated strong reasoning and decision-making capabilities that consistently surpass those of single LLM agents. |
+| [STAR-PólyaMath: Multi-Agent Reasoning under Persistent Meta-Strategic Supervision](http://arxiv.org/abs/2605.19338v1) | Jiaao Wu, Xian Zhang, Hanzhang Liu et al. | Frontier AI models and multi-agent systems have led to significant improvements in mathematical reasoning. |
+| [COAgents: Multi-Agent Framework to Learn and Navigate Routing Problems Search Space](http://arxiv.org/abs/2605.20618v1) | Oleksandr Yakovenko, Mahdi Mostajabdaveh, Cheikh Ahmed et al. | Although Vehicle Routing Problems (VRP) are essential to many real-world systems, they remain computationally intractable at scale due to their combinatorial complexity. |
+| [A Closed-loop, State-centric, Multi-agent Framework for Passenger Load Estimation from Heterogeneous Data Streams](http://arxiv.org/abs/2605.19834v1) | Yiyao Xu, Hao Zhou, Yuhang Wang et al. | To support operations and passenger-facing services, transit agencies need reliable passenger load trajectories. |
+| [EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design](http://arxiv.org/abs/2605.19743v1) | Gioele Molinari, Florian Felten, Soheyl Massoudi et al. | Large Language Model (LLM) agents are increasingly applied to engineering design tasks, yet existing evaluation frameworks do not adequately address multi-agent systems that combine simulation, ret... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Global training and the collaborative structure of elite U.S. science](http://arxiv.org/abs/2605.18715v1) | Erjia Yan, Chaoqun Ni, Xiang Zheng | Globally trained scientific labor is a substantial component of U.S. universities, yet the organizational mechanisms linking foreign degree training to elite scientific output remain poorly underst... |
+
 ### 📅 2026-05-20
 
 **24 new papers found**

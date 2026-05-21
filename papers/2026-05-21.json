@@ -1,0 +1,269 @@
+[
+  {
+    "id": "2605.20477v1",
+    "title": "Training Language Agents to Learn from Experience",
+    "authors": [
+      "Yuval Shalev",
+      "Zifeng Ding",
+      "Mateja Jamnik"
+    ],
+    "abstract": "Language agents can adapt from experience in interactive environments, but current reflection-based methods can only self-correct within a single task instance. Whether such experience can be distilled into reusable lessons that improve performance on future unseen tasks remains unclear. We address this problem by introducing the In-context Training (ICT) task, a framework for evaluating cross-task self-improvement in language agents. In ICT, a reflector model observes trajectories collected by an actor model and generates system prompts intended to improve the actor's performance on future unseen tasks. We then propose an RL-based training pipeline for learning such reflections directly from experience, without human-provided examples. Across ALFWorld and MiniHack, our trained reflectors outperform an untrained baseline on most held-out task families, showing that the ability to learn from experience can itself be learned. In some cases, we observe generalisation beyond the benchmark on which the reflector was trained, to substantially different environments. Finally, we introduce MetaGym, a generic Python library for constructing meta-environments, enabling future research on self-improving language agents.",
+    "url": "http://arxiv.org/abs/2605.20477v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.20477v1",
+    "published": "2026-05-19",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.18930v1",
+    "title": "OEP: Poisoning Self-Evolving LLM Agents via Locally Correct but Non-Transferable Experiences",
+    "authors": [
+      "Kaixiang Wang",
+      "Jiong Lou",
+      "Zhaojiacheng Zhou",
+      "Jie Li"
+    ],
+    "abstract": "Memory-augmented large language model (LLM) agents use iterative reflection and self-evolution to solve complex tasks, but these mechanisms introduce security risks. Existing agentic memory attacks require privileged access or explicit malicious content, making them detectable by advanced safety filters. This leaves a subtler attack surface underexplored: whether adversaries can induce agent to generate experiences that appear locally correct and semantically plausible yet induce harmful generalization during reflection. We find that reflective agents are vulnerable to such clean experiences, especially when paired with severe but plausible hypothetical consequences. Based on this observation, we introduce Obsessive Experience Poisoning (OEP), a low-privilege black-box attack requiring no direct control over the system prompt or memory database. OEP constructs adversarial clean edge-cases that combine locally correct solutions, non-transferable methods, and severe consequences, biasing reflection toward risk-averse rule formation. During memory consolidation, agents may over-trust self-generated reflections and distill localized experiences into high-priority but over-generalized rules, causing downstream failures. Evaluations across three domains show that OEP achieves ASR above 50\\% with GPT-4o agents, and outperforms existing attacks under LLM auditing defense.",
+    "url": "http://arxiv.org/abs/2605.18930v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18930v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.21481v1",
+    "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
+    "authors": [
+      "Junshu Pan",
+      "Panzhong Lu",
+      "Yixuan Weng",
+      "Qiyao Sun",
+      "Fang Guo"
+    ],
+    "abstract": "Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing systems and challenging the scalability of conference- and journal-centered paradigms amid rising submission volumes, reviewer workload, and venue size. To address these challenges, we explore an AI-era publishing paradigm in which both human and AI scientists participate as authors and readers, and papers evolve through continuous, feedback-driven iteration. We propose AiraXiv, an AI-driven open-access platform built on open preprints, AI-augmented analysis and review, and reader feedback. AiraXiv supports human scientists through an interactive UI and AI scientists through Model Context Protocol (MCP)-based interactions. We validate AiraXiv through real-world deployments, including serving as the submission platform for ICAIS 2025, demonstrating its potential as a fast, inclusive, and scalable research infrastructure for the AI era. AiraXiv is publicly available at https://airaxiv.com.",
+    "url": "http://arxiv.org/abs/2605.21481v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.21481v1",
+    "published": "2026-05-20",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.20668v1",
+    "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists",
+    "authors": [
+      "Seungone Kim",
+      "Dongkeun Yoon",
+      "Kiril Gashteovski",
+      "Juyoung Suk",
+      "Jinheon Baek"
+    ],
+    "abstract": "With the advancement of AI capabilities, AI reviewers are beginning to be deployed in scientific peer review, yet their capability and credibility remain in question: many scientists simply view them as probabilistic systems without the expertise to evaluate research, while other researchers are more optimistic about their readiness without concrete evidence. Understanding what AI reviewers do well, where they fall short, and what challenges remain is essential. However, existing evaluations of AI reviewers have focused on whether their verdicts match human verdicts (e.g., score alignment, acceptance prediction), which is insufficient to characterize their capabilities and limits. In this paper, we close this gap through a large-scale expert annotation study, in which 45 domain scientists in Physical, Biological, and Health Sciences spent 469 hours rating 2,960 individual criticisms (each targeting one specific aspect of a paper) from human-written and AI-generated reviews of 82 Nature-family papers on correctness, significance, and sufficiency of evidence. On a composite of all three dimensions, a reviewing agent powered by GPT-5.2 scores above each paper's top-rated human reviewer (60.0% vs. 48.2%, p = 0.009), while all three AI reviewers (including Gemini 3.0 Pro and Claude Opus 4.5) exceed the lowest-rated human across every dimension. AI reviewers' accurate criticisms are also more often rated significant and well-evidenced, and surface a distinct 26% of issues no human raises. However, AI reviewers overlap far more than humans do (21% vs. 3% for cross-reviewer pairs), and exhibit 16 recurring weaknesses humans do not share, such as limited subfield knowledge, lack of long context management over multiple files, and overly critical stance on minor issues. Overall, our results position current AI reviewers as complements to, not substitutes for, human reviewers.",
+    "url": "http://arxiv.org/abs/2605.20668v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.20668v1",
+    "published": "2026-05-20",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.20025v1",
+    "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+    "authors": [
+      "Jiaqi Liu",
+      "Shi Qiu",
+      "Mairui Li",
+      "Bingzhou Li",
+      "Haonian Ji"
+    ],
+    "abstract": "Automating scientific discovery requires more than generating papers from ideas. Real research is iterative: hypotheses are challenged from multiple perspectives, experiments fail and inform the next attempt, and lessons accumulate across cycles. Existing autonomous research systems often model this process as a linear pipeline: they rely on single-agent reasoning, stop when execution fails, and do not carry experience across runs. We present AutoResearchClaw, a multi-agent autonomous research pipeline built on five mechanisms: structured multi-agent debate for hypothesis generation and result analysis, a self-healing executor with a \\textsc{Pivot}/\\textsc{Refine} decision loop that transforms failures into information, verifiable result reporting that prevents fabricated numbers and hallucinated citations, human-in-the-loop collaboration with seven intervention modes spanning full autonomy to step-by-step oversight, and cross-run evolution that converts past mistakes into future safeguards. On ARC-Bench, a 25-topic experiment-stage benchmark, AutoResearchClaw outperforms AI Scientist v2 by 54.7%. A human-in-the-loop ablation across seven intervention modes reveals that precise, targeted collaboration at high-leverage decision points consistently outperforms both full autonomy and exhaustive step-by-step oversight. We position AutoResearchClaw as a research amplifier that augments rather than replaces human scientific judgment. Code is available at https://github.com/aiming-lab/AutoResearchClaw.",
+    "url": "http://arxiv.org/abs/2605.20025v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.20025v1",
+    "published": "2026-05-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.18703v1",
+    "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
+    "authors": [
+      "Minrui Xu",
+      "Zilin Wang",
+      "Mengyi DENG",
+      "Zhiwei Li",
+      "Zhicheng Yang"
+    ],
+    "abstract": "Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of realistic training data that captures implicit human reasoning. Existing approaches depend on costly real-world APIs, hallucination-prone LLM simulators, or synthetic environments that are often single-turn or depend on pre-collected documents. Moreover, synthetic trajectories are frequently over-specified, resembling instruction sequences rather than natural human intents, reducing their effectiveness for RL training. We introduce EnvFactory, a fully automated framework that addresses both challenges. EnvFactory autonomously explores and verifies stateful, executable tool environments from authentic resources, and synthesizes natural multi-turn trajectories through topology-aware sampling and calibrated refinement, producing grounded queries with implicit intents. Using only 85 verified environments across 7 domains, EnvFactory generates 2,575 SFT and RL trajectories. Despite using significantly fewer environments than prior work, which are often 5 times more, EnvFactory achieves superior training efficiency and downstream performance, improving Qwen3-series models by up to +15% on BFCLv3, +8.6% on MCP-Atlas, and +6% on conversational benchmarks including $τ^2$-Bench and VitaBench. By fully automating both environment construction and trajectory synthesis, EnvFactory provides a scalable, extensible, and robust foundation for Agentic RL.",
+    "url": "http://arxiv.org/abs/2605.18703v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18703v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.18572v1",
+    "title": "MA$^{2}$P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion",
+    "authors": [
+      "Dingyi Zhang",
+      "Ziqing Zhuang",
+      "Linhai Zhang",
+      "Ziyang Gao",
+      "Deyu Zhou"
+    ],
+    "abstract": "Persuasive dialogue generation plays a vital role in decision-making, negotiation, counseling, and behavior change, yet it remains a challenging problem. In complex persuasion where the persuadee's internal states are not expressed clearly, the persuader must interpret responses, infer the persuadee's latent mental states (e.g., beliefs and desires), and translate them into targeted, strategy-consistent actions; however, current approaches often produce generic or weakly grounded responses even when such cues are identified. Moreover, although large language models (LLMs) can generate persuasive content, their performance varies substantially across domains due to uneven knowledge coverage and limited reasoning generalization. To address these challenges, we propose MA$^{2}$P, a meta-cognitive autonomous intelligent agent framework for complex persuasion. Specifically, we develop an autonomous multi-agent architecture that coordinates perception management, mental-state inference, strategy execution, memory maintenance, and performance evaluation. To mitigate cross-domain performance variation, we further design a meta-cognitive configurator that selects an appropriate meta-strategy from a structured knowledge base at the outset, thereby guiding subsequent reasoning and planning. Experimental results show that our approach achieves a higher persuasion success rate than baselines.",
+    "url": "http://arxiv.org/abs/2605.18572v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18572v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.19418v1",
+    "title": "Conflict-Resilient Multi-Agent Reasoning via Signed Graph Modeling",
+    "authors": [
+      "Longgang He",
+      "Longzhu He",
+      "Daojing He",
+      "Chaozhuo Li"
+    ],
+    "abstract": "LLM-based multi-agent systems (MAS) have demonstrated strong reasoning and decision-making capabilities that consistently surpass those of single LLM agents. However, their performance often suffers from naive aggregation mechanisms that assume uniformly cooperative interactions. Upon close inspection, we observe that existing graph-based MAS frameworks (1) propagate errors when conflicting signals arise without control, and (2) lack explicit modeling of conflicting inter-agent relations as well as structural awareness, failing to identify reliable interaction patterns. To bridge this gap, we introduce SIGMA, a novel SIgned Graph-informed Multi-Agent reasoning framework that explicitly captures trust, conflict, and neutral relations among agents via a signed relational graph. Specifically, given a query, SIGMA first selects a set of relevant and diverse agents, then constructs a structured signed interaction graph with confidence-weighted edges. Reasoning proceeds through conflict-aware signed message passing, which reinforces information from trustworthy agents while suppressing conflicting signals, and terminates with a structure- and conflict-aware weighted aggregation to yield globally consistent and conflict-resilient predictions. Extensive experiments on six benchmark datasets, across multiple LLM backbones and diverse multi-agent configurations, demonstrate that SIGMA consistently outperforms state-of-the-art baselines, achieving notable gains in both accuracy and conflict-resilient performance.",
+    "url": "http://arxiv.org/abs/2605.19418v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.19418v1",
+    "published": "2026-05-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.19338v1",
+    "title": "STAR-PólyaMath: Multi-Agent Reasoning under Persistent Meta-Strategic Supervision",
+    "authors": [
+      "Jiaao Wu",
+      "Xian Zhang",
+      "Hanzhang Liu",
+      "Sophia Zhang",
+      "Fan Yang"
+    ],
+    "abstract": "Frontier AI models and multi-agent systems have led to significant improvements in mathematical reasoning. However, for problems requiring extended, long-horizon reasoning, existing systems continue to suffer from fundamental reliability issues: hallucination accumulation, memory fragmentation, and imbalanced reasoning-tool trade-offs. In this paper, we introduce STAR-PólyaMath, a multi-agent framework that systematically addresses these challenges through meta-level supervision and structured Reasoner-Verifier interaction. STAR-PólyaMath is structured as an orchestrated state machine with nested challenge-step-replan loops, governed by a reasoning-free Python orchestrator that separates control from inference and bounds error propagation through trace-back and re-planning. Our key innovation is a persistent Meta-Strategist that maintains cross-attempt memory and exercises meta-level control by issuing high-level strategic guidance or mandatory directives, so the system can escape unproductive loops rather than stagnate or over-rely on tools. STAR-PólyaMath achieves state-of-the-art results on all eight top-tier competition benchmarks: AIME 2025-2026, MathArena Apex Shortlist, MathArena Apex 2025, Putnam 2025, IMO 2025, HMMT February 2026, and USAMO 2026. It obtains perfect scores on AIMEs, Putnam, and HMMT, and shows its largest margin on Apex 2025, scoring 93.75% compared with 80.21% by the strongest baseline GPT-5.5. Ablation studies show that the gains arise from the framework's orchestration rather than from model-level diversity since removing key components or substituting in mixed backbones consistently weakens performance. Code is available at https://github.com/Julius-Woo/STAR-PolyaMath.",
+    "url": "http://arxiv.org/abs/2605.19338v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.19338v1",
+    "published": "2026-05-19",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.20618v1",
+    "title": "COAgents: Multi-Agent Framework to Learn and Navigate Routing Problems Search Space",
+    "authors": [
+      "Oleksandr Yakovenko",
+      "Mahdi Mostajabdaveh",
+      "Cheikh Ahmed",
+      "Abdullah Ali Sivas",
+      "Xiaorui Li"
+    ],
+    "abstract": "Although Vehicle Routing Problems (VRP) are essential to many real-world systems, they remain computationally intractable at scale due to their combinatorial complexity. Traditional heuristics rely on handcrafted rules for local improvements and occasional \\textit{jumps} to escape local minima, but often struggle to generalize across diverse instances. We introduce \\textbf{COAgents}, a cooperative multi-agent framework that models the search process as a graph: nodes represent solutions, and edges correspond to either local refinements or large perturbations for diversification (i.e., jumps). A \\textit{Partial Search Graph} (PSG) is dynamically constructed during search, enabling COAgents to train a Node Selection Agent and a Move Selection Agent to guide intensification, and a Jump Agent to trigger well-timed explorations of new regions. Unlike end-to-end learning approaches, COAgents cleanly separates problem-agnostic search control from compact domain-specific encoding, facilitating adaptability across tasks. Extensive experiments on the CVRP and VRPTW benchmarks show that COAgents remains competitive with several learn-to-search baselines on CVRP and sets a new state of the art among learning-based methods on the more challenging VRPTW instances, reducing the gap to the best-known solutions by 14\\% at $N\\!=\\!100$ and 44\\% at $N\\!=\\!50$ relative to the strongest neural solver (POMO), and by 21\\% and 40\\% respectively relative to ALNS.   Code is available at https://github.com/mahdims/COAgents.",
+    "url": "http://arxiv.org/abs/2605.20618v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.20618v1",
+    "published": "2026-05-20",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.19834v1",
+    "title": "A Closed-loop, State-centric, Multi-agent Framework for Passenger Load Estimation from Heterogeneous Data Streams",
+    "authors": [
+      "Yiyao Xu",
+      "Hao Zhou",
+      "Yuhang Wang",
+      "Jingran Sun"
+    ],
+    "abstract": "To support operations and passenger-facing services, transit agencies need reliable passenger load trajectories. Currently, load estimates are typically inferred from imperfect sensing systems rather than fully observed, and the accuracy of modern automatic passenger counting (APC) systems still varies with station layout, flow intensity, and operating conditions. To address the challenges of robust passenger load estimation from heterogeneous data streams, including incremental count errors, evidence conflicts, and context-dependent sensor reliability, we propose a closed-loop, state-centric, multi-agent framework. This method enforces physical feasibility at every step, allocates trust dynamically among evidence sources, and feeds physics-derived violation residuals back into training for robustness improvement. The architecture consists of a unified stop-event backbone, a coupled Perception--Physical--Fusion loop for stop-by-stop inference, and optional trip-level macro-correction and closed-loop calibration modules.",
+    "url": "http://arxiv.org/abs/2605.19834v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.19834v1",
+    "published": "2026-05-19",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.19743v1",
+    "title": "EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design",
+    "authors": [
+      "Gioele Molinari",
+      "Florian Felten",
+      "Soheyl Massoudi",
+      "Mark Fuge"
+    ],
+    "abstract": "Large Language Model (LLM) agents are increasingly applied to engineering design tasks, yet existing evaluation frameworks do not adequately address multi-agent systems that combine simulation, retrieval, and manufacturing preparation. We introduce a benchmark suite with three evaluation dimensions: (1) a workflow benchmark with seven prompt styles targeting distinct cognitive demands-including direct tool use, semantic disambiguation, conditional branching, and working-memory tasks; (2) a Retrieval-Augmented Generation (RAG) benchmark with gated scoring isolating retrieval contributions to parameter selection; and (3) an High Performance Computing (HPC) benchmark evaluating end-to-end ML training orchestration on a SLURM cluster. Alongside the benchmark we present EngiAI, a Multi-Agent System (MAS) reference implementation built on LangGraph that operationalizes the benchmark by coordinating seven specialized agents through a supervisor architecture, unifying topology optimization, document retrieval, HPC job orchestration, and 3D printer control. Across four LLM backends and two EngiBench problems, proprietary models achieve 96-97% average task completion on Beams2D, while open-source 4B-parameter models reach 55-78%, with clear generational improvement. Conditional branching proves most challenging, with task completion dropping to 20-53% for the conditional style on Photonics2D. RAG gating confirms near-perfect retrieval-augmented scores ($\\approx 1.0$) versus near-zero without retrieval, validating the evaluation design. On HPC orchestration, one model completes all pipeline steps in 100% of runs while another drops to 50%, revealing that multi-step instruction following degrades over long-running workflows.",
+    "url": "http://arxiv.org/abs/2605.19743v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.19743v1",
+    "published": "2026-05-19",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.18715v1",
+    "title": "Global training and the collaborative structure of elite U.S. science",
+    "authors": [
+      "Erjia Yan",
+      "Chaoqun Ni",
+      "Xiang Zheng"
+    ],
+    "abstract": "Globally trained scientific labor is a substantial component of U.S. universities, yet the organizational mechanisms linking foreign degree training to elite scientific output remain poorly understood. We link comprehensive U.S. faculty rosters to more than 12 million OpenAlex-indexed faculty-publication observations from 2011 to 2020. Faculty with non-U.S. degrees constitute one-tenth of the U.S. professoriate but account for larger shares of total publications and top-1% cited papers. This overrepresentation is concentrated in high-output disciplinary domains and research-intensive institutions. Within institution - domain - rank - year strata, however, differences in top-1% output, FWCI, and corresponding-author share attenuate sharply, indicating that much of the aggregate pattern reflects organizational placement rather than large within-context citation advantages. Collaboration structure further differentiates foreign- and domestically trained faculty: mixed domestic-foreign faculty teams exhibit substantially elevated elite-output rates, and the association attenuates strongly after accounting for team size, suggesting that collaboration scale is central to the pattern. Topic-distinctiveness analyses show little evidence that foreign-degree faculty occupy unusually rare research niches. Overall, foreign-degree training is best understood less as an individual productivity attribute than as a structural feature of elite U.S. science, operating through institutional concentration and collaborative integration.",
+    "url": "http://arxiv.org/abs/2605.18715v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.18715v1",
+    "published": "2026-05-18",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]
