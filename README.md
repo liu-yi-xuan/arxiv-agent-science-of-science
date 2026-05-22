@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-22
+
+**7 new papers found**
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Cross-domain benchmarks reveal when coordinated AI agents improve scientific inference from partial evidence](http://arxiv.org/abs/2605.22300v1) | Fiona Y. Wong, Markus J. Buehler | Scientific evidence often spans instruments, databases, and disciplines, so no single source records the full phenomenon. |
+| [Measuring Security Without Fooling Ourselves: Why Benchmarking Agents Is Hard](http://arxiv.org/abs/2605.22568v1) | Sahar Abdelnabi, Chris Hicks, Konrad Rieck et al. | The benchmarks used to evaluate AI agents in security-critical roles suffer from crucial weaknesses. |
+| [TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks](http://arxiv.org/abs/2605.22535v1) | Zhaoyang Chu, Jiarui Hu, Xingyu Jiang et al. | We introduce TerminalWorld, a scalable data engine that automatically reverse-engineers high-fidelity evaluation tasks from "in-the-wild" terminal recordings. |
+| [Benchmarking Autonomous Agents against Temporal, Spatial, and Semantic Evasions](http://arxiv.org/abs/2605.22321v1) | Jianan Ma, Xiaohu Du, Ruixiao Lin et al. | As autonomous agents (e.g., OpenClaw) increasingly operate with deep system-level privileges to execute complex tasks, they introduce severe, unmitigated security risks. |
+| [SGR-Bench: Benchmarking Search Agents on State-Gated Retrieval](http://arxiv.org/abs/2605.22219v1) | Ningyuan Li, Haiyang Shen, Mugeng Liu et al. | Recent advances in large language models and tool-using agents have expanded the range of benchmarked web tasks. |
+| [EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design](http://arxiv.org/abs/2605.19743v1) | Gioele Molinari, Florian Felten, Soheyl Massoudi et al. | Large Language Model (LLM) agents are increasingly applied to engineering design tasks, yet existing evaluation frameworks do not adequately address multi-agent systems that combine simulation, ret... |
+| [Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety](http://arxiv.org/abs/2605.22643v1) | Piercosma Bisconti, Matteo Prandi, Federico Pierucci et al. | Background. Traditional safety benchmarks for language models evaluate generated text: whether a model outputs toxic language, reproduces bias, or follows harmful instructions. |
+
 ### 📅 2026-05-21
 
 **13 new papers found**
