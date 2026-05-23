@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-23
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks](http://arxiv.org/abs/2605.21825v1) | Haichao Miao, Zhimin Li, Kuangshi Ai et al. | The ability to inspect, interpret, and communicate complex data is crucial for virtually any scientific endeavor, but often requires significant expertise outside the core domain ranging from data ... |
+| [AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists](http://arxiv.org/abs/2605.21481v1) | Junshu Pan, Panzhong Lu, Yixuan Weng et al. | Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing sy... |
+| [Claw AI Lab: An Autonomous Multi-Agent Research Team](http://arxiv.org/abs/2605.22662v1) | Fan Wu, Cheng Chen, Zhenshan Tan et al. | We present Claw AI Lab, a lab-native autonomous research platform that advances automated research from a hidden prompt-to-paper pipeline into an interactive AI laboratory. |
+| [Sibyl-AutoResearch: Autonomous Research Needs Self-Evolving Trial-and-Error Harnesses, Not Paper Generators](http://arxiv.org/abs/2605.22343v1) | Chengcheng Wang, Qinhua Xie, Wei He et al. | Autonomous research systems increasingly make the scientific workflow executable: agents can propose ideas, run code, inspect results, and draft papers. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [IdleSpec: Exploiting Idle Time via Speculative Planning for LLM Agents](http://arxiv.org/abs/2605.22154v1) | Daewon Choi, Kyunghyun Park, Woomin Song et al. | Large language model (LLM)-based agents solve complex tasks by leveraging multi-step reasoning with iterative tool calls and environment interactions, which incur idle time while waiting for observ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks](http://arxiv.org/abs/2605.21917v1) | Han Zhang, Wanting Jiang, Tomasz Kornuta et al. | Training Vision Language Models (VLMs) for video event reasoning requires high-quality structured annotations capturing not only what happened, but when, where, why, and with what consequence, at a... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Cross-domain benchmarks reveal when coordinated AI agents improve scientific inference from partial evidence](http://arxiv.org/abs/2605.22300v1) | Fiona Y. Wong, Markus J. Buehler | Scientific evidence often spans instruments, databases, and disciplines, so no single source records the full phenomenon. |
+| [Measuring Security Without Fooling Ourselves: Why Benchmarking Agents Is Hard](http://arxiv.org/abs/2605.22568v1) | Sahar Abdelnabi, Chris Hicks, Konrad Rieck et al. | The benchmarks used to evaluate AI agents in security-critical roles suffer from crucial weaknesses. |
+| [TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks](http://arxiv.org/abs/2605.22535v1) | Zhaoyang Chu, Jiarui Hu, Xingyu Jiang et al. | We introduce TerminalWorld, a scalable data engine that automatically reverse-engineers high-fidelity evaluation tasks from "in-the-wild" terminal recordings. |
+| [Benchmarking Autonomous Agents against Temporal, Spatial, and Semantic Evasions](http://arxiv.org/abs/2605.22321v1) | Jianan Ma, Xiaohu Du, Ruixiao Lin et al. | As autonomous agents (e.g., OpenClaw) increasingly operate with deep system-level privileges to execute complex tasks, they introduce severe, unmitigated security risks. |
+| [SGR-Bench: Benchmarking Search Agents on State-Gated Retrieval](http://arxiv.org/abs/2605.22219v1) | Ningyuan Li, Haiyang Shen, Mugeng Liu et al. | Recent advances in large language models and tool-using agents have expanded the range of benchmarked web tasks. |
+| [Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety](http://arxiv.org/abs/2605.22643v1) | Piercosma Bisconti, Matteo Prandi, Federico Pierucci et al. | Background. Traditional safety benchmarks for language models evaluate generated text: whether a model outputs toxic language, reproduces bias, or follows harmful instructions. |
+
 ### 📅 2026-05-22
 
 **7 new papers found**
