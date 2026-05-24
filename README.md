@@ -24,6 +24,17 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-24
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Claw AI Lab: An Autonomous Multi-Agent Research Team](http://arxiv.org/abs/2605.22662v1) | Fan Wu, Cheng Chen, Zhenshan Tan et al. | We present Claw AI Lab, a lab-native autonomous research platform that advances automated research from a hidden prompt-to-paper pipeline into an interactive AI laboratory. |
+| [Sibyl-AutoResearch: Autonomous Research Needs Self-Evolving Trial-and-Error Harnesses, Not Paper Generators](http://arxiv.org/abs/2605.22343v1) | Chengcheng Wang, Qinhua Xie, Wei He et al. | Autonomous research systems increasingly make the scientific workflow executable: agents can propose ideas, run code, inspect results, and draft papers. |
+
 ### 📅 2026-05-23
 
 **12 new papers found**

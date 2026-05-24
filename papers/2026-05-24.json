@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2605.22662v1",
+    "title": "Claw AI Lab: An Autonomous Multi-Agent Research Team",
+    "authors": [
+      "Fan Wu",
+      "Cheng Chen",
+      "Zhenshan Tan",
+      "Taiyu Zhang",
+      "Xinzhen Xu"
+    ],
+    "abstract": "We present Claw AI Lab, a lab-native autonomous research platform that advances automated research from a hidden prompt-to-paper pipeline into an interactive AI laboratory. Rather than centering the system around a single agent or a fixed serial workflow, we allow users to instantiate a full research team from one prompt, with customizable roles, collaborative workflows, real-time monitoring, artifact inspection, and rollback/resume control through a unified dashboard. The platform also supports distinct research modes for exploration, multi-agent discussion, and reproduction, making autonomous research substantially more steerable and laboratory-like in practice. A key practical contribution of Claw AI Lab lies in its Claw-Code Harness, which connects local codebases, datasets, and checkpoints to runnable experiments and feeds execution artifacts back into the research loop. As a result, the harness improves not only execution integration, but also experimental completion and result integrity: experiments are easier to inspect, iterate on, and faithfully transfer into final papers, reducing common failure modes such as partial runs and malformed result reporting. In our internal evaluation on five AI research case studies, using AutoResearchClaw as the baseline, Claw AI Lab is consistently preferred by AI expert judges on idea novelty, experiment completeness, and paper presentation quality. We view Claw AI Lab as an early step toward a new paradigm: autonomous research as usable, interactive, and reliability-aware scientific infrastructure.",
+    "url": "http://arxiv.org/abs/2605.22662v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.22662v1",
+    "published": "2026-05-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.22343v1",
+    "title": "Sibyl-AutoResearch: Autonomous Research Needs Self-Evolving Trial-and-Error Harnesses, Not Paper Generators",
+    "authors": [
+      "Chengcheng Wang",
+      "Qinhua Xie",
+      "Wei He",
+      "Jianyuan Guo",
+      "Shiqi Wang"
+    ],
+    "abstract": "Autonomous research systems increasingly make the scientific workflow executable: agents can propose ideas, run code, inspect results, and draft papers. But executable workflows do not by themselves produce research judgment. We analyze where current systems lose trial experience: weak evidence becomes prose, pilot signals become broad claims, memory remains textual, and recurring process failures do not change later behavior. We introduce Sibyl-AutoResearch, a self-evolving AutoResearch framework built around Scientific Trial-and-Error Harnesses. A harness lets agents run bounded trials, preserve positive and negative outcomes, and route lessons into later planning, validation, claim scope, scheduling, critique, writing, and harness repair. We formalize this through two auditable conversion units: trial-to-behavior conversion, which links trial signals to later research actions, and trial-to-harness-behavior conversion, which links recurring process failures to system updates. We implement the framework in SIBYL, a file-backed autonomous research system that exposes the state, roles, memory, gates, and artifact traces needed to inspect these conversion paths. A retrospective audit identifies eight high-confidence conversion events, with a median latency of one iteration and a maximum latency of three iterations. A recovered-failure registry further shows how five naturally occurring failure classes, including duplicate results, stale numbers, and unsupported statistics, were blocked, downgraded, or routed into later repair. These traces do not establish a comparative performance claim; they show that the proposed conversion units are recoverable from realistic autonomous-research workspaces. The SIBYL framework and system are available at https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem.",
+    "url": "http://arxiv.org/abs/2605.22343v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.22343v1",
+    "published": "2026-05-21",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "AI Agents for Scientific Discovery"
+  }
+]
