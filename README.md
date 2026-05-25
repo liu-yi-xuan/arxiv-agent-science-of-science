@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-25
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills](http://arxiv.org/abs/2605.23899v1) | Zisu Huang, Jingwen Xu, Yifan Yang et al. | Language agents increasingly improve by reusing \emph{skills} -- structured procedural artifacts distilled from past experience. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Tracking a Decade of Research at the University of Nigeria, Nsukka: A Scientometric Analysis (2014-2023)](http://arxiv.org/abs/2605.23586v1) | Muneer Ahmad, Joseph U Igligli | This study employs scientometric methods to assess the research output and performance of the University of Nigeria from 2014 to 2023. |
+
 ### 📅 2026-05-24
 
 **2 new papers found**

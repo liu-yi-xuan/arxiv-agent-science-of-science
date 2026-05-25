@@ -1,0 +1,40 @@
+[
+  {
+    "id": "2605.23899v1",
+    "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+    "authors": [
+      "Zisu Huang",
+      "Jingwen Xu",
+      "Yifan Yang",
+      "Ziyang Gong",
+      "Qihao Yang"
+    ],
+    "abstract": "Language agents increasingly improve by reusing \\emph{skills} -- structured procedural artifacts distilled from past experience. In particular, \\emph{domain-level} and \\emph{model-generated} skills are especially promising. They offer fast adaptation within a domain by encoding domain-specific recurring procedures, and they scale beyond labor-intensive hand-crafting. However, while extraction methods continue to proliferate, understanding remains limited, with no comprehensive study spanning the full skill lifecycle -- \\textbf{experience generation}, \\textbf{skill extraction}, and \\textbf{skill consumption} -- to ask whether such skills actually work, when they work, and what makes them succeed or fail. To close this gap, we build a utility-grounded evaluation framework that provides systematic experimental results across extractors and target agents, covering five diverse agentic task domains. We find that model-generated skills are beneficial on average but exhibit non-trivial negative transfer, and that neither extractors nor targets behave uniformly. A model can be a strong extractor yet a weak consumer, or vice versa, with skill utility independent of model scale or baseline task strength. To explain these patterns, we then dissect each lifecycle stage in depth, analyzing how experience composition shapes skill quality, what properties characterize useful skills, and how the same skill transfers across different consumers. Finally, we translate these findings into a concrete \\emph{meta-skill} that guides skill extraction toward the features tied to actual utility, which consistently improves skill quality across domains and substantially reduces negative transfer.",
+    "url": "http://arxiv.org/abs/2605.23899v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23899v1",
+    "published": "2026-05-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.23586v1",
+    "title": "Tracking a Decade of Research at the University of Nigeria, Nsukka: A Scientometric Analysis (2014-2023)",
+    "authors": [
+      "Muneer Ahmad",
+      "Joseph U Igligli"
+    ],
+    "abstract": "This study employs scientometric methods to assess the research output and performance of the University of Nigeria from 2014 to 2023. By analyzing publication trends, citation patterns, and collaboration networks, the research aims to comprehensively evaluate the university's research productivity, impact, and disciplinary focus. These research endeavors are characterized by innovation, interdisciplinary collaboration, and commitment to excellence, making the University of Nigeria a significant hub for cutting-edge research in Nigeria and beyond. The present study has been undertaken to determine the impact of the university's research and publication trends from 2014 to 2023. The study focuses on year-wise research output, citation impact at local and global levels, prominent authors and their total output, top journals, collaborating countries, and the most contributing departments of the University of Nigeria. The university's ten years of publication data indicate that 6,353 papers were published from 2014 to 2023, receiving 86,202 citations with an h-index of 39. In addition to this, the stenographical mapping of data is presented through graphs using the VOSviewer software mapping technique. The findings of this study will contribute to understanding the university's research strengths, weaknesses, and potential areas for improvement. Additionally, the results will inform evidence-based decision-making for enhancing research strategies and policies at the University of Nigeria",
+    "url": "http://arxiv.org/abs/2605.23586v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23586v1",
+    "published": "2026-05-22",
+    "categories": [
+      "cs.DL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]
