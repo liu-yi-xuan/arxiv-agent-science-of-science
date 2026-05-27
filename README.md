@@ -24,6 +24,55 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-27
+
+**20 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing](http://arxiv.org/abs/2605.27360v1) | Tamerlan Aghayev, Maxime Elkael, Michele Polese et al. | Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or r... |
+| [ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence](http://arxiv.org/abs/2605.26340v1) | Rui Meng, Bhavana Dalvi Mishra, Jiefeng Chen et al. | Autonomous research agents produce competitive solutions and professional-looking manuscripts, yet their outputs contain verifiability failures undetectable by surface-level evaluation: fabricated ... |
+| [Managing Uncertainty in LLM-Generated Procedural Knowledge for Virtual Laboratory Planning](http://arxiv.org/abs/2605.26333v1) | Polychronis Karpodinis, Dimitris Kalles | Educational virtual laboratories can make experimental training more scala-ble, adaptive, and accessible, especially when students have limited access to physical laboratory facilities. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TADDLE: A Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews](http://arxiv.org/abs/2605.26911v1) | Hanqi Duan, Xiang Li | LLM-generated peer reviews are increasingly common at major venues, yet their deficiencies are hard to detect because they are uniformly fluent and well-structured. |
+| [PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers](http://arxiv.org/abs/2605.26730v1) | Ngoc Phan Phuoc Loc, Toan Huynh La Viet, Thanh Tran Khanh et al. | The rapid growth in submissions to machine learning venues has strained the scientific peer-review system and intensified interest in LLM-based automated peer reviewers. |
+| [Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation](http://arxiv.org/abs/2605.26720v1) | Yee Hin Chong, Jiaming Wu, Youhui Zhang et al. | Large language models (LLMs) have shown strong empirical gains as self-evolving agents for CUDA kernel generation, driven by feedback-conditioned planning across generations. |
+| [GroupTravelBench: Benchmarking LLM Agents on Multi-Person Travel Planning](http://arxiv.org/abs/2605.25200v1) | Xiang Cheng, Yulan Hu, Lulu Zheng et al. | Travel planning is a realistic task for evaluating the planning and tool-use abilities of LLM agents. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [UnityMAS-O: A General RL Optimization Framework for LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2605.26646v1) | Yiqun Chen, Wei Yang, Erhan Zhang et al. | LLM-based multi-agent systems decompose complex tasks into interacting roles, but most remain manually orchestrated by prompts, tools, and control rules, while agents are rarely optimized through a... |
+| [AutoDFT: A Closed-Loop Multi-Agent Framework for Autonomous DFT Calculations](http://arxiv.org/abs/2605.26179v1) | Penghui Yang, Zhonghan Zhang, Yue Li et al. | Density functional theory (DFT) serves as the basis for computational discovery in materials science and chemistry, yet each calculation demands extensive human effort: adjusting algorithms when co... |
+| [A Multi-Agent LLM Framework for Rating the Quality of Surgical Feedback](http://arxiv.org/abs/2605.25440v1) | Rafal Kocielnik, J. Everett Knudsen, Steven Y. Cen et al. | Verbal feedback delivered by attending surgeons in the operating room plays a critical formative role in resident trainee skill acquisition. |
+| [QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents](http://arxiv.org/abs/2605.27068v1) | Ye Yuan, Rui Song, Weien Li et al. | Social deduction games have become a popular testbed for probing reasoning, deception, coordination, and belief modeling in Large Language Model (LLM) agents. |
+| [HyLaT: Efficient Multi-Agent Communication via Hybrid Latent-Text Protocol](http://arxiv.org/abs/2605.25421v1) | Xinyi Mou, Siyuan Wang, Zejun Li et al. | Communication protocol design is a central challenge in large language model-based multi-agent systems. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The Compressive Knowledge Graph Hypothesis: Which Graph Facts Matter for Scientific Hypothesis Generation?](http://arxiv.org/abs/2605.27176v1) | Shashwat Sourav, Viktoriia Baibakova, Sanjay Das et al. | Knowledge graphs (KGs) can provide structured scientific context to language models, but it remains unclear which graph facts actually shape the generated hypotheses. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation](http://arxiv.org/abs/2605.27134v1) | Heng Qu, Yike Liu, Renren Jin et al. | Vision-Language Models (VLMs) have shown rapid progress in mobile GUI navigation. This paper presents a systematic study of data scaling, benchmarking, and reasoning for VLM-based agents in this do... |
+| [Anchor: Mitigating Artifact Drift in Agent Benchmark Generation](http://arxiv.org/abs/2605.26321v1) | Maksim Ivanov, Abhijay Rana | AI agents are beginning to complete valuable, long-horizon business operations tasks, but training and evaluation environments for enterprise work still struggle to balance realism, verifiability, ... |
+| [AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions](http://arxiv.org/abs/2605.25707v1) | Jingwei Sun, Jianing Zhu, Yuanyi Li et al. | Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. |
+| [Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents](http://arxiv.org/abs/2605.25535v1) | Yeonjun In, Wonjoong Kim, Sangwu Park et al. | Existing large language model (LLM) based memory systems apply universal, static policies that overlook a fundamental reality: the contexts that are worth storing in memory are different across users. |
+| [SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking](http://arxiv.org/abs/2605.25160v1) | Guohong Liu, Jialei Ye, Pengzhi Gao et al. | Mobile GUI agents powered by large language models have progressed rapidly, creating urgent needs for realistic and comprehensive evaluation. |
+| [ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents](http://arxiv.org/abs/2605.27240v1) | Xing Fu, Yulin Hu, Mengtong Ji et al. | Memory-augmented language agents are increasingly deployed in affective applications such as emotional support, where understanding and responding to users' latent emotional needs is critical. |
+| [Automated Benchmark Auditing for AI Agents and Large Language Models](http://arxiv.org/abs/2605.26079v2) | Junlin Wang, Federico Bianchi, Shang Zhu et al. | Modern AI benchmarks operate at a complexity that outpaces traditional verification methods. Tasks authored by domain experts often contain implicit assumptions, incomplete environment specificatio... |
+
 ### 📅 2026-05-25
 
 **2 new papers found**

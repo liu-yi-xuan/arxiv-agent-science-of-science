@@ -1,0 +1,403 @@
+[
+  {
+    "id": "2605.27360v1",
+    "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+    "authors": [
+      "Tamerlan Aghayev",
+      "Maxime Elkael",
+      "Michele Polese",
+      "Minh Dat Nguyen",
+      "Gabriele Gemmi"
+    ],
+    "abstract": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments; (iv) data-driven optimization of network functionalities; (v) discovering and prototyping novel waveforms, functionalities, and capabilities for future standards; and (vi) securing the stack against vulnerabilities. Although Large Language Models (LLMs) have compressed comparable R&D work in general software engineering from days to minutes, their known pitfalls worsen on Radio Access Network (RAN) use cases: they hallucinate Application Programming Interfaces (APIs) and mis-read specifications, which kills interoperability of RAN components at the first mistake, and they heavily rely on simulations for designing algorithms, which is notorious for breaking when transferred to real hardware. To address these challenges, we present GENESIS, an agentic Artificial Intelligence (AI) framework that converts intents (e.g., a specification clause, a telemetry anomaly, or a research hypothesis) into solutions validated with over-the-air experiments, fed back into a persistent knowledge base. GENESIS is built on three composable primitives (agents, skills, hooks) and a knowledge layer (SYNAPSE) that doubles as the source of ground truth and the recipient of every artifact the framework produces, making capabilities compound across runs.",
+    "url": "http://arxiv.org/abs/2605.27360v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27360v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.NI",
+      "cs.AI"
+    ],
+    "primary_category": "cs.NI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26340v1",
+    "title": "ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence",
+    "authors": [
+      "Rui Meng",
+      "Bhavana Dalvi Mishra",
+      "Jiefeng Chen",
+      "Chun-Liang Li",
+      "Palash Goyal"
+    ],
+    "abstract": "Autonomous research agents produce competitive solutions and professional-looking manuscripts, yet their outputs contain verifiability failures undetectable by surface-level evaluation: fabricated citations, unreproducible scores, and method descriptions that diverge from the implementation. We address this through three contributions. First, Chain-of-Evidence (CoE), a verifiability framework requiring every claim to be traceable to its evidence source. Second, ScientistOne, an end-to-end autonomous research system that maintains evidence chains by construction throughout literature review, solution discovery, and paper writing. Third, CoE Audit, a post-hoc audit whose four integrity checks -- score verification, specification violation, reference verification, and method-code alignment -- apply uniformly to all systems. Across 75 papers spanning five systems and five frontier research tasks, every baseline exhibits at least one systematic failure mode: hallucinated reference rates reach 21%, score verification passes in as few as 42% of papers, and method-code alignment ranges from 20% to 80%. ScientistOne achieves zero hallucinated references (0/337), perfect score verification (12/12), and the highest method-code alignment (14/15), while matching or exceeding human expert performance on all five tasks. ScientistOne further generalizes to six additional tasks spanning medical imaging, fine-grained recognition, 3D perception, and language modeling, achieving state-of-the-art on Parameter Golf and gold medals on MLE-Bench tasks where baselines fail entirely.",
+    "url": "http://arxiv.org/abs/2605.26340v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26340v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26333v1",
+    "title": "Managing Uncertainty in LLM-Generated Procedural Knowledge for Virtual Laboratory Planning",
+    "authors": [
+      "Polychronis Karpodinis",
+      "Dimitris Kalles"
+    ],
+    "abstract": "Educational virtual laboratories can make experimental training more scala-ble, adaptive, and accessible, especially when students have limited access to physical laboratory facilities. However, authoring new simulated laboratory procedures remains costly: educators must describe new equipment, define how instruments and materials interact, and specify valid procedural flows that can be executed or assessed inside the virtual environment. Large lan-guage models can assist in this authoring process by generating detailed ex-perimental procedures, but their output should not be treated as directly exe-cutable plans. They may omit necessary actions, arrange steps in the wrong order, or produce instructions that are logically incorrect or incompatible with the laboratory equipment. This paper presents a prototype framework for managing uncertainty in LLM-generated procedural knowledge for virtu-al laboratory planning. The framework aims to reduce procedural uncertainty by using structured domain representations and uncertain LLM-generated state-transition samples to extract candidate procedural rules, transform them into explicit and inspectable constraints, and use them to repair uncertain procedural steps. Although the motivating domain refers to educational vir-tual laboratories, the underlying problem is more general: managing uncer-tain procedural knowledge for action planning in structured interactive envi-ronments. We illustrate the approach in a virtual laboratory domain involving laboratory instruments, containers, tools, and material-transfer actions.",
+    "url": "http://arxiv.org/abs/2605.26333v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26333v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26911v1",
+    "title": "TADDLE: A Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews",
+    "authors": [
+      "Hanqi Duan",
+      "Xiang Li"
+    ],
+    "abstract": "LLM-generated peer reviews are increasingly common at major venues, yet their deficiencies are hard to detect because they are uniformly fluent and well-structured. Existing work either classifies authorship without judging quality, or scores quality with features designed for human-written reviews; no prior system detects deficiencies in LLM-generated reviews at the level of individual defect types. To bridge the gap, we introduce TADDLE, a Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews, together with the first expert-annotated benchmark for this task. Our benchmark comprises 1,800 reviews on 50 ICLR 2025 papers, multi-label-annotated by 18 domain experts against a taxonomy of six defect categories (plus a non-deficient label). TADDLE decomposes detection into four specialized analysis tools -- Verify, Correct, Complete, and Transform -- orchestrated by an agent; an integrator synthesizes their outputs into binary and multi-label classifications via two-stage semi-supervised learning. Extensive experiments show that TADDLE performs strongly on both binary detection and the multi-label classification task. We release the benchmark and code at https://github.com/AquariusAQ/TADDLE.",
+    "url": "http://arxiv.org/abs/2605.26911v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26911v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.26730v1",
+    "title": "PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers",
+    "authors": [
+      "Ngoc Phan Phuoc Loc",
+      "Toan Huynh La Viet",
+      "Thanh Tran Khanh",
+      "Duy A Nguyen",
+      "Tuan Anh Nguyen Pham"
+    ],
+    "abstract": "The rapid growth in submissions to machine learning venues has strained the scientific peer-review system and intensified interest in LLM-based automated peer reviewers. However, how good these systems are actually, especially compared to human reviewers at catching scientific gaps, remains poorly understood. In this work, we introduce PRISM (Peer Review Intelligence via Structured Multi-dimensional assessment), a benchmarking framework that evaluates review quality across four dimensions: Depth of Analysis, Novelty Assessment,Flaw Identification & Major Issues Prioritization, and Multi-dimensional Constructiveness. Unlike most existing evaluations based on surface-level metrics like ROUGE and BLEU, or unconstrained LLM-as-a-judge prompting that conflates fluency with rigor, PRISM grounds each dimension in argument mining, retrieval-augmented verification, and consensus-based scoring. We apply PRISM to benchmark five leading automated reviewer systems and human reviewers on a stratified corpus of reviews from ICLR, ICML, and NeurIPS. The results reveal that LLMs can match or beat human reviewers on individual dimensions: comparable depth of analysis, stronger novelty verification, and highly accurate critique prioritization. However, no single system consistently matches the balanced performance of the human baseline across all dimensions at once. Each exhibits a distinct specialization profile with characteristic blind spots -- failure modes that aggregate metrics miss entirely. The implication is that LLM reviewers are best understood as targeted supplements to human review, effective within specific dimensions, but unreliable as standalone replacements. Our demo and key results can be found at https://khanhthanhdev.github.io/prism-page/.",
+    "url": "http://arxiv.org/abs/2605.26730v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26730v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.26720v1",
+    "title": "Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation",
+    "authors": [
+      "Yee Hin Chong",
+      "Jiaming Wu",
+      "Youhui Zhang",
+      "Peng Qu"
+    ],
+    "abstract": "Large language models (LLMs) have shown strong empirical gains as self-evolving agents for CUDA kernel generation, driven by feedback-conditioned planning across generations. However, how planning decisions attribute and combine heterogeneous feedback signals remains opaque. Standard end-to-end ablations fail to resolve this question, as iterative planning amplifies early perturbations and conflates feedback effects with trajectory-dependent drift.   We introduce \\texttt{CUDAnalyst}, a unified analysis layer for controlled, generation-level attribution of planning decisions to feedback components via trajectory freezing and selective feedback injection. \\texttt{CUDAnalyst} enables stable generation-level evaluation and principled coalitional-style attribution of feedback effects and interactions. Our results show that explicit planning is beneficial only when feedback is aligned, that effective planning emerges from structured multi-feedback interactions, and that high-level plans from stronger reasoning models can partially transfer to weaker ones. These trends hold across reference backbones, representative workloads, and reference induction regimes, indicating that the identified feedback-to-plan structure is robust within the controlled axes studied.",
+    "url": "http://arxiv.org/abs/2605.26720v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26720v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.25200v1",
+    "title": "GroupTravelBench: Benchmarking LLM Agents on Multi-Person Travel Planning",
+    "authors": [
+      "Xiang Cheng",
+      "Yulan Hu",
+      "Lulu Zheng",
+      "Zheng Pan",
+      "Xin Li"
+    ],
+    "abstract": "Travel planning is a realistic task for evaluating the planning and tool-use abilities of LLM agents. However, existing benchmarks typically assume only a single user, thereby avoiding one of the most challenging aspects of real-world scenarios: an agent's ability to identify and resolve conflicts among multiple users. To address this gap, we introduce \\textbf{GroupTravelBench}, the first benchmark for \\textbf{multi-user, multi-turn} travel planning. Based on real user profiles, POI data, and ticket price data, we synthesize 650 tasks and divide them into three difficulty levels. Beyond standard abilities in single-user itinerary planning, such as multi-step reasoning and tool use, our benchmark further evaluates three key capabilities required for travel agents: \\emph{(i) elicitation} -- proactively engaging in multi-turn dialogue to gather preferences from each user; \\emph{(ii) coordination} -- resolving conflicts among users through compromise or subgrouping strategies; and \\emph{(iii) planning} -- searching for travel plans that maximize overall group utility while maintaining fairness and feasibility. To simulate real-world conversational itinerary planning while enabling reliable tool use and offline evaluation, we build an interactive sandbox environment with cached real-world tool data. We evaluate a wide range of LLMs and find that even frontier models still show substantial weaknesses in preference coverage and group fairness. \\textit{GroupTravelBench} provides a practical and reproducible benchmark for advancing research on LLM agents for real-world travel planning.",
+    "url": "http://arxiv.org/abs/2605.25200v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.25200v1",
+    "published": "2026-05-24",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.26646v1",
+    "title": "UnityMAS-O: A General RL Optimization Framework for LLM-Based Multi-Agent Systems",
+    "authors": [
+      "Yiqun Chen",
+      "Wei Yang",
+      "Erhan Zhang",
+      "Shijie Wang",
+      "Qi Liu"
+    ],
+    "abstract": "LLM-based multi-agent systems decompose complex tasks into interacting roles, but most remain manually orchestrated by prompts, tools, and control rules, while agents are rarely optimized through a unified reinforcement learning interface. Existing RL post-training frameworks mainly target single-policy optimization and lack abstractions for user-defined multi-agent workflows, structured interaction, role-specific credit assignment, and configurable parameter sharing.   We present UnityMAS-O, a general RL optimization framework for LLM-based multi-agent systems. UnityMAS-O treats the complete workflow as the optimization unit, rather than a single response or policy trajectory. It represents workflows through four first-class objects: logical agent roles, graph trajectories, user-defined rewards, and agent--model mappings. This decouples logical agents from physical model parameters, supporting full sharing, full separation, and partial sharing, with rewards assigned at role, turn, and trajectory levels.   UnityMAS-O extends verl with a Ray-based star-topology runtime. A central controller executes workflows, invokes tools, records structured trajectories, and assembles rewards; model-local worker groups handle rollout, buffering, advantage computation, and distributed PPO-style updates. Users can define agents, workflows, model mappings, and rewards without rewriting the optimization infrastructure.   We instantiate UnityMAS-O on retrieval-augmented QA, iterative agentic search, and reflective code generation. Across Natural Questions, HotpotQA, and held-out code tasks, multi-agent RL improves manually specified workflows after optimization, with especially large gains for smaller models and strict code all-passed metrics. These results show that UnityMAS-O can serve as a reusable substrate for converting diverse LLM-based multi-agent workflows into trainable multi-agent RL systems.",
+    "url": "http://arxiv.org/abs/2605.26646v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26646v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.26179v1",
+    "title": "AutoDFT: A Closed-Loop Multi-Agent Framework for Autonomous DFT Calculations",
+    "authors": [
+      "Penghui Yang",
+      "Zhonghan Zhang",
+      "Yue Li",
+      "Xinrun Wag",
+      "Yanchen Deng"
+    ],
+    "abstract": "Density functional theory (DFT) serves as the basis for computational discovery in materials science and chemistry, yet each calculation demands extensive human effort: adjusting algorithms when convergence stalls, revising plans when unexpected physics emerges, and inserting steps as intermediate results reshape the problem. Existing LLM-based agents automate only the initial planning stage, producing a full execution plan upfront and leaving all subsequent adaptation to hand-crafted rules. As a result, these workflows remain fragile, do not generalize well beyond pre-planned scenarios, and often require expert intervention when failures or unexpected intermediate results require changes to the calculation path. Here, we introduce AutoDFT, a closed-loop multi-agent framework that embeds LLM reasoning into every stage of the DFT lifecycle, where a strategic planner produces a skeletal plan of step objectives; a step planner generates numerical parameters just in time from preceding results; and a monitor-recover-reflect cycle diagnoses failures, repairs them, and revises the plan when the evidence justifies it. We demonstrate both breadth and depth: breadth on VASPBench, a purpose-built benchmark spanning 34 tasks and 9 DFT calculation types, where AutoDFT achieves 94.1% task-level success with GPT-5.2; and depth on established materials databases, where AutoDFT produces quantitatively reliable property predictions across electronic, magnetic, and energetic properties. By closing the loop between planning and execution, AutoDFT enables experimentalists without deep computational expertise to obtain reliable first-principles results.",
+    "url": "http://arxiv.org/abs/2605.26179v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26179v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.25440v1",
+    "title": "A Multi-Agent LLM Framework for Rating the Quality of Surgical Feedback",
+    "authors": [
+      "Rafal Kocielnik",
+      "J. Everett Knudsen",
+      "Steven Y. Cen",
+      "Jasmine Lin",
+      "Cherine H. Yang"
+    ],
+    "abstract": "Verbal feedback delivered by attending surgeons in the operating room plays a critical formative role in resident trainee skill acquisition. Yet, assessing the quality of trainer feedback and its effectiveness in influencing trainee behavior during live surgery remains a challenge. Prior studies assessed feedback content relying on extensive manual annotation by expert human raters and focused on developing broad taxonomies that overlook the qualitative aspects of feedback delivery such as clarity or urgency. Limited existing automated methods, including keyword analysis and topic modeling, also fail to capture these nuanced aspects. We introduce a two-stage LLM-based framework that discovers interpretable feedback quality criteria grounded in the context of surgical training. Our method uses multi-agent prompting and surgical domain knowledge injection to discover a small set of human interpretable scoring criteria (e.g., Encouraging, Urgent, Clear). These criteria are then used to automatically score live surgical feedback via an LLM-as-a-judge approach. Evaluation on 4.2k trainer feedback instances demonstrates that our AI-discovered criteria outperform prior content-based frameworks in predicting feedback effectiveness, including observed trainee behavioral adjustments and trainer approval. This work advances scalable, human-aligned assessment of communication quality in the operating room and provides a foundation for improving surgical teaching practices.",
+    "url": "http://arxiv.org/abs/2605.25440v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.25440v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.27068v1",
+    "title": "QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents",
+    "authors": [
+      "Ye Yuan",
+      "Rui Song",
+      "Weien Li",
+      "Zeyu Li",
+      "Haochen Liu"
+    ],
+    "abstract": "Social deduction games have become a popular testbed for probing reasoning, deception, coordination, and belief modeling in Large Language Model (LLM) agents. However, most environments are scored only by game outcomes such as win rates and largely remain to text-only interaction, making it difficult to tell whether an agent's language is actually grounded in what it perceived and did, or to identify the failure modes underlying its behavior. To address this gap, we introduce QUACK, an open-source environment and evaluation framework for auditing the grounding of agent language in multimodal social reasoning. QUACK evaluates agents at three levels: game outcomes, behavioral trajectories, and utterance-level consistency. Its core Statement Verification Pipeline reconstructs each agent's ground-truth trajectory from engine logs and checks every discussion claim against it, automatically flagging spatial hallucination, unsupported accusation, deception collapse, and language-action inconsistency. Evaluating three frontier VLMs in both homogeneous and cross-model adversarial settings, we find that even the strongest agent hallucinates 15.1% of its verifiable spatial claims and makes over half of its accusations without grounded evidence. We release the full engine, evaluation framework, toolkit, and logs at https://github.com/AAAAA-Academia-Attractions/QUACK.",
+    "url": "http://arxiv.org/abs/2605.27068v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27068v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.25421v1",
+    "title": "HyLaT: Efficient Multi-Agent Communication via Hybrid Latent-Text Protocol",
+    "authors": [
+      "Xinyi Mou",
+      "Siyuan Wang",
+      "Zejun Li",
+      "Yulan He",
+      "Zhongyu Wei"
+    ],
+    "abstract": "Communication protocol design is a central challenge in large language model-based multi-agent systems. Existing single-channel approaches face an inherent communication trilemma: text-based methods are interpretable but verbose, while latent-space methods are efficient but opaque and limited to unidirectional workflows. Inspired by multi-channel communication theory, we propose HyLaT, a hybrid latent-text communication protocol that transmits elaborate cognitive signals through a latent channel for efficiency, while expressing concise critical signals in natural language to preserve interpretability and precision. We introduce a two-stage training framework combining single-agent hybrid generation learning and multi-agent interactive co-training, enabling agents to generate and interpret hybrid messages across multiple rounds of interaction. Experiments demonstrate that HyLaT reduces communication overhead significantly while maintaining competitive task performance, with strong generalization and robustness across diverse settings.",
+    "url": "http://arxiv.org/abs/2605.25421v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.25421v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2605.27176v1",
+    "title": "The Compressive Knowledge Graph Hypothesis: Which Graph Facts Matter for Scientific Hypothesis Generation?",
+    "authors": [
+      "Shashwat Sourav",
+      "Viktoriia Baibakova",
+      "Sanjay Das",
+      "Ran Elgedawy",
+      "Maria Mahbub"
+    ],
+    "abstract": "Knowledge graphs (KGs) can provide structured scientific context to language models, but it remains unclear which graph facts actually shape the generated hypotheses. We study KG-guided hypothesis generation for battery materials across Mistral-7B, Llama-3.1-70B, and Gemini 2.5 Flash. We perturb local KGs by varying density, ontology richness, topology, and control structure, and evaluate outputs with both provided-graph and fixed-reference metrics. Across models, KG utility is selective and model-dependent: graph context changes outputs, but no-KG outputs also recover substantial graph content from model priors. Compact top-k subgraphs often approximate full-KG behavior, including when claimed-outcome triples are held out. At the same time, compression is not unique to one semantic ranking rule, random and topology-based subsets can also recover much of the signal. These results support a redundancy-aware Compressive KG hypothesis: useful KG signal is often recoverable from compact, scientifically structured subgraphs rather than requiring the full local graph.",
+    "url": "http://arxiv.org/abs/2605.27176v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27176v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2605.27134v1",
+    "title": "Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation",
+    "authors": [
+      "Heng Qu",
+      "Yike Liu",
+      "Renren Jin",
+      "Wenzong Zhang",
+      "Pengzhi Gao"
+    ],
+    "abstract": "Vision-Language Models (VLMs) have shown rapid progress in mobile GUI navigation. This paper presents a systematic study of data scaling, benchmarking, and reasoning for VLM-based agents in this domain. To facilitate rigorous evaluation, we introduce HyperTrack, a large-scale dataset with over 16000 real-world tasks across more than 650 Chinese mobile applications, along with GUIEvalKit, an open-source toolkit for unified benchmarking of VLMs on offline GUI navigation tasks. Using HyperTrack, we analyze the effects of training data scale on both supervised and reinforcement-based finetuning. Our results show that reinforcement-based finetuning consistently outperforms supervised finetuning, particularly in out-of-domain settings, highlighting the synergy between data scaling and reinforcement learning. Leveraging GUIEvalKit, we further benchmark state-of-the-art (SOTA) VLMs and analyze how interaction history and reasoning capabilities influence task completion. Together, HyperTrack and GUIEvalKit provide a comprehensive platform for developing and evaluating VLM agents in mobile GUI navigation tasks.",
+    "url": "http://arxiv.org/abs/2605.27134v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27134v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.26321v1",
+    "title": "Anchor: Mitigating Artifact Drift in Agent Benchmark Generation",
+    "authors": [
+      "Maksim Ivanov",
+      "Abhijay Rana"
+    ],
+    "abstract": "AI agents are beginning to complete valuable, long-horizon business operations tasks, but training and evaluation environments for enterprise work still struggle to balance realism, verifiability, and scale. Environment and task creation frequently suffers from a failure mode we call artifact drift: when instructions, environments, oracles, and verifiers are created by loosely coupled processes, they frequently disagree on what a task requires, producing environments that are unsolvable, reward-hackable, or inconsistent. We introduce Anchor, a task-generation pipeline that formalizes domain experts' specifications of business workflows into constraint optimization programs. From a single parametric specification, the pipeline jointly produces a natural-language instruction, environment configuration, solver-certified ground-truth solution, and state-based verifier. With Anchor, altering parameters yields new tasks with controlled difficulty and known optimal solutions, producing harness-agnostic environments whose rewards depend solely on end-state business correctness. We apply Anchor to produce ERP-Bench: a benchmark of 300 long-horizon tasks spanning procurement and manufacturing workflows in a production-grade ERP system. We find that generation parameters predict realized difficulty, and that frontier models satisfy explicit task constraints in 26.1% of trials but reach a fully optimal solution in only 17.4% of trials. Overall, we show that Anchor and ERP-Bench offer a concrete recipe for building auditable evaluation environments for economically valuable agent work. We release the task generator and ERP-Bench dataset at erpbench.ai",
+    "url": "http://arxiv.org/abs/2605.26321v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26321v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.25707v1",
+    "title": "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions",
+    "authors": [
+      "Jingwei Sun",
+      "Jianing Zhu",
+      "Yuanyi Li",
+      "Tongliang Liu",
+      "Xia HU"
+    ],
+    "abstract": "Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. However, real-world execution environments are far from ideal: pop-ups, resolution changes, and competing applications frequently interfere with agent perception and control. We introduce AgentHijack, a benchmark designed to evaluate the robustness of computer-use agents under common corruptions, where the uncertainties in dynamic environment disrupt the execution flow without direct adversarial intent. Specifically, AgentHijack introduces 9 configurable common corruptions to replicate realistic imperfect scenarios. We evaluate a variety of desktop tasks that utilize MLLM-based agents and discover that even minor instances of corruption can result in substantial performance degradation, which emphasizes the fragility of agents and underscores the necessity of robustness evaluation. Afterward, we propose AgentHijack-Agent, a framework that integrates an action generator with enhanced grounding capabilities and an onlooker responsible for behavior summarization and environment checking. Extensive experiments validate its effectiveness. Our code, environment, baseline models and data are publicly available at: https://AgentHijack.github.io.",
+    "url": "http://arxiv.org/abs/2605.25707v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.25707v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.25535v1",
+    "title": "Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents",
+    "authors": [
+      "Yeonjun In",
+      "Wonjoong Kim",
+      "Sangwu Park",
+      "Kanghoon Yoon",
+      "Chanyoung Park"
+    ],
+    "abstract": "Existing large language model (LLM) based memory systems apply universal, static policies that overlook a fundamental reality: the contexts that are worth storing in memory are different across users. This misalignment wastes limited memory budget on transient interactions while failing to preserve critical context for long horizon tasks. To address this gap, we investigate an underexplored question: can LLM based memory systems learn personalized memory policies? We introduce PerMemBench, the first benchmark for evaluating personalized memory systems, featuring multi year, multi domain interaction histories across diverse user personas. We further present the first empirical study of memory personalization, proposing session level storage gating, a lightweight framework that selectively bypasses memory operations for transient sessions. Our study confirms that personalization yields substantial retention gains under perfect gating, yet reveals that accurate gating remains an open and critical challenge.",
+    "url": "http://arxiv.org/abs/2605.25535v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.25535v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.25160v1",
+    "title": "SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking",
+    "authors": [
+      "Guohong Liu",
+      "Jialei Ye",
+      "Pengzhi Gao",
+      "Wei Liu",
+      "Jian Luan"
+    ],
+    "abstract": "Mobile GUI agents powered by large language models have progressed rapidly, creating urgent needs for realistic and comprehensive evaluation. Existing benchmarks prioritize reproducibility but are often limited to open-source apps or file-operation tasks for the difficulty of constructing rewards on real applications, leaving a gap between benchmark settings and real-world usage. Moreover, most benchmarks focus on basic grounding and navigation, with limited coverage of complex, long-horizon interactions. To address these limitations, we introduce SimuWoB, a fully synthetic benchmark for mobile GUI agents with 120 challenging tasks spanning diverse types and difficulty levels. We build a robust virtual environment generation framework that synthesizes high-fidelity tasks and environments, and automatically provides valid rewards for each task. Each environment is deployed as a backend-free webpage accessible via URL, enabling efficient and reproducible evaluation. We conduct comprehensive experiments on several state-of-the-art mobile GUI agents. The average success rate is only 27.92%, dropping to 17.82% on long-horizon tasks, which reveals substantial weaknesses in current agents under complex scenarios. Evaluation result comparison with real-world sample tasks demonstrate that agent assessments based on our synthetic environment generalize well. We further provide diagnostic insights across key capability dimensions and discuss implications for future mobile GUI agent development.",
+    "url": "http://arxiv.org/abs/2605.25160v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.25160v1",
+    "published": "2026-05-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.27240v1",
+    "title": "ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents",
+    "authors": [
+      "Xing Fu",
+      "Yulin Hu",
+      "Mengtong Ji",
+      "Haozhen Li",
+      "Yixin Sun"
+    ],
+    "abstract": "Memory-augmented language agents are increasingly deployed in affective applications such as emotional support, where understanding and responding to users' latent emotional needs is critical. However, existing research often treats memory as a tool for factual retrieval, overlooking its role in shaping users' emotional experiences. In this work, we introduce ENPMR-Bench, a benchmark for evaluating Emotional Need-aware Proactive Memory Retrieval (ENPMR), a core capability that enables agents to infer users' latent emotional needs and proactively retrieve appropriate memories to support empathetic interaction. Grounded in Maslow's hierarchy of needs, ENPMR-Bench includes over 1,800 memory-augmented dialogues and defines structured mappings between emotional needs and supportive memory types. Experimental results demonstrate that current retrieval paradigms, including both embedding-based and LLM-driven approaches, exhibit substantial deficiencies, with empathy scores significantly lagging behind golden memory conditions. While chain-of-thought prompting improves the alignment between inferred emotional needs and retrieved memories to some extent, a notable performance gap remains. Together, these findings reveal critical limitations in current agents and outline directions for advancing personalized emotional support through need-sensitive memory retrieval.",
+    "url": "http://arxiv.org/abs/2605.27240v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27240v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2605.26079v2",
+    "title": "Automated Benchmark Auditing for AI Agents and Large Language Models",
+    "authors": [
+      "Junlin Wang",
+      "Federico Bianchi",
+      "Shang Zhu",
+      "Fan Nie",
+      "Yongchan Kwon"
+    ],
+    "abstract": "Modern AI benchmarks operate at a complexity that outpaces traditional verification methods. Tasks authored by domain experts often contain implicit assumptions, incomplete environment specifications, and brittle evaluation logic that human annotation cannot reliably catch. We introduce Auto Benchmark Audit (ABA), an agentic framework that systematically audits individual benchmark tasks, uncovering issues such as hidden environment dependencies, specification gaps, and limited grading logic. We run ABA on a collection of frontier LLM benchmarks and previous NeurIPS publications, totaling 168 benchmarks across nine domains. Across this corpus, ABA identifies critical issues including ambiguous task design, execution environment conflicts, and incorrect ground truths in over 25.7% of the evaluated tasks. The precision of these automated audits is validated by expert review and independent third-party reports such as upstream PRs. Crucially, we demonstrate that these problematic tasks severely distorts capability assessments for agents and LLMs: filtering out these tasks with issues shifts model rankings and increases average performance on SWE-bench Verified and Terminal-Bench 2 by 9.9% and 9.6%, respectively. We release the agentic tool and all task annotations to support the future development of frontier benchmarks.",
+    "url": "http://arxiv.org/abs/2605.26079v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.26079v2",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
