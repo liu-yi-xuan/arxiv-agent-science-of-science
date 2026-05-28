@@ -24,6 +24,35 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-28
+
+**10 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft](http://arxiv.org/abs/2605.27762v1) | Yuchen Guo, Junli Gong, Hongmin Cai et al. | We present PEAM, a Parametric Embodied Agent Memory framework in Minecraft that transforms agent memory from inference-time retrieval into parameter-resident skills internalized through experience. |
+| [Experiments in Agentic AI for Science](http://arxiv.org/abs/2605.26305v1) | Judy Fox, Geoffrey Fox | This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. |
+| [CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists](http://arxiv.org/abs/2605.26029v1) | Junlin Yang, Dylan Zhang, Xiangchen Song et al. | We introduce CausaLab, a scalable environment for evaluating interactive causal discovery by LLM agents. |
+| [GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing](http://arxiv.org/abs/2605.27360v1) | Tamerlan Aghayev, Maxime Elkael, Michele Polese et al. | Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or r... |
+| [ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence](http://arxiv.org/abs/2605.26340v1) | Rui Meng, Bhavana Dalvi Mishra, Jiefeng Chen et al. | Autonomous research agents produce competitive solutions and professional-looking manuscripts, yet their outputs contain verifiability failures undetectable by surface-level evaluation: fabricated ... |
+| [Managing Uncertainty in LLM-Generated Procedural Knowledge for Virtual Laboratory Planning](http://arxiv.org/abs/2605.26333v1) | Polychronis Karpodinis, Dimitris Kalles | Educational virtual laboratories can make experimental training more scala-ble, adaptive, and accessible, especially when students have limited access to physical laboratory facilities. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TADDLE: A Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews](http://arxiv.org/abs/2605.26911v1) | Hanqi Duan, Xiang Li | LLM-generated peer reviews are increasingly common at major venues, yet their deficiencies are hard to detect because they are uniformly fluent and well-structured. |
+| [PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers](http://arxiv.org/abs/2605.26730v2) | Ngoc Phan Phuoc Loc, Toan Huynh La Viet, Thanh Tran Khanh et al. | The rapid growth in submissions to machine learning venues has strained the scientific peer-review system and intensified interest in LLM-based automated peer reviewers. |
+| [Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation](http://arxiv.org/abs/2605.26720v1) | Yee Hin Chong, Jiaming Wu, Youhui Zhang et al. | Large language models (LLMs) have shown strong empirical gains as self-evolving agents for CUDA kernel generation, driven by feedback-conditioned planning across generations. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FundaPod: A Multi-Persona Agent Pod Platform with Knowledge Graph Memory for AI-Assisted Fundamental Investment Research](http://arxiv.org/abs/2605.27864v1) | Di Zhu,  Lei,  Zheng et al. | Large language models (LLMs) are increasingly applied in finance, yet most existing work emphasizes trading signals or financial NLP tasks centered on prediction. |
+
 ### 📅 2026-05-27
 
 **20 new papers found**

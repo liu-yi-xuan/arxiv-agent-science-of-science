@@ -1,0 +1,197 @@
+[
+  {
+    "id": "2605.27762v1",
+    "title": "PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft",
+    "authors": [
+      "Yuchen Guo",
+      "Junli Gong",
+      "Hongmin Cai",
+      "Yiu-ming Cheung",
+      "Weifeng Su"
+    ],
+    "abstract": "We present PEAM, a Parametric Embodied Agent Memory framework in Minecraft that transforms agent memory from inference-time retrieval into parameter-resident skills internalized through experience. PEAM pairs a slow deliberative LLM for open-ended reasoning with a fast parametric module for reflexive execution of consolidated skills. The fast module is a multimodal Mixture-of-Experts LoRA architecture with per-category physically isolated adapters, enabling parameter-level continual learning without catastrophic forgetting. We treat failure as a first-class training signal: failure--correction trajectory pairs are internalized through a joint behavioral-cloning and contrastive objective, so the agent learns not only what succeeds but also how corrected actions differ from failed ones. To govern consolidation, PEAM introduces a parameterization-worthiness score for deciding which experience should be internalized, and a scale-free self-triggered consolidation mechanism for deciding when to internalize without task-specific hand-tuned thresholds, making the agent self-evolving as the trigger transfers across task distributions without re-tuning. Experiments in Minecraft show that PEAM improves long-horizon task performance, mitigates forgetting on previously consolidated skills, and improves parametric-versus-retrieval efficiency over retrieval-based embodied agents and parametric memory variants.",
+    "url": "http://arxiv.org/abs/2605.27762v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27762v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26305v1",
+    "title": "Experiments in Agentic AI for Science",
+    "authors": [
+      "Judy Fox",
+      "Geoffrey Fox"
+    ],
+    "abstract": "This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. Both systems leverage a hybrid Local Body, Remote Brain architecture via Google Colab, utilizing Python-based local orchestrators to invoke large language model (LLM) cloud backends. The first agent, DeepTS/DeepCollector, automates the large-scale curation, extraction, and deduplication of time-series datasets. The second, DeepScribe, is an autonomous presentation analyzer that converts visually dense, mathematically complex physics lectures into structured scientific reports. Through practical systems engineering-such as granular attribute extraction (Cellular RAG), remote data inspection, and distributed concurrency controls-we demonstrate how agentic AI can overcome the context and reasoning limitations of current state-of-the-art systems to rigorously support scientific workflows. Finally, we outline a generalization of DeepTS to support deep knowledge graphs and discuss the application of this conceptual approach to high-energy physics (DeepQCD).",
+    "url": "http://arxiv.org/abs/2605.26305v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26305v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI",
+      "eess.SY",
+      "hep-ph"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26029v1",
+    "title": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists",
+    "authors": [
+      "Junlin Yang",
+      "Dylan Zhang",
+      "Xiangchen Song",
+      "Qirun Dai",
+      "Xiao Liu"
+    ],
+    "abstract": "We introduce CausaLab, a scalable environment for evaluating interactive causal discovery by LLM agents. Unlike prior evaluations, CausaLab evaluates both whether an agent can solve a problem using causal evidence and whether its answer is supported by a correct hypothesis about the underlying causal mechanism. Each episode places an agent in a synthetic laboratory: it receives prior measurement records, intervenes on a manipulator crystal, and predicts the resonance frequency of a held-out reactor crystal governed by the same mechanism. The hidden data-generating process is a randomly sampled structural causal model (SCM), so success requires recovering both a causal graph and structural equations rather than recalling prior knowledge. CausaLab also includes a domain-specific language that records the agent's evolving SCM hypothesis, making trajectories inspectable and comparable with ground truth. Experiments show a persistent gap between prediction and mechanism recovery: in the purely observational 6-node setting, GPT-5.2-high reaches 92% task accuracy but only 0.471 all-edge $F_1$. This observation further motivates our exploration of different interaction strategies: Mixed observation--intervention strategies improve structural fidelity: in the mixed 6-node setting, GPT-5.2-high achieves 80% on both task accuracy and all-edge $F_1$. Yet even strong agents struggle to design informative interventions, as pure intervention strategies perform poorly on both task accuracy and all-edge $F_1$. We identify premature stopping as a major weakness of agents, and show that asking the model to verify the consistency between its hypothesis and past data can help mitigate this issue. CausaLab therefore separates predictive success from causal understanding and exposes current LLM agents' limits as experimental causal reasoners.",
+    "url": "http://arxiv.org/abs/2605.26029v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26029v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.27360v1",
+    "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+    "authors": [
+      "Tamerlan Aghayev",
+      "Maxime Elkael",
+      "Michele Polese",
+      "Minh Dat Nguyen",
+      "Gabriele Gemmi"
+    ],
+    "abstract": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments; (iv) data-driven optimization of network functionalities; (v) discovering and prototyping novel waveforms, functionalities, and capabilities for future standards; and (vi) securing the stack against vulnerabilities. Although Large Language Models (LLMs) have compressed comparable R&D work in general software engineering from days to minutes, their known pitfalls worsen on Radio Access Network (RAN) use cases: they hallucinate Application Programming Interfaces (APIs) and mis-read specifications, which kills interoperability of RAN components at the first mistake, and they heavily rely on simulations for designing algorithms, which is notorious for breaking when transferred to real hardware. To address these challenges, we present GENESIS, an agentic Artificial Intelligence (AI) framework that converts intents (e.g., a specification clause, a telemetry anomaly, or a research hypothesis) into solutions validated with over-the-air experiments, fed back into a persistent knowledge base. GENESIS is built on three composable primitives (agents, skills, hooks) and a knowledge layer (SYNAPSE) that doubles as the source of ground truth and the recipient of every artifact the framework produces, making capabilities compound across runs.",
+    "url": "http://arxiv.org/abs/2605.27360v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27360v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.NI",
+      "cs.AI"
+    ],
+    "primary_category": "cs.NI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26340v1",
+    "title": "ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence",
+    "authors": [
+      "Rui Meng",
+      "Bhavana Dalvi Mishra",
+      "Jiefeng Chen",
+      "Chun-Liang Li",
+      "Palash Goyal"
+    ],
+    "abstract": "Autonomous research agents produce competitive solutions and professional-looking manuscripts, yet their outputs contain verifiability failures undetectable by surface-level evaluation: fabricated citations, unreproducible scores, and method descriptions that diverge from the implementation. We address this through three contributions. First, Chain-of-Evidence (CoE), a verifiability framework requiring every claim to be traceable to its evidence source. Second, ScientistOne, an end-to-end autonomous research system that maintains evidence chains by construction throughout literature review, solution discovery, and paper writing. Third, CoE Audit, a post-hoc audit whose four integrity checks -- score verification, specification violation, reference verification, and method-code alignment -- apply uniformly to all systems. Across 75 papers spanning five systems and five frontier research tasks, every baseline exhibits at least one systematic failure mode: hallucinated reference rates reach 21%, score verification passes in as few as 42% of papers, and method-code alignment ranges from 20% to 80%. ScientistOne achieves zero hallucinated references (0/337), perfect score verification (12/12), and the highest method-code alignment (14/15), while matching or exceeding human expert performance on all five tasks. ScientistOne further generalizes to six additional tasks spanning medical imaging, fine-grained recognition, 3D perception, and language modeling, achieving state-of-the-art on Parameter Golf and gold medals on MLE-Bench tasks where baselines fail entirely.",
+    "url": "http://arxiv.org/abs/2605.26340v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26340v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26333v1",
+    "title": "Managing Uncertainty in LLM-Generated Procedural Knowledge for Virtual Laboratory Planning",
+    "authors": [
+      "Polychronis Karpodinis",
+      "Dimitris Kalles"
+    ],
+    "abstract": "Educational virtual laboratories can make experimental training more scala-ble, adaptive, and accessible, especially when students have limited access to physical laboratory facilities. However, authoring new simulated laboratory procedures remains costly: educators must describe new equipment, define how instruments and materials interact, and specify valid procedural flows that can be executed or assessed inside the virtual environment. Large lan-guage models can assist in this authoring process by generating detailed ex-perimental procedures, but their output should not be treated as directly exe-cutable plans. They may omit necessary actions, arrange steps in the wrong order, or produce instructions that are logically incorrect or incompatible with the laboratory equipment. This paper presents a prototype framework for managing uncertainty in LLM-generated procedural knowledge for virtu-al laboratory planning. The framework aims to reduce procedural uncertainty by using structured domain representations and uncertain LLM-generated state-transition samples to extract candidate procedural rules, transform them into explicit and inspectable constraints, and use them to repair uncertain procedural steps. Although the motivating domain refers to educational vir-tual laboratories, the underlying problem is more general: managing uncer-tain procedural knowledge for action planning in structured interactive envi-ronments. We illustrate the approach in a virtual laboratory domain involving laboratory instruments, containers, tools, and material-transfer actions.",
+    "url": "http://arxiv.org/abs/2605.26333v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26333v1",
+    "published": "2026-05-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2605.26911v1",
+    "title": "TADDLE: A Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews",
+    "authors": [
+      "Hanqi Duan",
+      "Xiang Li"
+    ],
+    "abstract": "LLM-generated peer reviews are increasingly common at major venues, yet their deficiencies are hard to detect because they are uniformly fluent and well-structured. Existing work either classifies authorship without judging quality, or scores quality with features designed for human-written reviews; no prior system detects deficiencies in LLM-generated reviews at the level of individual defect types. To bridge the gap, we introduce TADDLE, a Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews, together with the first expert-annotated benchmark for this task. Our benchmark comprises 1,800 reviews on 50 ICLR 2025 papers, multi-label-annotated by 18 domain experts against a taxonomy of six defect categories (plus a non-deficient label). TADDLE decomposes detection into four specialized analysis tools -- Verify, Correct, Complete, and Transform -- orchestrated by an agent; an integrator synthesizes their outputs into binary and multi-label classifications via two-stage semi-supervised learning. Extensive experiments show that TADDLE performs strongly on both binary detection and the multi-label classification task. We release the benchmark and code at https://github.com/AquariusAQ/TADDLE.",
+    "url": "http://arxiv.org/abs/2605.26911v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26911v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.26730v2",
+    "title": "PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers",
+    "authors": [
+      "Ngoc Phan Phuoc Loc",
+      "Toan Huynh La Viet",
+      "Thanh Tran Khanh",
+      "Duy A Nguyen",
+      "Tuan Anh Nguyen Pham"
+    ],
+    "abstract": "The rapid growth in submissions to machine learning venues has strained the scientific peer-review system and intensified interest in LLM-based automated peer reviewers. However, how good these systems are actually, especially compared to human reviewers at catching scientific gaps, remains poorly understood. In this work, we introduce PRISM (Peer Review Intelligence via Structured Multi-dimensional assessment), a benchmarking framework that evaluates review quality across four dimensions: Depth of Analysis, Novelty Assessment,Flaw Identification & Major Issues Prioritization, and Multi-dimensional Constructiveness. Unlike most existing evaluations based on surface-level metrics like ROUGE and BLEU, or unconstrained LLM-as-a-judge prompting that conflates fluency with rigor, PRISM grounds each dimension in argument mining, retrieval-augmented verification, and consensus-based scoring. We apply PRISM to benchmark five leading automated reviewer systems and human reviewers on a stratified corpus of reviews from ICLR, ICML, and NeurIPS. The results reveal that LLMs can match or beat human reviewers on individual dimensions: comparable depth of analysis, stronger novelty verification, and highly accurate critique prioritization. However, no single system consistently matches the balanced performance of the human baseline across all dimensions at once. Each exhibits a distinct specialization profile with characteristic blind spots -- failure modes that aggregate metrics miss entirely. The implication is that LLM reviewers are best understood as targeted supplements to human review, effective within specific dimensions, but unreliable as standalone replacements. Our demo and key results can be found at https://khanhthanhdev.github.io/prism-page/.",
+    "url": "http://arxiv.org/abs/2605.26730v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.26730v2",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.26720v1",
+    "title": "Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation",
+    "authors": [
+      "Yee Hin Chong",
+      "Jiaming Wu",
+      "Youhui Zhang",
+      "Peng Qu"
+    ],
+    "abstract": "Large language models (LLMs) have shown strong empirical gains as self-evolving agents for CUDA kernel generation, driven by feedback-conditioned planning across generations. However, how planning decisions attribute and combine heterogeneous feedback signals remains opaque. Standard end-to-end ablations fail to resolve this question, as iterative planning amplifies early perturbations and conflates feedback effects with trajectory-dependent drift.   We introduce \\texttt{CUDAnalyst}, a unified analysis layer for controlled, generation-level attribution of planning decisions to feedback components via trajectory freezing and selective feedback injection. \\texttt{CUDAnalyst} enables stable generation-level evaluation and principled coalitional-style attribution of feedback effects and interactions. Our results show that explicit planning is beneficial only when feedback is aligned, that effective planning emerges from structured multi-feedback interactions, and that high-level plans from stronger reasoning models can partially transfer to weaker ones. These trends hold across reference backbones, representative workloads, and reference induction regimes, indicating that the identified feedback-to-plan structure is robust within the controlled axes studied.",
+    "url": "http://arxiv.org/abs/2605.26720v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26720v1",
+    "published": "2026-05-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2605.27864v1",
+    "title": "FundaPod: A Multi-Persona Agent Pod Platform with Knowledge Graph Memory for AI-Assisted Fundamental Investment Research",
+    "authors": [
+      "Di Zhu",
+      " Lei",
+      " Zheng",
+      "Zihan Chen"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly applied in finance, yet most existing work emphasizes trading signals or financial NLP tasks centered on prediction. Institutional fundamental research, by contrast, requires human analysts or AI agents to gather evidence, identify business drivers, compare competing viewpoints, and generate investment memos. Its broader goal is not merely to predict outcomes, but to produce investment plans that are transparent, reusable, and verifiable, while contributing to the cumulative development of investment knowledge. We present FundaPod, a multi-persona agent platform for AI-assisted fundamental investment research. We argue that fundamental research is a human-centric decision-support task that is qualitatively distinct from trading-signal generation, and is therefore better served by an independence-preserving architecture. In FundaPod, AI agents with different personas, such as value investors or macro strategists, conduct research independently under a shared provenance contract. Their disagreements are then surfaced post hoc for adjudication by the human portfolio manager (PM) through a knowledge-graph memory system. This paper contributes five design principles for human-AI hybrid systems supporting fundamental research, grounded in design-science practice and theories of cognitive isolation and human-machine coordination. It also describes four architectural mechanisms: a persona distillation pipeline that turns public investor materials into deployable agents; a declarative skill registry that lets the planner derive typed task graphs; a grounded evidence model that links memo claims to verifiable sources; and a knowledge-graph \"second brain\" that connects tickers, memos, analysts, and themes. We demonstrate the architecture through a complete case study and a persona-based memo comparison.",
+    "url": "http://arxiv.org/abs/2605.27864v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27864v1",
+    "published": "2026-05-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
