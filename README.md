@@ -24,6 +24,27 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-29
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Influence-Guided Symbolic Regression: Scientific Discovery via LLM-Driven Equation Search with Granular Feedback](http://arxiv.org/abs/2605.29184v1) | Evgeny S. Saveliev, Samuel Holt, Nabeel Seedat et al. | Large Language Models (LLMs) offer a promising avenue for scientific discovery, yet their application to symbolic regression is often constrained by inefficient search strategies and coarse feedbac... |
+| [PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft](http://arxiv.org/abs/2605.27762v1) | Yuchen Guo, Junli Gong, Hongmin Cai et al. | We present PEAM, a Parametric Embodied Agent Memory framework in Minecraft that transforms agent memory from inference-time retrieval into parameter-resident skills internalized through experience. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Notation Matters: A Benchmark Study of Token-Optimized Formats in Agentic AI Systems](http://arxiv.org/abs/2605.29676v1) | Lorenz Kutschka, Bernhard Geiger | Large language models in Agentic AI systems consume tool schemas and execution results and emit tool invocations as structured data. |
+| [Recovering Policy-Induced Errors: Benchmarking and Trajectory Synthesis for Robust GUI Agents](http://arxiv.org/abs/2605.29447v1) | Tianpeng Bu, Xin Liu, Qihua Chen et al. | While GUI agents have advanced rapidly, they often lack the robustness to recover from their own errors, hindering real-world deployment. |
+| [Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents](http://arxiv.org/abs/2605.28108v2) | Bin Wu, Guanyun Zou, Bingbing Wang et al. | A long-lived LLM agent, such as OpenClaw, earns its value by acting on a user's preferences and constraints across sessions, not just the current request. |
+| [KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs](http://arxiv.org/abs/2605.27984v1) | Haechan Kim, Seungjun Chung, Inkyu Park et al. | Speech language models (SpeechLMs) have achieved substantial progress by extending large language models (LLMs) to the speech modality. |
+| [ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents](http://arxiv.org/abs/2605.27240v1) | Xing Fu, Yulin Hu, Mengtong Ji et al. | Memory-augmented language agents are increasingly deployed in affective applications such as emotional support, where understanding and responding to users' latent emotional needs is critical. |
+
 ### 📅 2026-05-28
 
 **10 new papers found**
