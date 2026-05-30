@@ -24,6 +24,30 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-05-30
+
+**5 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Influence-Guided Symbolic Regression: Scientific Discovery via LLM-Driven Equation Search with Granular Feedback](http://arxiv.org/abs/2605.29184v1) | Evgeny S. Saveliev, Samuel Holt, Nabeel Seedat et al. | Large Language Models (LLMs) offer a promising avenue for scientific discovery, yet their application to symbolic regression is often constrained by inefficient search strategies and coarse feedbac... |
+| [SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?](http://arxiv.org/abs/2605.30329v1) | Sy-Tuyen Ho, Minghui Liu, Huy Nghiem et al. | Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PRAIB: Peer Review AI Benchmark of Behaviour of LLM-Assisted Reviewing](http://arxiv.org/abs/2605.29815v1) | Krzysztof Żurawicki, Julia Farganus, Arkadiusz Gaweł et al. | The growing number of submitted papers has motivated the exploration of Large Language Models (LLMs) as a means to support and augment the peer review process, particularly in terms of improving it... |
+| [Does The Way You Plan Matter? An Empirical Study of Planning Representations for LLM Web Agents](http://arxiv.org/abs/2605.29927v1) | Alejandra Zambrano, Sara Vera Marjanovic, Imene Kerboua et al. | Despite recent advances, LLM-based web agents still struggle with limited exploration, omission of critical steps, and sensitivity to task constraints. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation](http://arxiv.org/abs/2605.29861v1) | Chenghao Zhang, Guanting Dong, Yufan Liu et al. | Large Language Models (LLMs) have advanced autonomous agents from deep search, which retrieves concise factual answers, to deep research, which synthesizes scattered evidence into long-form reports. |
+
 ### 📅 2026-05-29
 
 **7 new papers found**
