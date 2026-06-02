@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-02
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond One-shot: AI Agents for Learning in Field Experiments](http://arxiv.org/abs/2606.02458v1) | Junjie Luo, Ritu Agarwal, Gordon Gao | Organizations routinely run experiments for A/B testing, yet the data generated from one experiment is underutilized to inform subsequent intervention design. |
+| [LLM Consortium for Software Design Refinement: A Controlled Experiment on Multi-Agent Collaboration Topologies](http://arxiv.org/abs/2606.01490v1) | Nagarjuna Kanamarlapudi, Praveen K | We present a controlled experiment evaluating 12 multi-agent LLM collaboration topologies for software architecture design. |
+| [Matter to Mechanism: A Benchmark for AI Co-Scientists in Materials and Battery Research](http://arxiv.org/abs/2606.02258v1) | Shashwat Sourav, Tanjin. He, Maria K. Y. Chan et al. | AI co-scientists are increasingly used for scientific discovery, but current evaluations still do not test them on a key task: moving from a concrete scientific or technological problem to a plausi... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TravelEval: A Comprehensive Benchmarking Framework for Evaluating LLM-Powered Travel Planning Agents](http://arxiv.org/abs/2606.01046v1) | Weiyi Chen, Shuaixiong Wang, Ziyun Gao et al. | The development of Large Language Models (LLMs) has significantly improved travel planning applications, yet evaluating such models is limited by existing benchmarks' limitations: 1) overemphasis o... |
+| [A Machine-to-Machine Knowledge-Guided LLM Agent for Generalizable Radiotherapy Treatment Planning](http://arxiv.org/abs/2606.00922v1) | Md Mainul Abrar, Xun Jia, Yujie Chi | In this work, we propose a prototype machine-to-machine (M2M) knowledge-guided Large Language Model (LLM) framework for automated radiotherapy treatment planning. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TimeSage-MT: A Multi-Turn Benchmark for Evaluating Agentic Time Series Reasoning](http://arxiv.org/abs/2606.01498v1) | Yaxuan Kong, Qingren Yao, Yuqi Nie et al. | Time series data inform critical decisions across many real-world domains. While large language model (LLM) agents can analyze data through natural language and tools, it remains unclear whether th... |
+| [Characterization of Multi-Model Agentic AI Systems on General Tasks via Trace-Driven Simulation](http://arxiv.org/abs/2606.01725v1) | Donghwan Kim, Prakhar Singh, Younghoon Min et al. | Agentic AI completes tasks through iterative planning, tool use, and reasoning based on observed outcomes. |
+| [Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes](http://arxiv.org/abs/2606.02215v1) | Zihang Fu, Fanxiao Li, Jianyang Gu et al. | Large Language Model (LLM)-augmented Community Notes offer a scalable path for timely, evidence-grounded correction of health misinformation on social platforms. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation](http://arxiv.org/abs/2606.02470v1) | Wenhao Wang, Peizhi Niu, Gongyi Zou et al. | The Model Context Protocol (MCP) has emerged as a transformative standard for connecting large language models (LLMs) with external data sources and tools, and has been rapidly adopted across perso... |
+| [SMH-Bench: Benchmarking LLM Agents for Environment-Grounded Reasoning and Action in Smart Homes](http://arxiv.org/abs/2606.01912v1) | Kuan Li, Shuo Zhang, Huacan Wang et al. | Smart homes are evolving toward complex state-dependent living environments, requiring Large Language Models (LLMs) to reason over user intent, preferences, and multi-device interactions. |
+| [3DCodeBench: Benchmarking Agentic Procedural 3D Modeling Via Code](http://arxiv.org/abs/2606.01057v1) | Yipeng Gao, Lei Shu, Genzhi Ye et al. | Procedural 3D modeling through code is emerging as a versatile paradigm, offering deterministic, engine-ready, and precisely editable assets that neural 3D generators inherently lack. |
+| [Benchmarking Security Risk Detection and Verification in Open Agentic Skill Ecosystems](http://arxiv.org/abs/2606.00925v1) | Ismail Hossain, Sai Puppala, Zhuoran Lu et al. | Open agent platforms allow community contributors to publish reusable skills that agents can invoke at runtime. |
+| [K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts](http://arxiv.org/abs/2606.02404v1) | Nahyun Lee, Dongkeun Yoon, Guijin Son et al. | Frontier model evaluations are shifting from foundational capabilities (e.g., instruction following and reasoning) toward compositional, agentic ones, but Korean agentic benchmarks remain scarce. |
+| [DrugClaw and DrugAudit: A Primary-Source-Grounded Agent and Authority-Aware Benchmark for Drug-Information Question Answering](http://arxiv.org/abs/2606.01434v1) | Qing Wang, Bo Li, Jialu Liang et al. | Drug-information question answering is a high-stakes setting where hallucinated facts can mislead clinical decision-making and the provenance of each cited fact matters as much as the fact itself. |
+
 ### 📅 2026-06-01
 
 *No new papers found today.*

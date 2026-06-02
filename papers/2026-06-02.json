@@ -1,0 +1,285 @@
+[
+  {
+    "id": "2606.02458v1",
+    "title": "Beyond One-shot: AI Agents for Learning in Field Experiments",
+    "authors": [
+      "Junjie Luo",
+      "Ritu Agarwal",
+      "Gordon Gao"
+    ],
+    "abstract": "Organizations routinely run experiments for A/B testing, yet the data generated from one experiment is underutilized to inform subsequent intervention design. Significant barriers exist to extracting actionable knowledge from prior experimental data to inform new interventions. We study whether tool-augmented agentic AI can automatically learn from experimental data to generate new interventions in subsequent experiments. Through two-stage field experiments in healthcare prescription messaging (693,139 patient visits), we compare a Human + Chatbot method (Stage 1: behavioral experts with conversational AI co-designing 13 message variants, 444,691 patient visits) against a Tool-Augmented Agentic AI method (Stage 2: AI autonomously extracting principles from Stage 1 data to generate 17 new variants, 248,448 patient visits). The Agentic AI method, equipped with analytical tools, structured Data-Information-Knowledge-Wisdom (DIKW) reasoning agents, and transparent evidence chains, produces superior interventions: the best AI-generated message achieved a 69.8% CTR (+6.5 percentage points over baseline). Critically, our results suggest that the value comes from domain-specific experimental data, not from general reasoning ability: frontier LLMs operating without experimental data failed to predict which interventions would succeed. The field experiments also revealed that general-purpose behavioral theories used for intervention design do not extend uniformly to specific healthcare contexts, motivating an agentic AI approach to theory audits at field-experiment scale. Our research shows that tool-augmented AI can learn from experimental data and generate improved domain-relevant interventions, transforming behavioral experimentation from one-shot evaluation into a scalable system for cumulative design learning.",
+    "url": "http://arxiv.org/abs/2606.02458v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02458v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.01490v1",
+    "title": "LLM Consortium for Software Design Refinement: A Controlled Experiment on Multi-Agent Collaboration Topologies",
+    "authors": [
+      "Nagarjuna Kanamarlapudi",
+      "Praveen K"
+    ],
+    "abstract": "We present a controlled experiment evaluating 12 multi-agent LLM collaboration topologies for software architecture design. Using a $2\\times2\\times2$ factorial design (Authority $\\times$ Roles $\\times$ Dynamics), we conducted 520 experimental runs across 8 design tasks of varying complexity, with 5 repetitions each. Designs were evaluated on a 12-dimensional rubric by three independent automated evaluators (GPT-OSS 120B, Claude Opus 4.6, Claude Sonnet 4.6). We report four core findings. First, structural adversarial (v4b) ranks #1 by ensemble -- a prompt-engineered adversarial variant that demands rewrite mandates rather than patches (weighted ensemble: 4.637/5.0). Second, cross-model review wins unanimously at #2 -- generate with one model, review with another -- ranking #2 by all three evaluators (weighted ensemble: 4.606). Third, evaluator diversity is itself a finding -- all three evaluators agree v4b is best and v3 is worst, but disagree sharply on v2b (Claude d=1.44 vs. GPT-OSS d=0.45), revealing how different model families weight design qualities. Fourth, parallel merge is fundamentally broken -- all three evaluators place merge variants in the bottom tier (3.65-3.79), due to token starvation and the Frankenstein effect. The weighted ensemble ($2\\times$Opus + $2\\times$Sonnet + $1\\times$GPT-OSS) provides robust rankings across 520 runs, confirmed through independent cross-validation.",
+    "url": "http://arxiv.org/abs/2606.01490v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01490v1",
+    "published": "2026-05-31",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.02258v1",
+    "title": "Matter to Mechanism: A Benchmark for AI Co-Scientists in Materials and Battery Research",
+    "authors": [
+      "Shashwat Sourav",
+      "Tanjin. He",
+      "Maria K. Y. Chan",
+      "Anubhav Jain",
+      "Tirthankar Ghosal"
+    ],
+    "abstract": "AI co-scientists are increasingly used for scientific discovery, but current evaluations still do not test them on a key task: moving from a concrete scientific or technological problem to a plausible, mechanism-grounded solution hypothesis. This gap is especially important in materials science and, in particular, battery research, where a useful proposal must identify the relevant failure mode, propose a credible intervention, and explain why that intervention should improve the target property. We introduce Matter to Mechanism, a benchmark for evaluating AI co-scientists on problem-to-hypothesis reasoning in materials science, with a focus on battery materials research. The benchmark contains 2,645 instances derived from scientific publications. Each instance includes a structured problem statement, a candidate solution hypothesis, an explicit reasoning trace, and domain-grounded annotations such as material system, component, failure mode, intervention, mechanism, target property, and claimed outcome. We also introduce a metric suite that measures reasoning fidelity, problem alignment, mechanistic specificity, novelty, plausibility, and problem decomposition quality, and combine them into a composite score. Using this framework, we evaluate several AI co-scientist systems and show that Matter to Mechanism reveals interpretable system differences that are only partially recovered by standard text-similarity metrics. We further show through adversarial stress tests that the aggregate score is more stable than individual metric dimensions under superficial gaming attacks.",
+    "url": "http://arxiv.org/abs/2606.02258v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02258v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.CE"
+    ],
+    "primary_category": "cs.CE",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.01046v1",
+    "title": "TravelEval: A Comprehensive Benchmarking Framework for Evaluating LLM-Powered Travel Planning Agents",
+    "authors": [
+      "Weiyi Chen",
+      "Shuaixiong Wang",
+      "Ziyun Gao",
+      "Kaichun Hu",
+      "Wangze Ni"
+    ],
+    "abstract": "The development of Large Language Models (LLMs) has significantly improved travel planning applications, yet evaluating such models is limited by existing benchmarks' limitations: 1) overemphasis on constraint compliance, neglecting multi-dimensional qualities like spatio-temporal cost; 2) datasets lacking real-world authenticity and coverage in key areas (e.g., lodging, transport); and 3) isolated daily plan assessments that miss critical details (e.g., the impact of daily accommodation and visit pacing) needed for entire plan's evaluation. To address this gap, we introduce TravelEval, a realistic and comprehensive benchmark. TravelEval features 1) a novel six-dimensional evaluation framework to holistically assess plans across accuracy, compliance, temporality, spatiality, economy, and utility dimensions; 2) a highly realistic data sandbox with precise accommodation pricing and authentic intercity transportation data; and 3) a simulation-based global evaluation method that emulates complete travel plans with API-integrated geographic information and fine-grained queuing time. Evaluating 12 mainstream approaches with TravelEval reveals several valuable insights, such that LLMs struggle with globally-optimized multi-dimensional planning (especially in spatio-temporal reasoning and budget compliance), and agentic reasoning strategies offer no consistent improvement. Concisely, TravelEval facilitates travel plan evaluation via grounded spatio-temporal emulation and comprehensive metrics, providing a robust foundation for advancing LLM-powered travel planning research and applications.",
+    "url": "http://arxiv.org/abs/2606.01046v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01046v1",
+    "published": "2026-05-31",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.00922v1",
+    "title": "A Machine-to-Machine Knowledge-Guided LLM Agent for Generalizable Radiotherapy Treatment Planning",
+    "authors": [
+      "Md Mainul Abrar",
+      "Xun Jia",
+      "Yujie Chi"
+    ],
+    "abstract": "In this work, we propose a prototype machine-to-machine (M2M) knowledge-guided Large Language Model (LLM) framework for automated radiotherapy treatment planning. In the proposed paradigm, Treatment Planning Parameter (TPP) distribution knowledge discovered by a Deep Reinforcement Learning (DRL) agent is transferred to an LLM agent through in-context learning, enabling autonomous iterative planning without human intervention. While standard LLM-based planning often lacks physical intuition and struggles with convergence, the integration of DRL-derived guidance constrains the agent to a physically valid parameter space. Experimental evaluations are performed across three diverse planning scenarios: basic prostate cases, complex prostate configurations with increased organ-at-risk (OAR) constraints, and liver cases. The evaluation results demonstrate that the guided LLM agent consistently achieves optimal planning scores while significantly reducing the number of iterations compared to unguided planning. Analysis of the final TPP configurations reveals that the agent successfully learns a hierarchical priority of objectives, effectively restoring a logical \"cause-and-effect\" relationship between parameter tuning and dosimetric outcomes. Crucially, this prototype framework exhibits robust generalizability, maintaining high planning quality regardless of specific patient anatomy, treatment site, or initial plan quality. By bridging the specialized optimization of DRL with the adaptive reasoning of LLMs, this M2M framework establishes a scalable foundation towards generalizable autonomous treatment planning, ultimately benefiting clinical practice in realistic environments.",
+    "url": "http://arxiv.org/abs/2606.00922v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.00922v1",
+    "published": "2026-05-30",
+    "categories": [
+      "physics.med-ph",
+      "cs.RO"
+    ],
+    "primary_category": "physics.med-ph",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.01498v1",
+    "title": "TimeSage-MT: A Multi-Turn Benchmark for Evaluating Agentic Time Series Reasoning",
+    "authors": [
+      "Yaxuan Kong",
+      "Qingren Yao",
+      "Yuqi Nie",
+      "Yichen Li",
+      "Yilei Shao"
+    ],
+    "abstract": "Time series data inform critical decisions across many real-world domains. While large language model (LLM) agents can analyze data through natural language and tools, it remains unclear whether they can conduct reliable time series analysis across multi-turn conversations. Existing benchmarks focus on single-step tasks such as forecasting and anomaly detection, overlooking practical workflows where user goals evolve, agents must build on prior analyses, and conclusions emerge from accumulated evidence. In this work, we introduce TimeSage-MT, a multi-turn benchmark for agentic time series reasoning with 240 tasks and 2,680 dialogue turns across 8 real-world domains, spanning basic exploration to decision-oriented analysis. TimeSage-MT is built through a reproducible pipeline that converts real-world time series data into multi-turn conversations with verifiable answers. It provides a unified evaluation protocol and public leaderboard for comparing time series agentic systems. To demonstrate the benchmark's utility, we evaluate frontier LLMs alongside TimeSage, a novel structured agent equipped with a comprehensive time series skill library. The results show sharp performance drops on decision-oriented tasks, driven by failures in memory, uncertainty handling, and domain-based decision making. TimeSage-MT exposes critical gaps in current agentic reasoning and provides a rigorous foundation for future development.",
+    "url": "http://arxiv.org/abs/2606.01498v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01498v1",
+    "published": "2026-05-31",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.01725v1",
+    "title": "Characterization of Multi-Model Agentic AI Systems on General Tasks via Trace-Driven Simulation",
+    "authors": [
+      "Donghwan Kim",
+      "Prakhar Singh",
+      "Younghoon Min",
+      "Jongryool Kim",
+      "Jongse Park"
+    ],
+    "abstract": "Agentic AI completes tasks through iterative planning, tool use, and reasoning based on observed outcomes. Despite its popularity, its system-level behavior remains poorly understood, particularly for complex datasets and agent architectures-owing to highly non-deterministic execution, prohibitive evaluation costs, and limited visibility into proprietary models. This paper presents GAIATrace, the first token-level trace dataset of two state-of-the-art agentic systems (MiroThinker and OWL) running GAIA, a benchmark composed of a heterogeneous mix of general-purpose tasks. Unlike prior trace datasets, GAIATrace captures full reasoning tokens, task-level structures, and activities of every major participating LLMs, enabling in-depth systems research. Complementing the dataset, we present Vidur-Agent, a trace-driven simulator that can replay GAIATrace to perform reproducible, low-cost system evaluation across diverse simulated environments. Using both artifacts, we characterize how modern agentic systems handle general tasks and how various system design choices shape their behavior, yielding several unique findings.",
+    "url": "http://arxiv.org/abs/2606.01725v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01725v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.02215v1",
+    "title": "Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes",
+    "authors": [
+      "Zihang Fu",
+      "Fanxiao Li",
+      "Jianyang Gu",
+      "Haonan Wang",
+      "Preslav Nakov"
+    ],
+    "abstract": "Large Language Model (LLM)-augmented Community Notes offer a scalable path for timely, evidence-grounded correction of health misinformation on social platforms. However, they still reset at every post, leaving useful correction experience from prior cases unused. We introduce EvoNote, an agentic framework that enables health Community Notes generation to self-evolve through an evolving experience memory of prior misinformation correction episodes. Its core is fine-grained credit assignment: EvoNote grounds trajectory-level feedback in health-specific note qualities and distills it into action-level memory for claim analysis, evidence acquisition, and note writing. We evaluate EvoNote on MM-HealthCN, a 1.2K-instance multimodal benchmark of user-flagged health posts with human-written Community Notes and crowd-derived helpfulness labels. Under a human-validated hierarchical utility judge, EvoNote-generated notes are preferred over corresponding human-written notes in 89.6% of cases; on a separate set of Needs More Ratings posts without a crowd helpfulness verdict, EvoNote produces helpful notes for 82.0% of cases. It also reduces the median time needed to produce a candidate correction from over 13 hours in the human-note pipeline to under 2 minutes. Analyses link these gains to stronger evidence use and reusable correction strategies, positioning self-evolving note generation as a promising paradigm for health misinformation governance.",
+    "url": "http://arxiv.org/abs/2606.02215v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02215v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.CL",
+      "cs.SI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.02470v1",
+    "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+    "authors": [
+      "Wenhao Wang",
+      "Peizhi Niu",
+      "Gongyi Zou",
+      "Xiyuan Yang",
+      "Jingxing Wang"
+    ],
+    "abstract": "The Model Context Protocol (MCP) has emerged as a transformative standard for connecting large language models (LLMs) with external data sources and tools, and has been rapidly adopted across personal applications and development platforms. However, existing benchmarks predominantly focus on generic information-seeking tools and fail to capture the practical challenges posed by personal social applications, where tools interact with individual accounts or local databases. To bridge this critical gap, we introduce MCP-Persona, the first benchmark specifically designed for evaluating agent performance on real-world, personalized MCP tools. MCP-Persona encompasses a diverse set of widely-used applications, ranging from social media platforms like Reddit and Xiaohongshu (Rednote) to enterprise collaboration suites such as Lark (Feishu) and Slack. Our extensive experiments on various state-of-the-art (SOTA) agents demonstrate their significant struggles with personalized tool use, thereby highlighting the benchmark's crucial role in identifying and addressing these limitations. MCP-Persona is publicly available at https://github.com/wwh0411/MCP-Persona}{https://github.com/wwh0411/MCP-Persona.",
+    "url": "http://arxiv.org/abs/2606.02470v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02470v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.01912v1",
+    "title": "SMH-Bench: Benchmarking LLM Agents for Environment-Grounded Reasoning and Action in Smart Homes",
+    "authors": [
+      "Kuan Li",
+      "Shuo Zhang",
+      "Huacan Wang",
+      "Fangzhou Yu",
+      "Zecheng Sheng"
+    ],
+    "abstract": "Smart homes are evolving toward complex state-dependent living environments, requiring Large Language Models (LLMs) to reason over user intent, preferences, and multi-device interactions. However, existing smart-home benchmarks often focus on static instruction-to-API mapping or limited simulations, failing to evaluate whether LLMs can reason, interact, and act reliably in realistic household scenarios. To address these limitations, we introduce SMH-Bench, a comprehensive benchmark for evaluating LLMs in smart-home environments. Built upon HomeEnv, an executable and verifiable smart-home simulator, SMH-Bench contains 1,100 high-quality tasks spanning 7 categories and 22 fine-grained subcategories. It further stratifies tasks across simple, medium and complex homes, ranging from small apartments to dense multi-room environments with 135 devices. Experiments show that although frontier LLMs achieve strong performance on explicit control and query tasks, they still exhibit significant weaknesses in automation task scheduling, ambiguity handling and personalized reasoning, especially as home complexity increases. We hope SMH-Bench will facilitate the development of more reliable, context-aware, and practically deployable smart-home agents.",
+    "url": "http://arxiv.org/abs/2606.01912v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01912v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.01057v1",
+    "title": "3DCodeBench: Benchmarking Agentic Procedural 3D Modeling Via Code",
+    "authors": [
+      "Yipeng Gao",
+      "Lei Shu",
+      "Genzhi Ye",
+      "Xi Xiong",
+      "Ameesh Makadia"
+    ],
+    "abstract": "Procedural 3D modeling through code is emerging as a versatile paradigm, offering deterministic, engine-ready, and precisely editable assets that neural 3D generators inherently lack. Authoring such procedural content, however, demands deep expertise in 3D software APIs, parametric design, and code-level geometric reasoning. In this paper, we propose 3DCodeBench, a systematic benchmark for evaluating vision-language model (VLM) agents for procedural 3D generation in 3D modeling software. Specifically, 3DCodeBench evaluates how effectively 12 advanced VLMs can serve as procedural 3D modelers by translating text and image references into procedural code for 3D modeling software. Recognizing that automated metrics may not fully capture the perceptual quality of 3D shapes, we build 3DCodeArena, a ranking platform based on pairwise human preferences over generated 3D outputs. From extensive evaluations and results, we observe that: (1) Failures mostly arise from API mismatches, while successful renders still suffer from disconnected or floating 3D geometric components. (2) Test-time scaling, such as higher thinking budgets and multi-turn refinement, improves performance overall. Our findings highlight a critical need for high-quality procedural coding data to advance commercial VLMs. Furthermore, effective procedural 3D modeling requires a robust execution environment that provides high-fidelity feedback for iterative refinement. We release 3DCodeBench, including the curated large-scale dataset of multimodal (text/image) prompts, procedural code, 3D object triplets, evaluation protocol, and the public 3DCodeArena platform as a foundational toolkit for exploring VLM-based procedural 3D modelers.",
+    "url": "http://arxiv.org/abs/2606.01057v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01057v1",
+    "published": "2026-05-31",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.GR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.00925v1",
+    "title": "Benchmarking Security Risk Detection and Verification in Open Agentic Skill Ecosystems",
+    "authors": [
+      "Ismail Hossain",
+      "Sai Puppala",
+      "Zhuoran Lu",
+      "Sajedul Talukder",
+      "Nan Jiang"
+    ],
+    "abstract": "Open agent platforms allow community contributors to publish reusable skills that agents can invoke at runtime. This extensibility also creates a supply-chain risk: malicious contributors can hide harmful behavior inside skills that appear benign under superficial inspection. However, existing defenses are hard to evaluate because there is no benchmark that measures both malicious-skill detection and runtime verification. We present SkillVetBench, a two-stage security vetting benchmark for open agentic skill ecosystems. The first stage performs semantic vetting over each skill's natural-language specification to detect hidden malicious intent. The second stage executes flagged skills in an instrumented sandbox to observe runtime behavior and collect auditable evidence. We build a benchmark from confirmed malicious skills in the live OpenClaw ecosystem, including samples from the recent ClawHavoc supplychain campaign. Unlike static-only methods, SkillVetBench verifies detected threats with execution traces. Our experiments show that: (1) semantic-only and signature-based baselines are insufficient, missing up to 89\\% of malicious skills whose threats arise from natural-language instructions, multicomponent logic, or cross-component interactions; (2) runtime attacks are concentrated in a small set of high-permission primitives, especially exec, write\\_file, install\\_skill, and spawn; and (3) SkillVetBench provides case studies in which sandbox execution directly supports malicious verdicts with concrete runtime evidence.",
+    "url": "http://arxiv.org/abs/2606.00925v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.00925v1",
+    "published": "2026-05-30",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.02404v1",
+    "title": "K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts",
+    "authors": [
+      "Nahyun Lee",
+      "Dongkeun Yoon",
+      "Guijin Son",
+      "Geewook Kim",
+      "Dayoon Ko"
+    ],
+    "abstract": "Frontier model evaluations are shifting from foundational capabilities (e.g., instruction following and reasoning) toward compositional, agentic ones, but Korean agentic benchmarks remain scarce. We introduce K-BrowseComp, a web-browsing agent benchmark grounded in Korean contexts, consisting of 400 problems. The 300-problem K-BrowseComp-Verified subset is manually constructed and validated by native Korean speakers. On this subset, frontier LLMs, including GPT-5.5, DeepSeek-V4-Pro, and GLM-5.1, reach only 30.00--45.67\\%, a substantial drop from BrowseComp, while Korean LLMs released through Korea's Proprietary AI Foundation Model program obtain only 0.00--10.33\\%. We further construct a 100-problem synthetic split using hard few-shot exemplars and failure-mode-targeted generation to exploit the asymmetry between solving and creating web browsing problems. On the adversarially filtered synthetic diagnostic split, the strongest model reaches only 26.00\\%, and we report this split separately as a targeted stress test. We publicly release our data and code.",
+    "url": "http://arxiv.org/abs/2606.02404v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02404v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.01434v1",
+    "title": "DrugClaw and DrugAudit: A Primary-Source-Grounded Agent and Authority-Aware Benchmark for Drug-Information Question Answering",
+    "authors": [
+      "Qing Wang",
+      "Bo Li",
+      "Jialu Liang",
+      "Daling Shi",
+      "Bob Zhang"
+    ],
+    "abstract": "Drug-information question answering is a high-stakes setting where hallucinated facts can mislead clinical decision-making and the provenance of each cited fact matters as much as the fact itself. We present DrugClaw, a multi-agent retrieval-augmented system that queries a registry of drug and pharmacovigilance skills via a reflection-driven state-machine workflow and returns answers grounded in primary regulatory or peer-reviewed records. We also contribute DrugAudit, a 3,772-item authority-aware benchmark with an evaluation panel that scores upstream-of-gold source match, token-level semantic snippet overlap, and citation faithfulness under a dual-judge LLM-as-judge protocol with inter-judge kappa = 0.88 (almost-perfect). Across DrugAudit plus drug-related subsets of MedQA (751) and PubMedQA (512), DrugClaw is top-1 on every column of the headline table: composite Evidence Index under both judges, judge-mediated answer correctness, primary-source rate (0.918, +10.1 pp over next-best), faithfulness (0.887, +5.9 pp), MedQA (0.920), and PubMedQA (0.693).",
+    "url": "http://arxiv.org/abs/2606.01434v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01434v1",
+    "published": "2026-05-31",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
