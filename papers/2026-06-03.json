@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2606.01498v1",
+    "title": "TimeSage-MT: A Multi-Turn Benchmark for Evaluating Agentic Time Series Reasoning",
+    "authors": [
+      "Yaxuan Kong",
+      "Qingren Yao",
+      "Yuqi Nie",
+      "Yichen Li",
+      "Yilei Shao"
+    ],
+    "abstract": "Time series data inform critical decisions across many real-world domains. While large language model (LLM) agents can analyze data through natural language and tools, it remains unclear whether they can conduct reliable time series analysis across multi-turn conversations. Existing benchmarks focus on single-step tasks such as forecasting and anomaly detection, overlooking practical workflows where user goals evolve, agents must build on prior analyses, and conclusions emerge from accumulated evidence. In this work, we introduce TimeSage-MT, a multi-turn benchmark for agentic time series reasoning with 240 tasks and 2,680 dialogue turns across 8 real-world domains, spanning basic exploration to decision-oriented analysis. TimeSage-MT is built through a reproducible pipeline that converts real-world time series data into multi-turn conversations with verifiable answers. It provides a unified evaluation protocol and public leaderboard for comparing time series agentic systems. To demonstrate the benchmark's utility, we evaluate frontier LLMs alongside TimeSage, a novel structured agent equipped with a comprehensive time series skill library. The results show sharp performance drops on decision-oriented tasks, driven by failures in memory, uncertainty handling, and domain-based decision making. TimeSage-MT exposes critical gaps in current agentic reasoning and provides a rigorous foundation for future development.",
+    "url": "http://arxiv.org/abs/2606.01498v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.01498v1",
+    "published": "2026-05-31",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]

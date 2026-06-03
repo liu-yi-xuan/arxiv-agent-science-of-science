@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-03
+
+**1 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TimeSage-MT: A Multi-Turn Benchmark for Evaluating Agentic Time Series Reasoning](http://arxiv.org/abs/2606.01498v1) | Yaxuan Kong, Qingren Yao, Yuqi Nie et al. | Time series data inform critical decisions across many real-world domains. While large language model (LLM) agents can analyze data through natural language and tools, it remains unclear whether th... |
+
 ### 📅 2026-06-02
 
 **14 new papers found**
