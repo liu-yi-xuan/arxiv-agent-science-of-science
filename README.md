@@ -24,6 +24,39 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-04
+
+**9 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents](http://arxiv.org/abs/2606.04874v1) | Haoyu Sun, Wenxuan Wang, Mingyang Song et al. | Planning is central to LLM agents: before acting, an agent must decompose goals, select tools, reason over constraints, and decide when a task is infeasible. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When Helping Hurts and How to Fix It: Multi-Agent Debate for Data Cleaning](http://arxiv.org/abs/2606.02866v1) | Chirag Parmar, Akshat Mehta, Henglin Wu et al. | When does multi-agent debate help data cleaning, and when does it hurt? Across three benchmarks, four model families, and over 6,000 task-condition pairs, we find debate's effect reverses sign: it ... |
+| [A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization using LLMs and Knowledge Graphs](http://arxiv.org/abs/2606.03867v1) | Cuong Vuong Tuan, Trang Mai Xuan, Tien-Cuong Nguyen et al. | Multi-Document Summarization (MDS) plays a critical role in distilling essential information from collections of textual data. |
+| [StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems](http://arxiv.org/abs/2606.03467v1) | Taiyu Zhu, Yifan Wu, Weilin Jin et al. | LLM-based multi-agent systems exhibit remarkable collaborative capabilities in complex multi-step tasks. |
+| [Streaming Communication in Multi-Agent Reasoning](http://arxiv.org/abs/2606.05158v1) | Zhen Yang, Xiaogang Xu, Wen Wang et al. | Multi-agent reasoning systems adopt a "generate-then-transfer" paradigm that forces end-to-end latency to scale linearly with pipeline depth. |
+| [Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes](http://arxiv.org/abs/2606.02215v1) | Zihang Fu, Fanxiao Li, Jianyang Gu et al. | Large Language Model (LLM)-augmented Community Notes offer a scalable path for timely, evidence-grounded correction of health misinformation on social platforms. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing](http://arxiv.org/abs/2606.03919v1) | Thomas Maillart, Thibaut Chataing, David Dosu et al. | Understanding and anticipating scientific change requires models that distinguish between endogenous consolidation and exogenous diffusion of scientific concepts. |
+| [A Double Bind: Gendered Funding, Research Topics, and Academic Performance in The Social Sciences](http://arxiv.org/abs/2606.03742v1) | Yang Ding, Ning Zhang, Helen Bao et al. | While female representation in social sciences is increasing, systemic gender disparities may persist in research funding and academic performance. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [GTBench: A Curriculum-Grounded Benchmark for Evaluating LLMs as Mathematical Research Assistants in Graph Theory](http://arxiv.org/abs/2606.03144v1) | Noujoud Nader, Ibrahem Aljabea, Patrick Diehl et al. | Large language models (LLMs) are increasingly used as self-study assistants in technical disciplines, yet their reliability as mathematical reasoning assistants remains poorly understood. |
+
 ### 📅 2026-06-03
 
 **1 new papers found**

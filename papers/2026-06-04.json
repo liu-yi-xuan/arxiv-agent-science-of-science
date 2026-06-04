@@ -1,0 +1,191 @@
+[
+  {
+    "id": "2606.04874v1",
+    "title": "Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents",
+    "authors": [
+      "Haoyu Sun",
+      "Wenxuan Wang",
+      "Mingyang Song",
+      "Jujie He",
+      "Weinan Zhang"
+    ],
+    "abstract": "Planning is central to LLM agents: before acting, an agent must decompose goals, select tools, reason over constraints, and decide when a task is infeasible. Yet existing agent evaluations often report only end-to-end success, making it difficult to determine whether failures stem from planning or execution. We introduce \\textbf{Agent Planning Benchmark (APB)}, a planning-specific diagnostic benchmark with 4,209 multimodal cases across 22 domains and five settings, covering holistic planning, feedback-conditioned step-wise planning, and robustness under extraneous tools, broken tools, and unsolvable tasks. Across 12 MLLMs, APB reveals systematic weaknesses in long-horizon planning, tool-noise robustness, calibrated refusal, and inference-time refinement. We further validate APB on 200 ToolSandbox tasks and 200 $τ^2$-bench tasks, where APB-guided refinement consistently improves plan correctness, plan grade, and downstream execution metrics across three representative models. APB thus serves as an upstream diagnostic complement to execution benchmarks.",
+    "url": "http://arxiv.org/abs/2606.04874v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04874v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.02866v1",
+    "title": "When Helping Hurts and How to Fix It: Multi-Agent Debate for Data Cleaning",
+    "authors": [
+      "Chirag Parmar",
+      "Akshat Mehta",
+      "Henglin Wu",
+      "Jagadish Ramamurthy",
+      "Shweta Medhekar"
+    ],
+    "abstract": "When does multi-agent debate help data cleaning, and when does it hurt? Across three benchmarks, four model families, and over 6,000 task-condition pairs, we find debate's effect reverses sign: it degrades generation across all four models (-1.6 to -15.5pp) through critique-induced confusion (CIC), hallucinated Critic feedback that the Generator accepts uncritically, yet improves error detection (+27.4pp F1, d=1.0). We derive a debate benefit condition: debate helps when the probability of rescuing a wrong output (Critic verification odds weighted by fixability) exceeds the probability of destroying a correct one. A factorial experiment proves adversarial separation is essential: self-verification with identical tools fails, while a separate Critic with code-execution grounding and evidence-gated generation produces the first debate configuration to significantly exceed single-agent on a generative task (+5.3pp, p<0.05). The condition correctly predicts all nine task types and generalizes with zero false positives across 19 published comparisons in seven domains.",
+    "url": "http://arxiv.org/abs/2606.02866v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02866v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.03867v1",
+    "title": "A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization using LLMs and Knowledge Graphs",
+    "authors": [
+      "Cuong Vuong Tuan",
+      "Trang Mai Xuan",
+      "Tien-Cuong Nguyen",
+      "Vu-Duc Ngo",
+      "Thien Van Luong"
+    ],
+    "abstract": "Multi-Document Summarization (MDS) plays a critical role in distilling essential information from collections of textual data. Existing approaches often struggle to capture complex inter-document relationships, rely heavily on large amounts of labeled data for supervised training, or exhibit limited generalization across domains and languages. To address these limitations, we present a training-free mixture-of-agents framework for MDS that leverages the complementary strengths of large language models (LLMs) and knowledge graphs. Our approach decomposes summarization into specialized agent tasks: extractive selection, knowledge-aware abstraction, and iterative refinement, each operating without task-specific fine-tuning. We unify their outputs using a multi-perspective consistency mechanism guided by LLMs. Experiments across four datasets in English and Vietnamese demonstrate state-of-the-art or competitive performance, validating the effectiveness and adaptability of our modular design.",
+    "url": "http://arxiv.org/abs/2606.03867v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03867v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.03467v1",
+    "title": "StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems",
+    "authors": [
+      "Taiyu Zhu",
+      "Yifan Wu",
+      "Weilin Jin",
+      "Ying Li",
+      "Gang Huang"
+    ],
+    "abstract": "LLM-based multi-agent systems exhibit remarkable collaborative capabilities in complex multi-step tasks. However, these systems are highly sensitive to single-step execution errors that can propagate through agent interactions and lead to cascading failures. To understand the causes of failure and improve system reliability, failure attribution has been introduced as a task that aims to automatically identify the root cause step responsible for a failure. Existing failure attribution methods mainly rely on LLMs to reason over original execution trajectories, which not only incur high inference costs and latency, but also suffer from interference caused by redundant and noisy execution logs, causing LLMs to struggle in accurately identifying the true root cause step. To address this, we propose StepFinder, a lightweight failure attribution framework. We use LLMs solely during the feature construction phase to encode execution logs into temporal semantic sequences. Subsequently, a parameter-efficient combination of temporal modeling and attention modules is applied to capture the sequential evolution and cross-step dependencies of the trajectories. Finally, the step-level error score is refined through multi-scale differences and position bias, enabling precise root cause identification. Experimental results on the Who&When benchmark demonstrate that StepFinder outperforms LLM-based methods in step-level failure attribution while achieving substantially higher inference efficiency, reducing inference time by 79% compared with the fastest LLM-based method, with no text generation overhead. Our code is available at https://github.com/taiyu-zhu/StepFinder.",
+    "url": "http://arxiv.org/abs/2606.03467v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03467v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05158v1",
+    "title": "Streaming Communication in Multi-Agent Reasoning",
+    "authors": [
+      "Zhen Yang",
+      "Xiaogang Xu",
+      "Wen Wang",
+      "Cong Chen",
+      "Xander Xu"
+    ],
+    "abstract": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that streams each reasoning step to downstream agents as soon as it is generated, pipelining adjacent agents and thus reducing latency. Surprisingly, this pipelining also improves effectiveness: because multi-step reasoning quality is non-uniform and early steps are more reliable than later ones, working with these reliable early steps instead of the full chain prevents error-prone late steps from misleading downstream agents. We formalize both advantages with the first closed-form joint analysis of stream, serial, and single protocols, deriving the effectiveness ordering, speedup upper bound, and cost ratio. Across eight reasoning benchmarks spanning mathematics, science, and code, two frontier LLMs (Claude Opus 4.6 and GPT-5.4), and three topologies (Chain, Tree, Graph), StreamMA outperforms both baselines (avg. +7.3 pp, max +22.4 pp on HMMT 2026; Claude Opus 4.6-high). Beyond these contributions, we discover a \"step-level scaling law\": increasing per-agent steps consistently improves both effectiveness and efficiency, a new scaling dimension orthogonal to and composable with agent-count scaling.",
+    "url": "http://arxiv.org/abs/2606.05158v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05158v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.02215v1",
+    "title": "Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes",
+    "authors": [
+      "Zihang Fu",
+      "Fanxiao Li",
+      "Jianyang Gu",
+      "Haonan Wang",
+      "Preslav Nakov"
+    ],
+    "abstract": "Large Language Model (LLM)-augmented Community Notes offer a scalable path for timely, evidence-grounded correction of health misinformation on social platforms. However, they still reset at every post, leaving useful correction experience from prior cases unused. We introduce EvoNote, an agentic framework that enables health Community Notes generation to self-evolve through an evolving experience memory of prior misinformation correction episodes. Its core is fine-grained credit assignment: EvoNote grounds trajectory-level feedback in health-specific note qualities and distills it into action-level memory for claim analysis, evidence acquisition, and note writing. We evaluate EvoNote on MM-HealthCN, a 1.2K-instance multimodal benchmark of user-flagged health posts with human-written Community Notes and crowd-derived helpfulness labels. Under a human-validated hierarchical utility judge, EvoNote-generated notes are preferred over corresponding human-written notes in 89.6% of cases; on a separate set of Needs More Ratings posts without a crowd helpfulness verdict, EvoNote produces helpful notes for 82.0% of cases. It also reduces the median time needed to produce a candidate correction from over 13 hours in the human-note pipeline to under 2 minutes. Analyses link these gains to stronger evidence use and reusable correction strategies, positioning self-evolving note generation as a promising paradigm for health misinformation governance.",
+    "url": "http://arxiv.org/abs/2606.02215v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.02215v1",
+    "published": "2026-06-01",
+    "categories": [
+      "cs.CL",
+      "cs.SI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.03919v1",
+    "title": "Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing",
+    "authors": [
+      "Thomas Maillart",
+      "Thibaut Chataing",
+      "David Dosu",
+      "Paul Bagourd",
+      "Julian Jang-Jaccard"
+    ],
+    "abstract": "Understanding and anticipating scientific change requires models that distinguish between endogenous consolidation and exogenous diffusion of scientific concepts. Using the quantum computing subtree of concepts in OpenAlex, we construct a temporally resolved concept co-occurrence network and track each concept pair through its upstream citation lineage and downstream diffusion. We train LightGBM models on distributional and diversity-aware features to predict four outcomes: endogenous reinforcement, exogenous diffusion, their ratio, and diffusion entropy. After controlling for overall publication growth of the scientific body, endogenous reinforcement proves largely unpredictable in the primary quantum-computing benchmark. In contrast, exogenous diffusion and entropy are strongly predictable ($R^2$ up to $0.78à) and are driven by upstream heterogeneity, citation breadth, and distributional dispersion, as shown by SHAP analyses; replications on robotics, advanced materials, and neuro implants confirm that exogenous diffusion remains the top-ranked target across fields ($R^2_test \\sim 0.60-0.87$), while endogenous predictability rises markedly in neuro implants (R^2_test = 0.83), indicating that the quantum-computing asymmetry does not generalise uniformly. Case studies reveal that sharp entropy increases coincide with the opening of new conceptual frontiers, while entropy collapses signal technological convergence or paradigm displacement. These results demonstrate that conceptual diffusion is governed by stable structural regularities embedded in semantic and citation environments. By identifying early diversity-based signals of cross-domain uptake, the approach provides a scalable foundation for anticipatory scientometrics, technology foresight, and innovation-oriented policy analysis in rapidly evolving research fields.",
+    "url": "http://arxiv.org/abs/2606.03919v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03919v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.SI",
+      "cs.CY",
+      "cs.DL",
+      "cs.LG",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.SI",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.03742v1",
+    "title": "A Double Bind: Gendered Funding, Research Topics, and Academic Performance in The Social Sciences",
+    "authors": [
+      "Yang Ding",
+      "Ning Zhang",
+      "Helen Bao",
+      "Yu Jin",
+      "Jiang Wu"
+    ],
+    "abstract": "While female representation in social sciences is increasing, systemic gender disparities may persist in research funding and academic performance. Some argue that female scholars now receive equal opportunities, yet evidence suggests that gender imbalances remain, particularly in specific research areas. This study examines 12,945 National Science Foundation (NSF)-funded principal investigators in social sciences from 2000 to 2019 to assess gender disparities in grant allocation, research topics, and post-award academic performance. Findings reveal a dual imbalance. First, despite similar overall funding success rates, female scholars remain underrepresented in high-impact and traditionally male-dominated research topics. Males dominate most funded topics, especially STEM-related ones, while female-led topics align with traditional gender stereotypes. Second, post-award performance patterns suggest that females outperform males in male-dominated fields, whereas males excel in female-dominated ones, undermining any presumed advantage of female scholars in their own research areas. These disparities contribute to the risk of both genders prematurely exiting the science pipeline. Furthermore, early-career experiences shape these outcomes asymmetrically: postdoctoral experience benefits both genders in female-dominated fields, with stronger effects for males, but disadvantages females in male-dominated fields by reducing their output and citation impact. Longer postdoctoral tenure enhances male researchers' citation impact across all fields but has mixed effects for females depending on field gender composition. These findings underscore the need for policies that address not just overall funding equality, but also gendered disparities across research topics and career trajectories.",
+    "url": "http://arxiv.org/abs/2606.03742v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03742v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.03144v1",
+    "title": "GTBench: A Curriculum-Grounded Benchmark for Evaluating LLMs as Mathematical Research Assistants in Graph Theory",
+    "authors": [
+      "Noujoud Nader",
+      "Ibrahem Aljabea",
+      "Patrick Diehl",
+      "Deepti Gupta"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used as self-study assistants in technical disciplines, yet their reliability as mathematical reasoning assistants remains poorly understood. We introduce GTBench, a curriculum-grounded benchmark for evaluating LLMs as mathematical research assistants in graph theory, comprising 63 problems organized into three groups of increasing difficulty: undergraduate definitions and basic properties (Group 1), algorithm tracing and structural reasoning (Group 2), and graduate-level proof construction (Group 3). Problems are sourced from verified academic materials including Diestel's Graph Theory. We evaluate five frontier models -- GPT-5, Claude Sonnet 4.6, Gemini 2.5 Flash-Lite, Llama 3.3 70B, and Mistral Large 3 -- under zero-shot and chain-of-thought prompting, using exact-match and LLM-as-judge evaluation for Groups 1 and 2, and a hybrid human expert and LLM-as-judge protocol for Group 3. Our results reveal a pronounced performance hierarchy: GPT-5 approaches ceiling on Group 1 (95.8% zero-shot) and maintains meaningful accuracy on graduate proofs (82%), while all other models degrade substantially with difficulty, with Llama achieving 0% under human evaluation on Group 3 zero-shot. Failure mode analysis shows that correct algorithm, wrong execution errors dominate Groups 1 and 2, while Group 3 additionally surfaces incomplete reasoning failures and reveals systematic disagreement between human evaluators and the automated judge, particularly on verbose or near-complete proofs (kappa = 0.48-0.83 across human pairs). GTBench provides the first curriculum-grounded evaluation framework for graph-theoretic reasoning in LLMs, with direct implications for the governance of AI tools in mathematical education and scientific research.",
+    "url": "http://arxiv.org/abs/2606.03144v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03144v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
