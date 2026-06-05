@@ -24,6 +24,63 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-05
+
+**28 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment](http://arxiv.org/abs/2606.05256v1) | Kokil Jaidka, Saifuddin Ahmed | This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. |
+| [Archi: Agentic Operations at the CMS Experiment](http://arxiv.org/abs/2606.04755v1) | Pietro Lugato, Luca Lavezzo, Jason Mohoney et al. | We present Archi, an open-source, end-to-end framework for scientific collaborations that combines the systematic ingestion and organization of heterogeneous data sources with the deployment of con... |
+| [Dead Science Walking: Publication Bias and the AI Scientist Pipeline](http://arxiv.org/abs/2606.04220v1) | Kargi Chauhan | AI scientist systems are beginning to automate the production, evaluation, and iteration of scientific hypotheses. |
+| [Critic-Guided Heterogeneous Multi-Agent Reasoning for Reliable Mathematical Problem Solving](http://arxiv.org/abs/2606.05704v1) | Muhammad Talha Sharif, Abdul Rehman | Recent Large Language Models (LLMs) have shown impressive reasoning abilities; but they are still susceptible to hallucinations, intermediate reasoning mistakes, and unreliable reasoning results in... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents](http://arxiv.org/abs/2606.05805v1) | Yuhao Sun, Jiacheng Zhang, Shaanan Cohney et al. | LLM-based guardrails typically safeguard agents by evaluating proposed actions or inputs before execution, producing safety signals such as binary allow/deny decisions, risk categories, and/or expl... |
+| [Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents](http://arxiv.org/abs/2606.04874v1) | Haoyu Sun, Wenxuan Wang, Mingyang Song et al. | Planning is central to LLM agents: before acting, an agent must decompose goals, select tools, reason over constraints, and decide when a task is infeasible. |
+| [The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?](http://arxiv.org/abs/2606.04455v1) | Xinyu Lu, Tianshu Wang, Pengbo Wang et al. | Current AI benchmarks evaluate agents on task execution within human-designed workflows. These evaluations fundamentally fail to measure a critical next-level capability: whether models can autonom... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation](http://arxiv.org/abs/2606.06025v1) | Xinpeng Qiu, Wang Yihu, Zhifeng Liu et al. | Scientific peer review generation has attracted increasing attention for reducing reviewing burdens and providing timely feedback. |
+| [Streaming Communication in Multi-Agent Reasoning](http://arxiv.org/abs/2606.05158v1) | Zhen Yang, Xiaogang Xu, Wen Wang et al. | Multi-agent reasoning systems adopt a "generate-then-transfer" paradigm that forces end-to-end latency to scale linearly with pipeline depth. |
+| [A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization using LLMs and Knowledge Graphs](http://arxiv.org/abs/2606.03867v1) | Cuong Vuong Tuan, Trang Mai Xuan, Tien-Cuong Nguyen et al. | Multi-Document Summarization (MDS) plays a critical role in distilling essential information from collections of textual data. |
+| [Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems](http://arxiv.org/abs/2606.05711v1) | Yingzhuo Liu | Multi-agent systems built on large language models (LLMs) have become a prevailing paradigm for tackling complex reasoning, planning, and tool-use tasks. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing](http://arxiv.org/abs/2606.03919v1) | Thomas Maillart, Thibaut Chataing, David Dosu et al. | Understanding and anticipating scientific change requires models that distinguish between endogenous consolidation and exogenous diffusion of scientific concepts. |
+| [A Double Bind: Gendered Funding, Research Topics, and Academic Performance in The Social Sciences](http://arxiv.org/abs/2606.03742v1) | Yang Ding, Ning Zhang, Helen Bao et al. | While female representation in social sciences is increasing, systemic gender disparities may persist in research funding and academic performance. |
+| [MIRAI: Prediction and Generation of High-Impact Academic Research](http://arxiv.org/abs/2606.05443v1) | Alex Li, Joseph Jacobson | The rapid pace of scientific publishing has made the identification and synthesis of high-impact work an increasingly urgent challenge. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents](http://arxiv.org/abs/2606.05806v1) | Dongsheng Zhu, Xuchen Ma, Yucheng Shen et al. | Existing benchmarks evaluate Tool-Integrated Reasoning (TIR) in LLMs on idealized ''happy paths'', largely overlooking real-world tool failures. |
+| [SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents](http://arxiv.org/abs/2606.05761v1) | Wenxuan Wang, Haoyu Sun, Fukuan Hou et al. | Persistent AI assistants, such as OpenClaw, accumulate large collections of related memories over long-term interactions. |
+| [TensorBench: Benchmarking Coding Agents on a Compiler-Based Tensor Framework](http://arxiv.org/abs/2606.05570v1) | Bobby Yan, Fredrik Kjolstad | Repository-level coding benchmarks face a trade-off between task difficulty and evaluation reliability: tasks that challenge frontier models often involve large codebases with incomplete test cover... |
+| [SentinelBench: A Benchmark for Long-Running Monitoring Agents](http://arxiv.org/abs/2606.05342v1) | Matheus Kunzler Maldaner, Adam Fourney, Amanda Swearngin et al. | AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searchin... |
+| [Search-Time Contamination in Deep Research Agents: Measuring Performance Inflation in Public Benchmark Evaluation](http://arxiv.org/abs/2606.05241v1) | Yongjie Wang, Xinyue Zhang, Kunhong Yao et al. | Public benchmarks enable fair and reproducible evaluation of LLM reasoning, but they become fragile for deep research agents that actively search the web during inference. |
+| [CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities](http://arxiv.org/abs/2606.04460v1) | Tianneng Shi, Robin Rheem, Dongwei Jiang et al. | AI has the potential to transform cybersecurity by enabling systems that can autonomously detect, analyze, and remediate software vulnerabilities. |
+| [Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark, a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming](http://arxiv.org/abs/2606.05233v1) | Nicholas Saban | Recent computer-using-agent (CUA) red-teaming papers report prompt-injection attack success rates (ASR) of 42-98%, but these headline numbers cluster on retired models and on the most-vulnerable mo... |
+| [HighTide: An Agent-Curated Open-Source VLSI Benchmark Suite](http://arxiv.org/abs/2606.04126v1) | Benjamin Goldblatt, Paolo Pedroso, Farhad Modaresi et al. | We introduce HighTide, an evolving AI-assisted benchmark suite. Specifically, the contributions are: (i) a diverse open-source suite spanning multiple design languages and technology nodes, (ii) Ba... |
+| [Hedge-Bench: Benchmarking Agents on Hard, Realistic Tasks Pertaining to Financial Reasoning](http://arxiv.org/abs/2606.03918v1) | Eric Cho, Shawn Huang, Alice Lu et al. | AI agents can increasingly handle the mechanical tasks of financial analysis: retrieving documents, calculating formulas, updating spreadsheets. |
+| [BigFinanceBench: A Workflow-Grounded Benchmark for Financial-Research Agents](http://arxiv.org/abs/2606.03829v1) | Alex Wang, Georg Meinhardt, Jacob Katz et al. | Financial-research answers are decision-relevant only when another analyst can audit how they were produced: which source was chosen, which period and accounting definition were used, which assumpt... |
+| [Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement](http://arxiv.org/abs/2606.05920v1) | Xin Wang, Liangtai Sun, Yaoming Zhu et al. | Existing code-generation benchmarks score a single mapping from a complete prompt to a one-shot output. |
+| [Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms](http://arxiv.org/abs/2606.04701v1) | Jiashu Yao, Heyan Huang, Daiqing Wu et al. | GUI agents today assume a static screen, where the world is frozen between two actions. However, real interfaces such as short-video applications violate this assumption, as their content keeps pla... |
+| [LifeSide: Benchmarking Agents as Lifelong Digital Companions](http://arxiv.org/abs/2606.04660v1) | Yuqian Wu, Zhijie Deng, Wei Chen et al. | Lifelong digital companions must integrate cross-session cues, continually update their understanding of users, and adapt to shifting privacy boundaries. |
+| [RealClawBench: Live OpenClaw Benchmarks from Real Developer-Agent Sessions](http://arxiv.org/abs/2606.03889v1) | Zongwei Lv, Zhewen Tan, Yaoming Li et al. | Agent benchmarks should reflect what users actually ask deployed agents to do, yet existing benchmarks often miss key realism properties of real developer-agent sessions. |
+
 ### 📅 2026-06-04
 
 **9 new papers found**

@@ -1,0 +1,561 @@
+[
+  {
+    "id": "2606.05256v1",
+    "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
+    "authors": [
+      "Kokil Jaidka",
+      "Saifuddin Ahmed"
+    ],
+    "abstract": "This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language models operated in an identity-rich deliberative forum without disclosure. We conduct a structured content analysis of this corpus, evaluating identity performance, authority signaling, alignment strategies, and activation of cognitive heuristics. Identity targeting or adoption appears in over two-thirds of comments, alignment moves and authority claims in nearly all of them, and cognitive-bias triggers -- particularly confirmation bias, representativeness, and availability -- in the large majority. These patterns co-occur systematically, composing a rhetorical architecture calibrated for persuasive efficiency rather than authentic deliberative participation. Compared against human-authored CMV counter-arguments, the agents inverted the typical distribution on every dimension: denser authority use, more adversarial alignment, and heavier reliance on external citation over experiential grounding. In such environments, distinctions between authentic and synthetic epistemic standing grow increasingly opaque -- an asymmetry that disclosure mandates alone cannot address. The results point toward auditing frameworks capable of assessing how AI systems structure credibility, not merely whether they are present.",
+    "url": "http://arxiv.org/abs/2606.05256v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05256v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.04755v1",
+    "title": "Archi: Agentic Operations at the CMS Experiment",
+    "authors": [
+      "Pietro Lugato",
+      "Luca Lavezzo",
+      "Jason Mohoney",
+      "Hasan Ozturk",
+      "Muhammad Hassan Ahmed"
+    ],
+    "abstract": "We present Archi, an open-source, end-to-end framework for scientific collaborations that combines the systematic ingestion and organization of heterogeneous data sources with the deployment of configurable, private, and extensible agents that retrieve and reason over them. An instance of Archi has been deployed for the Computing Operations team of the CMS experiment at CERN's LHC since February 2026 as a support agent for technical operators, offering retrieval and analysis capabilities by combining documentation, historical data, and live monitoring systems. We evaluate the system on operator feedback and a question set collected from production usage, graded by human and automated panels. The system proves effective at operational tasks, resolving real-world queries posed by CMS operators. We also observe that locally-hosted, open-weight models perform competitively, enabling fully private management of sensitive data.",
+    "url": "http://arxiv.org/abs/2606.04755v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04755v1",
+    "published": "2026-06-03",
+    "categories": [
+      "hep-ex",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "hep-ex",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.04220v1",
+    "title": "Dead Science Walking: Publication Bias and the AI Scientist Pipeline",
+    "authors": [
+      "Kargi Chauhan"
+    ],
+    "abstract": "AI scientist systems are beginning to automate the production, evaluation, and iteration of scientific hypotheses. Their promise is speed; their risk is that speed also scales errors embedded in the scientific record. We argue that a near-term risk is corpus failure: AI scientist systems are trained on and grounded in a literature that over-represents positive results and under-represents null findings. We formalise this distortion as the null result gap, estimate it across three domains (drug discovery ~0.60, psychology ~0.56, cancer biology ~0.35), and introduce an amplification index for reasoning about how retrieval, generation, and automated evaluation can compound the raw gap. Using first-order estimates, we argue that a standard three-stage pipeline can amplify corpus distortion by a factor of 2.18x, with the conclusion unchanged under more conservative multipliers. We identify four governance failure modes: confident rediscovery, ghost evidence accumulation, replication laundering, and confidence miscalibration. We then propose three interventions: null-result databases as training infrastructure, retraction-aware evaluation metrics, and mandatory training corpus disclosure. The central takeaway is that AI scientists will not only accelerate science. Without governance, they will accelerate science's blind spots before they accelerate its discoveries.",
+    "url": "http://arxiv.org/abs/2606.04220v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04220v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.CE"
+    ],
+    "primary_category": "cs.CE",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.05704v1",
+    "title": "Critic-Guided Heterogeneous Multi-Agent Reasoning for Reliable Mathematical Problem Solving",
+    "authors": [
+      "Muhammad Talha Sharif",
+      "Abdul Rehman"
+    ],
+    "abstract": "Recent Large Language Models (LLMs) have shown impressive reasoning abilities; but they are still susceptible to hallucinations, intermediate reasoning mistakes, and unreliable reasoning results in complex mathematical reasoning problems. In this study, we introduce a critic-based heterogeneous multi-agent approach to improve the dependability of mathematical reasoning. This framework incorporates several LLM agents of different specialties and employs a critic-driven adaptive learning system to assess and guide the reasoning process based on intermediate feedback. The system adopts a generator-validator framework, with the validator not only determining correctness but also offering critiques to guide regeneration of solutions. This allows for adaptive error correction and prevents error cascading. Our experiments on the GSM8K benchmark show that the proposed method achieves up to 13% accuracy improvement over single-shot and non-critic models. Additionally, findings suggest that heterogeneity and critique reduce the need for large models, allowing smaller models to perform on par. Ablation studies reveal the main performance gains are due to the critic-based feedback loop and not model size. In summary, the proposed approach showcases the benefits of combining heterogeneous multi-agent collaboration and critique to obtain reliable and interpretable reasoning systems.",
+    "url": "http://arxiv.org/abs/2606.05704v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05704v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.05805v1",
+    "title": "From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents",
+    "authors": [
+      "Yuhao Sun",
+      "Jiacheng Zhang",
+      "Shaanan Cohney",
+      "Zhexin Zhang",
+      "Feng Liu"
+    ],
+    "abstract": "LLM-based guardrails typically safeguard agents by evaluating proposed actions or inputs before execution, producing safety signals such as binary allow/deny decisions, risk categories, and/or explanatory rationales about potential policy violations. However, agent risks often arise when otherwise benign tasks are contaminated by untrusted external content, unsafe instructions, or risky tool use. Existing guardrails often flag the entire task uniformly as unsafe, thereby blocking the threat but sacrificing the benign part. Moreover, existing work largely evaluates guardrails in isolation, leaving unclear whether their interventions lead to safer downstream agent behavior. To address this, we introduce TRIAD (Tripartite Response for Iterative Agent Guardrailing), a guardrail-integrated agent framework that leverages guardrail-generated verbal feedback as a guiding signal to keep the agent aligned with benign objectives at each planning step. We finetune a language model on a self-curated training dataset to output one of three decisions: proceed, refuse, or update, together with structured natural-language feedback. Rather than merely allowing or blocking execution, update guides the agent to revise its plan, avoid harmful components, and preserve the benign task where possible. TRIAD injects this feedback into the agent's context, enabling subsequent plan revision and forming a closed loop between guardrail feedback and agent planning. Extensive experiments on ASB and AgentHarm show that TRIAD reduces the average attack success rate to 10.42%, while achieving the best safety-utility trade-off among guardrail-integrated baselines. Our code is available at: https://github.com/YUHAOSUNABC/TRIAD.",
+    "url": "http://arxiv.org/abs/2606.05805v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05805v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.04874v1",
+    "title": "Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents",
+    "authors": [
+      "Haoyu Sun",
+      "Wenxuan Wang",
+      "Mingyang Song",
+      "Jujie He",
+      "Weinan Zhang"
+    ],
+    "abstract": "Planning is central to LLM agents: before acting, an agent must decompose goals, select tools, reason over constraints, and decide when a task is infeasible. Yet existing agent evaluations often report only end-to-end success, making it difficult to determine whether failures stem from planning or execution. We introduce \\textbf{Agent Planning Benchmark (APB)}, a planning-specific diagnostic benchmark with 4,209 multimodal cases across 22 domains and five settings, covering holistic planning, feedback-conditioned step-wise planning, and robustness under extraneous tools, broken tools, and unsolvable tasks. Across 12 MLLMs, APB reveals systematic weaknesses in long-horizon planning, tool-noise robustness, calibrated refusal, and inference-time refinement. We further validate APB on 200 ToolSandbox tasks and 200 $τ^2$-bench tasks, where APB-guided refinement consistently improves plan correctness, plan grade, and downstream execution metrics across three representative models. APB thus serves as an upstream diagnostic complement to execution benchmarks.",
+    "url": "http://arxiv.org/abs/2606.04874v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04874v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.04455v1",
+    "title": "The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?",
+    "authors": [
+      "Xinyu Lu",
+      "Tianshu Wang",
+      "Pengbo Wang",
+      "zujie wen",
+      "Zhiqiang Zhang"
+    ],
+    "abstract": "Current AI benchmarks evaluate agents on task execution within human-designed workflows. These evaluations fundamentally fail to measure a critical next-level capability: whether models can autonomously develop agent systems. We introduce the Meta-Agent Challenge (MAC), an evaluation framework designed to test the capacity of frontier models for autonomous agent development. Specifically, a code agent (the meta-agent) is given a sandboxed environment, an evaluation API, and a time limitation to iteratively program an agent artifact that maximizes performance on a held-out test set across five domains. To ensure evaluation integrity, this framework is secured by multi-layer defenses against reward hacking. Leveraging this framework, we demonstrate that meta-agents rarely match human-engineered baseline policies, and the few that do are dominated by proprietary frontier models. Moreover, the design process exhibits high variance, and high optimization pressure surfaces emergent adversarial behaviors like ground-truth exfiltration-highlighting critical deficits in both robustness and model alignment. Ultimately, MAC provides a rigorous, open-source benchmark for autonomous AI research and development, offering an empirical proxy for evaluating recursive self-improvement. Benchmark is publicly available at: https://github.com/ant-research/meta-agent-challenge.",
+    "url": "http://arxiv.org/abs/2606.04455v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04455v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.06025v1",
+    "title": "EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation",
+    "authors": [
+      "Xinpeng Qiu",
+      "Wang Yihu",
+      "Zhifeng Liu",
+      "Xiaochen Wang",
+      "Jimin Wang"
+    ],
+    "abstract": "Scientific peer review generation has attracted increasing attention for reducing reviewing burdens and providing timely feedback. However, existing Large Language Model (LLM)-based methods often produce generic comments with insufficient evidence support and weak source traceability, while complex multi-agent systems incur high inference costs. To address these challenges, we propose EGTR-Review, an Evidence-Grounded and Traceable Review Generation framework via Multi-Agent Teacher Distillation. EGTR-Review first constructs a multi-agent teacher that performs structure-aware paper decomposition, key-element extraction, external scholarly evidence retrieval, evidence-state labeling, verification reasoning, and review synthesis. It then distills both intermediate reasoning trajectories and final review comments into a lightweight student model through task-prefix-driven multi-task learning. An evidence-weighted objective further reduces the influence of weak, missing, or non-verifiable supervision. Experiments on public peer-review datasets show that EGTR-Review (Student) outperforms strong prompt-based, fine-tuned, and structured/agentic baselines across automatic metrics, LLM-as-Judge evaluation, and human evaluation, while maintaining strong factual grounding and source traceability with substantially lower token consumption and inference time. Our code, prompts, configurations, and sample data are available on GitHub.",
+    "url": "http://arxiv.org/abs/2606.06025v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.06025v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05158v1",
+    "title": "Streaming Communication in Multi-Agent Reasoning",
+    "authors": [
+      "Zhen Yang",
+      "Xiaogang Xu",
+      "Wen Wang",
+      "Cong Chen",
+      "Xander Xu"
+    ],
+    "abstract": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that streams each reasoning step to downstream agents as soon as it is generated, pipelining adjacent agents and thus reducing latency. Surprisingly, this pipelining also improves effectiveness: because multi-step reasoning quality is non-uniform and early steps are more reliable than later ones, working with these reliable early steps instead of the full chain prevents error-prone late steps from misleading downstream agents. We formalize both advantages with the first closed-form joint analysis of stream, serial, and single protocols, deriving the effectiveness ordering, speedup upper bound, and cost ratio. Across eight reasoning benchmarks spanning mathematics, science, and code, two frontier LLMs (Claude Opus 4.6 and GPT-5.4), and three topologies (Chain, Tree, Graph), StreamMA outperforms both baselines (avg. +7.3 pp, max +22.4 pp on HMMT 2026; Claude Opus 4.6-high). Beyond these contributions, we discover a \"step-level scaling law\": increasing per-agent steps consistently improves both effectiveness and efficiency, a new scaling dimension orthogonal to and composable with agent-count scaling.",
+    "url": "http://arxiv.org/abs/2606.05158v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05158v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.03867v1",
+    "title": "A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization using LLMs and Knowledge Graphs",
+    "authors": [
+      "Cuong Vuong Tuan",
+      "Trang Mai Xuan",
+      "Tien-Cuong Nguyen",
+      "Vu-Duc Ngo",
+      "Thien Van Luong"
+    ],
+    "abstract": "Multi-Document Summarization (MDS) plays a critical role in distilling essential information from collections of textual data. Existing approaches often struggle to capture complex inter-document relationships, rely heavily on large amounts of labeled data for supervised training, or exhibit limited generalization across domains and languages. To address these limitations, we present a training-free mixture-of-agents framework for MDS that leverages the complementary strengths of large language models (LLMs) and knowledge graphs. Our approach decomposes summarization into specialized agent tasks: extractive selection, knowledge-aware abstraction, and iterative refinement, each operating without task-specific fine-tuning. We unify their outputs using a multi-perspective consistency mechanism guided by LLMs. Experiments across four datasets in English and Vietnamese demonstrate state-of-the-art or competitive performance, validating the effectiveness and adaptability of our modular design.",
+    "url": "http://arxiv.org/abs/2606.03867v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03867v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05711v1",
+    "title": "Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems",
+    "authors": [
+      "Yingzhuo Liu"
+    ],
+    "abstract": "Multi-agent systems built on large language models (LLMs) have become a prevailing paradigm for tackling complex reasoning, planning, and tool-use tasks. The dominant communication protocol in such systems is natural language: agents exchange messages token-by-token, verbalising their internal reasoning so that peers can read, verify, and respond. While convenient and interpretable, this protocol suffers from three structural drawbacks -- high inference cost, irreversible information loss during discretization, and ambiguity/redundancy of natural language. A growing body of work therefore explores an alternative protocol -- latent communication -- in which agents exchange continuous representations (embeddings, hidden states, or KV-caches) directly, bypassing the bottleneck of text generation. This paper presents a unified framework for organising the rapidly expanding literature on latent communication. We analyse existing methods along three orthogonal axes: (1) WHAT information is communicated (Embeddings, Hidden States, KV-Caches, or other continuous state); (2) WHICH sender-receiver alignment is used (latent-space alignment and layer alignment); and (3) HOW the communicated information is fused into the receiver (concatenation, prepending, mathematical operations, cross-attention, or cache restoration). Under this 3-axis framework, we systematically categorise eighteen representative methods proposed between 2024 and 2026, identify five major design patterns, and surface a set of open challenges -- including cross-architecture alignment, security of latent channels, compression for edge deployment, and the relationship between latent communication and latent chain-of-thought. We hope that this framework both lowers the barrier to entry for new researchers and provides a vocabulary for comparing future work.",
+    "url": "http://arxiv.org/abs/2606.05711v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05711v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.03919v1",
+    "title": "Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing",
+    "authors": [
+      "Thomas Maillart",
+      "Thibaut Chataing",
+      "David Dosu",
+      "Paul Bagourd",
+      "Julian Jang-Jaccard"
+    ],
+    "abstract": "Understanding and anticipating scientific change requires models that distinguish between endogenous consolidation and exogenous diffusion of scientific concepts. Using the quantum computing subtree of concepts in OpenAlex, we construct a temporally resolved concept co-occurrence network and track each concept pair through its upstream citation lineage and downstream diffusion. We train LightGBM models on distributional and diversity-aware features to predict four outcomes: endogenous reinforcement, exogenous diffusion, their ratio, and diffusion entropy. After controlling for overall publication growth of the scientific body, endogenous reinforcement proves largely unpredictable in the primary quantum-computing benchmark. In contrast, exogenous diffusion and entropy are strongly predictable ($R^2$ up to $0.78à) and are driven by upstream heterogeneity, citation breadth, and distributional dispersion, as shown by SHAP analyses; replications on robotics, advanced materials, and neuro implants confirm that exogenous diffusion remains the top-ranked target across fields ($R^2_test \\sim 0.60-0.87$), while endogenous predictability rises markedly in neuro implants (R^2_test = 0.83), indicating that the quantum-computing asymmetry does not generalise uniformly. Case studies reveal that sharp entropy increases coincide with the opening of new conceptual frontiers, while entropy collapses signal technological convergence or paradigm displacement. These results demonstrate that conceptual diffusion is governed by stable structural regularities embedded in semantic and citation environments. By identifying early diversity-based signals of cross-domain uptake, the approach provides a scalable foundation for anticipatory scientometrics, technology foresight, and innovation-oriented policy analysis in rapidly evolving research fields.",
+    "url": "http://arxiv.org/abs/2606.03919v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03919v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.SI",
+      "cs.CY",
+      "cs.DL",
+      "cs.LG",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.SI",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.03742v1",
+    "title": "A Double Bind: Gendered Funding, Research Topics, and Academic Performance in The Social Sciences",
+    "authors": [
+      "Yang Ding",
+      "Ning Zhang",
+      "Helen Bao",
+      "Yu Jin",
+      "Jiang Wu"
+    ],
+    "abstract": "While female representation in social sciences is increasing, systemic gender disparities may persist in research funding and academic performance. Some argue that female scholars now receive equal opportunities, yet evidence suggests that gender imbalances remain, particularly in specific research areas. This study examines 12,945 National Science Foundation (NSF)-funded principal investigators in social sciences from 2000 to 2019 to assess gender disparities in grant allocation, research topics, and post-award academic performance. Findings reveal a dual imbalance. First, despite similar overall funding success rates, female scholars remain underrepresented in high-impact and traditionally male-dominated research topics. Males dominate most funded topics, especially STEM-related ones, while female-led topics align with traditional gender stereotypes. Second, post-award performance patterns suggest that females outperform males in male-dominated fields, whereas males excel in female-dominated ones, undermining any presumed advantage of female scholars in their own research areas. These disparities contribute to the risk of both genders prematurely exiting the science pipeline. Furthermore, early-career experiences shape these outcomes asymmetrically: postdoctoral experience benefits both genders in female-dominated fields, with stronger effects for males, but disadvantages females in male-dominated fields by reducing their output and citation impact. Longer postdoctoral tenure enhances male researchers' citation impact across all fields but has mixed effects for females depending on field gender composition. These findings underscore the need for policies that address not just overall funding equality, but also gendered disparities across research topics and career trajectories.",
+    "url": "http://arxiv.org/abs/2606.03742v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03742v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.05443v1",
+    "title": "MIRAI: Prediction and Generation of High-Impact Academic Research",
+    "authors": [
+      "Alex Li",
+      "Joseph Jacobson"
+    ],
+    "abstract": "The rapid pace of scientific publishing has made the identification and synthesis of high-impact work an increasingly urgent challenge. We introduce MIRAI (Multi-year Inference of Research trends and Academic Impact), a deep learning framework that predicts paper impact using only it's title, abstract, and publication date. We train MIRAI on the arXiv academic graph to predict 5-year PageRank and citation counts, achieving Spearman's $ρ$ of 0.4686 on PageRank prediction and 0.6192 on citation prediction for papers published in 2021. We propose a research ideation pipeline built on top of MIRAI that produces research ideas oriented towards high impact. These ideas were judged as more impactful than a baseline without MIRAI by an unbiased LLM judge at a 4:3 ratio. We make the 5-year citation prediction model publicly available at https://predict-paper-impact.vercel.app.",
+    "url": "http://arxiv.org/abs/2606.05443v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05443v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.DL",
+      "cs.CL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.05806v1",
+    "title": "When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents",
+    "authors": [
+      "Dongsheng Zhu",
+      "Xuchen Ma",
+      "Yucheng Shen",
+      "Xiang Li",
+      "Yukun Zhao"
+    ],
+    "abstract": "Existing benchmarks evaluate Tool-Integrated Reasoning (TIR) in LLMs on idealized ''happy paths'', largely overlooking real-world tool failures. We introduce ToolMaze, a benchmark for dynamic path discovery and error recovery in TIR agents. To separate systematic replanning from blind trial-and-error, ToolMaze adopts a two-dimensional design: DAG-based topological complexity and a $2 \\times 2$ taxonomy of tool perturbations (explicit/implicit, transient/permanent). Evaluations show that perturbations degrade performance across nearly all models, with the sharpest drops under implicit semantic failures. Driven by systemic over-trust in corrupted outputs, Perturbation Recovery Rate (PRR) plummets by around 37\\% in these scenarios, while complex topologies trap agents in futile trial-and-error loops. Crucially, agentic fault-tolerance improves with model scale $3.66\\times$ slower than basic task execution, highlighting dynamic replanning as a distinct bottleneck unaddressed by model scaling or prompting. Data and code are available at https://github.com/Zhudongsheng75/ToolMaze.",
+    "url": "http://arxiv.org/abs/2606.05806v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05806v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05761v1",
+    "title": "SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents",
+    "authors": [
+      "Wenxuan Wang",
+      "Haoyu Sun",
+      "Fukuan Hou",
+      "Mingyang Song",
+      "Weinan Zhang"
+    ],
+    "abstract": "Persistent AI assistants, such as OpenClaw, accumulate large collections of related memories over long-term interactions. As these memories grow, they may reinforce one another, diverge across contexts, or directly conflict, making correct assistance depend on memory relations rather than isolated recall. Existing long-term memory benchmarks rarely probe how agents preserve and utilize such relations during downstream tasks. To address this gap, we introduce SubtleMemory, a benchmark for fine-grained relational memory discrimination in long-running AI agents. SubtleMemory constructs relation-controlled latent semantic artifacts whose variants instantiate complementary, nuanced, or contradictory relations, and embeds them into realistic user-agent histories, requiring agents to recover distributed relational structures during later queries and instructions. The benchmark contains 1,522 evaluation instances over 10 long histories, grounded in 1,090 relation-controlled memory-variant sets and spanning user-related and non-user-related queries. Evaluating six standalone memory systems, two Claw-style agents with native memory modules, and three Claw-style agents with plugin memory modules, we find that current systems remain weak on fine-grained relational memory discrimination. We further introduce diagnostic protocols that reveal distinct capability profiles across memory preservation, retrieval, and downstream reasoning stages.",
+    "url": "http://arxiv.org/abs/2606.05761v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05761v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05570v1",
+    "title": "TensorBench: Benchmarking Coding Agents on a Compiler-Based Tensor Framework",
+    "authors": [
+      "Bobby Yan",
+      "Fredrik Kjolstad"
+    ],
+    "abstract": "Repository-level coding benchmarks face a trade-off between task difficulty and evaluation reliability: tasks that challenge frontier models often involve large codebases with incomplete test coverage, while human review does not scale. We introduce TensorBench, a benchmark of 199 feature-addition and refactoring tasks on an open-source compiler-based tensor framework that extends PyTorch with first-class support for dense and sparse tensors. Tasks cover new sparse formats, dense optimization passes, IR transformations, scheduler changes, runtime components, and high-level numerical operators. TensorBench grades each run by applying the agent's patch and running the framework's test suite, which includes the pre-existing randomized regression tests and any tests the agent adds. For feature-addition tasks, a pass means that the patched repository preserves the tested pre-existing behavior and satisfies the agent-added checks for the requested feature. We evaluate seven coding agents spanning three frontier model families and one open-weight model. Pass rates under this criterion range from $64.8\\%$ for the strongest agent to $22.1\\%$ for the weakest. Agents pass different subsets of tasks: pairwise Cohen's $κ$ ranges from $-0.07$ to $0.43$, with $κ= 0.05$ for the two strongest agents.",
+    "url": "http://arxiv.org/abs/2606.05570v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05570v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05342v1",
+    "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+    "authors": [
+      "Matheus Kunzler Maldaner",
+      "Adam Fourney",
+      "Amanda Swearngin",
+      "Hussein Mozzanar",
+      "Gagan Bansal"
+    ],
+    "abstract": "AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progress. This is the wrong approach for many long-running tasks, which are better served by a strategy of sustained attention. Instead, agents should monitor an environment, notice when an external event makes progress possible, then respond promptly without wasting resources while waiting. To measure progress on this class of tasks, we introduce SentinelBench, an open-source benchmark for time-evolving monitoring tasks.   SentinelBench contains 100 tasks across 10 synthetic web environments, including email, calendars, finance, professional networking, and entertainment. Each environment exposes a live web interface and replays a scripted sequence of events, requiring agents to navigate and reason about web pages whose state shifts underfoot. SentinelBench measures task completion, reaction time, and resource use, exposing the tradeoff between responsiveness and cost. We report results across three models and two browser-agent harnesses, establishing performance baselines for future comparison and demonstrating how agent design choices can dramatically impact key metrics. Together, these results show that SentinelBench distinguishes meaningful differences in agent behavior.",
+    "url": "http://arxiv.org/abs/2606.05342v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05342v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05241v1",
+    "title": "Search-Time Contamination in Deep Research Agents: Measuring Performance Inflation in Public Benchmark Evaluation",
+    "authors": [
+      "Yongjie Wang",
+      "Xinyue Zhang",
+      "Kunhong Yao",
+      "Zhiwei Zeng",
+      "Kaisong Song"
+    ],
+    "abstract": "Public benchmarks enable fair and reproducible evaluation of LLM reasoning, but they become fragile for deep research agents that actively search the web during inference. Such agents may retrieve public benchmark metadata, question context, or even ground-truth answers via web search. This gives rise to Search-Time Contamination (STC), where external retrieval bypasses intended reasoning and inflates measured performance. We systematically study STC in deep research agent evaluation. We define three contamination types with increasing severity, namely Benchmark Metadata Leakage, Question-Context Leakage, and Explicit Answer Leakage, and develop detection algorithms to identify them and quantify their impact on agent performance. Evaluating modern deep research agents on six public benchmarks, we find that STC is widespread and can inflate performance by up to 4%. Our findings show that existing evaluations may overestimate true reasoning ability. We therefore advocate contamination-aware practices, including isolated sandboxes, transparent search trajectories, and controlled benchmark access.",
+    "url": "http://arxiv.org/abs/2606.05241v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05241v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.04460v1",
+    "title": "CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities",
+    "authors": [
+      "Tianneng Shi",
+      "Robin Rheem",
+      "Dongwei Jiang",
+      "Mona Wang",
+      "Francisco De La Riega"
+    ],
+    "abstract": "AI has the potential to transform cybersecurity by enabling systems that can autonomously detect, analyze, and remediate software vulnerabilities. However, existing cybersecurity evaluations of AI systems are limited in scale or scope, and fail to capture the end-to-end lifecycle of real-world software vulnerability discovery and remediation. To address this gap, we propose CyberGym-E2E, a large-scale and realistic end-to-end cybersecurity benchmark that comprehensively evaluates AI agents' abilities across the full lifecycle of vulnerability discovery, PoC generation, and patch generation. CyberGym-E2E is comprehensive and scalable, as we build an automated, agent-enhanced pipeline for transforming open-source vulnerability data into realistic evaluation environments. Currently, the benchmark consists of 920 real-world vulnerabilities across 139 different open-source projects.",
+    "url": "http://arxiv.org/abs/2606.04460v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04460v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05233v1",
+    "title": "Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark, a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming",
+    "authors": [
+      "Nicholas Saban"
+    ],
+    "abstract": "Recent computer-using-agent (CUA) red-teaming papers report prompt-injection attack success rates (ASR) of 42-98%, but these headline numbers cluster on retired models and on the most-vulnerable model in each paper's panel. We ask whether those techniques, reproduced as hand-crafted templates, still work against current frontier CUAs. We release CUA-HandCrafted, a public benchmark of 793 episodes spanning 24 multi-step web tasks, 56 attack templates, 8 attack families, and 4 system-prompt configurations. Against Claude Sonnet 4.6 and GPT-5.4 we measure 0/140 multi-step attack success (Clopper-Pearson 95% upper bound 2.60%); a prompt ablation shows this resistance lives in the model weights. Yet it does not generalize: on a sister coding-agent benchmark (SkillBench), the same weights fall to hand-crafted skill-injection at up to 100%. We argue that the literature's high ASR is largely attributable to RL-optimized injection text rather than the attack categories, and that frontier safety hardening is domain-conditioned, specific to the heavily-targeted browser surface. Reporting techniques without releasing the optimized strings, or extrapolating browser-domain safety to other CUA modalities, makes published ASR numbers unreproducible.",
+    "url": "http://arxiv.org/abs/2606.05233v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05233v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.04126v1",
+    "title": "HighTide: An Agent-Curated Open-Source VLSI Benchmark Suite",
+    "authors": [
+      "Benjamin Goldblatt",
+      "Paolo Pedroso",
+      "Farhad Modaresi",
+      "Ethan Sifferman",
+      "Matthew R. Guthaus"
+    ],
+    "abstract": "We introduce HighTide, an evolving AI-assisted benchmark suite. Specifically, the contributions are: (i) a diverse open-source suite spanning multiple design languages and technology nodes, (ii) Bazel-based incremental RTL-to-GDS compilation with remote caching, (iii) AI-assisted design curation through twelve agent skills covering the design lifecycle, flow optimization, tool reference, and meta-maintenance, backed by per-design decision logs that serve as long-term memory of tuning rationale across the suite, and (iv) an infrastructure with RTL compilation verification for stable releases. The suite is publicly available and designed to grow with the open-source hardware ecosystem.",
+    "url": "http://arxiv.org/abs/2606.04126v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04126v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.AR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.03918v1",
+    "title": "Hedge-Bench: Benchmarking Agents on Hard, Realistic Tasks Pertaining to Financial Reasoning",
+    "authors": [
+      "Eric Cho",
+      "Shawn Huang",
+      "Alice Lu",
+      "Andy Lyu"
+    ],
+    "abstract": "AI agents can increasingly handle the mechanical tasks of financial analysis: retrieving documents, calculating formulas, updating spreadsheets. The harder, more valuable challenge is reasoning through the open-ended questions that define expert Analyst work. Existing benchmarks do not capture this class of problem, and those that attempt to evaluate open-ended reasoning rely on model-judged outputs that introduce noise and circularity. We present Hedge-Bench 1.0: a benchmark of 102 actual, on-the-job tasks grounded in the explicit reasoning traces of professional hedge fund analysts working with relevant information sources. This approach enables deterministic grading against verified expert steps. Frontier models and agents score below 16\\% on the benchmark. We publish the dataset and evaluation harness at github.com/Trata-Inc/trata-hedge-bench.",
+    "url": "http://arxiv.org/abs/2606.03918v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03918v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.03829v1",
+    "title": "BigFinanceBench: A Workflow-Grounded Benchmark for Financial-Research Agents",
+    "authors": [
+      "Alex Wang",
+      "Georg Meinhardt",
+      "Jacob Katz",
+      "Joseph H. Kim",
+      "Pratyush K. Chaudhary"
+    ],
+    "abstract": "Financial-research answers are decision-relevant only when another analyst can audit how they were produced: which source was chosen, which period and accounting definition were used, which assumptions were made, and how the calculation was performed. Existing finance benchmarks largely evaluate isolated subskills or final answers, leaving the auditable derivation itself under-measured. We introduce BigFinanceBench, a 928-item expert-authored benchmark of open-ended financial-research tasks in which each item pairs a ground-truth reference answer with a point-weighted rubric that decomposes the derivation into independently checkable steps. BigFinanceBench is workflow-grounded in that it evaluates the full derivation rather than only the final output. Across 36,241 rubric points, the benchmark supports partial-credit evaluation and localization of failures across the analyst workflow. Evaluating ten current frontier and open-weight agents, we find substantial headroom: the best system reaches only 58.8% rubric score, final-answer accuracy is a useful but lossy proxy for derivation quality, and model capability varies non-uniformly across financial workflows.",
+    "url": "http://arxiv.org/abs/2606.03829v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03829v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05920v1",
+    "title": "Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement",
+    "authors": [
+      "Xin Wang",
+      "Liangtai Sun",
+      "Yaoming Zhu",
+      "Shuang Zhou",
+      "Jiaxing Liu"
+    ],
+    "abstract": "Existing code-generation benchmarks score a single mapping from a complete prompt to a one-shot output. However, real web development is different. Users seldom write a full spec at the start; many requirements only become clear once they look at an intermediate result and react to it. We present Asuka-Bench, a benchmark that pairs underspecified user intent with multi-round refinement, grounded in browser-rendered behavior. Each task is resolved through a closed loop: a Code Agent generates a web project, a UI Agent executes test cases on the deployed site, and a User LLM turns evaluation outcomes into natural-language feedback for the next round. The benchmark comprises 50 web tasks with 784 evaluation criteria and 2402 expected outcomes. We benchmark 8 LLMs across 2 agent frameworks. The results separate models clearly: weighted Task Pass Rate varies by 38 percentage points and models also differ substantially in their ability to repair from feedback. Asuka-Bench is also far from saturated: even the strongest model completes only 52% of projects after three rounds.",
+    "url": "http://arxiv.org/abs/2606.05920v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05920v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.SE",
+      "cs.CL"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.04701v1",
+    "title": "Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms",
+    "authors": [
+      "Jiashu Yao",
+      "Heyan Huang",
+      "Daiqing Wu",
+      "Wangke Chen",
+      "Huaxi Ai"
+    ],
+    "abstract": "GUI agents today assume a static screen, where the world is frozen between two actions. However, real interfaces such as short-video applications violate this assumption, as their content keeps playing, and a competent user must decide what to watch and for how long. We formalize this task as Living-Screen-Native GUI agents and introduce LivingScreen, the first benchmark instantiating it on short-video platforms, with a faithful browser-based environment, a three-tier task suite, and metrics that jointly score accuracy and information efficiency. Evaluating extensive frontier models, we find that none reaches the human cost-accuracy performance, and that their dominant failure mode is over- and under-observation, pointing to observation control as a missing capability axis for future GUI agents. All data and code will be available at https://github.com/BITHLP/LivingScreen.",
+    "url": "http://arxiv.org/abs/2606.04701v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04701v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.04660v1",
+    "title": "LifeSide: Benchmarking Agents as Lifelong Digital Companions",
+    "authors": [
+      "Yuqian Wu",
+      "Zhijie Deng",
+      "Wei Chen",
+      "Junwei Li",
+      "Yutian Jiang"
+    ],
+    "abstract": "Lifelong digital companions must integrate cross-session cues, continually update their understanding of users, and adapt to shifting privacy boundaries. Existing evaluations fail to capture this, testing memory recall and short-term empathy in isolation. To bridge this gap, we introduce \\benchmark, a benchmark centered on multi-session \\textit{Memory-Emotion-Environment} loops. By modeling users as persistent worlds with layered profiles and event trajectories, \\benchmark uses multi-agent simulation to project environmental dynamics into dialogue, preserving the critical gap between latent thoughts and observable expressions. Evaluating 2,000 personas and 111K tasks across memory tracking, user understanding, privacy control, and emotional companionship, our experiment results reveal a stark reality: even models that saturate current memory benchmarks fail to sustain accurate user understanding and true companionship over long horizons.",
+    "url": "http://arxiv.org/abs/2606.04660v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04660v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.03889v1",
+    "title": "RealClawBench: Live OpenClaw Benchmarks from Real Developer-Agent Sessions",
+    "authors": [
+      "Zongwei Lv",
+      "Zhewen Tan",
+      "Yaoming Li",
+      "Yilun Yao",
+      "Yuxuan Tian"
+    ],
+    "abstract": "Agent benchmarks should reflect what users actually ask deployed agents to do, yet existing benchmarks often miss key realism properties of real developer-agent sessions. We introduce RealClawBench, a live benchmark framework built from real OpenClaw sessions to capture the distribution, diversity, and real-world difficulty of deployed agent use. Real user requests are challenging to benchmark because they often depend on local execution environments, involve implicit or underspecified intent, and require nontrivial verification. RealClawBench addresses these challenges with two core mechanisms: reconstructed execution environments and deterministic verifiable scorers, which together convert real sessions into reproducible, automatically scored tasks. The resulting release contains 281 executable tasks sampled from a much larger real-session pool while preserving the source distribution, with maximum final-vs-source Jensen-Shannon divergence of 0.0448. Evaluating 14 contemporary models shows that the best system solves only 65.8% of tasks, revealing substantial headroom on realistic developer-agent workloads. By turning real deployed sessions into controlled evaluation instances, RealClawBench provides a practical path toward benchmarks that better measure agent capability in actual use. Code is available at:https://anonymous.4open.science/r/real-claw-bench-582B.",
+    "url": "http://arxiv.org/abs/2606.03889v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03889v1",
+    "published": "2026-06-02",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
