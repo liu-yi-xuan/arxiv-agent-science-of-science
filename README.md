@@ -24,6 +24,43 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-06
+
+**13 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents](http://arxiv.org/abs/2606.05805v1) | Yuhao Sun, Jiacheng Zhang, Shaanan Cohney et al. | LLM-based guardrails typically safeguard agents by evaluating proposed actions or inputs before execution, producing safety signals such as binary allow/deny decisions, risk categories, and/or expl... |
+| [Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents](http://arxiv.org/abs/2606.04874v1) | Haoyu Sun, Wenxuan Wang, Mingyang Song et al. | Planning is central to LLM agents: before acting, an agent must decompose goals, select tools, reason over constraints, and decide when a task is infeasible. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation](http://arxiv.org/abs/2606.06025v1) | Xinpeng Qiu, Wang Yihu, Zhifeng Liu et al. | Scientific peer review generation has attracted increasing attention for reducing reviewing burdens and providing timely feedback. |
+| [Critic-Guided Heterogeneous Multi-Agent Reasoning for Reliable Mathematical Problem Solving](http://arxiv.org/abs/2606.05704v1) | Muhammad Talha Sharif, Abdul Rehman | Recent Large Language Models (LLMs) have shown impressive reasoning abilities; but they are still susceptible to hallucinations, intermediate reasoning mistakes, and unreliable reasoning results in... |
+| [Streaming Communication in Multi-Agent Reasoning](http://arxiv.org/abs/2606.05158v1) | Zhen Yang, Xiaogang Xu, Wen Wang et al. | Multi-agent reasoning systems adopt a "generate-then-transfer" paradigm that forces end-to-end latency to scale linearly with pipeline depth. |
+| [Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems](http://arxiv.org/abs/2606.05711v1) | Yingzhuo Liu | Multi-agent systems built on large language models (LLMs) have become a prevailing paradigm for tackling complex reasoning, planning, and tool-use tasks. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MIRAI: Prediction and Generation of High-Impact Academic Research](http://arxiv.org/abs/2606.05443v1) | Alex Li, Joseph Jacobson | The rapid pace of scientific publishing has made the identification and synthesis of high-impact work an increasingly urgent challenge. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents](http://arxiv.org/abs/2606.05806v1) | Dongsheng Zhu, Xuchen Ma, Yucheng Shen et al. | Existing benchmarks evaluate Tool-Integrated Reasoning (TIR) in LLMs on idealized ''happy paths'', largely overlooking real-world tool failures. |
+| [SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents](http://arxiv.org/abs/2606.05761v1) | Wenxuan Wang, Haoyu Sun, Fukuan Hou et al. | Persistent AI assistants, such as OpenClaw, accumulate large collections of related memories over long-term interactions. |
+| [TensorBench: Benchmarking Coding Agents on a Compiler-Based Tensor Framework](http://arxiv.org/abs/2606.05570v1) | Bobby Yan, Fredrik Kjolstad | Repository-level coding benchmarks face a trade-off between task difficulty and evaluation reliability: tasks that challenge frontier models often involve large codebases with incomplete test cover... |
+| [SentinelBench: A Benchmark for Long-Running Monitoring Agents](http://arxiv.org/abs/2606.05342v1) | Matheus Kunzler Maldaner, Adam Fourney, Amanda Swearngin et al. | AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searchin... |
+| [Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement](http://arxiv.org/abs/2606.05920v1) | Xin Wang, Liangtai Sun, Yaoming Zhu et al. | Existing code-generation benchmarks score a single mapping from a complete prompt to a one-shot output. |
+| [Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms](http://arxiv.org/abs/2606.04701v1) | Jiashu Yao, Heyan Huang, Daiqing Wu et al. | GUI agents today assume a static screen, where the world is frozen between two actions. However, real interfaces such as short-video applications violate this assumption, as their content keeps pla... |
+
 ### 📅 2026-06-05
 
 **28 new papers found**

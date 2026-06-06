@@ -1,0 +1,258 @@
+[
+  {
+    "id": "2606.05805v1",
+    "title": "From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents",
+    "authors": [
+      "Yuhao Sun",
+      "Jiacheng Zhang",
+      "Shaanan Cohney",
+      "Zhexin Zhang",
+      "Feng Liu"
+    ],
+    "abstract": "LLM-based guardrails typically safeguard agents by evaluating proposed actions or inputs before execution, producing safety signals such as binary allow/deny decisions, risk categories, and/or explanatory rationales about potential policy violations. However, agent risks often arise when otherwise benign tasks are contaminated by untrusted external content, unsafe instructions, or risky tool use. Existing guardrails often flag the entire task uniformly as unsafe, thereby blocking the threat but sacrificing the benign part. Moreover, existing work largely evaluates guardrails in isolation, leaving unclear whether their interventions lead to safer downstream agent behavior. To address this, we introduce TRIAD (Tripartite Response for Iterative Agent Guardrailing), a guardrail-integrated agent framework that leverages guardrail-generated verbal feedback as a guiding signal to keep the agent aligned with benign objectives at each planning step. We finetune a language model on a self-curated training dataset to output one of three decisions: proceed, refuse, or update, together with structured natural-language feedback. Rather than merely allowing or blocking execution, update guides the agent to revise its plan, avoid harmful components, and preserve the benign task where possible. TRIAD injects this feedback into the agent's context, enabling subsequent plan revision and forming a closed loop between guardrail feedback and agent planning. Extensive experiments on ASB and AgentHarm show that TRIAD reduces the average attack success rate to 10.42%, while achieving the best safety-utility trade-off among guardrail-integrated baselines. Our code is available at: https://github.com/YUHAOSUNABC/TRIAD.",
+    "url": "http://arxiv.org/abs/2606.05805v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05805v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.04874v1",
+    "title": "Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents",
+    "authors": [
+      "Haoyu Sun",
+      "Wenxuan Wang",
+      "Mingyang Song",
+      "Jujie He",
+      "Weinan Zhang"
+    ],
+    "abstract": "Planning is central to LLM agents: before acting, an agent must decompose goals, select tools, reason over constraints, and decide when a task is infeasible. Yet existing agent evaluations often report only end-to-end success, making it difficult to determine whether failures stem from planning or execution. We introduce \\textbf{Agent Planning Benchmark (APB)}, a planning-specific diagnostic benchmark with 4,209 multimodal cases across 22 domains and five settings, covering holistic planning, feedback-conditioned step-wise planning, and robustness under extraneous tools, broken tools, and unsolvable tasks. Across 12 MLLMs, APB reveals systematic weaknesses in long-horizon planning, tool-noise robustness, calibrated refusal, and inference-time refinement. We further validate APB on 200 ToolSandbox tasks and 200 $τ^2$-bench tasks, where APB-guided refinement consistently improves plan correctness, plan grade, and downstream execution metrics across three representative models. APB thus serves as an upstream diagnostic complement to execution benchmarks.",
+    "url": "http://arxiv.org/abs/2606.04874v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04874v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.06025v1",
+    "title": "EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation",
+    "authors": [
+      "Xinpeng Qiu",
+      "Wang Yihu",
+      "Zhifeng Liu",
+      "Xiaochen Wang",
+      "Jimin Wang"
+    ],
+    "abstract": "Scientific peer review generation has attracted increasing attention for reducing reviewing burdens and providing timely feedback. However, existing Large Language Model (LLM)-based methods often produce generic comments with insufficient evidence support and weak source traceability, while complex multi-agent systems incur high inference costs. To address these challenges, we propose EGTR-Review, an Evidence-Grounded and Traceable Review Generation framework via Multi-Agent Teacher Distillation. EGTR-Review first constructs a multi-agent teacher that performs structure-aware paper decomposition, key-element extraction, external scholarly evidence retrieval, evidence-state labeling, verification reasoning, and review synthesis. It then distills both intermediate reasoning trajectories and final review comments into a lightweight student model through task-prefix-driven multi-task learning. An evidence-weighted objective further reduces the influence of weak, missing, or non-verifiable supervision. Experiments on public peer-review datasets show that EGTR-Review (Student) outperforms strong prompt-based, fine-tuned, and structured/agentic baselines across automatic metrics, LLM-as-Judge evaluation, and human evaluation, while maintaining strong factual grounding and source traceability with substantially lower token consumption and inference time. Our code, prompts, configurations, and sample data are available on GitHub.",
+    "url": "http://arxiv.org/abs/2606.06025v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.06025v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05704v1",
+    "title": "Critic-Guided Heterogeneous Multi-Agent Reasoning for Reliable Mathematical Problem Solving",
+    "authors": [
+      "Muhammad Talha Sharif",
+      "Abdul Rehman"
+    ],
+    "abstract": "Recent Large Language Models (LLMs) have shown impressive reasoning abilities; but they are still susceptible to hallucinations, intermediate reasoning mistakes, and unreliable reasoning results in complex mathematical reasoning problems. In this study, we introduce a critic-based heterogeneous multi-agent approach to improve the dependability of mathematical reasoning. This framework incorporates several LLM agents of different specialties and employs a critic-driven adaptive learning system to assess and guide the reasoning process based on intermediate feedback. The system adopts a generator-validator framework, with the validator not only determining correctness but also offering critiques to guide regeneration of solutions. This allows for adaptive error correction and prevents error cascading. Our experiments on the GSM8K benchmark show that the proposed method achieves up to 13% accuracy improvement over single-shot and non-critic models. Additionally, findings suggest that heterogeneity and critique reduce the need for large models, allowing smaller models to perform on par. Ablation studies reveal the main performance gains are due to the critic-based feedback loop and not model size. In summary, the proposed approach showcases the benefits of combining heterogeneous multi-agent collaboration and critique to obtain reliable and interpretable reasoning systems.",
+    "url": "http://arxiv.org/abs/2606.05704v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05704v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05158v1",
+    "title": "Streaming Communication in Multi-Agent Reasoning",
+    "authors": [
+      "Zhen Yang",
+      "Xiaogang Xu",
+      "Wen Wang",
+      "Cong Chen",
+      "Xander Xu"
+    ],
+    "abstract": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that streams each reasoning step to downstream agents as soon as it is generated, pipelining adjacent agents and thus reducing latency. Surprisingly, this pipelining also improves effectiveness: because multi-step reasoning quality is non-uniform and early steps are more reliable than later ones, working with these reliable early steps instead of the full chain prevents error-prone late steps from misleading downstream agents. We formalize both advantages with the first closed-form joint analysis of stream, serial, and single protocols, deriving the effectiveness ordering, speedup upper bound, and cost ratio. Across eight reasoning benchmarks spanning mathematics, science, and code, two frontier LLMs (Claude Opus 4.6 and GPT-5.4), and three topologies (Chain, Tree, Graph), StreamMA outperforms both baselines (avg. +7.3 pp, max +22.4 pp on HMMT 2026; Claude Opus 4.6-high). Beyond these contributions, we discover a \"step-level scaling law\": increasing per-agent steps consistently improves both effectiveness and efficiency, a new scaling dimension orthogonal to and composable with agent-count scaling.",
+    "url": "http://arxiv.org/abs/2606.05158v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05158v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05711v1",
+    "title": "Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems",
+    "authors": [
+      "Yingzhuo Liu"
+    ],
+    "abstract": "Multi-agent systems built on large language models (LLMs) have become a prevailing paradigm for tackling complex reasoning, planning, and tool-use tasks. The dominant communication protocol in such systems is natural language: agents exchange messages token-by-token, verbalising their internal reasoning so that peers can read, verify, and respond. While convenient and interpretable, this protocol suffers from three structural drawbacks -- high inference cost, irreversible information loss during discretization, and ambiguity/redundancy of natural language. A growing body of work therefore explores an alternative protocol -- latent communication -- in which agents exchange continuous representations (embeddings, hidden states, or KV-caches) directly, bypassing the bottleneck of text generation. This paper presents a unified framework for organising the rapidly expanding literature on latent communication. We analyse existing methods along three orthogonal axes: (1) WHAT information is communicated (Embeddings, Hidden States, KV-Caches, or other continuous state); (2) WHICH sender-receiver alignment is used (latent-space alignment and layer alignment); and (3) HOW the communicated information is fused into the receiver (concatenation, prepending, mathematical operations, cross-attention, or cache restoration). Under this 3-axis framework, we systematically categorise eighteen representative methods proposed between 2024 and 2026, identify five major design patterns, and surface a set of open challenges -- including cross-architecture alignment, security of latent channels, compression for edge deployment, and the relationship between latent communication and latent chain-of-thought. We hope that this framework both lowers the barrier to entry for new researchers and provides a vocabulary for comparing future work.",
+    "url": "http://arxiv.org/abs/2606.05711v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05711v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.05443v1",
+    "title": "MIRAI: Prediction and Generation of High-Impact Academic Research",
+    "authors": [
+      "Alex Li",
+      "Joseph Jacobson"
+    ],
+    "abstract": "The rapid pace of scientific publishing has made the identification and synthesis of high-impact work an increasingly urgent challenge. We introduce MIRAI (Multi-year Inference of Research trends and Academic Impact), a deep learning framework that predicts paper impact using only it's title, abstract, and publication date. We train MIRAI on the arXiv academic graph to predict 5-year PageRank and citation counts, achieving Spearman's $ρ$ of 0.4686 on PageRank prediction and 0.6192 on citation prediction for papers published in 2021. We propose a research ideation pipeline built on top of MIRAI that produces research ideas oriented towards high impact. These ideas were judged as more impactful than a baseline without MIRAI by an unbiased LLM judge at a 4:3 ratio. We make the 5-year citation prediction model publicly available at https://predict-paper-impact.vercel.app.",
+    "url": "http://arxiv.org/abs/2606.05443v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05443v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.DL",
+      "cs.CL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.05806v1",
+    "title": "When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents",
+    "authors": [
+      "Dongsheng Zhu",
+      "Xuchen Ma",
+      "Yucheng Shen",
+      "Xiang Li",
+      "Yukun Zhao"
+    ],
+    "abstract": "Existing benchmarks evaluate Tool-Integrated Reasoning (TIR) in LLMs on idealized ''happy paths'', largely overlooking real-world tool failures. We introduce ToolMaze, a benchmark for dynamic path discovery and error recovery in TIR agents. To separate systematic replanning from blind trial-and-error, ToolMaze adopts a two-dimensional design: DAG-based topological complexity and a $2 \\times 2$ taxonomy of tool perturbations (explicit/implicit, transient/permanent). Evaluations show that perturbations degrade performance across nearly all models, with the sharpest drops under implicit semantic failures. Driven by systemic over-trust in corrupted outputs, Perturbation Recovery Rate (PRR) plummets by around 37\\% in these scenarios, while complex topologies trap agents in futile trial-and-error loops. Crucially, agentic fault-tolerance improves with model scale $3.66\\times$ slower than basic task execution, highlighting dynamic replanning as a distinct bottleneck unaddressed by model scaling or prompting. Data and code are available at https://github.com/Zhudongsheng75/ToolMaze.",
+    "url": "http://arxiv.org/abs/2606.05806v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05806v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05761v1",
+    "title": "SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents",
+    "authors": [
+      "Wenxuan Wang",
+      "Haoyu Sun",
+      "Fukuan Hou",
+      "Mingyang Song",
+      "Weinan Zhang"
+    ],
+    "abstract": "Persistent AI assistants, such as OpenClaw, accumulate large collections of related memories over long-term interactions. As these memories grow, they may reinforce one another, diverge across contexts, or directly conflict, making correct assistance depend on memory relations rather than isolated recall. Existing long-term memory benchmarks rarely probe how agents preserve and utilize such relations during downstream tasks. To address this gap, we introduce SubtleMemory, a benchmark for fine-grained relational memory discrimination in long-running AI agents. SubtleMemory constructs relation-controlled latent semantic artifacts whose variants instantiate complementary, nuanced, or contradictory relations, and embeds them into realistic user-agent histories, requiring agents to recover distributed relational structures during later queries and instructions. The benchmark contains 1,522 evaluation instances over 10 long histories, grounded in 1,090 relation-controlled memory-variant sets and spanning user-related and non-user-related queries. Evaluating six standalone memory systems, two Claw-style agents with native memory modules, and three Claw-style agents with plugin memory modules, we find that current systems remain weak on fine-grained relational memory discrimination. We further introduce diagnostic protocols that reveal distinct capability profiles across memory preservation, retrieval, and downstream reasoning stages.",
+    "url": "http://arxiv.org/abs/2606.05761v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05761v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05570v1",
+    "title": "TensorBench: Benchmarking Coding Agents on a Compiler-Based Tensor Framework",
+    "authors": [
+      "Bobby Yan",
+      "Fredrik Kjolstad"
+    ],
+    "abstract": "Repository-level coding benchmarks face a trade-off between task difficulty and evaluation reliability: tasks that challenge frontier models often involve large codebases with incomplete test coverage, while human review does not scale. We introduce TensorBench, a benchmark of 199 feature-addition and refactoring tasks on an open-source compiler-based tensor framework that extends PyTorch with first-class support for dense and sparse tensors. Tasks cover new sparse formats, dense optimization passes, IR transformations, scheduler changes, runtime components, and high-level numerical operators. TensorBench grades each run by applying the agent's patch and running the framework's test suite, which includes the pre-existing randomized regression tests and any tests the agent adds. For feature-addition tasks, a pass means that the patched repository preserves the tested pre-existing behavior and satisfies the agent-added checks for the requested feature. We evaluate seven coding agents spanning three frontier model families and one open-weight model. Pass rates under this criterion range from $64.8\\%$ for the strongest agent to $22.1\\%$ for the weakest. Agents pass different subsets of tasks: pairwise Cohen's $κ$ ranges from $-0.07$ to $0.43$, with $κ= 0.05$ for the two strongest agents.",
+    "url": "http://arxiv.org/abs/2606.05570v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05570v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05342v1",
+    "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+    "authors": [
+      "Matheus Kunzler Maldaner",
+      "Adam Fourney",
+      "Amanda Swearngin",
+      "Hussein Mozzanar",
+      "Gagan Bansal"
+    ],
+    "abstract": "AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progress. This is the wrong approach for many long-running tasks, which are better served by a strategy of sustained attention. Instead, agents should monitor an environment, notice when an external event makes progress possible, then respond promptly without wasting resources while waiting. To measure progress on this class of tasks, we introduce SentinelBench, an open-source benchmark for time-evolving monitoring tasks.   SentinelBench contains 100 tasks across 10 synthetic web environments, including email, calendars, finance, professional networking, and entertainment. Each environment exposes a live web interface and replays a scripted sequence of events, requiring agents to navigate and reason about web pages whose state shifts underfoot. SentinelBench measures task completion, reaction time, and resource use, exposing the tradeoff between responsiveness and cost. We report results across three models and two browser-agent harnesses, establishing performance baselines for future comparison and demonstrating how agent design choices can dramatically impact key metrics. Together, these results show that SentinelBench distinguishes meaningful differences in agent behavior.",
+    "url": "http://arxiv.org/abs/2606.05342v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05342v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.05920v1",
+    "title": "Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement",
+    "authors": [
+      "Xin Wang",
+      "Liangtai Sun",
+      "Yaoming Zhu",
+      "Shuang Zhou",
+      "Jiaxing Liu"
+    ],
+    "abstract": "Existing code-generation benchmarks score a single mapping from a complete prompt to a one-shot output. However, real web development is different. Users seldom write a full spec at the start; many requirements only become clear once they look at an intermediate result and react to it. We present Asuka-Bench, a benchmark that pairs underspecified user intent with multi-round refinement, grounded in browser-rendered behavior. Each task is resolved through a closed loop: a Code Agent generates a web project, a UI Agent executes test cases on the deployed site, and a User LLM turns evaluation outcomes into natural-language feedback for the next round. The benchmark comprises 50 web tasks with 784 evaluation criteria and 2402 expected outcomes. We benchmark 8 LLMs across 2 agent frameworks. The results separate models clearly: weighted Task Pass Rate varies by 38 percentage points and models also differ substantially in their ability to repair from feedback. Asuka-Bench is also far from saturated: even the strongest model completes only 52% of projects after three rounds.",
+    "url": "http://arxiv.org/abs/2606.05920v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05920v1",
+    "published": "2026-06-04",
+    "categories": [
+      "cs.SE",
+      "cs.CL"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2606.04701v1",
+    "title": "Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms",
+    "authors": [
+      "Jiashu Yao",
+      "Heyan Huang",
+      "Daiqing Wu",
+      "Wangke Chen",
+      "Huaxi Ai"
+    ],
+    "abstract": "GUI agents today assume a static screen, where the world is frozen between two actions. However, real interfaces such as short-video applications violate this assumption, as their content keeps playing, and a competent user must decide what to watch and for how long. We formalize this task as Living-Screen-Native GUI agents and introduce LivingScreen, the first benchmark instantiating it on short-video platforms, with a faithful browser-based environment, a three-tier task suite, and metrics that jointly score accuracy and information efficiency. Evaluating extensive frontier models, we find that none reaches the human cost-accuracy performance, and that their dominant failure mode is over- and under-observation, pointing to observation control as a missing capability axis for future GUI agents. All data and code will be available at https://github.com/BITHLP/LivingScreen.",
+    "url": "http://arxiv.org/abs/2606.04701v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04701v1",
+    "published": "2026-06-03",
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
