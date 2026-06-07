@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-07
+
+**1 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation](http://arxiv.org/abs/2606.06025v1) | Xinpeng Qiu, Wang Yihu, Zhifeng Liu et al. | Scientific peer review generation has attracted increasing attention for reducing reviewing burdens and providing timely feedback. |
+
 ### 📅 2026-06-06
 
 **13 new papers found**
