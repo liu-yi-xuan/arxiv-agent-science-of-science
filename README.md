@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-09
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents](http://arxiv.org/abs/2606.08234v1) | Tanush Swaminathan, Runmin Jiang, Letian Zhang et al. | LLM-based scientific agents have shown strong capacity for autonomous research, yet their safety layers remain structurally divorced from core reasoning: they inspect pipeline outputs rather than s... |
+| [From Text to Discovery: How Are LLMs Reshaping Scientific and Humanistic Research?](http://arxiv.org/abs/2606.08723v1) | Saleh Afroogh, Yasser Pouresmaeil, Yiming Xu et al. | Large Language Models (LLMs) are rapidly reshaping academic research across the natural sciences, social sciences, and humanities, yet the scientific community lacks a comprehensive, cross-discipli... |
+| [Experience Makes Skillful: Enabling Generalizable Medical Agent Reasoning via Self-Evolving Skill Memory](http://arxiv.org/abs/2606.09365v1) | Haoran Sun, Wenjie Li, Yujie Zhang et al. | Medical agent systems are increasingly expected to support interactive clinical decision making rather than only static question answering. |
+| [AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation](http://arxiv.org/abs/2606.09556v1) | Yinan Wang | AI Scientist agents are often evaluated as if capability were mainly a function of model quality, prompting, or reasoning scaffolds. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf](http://arxiv.org/abs/2606.08857v1) | Jiarui Liu, Terry Jingchen Zhang, Ryan Faulkner et al. | Expert writing feedback from experienced researchers is critical for early-career scholars to improve their manuscripts, yet high-quality feedback often remains scarce because reviewing research pa... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback](http://arxiv.org/abs/2606.09748v1) | Rishabh Sabharwal, Hongru Wang, Amos Storkey et al. | Existing benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? |
+
 ### 📅 2026-06-08
 
 *No new papers found today.*

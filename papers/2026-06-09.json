@@ -1,0 +1,120 @@
+[
+  {
+    "id": "2606.08234v1",
+    "title": "SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents",
+    "authors": [
+      "Tanush Swaminathan",
+      "Runmin Jiang",
+      "Letian Zhang",
+      "Min Xu"
+    ],
+    "abstract": "LLM-based scientific agents have shown strong capacity for autonomous research, yet their safety layers remain structurally divorced from core reasoning: they inspect pipeline outputs rather than shaping the deliberation that produces them. This separation opens two failure modes: safety signals accumulated at one stage are discarded before the next, and sequences of individually benign tool calls can compose into harmful outcomes that no single-step filter detects. To address these challenges, we introduce \\textbf{SciTrace}, a framework that weaves safety reasoning into every stage of the scientific agent pipeline. SciTrace couples two complementary mechanisms: a \\textit{Safety-Intrinsic Reasoning Loop} (SIR) that maintains a cumulative risk state across the Thinker, Experimenter, Writer, and Reviewer stages through joint task-and-safety deliberation, and a \\textit{Compositional Tool-Chain Verifier} (CTV) that performs trajectory-aware safety checks before execution, catching risks that surface only across multi-step tool sequences. Evaluated on 240 high-risk research tasks and 120 tool-related risk tasks spanning six scientific domains, SciTrace achieves state-of-the-art (\\textbf{SOTA}) safety among compared frameworks across four backbone models: it consistently improves tool call safety and adversarial robustness while preserving scientific output quality, and it uncovers \\textbf{78.8\\%} of the compositional tool-chain escapes that single-step monitors miss. The project website is available at https://opensciagent.github.io/SciTrace/.",
+    "url": "http://arxiv.org/abs/2606.08234v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.08234v1",
+    "published": "2026-06-06",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.08723v1",
+    "title": "From Text to Discovery: How Are LLMs Reshaping Scientific and Humanistic Research?",
+    "authors": [
+      "Saleh Afroogh",
+      "Yasser Pouresmaeil",
+      "Yiming Xu",
+      "Kevin Chen",
+      "Abhejay Murali"
+    ],
+    "abstract": "Large Language Models (LLMs) are rapidly reshaping academic research across the natural sciences, social sciences, and humanities, yet the scientific community lacks a comprehensive, cross-disciplinary account of how these tools are being integrated, what they deliver, and where they fall short. This paper addresses that gap by mapping their current state and outlining an agenda for their responsible integration into scientific research. Our analysis reveals a consistent pattern: LLMs meaningfully accelerate research workflows -- from hypothesis generation and literature synthesis to data analysis and scientific writing -- while introducing serious challenges related to hallucination, reproducibility, dataset bias, and model opacity. Beyond technical limitations, we identify ten underexplored challenges, including the erosion of researcher autonomy, AI-driven confirmation bias, authorship ambiguity, and unequal access to these technologies -- systemic risks that demand interdisciplinary governance frameworks, robust validation standards, and expanded explainability research.",
+    "url": "http://arxiv.org/abs/2606.08723v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.08723v1",
+    "published": "2026-06-07",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.09365v1",
+    "title": "Experience Makes Skillful: Enabling Generalizable Medical Agent Reasoning via Self-Evolving Skill Memory",
+    "authors": [
+      "Haoran Sun",
+      "Wenjie Li",
+      "Yujie Zhang",
+      "Zekai Lin",
+      "Fanrui Zhang"
+    ],
+    "abstract": "Medical agent systems are increasingly expected to support interactive clinical decision making rather than only static question answering. In such settings, effective agents must reuse prior experience across evolving cases, yet existing memory mechanisms often retain raw historical traces that are redundant, noisy, and difficult to govern. More importantly, they rarely distinguish which memories are truly useful for future reasoning. This limits their ability to accumulate compact and reliable experience for long-horizon clinical reasoning. To close this gap, we propose SkeMex, a post-deployment self-evolution framework that improves medical agents through a skill-based memory without updating model weights. SkeMex distills informative interaction trajectories into structured skills that encode reusable procedural knowledge, and organizes them into a multi-branch repository spanning general, task-specific, and action-level experience. To determine which memories should be reused and retained, SkeMex estimates context-dependent utility from environment feedback and uses it to guide value-aware retrieval and repository governance. A closed-loop ``Read--Write--Assess--Govern\" lifecycle further supports continual evolution by writing new skills, updating utilities, promoting useful memories, and removing harmful entries. Experiments across diverse clinical tasks show that SkeMex consistently outperforms representative memory-based agents in both offline and online settings. It also generalizes across model backbones and supports transferable skill memory. All data and code will be released publicly.",
+    "url": "http://arxiv.org/abs/2606.09365v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.09365v1",
+    "published": "2026-06-08",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.09556v1",
+    "title": "AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation",
+    "authors": [
+      "Yinan Wang"
+    ],
+    "abstract": "AI Scientist agents are often evaluated as if capability were mainly a function of model quality, prompting, or reasoning scaffolds. We test a different hypothesis in drug-asset valuation: for knowledge-intensive scientific decisions, the limiting factor is often the evidence substrate the agent can access. We run a controlled three-arm ablation on a production valuation agent: A is a plain web-only LLM analyst, B adds public structured tools plus a 14-dimension valuation playbook, verifier, objectivity policy and red-team, and C adds the proprietary Noah AI corpus of curated pipeline, trial and deal intelligence. Across a 13-asset stratified benchmark, B improves calibration and audit discipline: tier-in-range accuracy rises from 0.80 to 0.89 and objectivity from 3.16 to 3.30. But B does not remove the factual ceiling. Under capability-superset accounting, A and B recover only 0.25 and 0.38 of the curated gold competitive record, while C recovers 0.96; on the curated long-tail subset, C reaches 0.93 vs. 0.26/0.30. Raw blind-panel decision quality is similar for A and B (7.01 vs. 6.96), so we introduce completeness-aware decision utility: informed decision-quality = decision-quality x gold-coverage. On this metric, C reaches 7.43 vs. 1.76/2.57 for A/B. Even a perfect non-proprietary-data report would be capped at 3.83 by B's coverage. The result is not that reasoning scaffolds are unimportant; they improve calibration and discipline. Rather, proprietary evidence sets the upper bound of what the AI Scientist can know and therefore decide.",
+    "url": "http://arxiv.org/abs/2606.09556v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.09556v1",
+    "published": "2026-06-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.08857v1",
+    "title": "PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf",
+    "authors": [
+      "Jiarui Liu",
+      "Terry Jingchen Zhang",
+      "Ryan Faulkner",
+      "X. Angelo Huang",
+      "Vilém Zouhar"
+    ],
+    "abstract": "Expert writing feedback from experienced researchers is critical for early-career scholars to improve their manuscripts, yet high-quality feedback often remains scarce because reviewing research papers is labor-intensive. Emerging AI-powered writing assistants largely focus on grammar fixes or simulating peer review with final scores, yet they fall short of providing concrete, actionable suggestions that help students improve their papers during drafting. We present PaperMentor, a human-centered writing assistant system that delivers actionable suggestions as Overleaf-native inline comments while leaving the actual writing entirely to human authors. PaperMentor integrates an expert skill library carefully curated from established researchers' writing advice with 12 specialized agents covering different aspects of paper writing, such as formatting compliance, phrasing accuracy, and terminology consistency. In a user study (n=14), 90.6% of the generated comments were rated actionable and 67.5% were rated valid, significantly outperforming a GPT-5.2 baseline uswithout the skill library. We release PaperMentor as open source for public use. Our code is publicly available under the AGPL-3.0 license at https://github.com/jiarui-liu/overleaf",
+    "url": "http://arxiv.org/abs/2606.08857v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.08857v1",
+    "published": "2026-06-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.09748v1",
+    "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+    "authors": [
+      "Rishabh Sabharwal",
+      "Hongru Wang",
+      "Amos Storkey",
+      "Jeff Z. Pan"
+    ],
+    "abstract": "Existing benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? To investigate this, we conduct a multi-turn evaluation of DRAs under two feedback settings: self-reflection, in which the agent revises its report without any external diagnostic signal, and process-level feedback, in which the agent receives guidance targeting gaps in its research strategy. To enable process-level feedback, we design Research Gap Inference (RGI), a method that analyzes patterns of satisfied and unsatisfied rubric criteria to infer research-process gaps. Our analysis reveals three key findings: (i) under self-reflection, agents incorporate and regress on rubric criteria at nearly equal rates, yielding negligible net improvement; (ii) a single round of process-level feedback yields substantial gains, raising the normalized score by approximately $8$-$15$ points and yielding a roughly $35$-$40\\%$ incorporation rate; (iii) these gains do not compound over subsequent turns, as agents regress on up to $24\\%$ of previously satisfied criteria when rewriting the full report to address remaining gaps. Even with targeted guidance, reliable multi-turn improvement remains out of reach for the DRA architectures we evaluate. Our code and results are publicly available at https://github.com/sabharwalrishabh/Multi-Turn-Evaluation-of-DRAs.",
+    "url": "http://arxiv.org/abs/2606.09748v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.09748v1",
+    "published": "2026-06-08",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
