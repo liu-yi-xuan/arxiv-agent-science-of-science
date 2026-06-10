@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-10
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Experience Makes Skillful: Enabling Generalizable Medical Agent Reasoning via Self-Evolving Skill Memory](http://arxiv.org/abs/2606.09365v1) | Haoran Sun, Wenjie Li, Yujie Zhang et al. | Medical agent systems are increasingly expected to support interactive clinical decision making rather than only static question answering. |
+| [AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation](http://arxiv.org/abs/2606.09556v1) | Yinan Wang | AI Scientist agents are often evaluated as if capability were mainly a function of model quality, prompting, or reasoning scaffolds. |
+| [Moonshine: An Autonomous Mathematical Research Agent Centered on Conjecture Generation](http://arxiv.org/abs/2606.10806v1) | Xiaoyang Chen, Xiang Jiang | Moonshine is an autonomous agent whose central objective is to generate mathematical conjectures. Its core capability is to extract structure from classical problems, distill new concepts, and form... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PaperMentor: A Human-Centered Multi-Agent Writing Tutor for AI Research Papers on Overleaf](http://arxiv.org/abs/2606.08857v1) | Jiarui Liu, Terry Jingchen Zhang, Ryan Faulkner et al. | Expert writing feedback from experienced researchers is critical for early-career scholars to improve their manuscripts, yet high-quality feedback often remains scarce because reviewing research pa... |
+| [HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning](http://arxiv.org/abs/2606.10507v1) | Juncheng Diao, Zhicong Lu, Peiguang Li et al. | While Large Language Models (LLMs) have demonstrated strong capabilities as autonomous agents across a wide range of tasks, their performance often degrades in multi-turn long-horizon agentic tasks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback](http://arxiv.org/abs/2606.09748v1) | Rishabh Sabharwal, Hongru Wang, Amos Storkey et al. | Existing benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? |
+
 ### 📅 2026-06-09
 
 **6 new papers found**
