@@ -1,0 +1,241 @@
+[
+  {
+    "id": "2606.09556v1",
+    "title": "AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation",
+    "authors": [
+      "Yinan Wang"
+    ],
+    "abstract": "AI Scientist agents are often evaluated as if capability were mainly a function of model quality, prompting, or reasoning scaffolds. We test a different hypothesis in drug-asset valuation: for knowledge-intensive scientific decisions, the limiting factor is often the evidence substrate the agent can access. We run a controlled three-arm ablation on a production valuation agent: A is a plain web-only LLM analyst, B adds public structured tools plus a 14-dimension valuation playbook, verifier, objectivity policy and red-team, and C adds the proprietary Noah AI corpus of curated pipeline, trial and deal intelligence. Across a 13-asset stratified benchmark, B improves calibration and audit discipline: tier-in-range accuracy rises from 0.80 to 0.89 and objectivity from 3.16 to 3.30. But B does not remove the factual ceiling. Under capability-superset accounting, A and B recover only 0.25 and 0.38 of the curated gold competitive record, while C recovers 0.96; on the curated long-tail subset, C reaches 0.93 vs. 0.26/0.30. Raw blind-panel decision quality is similar for A and B (7.01 vs. 6.96), so we introduce completeness-aware decision utility: informed decision-quality = decision-quality x gold-coverage. On this metric, C reaches 7.43 vs. 1.76/2.57 for A/B. Even a perfect non-proprietary-data report would be capped at 3.83 by B's coverage. The result is not that reasoning scaffolds are unimportant; they improve calibration and discipline. Rather, proprietary evidence sets the upper bound of what the AI Scientist can know and therefore decide.",
+    "url": "http://arxiv.org/abs/2606.09556v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.09556v1",
+    "published": "2026-06-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.11926v1",
+    "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+    "authors": [
+      "Jiajie Jin",
+      "Yuyang Hu",
+      "Kai Qiu",
+      "Qi Dai",
+      "Chong Luo"
+    ],
+    "abstract": "Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into later attempts. We study how an AI agent can run this loop autonomously over long horizons. We introduce Arbor, a general framework for autonomous research that combines a long-lived coordinator, short-lived executors, and Hypothesis Tree Refinement (HTR), a persistent tree that links hypotheses, artifacts, evidence, and distilled insights across time. The coordinator manages global research strategy over the tree, while executors implement and test individual hypotheses in isolated worktrees. As results return, Arbor updates the tree, propagates reusable lessons, refines the search frontier, and admits verified improvements. This design turns autonomous research from a sequence of local attempts into a cumulative process in which strategy, execution, and evidence are carried across time. We evaluate Arbor under Autonomous Optimization (AO), an operational setting where an agent improves an initial research artifact through iterative experimentation without step-level human supervision. Across six real research tasks in model training, harness engineering, and data synthesis, Arbor achieves the best held-out result on all six tasks, attaining more than 2.5x the average relative held-out gain of Codex and Claude Code under the same task interface and resource budget. On MLE-Bench Lite, Arbor reaches 86.36% Any Medal with GPT-5.5, the strongest result in our comparison.",
+    "url": "http://arxiv.org/abs/2606.11926v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.11926v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.10806v1",
+    "title": "Moonshine: An Autonomous Mathematical Research Agent Centered on Conjecture Generation",
+    "authors": [
+      "Xiaoyang Chen",
+      "Xiang Jiang"
+    ],
+    "abstract": "Moonshine is an autonomous agent whose central objective is to generate mathematical conjectures. Its core capability is to extract structure from classical problems, distill new concepts, and formulate conjectures of mathematical significance. Rather than treating the solution of a single proposition as its endpoint, Moonshine builds an extensible theoretical framework through conjecture generation, bridge building, and obstacle identification. This article uses Moonshine's exploration of the Jacobian conjecture as an example. It shows how the central logic of whether local nondegeneracy can force global injectivity is transferred to one-hidden-layer affine-ridge sigmoid networks. This leads to the formulation of the \\emph{Neural Jacobian Conjecture} (NJC): if such a network has strictly positive Jacobian determinant on the whole space, then it must be globally injective. By invoking GPT-5.5-pro and DeepSeek-V4-pro separately, Moonshine obtained independent complete proofs for the case \\(N=n+1\\). In addition, with the assistance of ChatGPT through interactive use of its web interface with GPT-5.5-pro, a geometric-topological proof was developed. These results provide preliminary evidence for the plausibility of the conjecture. The general higher-width case \\(N\\ge n+2\\), however, remains unresolved and is left for further investigation. This work illustrates Moonshine's ability to autonomously generate meaningful mathematical problems and make rigorous progress on them.",
+    "url": "http://arxiv.org/abs/2606.10806v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.10806v1",
+    "published": "2026-06-09",
+    "categories": [
+      "cs.AI",
+      "math.FA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.10507v1",
+    "title": "HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning",
+    "authors": [
+      "Juncheng Diao",
+      "Zhicong Lu",
+      "Peiguang Li",
+      "Yongwei Zhou",
+      "Changyuan Tian"
+    ],
+    "abstract": "While Large Language Models (LLMs) have demonstrated strong capabilities as autonomous agents across a wide range of tasks, their performance often degrades in multi-turn long-horizon agentic tasks. Existing methods have made progress through fine-grained credit assignment to alleviate long-horizon sparse rewards and hierarchical reinforcement learning to decompose tasks and reduce long-term dependency. However, these methods still do not directly address long-context interference, in which continuously growing histories weaken the agent's ability to track the global task state and impair subsequent reasoning and decision-making. Inspired by the way humans handle complex tasks through subgoal decomposition and completed progress summarization, we propose Hierarchical Planning and Information Folding (HIPIF) for long-horizon LLM agent learning. HIPIF trains the agent end-to-end to organize long-horizon execution around explicit subgoals while folding completed subgoal histories to reduce long-context interference. Furthermore, to stabilize subgoal-based planning and execution, HIPIF combines hierarchical reflection and subgoal-oriented process rewards to guide subgoal generation, transition, and execution, without relying on costly auxiliary models or task-specific expert trajectories. Extensive experiments on three publicly available agentic benchmarks demonstrate the validity of our method.",
+    "url": "http://arxiv.org/abs/2606.10507v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.10507v1",
+    "published": "2026-06-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.11830v1",
+    "title": "Skill-Augmented AI Agents for Medical Research Analysis: An Exploratory Multi-Model Human Evaluation in an NSCLC Transcriptomic Biomarker Task",
+    "authors": [
+      "Qianyu Yao",
+      "Fei Sun",
+      "Bocheng Huang",
+      "Wei Chen",
+      "Jiarui Jiang"
+    ],
+    "abstract": "Background. Large language models and AI agents are increasingly used to support biomedical research, but native model outputs may omit key analytical steps, misuse methods, or overstate conclusions. We evaluated whether autonomous access to a medical research skill package was associated with higher-quality AI-generated transcriptomic research-analysis outputs compared with native AI without skills. Methods. We conducted an exploratory multi-model human evaluation using a non-small cell lung cancer immunotherapy biomarker task. Six model backbones were tested. The evaluation included 21 anonymized outputs: 9 native-AI outputs and 12 skill-augmented outputs generated through an AI agent implementation represented by OpenClaw. Four non-expert biomedical reviewers and two blinded experts evaluated each output, with two ratings from each reviewer type. The primary outcome was expert-rated overall quality. Results. Skill-augmented outputs showed directionally higher expert overall quality than native-AI outputs (mean 5.50 vs 5.11; difference=0.39; bootstrap 95\\% CI, -0.04 to 0.90; Welch p=0.156). Non-expert reviewer quality showed the same direction (mean 4.72 vs 4.47; difference=0.26; bootstrap 95\\% CI, -0.25 to 0.80; Welch p=0.373). Expert agreement was limited (single-rating ICC=-0.15), and model-specific effects were descriptive and heterogeneous. Conclusions. Autonomous skill access showed a directional quality signal in this exploratory sample, but the signal was smaller than expert-rating noise and should not be interpreted as confirmatory evidence. The findings primarily motivate larger evaluations of skill-augmented AI agents with stronger reliability controls, platform replication, and biological-validity assessment.",
+    "url": "http://arxiv.org/abs/2606.11830v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.11830v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.09748v1",
+    "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+    "authors": [
+      "Rishabh Sabharwal",
+      "Hongru Wang",
+      "Amos Storkey",
+      "Jeff Z. Pan"
+    ],
+    "abstract": "Existing benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? To investigate this, we conduct a multi-turn evaluation of DRAs under two feedback settings: self-reflection, in which the agent revises its report without any external diagnostic signal, and process-level feedback, in which the agent receives guidance targeting gaps in its research strategy. To enable process-level feedback, we design Research Gap Inference (RGI), a method that analyzes patterns of satisfied and unsatisfied rubric criteria to infer research-process gaps. Our analysis reveals three key findings: (i) under self-reflection, agents incorporate and regress on rubric criteria at nearly equal rates, yielding negligible net improvement; (ii) a single round of process-level feedback yields substantial gains, raising the normalized score by approximately $8$-$15$ points and yielding a roughly $35$-$40\\%$ incorporation rate; (iii) these gains do not compound over subsequent turns, as agents regress on up to $24\\%$ of previously satisfied criteria when rewriting the full report to address remaining gaps. Even with targeted guidance, reliable multi-turn improvement remains out of reach for the DRA architectures we evaluate. Our code and results are publicly available at https://github.com/sabharwalrishabh/Multi-Turn-Evaluation-of-DRAs.",
+    "url": "http://arxiv.org/abs/2606.09748v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.09748v1",
+    "published": "2026-06-08",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.10296v1",
+    "title": "The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge",
+    "authors": [
+      "Ali Keramati",
+      "Justin Cheok",
+      "Jacob Horne",
+      "Mark Warschauer"
+    ],
+    "abstract": "Multi-agent debate systems are typically evaluated only on whether the final answer is correct, overlooking the quality of the intermediate reasoning that debate is designed to produce. This paper studies the relationship between three signals in multi-agent debate: token-level log-probability distributions over reasoning tokens, LLM-as-judge rubric scores assigned to those tokens, and final task accuracy. We examine whether internal confidence signals predict externally evaluated reasoning quality, and whether either signal aligns with task correctness, across three domains: rubric-based scoring, mathematical reasoning, and factual question answering. Our framework pairs a two-agent debate architecture -- a Constructor and an Auditor -- with an LLM-as-judge that scores each agent's reasoning along instruction following, justification quality, and evidence grounding, together with a critical-failure flag. Experiments in the rubric-scoring domain reveal a consistent four-phase confidence trajectory and a substantial role asymmetry: confidence aligns with judged reasoning quality roughly twice as strongly for the Constructor as for the Auditor, and confidence-based detection of critical reasoning failures is markedly more reliable for the Constructor (AUROC 0.804) than for the Auditor (0.634). These findings motivate the broader cross-domain investigation proposed in this paper.",
+    "url": "http://arxiv.org/abs/2606.10296v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.10296v1",
+    "published": "2026-06-09",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.12018v1",
+    "title": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning",
+    "authors": [
+      "Shang Ma",
+      "Jisheng Dang",
+      "Wencan Zhang",
+      "Yifan Zhang",
+      "Bimei Wang"
+    ],
+    "abstract": "We propose a multi-agent collaborative framework built upon a lightweight Multimodal Large Language Model (MLLM), specifically designed for social intelligence reasoning. A key feature of our approach is that both the training and inference phases are augmented via knowledge distillation. Within this architecture, multi-modal data pertinent to social intelligence is precisely localized. Furthermore, relevant long-tail events are identified, extracted, and rendered as formatted, explicit text. This formatting strategy prevents critical long-tail information from being overshadowed by head events and environmental noise during the tokenization process. Specifically, we integrate Test-Time Adaptation (TTA) across the entire reasoning pipeline, encompassing the extraction and representation of long-tail events, Chain-of-Thought (CoT) prompting, and self-reflection. This TTA mechanism is also distillation-enhanced, utilizing Low-Rank Adaptation (LoRA) to fine-tune the foundation model exclusively for instance-level reasoning. Extensive evaluations against various open-source and proprietary AI models across multiple benchmarks demonstrate the effectiveness of the proposed framework. With around 30% of training data from IntentTrain, we achieve state-of-the-art results. Codes are available at https://github.com/eeee-sys/MODF-SIR, demo is available at https://huggingface.co/spaces/Harry-1234/MODF-SIR, LoRA is available at https://huggingface.co/Harry-1234/MODF-SIR and the dataset for training router is available at https://huggingface.co/datasets/Harry-1234/IntentRouterTrain.",
+    "url": "http://arxiv.org/abs/2606.12018v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.12018v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.10475v1",
+    "title": "Decoupling Thought from Speech: Knowledge-Grounded Counterfactual Reasoning for Resilient Multi-Agent Argumentation",
+    "authors": [
+      "Jakub Masłowski",
+      "Jarosław A. Chudziak"
+    ],
+    "abstract": "Multi-agent debate frameworks have been shown to improve large language model performance in convergent tasks, but they are currently optimized in a way that heavily favors final output accuracy rather than stability of the process. During long-horizon exchanges reactive systems under sustained perturbations often experience logic degradation, argument repetition, and role drift. To structurally prevent the identity loss and maintain the process fidelity, we introduce Knowledge-Grounded Counterfactual Reasoning (KG-CFR), a dual-stage architecture that enforces a strict separation of concerns between a private, retrieval-augmented planning buffer, and a public execution layer. We assess this system in Dynamic Resource Allocation under Uncertainty (DRAU), a dedicated 1v1v1 environment, introducing diversity as distinct from standard debate settings. Over 270 completely factorial crisis simulation trajectories with stochastic environmental shocks, KG-CFR prevents judge-detected critical post-shock degradation (defined as a quality shift, $Δ\\le -0.20$) in more than 95% of perturbed runs, increasing the overall argument quality from 0.694 to 0.822. Our primary contribution is the demonstration of architectural decoupling being an important factor of systemic resilience enhancement under sustained pressure without quality loss. Furthermore, we introduce custom vector metrics for discourse divergence and plan-execution alignment that provide strong, directionally consistent evidence of operational stability. Our ablation experiments suggest that the proper doctrinal grounding can be an equally important factor for argument quality, as the prospective planning. KG-CFR, according to our initial metric evaluations, reduces semantic looping, by preserving the agent's consistency with the original plan.",
+    "url": "http://arxiv.org/abs/2606.10475v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.10475v1",
+    "published": "2026-06-09",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.12040v1",
+    "title": "A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design",
+    "authors": [
+      "Wanting Wang",
+      "Xiye Ma",
+      "Yuyang He",
+      "Minghui Cheng",
+      "Ran Cao"
+    ],
+    "abstract": "The design of reinforced concrete highway barriers is a safety-critical process that requires strict compliance with regulatory provisions such as the AASHTO-LRFD bridge design guidelines. Current engineering practice relies heavily on manual, iterative, and heuristic calculations to satisfy complex nonlinear material and mechanics constraints. Although Large Language Models (LLMs) demonstrate strong generative capabilities, their direct application to structural engineering remains limited by hallucination risks and insufficient physical grounding. To address these challenges, this study proposes a novel \"generation-evaluation-optimization\" closed-loop framework for automated concrete barrier design using the multi-agent orchestration capabilities of AutoGen. Experimental results demonstrate that the proposed agentic framework achieves over 98% design accuracy, significantly outperforming standalone general-purpose LLMs. More importantly, the study reveals that design performance is not necessarily correlated with model scale, where an 8B-parameter lightweight model could outperform unconstrained 631B-parameter flagship models. This finding highlights the potential to substantially reduce computational costs while improving the accessibility of AI-assisted engineering tools for industry applications. The source code for the proposed multi-agent design framework is available at the project GitHub repository: https://github.com/MXY820/barrier-design. Keywords: Structural Engineering; Multi-Agent Systems; Large Language Models; Concrete Barrier Design; AutoGen; Design Automation.",
+    "url": "http://arxiv.org/abs/2606.12040v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.12040v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.AI",
+      "cs.GR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.10601v1",
+    "title": "Dmsh: A Multi-Agent Reinforcement Learning Framework for All-Quad Mesh Generation",
+    "authors": [
+      "Anirudh Kalyan",
+      "Cosmin Anitescu",
+      "Xiaoying Zhuang",
+      "Timon Rabczuk",
+      "Somdatta Goswami"
+    ],
+    "abstract": "Generating high-quality meshes for arbitrary geometries remains a fundamental bottleneck in computational engineering, often demanding heuristic tuning and semi-manual workflows. In this paper, we introduce Dmsh, a first fully automated reinforcement learning pipeline that unifies geometric decomposition and quadrilateral mesh generation within a single learning-based framework. Dmsh decomposes the problem through three coordinated agents handling topology simplification, geometric regularization, and mesh generation. The meshing process is formulated as a Markov Decision Process and solved using a parametric Soft Actor-Critic architecture with decoupled critics, enabling efficient exploration of a hybrid discrete-continuous action space. A curriculum learning strategy ensures scalability from simple domains to highly complex geometries, suppressing seed variance. By design, the recursive decomposition enables parallel meshing of subregions, yielding globally conforming all-quadrilateral meshes without post hoc correction. Across a wide range of benchmarks, Dmsh consistently outperforms existing methods in automation, robustness, and mesh quality, establishing a new paradigm for learning-based mesh generation.",
+    "url": "http://arxiv.org/abs/2606.10601v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.10601v1",
+    "published": "2026-06-09",
+    "categories": [
+      "math.NA",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "math.NA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.10726v1",
+    "title": "Beyond Journals: Rethinking Research Evaluation in Hungarian Computer Science",
+    "authors": [
+      "János Tapolcai",
+      "Márk Jelasity",
+      "Lajos Rónyai",
+      "András Benczúr",
+      "Tibor Gyimóthy"
+    ],
+    "abstract": "This study examines the role of top-tier conference publications in Hungarian computer science research. We show that the national scientometric practice, which is currently journal-oriented, diverges from international norms, creating incentive distortions in researcher evaluation. By linking multiple databases (iCore, DBLP, MTMT, MTA-ATT), we mapped Hungarian-affiliated CORE A* and A conference papers, their temporal and thematic distribution, and author trajectories. Our results indicate that, in theoretical fields, publishing at international conferences became common earlier than in applied fields. At the same time, in applied fields, successful researchers are more likely to continue their careers in foreign institutions or in industry positions. Overall, a substantial share of the already established, internationally most successful researchers are now affiliated with institutions abroad. We recommend recognizing CORE A* papers as equivalent to D1 and CORE A papers as equivalent to Q1 journals in national evaluation systems.",
+    "url": "http://arxiv.org/abs/2606.10726v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.10726v1",
+    "published": "2026-06-09",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]

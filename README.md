@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-11
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation](http://arxiv.org/abs/2606.09556v1) | Yinan Wang | AI Scientist agents are often evaluated as if capability were mainly a function of model quality, prompting, or reasoning scaffolds. |
+| [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](http://arxiv.org/abs/2606.11926v1) | Jiajie Jin, Yuyang Hu, Kai Qiu et al. | Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into ... |
+| [Moonshine: An Autonomous Mathematical Research Agent Centered on Conjecture Generation](http://arxiv.org/abs/2606.10806v1) | Xiaoyang Chen, Xiang Jiang | Moonshine is an autonomous agent whose central objective is to generate mathematical conjectures. Its core capability is to extract structure from classical problems, distill new concepts, and form... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning](http://arxiv.org/abs/2606.10507v1) | Juncheng Diao, Zhicong Lu, Peiguang Li et al. | While Large Language Models (LLMs) have demonstrated strong capabilities as autonomous agents across a wide range of tasks, their performance often degrades in multi-turn long-horizon agentic tasks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Skill-Augmented AI Agents for Medical Research Analysis: An Exploratory Multi-Model Human Evaluation in an NSCLC Transcriptomic Biomarker Task](http://arxiv.org/abs/2606.11830v1) | Qianyu Yao, Fei Sun, Bocheng Huang et al. | Background. Large language models and AI agents are increasingly used to support biomedical research, but native model outputs may omit key analytical steps, misuse methods, or overstate conclusions. |
+| [Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback](http://arxiv.org/abs/2606.09748v1) | Rishabh Sabharwal, Hongru Wang, Amos Storkey et al. | Existing benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? |
+| [The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge](http://arxiv.org/abs/2606.10296v1) | Ali Keramati, Justin Cheok, Jacob Horne et al. | Multi-agent debate systems are typically evaluated only on whether the final answer is correct, overlooking the quality of the intermediate reasoning that debate is designed to produce. |
+| [MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning](http://arxiv.org/abs/2606.12018v1) | Shang Ma, Jisheng Dang, Wencan Zhang et al. | We propose a multi-agent collaborative framework built upon a lightweight Multimodal Large Language Model (MLLM), specifically designed for social intelligence reasoning. |
+| [Decoupling Thought from Speech: Knowledge-Grounded Counterfactual Reasoning for Resilient Multi-Agent Argumentation](http://arxiv.org/abs/2606.10475v1) | Jakub Masłowski, Jarosław A. Chudziak | Multi-agent debate frameworks have been shown to improve large language model performance in convergent tasks, but they are currently optimized in a way that heavily favors final output accuracy ra... |
+| [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](http://arxiv.org/abs/2606.12040v1) | Wanting Wang, Xiye Ma, Yuyang He et al. | The design of reinforced concrete highway barriers is a safety-critical process that requires strict compliance with regulatory provisions such as the AASHTO-LRFD bridge design guidelines. |
+| [Dmsh: A Multi-Agent Reinforcement Learning Framework for All-Quad Mesh Generation](http://arxiv.org/abs/2606.10601v1) | Anirudh Kalyan, Cosmin Anitescu, Xiaoying Zhuang et al. | Generating high-quality meshes for arbitrary geometries remains a fundamental bottleneck in computational engineering, often demanding heuristic tuning and semi-manual workflows. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Journals: Rethinking Research Evaluation in Hungarian Computer Science](http://arxiv.org/abs/2606.10726v1) | János Tapolcai, Márk Jelasity, Lajos Rónyai et al. | This study examines the role of top-tier conference publications in Hungarian computer science research. |
+
 ### 📅 2026-06-10
 
 **6 new papers found**
