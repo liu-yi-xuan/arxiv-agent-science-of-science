@@ -24,6 +24,54 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-12
+
+**24 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery](http://arxiv.org/abs/2606.13662v1) | Amy Xin, Jiening Siow, Junjie Wang et al. | LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific sol... |
+| [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](http://arxiv.org/abs/2606.11926v1) | Jiajie Jin, Yuyang Hu, Kai Qiu et al. | Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into ... |
+| [Moonshine: An Autonomous Mathematical Research Agent Centered on Conjecture Generation](http://arxiv.org/abs/2606.10806v1) | Xiaoyang Chen, Xiang Jiang | Moonshine is an autonomous agent whose central objective is to generate mathematical conjectures. Its core capability is to extract structure from classical problems, distill new concepts, and form... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SENTINEL: Failure-Driven Reinforcement Learning for Training Tool-Using Language Model Agents](http://arxiv.org/abs/2606.12908v1) | Ziyi Wang, Yuxuan Lu, Yimeng Zhang et al. | Language model agents are increasingly effective in solving realistic tasks through multi-turn tool use. |
+| [Keep Policy Gradient in Charge: Sibling-Guided Credit Distillation for Long-Horizon Tool-Use Agents](http://arxiv.org/abs/2606.12634v1) | Tianyu Ding, Jianhong Xin, Juan Pablo De la Cruz Weinstein | Long-horizon tool-use reinforcement learning can learn from outcome verification, but its   trajectory-level advantage is broadcast across many reasoning, API, and answer tokens. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Skill-Augmented AI Agents for Medical Research Analysis: An Exploratory Multi-Model Human Evaluation in an NSCLC Transcriptomic Biomarker Task](http://arxiv.org/abs/2606.11830v1) | Qianyu Yao, Fei Sun, Bocheng Huang et al. | Background. Large language models and AI agents are increasingly used to support biomedical research, but native model outputs may omit key analytical steps, misuse methods, or overstate conclusions. |
+| [ARMOR-MAD: Adaptive Routing for Heterogeneous Multi-Agent Debate in Large Language Model Reasoning](http://arxiv.org/abs/2606.13197v1) | Fuqiang Niu, Bowen Zhang | Multi-agent debate (MAD) can improve large language model reasoning, but fixed debate pipelines often waste computation and can amplify correlated errors among similar agents. |
+| [ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages](http://arxiv.org/abs/2606.13572v1) | Tanmoy Kanti Halder, Akash Ghosh, Subhadip Baidya et al. | Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially... |
+| [MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning](http://arxiv.org/abs/2606.12018v1) | Shang Ma, Jisheng Dang, Wencan Zhang et al. | We propose a multi-agent collaborative framework built upon a lightweight Multimodal Large Language Model (MLLM), specifically designed for social intelligence reasoning. |
+| [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](http://arxiv.org/abs/2606.12040v2) | Wanting Wang, Xiye Ma, Yuyang He et al. | The design of reinforced concrete highway barriers is a safety-critical process that requires strict compliance with regulatory provisions such as the AASHTO-LRFD bridge design guidelines. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Benchmarking AI Agents for Addressing Scientific Challenges Across Scales](http://arxiv.org/abs/2606.12736v1) | Tianyu Liu, Allen Xin Wang, Antonia Panescu et al. | AI agents are increasingly being developed to accelerate scientific discovery, yet their practical capabilities in real research settings remain poorly understood. |
+| [Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents](http://arxiv.org/abs/2606.13385v1) | Zihao Wang, Yiming Li, Yutong Wu et al. | Web agents driven by large language models (LLMs) are increasingly deployed in real-world environments, where they operate over untrusted web content and execute actions with direct consequences. |
+| [DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks](http://arxiv.org/abs/2606.12871v1) | Jingxuan Han, Wei Liu, Mingyang Zhu et al. | Search Agents (SAs) typically leverage large language models (LLMs) to support complex information-seeking tasks by autonomously exploring web sources and synthesizing information into comprehensiv... |
+| [GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models](http://arxiv.org/abs/2606.12821v1) | Gabriel Diaz-Ireland, Diego Prieto-Herráez, Mario García Peces et al. | Environmental scientists spend disproportionate effort on data wrangling rather than analysis, and AI agents that automate geospatial workflows remain unvalidated: no benchmark evaluates agents ope... |
+| [Embodied-BenchClaw: An Autonomous Multi-Agent System for Embodied Spatial Intelligence Benchmark Construction](http://arxiv.org/abs/2606.11909v1) | Baoyang Jiang, Fengchun Zhang, Leyuan Wang et al. | Benchmarks are essential for evaluating embodied spatial intelligence, yet their construction is labor-intensive, hard to reuse, and difficult to maintain. |
+| [MedCTA: A Benchmark for Clinical Tool Agents](http://arxiv.org/abs/2606.11702v1) | Tajamul Ashraf, Hyewon Jeong, Fida Mohammad Thoker et al. | To make clinically grounded decisions, medical AI agents are expected to go beyond simple recognition and be capable of tool retrieval, evidence acquisition, and integration. |
+| [ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity](http://arxiv.org/abs/2606.11150v1) | Andrew Bo Liu, Samira Nedungadi, Bryce Cai et al. | Large language models (LLMs) are rapidly acquiring capabilities relevant to biological research, from literature synthesis to interpretation of experimental data. |
+| [T1-Bench: Benchmarking Multi-Scenario Agents in Real-World Domains](http://arxiv.org/abs/2606.11070v1) | Genta Indra Winata, Amartya Chakraborty, Yuzhen Lin et al. | Recent advances in reasoning and tool-calling capabilities of large language models (LLMs) have enabled increasingly capable agentic systems. |
+| [AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility](http://arxiv.org/abs/2606.13608v1) | Xiaoyuan Liu, Jianhong Tu, Yuqi Chen et al. | Agent systems are advancing quickly across domains, but their evaluation remains fragmented. Most benchmarks rely on fixed, LLM-centric harnesses that require heavy integration, create test-product... |
+| [AI Coding Agents Can Reproduce Social Science Findings](http://arxiv.org/abs/2606.11447v1) | Meysam Alizadeh, Mohsen Mosleh, Fabrizio Gilardi et al. | Recent anecdotal evidence suggests that AI coding agents can reproduce published findings when provided with original data and code; yet systematic evaluation across social sciences remains limited. |
+| [EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge](http://arxiv.org/abs/2606.13120v1) | Yunhan Wang, Jiaan Wang, Lianzhe Huang et al. | Search Agents -- large language models augmented with search tools -- have intensified the need for future-proof evaluation benchmarks. |
+| [LoHoSearch: Benchmarking Long-Horizon Search Agents Beyond the Human Difficulty Ceiling](http://arxiv.org/abs/2606.12837v1) | Jiarui Zhao, Rongzhi Zhang, Lingchuan Liu et al. | Search agent benchmarks exemplified by BrowseComp have rapidly saturated over the past year, with the strongest models surpassing 90% accuracy. |
+| [Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks](http://arxiv.org/abs/2606.12344v1) | Mengyu Zheng, Kai Han, Boxun Li et al. | General-purpose agents such as OpenClaw are increasingly used as autonomous tool users, but their coding ability is difficult to measure under SWE-bench: a generic agent does not by itself satisfy ... |
+| [Agent Skill Evaluation and Evolution: Frameworks and Benchmarks](http://arxiv.org/abs/2606.11435v1) | Kexin Ding, Yang Zhou, Can Jin et al. | The growth of agent skills has transformed how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous evaluation becomes critical to ensuring their utili... |
+
 ### 📅 2026-06-11
 
 **12 new papers found**
