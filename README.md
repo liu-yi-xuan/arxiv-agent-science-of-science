@@ -24,6 +24,33 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-13
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery](http://arxiv.org/abs/2606.13662v1) | Amy Xin, Jiening Siow, Junjie Wang et al. | LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific sol... |
+| [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](http://arxiv.org/abs/2606.11926v1) | Jiajie Jin, Yuyang Hu, Kai Qiu et al. | Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into ... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SENTINEL: Failure-Driven Reinforcement Learning for Training Tool-Using Language Model Agents](http://arxiv.org/abs/2606.12908v1) | Ziyi Wang, Yuxuan Lu, Yimeng Zhang et al. | Language model agents are increasingly effective in solving realistic tasks through multi-turn tool use. |
+| [Keep Policy Gradient in Charge: Sibling-Guided Credit Distillation for Long-Horizon Tool-Use Agents](http://arxiv.org/abs/2606.12634v1) | Tianyu Ding, Jianhong Xin, Juan Pablo De la Cruz Weinstein | Long-horizon tool-use reinforcement learning can learn from outcome verification, but its   trajectory-level advantage is broadcast across many reasoning, API, and answer tokens. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ARMOR-MAD: Adaptive Routing for Heterogeneous Multi-Agent Debate in Large Language Model Reasoning](http://arxiv.org/abs/2606.13197v1) | Fuqiang Niu, Bowen Zhang | Multi-agent debate (MAD) can improve large language model reasoning, but fixed debate pipelines often waste computation and can amplify correlated errors among similar agents. |
+| [ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages](http://arxiv.org/abs/2606.13572v1) | Tanmoy Kanti Halder, Akash Ghosh, Subhadip Baidya et al. | Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially... |
+| [MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning](http://arxiv.org/abs/2606.12018v1) | Shang Ma, Jisheng Dang, Wencan Zhang et al. | We propose a multi-agent collaborative framework built upon a lightweight Multimodal Large Language Model (MLLM), specifically designed for social intelligence reasoning. |
+| [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](http://arxiv.org/abs/2606.12040v2) | Wanting Wang, Xiye Ma, Yuyang He et al. | The design of reinforced concrete highway barriers is a safety-critical process that requires strict compliance with regulatory provisions such as the AASHTO-LRFD bridge design guidelines. |
+
 ### 📅 2026-06-12
 
 **24 new papers found**

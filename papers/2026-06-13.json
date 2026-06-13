@@ -1,0 +1,163 @@
+[
+  {
+    "id": "2606.13662v1",
+    "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+    "authors": [
+      "Amy Xin",
+      "Jiening Siow",
+      "Junjie Wang",
+      "Zijun Yao",
+      "Fanjin Zhang"
+    ],
+    "abstract": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfaces that shape agent behavior. We frame this as environment engineering: building environments that amplify productive behaviors, such as open-ended exploration, systematic artifact management, and inter-agent collaboration, while suppressing harmful behaviors, such as reward hacking and high-friction human oversight. We present EurekAgent, an environment-engineered agent system for metric-driven autonomous scientific discovery. EurekAgent engineers the environment along four dimensions: permissions engineering for bounded agent execution and isolated evaluation; artifact engineering for filesystem and Git-based collaboration; budget engineering for budget-aware exploration; and human-in-the-loop engineering for easy human supervision and intervention. EurekAgent sets new state-of-the-art results on multiple mathematics, kernel engineering, and machine learning tasks, including new state-of-the-art 26-circle packing results discovered with less than $11 in total API cost. We open-source our code and results, and call for environment engineering as a core research direction for developing reliable autonomous research agents.",
+    "url": "http://arxiv.org/abs/2606.13662v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.13662v1",
+    "published": "2026-06-11",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.11926v1",
+    "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+    "authors": [
+      "Jiajie Jin",
+      "Yuyang Hu",
+      "Kai Qiu",
+      "Qi Dai",
+      "Chong Luo"
+    ],
+    "abstract": "Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into later attempts. We study how an AI agent can run this loop autonomously over long horizons. We introduce Arbor, a general framework for autonomous research that combines a long-lived coordinator, short-lived executors, and Hypothesis Tree Refinement (HTR), a persistent tree that links hypotheses, artifacts, evidence, and distilled insights across time. The coordinator manages global research strategy over the tree, while executors implement and test individual hypotheses in isolated worktrees. As results return, Arbor updates the tree, propagates reusable lessons, refines the search frontier, and admits verified improvements. This design turns autonomous research from a sequence of local attempts into a cumulative process in which strategy, execution, and evidence are carried across time. We evaluate Arbor under Autonomous Optimization (AO), an operational setting where an agent improves an initial research artifact through iterative experimentation without step-level human supervision. Across six real research tasks in model training, harness engineering, and data synthesis, Arbor achieves the best held-out result on all six tasks, attaining more than 2.5x the average relative held-out gain of Codex and Claude Code under the same task interface and resource budget. On MLE-Bench Lite, Arbor reaches 86.36% Any Medal with GPT-5.5, the strongest result in our comparison.",
+    "url": "http://arxiv.org/abs/2606.11926v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.11926v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.12908v1",
+    "title": "SENTINEL: Failure-Driven Reinforcement Learning for Training Tool-Using Language Model Agents",
+    "authors": [
+      "Ziyi Wang",
+      "Yuxuan Lu",
+      "Yimeng Zhang",
+      "Qun Liu",
+      "Chen Luo"
+    ],
+    "abstract": "Language model agents are increasingly effective in solving realistic tasks through multi-turn tool use. However, training reliable tool-using agents remains challenging in practice. While reinforcement learning provides an on-policy paradigm for improving agents from their own environment interactions, its effectiveness depends heavily on the training task distribution. When tasks are fixed before training, the task distribution can become increasingly mismatched with the policy's evolving capabilities, causing many rollouts to be spent on uninformative tasks. We propose SENTINEL, a failure-driven reinforcement learning framework that turns the Solver's rollout failures into targeted training tasks. SENTINEL follows a Controller--Proposer--Solver loop: the Controller analyzes failed trajectories and summarizes recurring error patterns, the Proposer generates executable tasks that stress these weaknesses, and the Solver is trained on the targeted tasks. On Tau2-Bench Retail with Qwen3-4B-Thinking-2507, SENTINEL improves Pass\\^{}1 from 66.4 to 74.9 and outperforms RL on general synthetic tasks across Pass\\^{}k metrics. These results demonstrate that model failures provide an effective and scalable source of targeted training signal for improving tool-using language model agents.",
+    "url": "http://arxiv.org/abs/2606.12908v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.12908v1",
+    "published": "2026-06-11",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.12634v1",
+    "title": "Keep Policy Gradient in Charge: Sibling-Guided Credit Distillation for Long-Horizon Tool-Use Agents",
+    "authors": [
+      "Tianyu Ding",
+      "Jianhong Xin",
+      "Juan Pablo De la Cruz Weinstein"
+    ],
+    "abstract": "Long-horizon tool-use reinforcement learning can learn from outcome verification, but its   trajectory-level advantage is broadcast across many reasoning, API, and answer tokens.   Self-distillation promises a denser signal by reusing a policy's own rollouts or a privileged   teacher. We show, however, that direct token-level self-distillation can silently destroy tool use:   it rehearses teacher behavior without knowing which actions the verifier rewards, so useful skills   and harmful shortcuts are amplified together. We introduce Sibling-Guided Credit Distillation   (SGCD), which uses distillation for credit assignment rather than as a competing actor loss.   Dynamic sampling produces mixed successful and failed sibling rollouts; an external LLM summarizes   their contrast into a training-only stepwise credit reference; dense teacher/student divergence   drives credit reassignment; and bounded detached credit weights reshape GRPO token advantages. The   deployed student sees no external LLM, sibling evidence, or oracle. Across AppWorld and   $τ^3$-airline, SGCD improves over matched GRPO comparators: AppWorld TGC $42.9 \\to 45.6$ on   test_normal and $24.7 \\to 27.0$ on test_challenge, and $τ^3$-airline pass@1 $0.583 \\to 0.602$.",
+    "url": "http://arxiv.org/abs/2606.12634v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.12634v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.13197v1",
+    "title": "ARMOR-MAD: Adaptive Routing for Heterogeneous Multi-Agent Debate in Large Language Model Reasoning",
+    "authors": [
+      "Fuqiang Niu",
+      "Bowen Zhang"
+    ],
+    "abstract": "Multi-agent debate (MAD) can improve large language model reasoning, but fixed debate pipelines often waste computation and can amplify correlated errors among similar agents. We propose ARMOR-MAD, a training-free heterogeneous MAD framework that treats debate as conditional computation. ARMOR-MAD combines three components: Pre-debate Agreement Routing (PAR) decides whether independently generated Round-0 answers require debate; Early Agreement Stopping Evaluator (EASE) stops debate after convergence; and Semantic Outlier Detection (SOD) down-weights abnormal final answers during aggregation. Across MATH Level 5, GSM8K, MMLU, and MMLU-Pro, ARMOR-MAD consistently improves over fixed-round heterogeneous debate with the same model pool, reaching 65.5\\%, 96.5\\%, 90.0\\%, and 81.5\\% accuracy, respectively. The results suggest that genuine model heterogeneity and agreement-based control are both important for making MAD more accurate and efficient.",
+    "url": "http://arxiv.org/abs/2606.13197v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.13197v1",
+    "published": "2026-06-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.13572v1",
+    "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+    "authors": [
+      "Tanmoy Kanti Halder",
+      "Akash Ghosh",
+      "Subhadip Baidya",
+      "Arijit Roy",
+      "Sriparna Saha"
+    ],
+    "abstract": "Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially in multilingual and low-resource scenarios. This gap is critical in regions like rural India, where patients often express complex medical queries in native Indic languages and rely on multimodal inputs such as medical images. Existing English-centric MLLMs struggle to support such use cases, limiting equitable access to AI-driven healthcare assistance. To address this challenge, we introduce ArogyaBodha, a large-scale multilingual multimodal medical question-answer dataset constructed from eight heterogeneous sources, covering 31 body systems, six imaging modalities, and 21 clinical domains across English and seven major Indian languages. We further propose ArogyaSutra, an actor-critic-based multi-agent framework that integrates tool grounding with dual-memory mechanisms for step-wise, reasoning-aware decision making, and uses stored actor-critic simulation trajectories for distillation. Experiments show that our dataset and framework improve multilingual medical reasoning accuracy across all Indic languages, with ablations validating the contribution of each component. The source code and dataset are available at: https://iitp-cse.github.io/ ArogyaSutra/",
+    "url": "http://arxiv.org/abs/2606.13572v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+    "published": "2026-06-11",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.12018v1",
+    "title": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning",
+    "authors": [
+      "Shang Ma",
+      "Jisheng Dang",
+      "Wencan Zhang",
+      "Yifan Zhang",
+      "Bimei Wang"
+    ],
+    "abstract": "We propose a multi-agent collaborative framework built upon a lightweight Multimodal Large Language Model (MLLM), specifically designed for social intelligence reasoning. A key feature of our approach is that both the training and inference phases are augmented via knowledge distillation. Within this architecture, multi-modal data pertinent to social intelligence is precisely localized. Furthermore, relevant long-tail events are identified, extracted, and rendered as formatted, explicit text. This formatting strategy prevents critical long-tail information from being overshadowed by head events and environmental noise during the tokenization process. Specifically, we integrate Test-Time Adaptation (TTA) across the entire reasoning pipeline, encompassing the extraction and representation of long-tail events, Chain-of-Thought (CoT) prompting, and self-reflection. This TTA mechanism is also distillation-enhanced, utilizing Low-Rank Adaptation (LoRA) to fine-tune the foundation model exclusively for instance-level reasoning. Extensive evaluations against various open-source and proprietary AI models across multiple benchmarks demonstrate the effectiveness of the proposed framework. With around 30% of training data from IntentTrain, we achieve state-of-the-art results. Codes are available at https://github.com/eeee-sys/MODF-SIR, demo is available at https://huggingface.co/spaces/Harry-1234/MODF-SIR, LoRA is available at https://huggingface.co/Harry-1234/MODF-SIR and the dataset for training router is available at https://huggingface.co/datasets/Harry-1234/IntentRouterTrain.",
+    "url": "http://arxiv.org/abs/2606.12018v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.12018v1",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.12040v2",
+    "title": "A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design",
+    "authors": [
+      "Wanting Wang",
+      "Xiye Ma",
+      "Yuyang He",
+      "Minghui Cheng",
+      "Ran Cao"
+    ],
+    "abstract": "The design of reinforced concrete highway barriers is a safety-critical process that requires strict compliance with regulatory provisions such as the AASHTO-LRFD bridge design guidelines. Current engineering practice relies heavily on manual, iterative, and heuristic calculations to satisfy complex nonlinear material and mechanics constraints. Although Large Language Models (LLMs) demonstrate strong generative capabilities, their direct application to structural engineering remains limited by hallucination risks and insufficient physical grounding. To address these challenges, this study proposes a novel \"generation-evaluation-optimization\" closed-loop framework for automated concrete barrier design using the multi-agent orchestration capabilities of AutoGen. Experimental results demonstrate that the proposed agentic framework achieves over 98% design accuracy, significantly outperforming standalone general-purpose LLMs. More importantly, the study reveals that design performance is not necessarily correlated with model scale, where an 8B-parameter lightweight model could outperform unconstrained 631B-parameter flagship models. This finding highlights the potential to substantially reduce computational costs while improving the accessibility of AI-assisted engineering tools for industry applications. The source code for the proposed multi-agent design framework is available at the project GitHub repository: https://github.com/MXY820/barrier-design. Keywords: Structural Engineering; Multi-Agent Systems; Large Language Models; Concrete Barrier Design; AutoGen; Design Automation.",
+    "url": "http://arxiv.org/abs/2606.12040v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.12040v2",
+    "published": "2026-06-10",
+    "categories": [
+      "cs.AI",
+      "cs.GR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
