@@ -24,6 +24,9 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-15
+
+*No new papers found today.*
 ### 📅 2026-06-14
 
 **1 new papers found**
