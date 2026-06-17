@@ -24,6 +24,27 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-17
+
+**7 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Intelligence Is Not the Bottleneck: Validating an LLM First-Pass Manuscript Score Against Peer-Review Outcomes](http://arxiv.org/abs/2606.15887v1) | Costa Georgantas | Large language model (LLM) systems are increasingly proposed to assist peer review, yet most evaluations judge the prose of machine-generated review text, not the validity of the numeric score a sy... |
+| [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](http://arxiv.org/abs/2606.16215v1) | Zhenbang Du, Jun Luo, Zhiwei Zheng et al. | Multi-turn tool-use agents must reason, call tools, and adapt to observations across several interaction turns. |
+| [Tensor-Coord: Algebraic Decomposition of Joint Plan Tensors for Conflict-Free Multi-Agent LLM Planning](http://arxiv.org/abs/2606.16478v1) | Mudit Rastogi | Large language models (LLMs) remain limited in multi-agent planning because independently generated plans can create coordination failures such as spatial collisions, resource contention, and tempo... |
+| [From Parasocial Scripts to Dyadic Persistence in Autonomous AI-Agent Communities](http://arxiv.org/abs/2606.17174v1) | Mohammadsadegh Abolhasani, Hamid Reza Firoozfar, Reza Mousavi et al. | While parasocial interactions (PSIs) and parasocial relationships (PSRs) have been studied in conventional media settings, we investigate whether PSI- (colloquial) relational cues also exist in onl... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI](http://arxiv.org/abs/2606.18021v1) | Lalit Yadav, Akshaj Gurugubelli | AI systems deployed in legal workflows hallucinate at rates that aggregate metrics report at ~52%, but this average conceals where errors concentrate and in which direction they run, leaving compli... |
+| [AdaSTORM: Scaling LLM Reasoning on Dynamic Graphs via Adaptive Spatio-Temporal Multi-Agent Collaboration](http://arxiv.org/abs/2606.16328v1) | Bing Hao, Ruijie Wang, Haodong Qian et al. | Large Language Models (LLMs) demonstrate remarkable potential in dynamic graph reasoning, but suffer from a scaling bottleneck: current models can only handle graphs with tens of nodes, constrained... |
+| [DeepRoot: A KG-Coordinated Multi-Agent System for Therapeutic Reasoning over Historical Medical Texts](http://arxiv.org/abs/2606.15931v1) | Zijian Carl Ma, Sean J. Wang, Sijbren Kramer et al. | Historical medical archives and traditional medicines hold immense potential for drug discovery and remain a primary source for current drug development. |
+
 ### 📅 2026-06-16
 
 **8 new papers found**
