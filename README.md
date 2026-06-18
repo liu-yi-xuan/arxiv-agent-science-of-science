@@ -24,6 +24,55 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-18
+
+**20 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness](http://arxiv.org/abs/2606.18874v1) | Zijian Wang, Hanqi Li, Ziyue Yang et al. | AI systems can increasingly automate scientific workflows, but the reasoning that links prior evidence, generated ideas, experiments and final claims often remains implicit inside model inference. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Parasocial Scripts to Dyadic Persistence in Autonomous AI-Agent Communities](http://arxiv.org/abs/2606.17174v1) | Mohammadsadegh Abolhasani, Hamid Reza Firoozfar, Reza Mousavi et al. | While parasocial interactions (PSIs) and parasocial relationships (PSRs) have been studied in conventional media settings, we investigate whether PSI- (colloquial) relational cues also exist in onl... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark](http://arxiv.org/abs/2606.18648v1) | Yigeng Jiang, Tengchao Yang, Taoyong Cui et al. | Deep research agents are Large Language Model (LLM)-based systems designed for autonomous, multi-step scientific reasoning, and they hold immense potential for accelerating research in the physical... |
+| [LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI](http://arxiv.org/abs/2606.18021v1) | Lalit Yadav, Akshaj Gurugubelli | AI systems deployed in legal workflows hallucinate at rates that aggregate metrics report at ~52%, but this average conceals where errors concentrate and in which direction they run, leaving compli... |
+| [Agentra: A Supervisable Multi-Agent Framework for Enterprise Intrusion Response](http://arxiv.org/abs/2606.18325v1) | Raj Patel, Shaswata Mitra, Michele Guida et al. | Enterprise intrusion response still depends on static playbooks and analyst-driven triage, creating delay between alert generation and containment. |
+| [Trustworthy Self-Composable Big-Data-as-a-Service: An LLM-Orchestrated Multi-Agent Framework for Automated Data Engineering, AutoML, MLOps Deployment, and Drift-Aware Lifecycle Optimization](http://arxiv.org/abs/2606.17915v1) | Aueaphum Aueawatthanaphisut, Badri Raj Lamichhane | Big-Data-as-a-Service (BDaaS) platforms require re liable automation across data ingestion, cleaning, feature engi neering, model development, deployment, and post-deployment monitoring. |
+| [Divide, Deliberate, Decide: A Multi-Agent Framework for Fine-Grained Egocentric Action Recognition](http://arxiv.org/abs/2606.17627v1) | Alessandro Sottovia, Alessandro Torcinovich, Oswald Lanz | Fine-grained action recognition in egocentric video is challenging for Vision-Language Models (VLMs): actions often differ only in small visual cues, and a single model tends to be biased toward a ... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Which Sections of a Research Paper Best Reveal Its Research Methods? Evidence from Library and Information Science](http://arxiv.org/abs/2606.19051v1) | Qiuyu Fang, Jiayi Hao, Chengzhi Zhang | Research methods are essential carriers of knowledge contribution in academic papers. Automatic multi-label classification of research methods can support knowledge services such as method retrieva... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LabOSBench: Benchmarking Computer Use Agents for Scientific Instrument Control](http://arxiv.org/abs/2606.16802v1) | Anqi Zou, Han Deng, Chengyu Zhang et al. | Current computer-use benchmarks primarily focus on software operation tasks in virtualized systems, whereas scientific instrumentation scenarios require coordinated control over complex interfaces,... |
+| [WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents](http://arxiv.org/abs/2606.18847v1) | Yehang Zhang, Jianchong Su, Haojian Huang et al. | To assist humans over extended periods in real homes, embodied agents must remember user routines, world states, and past interactions. |
+| [Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models](http://arxiv.org/abs/2606.18142v2) | Jasmine Brazilek, Joel Christoph, Miles Tidmarsh et al. | AI agents are moving from advisors to actors, booking travel, planning menus, and running procurement on behalf of users. |
+| [Position: Coding Benchmarks Are Misaligned with Agentic Software Engineering](http://arxiv.org/abs/2606.17799v1) | Maria I. Gorinova, Macey Baker, Amy Heineike et al. | Coding agents have become a major mode of software engineering, but the benchmarks we use to compare them were designed in a pre-agent era: they collapse model, harness, and environment into a sing... |
+| [EComAgentBench: Benchmarking Shopping Agents on Long-Horizon Tasks with Distributed Hidden Intent](http://arxiv.org/abs/2606.17698v1) | Zeyao Du, Tong Li, Haibo Zhang | As LLM-based shopping agents enter production, existing benchmarks fail to capture how a shopper's requirements arrive: stated implicitly in the query, recorded in a profile, or revealed only when ... |
+| [Can LLMs Be CEOs? Benchmarking Strategic Resource Reallocation with Multi-Role Agent Simulation](http://arxiv.org/abs/2606.17459v1) | Yuyang Dai, Xueqing Peng, Lingfei Qian et al. | Evaluating the decision-making capabilities of large language models (LLMs) is a growing research priority, yet existing benchmarks focus on isolated cognitive tasks such as reasoning, knowledge re... |
+| [MapSatisfyBench: Benchmarking Satisfaction-Aware Map Agents through Behavior-Grounded Implicit Decision Factors](http://arxiv.org/abs/2606.17453v2) | Lubin Bai, Mengyu Cao, Sixue Wang et al. | Large language model agents are increasingly integrated into map services. Since map services are embedded in everyday-life scenarios rather than professional task settings, users often express the... |
+| [CoffeeBench: Benchmarking Long-Horizon LLM Agents in Heterogeneous Multi-Agent Economies](http://arxiv.org/abs/2606.16613v1) | Issa Sugiura, Daichi Hattori, Kazuo Araragi et al. | As LLM agents become capable of increasingly long-horizon tasks, evaluating their performance in economic systems is becoming increasingly important. |
+| [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](http://arxiv.org/abs/2606.18829v1) | Zhe Ren, Yibo Yang, Yimeng Chen et al. | Memory benchmarks for LLM agents largely assume single-user settings, leaving shared assistants for hospitals, workplaces, campuses, and households understudied. |
+| [Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio](http://arxiv.org/abs/2606.17041v2) | Anzhe Xie, Weihang Su, Yujia Zhou et al. | Meta-analysis is a demanding form of evidence synthesis that combines literature retrieval, PI/ECO-guided study selection, and statistical aggregation. |
+| [MyPCBench: A Benchmark for Personally Intelligent Computer-Use Agents](http://arxiv.org/abs/2606.16748v1) | Lawrence Keunho Jang, Andrew Keunwoo Jang, Jing Yu Koh et al. | Current benchmarks for computer-use agents evaluate models in impersonal environments. This leaves a gap between evaluation and deployment where personal assistants are expected to work across a us... |
+| [FraudSMSWalker: Benchmarking Agentic Large Language Models for SMS-to-Webpage Fraud Detection](http://arxiv.org/abs/2606.16659v1) | Y. H. Zhou, Z. M. Ma, Y. J. Zhou et al. | SMS fraud is increasingly cross-channel: a message directs the user to a webpage, and the final risk depends on how the SMS claim aligns with the page content and requested user action. |
+
 ### 📅 2026-06-17
 
 **7 new papers found**
