@@ -1,0 +1,165 @@
+[
+  {
+    "id": "2606.18874v1",
+    "title": "Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness",
+    "authors": [
+      "Zijian Wang",
+      "Hanqi Li",
+      "Ziyue Yang",
+      "Zijian Hu",
+      "Shenghan Zuo"
+    ],
+    "abstract": "AI systems can increasingly automate scientific workflows, but the reasoning that links prior evidence, generated ideas, experiments and final claims often remains implicit inside model inference. Here we introduce Xcientist, a research harness that externalizes research synthesis and experimental validation into inspectable, contract-governed processes. Xcientist organizes literature evidence, idea states, implementation plans, ablation records and repair traces as persistent research artifacts, so that generated mechanisms can be grounded, executed, tested and revised without losing their evidential basis. We identify claim drift as a failure mode of automated research, where runnable artifacts no longer support the mechanism originally claimed. Across training-free memory systems, graph-structured traffic forecasting and multi-scale physics-informed neural networks, Xcientist preserves traceable trajectories from problem formulation to mechanism design, validation and bounded revision. These results suggest that AI scientists should be evaluated not only by their final artifacts, but by whether their synthesis and validation processes remain attributable, inspectable and scientifically accountable.",
+    "url": "http://arxiv.org/abs/2606.18874v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18874v1",
+    "published": "2026-06-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.20014v1",
+    "title": "Hierarchical Control in Multi-Agent Games: LLM-based Planning and RL Execution",
+    "authors": [
+      "Jannik Hösch",
+      "Alessandro Sestini",
+      "Florian Fuchs",
+      "Amir Baghi",
+      "Joakim Bergdahl"
+    ],
+    "abstract": "Reinforcement learning (RL) has achieved strong performance in sequential decision-making, yet scaling to complex multi-agent environments remains challenging due to sparse rewards, large state-action spaces, and the difficulty of learning coordinated strategies. We propose a hierarchical architecture where a pretrained large language model (LLM) acts as a centralized strategic controller that selects among specialized RL skill policies for a team of agents, while RL policies handle reactive low-level execution. We evaluate this hybrid system in a competitive 2v2 King of the Hill environment against behavior tree (BT) and \\emph{``Flat''} RL (end-to-end training without skill decomposition) baselines. The LLM+RL system achieves task performance statistically equivalent to hand-crafted BT (46.4\\% vs 51.5\\% win rate, $p=0.103$) while both significantly outperform Flat RL trained without skill decomposition. A user study ($n=15$) reveals that 60\\% of participants perceive LLM+RL agents as the most human-like ($p=0.027$), citing behavioral adaptability and tactical variability. These results demonstrate that pretrained LLM reasoning can effectively orchestrate pretrained RL skills, achieving competitive multi-agent coordination and superior perceived believability without manual rule engineering.",
+    "url": "http://arxiv.org/abs/2606.20014v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.20014v1",
+    "published": "2026-06-18",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.19852v1",
+    "title": "Prompt, Plan, Extract: Zero-Shot Agentic LLMs Workflows for Lung Pathology Extraction from Clinical Narratives",
+    "authors": [
+      "Aman Pathak",
+      "Cheng Peng",
+      "Mengxian Lyu",
+      "Ziyi Chen",
+      "Reema Solan"
+    ],
+    "abstract": "Information extraction from pathology reports is essential for cancer staging, tumor registry population. Yet key data remains embedded in narrative reports, making manual extraction labor-intensive and error-prone. Traditional supervised Natural Language Processing pipelines address this through fully supervised Named Entity Recognition and Relation Extraction, but require expensive manual annotation and suffer cascading failures when upstream entities are missed. In this study, we developed a zero-shot, agentic workflow, and evaluated five open-source generative Large Language Models (LLMs) to populate 13 College of American Pathologists synoptic fields from lung resection pathology reports. We compared them against a state-of-the-art supervised GatorTron NER-RE baseline using a novel, registry-aligned evaluation framework. The baseline achieved Micro-F1of 0.960, while the best zero-shot model (GPT-OSS-20B) achieved Micro-F1 of 0.893 (recall: 0.949), accurately extracting complex relations like Pathologic Stage without task-specific training. These results suggest that open-source, zero-shot agentic LLMs are a low-cost solution for extracting lung pathology information.",
+    "url": "http://arxiv.org/abs/2606.19852v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.19852v1",
+    "published": "2026-06-18",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.18648v1",
+    "title": "Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark",
+    "authors": [
+      "Yigeng Jiang",
+      "Tengchao Yang",
+      "Taoyong Cui",
+      "Jiaxing Wan",
+      "Yuan Wang"
+    ],
+    "abstract": "Deep research agents are Large Language Model (LLM)-based systems designed for autonomous, multi-step scientific reasoning, and they hold immense potential for accelerating research in the physical sciences. However, comprehensive and in-depth evaluations of their capabilities within this domain remain lacking. To address this gap, we introduce PhySciBench, a benchmark highly relevant to physical science research, comprising 200 expert-curated questions, balanced between physics and chemistry, across six task categories that reflect real-world scientific workflows. Evaluations of state-of-the-art models and agent systems on PhySciBench reveal limited performance; even the strongest baseline, Gemini Deep Research, achieves an accuracy of only 33.5%. Analysis of failure cases identifies three recurrent deficiencies: fragility in extended reasoning chains, limited knowledge transfer across steps, and a lack of physics-grounded self-verification. Motivated by these findings, we develop DelveAgent, a modular multi-agent framework equipped with an adaptive planning loop, dual-granularity memory, and a hierarchical physics-grounded reflection mechanism. Across four scientific benchmarks, DelveAgent improves accuracy by up to 7.5 percentage points while reducing inference costs to approximately one-third of the strongest baseline. These results establish the significance of PhySciBench as a critical benchmark for evaluating AI systems in the physical sciences and demonstrate that architectural specialization can effectively enhance the reliability of autonomous scientific research.",
+    "url": "http://arxiv.org/abs/2606.18648v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18648v1",
+    "published": "2026-06-17",
+    "categories": [
+      "physics.comp-ph"
+    ],
+    "primary_category": "physics.comp-ph",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.18021v1",
+    "title": "LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI",
+    "authors": [
+      "Lalit Yadav",
+      "Akshaj Gurugubelli"
+    ],
+    "abstract": "AI systems deployed in legal workflows hallucinate at rates that aggregate metrics report at ~52%, but this average conceals where errors concentrate and in which direction they run, leaving compliance officers without an actionable signal for trustworthy deployment. We present LegalHalluLens, an auditing framework with three components: typed hallucination profiles across four legally-motivated claim categories (numeric, temporal, obligation/entitlement, factual) over CUAD (Hendrycks et al., 2021); a Risk Direction Index (RDI) that reduces omission-versus-invention bias to a single deployment-comparable scalar; and a typed debate pipeline calibrated to both magnitudes and directions. Across 510 contracts and 249,252 clause-level instances we measure a within-model gap of approximately 38-40 pp between obligation/numeric and temporal claims that aggregate reporting hides, and show that two systems with matched 52% rates can carry opposite RDIs. The debate pipeline reduces fabricated detections by 45% with per-category gains tracking the diagnosis, matching commercial APIs with a substantially smaller backbone (4B active parameters). Typed profiles and RDI surface failure modes that aggregate metrics hide; we further show these diagnostics serve as calibration inputs for multi-agent debate pipelines, where Skeptic challenges and asymmetric gates targeted at measured failure modes outperform generically-tuned debate. The framework supports direction-aware procurement, accountability, and agent design for legal AI deployed in the wild.",
+    "url": "http://arxiv.org/abs/2606.18021v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18021v1",
+    "published": "2026-06-16",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.18325v2",
+    "title": "Agentra: A Supervisable Multi-Agent Framework for Enterprise Intrusion Response",
+    "authors": [
+      "Raj Patel",
+      "Shaswata Mitra",
+      "Michele Guida",
+      "Stefano Iannucci",
+      "Sudip Mittal"
+    ],
+    "abstract": "Enterprise intrusion response still depends on static playbooks and analyst-driven triage, creating delay between alert generation and containment. We present Agentra, a supervisable multi-agent Intrusion Response System (IRS) framework that converts alerts from IDS, EDR, and XDR platforms into structured incident response plans grounded in MITRE ATT&CK, MITRE D3FEND, and NIST CSF 2.0. Agentra decomposes response reasoning across role-scoped agents, validates proposed plans through a bounded Planner--Validator review loop, screens retrieved threat intelligence through a Moderator security gateway, gates actions through an Action Catalog and risk score, and records decisions in an append-only audit log. We evaluate Agentra against a static OASIS CACAO v2.0 cyber-playbook baseline on a 120-event corpus drawn from ThreatHunter-Playbook, Splunk BOTSv3, and DARPA OpTC. The strongest configuration improves FP-aware IRS F1 from 0.61 to 0.84 and restores the projected harmful-action rate to the static baseline level of 0.0% after Planner-only configurations introduce unsafe overreaction. These results indicate that multi-agent response planning can improve ontology-grounded IRS coverage while preserving analyst approval and auditability.",
+    "url": "http://arxiv.org/abs/2606.18325v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.18325v2",
+    "published": "2026-06-16",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.17915v1",
+    "title": "Trustworthy Self-Composable Big-Data-as-a-Service: An LLM-Orchestrated Multi-Agent Framework for Automated Data Engineering, AutoML, MLOps Deployment, and Drift-Aware Lifecycle Optimization",
+    "authors": [
+      "Aueaphum Aueawatthanaphisut",
+      "Badri Raj Lamichhane"
+    ],
+    "abstract": "Big-Data-as-a-Service (BDaaS) platforms require re liable automation across data ingestion, cleaning, feature engi neering, model development, deployment, and post-deployment monitoring. However, existing LLM-based data science agents and AutoML systems mainly focus on isolated workflow stages, leaving limited support for lifecycle-level orchestration, artifact governance, human oversight, and drift-aware adaptation. This paper proposes a trustworthy self-composable BDaaS frame work based on LLM-orchestrated multi-agent collaboration. The proposed architecture decomposes the BDaaS lifecycle into specialized agents for data ingestion, data cleaning, feature engineering, AutoML training, model evaluation, MLOps de ployment, monitoring, and drift detection. A central LLM or chestration layer coordinates agent execution, validates interme diate outputs, manages workflow context, and enables dynamic workflow composition. The framework also incorporates shared artifact governance, reproducibility support, human-in-the-loop checkpoints, and drift-aware feedback loops. A prototype-based evaluation is conducted using controlled tabular benchmark datasets with missing values, categorical variables, outliers, class imbalance, and simulated covariate drift. Compared with manual ML, AutoML-only, and single-agent LLM baselines, the pro posed multi-agent BDaaS pipeline achieves competitive predictive performance while improving lifecycle-level reliability, including workflow completion, artifact traceability, deployment readiness, reproducibility, and drift recovery. The results suggest that LLM-orchestrated multi-agent systems can extend conventional AutoML toward trustworthy, adaptive, and production-oriented BDaaS lifecycle automation.",
+    "url": "http://arxiv.org/abs/2606.17915v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17915v1",
+    "published": "2026-06-16",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.DB",
+      "cs.SE"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.19051v1",
+    "title": "Which Sections of a Research Paper Best Reveal Its Research Methods? Evidence from Library and Information Science",
+    "authors": [
+      "Qiuyu Fang",
+      "Jiayi Hao",
+      "Chengzhi Zhang"
+    ],
+    "abstract": "Research methods are essential carriers of knowledge contribution in academic papers. Automatic multi-label classification of research methods can support knowledge services such as method retrieval, review generation, and research intelligence analysis. While existing studies primarily rely on titles and abstracts, abstracts often provide only limited methodological information, whereas utilizing full-text content faces challenges related to excessive length and information redundancy. Therefore, this paper proposes a segment combination strategy by partitioning the full-text content according to its physical postion. Using an annotated corpus of 1,954 full-text articles from three representative journals in Library and Information Science (JASIST, LISR, and JDoc), we evaluate the classification performance of various segments and their combinations across multiple models. Experimental results indicate that methodological information is distributed unevenly within the full-text content, with the middle-to-late and final segments exhibiting greater discriminative power. Furthermore, integrating bibliographic metadata with cross-segment combination strategies effectively enhances classification performance.",
+    "url": "http://arxiv.org/abs/2606.19051v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.19051v1",
+    "published": "2026-06-17",
+    "categories": [
+      "cs.CL",
+      "cs.DL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Computational Science of Science"
+  }
+]
