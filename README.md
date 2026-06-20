@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-20
+
+**6 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Hierarchical Control in Multi-Agent Games: LLM-based Planning and RL Execution](http://arxiv.org/abs/2606.20014v1) | Jannik Hösch, Alessandro Sestini, Florian Fuchs et al. | Reinforcement learning (RL) has achieved strong performance in sequential decision-making, yet scaling to complex multi-agent environments remains challenging due to sparse rewards, large state-act... |
+| [Prompt, Plan, Extract: Zero-Shot Agentic LLMs Workflows for Lung Pathology Extraction from Clinical Narratives](http://arxiv.org/abs/2606.19852v1) | Aman Pathak, Cheng Peng, Mengxian Lyu et al. | Information extraction from pathology reports is essential for cancer staging, tumor registry population. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Which Sections of a Research Paper Best Reveal Its Research Methods? Evidence from Library and Information Science](http://arxiv.org/abs/2606.19051v1) | Qiuyu Fang, Jiayi Hao, Chengzhi Zhang | Research methods are essential carriers of knowledge contribution in academic papers. Automatic multi-label classification of research methods can support knowledge services such as method retrieva... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems](http://arxiv.org/abs/2606.20408v1) | Hanwool Lee, Dasol Choi, Bokyeong Kim et al. | Large language model (LLM) agents are increasingly proposed as supervisory components for safety-critical systems, yet their robustness under sustained, adaptive adversarial pressure remains poorly... |
+| [ScholarQuest: A Taxonomy-Guided Benchmark for Agentic Academic Paper Search in Open Literature Environments](http://arxiv.org/abs/2606.20235v1) | Tingyue Pan, Mingyue Cheng, Daoyu Wang et al. | Academic paper search is a core step in scientific research, and LLM-based search agents are emerging as a promising paradigm for iterative, intent-driven literature exploration. |
+| [Benchmarking Agentic Review Systems](http://arxiv.org/abs/2606.19749v1) | Dang Nguyen, Wanqing Hao, Yanai Elazar et al. | A new class of agentic review systems are emerging as a remedy to the pressure placed on peer review systems by AI-assisted research, but it is unclear how they should be evaluated. |
+
 ### 📅 2026-06-19
 
 **8 new papers found**
