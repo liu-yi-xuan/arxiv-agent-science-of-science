@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-23
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Hypothesis-Driven Skill Optimization for LLM Agents](http://arxiv.org/abs/2606.22330v1) | Fangxin Shang, Yehui Yang | External skills can improve action-oriented LLM agents without changing model weights, but persistent skill updates are risky when they are distilled from sparse or noisy trajectories. |
+| [Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts](http://arxiv.org/abs/2606.23175v1) | Steven Young Eulig | AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. |
+| [Discovering Crystal Structure Prediction Algorithms with an AI Co-Scientist](http://arxiv.org/abs/2606.22866v1) | Kiyoung Seong, Nayoung Kim, Sungsoo Ahn | We introduce Human-AI Co-discovery system (HACO) for scientific algorithm discovery through cross-domain search and sparse human steering. |
+| [AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions](http://arxiv.org/abs/2606.22859v1) | Raul Jimenez, Boris Bolliet, Francisco Villaescusa-Navarro et al. | Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data... |
+| [PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement](http://arxiv.org/abs/2606.22610v1) | Weiwei Ye, Hangchen Liu, Dongyuan Li et al. | Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems](http://arxiv.org/abs/2606.22388v1) | Jiayu Liu, Qihan Lin, Cheng Qian et al. | LLM agents increasingly operate in large tool ecosystems, where real-world tasks require discovering relevant tools, inferring implicit sub-goals, and adapting to dynamic environments over long hor... |
+| [Plans Don't Persist: Why Context Management Is Load Bearing for LLM Agents](http://arxiv.org/abs/2606.22953v1) | Aman Mehta, Anupam Datta | Long-horizon agents depend on context management: systems compress, summarize, and evict old tokens so tasks can continue beyond finite windows. |
+| [CFAgentBench: A Reproducible Environment and Benchmark for Autonomous Construction-Finance Agents](http://arxiv.org/abs/2606.22000v1) | Rishi Srivastava | We introduce CFAgentBench, a reproducible, self-hostable environment and benchmark for autonomous construction-finance agents: a CFO/controller-class agent operating across the real software stack ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Novelty-Aware Agentic Retrieval: Comparing Research Contributions Through Structured Multi-Step Reasoning](http://arxiv.org/abs/2606.22151v1) | Shou-Tzu Han | Scientific literature search is an information retrieval (IR) task in which ranked lists are insufficient: a researcher entering a new area needs to know not only which papers are relevant, but how... |
+| [RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation](http://arxiv.org/abs/2606.23221v1) | Feifei Bian, Zhimin Zheng, Wei Deng et al. | Recent years have witnessed remarkable progress in image generation and editing, particularly regarding instruction following and visual fidelity. |
+| [CodeTeam: An LLM-Powered Multi-Agent Framework for Repository-Level Code Generation](http://arxiv.org/abs/2606.22082v1) | Yifei Wang, Ruiyin Li, Peng Liang et al. | Natural language to repository generation (NL2Repo) requires a system to construct an entire software repository from a natural-language requirements document. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Foreign co-affiliations and performance measurement of universities and the National Academy of Sciences of Ukraine, 2020-2023](http://arxiv.org/abs/2606.22379v1) | Myroslava Hladchenko | This study examines the role of foreign co-affiliations in shaping the research performance of Ukrainian universities and research institutes of the National Academy of Sciences of Ukraine (NASU) b... |
+
 ### 📅 2026-06-22
 
 *No new papers found today.*

@@ -1,0 +1,228 @@
+[
+  {
+    "id": "2606.22330v1",
+    "title": "Hypothesis-Driven Skill Optimization for LLM Agents",
+    "authors": [
+      "Fangxin Shang",
+      "Yehui Yang"
+    ],
+    "abstract": "External skills can improve action-oriented LLM agents without changing model weights, but persistent skill updates are risky when they are distilled from sparse or noisy trajectories. A plausible reflection may encode a useful procedure, a spurious shortcut, or a rule that the target executor cannot reliably follow. We propose Hypothesis-Driven Skill Optimization (HDSO), a train-free framework in which both the skill curator and the agent executor are frozen inference endpoints. The curator observes executor traces, proposes a falsifiable hypothesis with an explicit validation plan, instantiates the hypothesis as a candidate skill package, validates the package through paired control/treatment executions, reviews behavior differences, and consolidates only supported candidates into an approved repository. The executor consumes approved skills through progressive disclosure, preserving the executor-only path when no skill is selected. On ALFWorld, HDSO improves executor-only baselines by +6.9 Avg. SR points for Qwen3-8B and +4.0 points for Qwen3.6-27B. Under 20% randomly flipped success/failure feedback during skill discovery and validation, HDSO preserves a +7.1-point gain for Qwen3-8B. Transfer and heterogeneous-pair diagnostics further show that validated repositories can be useful beyond the run that produced them, but cross-model curation succeeds only when curator diagnosis, executor capability, and validation evidence align. HDSO provides an auditable skill lifecycle for frozen action agents rather than an unconstrained memory accumulation procedure.",
+    "url": "http://arxiv.org/abs/2606.22330v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22330v1",
+    "published": "2026-06-21",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.23175v1",
+    "title": "Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts",
+    "authors": [
+      "Steven Young Eulig"
+    ],
+    "abstract": "AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. This position paper argues that outcome-only evaluation is insufficient, and that task outcome, mechanism fidelity, and epistemic honesty must be measured separately. Our evidence comes from 28 episodes of a coding agent attempting to rediscover a known particle identification observable in a Geant4 simulation, including an 8-episode probe across two additional frontier models. In 4/20 primary-model and 3/8 cross-model episodes, agents reach right-looking results through incorrect reasoning that breaks when conditions change, which we call Correct Answer, Wrong Mechanism (CAWM). Honesty and mechanism fidelity dissociate within a single agent trajectory. When given a partially misleading prior, all five agents reject the false component on evidence, yet one defends its chosen observable with physics inconsistent with its own data. In the simulation-based discovery setting studied here, coding agents prove reliable tools but unreliable scientific co-authors for open-ended claim-making, where co-author trust requires mechanism-fidelity verification they do not reliably self-apply. The failure is detectable, and we propose a lightweight test. A one-step regime-shift check needs only the agent's claim and flags the over-generalized cases. A companion recomputation flags the remaining cases when the correct observable is known. Together, these checks flag every CAWM case in this study.",
+    "url": "http://arxiv.org/abs/2606.23175v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.23175v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.22866v1",
+    "title": "Discovering Crystal Structure Prediction Algorithms with an AI Co-Scientist",
+    "authors": [
+      "Kiyoung Seong",
+      "Nayoung Kim",
+      "Sungsoo Ahn"
+    ],
+    "abstract": "We introduce Human-AI Co-discovery system (HACO) for scientific algorithm discovery through cross-domain search and sparse human steering. Starting from the goal of generating crystal structures from chemical compositions, HACO searched across generative modeling methodologies from multiple fields and identified MaskGIT, a masked generative model from vision, as a promising framework for crystal structure prediction (CSP). HACO instantiated this masked formulation as a discrete token model of crystal structure; guided by sparse high-level human objectives, it then added crystallographic symmetry tokens, space group stratified sampling for polymorph coverage, and sub-bin coordinate refinement, yielding the Masked Generative Crystal Transformer (MaskGXT). On the MP-20 polymorph split, MaskGXT reaches 79.06% match-everyone-to-reference (METRe) accuracy, compared with 70.87% for the strongest evaluated baseline. MaskGXT also attains the best match rate on standard MP-20 and MPTS-52 CSP benchmarks. These results provide evidence that, in domains offering cheap, fast, and well-aligned validation, transfer-guided interactive AI co-scientists can contribute to scientific algorithm discovery by identifying transferable modeling principles and combining them with targeted human domain guidance.",
+    "url": "http://arxiv.org/abs/2606.22866v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22866v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.22859v1",
+    "title": "AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions",
+    "authors": [
+      "Raul Jimenez",
+      "Boris Bolliet",
+      "Francisco Villaescusa-Navarro",
+      "Rabih Zbib",
+      "Benjamin Wandelt"
+    ],
+    "abstract": "Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data analysis, hypothesis proposal, and model criticism. We argue that this transition is qualitative rather than incremental, and that suitably designed multi-agent systems may evolve from passive computational tools into ``AI scientists'' that can expand the hypothesis-generating and verification capacity of science. Such systems must be developed and deployed within a scientific ecosystem fit for purpose: institutions must be redesigned for verification, accountability, interpretability, and dual-use safety. We sketch how multi-agent architectures, illustrated by the prototype framework \\textit{Denario}, accelerate the discovery cycle and traverse model spaces beyond human reach; examine what this implies for authorship, peer review, and the enduring role of human scientists; and close with recommendations for governing AI as an epistemic actor rather than a mere instrument.",
+    "url": "http://arxiv.org/abs/2606.22859v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22859v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.AI",
+      "astro-ph.IM",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.22610v1",
+    "title": "PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement",
+    "authors": [
+      "Weiwei Ye",
+      "Hangchen Liu",
+      "Dongyuan Li",
+      "Renhe Jiang"
+    ],
+    "abstract": "Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. We present PAPERCLAW, a harnessed multi-agent system that carries a project autonomously, from a field of study to a finished paper. PAPERCLAW curates a domain from a field's live literature, datasets, and code; brainstorms it into an idea with a pre-registered main-result contract; and drives a stoppable hypothesis map through an iterative propose, test, reflect loop that grows only from measured verdicts and halts once the evidence supports the idea, at which point it writes a venue-compliant paper. A full-lifecycle memory keeps each stage in a single living record, so a long run can be paused, inspected, and resumed without losing context. At the centre is an in-cycle research assistant with research tools and skills: it can drive the whole pipeline on its own, while the same interface lets a person step in at any stage, turning a first autonomous draft into a stronger paper through human-in-the-loop refinement. Throughout, PAPERCLAW keeps its output grounded and checkable, citing only references validated against open scholarly indexes and reporting results that genuinely ran. An evaluation with an LLM judge finds that PAPERCLAW produces strong papers both fully autonomously and with human-in-the-loop refinement.",
+    "url": "http://arxiv.org/abs/2606.22610v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22610v1",
+    "published": "2026-06-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.22388v1",
+    "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
+    "authors": [
+      "Jiayu Liu",
+      "Qihan Lin",
+      "Cheng Qian",
+      "Rui Wang",
+      "Emre Can Acikgoz"
+    ],
+    "abstract": "LLM agents increasingly operate in large tool ecosystems, where real-world tasks require discovering relevant tools, inferring implicit sub-goals, and adapting to dynamic environments over long horizons. However, existing benchmarks rarely evaluate planning under retrieval-limited tool visibility. To address this gap, we introduce PlanBench-XL, an interactive benchmark of 327 retail tasks over 1,665 tools that tests whether agents can iteratively retrieve usable tools, invoke them to uncover intermediate evidence for subsequent calls toward the final goal. PlanBench-XL further features an optional blocking mechanism that simulates real-world unpredictability through missing, failing, or distracting tool functions, forcing agents to detect disrupted paths and adapt at runtime. Experiments on ten leading LLMs show that massive-tool planning remains challenging: while GPT-5.4 achieves 51.90% accuracy in block-free settings, it collapses to 11.36% under the most severe blocking condition. Further analysis shows that agents are especially vulnerable when failures lack explicit error signals or when recovery requires longer alternative tool-use paths. These results establish PlanBench-XL as a testbed for diagnosing agentic planning failures and highlight the need for robust adaptive planning in long-horizon tasks with large, imperfect tool environments.",
+    "url": "http://arxiv.org/abs/2606.22388v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22388v1",
+    "published": "2026-06-21",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.22953v1",
+    "title": "Plans Don't Persist: Why Context Management Is Load Bearing for LLM Agents",
+    "authors": [
+      "Aman Mehta",
+      "Anupam Datta"
+    ],
+    "abstract": "Long-horizon agents depend on context management: systems compress, summarize, and evict old tokens so tasks can continue beyond finite windows. That is safe only when dropped information is no longer needed or has been internalized. Plans are the stress case: they are written early, used for many steps, and first to be evicted. We introduce replay pairing, a diagnostic that runs the same trajectory with and without the plan in history and measures hidden-state cosine distance. On Llama-3.1-70B, plan signal spikes to 0.453 one step after the plan, then falls 4.1x in a single action-observation step; HotpotQA falls 12.4x. This is evidence that standard LLM agents do not carry plans forward as persistent state, and instead depend on the plan remaining in context. A layer-L32 probe detects this decay as a diagnostic, not as proof that it reads plan content itself. Reasoning models add a measurement confound: their `<think>` traces re-derive plan content, so standard stripping leaves plan evidence in the stripped condition. We name this the reasoning-trace confound and fix it with strict stripping, which removes prior `<think>` blocks from the stripped run only. It recovers +163% of the step+1 signal in-sample and +153% held out, while not meaningfully changing non-reasoning Llama (+4.8%). On DeepSeek-R1-Distill-Llama-70B, a Llama-trained probe transfers at AUROC 0.748 (p=6e-4), while R1-specific probes reach 1.000, suggesting R1 encodes plan signal in a different hidden-state direction. Finally, a compression stress test shows the practical cost: naive plan eviction cuts ALFWorld success by 34.7pp, while probe-gated re-surfacing does not recover it. The contribution is a measurement and stress-test framework showing that agent-critical information can be context-resident rather than persistent. Context management is load bearing, but plan protection alone is not enough.",
+    "url": "http://arxiv.org/abs/2606.22953v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22953v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.22000v1",
+    "title": "CFAgentBench: A Reproducible Environment and Benchmark for Autonomous Construction-Finance Agents",
+    "authors": [
+      "Rishi Srivastava"
+    ],
+    "abstract": "We introduce CFAgentBench, a reproducible, self-hostable environment and benchmark for autonomous construction-finance agents: a CFO/controller-class agent operating across the real software stack a US construction finance team runs - ERP, project management, email, documents, pay applications, payroll, certified payroll, lien waivers, and bank/treasury portals. It contains 1,014 machine-gradeable task specifications across 8 domains and 77 families, every family grounded in a real source; a self-validated subset of 40 tasks (54 with a project-management extension) is compiled into oracle-validated executable evaluators, the runnable suite reported here. Following WebArena, the benchmark runs on an executable environment rather than static traces: 35 mock applications (31 reconciled to one company book, plus 4 PM platforms) over 9 archetypes, each implementing a uniform self-hostable app contract, so every task is graded by functional correctness - a state diff plus forbidden-side-effect checks plus required-output regexes - with an LLM judge used only for reply quality, never as reward. A distinguishing principle is a money-movement guard: 278 instances embed a payment, payroll, e-signature, or e-filing step where the correct behavior is to stop and stage for human approval, and executing even the correct transaction fails the task. The public split (n=711) is sized for a 95% Wilson half-width of +/-4.1%; a private, contamination-protected split (n=303) is reserved for remote scoring. In a first three-model open-weight sweep (k=5), the strongest agent reaches pass^1 = 0.67 but only pass^5 = 0.38 - losing 43% of its successes when required to repeat them under temperature-0 decoding. The within-model pass^1 to pass^5 collapse and sharp per-domain heterogeneity are clear evidence that single-attempt accuracy overstates deployable construction-finance competence.",
+    "url": "http://arxiv.org/abs/2606.22000v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22000v1",
+    "published": "2026-06-20",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.22151v1",
+    "title": "Novelty-Aware Agentic Retrieval: Comparing Research Contributions Through Structured Multi-Step Reasoning",
+    "authors": [
+      "Shou-Tzu Han"
+    ],
+    "abstract": "Scientific literature search is an information retrieval (IR) task in which ranked lists are insufficient: a researcher entering a new area needs to know not only which papers are relevant, but how they relate, where they overlap, how they differ, and what problem-method combinations are absent. Standard retrieval-augmented generation (RAG) summarizes documents independently, discarding this comparative signal. We present the Novelty-Aware Research Agent, a prototype agentic retrieval system that layers structured multi-step reasoning on a RAG pipeline through six typed-contract components: query analysis, a ReAct-style retrieval loop, relevance ranking, schema-guided contribution extraction, a three-pass comparison agent, and answer generation. Beyond returning relevant papers, it produces structured comparison artifacts: per-paper contribution records, paper-level overlaps, and a problem x method gap matrix. On a 100-paper corpus, the system supports five structured comparison capabilities that a standard RAG baseline supports none of, while remaining query-sensitive: across three main queries no paper appears in all three top-5 sets (mean pairwise Jaccard 0.12), and an extended seven-query evaluation holds the pattern across ten queries (mean Jaccard 0.115, 18 of 29 retrieved papers query-exclusive). Under author-assigned graded relevance the ranker attains mean Precision@5 1.000 and nDCG@5 0.752 on the main queries, ahead of BM25, dense, and hybrid retrieval; over ten queries Precision@5 is non-saturated at 0.980 with nDCG@5 0.739. Schema compliance is 86.7% on the main queries and 84.0% over the ten-query set, and validating 20 sampled empty gap-matrix cells yields a gap precision of 0.600. We discuss the latency-structure trade-off in agentic retrieval and identify corpus scale, author-assigned labels, and limited independent evaluation as the main limitations.",
+    "url": "http://arxiv.org/abs/2606.22151v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22151v1",
+    "published": "2026-06-20",
+    "categories": [
+      "cs.IR"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.23221v1",
+    "title": "RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation",
+    "authors": [
+      "Feifei Bian",
+      "Zhimin Zheng",
+      "Wei Deng",
+      "Daiguo Zhou",
+      "Jian Luan"
+    ],
+    "abstract": "Recent years have witnessed remarkable progress in image generation and editing, particularly regarding instruction following and visual fidelity. However, when handling ambiguous intentions, logical reasoning, and Out-of-Distribution (OOD) knowledge, existing image models often yield sub-optimal results due to a lack of deep reasoning capabilities and real-time external information. Although emerging unified understanding-and-generation models attempt to bridge this gap, they remain constrained by their intrinsic parameter scales and static knowledge gaps. Inspired by agentic paradigms, we propose RS-Gen: a plug-and-play, training-free, multi-stage image agentic framework. RS-Gen innovatively introduces a \"Questioning-and-Solving\" closed-loop mechanism to accurately identify logical issues and knowledge gaps, autonomously planning actions to bridge information deficits and execute deep logical reasoning. Extensive experiments demonstrate that RS-Gen significantly expands the capability boundaries of foundational image generation and editing models. Specifically, on the WISE Verified and RISEBench benchmarks, RS-Gen yields substantial absolute performance gains of 0.313 for Qwen-Image and 19.70 for Qwen-Image-Edit-2511, respectively, successfully elevating both to the state-of-the-art (SOTA) level among open-source models.",
+    "url": "http://arxiv.org/abs/2606.23221v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.23221v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.22082v1",
+    "title": "CodeTeam: An LLM-Powered Multi-Agent Framework for Repository-Level Code Generation",
+    "authors": [
+      "Yifei Wang",
+      "Ruiyin Li",
+      "Peng Liang",
+      "Qiong Feng",
+      "Zengyang Li"
+    ],
+    "abstract": "Natural language to repository generation (NL2Repo) requires a system to construct an entire software repository from a natural-language requirements document. Compared with function-level code generation, this task demands longer planning horizons, stable interfaces across files, and iterative debugging of cross-file inconsistencies. To address these challenges, we propose CodeTeam, an LLM-based multi-agent framework that separates planning, decision making, and implementation into distinct, coordinated stages. In the planning stage, multiple Architect agents draft competing software design sketches (SDS), optionally grounded by retrieved design references. A CTO agent then evaluates, selects, and normalizes the most promising SDS into a machine-checkable contract that specifies file ownership, public interfaces, and dependency constraints. In the implementation stage, Developer agents generate code under a dependency-aware scheduler with bounded context and lightweight Git-based coordination, while a QA agent runs tests and drives iterative repairs. On the synthesis-based SketchEval benchmark, we explicitly compare CodeTeam's prompt-engineering (PE) and supervised fine-tuning (SFT) variants with the corresponding CodeS variants, where CodeTeam improves the overall SketchBLEU by 4.1 and 2.9 absolute points, respectively. On the execution-based NL2Repo-Bench benchmark, used as an external validation protocol, CodeTeam achieves the highest average test pass rate in both settings (34.6% PE, 42.3% SFT), confirming that the sketch-improvements extend to functional correctness under upstream test suites. Ablation results show that project-specific developer allocation and retrieval-augmented planning each contribute substantially to the SketchBLEU improvement (9.9% and 8.1% relative, respectively). CodeTeam and the experimental results are available at https://github.com/WhitenWhiten/CodeTeam",
+    "url": "http://arxiv.org/abs/2606.22082v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22082v1",
+    "published": "2026-06-20",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.22379v1",
+    "title": "Foreign co-affiliations and performance measurement of universities and the National Academy of Sciences of Ukraine, 2020-2023",
+    "authors": [
+      "Myroslava Hladchenko"
+    ],
+    "abstract": "This study examines the role of foreign co-affiliations in shaping the research performance of Ukrainian universities and research institutes of the National Academy of Sciences of Ukraine (NASU) before and during Russias full-scale invasion. In 2023, the share of articles with foreign co-affiliations was higher for NASU (17.1 percent) than for universities (10.6 percent), reflecting NASUs research-oriented profile and strong focus on physical sciences & engineering. In 2022 and 2023, this share increased across all disciplines in both types of institutions. The largest shares of articles with foreign co-affiliations involved institutions in advanced science systems such as Germany and China, as well as neighboring Poland, Czechia, and Slovakia.   Articles with foreign co-affiliations showed citation impact comparable to internationally co-authored articles and substantially outperformed purely domestic publications.On the one hand, articles with foreign co-affiliations ensure research continuity and enhance the citation visibility of a resource-constrained and war-affected national science system. On the other hand, they distort the measurement of the national and institutional research performance, thereby hindering reform of the national science system. Reliance solely on international links cannot substitute for a strong domestic base. Evaluation frameworks in Ukraine and other countries could be improved through a two-level differentiation, distinguishing first between types of authorship and second among types of foreign co-affiliations, taking into account their duration and the extent of the affiliated scholars' actual contributions.   Although this lies beyond the primary scope of the present study, the findings highlight that the institutional divide between NASU and universities in Ukraine is not justified by research performance.",
+    "url": "http://arxiv.org/abs/2606.22379v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.22379v1",
+    "published": "2026-06-21",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]
