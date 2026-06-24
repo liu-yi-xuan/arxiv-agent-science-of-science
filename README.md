@@ -24,6 +24,27 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-24
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts](http://arxiv.org/abs/2606.23175v1) | Steven Young Eulig | AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. |
+| [Discovering Crystal Structure Prediction Algorithms with an AI Co-Scientist](http://arxiv.org/abs/2606.22866v1) | Kiyoung Seong, Nayoung Kim, Sungsoo Ahn | We introduce Human-AI Co-discovery system (HACO) for scientific algorithm discovery through cross-domain search and sparse human steering. |
+| [AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions](http://arxiv.org/abs/2606.22859v1) | Raul Jimenez, Boris Bolliet, Francisco Villaescusa-Navarro et al. | Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data... |
+| [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](http://arxiv.org/abs/2606.24177v1) | Youran Sun, Xingyu Ren, Chugang Yi et al. | Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. |
+| [PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement](http://arxiv.org/abs/2606.22610v1) | Weiwei Ye, Hangchen Liu, Dongyuan Li et al. | Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When Retrieval Metrics Mislead: Measuring Policy Signal in Long-Horizon Tool-Use Agents](http://arxiv.org/abs/2606.23937v1) | Tianyu Ding, Juan Pablo De la Cruz Weinstein | Exact-match retrieval recall is often used as a proxy for whether a retriever supplies useful policy context to a downstream decision model. |
+| [Plans Don't Persist: Why Context Management Is Load Bearing for LLM Agents](http://arxiv.org/abs/2606.22953v1) | Aman Mehta, Anupam Datta | Long-horizon agents depend on context management: systems compress, summarize, and evict old tokens so tasks can continue beyond finite windows. |
+
 ### 📅 2026-06-23
 
 **12 new papers found**
