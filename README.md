@@ -24,6 +24,41 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-25
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ASAP: Agent-System Co-Design for Wall-Clock-Centered Auto HPO Research for ML Experiments](http://arxiv.org/abs/2606.25207v1) | Taicheng Guo, Haomin Zhuang, Kehan Guo et al. | Hyperparameter Optimization (HPO) is essential for maximizing machine learning model performance, and its core challenge is sample efficiency: finding strong configurations within a limited budget. |
+| [Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts](http://arxiv.org/abs/2606.23175v1) | Steven Young Eulig | AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. |
+| [Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](http://arxiv.org/abs/2606.25198v1) | Antonis Antoniades, Deepak Nathani, Ritam Saha et al. | Autonomous AI Research promises to accelerate the scientific progress of machine learning. To realise this goal, current Large Language Model (LLM)-based agents need to go beyond just writing code,... |
+| [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](http://arxiv.org/abs/2606.24177v1) | Youran Sun, Xingyu Ren, Chugang Yi et al. | Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges](http://arxiv.org/abs/2606.25057v1) | Thi Huyen Nguyen, Zahra Ahmadi | The rapid growth of scientific submissions has pushed traditional peer review toward its scalability limits, motivating the exploration of large language models (LLMs) as intelligent automated eval... |
+| [Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability](http://arxiv.org/abs/2606.25819v1) | Yang Tian, Zhengpeng Shi, Bo Zhao | Large language models are increasingly deployed as agents that solve tasks by interacting with external tool environments. |
+| [When Retrieval Metrics Mislead: Measuring Policy Signal in Long-Horizon Tool-Use Agents](http://arxiv.org/abs/2606.23937v1) | Tianyu Ding, Juan Pablo De la Cruz Weinstein | Exact-match retrieval recall is often used as a proxy for whether a retriever supplies useful policy context to a downstream decision model. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation](http://arxiv.org/abs/2606.23221v1) | Feifei Bian, Zhimin Zheng, Wei Deng et al. | Recent years have witnessed remarkable progress in image generation and editing, particularly regarding instruction following and visual fidelity. |
+| [BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding](http://arxiv.org/abs/2606.25400v1) | Yangxuan Zhou, Sha Zhao, Jiquan Wang et al. | Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. |
+| [OmniPath: A Multi-Modal Agentic Framework for Auditing Wheelchair Accessibility](http://arxiv.org/abs/2606.24129v1) | ASM Mobarak Hossain, Nadim Mahmud, Vaskar Raychoudhury et al. | For a wheelchair user, a standard blue line on a map is often a broken promise. While platforms like OpenStreetMap (OSM) successfully capture where a path is, they frequently fail to convey how it ... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Data-Driven Evolution of Library and Information Science Research Methods (1990-2022): A Perspective Based on Fine-grained Method Entities](http://arxiv.org/abs/2606.25320v1) | Chengzhi Zhang, Yi Mao, Shuyu Peng | Since the 1990s, advancements in big data and information technology have increasingly driven data-centric research in the field of Library and Information Science (LIS). |
+
 ### 📅 2026-06-24
 
 **7 new papers found**

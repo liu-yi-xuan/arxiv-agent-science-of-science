@@ -1,0 +1,219 @@
+[
+  {
+    "id": "2606.25207v1",
+    "title": "ASAP: Agent-System Co-Design for Wall-Clock-Centered Auto HPO Research for ML Experiments",
+    "authors": [
+      "Taicheng Guo",
+      "Haomin Zhuang",
+      "Kehan Guo",
+      "Yujun Zhou",
+      "Nitesh V. Chawla"
+    ],
+    "abstract": "Hyperparameter Optimization (HPO) is essential for maximizing machine learning model performance, and its core challenge is sample efficiency: finding strong configurations within a limited budget. Because every HPO tool relies on a surrogate prior that imparts its own inductive bias, individual tools struggle once problems become sufficiently diverse and drift from these priors. Motivated by the reasoning and generalization capabilities of LLMs, recent work has explored using LLMs for HPO and reports improved per-iteration performance. Yet these methods share two limitations with a common origin: they use the LLM as a single-tool replacement evaluated by iteration count. (i) Deployed in place of prior tools, the LLM is itself constrained by its pretraining objective to one family of inductive-biased proposals; this single-source setup still fails to handle the full diversity of problems. (ii) Per-iteration evaluation ignores that, in real runs, LLM inference or tool execution is paid serially on top of model evaluation every round, so iteration-count gains do not translate into end-to-end wall-clock gains. We present ASAP, an agent-system co-design that addresses both limitations. On the agent side, ASAP uses the LLM to integrate a diverse pool of inductive-biased optimizers and to select among their proposals each round. On the system side, ASAP re-architects the loop to reduce end-to-end wall-clock while preserving regret quality: a prefix-stable prompt maximizes KV-cache reuse across rounds; speculation parallelism hides the remaining LLM and tool latency under model evaluation via a relative-error accept test; and a Self-Tuner adapts the speculation threshold from execution logs off the critical path. Extensive experiments on diverse modern HPO tasks show that ASAP consistently outperforms baselines, underscoring the value of tool integration and agent-system co-design.",
+    "url": "http://arxiv.org/abs/2606.25207v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.25207v1",
+    "published": "2026-06-23",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.23175v1",
+    "title": "Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts",
+    "authors": [
+      "Steven Young Eulig"
+    ],
+    "abstract": "AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. This position paper argues that outcome-only evaluation is insufficient, and that task outcome, mechanism fidelity, and epistemic honesty must be measured separately. Our evidence comes from 28 episodes of a coding agent attempting to rediscover a known particle identification observable in a Geant4 simulation, including an 8-episode probe across two additional frontier models. In 4/20 primary-model and 3/8 cross-model episodes, agents reach right-looking results through incorrect reasoning that breaks when conditions change, which we call Correct Answer, Wrong Mechanism (CAWM). Honesty and mechanism fidelity dissociate within a single agent trajectory. When given a partially misleading prior, all five agents reject the false component on evidence, yet one defends its chosen observable with physics inconsistent with its own data. In the simulation-based discovery setting studied here, coding agents prove reliable tools but unreliable scientific co-authors for open-ended claim-making, where co-author trust requires mechanism-fidelity verification they do not reliably self-apply. The failure is detectable, and we propose a lightweight test. A one-step regime-shift check needs only the agent's claim and flags the over-generalized cases. A companion recomputation flags the remaining cases when the correct observable is known. Together, these checks flag every CAWM case in this study.",
+    "url": "http://arxiv.org/abs/2606.23175v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.23175v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.25198v1",
+    "title": "Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty",
+    "authors": [
+      "Antonis Antoniades",
+      "Deepak Nathani",
+      "Ritam Saha",
+      "Alfonso Amayuelas",
+      "Ivan Bercovich"
+    ],
+    "abstract": "Autonomous AI Research promises to accelerate the scientific progress of machine learning. To realise this goal, current Large Language Model (LLM)-based agents need to go beyond just writing code, to mastering the exploration of simultaneously performant, diverse and novel ideas. To this end, we introduce Heuresis, a framework that abstracts the research pipeline into a set of general and composable primitives, enabling open-ended scientific exploration in machine learning research. We implement six search strategies: a greedy baseline, two archive-based (MAP-Elites, Go-Explore), one evolutionary (Islands), and two divergent (Curiosity, Omni), and evaluate them across three axes (Quality, Diversity, and Novelty) on three domains (LLM Pretraining, On-Policy RL, and Model Unlearning), totalling 3,222 scored runs. We find that completely novel ideas are rare. No idea across our scored runs is rated as \"Original\", and only a few achieve only \"Minor Similarity\" to prior work. Moreover, novel ideas never approach the highest-performing known-recipe scores. Across all six strategies and three domains, only one such idea lands in the top-10 by quality. We also observed agents resorting to a variety of reward-hacking techniques during execution (40 confirmed fabrications across 1,628 scored runs), and detecting them was necessary to keep the search faithful to the task. Our results show that while current search and Quality-Diversity strategies enable us to steer where the generated ideas land on the quality, diversity, and novelty axes, they do not expand the quality-novelty frontier. Bridging this gap is the open challenge towards the ultimate goal of perpetual, autonomous scientific progress. Code is available at github.com/a-antoniades/Heuresis.",
+    "url": "http://arxiv.org/abs/2606.25198v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.25198v1",
+    "published": "2026-06-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.24177v1",
+    "title": "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy",
+    "authors": [
+      "Youran Sun",
+      "Xingyu Ren",
+      "Chugang Yi",
+      "Jiaxuan Guo",
+      "Kejia Zhang"
+    ],
+    "abstract": "Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. We present \\textsc{Agon}, a research orchestrator that validates what can be checked inside the workflow and leaves the remaining judgments to human scientists. \\textsc{Agon} is built on six design principles: Prompt Economy, Future-Facing, Minimal Prompts, OmniDisciplinary, Massive Parallelism, and Zero-Code. We ran \\textsc{Agon} across domains for 444 iterations of Prompt Economy loops, using only small starting topics and no human-written experimental code. These deployments demonstrate scalability while exposing new classes of failure. We organize these failures into a taxonomy along severity, fixability, visibility, and capability locus. The taxonomy separates failures the loops can see and fix from those that require human judgment. Together, these results show that \\textsc{Agon} is pushing research toward a new paradigm: machine scales, human steers.",
+    "url": "http://arxiv.org/abs/2606.24177v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.24177v1",
+    "published": "2026-06-23",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.25057v1",
+    "title": "LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges",
+    "authors": [
+      "Thi Huyen Nguyen",
+      "Zahra Ahmadi"
+    ],
+    "abstract": "The rapid growth of scientific submissions has pushed traditional peer review toward its scalability limits, motivating the exploration of large language models (LLMs) as intelligent automated evaluation assistants. Although recent studies show that LLMs can generate fluent critiques and approximate reviewer scores, their reliability, robustness, and security as decision-support systems remain insufficiently understood. This survey offers a systems-level analysis of LLM-based scientific peer review, focusing on two core evaluative functions: critique generation and score prediction. We present a structured taxonomy of modeling approaches (including prompt-based, supervised, retrieval-augmented, and alignment-optimized approaches), and synthesize empirical findings across existing benchmarks. We analyze dataset constraints, evaluation shortcomings, and domain concentration biases that limit current assessment practices. Beyond performance metrics, we identify emerging robustness risks, including prompt injection, data poisoning, retrieval vulnerabilities, and reward hacking, which expose automated review pipelines to strategic manipulation. From a data mining perspective, we outline key open challenges in modeling subjective disagreement and cross-domain generalization. By reframing automated peer review as a high-stakes, multi-objective decision problem, this survey provides a roadmap for developing robust, transparent, and trustworthy AI-assisted scientific evaluation systems.",
+    "url": "http://arxiv.org/abs/2606.25057v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.25057v1",
+    "published": "2026-06-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.25819v1",
+    "title": "Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability",
+    "authors": [
+      "Yang Tian",
+      "Zhengpeng Shi",
+      "Bo Zhao"
+    ],
+    "abstract": "Large language models are increasingly deployed as agents that solve tasks by interacting with external tool environments. Although recent tool-use benchmarks increasingly cover complex task settings, they still largely assume clean, stable, and trustworthy tool environments, leaving tool-environment unreliability insufficiently examined. We introduce ToolBench-X, a benchmark for evaluating agents under recoverable reliability hazards. ToolBench-X contains executable multi-step tasks across diverse domains and sequential, parallel, and mixed workflows, each paired with deterministic tools and a canonical final answer for automatic evaluation. Starting from clean tool environments, ToolBench-X injects five structured hazard types: Specification Drift, Invocation Error, Execution Failure, Output Drift, and Cross-source Conflict. Crucially, each injected instance remains solvable through at least one valid recovery path, such as retrying, fallback, verification, or cross-checking. Experiments reveal a substantial reliability gap: agents that perform well with reliable tools often fail under recoverable hazards. Further analysis shows that failures are driven less by tool-use volume or inference budget than by limited hazard diagnosis and ineffective recovery. Targeted recovery hints recover many failed tasks, while test-time scaling yields more limited gains. These results suggest that tool-use evaluation should move beyond function-call accuracy toward task completion under unreliable tool environments. The code and data is available at https://github.com/Foreverskyou/ToolBench-X.",
+    "url": "http://arxiv.org/abs/2606.25819v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.25819v1",
+    "published": "2026-06-24",
+    "categories": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.23937v1",
+    "title": "When Retrieval Metrics Mislead: Measuring Policy Signal in Long-Horizon Tool-Use Agents",
+    "authors": [
+      "Tianyu Ding",
+      "Juan Pablo De la Cruz Weinstein"
+    ],
+    "abstract": "Exact-match retrieval recall is often used as a proxy for whether a retriever supplies useful policy context to a downstream decision model. We test this proxy for pre-action policy classification in tau-bench using Qwen2.5-3B/7B classifiers. Under gold-policy conditioning, a compact structured state improves macro-F1 over raw trajectories by 0.13-0.17 after tuning. We then replace the benchmark-designated policy clause with the top-ranked clause retrieved from decision-time context. Although the exact governing clause is retrieved at rank 1 for only 7% of airline states, the primary 3B classifier obtains macro-F1 0.58 with retrieved clauses versus 0.60 with gold clauses (Delta=-0.02, task-cluster 95% CI [-0.23,+0.21]); mismatched-policy and no-policy controls score 0.32 and 0.21. We do not detect a macro-F1 difference between retrieved and gold clauses in this configuration, although the interval remains too wide to establish non-inferiority. The same qualitative pattern appears with a second retriever and at 7B, while varying across fine-tuning configurations. These results indicate that exact-match clause recall can underestimate downstream policy utility in this benchmark setting, motivating evaluation with retrieved policies in the classification loop rather than recall alone.",
+    "url": "http://arxiv.org/abs/2606.23937v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.23937v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.23221v1",
+    "title": "RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation",
+    "authors": [
+      "Feifei Bian",
+      "Zhimin Zheng",
+      "Wei Deng",
+      "Daiguo Zhou",
+      "Jian Luan"
+    ],
+    "abstract": "Recent years have witnessed remarkable progress in image generation and editing, particularly regarding instruction following and visual fidelity. However, when handling ambiguous intentions, logical reasoning, and Out-of-Distribution (OOD) knowledge, existing image models often yield sub-optimal results due to a lack of deep reasoning capabilities and real-time external information. Although emerging unified understanding-and-generation models attempt to bridge this gap, they remain constrained by their intrinsic parameter scales and static knowledge gaps. Inspired by agentic paradigms, we propose RS-Gen: a plug-and-play, training-free, multi-stage image agentic framework. RS-Gen innovatively introduces a \"Questioning-and-Solving\" closed-loop mechanism to accurately identify logical issues and knowledge gaps, autonomously planning actions to bridge information deficits and execute deep logical reasoning. Extensive experiments demonstrate that RS-Gen significantly expands the capability boundaries of foundational image generation and editing models. Specifically, on the WISE Verified and RISEBench benchmarks, RS-Gen yields substantial absolute performance gains of 0.313 for Qwen-Image and 19.70 for Qwen-Image-Edit-2511, respectively, successfully elevating both to the state-of-the-art (SOTA) level among open-source models.",
+    "url": "http://arxiv.org/abs/2606.23221v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.23221v1",
+    "published": "2026-06-22",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.25400v1",
+    "title": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
+    "authors": [
+      "Yangxuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Shijian Li",
+      "Gang Pan"
+    ],
+    "abstract": "Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. Despite this significance, its widespread adoption in real-world scenarios remains restricted, primarily because current analytical paradigms lack sufficient agentic intelligence. First, existing methodologies impose prohibitive technical barriers, requiring extensive specialized expertise. Second, they remain inherently static and task-specific, failing to execute the complex, long-horizon workflows essential for real-world deployment. To accelerate the democratization of brain signal understanding, we draw inspiration from Large Language Models (LLMs) to introduce BrainAgent, an LLM-driven multi-agent framework designed to ground abstract natural language intent into rigorous, executable, and end-to-end processing pipelines. BrainAgent employs a hierarchical architecture where a central supervisor orchestrates specialized sub-agents for adaptive task decomposition and execution. Furthermore, we establish a comprehensive, systematic benchmark for evaluating agentic systems in brain signal analysis. Empirical results demonstrate that BrainAgent effectively automates complex workflows with superior reliability, marking a paradigm shift toward democratized brain signal understanding.",
+    "url": "http://arxiv.org/abs/2606.25400v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.25400v1",
+    "published": "2026-06-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.24129v1",
+    "title": "OmniPath: A Multi-Modal Agentic Framework for Auditing Wheelchair Accessibility",
+    "authors": [
+      "ASM Mobarak Hossain",
+      "Nadim Mahmud",
+      "Vaskar Raychoudhury",
+      "Md Osman Gani"
+    ],
+    "abstract": "For a wheelchair user, a standard blue line on a map is often a broken promise. While platforms like OpenStreetMap (OSM) successfully capture where a path is, they frequently fail to convey how it physically feels to travel on it. This information barrier is problematic for wheelchair users. To solve this issue, we present OmniPath, a system that moves from passive mapping to proactive environmental auditing. Our framework fuses the network topology of OSM with the submeter precision of high-density aerial LiDAR (USGS 3DEP) to create a high-fidelity 3D model of the pedestrian environment. Rather than simply routing a user, our agent virtually traverses the network, analyzing the surface in 0.5 meter increments. It rigorously quantifies physical friction points specifically running slope, cross slope, and vertical discontinuities against ADA compliance standards, calculating a weighted severity score to categorize hazards from ``Mild'' to ``Critical.'' To ensure real world reliability, we validated the system against 200 physical ground truth field surveys across the National Mall using stratified random sampling. The framework demonstrated strong diagnostic reliability for high-severity hazards, achieving F1-scores of 0.60 for Severe and 0.58 for critical categories. By automating this micro-scale inspection, OmniPath identifies the ``invisible'' barriers that standard maps miss, effectively transforming a static dataset into accessibility data source that anticipates accessibility challenges before the user ever leaves home.",
+    "url": "http://arxiv.org/abs/2606.24129v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.24129v1",
+    "published": "2026-06-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.25320v1",
+    "title": "Data-Driven Evolution of Library and Information Science Research Methods (1990-2022): A Perspective Based on Fine-grained Method Entities",
+    "authors": [
+      "Chengzhi Zhang",
+      "Yi Mao",
+      "Shuyu Peng"
+    ],
+    "abstract": "Since the 1990s, advancements in big data and information technology have increasingly driven data-centric research in the field of Library and Information Science (LIS). To assess the influence of this data-driven research paradigm on the LIS discipline, this study conducts a fine-grained analysis to uncover the evolutionary trends of research methods within the domain. Using academic papers from LIS published between 1990 and 2022, four key categories of data-driven method entities are automatically extracted: algorithms and models, data resources, software and tools, and metrics. Based on these entities, the study examines the evolution of LIS research methods from three dimensions: the characteristics of research method entities over time, their evolution within different research topics, and the evolutionary features of research method entities across various research methods. The findings highlight data resources as a pivotal driver of methodological evolution in LIS, revealing a cyclical pattern of \"emergence-stability/practical application\" in the development of research methods within the field.",
+    "url": "http://arxiv.org/abs/2606.25320v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.25320v1",
+    "published": "2026-06-24",
+    "categories": [
+      "cs.DL",
+      "cs.CL",
+      "cs.CY",
+      "cs.IR"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]
