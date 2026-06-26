@@ -24,6 +24,46 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-26
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Socratic agents for autonomous scientific discovery in high-dimensional physical systems](http://arxiv.org/abs/2606.26722v1) | Xianrui Zeng, Pengfei Liu, Yirui Zang et al. | The automation of scientific discovery has reached an inflection point. While AI systems now operate instruments, optimize parameters and generate hypotheses, most remain procedural: they execute w... |
+| [Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning](http://arxiv.org/abs/2606.27330v1) | Tianyi Men, Zhuoran Jin, Pengfei Cao et al. | Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. |
+| [ASAP: Agent-System Co-Design for Wall-Clock-Centered Auto HPO Research for ML Experiments](http://arxiv.org/abs/2606.25207v1) | Taicheng Guo, Haomin Zhuang, Kehan Guo et al. | Hyperparameter Optimization (HPO) is essential for maximizing machine learning model performance, and its core challenge is sample efficiency: finding strong configurations within a limited budget. |
+| [Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](http://arxiv.org/abs/2606.25198v1) | Antonis Antoniades, Deepak Nathani, Ritam Saha et al. | Autonomous AI Research promises to accelerate the scientific progress of machine learning. To realise this goal, current Large Language Model (LLM)-based agents need to go beyond just writing code,... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges](http://arxiv.org/abs/2606.25057v1) | Thi Huyen Nguyen, Zahra Ahmadi | The rapid growth of scientific submissions has pushed traditional peer review toward its scalability limits, motivating the exploration of large language models (LLMs) as intelligent automated eval... |
+| [ProfileFoundry: A Synthetic Person-Object Substrate for Privacy, Memory, and Tool-Use Evaluation in LLM Agent](http://arxiv.org/abs/2606.26403v1) | Sriram Selvam, Anneswa Ghosh | Foundation-model research increasingly needs data about people: user state, personal histories, relationships, contact-like fields, documents, and longitudinal updates. |
+| [Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability](http://arxiv.org/abs/2606.25819v1) | Yang Tian, Zhengpeng Shi, Bo Zhao | Large language models are increasingly deployed as agents that solve tasks by interacting with external tool environments. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding](http://arxiv.org/abs/2606.25400v1) | Yangxuan Zhou, Sha Zhao, Jiquan Wang et al. | Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Data-Driven Evolution of Library and Information Science Research Methods (1990-2022): A Perspective Based on Fine-grained Method Entities](http://arxiv.org/abs/2606.25320v1) | Chengzhi Zhang, Yi Mao, Shuyu Peng | Since the 1990s, advancements in big data and information technology have increasingly driven data-centric research in the field of Library and Information Science (LIS). |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Uncertainty Quantification for Computer-Use Agents: A Benchmark across Vision-Language Models and GUI Grounding Datasets](http://arxiv.org/abs/2606.25760v1) | Divake Kumar, Sina Tayebati, Devashri Naik et al. | Computer-use agents turn vision-language model (VLM) predictions into executable GUI clicks, so reliable uncertainty estimates are essential for rejection, calibration, miss-severity ranking, and s... |
+| [AGORA: An Archive-Grounded Benchmark for Agentic Workplace Document Reasoning](http://arxiv.org/abs/2606.24526v1) | Honglin Guo, Qi Zhang, Yu Zhang et al. | Large language models are increasingly deployed as agents that reason over documents rather than answer from parametric knowledge. |
+
 ### 📅 2026-06-25
 
 **11 new papers found**
