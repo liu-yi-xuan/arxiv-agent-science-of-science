@@ -24,6 +24,24 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-27
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Socratic agents for autonomous scientific discovery in high-dimensional physical systems](http://arxiv.org/abs/2606.26722v1) | Xianrui Zeng, Pengfei Liu, Yirui Zang et al. | The automation of scientific discovery has reached an inflection point. While AI systems now operate instruments, optimize parameters and generate hypotheses, most remain procedural: they execute w... |
+| [Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning](http://arxiv.org/abs/2606.27330v1) | Tianyi Men, Zhuoran Jin, Pengfei Cao et al. | Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ProfileFoundry: A Synthetic Person-Object Substrate for Privacy, Memory, and Tool-Use Evaluation in LLM Agent](http://arxiv.org/abs/2606.26403v1) | Sriram Selvam, Anneswa Ghosh | Foundation-model research increasingly needs data about people: user state, personal histories, relationships, contact-like fields, documents, and longitudinal updates. |
+| [Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability](http://arxiv.org/abs/2606.25819v1) | Yang Tian, Zhengpeng Shi, Bo Zhao | Large language models are increasingly deployed as agents that solve tasks by interacting with external tool environments. |
+
 ### 📅 2026-06-26
 
 **11 new papers found**
