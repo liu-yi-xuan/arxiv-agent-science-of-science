@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-29
+
+**2 new papers found**
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The Reciprocal Impact of Science and Software: A Cross-Corpus Analysis of How Research Shapes Software and Software Enables Research](http://arxiv.org/abs/2606.28120v1) | Audris Mockus | Software and scientific knowledge co-evolve, yet they are catalogued in separate corpora that rarely speak to one another. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents](http://arxiv.org/abs/2606.28061v1) | Shijing Hu, Liang Liu, Zhu Meng et al. | Large language models (LLMs) have increasingly moved from standalone text generation systems to agents that invoke external tools, access environments, and execute multi-step tasks. |
+
 ### 📅 2026-06-28
 
 **1 new papers found**

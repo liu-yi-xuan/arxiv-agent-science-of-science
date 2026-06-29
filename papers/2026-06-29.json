@@ -1,0 +1,40 @@
+[
+  {
+    "id": "2606.28120v1",
+    "title": "The Reciprocal Impact of Science and Software: A Cross-Corpus Analysis of How Research Shapes Software and Software Enables Research",
+    "authors": [
+      "Audris Mockus"
+    ],
+    "abstract": "Software and scientific knowledge co-evolve, yet they are catalogued in separate corpora that rarely speak to one another. We bridge them at global scale by linking World of Code (a near-complete mirror of public version-control history) to Semantic Scholar and OpenAlex through a typed cross-corpus graph of 69.8M edges over eight relation types (paper-to-software mentions, software-to-paper citations, software dependencies, authorship, affiliation, and identity bridges). Anchoring on 18,247 curated science repositories, we ask two reciprocal questions: what is the impact of science on software, and of software on science? To test whether this Science-Software Supply Chain (S3C) view is feasible, we run basic investigations rather than claim a definitive measurement. The two directions appear to illuminate different, complementary strata: the literature's reach into software is dominated by a reproducibility and packaging layer (nf-core, Nextflow, Bioconda) and sequence-analysis tools, whereas software's reach back into science is proxied by a largely invisible machine-learning and data-science infrastructure tier (PyTorch, seaborn, NLTK). The direct paper-names-software channel is too sparse to rank: a human-curated gold benchmark links none of its 65 in-scope cases. Dependency reuse stands in as a proxy and is at most weakly coupled to citation count and to stars (Spearman rho=0.36). Our most cautionary finding is about measurement itself: the reuse-citation coupling flips sign and confidence across two reasonable ways of pairing a repository with a citation count, through papers that name it (n=137, rho=0.05, CI straddling zero) versus DOIs a repository declares for itself (n=1,067, rho=0.13, CI [0.07,0.19]). With linkage this sparse, the sign of a headline correlation depends on which gap one tolerates, so we report both and refrain from a strong decoupling claim.",
+    "url": "http://arxiv.org/abs/2606.28120v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.28120v1",
+    "published": "2026-06-26",
+    "categories": [
+      "cs.DL",
+      "cs.SE",
+      "cs.SI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.28061v1",
+    "title": "ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents",
+    "authors": [
+      "Shijing Hu",
+      "Liang Liu",
+      "Zhu Meng",
+      "Zhicheng Zhao"
+    ],
+    "abstract": "Large language models (LLMs) have increasingly moved from standalone text generation systems to agents that invoke external tools, access environments, and execute multi-step tasks. However, conventional function-calling benchmarks mainly evaluate task completion and API correctness, while privacy evaluation benchmarks typically focus on final responses or privacy judgments. Neither perspective captures purpose-bound information flow across an executed multi-tool trajectory. Motivated by this limitation in current agent evaluation, ToolPrivacyBench audits whether task-private atoms are routed only to authorized tools and downstream sinks, thereby evaluating both task completion and privacy over-disclosure during tool use. The benchmark contains 2,150 cases, including 1,150 fully synthetic privacy-sensitive business workflows and 1,000 cases adapted from existing multi-tool and function-calling benchmarks. Each case is represented by a policy knowledge base. After an agent executes against mock business backends, the evaluator compares recorded tool arguments and backend audit logs with this policy knowledge base. The evaluation covers nine widely used agents to characterize purpose-bound privacy over-disclosure. The results show that successful tool execution does not imply appropriate privacy disclosure: an agent may complete a task while transmitting unnecessary private information through intermediate tool calls. ToolPrivacyBench therefore formalizes a need-to-know disclosure boundary, under which each tool should receive only the information necessary for its stated purpose, and uses trajectory-level auditing to identify privacy over-disclosure in multi-tool workflows.",
+    "url": "http://arxiv.org/abs/2606.28061v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.28061v1",
+    "published": "2026-06-26",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
