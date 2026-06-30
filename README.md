@@ -24,6 +24,50 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-06-30
+
+**15 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evidence-Informed LLM Beliefs for Continual Scientific Discovery](http://arxiv.org/abs/2606.29182v1) | Dhruv Agarwal, Reece Adamson, Andrew McCallum et al. | Open-ended scientific discovery with large language models (LLMs) increasingly operates as a long-horizon loop of hypothesis search and verification, where a reward signal guides which hypotheses t... |
+| [Experience Graphs: The Data Foundation for Self-Improving Agents](http://arxiv.org/abs/2606.29823v1) | Gang Liao, Yujia He, Abdullah Ozturk et al. | The database community has repeatedly advanced the state of the art by recognizing that new workloads demand new system architectures. |
+| [Hephaestus: Toward a Cybersecurity AI Scientist](http://arxiv.org/abs/2606.29981v1) | Jiaqi Li, Yang Zhao, Wen Lu et al. | Cyber offense is moving to machine speed; cyber research itself is not. Existing AI scientist systems make end-to-end research automation increasingly plausible, but they target relatively stable s... |
+| [Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration](http://arxiv.org/abs/2606.30246v1) | Zihan Guo, Zeyi Chen, Zhiyu Chen et al. | Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. |
+| [Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop](http://arxiv.org/abs/2606.29717v1) | Chenmu Zhang, Boris I. Yakobson | Predicting a material's properties from its structure is a central, fast-advancing problem in computational materials science. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Self-Evolving World Models for LLM Agent Planning](http://arxiv.org/abs/2606.30639v1) | Xuan Zhang, Wenxuan Zhang, See-Kiong Ng et al. | World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Mixture of Debaters: Learn to Debate at Architectural Level in Multi-Agent Reasoning](http://arxiv.org/abs/2606.29425v1) | Dayong Liang, Kaisong Gong, Yi Cai et al. | Existing multi-agent debate frameworks suffer from two critical limitations: they rely on static architectures where agent roles and coordination patterns are fixed at design time, and they require... |
+| [When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning](http://arxiv.org/abs/2606.29354v1) | Zhengqi Pei, Qingming Huang, Shuhui Wang | Chain-of-Thought (CoT) improves large language models (LLMs) on difficult reasoning tasks, but it often incurs long natural-language rationales that are poorly aligned with efficient machine reason... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Unveiling Novelty Evolution in the field of Library and Information Science in China](http://arxiv.org/abs/2606.29872v1) | Chen Yang, Yuzhuo Wang, Chengzhi Zhang | This study analyzes the novelty distribution of scholarly papers in the field of Library and Information Science (LIS) in China, with a focus on differences across journals, research topics, and ti... |
+| [Specialisation and experience of research teams: Which matters more for the impact of their publications?](http://arxiv.org/abs/2606.30060v1) | Emil Dolmer Alnor | Scientists' topic choices strongly influence both individual careers and the advancement of the scientific frontier. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CLQT: A Closed-Loop, Cost-Aware, Strategy-Consistent Benchmark for Diagnostic Evaluation of LLM Portfolio-Management Agents](http://arxiv.org/abs/2606.29771v1) | Bo Qu, Mingguang Chen | LLM agents are increasingly cast as autonomous portfolio managers, and benchmarks have moved from financial question-answering to sequential trading. |
+| [OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks](http://arxiv.org/abs/2606.29537v1) | Mengqi Yuan, Zilong Zhou, Xinzhuang Xiong et al. | Existing computer-use benchmarks fail to capture the realism, complexity, and long-horizon demands of real-world computer use, limiting their ability to reveal the limitations of frontier agents. |
+| [A Multi-Dataset Benchmark for Evaluating LLM Agents in Microservice Failure Diagnosis](http://arxiv.org/abs/2606.29193v1) | Yuanhong Cai, Xiaohui Nie, Kanglin Yin et al. | LLM-based agents are reshaping microservice operations into AgentOps, where benchmarks are key to evaluating failure diagnosis over multimodal observability data. |
+| [From Tool Connection to Execution Control: Benchmarking Security Invariants in MCP-Style Agent Runtimes](http://arxiv.org/abs/2606.29073v1) | Ting Liu | Model Context Protocol (MCP)-style ecosystems give language-model applications a practical connection layer for tools, resources, prompts, and transports. |
+| [Multi-Agent Routing as Set-Valued Prediction: A WildChat Benchmark and Cost-Aware Evaluation](http://arxiv.org/abs/2606.28925v1) | Ananto Nayan Bala, Faisal Muhammad Shah | Tool and agent routing from natural-language prompts is naturally a set-valued prediction problem: a single query may require multiple agents, while over-selection increases execution cost. |
+
 ### 📅 2026-06-29
 
 **2 new papers found**
