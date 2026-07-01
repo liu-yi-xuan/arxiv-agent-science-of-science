@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-01
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping](http://arxiv.org/abs/2606.31831v1) | Renan Souza, Daniel Rosendo, Kelsey Carter et al. | High-throughput plant phenotyping now generates image derived datasets far faster than scientists can analyze them. |
+| [Experience Graphs: The Data Foundation for Self-Improving Agents](http://arxiv.org/abs/2606.29823v1) | Gang Liao, Yujia He, Abdullah Ozturk et al. | The database community has repeatedly advanced the state of the art by recognizing that new workloads demand new system architectures. |
+| [Hephaestus: Toward a Cybersecurity AI Scientist](http://arxiv.org/abs/2606.29981v1) | Jiaqi Li, Yang Zhao, Wen Lu et al. | Cyber offense is moving to machine speed; cyber research itself is not. Existing AI scientist systems make end-to-end research automation increasingly plausible, but they target relatively stable s... |
+| [One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution](http://arxiv.org/abs/2606.31478v1) | Jie Ma, Binfei Chu, Jie Gao et al. | Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. |
+| [Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration](http://arxiv.org/abs/2606.30246v1) | Zihan Guo, Zeyi Chen, Zhiyu Chen et al. | Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. |
+| [Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop](http://arxiv.org/abs/2606.29717v1) | Chenmu Zhang, Boris I. Yakobson | Predicting a material's properties from its structure is a central, fast-advancing problem in computational materials science. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Self-Evolving World Models for LLM Agent Planning](http://arxiv.org/abs/2606.30639v1) | Xuan Zhang, Wenxuan Zhang, See-Kiong Ng et al. | World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. |
+| [FinPersona-Bench: A Benchmark for Longitudinal Psychometric Stability of Autonomous Financial Agents](http://arxiv.org/abs/2606.31522v1) | Muhammad Usman Safder, Ayesha Gull, Rania Elbadry et al. | Large Language Models (LLMs) are increasingly deployed as autonomous financial agents initialized with explicit behavioral mandates such as "preserve capital" or "avoid speculative bets" that are m... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Mixture of Debaters: Learn to Debate at Architectural Level in Multi-Agent Reasoning](http://arxiv.org/abs/2606.29425v1) | Dayong Liang, Kaisong Gong, Yi Cai et al. | Existing multi-agent debate frameworks suffer from two critical limitations: they rely on static architectures where agent roles and coordination patterns are fixed at design time, and they require... |
+| [When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning](http://arxiv.org/abs/2606.29354v1) | Zhengqi Pei, Qingming Huang, Shuhui Wang | Chain-of-Thought (CoT) improves large language models (LLMs) on difficult reasoning tasks, but it often incurs long natural-language rationales that are poorly aligned with efficient machine reason... |
+| [TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models](http://arxiv.org/abs/2606.31976v1) | Shiyi Chen, Nicholas Saban, Collin Hargreaves et al. | Human-labeled data are widely used as reference annotations in ML, despite known variability across annotators in many expert-driven domains. |
+| [DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching](http://arxiv.org/abs/2606.31980v1) | Meng Chen, Anya Ji, Tsung-Han Wu et al. | Agents are increasingly capable of automating software tasks, but can they teach humans how to use software themselves? |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Usage frequency and application variety of research methods in library and information science: Continuous investigation from 1991 to 2021](http://arxiv.org/abs/2606.31081v1) | Chengzhi Zhang, Liang Tian, Heting Chu | The present study analyzed over 26,000 research articles published between 1991 and 2021 in twenty-one major LIS (Library and Information Science) journals, using the machine learning (ML) approach... |
+| [Unveiling Novelty Evolution in the field of Library and Information Science in China](http://arxiv.org/abs/2606.29872v1) | Chen Yang, Yuzhuo Wang, Chengzhi Zhang | This study analyzes the novelty distribution of scholarly papers in the field of Library and Information Science (LIS) in China, with a focus on differences across journals, research topics, and ti... |
+
 ### 📅 2026-06-30
 
 **15 new papers found**

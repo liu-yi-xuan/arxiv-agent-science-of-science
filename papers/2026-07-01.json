@@ -1,0 +1,289 @@
+[
+  {
+    "id": "2606.31831v1",
+    "title": "An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping",
+    "authors": [
+      "Renan Souza",
+      "Daniel Rosendo",
+      "Kelsey Carter",
+      "John Lagergren",
+      "Frédéric Suter"
+    ],
+    "abstract": "High-throughput plant phenotyping now generates image derived datasets far faster than scientists can analyze them. At Oak Ridge National Laboratory's Advanced Plant Phenotyping Laboratory (APPL), automated stations image hundreds of plants daily across multiple remote sensing modalities; yet, trait extraction and interpretation remain manual, expert-bound, and strictly post-hoc, making analysis, not acquisition, the binding constraint on discovery. We present an end-to-end agentic AI framework that turns the facility from a data factory into an interactive autonomous, discovery platform, where scientists partner with AI agents to accelerate time to insight. A conversational Co-Scientist Agent translates a scientist's natural-language question into a structured analysis plan, and a headless Compute Agent dispatches Vision Transformer segmentation and trait extraction on the Frontier exascale supercomputer. The two agents run in separate security and resource domains and communicate over a secure, token-authenticated streaming channel, a design that accounts for the federation, data-movement, and provenance realities cloud-native agentic frameworks ignore, ensuring end-to-end provenance is captured for every interaction. The framework turns a days- to weeks-long analysis process into an interactive loop where agents reason over results, recommend next analyses, and respond to follow-up questions in seconds.",
+    "url": "http://arxiv.org/abs/2606.31831v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31831v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.29823v1",
+    "title": "Experience Graphs: The Data Foundation for Self-Improving Agents",
+    "authors": [
+      "Gang Liao",
+      "Yujia He",
+      "Abdullah Ozturk",
+      "Zhouyang Li",
+      "Ying Wang"
+    ],
+    "abstract": "The database community has repeatedly advanced the state of the art by recognizing that new workloads demand new system architectures. We argue that long-horizon agentic tasks -- code generation, scientific discovery, hardware design -- are such a workload. These agents explore: they generate artifacts, execute tools, observe failures, branch, and repair over hundreds of steps. This search produces a structured object we call an experience graph: executable artifacts, tool outputs, rewards, sibling comparisons, and causal lineage. Yet existing agent frameworks treat this experience as disposable state -- JSON checkpoints and session logs that cannot be recovered after a crash, queried across users, or materialized into training data. We propose Trellis: a data foundation that treats the experience graph as first-class, governed, queryable database state. The core insight is that search over experience graphs is a database access pattern. Frontier selection is a query, cross-session reuse is vector-seeded graph retrieval, training-data extraction is a materialized view, and reconstructing what an agent knew at any past step is a time-travel query. When the database owns the experience graph, agents become stateless compute, and crash recovery, horizontal scaling, and a closed-loop training flywheel emerge as architectural byproducts. We ground the design in KernelEvolve, a production accelerator-kernel optimizer at Meta, where cross-session reuse reaches a target speedup roughly 10x faster at 52% lower token cost. More broadly, Trellis turns inference-time search from disposable computation into a durable institutional asset: logs made databases reliable; experience graphs may make agents cumulative.",
+    "url": "http://arxiv.org/abs/2606.29823v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29823v1",
+    "published": "2026-06-29",
+    "categories": [
+      "cs.DB",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.DB",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.29981v1",
+    "title": "Hephaestus: Toward a Cybersecurity AI Scientist",
+    "authors": [
+      "Jiaqi Li",
+      "Yang Zhao",
+      "Wen Lu",
+      "Lvyang Zhang",
+      "Lidong Zhai"
+    ],
+    "abstract": "Cyber offense is moving to machine speed; cyber research itself is not. Existing AI scientist systems make end-to-end research automation increasingly plausible, but they target relatively stable scientific domains. We argue that AI-native cybersecurity is a different kind of scientific object. Its recurring units of study are security events and interaction traces, not static assets; its model and tool substrate is non-stationary, not steady-state; and credible evaluation depends on digital twins, cyber ranges, and auditable evidence rather than on a single benchmark score. We call this object the Cybersecurity AI Scientist. A practical realization is a modular, role-specialized multi-agent research system that coordinates problem framing, threat modeling, tool generation, controlled experimentation, evaluation, governance, and scientific reporting, and that anchors its concrete objectives in a four-zeros frame spanning risk, trust, incident, and energy dimensions. As a representative agenda we focus on AI-native defense, where steady-state perimeters give way to resilient agent legions and the classical category of terminal security is itself being deconstructed into agent security. This paper defines the object, separates it from any single organizational realization, and offers an architecture and an agenda on which later systems, benchmarks, and empirical programs can be built.",
+    "url": "http://arxiv.org/abs/2606.29981v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29981v1",
+    "published": "2026-06-29",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.31478v1",
+    "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+    "authors": [
+      "Jie Ma",
+      "Binfei Chu",
+      "Jie Gao",
+      "Jinlu Zhang",
+      "Yiwei Ma"
+    ],
+    "abstract": "Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. Under the prevailing paradigm, failure recovery is usually delegated to a single free-form reflection: a rich trajectory of metrics, logs, and design choices is compressed into one verbal critique, which often leads either to localized trial-and-error or to hard pivots that discard useful context. We propose SAGE, a Self-correcting, Autonomous, Grounded Experimenter, to tackle this failure-recovery bottleneck. Its core mechanism, Multi-Hypothesis Failure Attribution (MHFA), treats recovery as a structured causal diagnosis. By analyzing dynamic trajectory features, MHFA systematically generates multiple evidence-grounded explanations for a failure, independently evaluates their severity, and deterministically routes the verified root cause to the correct intervention level (hypothesis, experimental design, or implementation). To guarantee scientific honesty, SAGE further employs a grounded reporting mechanism that explicitly constrains drafted results to actual measured values, redacting hallucinated numbers. On a 12-topic, 5-domain benchmark, SAGE increases metrics-bearing outputs from 42% to 92% over a reflection baseline, improves artifact quality from 5.00 to 6.75/10, and blindly outscores AI-Scientist-v2 (52.0 vs. 48.2), with gains concentrated in code development and execution. While fully autonomous scientific writing and generating conference-ready papers remain notoriously difficult open problems for the entire field, SAGE successfully produces significantly more reliable and higher-quality scientific artifacts. Ultimately, by coupling structured recovery with explicit grounding constraints, SAGE significantly outperforms monolithic reflection paradigms, establishing a highly trustworthy foundation for future autonomous research.",
+    "url": "http://arxiv.org/abs/2606.31478v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31478v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.30246v1",
+    "title": "Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration",
+    "authors": [
+      "Zihan Guo",
+      "Zeyi Chen",
+      "Zhiyu Chen",
+      "Zicai Cui",
+      "Shuai Shao"
+    ],
+    "abstract": "Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. Therefore, autonomous science needs a collaboration infrastructure that coordinates projects, agents, and digital and physical resources. We identify this as a shift from code-centered execution loops to research-oriented collaboration processes, where questions, evidence, participants, and resources must be coordinated under uncertainty. In this framing, an agent may be an AI system, a human researcher, a team, a laboratory, or an organization-backed participant. To this end, we present Clarus, a collaboration infrastructure for coordinating autonomous research agents toward web-scale scientific collaboration. Clarus reformulates research as an open, auditable, attributable, and resource-aware multi-phase collaboration process. It defines a minimal project-agent-resource object model and organizes scientific collaboration through four layers including Research Application, Digital Collaboration, Physical Substrate, and Physical World. Core modules are implemented as pluggable mechanisms, allowing Clarus to adapt to task risk, collaboration structure, and resource constraints. Through a controlled paper-generation case study, we show that Clarus can organize a research goal into a traceable, reviewable, attributable, and accumulative collaboration network across phases, tasks, and participants. Together, the object model, collaboration protocol, trust mechanisms, and prototype validation provide an initial foundation for open research networks. Clarus is now available at clarus.holosai.io.",
+    "url": "http://arxiv.org/abs/2606.30246v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.30246v1",
+    "published": "2026-06-29",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.29717v1",
+    "title": "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
+    "authors": [
+      "Chenmu Zhang",
+      "Boris I. Yakobson"
+    ],
+    "abstract": "Predicting a material's properties from its structure is a central, fast-advancing problem in computational materials science. A decade of work has produced standard public benchmarks and many published machine-learning models for the task (Dunn et al., 2020). The task's fixed metric and these baselines make it a natural setting for autonomous agent research (Karpathy, 2026). On the MatBench band-gap benchmark ($>$100k crystals), a general-purpose coding agent autonomously built the most accurate model trained without external pretraining, ahead of all seventeen expert-designed models reported for the task. A closer analysis shows it reached this by implementing known methods: either already standard in crystal neural-network models, or borrowed from other areas of machine learning. The contributing implementations include element-pair features on each message-passing edge and a crystal space-group embedding. The work not only demonstrates that LLM-agent autonomous research can optimize an expert-designed machine learning model for material property prediction, but also investigates the limitations of such autonomous research.",
+    "url": "http://arxiv.org/abs/2606.29717v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29717v1",
+    "published": "2026-06-29",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.30639v1",
+    "title": "Self-Evolving World Models for LLM Agent Planning",
+    "authors": [
+      "Xuan Zhang",
+      "Wenxuan Zhang",
+      "See-Kiong Ng",
+      "Yang Deng"
+    ],
+    "abstract": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.",
+    "url": "http://arxiv.org/abs/2606.30639v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.30639v1",
+    "published": "2026-06-29",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.31522v1",
+    "title": "FinPersona-Bench: A Benchmark for Longitudinal Psychometric Stability of Autonomous Financial Agents",
+    "authors": [
+      "Muhammad Usman Safder",
+      "Ayesha Gull",
+      "Rania Elbadry",
+      "Fan Zhang",
+      "Yankai Chen"
+    ],
+    "abstract": "Large Language Models (LLMs) are increasingly deployed as autonomous financial agents initialized with explicit behavioral mandates such as \"preserve capital\" or \"avoid speculative bets\" that are meant to govern every decision throughout deployment. In practice, however, as market context accumulates over long horizons, these mandates gradually lose their behavioral influence, a phenomenon we formalize as Mandate Salience Decay (MSD). To measure MSD objectively, we introduce FinPersona-Bench, a simulation benchmark in which a synthetic market decouples observable price from hidden fundamental value, enabling falsifiable evaluation across three failure modes: trading without signal in calm markets, panic-selling during crashes, and ignoring fundamental value during speculative bubbles. Evaluating 18 leading frontier and open-source LLMs, each assigned one of three behavioral profiles ranging from strict capital preservation to aggressive growth, shows that MSD compounds over time and is model-dependent. In crash scenarios, the behavioral gap between static agents and those receiving periodic mandate re-grounding grows 4.4x from the first to the final quarter of the simulation. The effects of mandate re-grounding are not uniformly positive: it consistently helps conservative agents in low-signal markets but actively worsens behavior for aggressive agents in the same setting. These findings suggest that reliable long-horizon deployment requires selective, mandate-aware re-grounding based on agent profile and market regime.",
+    "url": "http://arxiv.org/abs/2606.31522v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31522v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2606.29425v1",
+    "title": "Mixture of Debaters: Learn to Debate at Architectural Level in Multi-Agent Reasoning",
+    "authors": [
+      "Dayong Liang",
+      "Kaisong Gong",
+      "Yi Cai",
+      "Changmeng Zheng",
+      "Xiao-Yong Wei"
+    ],
+    "abstract": "Existing multi-agent debate frameworks suffer from two critical limitations: they rely on static architectures where agent roles and coordination patterns are fixed at design time, and they require instantiating multiple model copies, incurring substantial computational overhead. We propose Mixture of Debaters (MoD), a unified framework that enables dynamic self-debate within a single model by leveraging the Mixture-of-Experts paradigm. We address three key challenges in adapting MoE for dialectical reasoning: (1) dual-routing that decouples role allocation from process flow, dynamically determining when to debate versus when to synthesize; (2) momentum switching that smooths token-level routing with local context, reducing expert-switch jitter; and (3) unified self-debate that encapsulates diverse debating personas into lightweight expert modules, eliminating inter-agent communication while preserving behavioral diversity. Extensive experiments on multimodal benchmarks demonstrate that MoD outperforms both single-model baselines and conventional multi-agent systems, achieving superior accuracy with 3.7x lower latency and 87% reduction in token consumption.The source code can be accessed at https://github.com/YongLD/MoD.",
+    "url": "http://arxiv.org/abs/2606.29425v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29425v1",
+    "published": "2026-06-28",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA",
+      "cs.MM"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.29354v1",
+    "title": "When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning",
+    "authors": [
+      "Zhengqi Pei",
+      "Qingming Huang",
+      "Shuhui Wang"
+    ],
+    "abstract": "Chain-of-Thought (CoT) improves large language models (LLMs) on difficult reasoning tasks, but it often incurs long natural-language rationales that are poorly aligned with efficient machine reasoning. We propose Communicative Language Symbolism Routing (CLSR), a test-time framework in which multiple LLM agents autonomously invent, evolve, and share compact Language Symbolism Frameworks (LSFs), while a latent-free router adaptively selects and composes these languages per query to optimize the accuracy-token trade-off. Unlike prompt optimization that refines surface instructions, CLSR treats each LSF as a reusable symbolic protocol with compact symbols, usage rules, and a message-passing contract, and improves it through an evolutionary loop driven by correctness and token cost. At inference time, the router may invoke a single low-cost LSF call, ensemble multiple LSFs, or execute a multi-round LSF composition protocol on harder queries. Across challenging benchmarks, CLSR reduces latency-oriented generated token completion by $3\\sim 6\\times$ compared to standard CoT while maintaining accuracy. We further derive an information-theoretic lower bound on token cost under arbitrary symbolism and show that, under an interpreter-realizability premise, multi-round LSF protocols conditionally subsume program-execution pipelines. Code is publicly available (https://github.com/pzqpzq/LSF_MDia).",
+    "url": "http://arxiv.org/abs/2606.29354v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29354v1",
+    "published": "2026-06-28",
+    "categories": [
+      "cs.AI",
+      "cs.NE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.31976v1",
+    "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+    "authors": [
+      "Shiyi Chen",
+      "Nicholas Saban",
+      "Collin Hargreaves",
+      "Huiqi Wang"
+    ],
+    "abstract": "Human-labeled data are widely used as reference annotations in ML, despite known variability across annotators in many expert-driven domains. In addition, expert annotation is slow, inconsistent, and remains a major bottleneck for scaling tasks like tree height bias classification in forestry remote sensing. We propose a multi-agent system (MAS) that orchestrates expert decision trees with Vision-Language Models (VLMs), treating the decision tree as a structural prior while VLMs perform localized semantic perception at individual nodes, with multi-agent voting to mitigate VLM stochasticity. We formalize a Decoupled Declarative Decision (D3) Framework that enables zero-modification generalization across diverse expert-defined decision structures. On a tree bias classification testbed, our framework outperforms supervised ML baselines and reduces the amount of expert labeling effort required. These results suggest that agentic orchestration of VLMs with expert priors can reproduce expert-defined labeling procedures at substantially lower annotation cost while maintaining interpretability.",
+    "url": "http://arxiv.org/abs/2606.31976v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31976v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.31980v1",
+    "title": "DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching",
+    "authors": [
+      "Meng Chen",
+      "Anya Ji",
+      "Tsung-Han Wu",
+      "Tobias Maringgele",
+      "David M. Chan"
+    ],
+    "abstract": "Agents are increasingly capable of automating software tasks, but can they teach humans how to use software themselves? We introduce DigitalCoach, a multimodal dataset of 72 human expert-novice computer use coaching sessions consisting of 22,752 dialogue turns grounded in 28.1 hours of screen and input event recordings across five software applications. We use DigitalCoach to evaluate whether state-of-the-art models can teach humans how to use computers. Automated evaluation shows that models differ from humans in how they coach: models provide more direct instructions, but fewer explanations, error diagnoses, and knowledge-check questions. When we fix the coaching method, models produce utterances similar to human references yet poorly grounded in visual context. Interactive evaluation confirms that model coaches cause learners to passively follow instructions without deeper engagement and fall short in visual grounding. DigitalCoach lays a foundation for collaborative and proactive computer use coaching agents.",
+    "url": "http://arxiv.org/abs/2606.31980v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31980v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.31081v1",
+    "title": "Usage frequency and application variety of research methods in library and information science: Continuous investigation from 1991 to 2021",
+    "authors": [
+      "Chengzhi Zhang",
+      "Liang Tian",
+      "Heting Chu"
+    ],
+    "abstract": "The present study analyzed over 26,000 research articles published between 1991 and 2021 in twenty-one major LIS (Library and Information Science) journals, using the machine learning (ML) approach to categorize the research methods used by LIS scholars. The findings of this study are significant. Firstly, there has been a shift in the research strategy from conceptual research (e.g., \"Theoretical approach\") to empirical research (e.g., \"Interview\") in LIS investigations over the past 31 years. Secondly, the research topics explored by LIS scholars during this period have moved from system-centered issues (e.g., \"Information retrieval/models and algorithms\") to user-centered topics (e.g., \"Information services \"). Thirdly, the study revealed dynamic and revealing relationships between the 18 research topics identified in the study and the 16 research methods commonly adopted in the LIS field. These dynamic relationships can be visualized by year and longitudinally via an interactive map created in this study.",
+    "url": "http://arxiv.org/abs/2606.31081v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31081v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.DL",
+      "cs.CL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2606.29872v1",
+    "title": "Unveiling Novelty Evolution in the field of Library and Information Science in China",
+    "authors": [
+      "Chen Yang",
+      "Yuzhuo Wang",
+      "Chengzhi Zhang"
+    ],
+    "abstract": "This study analyzes the novelty distribution of scholarly papers in the field of Library and Information Science (LIS) in China, with a focus on differences across journals, research topics, and time periods. Articles published in Chinese LIS journals indexed by the Chinese Social Sciences Citation Index (CSSCI) from 2000 to 2022 were collected as the research sample. BERTopic was applied to paper abstracts to identify research topics, and novelty scores were calculated based on the combinatorial innovation theory of reference pairs cited by focal papers. The study then examined the novelty of papers under different topics and further analyzed author collaboration patterns to explain how collaboration may be associated with paper novelty. The results show that archival research topics generally have lower novelty, whereas topics related to journal evaluation and patent technology display higher novelty in Chinese LIS research. Overall, the novelty of papers in this field has gradually increased over time. Papers with different topics and novelty levels also show distinct collaboration patterns: low-novelty topics are more often associated with solo authorship, while high-novelty topics tend to involve a higher proportion of inter-institutional collaboration. This study reveals the topic-level characteristics and temporal trends of novelty in Chinese LIS research and provides a new perspective for understanding how research topics and collaboration patterns influence scholarly innovation.",
+    "url": "http://arxiv.org/abs/2606.29872v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29872v1",
+    "published": "2026-06-29",
+    "categories": [
+      "cs.DL",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  }
+]
