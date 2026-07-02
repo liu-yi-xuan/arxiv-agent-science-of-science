@@ -24,6 +24,54 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-02
+
+**19 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping](http://arxiv.org/abs/2606.31831v1) | Renan Souza, Daniel Rosendo, Kelsey Carter et al. | High-throughput plant phenotyping now generates image derived datasets far faster than scientists can analyze them. |
+| [Creating Impactful Autonomous Driving Datasets: A Strategic Guide from Research Gap to Benchmark](http://arxiv.org/abs/2607.00710v1) | Richard Schwarzkopf, Jonas Merkert, Frank Bieder et al. | Well-designed autonomous driving datasets have fundamentally shaped research progress, yet existing literature primarily describes what datasets contain rather than how to strategically design impa... |
+| [One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution](http://arxiv.org/abs/2606.31478v1) | Jie Ma, Binfei Chu, Jie Gao et al. | Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. |
+| [Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration](http://arxiv.org/abs/2606.30246v1) | Zihan Guo, Zeyi Chen, Zhiyu Chen et al. | Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Self-Evolving World Models for LLM Agent Planning](http://arxiv.org/abs/2606.30639v1) | Xuan Zhang, Wenxuan Zhang, See-Kiong Ng et al. | World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. |
+| [FinPersona-Bench: A Benchmark for Longitudinal Psychometric Stability of Autonomous Financial Agents](http://arxiv.org/abs/2606.31522v2) | Muhammad Usman Safder, Ayesha Gull, Rania Elbadry et al. | Large Language Models (LLMs) are increasingly deployed as autonomous financial agents initialized with explicit behavioral mandates such as "preserve capital" or "avoid speculative bets" that are m... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Turn Agentic Scientific Literature Search via Workflow Induction](http://arxiv.org/abs/2607.00597v1) | Jisen Li, Bingxuan Li, Nanyi Jiang et al. | Scientific literature search often requires more than retrieving papers from a single query: users' intents are underspecified, preference-dependent, and evolve through interaction. |
+| [Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation](http://arxiv.org/abs/2607.00454v1) | Vedant Balasubramaniam, Geetha Charan, Manojkumar Patil et al. | Agricultural advisory systems face a fundamental tension: static agronomic guidelines offer consistent, evidence-based recommendations, yet remain blind to in-season variability and dynamic uncerta... |
+| [TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models](http://arxiv.org/abs/2606.31976v1) | Shiyi Chen, Nicholas Saban, Collin Hargreaves et al. | Human-labeled data are widely used as reference annotations in ML, despite known variability across annotators in many expert-driven domains. |
+| [DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching](http://arxiv.org/abs/2606.31980v1) | Meng Chen, Anya Ji, Tsung-Han Wu et al. | Agents are increasingly capable of automating software tasks, but can they teach humans how to use software themselves? |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Usage frequency and application variety of research methods in library and information science: Continuous investigation from 1991 to 2021](http://arxiv.org/abs/2606.31081v1) | Chengzhi Zhang, Liang Tian, Heting Chu | The present study analyzed over 26,000 research articles published between 1991 and 2021 in twenty-one major LIS (Library and Information Science) journals, using the machine learning (ML) approach... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents](http://arxiv.org/abs/2607.00436v1) | Ke Zhang, Sahchit Chundur, Mohammad Javad Qomi et al. | Large language model agents are increasingly connected to scientific software, yet it remains unclear when tool access makes scientific computation more reliable rather than merely more complex. |
+| [Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?](http://arxiv.org/abs/2607.01211v1) | Zhi Chen, Zhensu Sun, Yuling Shi et al. | Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimize... |
+| [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](http://arxiv.org/abs/2607.01071v1) | Zhishang Xiang, Zerui Chen, Yunbo Tang et al. | Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. |
+| [AGI Maze as a Benchmark Framework for World-Modeling Agents](http://arxiv.org/abs/2607.00627v1) | Alexey Potapov | Large language models (LLMs) are powerful pattern-completion systems, but their default operating mode - predicting the next token from a static context - does not reliably produce persistent, mani... |
+| [EgoGapBench: Benchmarking Egocentric Action Selection in Multi-Agent Scenes](http://arxiv.org/abs/2607.00547v1) | Jihyeok Jung, Jeewu Lee, Sanghyeop Kim et al. | Existing egocentric benchmarks have primarily constructed the egocentric setting from first-person-view data, which makes it difficult to evaluate egocentric perspective itself in isolation. |
+| [HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Agents](http://arxiv.org/abs/2606.31179v1) | Qianchu Liu, Sheng Zhang, Guanghui Qin et al. | As AI agents become increasingly capable of complex, long-horizon reasoning, rigorous and holistic evaluation is essential for measuring progress toward real-world healthcare applications. |
+| [ClawArena-Team: Benchmarking Subagent Orchestration and Dynamic Workflows in Language-Model Agents](http://arxiv.org/abs/2606.31174v1) | Kaiwen Xiong, Haonian Ji, Shi Qiu et al. | Production large language-model (LLM) agents are increasingly deployed not as lone problem-solvers but as managers: a main model creates specialized subagents, delegates work, and orchestrates thei... |
+| [PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks](http://arxiv.org/abs/2606.31154v1) | Apurva Gandhi, Vishwas Suryanarayanan, Raja Hasnain Anwar et al. | Creating and editing slides is a rich, multimodal activity that is ubiquitous in professional and educational settings, making it an ideal testbed for real-world computer-use agents. |
+
 ### 📅 2026-07-01
 
 **14 new papers found**
