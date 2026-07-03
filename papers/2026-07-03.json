@@ -1,0 +1,447 @@
+[
+  {
+    "id": "2606.31831v1",
+    "title": "An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping",
+    "authors": [
+      "Renan Souza",
+      "Daniel Rosendo",
+      "Kelsey Carter",
+      "John Lagergren",
+      "Frédéric Suter"
+    ],
+    "abstract": "High-throughput plant phenotyping now generates image derived datasets far faster than scientists can analyze them. At Oak Ridge National Laboratory's Advanced Plant Phenotyping Laboratory (APPL), automated stations image hundreds of plants daily across multiple remote sensing modalities; yet, trait extraction and interpretation remain manual, expert-bound, and strictly post-hoc, making analysis, not acquisition, the binding constraint on discovery. We present an end-to-end agentic AI framework that turns the facility from a data factory into an interactive autonomous, discovery platform, where scientists partner with AI agents to accelerate time to insight. A conversational Co-Scientist Agent translates a scientist's natural-language question into a structured analysis plan, and a headless Compute Agent dispatches Vision Transformer segmentation and trait extraction on the Frontier exascale supercomputer. The two agents run in separate security and resource domains and communicate over a secure, token-authenticated streaming channel, a design that accounts for the federation, data-movement, and provenance realities cloud-native agentic frameworks ignore, ensuring end-to-end provenance is captured for every interaction. The framework turns a days- to weeks-long analysis process into an interactive loop where agents reason over results, recommend next analyses, and respond to follow-up questions in seconds.",
+    "url": "http://arxiv.org/abs/2606.31831v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31831v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.01584v1",
+    "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
+    "authors": [
+      "Mahyar Ghazanfari",
+      "Amin Tabrizian",
+      "Armin Mehrabian",
+      "Peng Wei"
+    ],
+    "abstract": "Large language models have recently been explored for scientific hypothesis generation, but most prior work relies on unstructured literature and free-form textual claims. We present a pipeline for Earth observation that grounds hypothesis generation directly in the NASA Earth Observation Knowledge Graph. A heterogeneous graph neural network trained on historical co-usage relations ranks candidate dataset pairings, and a three-agent LLM pipeline filters, generates, and evaluates structured research hypotheses. Applied to 1,475 NASA datasets, the system produces 160 hypotheses spanning multiple Earth-science domains, including ecohydrology, glaciology, aerosol--cloud interactions, vegetation phenology, and stratospheric chemistry. Model-predicted novel dataset pairings are rated nearly as plausible as held-out real co-usages from the literature, indicating that the pipeline surfaces scientifically coherent yet unexplored combinations. A 2*2*2 factorial experiment across GPT-5.2 and Claude Sonnet 4.6 shows that hypothesis rankings remain stable, while absolute scores depend strongly on judge identity, highlighting limitations of single-judge LLM evaluation.",
+    "url": "http://arxiv.org/abs/2607.01584v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01584v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.01639v1",
+    "title": "Autonomous discovery of traffic laws with AI traffic scientists",
+    "authors": [
+      "Xingyuan Dai",
+      "Yue Liu",
+      "Xiaoyan Gong",
+      "Qinghai Miao",
+      "Junyou Shang"
+    ],
+    "abstract": "Universal traffic laws describe recurrent patterns in congestion, mobility and driving behavior across cities, providing a scientific basis for transportation planning, management and control. Their discovery, however, remains expert-driven, requiring candidate regularities to be identified from heterogeneous observational evidence or validated through intervention experiments. Although autonomous artificial intelligence (AI) systems have advanced scientific discovery in controlled laboratory settings, extending them to complex transportation domains remains a challenge. Here we present TrafficSci, an agentic AI system that formulates traffic-law discovery as an iterative, auditable workflow integrating evidence scoping, critic-judge hypothesis induction, and observational-interventional validation. Across four case studies spanning population, network, control and trajectory scales, TrafficSci autonomously rediscovers three established traffic laws and identifies an unreported intrinsic temporal memory scale in urban driving behavior, statistically consistent across eight cities and two trajectory datasets. TrafficSci provides a route for extending AI-driven scientific discovery from controlled domains to complex urban systems.",
+    "url": "http://arxiv.org/abs/2607.01639v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01639v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.02329v1",
+    "title": "Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics",
+    "authors": [
+      "Haonan Huang"
+    ],
+    "abstract": "Autonomous-research agents have demonstrated end-to-end LLM automation in machine-learning sandboxes where execution provides calibration. Frontier physical science differs categorically: physical reasoning underlies every methodology choice, toolchains are often underdocumented, and calibration must come from external literature anchors - which unscaffolded agents cite but do not confront, hallucinating plausible, unverifiable results from internal priors. We present a pipeline that runs end-to-end from a corpus of 11,083 recent condensed-matter physics arXiv papers to a publication-grade manuscript with three substantive physics findings (here on altermagnetic piezomagnetism): the agent autonomously conceives a research direction by mapping the corpus, calibrates methodology by reproducing published references, conducts novel first-principles computations, and writes the manuscript - grounded in literature throughout, across 47 fresh-context sessions in six phases sharing only on-disk state, with 2,162 literature-consultation events. Fault tolerance emerges from redundancy: fresh-context isolation, distributed grounding, and adversarial review catch what any single session misses; pre- and post-pilot stages are fully autonomous, and pilot requires bounded human intervention only at reproduction failures - operational knowledge curation, not scientific direction. Two paired failure modes - a pre-architecture baseline and a no-pilot ablation - isolate structurally enforced numerical confrontation at calibration checkpoints as the operative grounding mechanism. The primitives, characterized failure modes, and quantified intervention pattern lay a foundation for autonomous research in high-stakes scientific domains beyond computational physics.",
+    "url": "http://arxiv.org/abs/2607.02329v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.02329v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.00710v1",
+    "title": "Creating Impactful Autonomous Driving Datasets: A Strategic Guide from Research Gap to Benchmark",
+    "authors": [
+      "Richard Schwarzkopf",
+      "Jonas Merkert",
+      "Frank Bieder",
+      "Annika Bätz",
+      "Alexander Blumberg"
+    ],
+    "abstract": "Well-designed autonomous driving datasets have fundamentally shaped research progress, yet existing literature primarily describes what datasets contain rather than how to strategically design impactful ones. This is especially limiting for small and medium-sized labs and startups that cannot afford to misallocate scarce resources. We argue that impactful dataset creation begins with a diagnosis: whether a research question is blocked by a data problem or an evaluation problem, and proceeds by selecting the minimal data operator(s) that closes the resulting gap, recording new data only when no cheaper operator(s) suffices. We analyze the evolution of major autonomous driving (AD) datasets through this lens and distill a strategic framework spanning gap identification, operator choice, sensor suite design, and annotation strategy. We ground the framework in a running case study of our KITScenes dataset family. The datasets are available at: https://kitscenes.com/",
+    "url": "http://arxiv.org/abs/2607.00710v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00710v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.31478v1",
+    "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+    "authors": [
+      "Jie Ma",
+      "Binfei Chu",
+      "Jie Gao",
+      "Jinlu Zhang",
+      "Yiwei Ma"
+    ],
+    "abstract": "Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. Under the prevailing paradigm, failure recovery is usually delegated to a single free-form reflection: a rich trajectory of metrics, logs, and design choices is compressed into one verbal critique, which often leads either to localized trial-and-error or to hard pivots that discard useful context. We propose SAGE, a Self-correcting, Autonomous, Grounded Experimenter, to tackle this failure-recovery bottleneck. Its core mechanism, Multi-Hypothesis Failure Attribution (MHFA), treats recovery as a structured causal diagnosis. By analyzing dynamic trajectory features, MHFA systematically generates multiple evidence-grounded explanations for a failure, independently evaluates their severity, and deterministically routes the verified root cause to the correct intervention level (hypothesis, experimental design, or implementation). To guarantee scientific honesty, SAGE further employs a grounded reporting mechanism that explicitly constrains drafted results to actual measured values, redacting hallucinated numbers. On a 12-topic, 5-domain benchmark, SAGE increases metrics-bearing outputs from 42% to 92% over a reflection baseline, improves artifact quality from 5.00 to 6.75/10, and blindly outscores AI-Scientist-v2 (52.0 vs. 48.2), with gains concentrated in code development and execution. While fully autonomous scientific writing and generating conference-ready papers remain notoriously difficult open problems for the entire field, SAGE successfully produces significantly more reliable and higher-quality scientific artifacts. Ultimately, by coupling structured recovery with explicit grounding constraints, SAGE significantly outperforms monolithic reflection paradigms, establishing a highly trustworthy foundation for future autonomous research.",
+    "url": "http://arxiv.org/abs/2606.31478v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31478v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2606.31522v2",
+    "title": "FinPersona-Bench: A Benchmark for Longitudinal Psychometric Stability of Autonomous Financial Agents",
+    "authors": [
+      "Muhammad Usman Safder",
+      "Ayesha Gull",
+      "Rania Elbadry",
+      "Fan Zhang",
+      "Yankai Chen"
+    ],
+    "abstract": "Large Language Models (LLMs) are increasingly deployed as autonomous financial agents initialized with explicit behavioral mandates such as \"preserve capital\" or \"avoid speculative bets\" that are meant to govern every decision throughout deployment. In practice, however, as market context accumulates over long horizons, these mandates gradually lose their behavioral influence, a phenomenon we formalize as Mandate Salience Decay (MSD). To measure MSD objectively, we introduce FinPersona-Bench, a simulation benchmark in which a synthetic market decouples observable price from hidden fundamental value, enabling falsifiable evaluation across three failure modes: trading without signal in calm markets, panic-selling during crashes, and ignoring fundamental value during speculative bubbles. Evaluating 18 leading frontier and open-source LLMs, each assigned one of three behavioral profiles ranging from strict capital preservation to aggressive growth, shows that MSD compounds over time and is model-dependent. In crash scenarios, the behavioral gap between static agents and those receiving periodic mandate re-grounding grows 4.4x from the first to the final quarter of the simulation. The effects of mandate re-grounding are not uniformly positive: it consistently helps conservative agents in low-signal markets but actively worsens behavior for aggressive agents in the same setting. These findings suggest that reliable long-horizon deployment requires selective, mandate-aware re-grounding based on agent profile and market regime.",
+    "url": "http://arxiv.org/abs/2606.31522v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.31522v2",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.00597v1",
+    "title": "Multi-Turn Agentic Scientific Literature Search via Workflow Induction",
+    "authors": [
+      "Jisen Li",
+      "Bingxuan Li",
+      "Nanyi Jiang",
+      "Xuying Ning",
+      "Xiyao Wang"
+    ],
+    "abstract": "Scientific literature search often requires more than retrieving papers from a single query: users' intents are underspecified, preference-dependent, and evolve through interaction. Existing search agents typically rely on fixed pipelines or implicit language-only reasoning, making their search strategies difficult to control, inspect, and refine. We introduce PaperPilot, a multi-turn literature search agent that frames scientific search as workflow induction. Given an anchor paper and a user query, PaperPilot constructs an executable DAG of paper-search operators, including keyword search, citation expansion, filtering, scoring, reranking, and evidence extraction. User feedback is then used to refine both the query and the workflow itself. We train PaperPilot with supervised workflow imitation and preference optimization over controlled workflow corruptions. Experiments show that PaperPilot-9B improves over the base Qwen3.5-9B toolset agent under multi-turn interaction, increasing Hit@5 from 58.0 to 77.0, MRR from 47.5 to 59.4, and nDCG@10 from 26.8 to 32.5, while reducing workflow execution errors from 9.5% to 0%. These results show that explicit, editable search workflows provide an effective and controllable interface for aligning literature search agents with complex scientific intent.",
+    "url": "http://arxiv.org/abs/2607.00597v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00597v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.CL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.02507v1",
+    "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+    "authors": [
+      "Arman Ghaffarizadeh",
+      "Danyal Mohaddes",
+      "Aliakbar Izadkhah",
+      "Shahriar Noroozizadeh"
+    ],
+    "abstract": "LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, without any explicit objective in the prompt, changes what an agent expresses publicly relative to an off-the-record (OTR) channel elicited under the same condition. We introduce a dual-channel debate framework in which agents produce public utterances that enter the shared history alongside OTR responses that are recorded but never shown to the other participant. Across 10 models, 3 scenarios, and 5 variations within each scenario, alignment-inducing settings produce systematic public-OTR divergence in the targeted agent, with its decision divergence rising from a $\\sim$3% baseline to roughly 40%. The effect is consistent across four aggregate analyses: stance, semantic similarity, natural language inference, and survey responses. In some cases, the OTR response explicitly attributes public accommodation to relational pressures, such as career risk or sponsorship obligation. The findings suggest that agent evaluation should extend beyond explicit goals and detect emergent objectives. We present a dual-channel evaluation framework and complementary behavioral measures that operationalize this assessment.",
+    "url": "http://arxiv.org/abs/2607.02507v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.02507v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.00454v1",
+    "title": "Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation",
+    "authors": [
+      "Vedant Balasubramaniam",
+      "Geetha Charan",
+      "Manojkumar Patil",
+      "Rohit P Suresh",
+      "V Priyanka"
+    ],
+    "abstract": "Agricultural advisory systems face a fundamental tension: static agronomic guidelines offer consistent, evidence-based recommendations, yet remain blind to in-season variability and dynamic uncertainties. Recent advisory systems powered by LLMs are liable for a different risk of generating recommendations that are agronomically credible but physiologically unconvincing. Agri-SAGE is a closed-loop framework designed to resolve the above two limitations by integrating retrieval-grounded multi-agent LLM reasoning with APSIM-based biophysical simulation, to generate and validate agronomic advisories. To assess this framework, we evaluate three reasoning approaches, namely Plan-and-Solve, Tree of Thoughts, and Reflexion, over a 10-year retrospective analysis. All three significantly outperform static PoP (Package-of-Practice) baselines, with Tree of Thoughts achieving impressive peak yields. At the same time, Reflexion achieves comparable agronomic outcomes at substantially lower computational cost by leveraging cross-seasonal episodic memory.",
+    "url": "http://arxiv.org/abs/2607.00454v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00454v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.31976v1",
+    "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+    "authors": [
+      "Shiyi Chen",
+      "Nicholas Saban",
+      "Collin Hargreaves",
+      "Huiqi Wang"
+    ],
+    "abstract": "Human-labeled data are widely used as reference annotations in ML, despite known variability across annotators in many expert-driven domains. In addition, expert annotation is slow, inconsistent, and remains a major bottleneck for scaling tasks like tree height bias classification in forestry remote sensing. We propose a multi-agent system (MAS) that orchestrates expert decision trees with Vision-Language Models (VLMs), treating the decision tree as a structural prior while VLMs perform localized semantic perception at individual nodes, with multi-agent voting to mitigate VLM stochasticity. We formalize a Decoupled Declarative Decision (D3) Framework that enables zero-modification generalization across diverse expert-defined decision structures. On a tree bias classification testbed, our framework outperforms supervised ML baselines and reduces the amount of expert labeling effort required. These results suggest that agentic orchestration of VLMs with expert priors can reproduce expert-defined labeling procedures at substantially lower annotation cost while maintaining interpretability.",
+    "url": "http://arxiv.org/abs/2606.31976v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31976v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.01600v1",
+    "title": "BOUNDARY_SYNC: Measuring Communication-Induced Representational Coupling in Multi-Agent LLM Systems",
+    "authors": [
+      "Zewen Liu"
+    ],
+    "abstract": "As large language models (LLMs) are deployed as communicating agents, does inter-agent communication cause outputs to converge? We introduce BOUNDARY_SYNC, a protocol measuring representational coupling via the Coupling Amplification Factor (CAF = JSD_cond / JSD_baseline), where CAF < 1 indicates homogenization and CAF > 1 indicates diversification. In controlled GPT-4o experiments (N=30, ~9,900 API calls), we measure coupling in text and image communication. Key findings: (1) text communication causes significant homogenization (CAF=0.803 [0.740, 0.873], d=1.30, p<0.001), confirmed by no-communication ablation and prompt-perturbation controls; (2) image communication also homogenizes under within-modality baselines (CAF=0.834 [0.811, 0.858]), with comparable proportional effect; (3) group size moderates coupling direction -- K=5 produces homogenization while K=3 yields CAF > 1.0 (point estimates 1.14 and 1.06, CI pending), suggesting a directional shift toward diversification; (4) cross-model replication shows extreme variation (CAF 0.034-0.803), with DeepSeek dominated by format artifacts; (5) coupling is stateless -- driven by prompt context rather than cumulative updating, with continuous consensus producing monotonic convergence. These results establish LLM agent coupling as real, measurable, and controllable at the prompt level, with direct implications for multi-agent system design.",
+    "url": "http://arxiv.org/abs/2607.01600v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01600v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2606.31980v1",
+    "title": "DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching",
+    "authors": [
+      "Meng Chen",
+      "Anya Ji",
+      "Tsung-Han Wu",
+      "Tobias Maringgele",
+      "David M. Chan"
+    ],
+    "abstract": "Agents are increasingly capable of automating software tasks, but can they teach humans how to use software themselves? We introduce DigitalCoach, a multimodal dataset of 72 human expert-novice computer use coaching sessions consisting of 22,752 dialogue turns grounded in 28.1 hours of screen and input event recordings across five software applications. We use DigitalCoach to evaluate whether state-of-the-art models can teach humans how to use computers. Automated evaluation shows that models differ from humans in how they coach: models provide more direct instructions, but fewer explanations, error diagnoses, and knowledge-check questions. When we fix the coaching method, models produce utterances similar to human references yet poorly grounded in visual context. Interactive evaluation confirms that model coaches cause learners to passively follow instructions without deeper engagement and fall short in visual grounding. DigitalCoach lays a foundation for collaborative and proactive computer use coaching agents.",
+    "url": "http://arxiv.org/abs/2606.31980v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31980v1",
+    "published": "2026-06-30",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.01833v1",
+    "title": "Non-synchronism in Global Usage of Research Methods in Library and Information Science from 1990 to 2019",
+    "authors": [
+      "Chengzhi Zhang",
+      "Liang Tian"
+    ],
+    "abstract": "The global development of Library and Information Science (LIS) is influenced by various factors such as the economy, society, culture, discipline, tradition, and more. Consequently, the research methods of LIS vary greatly among countries. To better understand these differences, we conducted a study of 5,281 research papers from 81 countries published in internationally representative journals over the past thirty years. We manually annotated the research methods used in some articles through content analysis, and subsequently developed and trained a deep learning model for automatic classification of research methods. Using this method, we conducted a comparative analysis of the usage of research methods in different countries. Our findings reveal that there are differences in the research methods used across countries, with each country having its unique research profile and distribution of research methods. Even when investigating the same topic, research methods can differ between countries. Our study also uncovers that there are differences between the national and international distribution of research methods, these differences have decreased over the past 30 years. By highlighting the characteristics of discipline development in various countries from the perspective of research methods, our study can help guide discipline development at the national level. This study provides insights into the usage trends of research methods across different countries and highlights the unique characteristics of discipline development in each country. This information can be valuable in promoting collaboration and understanding between countries and in guiding discipline development at the national level.",
+    "url": "http://arxiv.org/abs/2607.01833v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01833v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.DL",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2607.01828v1",
+    "title": "Gender Differences in Research Topic and Method Selection in Library and Information Science: Perspectives from Three Top Journals",
+    "authors": [
+      "Chengzhi Zhang",
+      "Siqi Wei",
+      "Yi Zhao",
+      "Liang Tian"
+    ],
+    "abstract": "Research in the social sciences has shown that there are gender differences in the selection of research methods, with women often opting for qualitative methods while men prefer quantitative methods. However, it is important to consider that research methods are generally chosen based on the research topic. To figure out the influence of gender on research method selection, a study was conducted in the field of Library and Information Science, using a more fine-grained method classification system and an automatic classification model called CogFT, which is based on full-text cognition. The findings showed that women tend to use Interview while men prefer Theoretical approach, across a range of topics. The study offers insights into the specific research design processes that contribute to gender differences in method selection and suggests ways to promoting gender inclusivity and equality in academia by considering research method use and guidance.",
+    "url": "http://arxiv.org/abs/2607.01828v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01828v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.DL",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2607.00436v1",
+    "title": "PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents",
+    "authors": [
+      "Ke Zhang",
+      "Sahchit Chundur",
+      "Mohammad Javad Qomi",
+      "Maziar Raissi"
+    ],
+    "abstract": "Large language model agents are increasingly connected to scientific software, yet it remains unclear when tool access makes scientific computation more reliable rather than merely more complex. We introduce PHREEQC-MCQ-200, a benchmark for evaluating tool-augmented agents on deterministic aqueous-geochemistry simulations. The benchmark contains 200 multiple-choice questions derived from 21 validated PHREEQC scenarios, requiring agents to construct simulator inputs, execute PHREEQC, inspect structured outputs, and commit to final answers.   Across multiple frontier and mid-tier model families, simulator access substantially improves aggregate accuracy, confirming that grounded execution is necessary for many scientific-computation tasks. However, the gains are not monotonic: tool-augmented agents also lose items they answered correctly without tools, revealing regressions that average accuracy alone hides. We further show that output-access protocol matters. A table-of-contents interface can reduce token cost while preserving or improving accuracy for stronger models, but it degrades performance for mid-tier models that cannot reliably navigate structured simulator outputs.   PHREEQC-MCQ-200 therefore frames scientific tool use as an end-to-end diagnostic problem rather than a simple tool-calling capability. We argue that evaluations of scientific agents should report not only accuracy, but also item-level retention, output-access sensitivity, trajectory failures, and where the computation chain breaks.",
+    "url": "http://arxiv.org/abs/2607.00436v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00436v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.02141v1",
+    "title": "A$^{2}$utoLPBench: An Auto-Generated, Agent-Friendly LP Benchmark via Inverse-KKT Construction",
+    "authors": [
+      "Shuo Ren",
+      "Yaohui Han",
+      "Yifan Shi",
+      "Libo Shen",
+      "Haodong Lu"
+    ],
+    "abstract": "Most LP-from-text benchmarks are static datasets of word problems written and labeled by hand. Once such a dataset is released, its size is fixed, its difficulty is fixed, and every problem can leak into the training data of future LLMs. We present \\textbf{A$^{2}$utoLPBench}, a benchmark for testing LLM-driven agents on linear programming problems written in plain text. We first pick a feasible point and dual, then write down a problem for which that point is optimal and the objective value is known. The answer is known by construction, with no solver call and no human annotator. The evaluation environment bundles a reference solver-critic baseline and a Docker image whose usage instructions are written for an LLM-driven agent to read. With these in place, any agent can run the benchmark and get a calibrated score with one command. Because the benchmark is a generator rather than a fixed dataset, it has properties no fixed dataset can match: an unlimited supply of fresh problems, a difficulty knob set by $(n,m)$, ground-truth answers correct by construction, low LLM-side cost per problem relative to human authoring, repeatable scores across independent batches, and resistance to training-data leakage when fresh post-cutoff seed ranges are used.",
+    "url": "http://arxiv.org/abs/2607.02141v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.02141v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.01647v1",
+    "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
+    "authors": [
+      "Zhaoyan Sun",
+      "Shan Zhong",
+      "Daizhou Wen",
+      "Jiaxing Han",
+      "Guoliang Li"
+    ],
+    "abstract": "Data science aims to derive actionable insights from heterogeneous raw data, unlocking the value of the massive amounts of data generated in modern society. Automating this process is essential to reducing labor-intensive efforts for data scientists and enabling scalable data-driven applications. Recently, large language model (LLM)-based data agents have emerged as a promising solution to automate data science workflows. However, the field lacks comprehensive benchmarks to rigorously evaluate these agents across diverse scenarios with fine-grained granularity. To address this gap, we propose AgenticDataBench, a comprehensive benchmark featuring realistic tasks spanning diverse domains with fine-grained ground-truth labels. This enables evaluations to capture the diversity and complexity of data science workflows and the detailed performance of agents. First, to cover diverse domains, we collect real datasets and tasks from 15 vertical domains, including 5 real-world B2B use cases from a leading fintech company. Second, to remove redundancy in real-world tasks and generate high-quality tasks for domains lacking real data, we introduce data science skills, recurring data-centric operational patterns, and quantify benchmark coverage by the number of skills included. Representative skills are extracted from large-scale task solutions on Stack Overflow using skill-aligned hierarchical clustering. Third, for real-world business tasks, we select task-solution pairs that maximize diversity in skill composition, ensuring broad coverage of practical scenarios. Fourth, to generate realistic tasks for devise domains without real tasks, we propose a systematic LLM-based task generation approach to create workflows and tasks based on these skills. Finally, we evaluate state-of-the-art data agents using our annotated benchmark and open-sourced testbed, providing detailed skill-level insights.",
+    "url": "http://arxiv.org/abs/2607.01647v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01647v1",
+    "published": "2026-07-02",
+    "categories": [
+      "cs.DB",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.DB",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.01211v1",
+    "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
+    "authors": [
+      "Zhi Chen",
+      "Zhensu Sun",
+      "Yuling Shi",
+      "David Lo",
+      "Lingxiao Jiang"
+    ],
+    "abstract": "Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized baselines and official reference patches. Their leaderboard scores are increasingly used as evidence of coding-agent progress, but those scores can conflate runtime instability, benchmark-specific scoring rules, and how many tasks are already solved by at least one public submission. We audit these issues across the three benchmarks. First, we replay the official reference patches for 740 code optimization tasks across four common types of Google Cloud machines. Most benchmark tasks can be replayed, but their reference patches satisfy the original benchmark validity rules in every cross-machine replay for only 39/102 GSO tasks, 11/140 SWE-Perf tasks, and 411/498 SWE-fficiency tasks; SWE-Perf is especially fragile because many reference patches produce close-to-zero runtime changes. Second, we show that public submission rankings depend strongly on the benchmark scoring rule. Among eight public submissions shared by GSO and SWE-fficiency, the official rankings disagree on 9 of 28 pairwise submission comparisons, and SWE-fficiency's leaderboard scoring rule assigns the worst ten tasks overly high score weights of 58.5%-82.8%. Third, looking across 10 public submissions for each task, we find that at least one submission matches or beats the reference patch on 85.3% (384/450) of replay-valid GSO and SWE-fficiency tasks, and beats the unoptimized base code on 99.8% (449/450). Our study complements leaderboard scores by identifying tasks with more reliable performance signals, quantifying per-task score contributions, and exposing the remaining performance gaps that are hidden by aggregate rankings.",
+    "url": "http://arxiv.org/abs/2607.01211v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01211v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.01071v2",
+    "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+    "authors": [
+      "Zhishang Xiang",
+      "Zerui Chen",
+      "Yunbo Tang",
+      "Zhimin Wei",
+      "Ruqin Ning"
+    ],
+    "abstract": "Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. However, memory is not always beneficial: retrieved memories often induce a critical issue of sycophancy, causing agents to over-align with the user at the cost of factual accuracy or objective reasoning. Despite this emerging risk, existing memory benchmarks primarily evaluate whether memories are correctly stored, retrieved, or updated, while overlooking how retrieved memories influence downstream reasoning and decision-making. To bridge this gap, we propose MemSyco-Bench, a comprehensive benchmark for evaluating memory-induced sycophancy in agent systems. MemSyco-Bench measures when memory should influence a decision and how valid memory should be used. Specifically, it covers five tasks that assess whether agents can reject memory as factual evidence, respect its applicable scope, resolve conflicts between memory and objective evidence, track memory updates, and use valid memory for personalization. All related resources are collected for the community at https://github.com/XMUDeepLIT/MemSyco-Bench.",
+    "url": "http://arxiv.org/abs/2607.01071v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.01071v2",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.IR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.00627v1",
+    "title": "AGI Maze as a Benchmark Framework for World-Modeling Agents",
+    "authors": [
+      "Alexey Potapov"
+    ],
+    "abstract": "Large language models (LLMs) are powerful pattern-completion systems, but their default operating mode - predicting the next token from a static context - does not reliably produce persistent, manipulable representations of an external world. Many tasks that look like \"reasoning\" in text become substantially harder once the environment is partially observable, stateful, and requires memory and structured hypotheses about hidden state. AGI Maze is a lightweight framework for building such environments without requiring high-dimensional sensory inputs. It provides a family of grid-based maze tasks with a clean API and multiple difficulty regimes. The goal is to create benchmarks where agents must learn and use world state representations, not just infer a local rule over readily provided observations. We provide an initial evaluation of several vanilla LLMs on simple mazes showing that they fail to represent mazes internally at LLM inference time. We also introduce a baseline agent, which is allowed to use its message history as a working memory to construct descriptions of observations at agentic runtime. Although this can improve performance, it is still insufficient for an LLM agent to reliably solve even small mazes within a step budget that is more than enough for humans.",
+    "url": "http://arxiv.org/abs/2607.00627v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00627v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.00547v1",
+    "title": "EgoGapBench: Benchmarking Egocentric Action Selection in Multi-Agent Scenes",
+    "authors": [
+      "Jihyeok Jung",
+      "Jeewu Lee",
+      "Sanghyeop Kim",
+      "Chanhee Han",
+      "Seong Joon Oh"
+    ],
+    "abstract": "Existing egocentric benchmarks have primarily constructed the egocentric setting from first-person-view data, which makes it difficult to evaluate egocentric perspective itself in isolation. However, understanding first-person-view input and taking an egocentric perspective are separable abilities, especially when first-person body cues are absent or when other agents are present. To isolate egocentric perspective understanding, we introduce EgoGapBench, a diagnostic benchmark for measuring action selection in multi-agent egocentric scenes. We define the ability measured by this benchmark as Egocentric Action Selection (EAS): selecting an appropriate action from the agent's perspective in the presence of other agents. On EgoGapBench, humans answer reliably, whereas both open-source and proprietary MLLMs perform substantially worse and systematically select actions performed by other visible agents. Fine-tuning on existing egocentric data fails to close this gap and can even be detrimental. In contrast, fine-tuning on EgoGapBench training data improves accuracy but does not reach human performance. These results show that EAS is difficult to acquire from first-person-view data alone, and that MLLMs should be evaluated and trained not only for scene understanding but also for egocentric action selection.",
+    "url": "http://arxiv.org/abs/2607.00547v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00547v1",
+    "published": "2026-07-01",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
