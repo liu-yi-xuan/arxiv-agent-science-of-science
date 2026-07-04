@@ -24,6 +24,41 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-04
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation](http://arxiv.org/abs/2607.01584v1) | Mahyar Ghazanfari, Amin Tabrizian, Armin Mehrabian et al. | Large language models have recently been explored for scientific hypothesis generation, but most prior work relies on unstructured literature and free-form textual claims. |
+| [Autonomous discovery of traffic laws with AI traffic scientists](http://arxiv.org/abs/2607.01639v1) | Xingyuan Dai, Yue Liu, Xiaoyan Gong et al. | Universal traffic laws describe recurrent patterns in congestion, mobility and driving behavior across cities, providing a scientific basis for transportation planning, management and control. |
+| [Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics](http://arxiv.org/abs/2607.02329v1) | Haonan Huang | Autonomous-research agents have demonstrated end-to-end LLM automation in machine-learning sandboxes where execution provides calibration. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates](http://arxiv.org/abs/2607.02507v1) | Arman Ghaffarizadeh, Danyal Mohaddes, Aliakbar Izadkhah et al. | LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. |
+| [BOUNDARY_SYNC: Measuring Communication-Induced Representational Coupling in Multi-Agent LLM Systems](http://arxiv.org/abs/2607.01600v1) | Zewen Liu | As large language models (LLMs) are deployed as communicating agents, does inter-agent communication cause outputs to converge? |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Non-synchronism in Global Usage of Research Methods in Library and Information Science from 1990 to 2019](http://arxiv.org/abs/2607.01833v1) | Chengzhi Zhang, Liang Tian | The global development of Library and Information Science (LIS) is influenced by various factors such as the economy, society, culture, discipline, tradition, and more. |
+| [Gender Differences in Research Topic and Method Selection in Library and Information Science: Perspectives from Three Top Journals](http://arxiv.org/abs/2607.01828v1) | Chengzhi Zhang, Siqi Wei, Yi Zhao et al. | Research in the social sciences has shown that there are gender differences in the selection of research methods, with women often opting for qualitative methods while men prefer quantitative methods. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A$^{2}$utoLPBench: An Auto-Generated, Agent-Friendly LP Benchmark via Inverse-KKT Construction](http://arxiv.org/abs/2607.02141v1) | Shuo Ren, Yaohui Han, Yifan Shi et al. | Most LP-from-text benchmarks are static datasets of word problems written and labeled by hand. Once such a dataset is released, its size is fixed, its difficulty is fixed, and every problem can lea... |
+| [AgenticDataBench: A Comprehensive Benchmark for Data Agents](http://arxiv.org/abs/2607.01647v1) | Zhaoyan Sun, Shan Zhong, Daizhou Wen et al. | Data science aims to derive actionable insights from heterogeneous raw data, unlocking the value of the massive amounts of data generated in modern society. |
+| [Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?](http://arxiv.org/abs/2607.01211v1) | Zhi Chen, Zhensu Sun, Yuling Shi et al. | Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimize... |
+| [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](http://arxiv.org/abs/2607.01071v2) | Zhishang Xiang, Zerui Chen, Yunbo Tang et al. | Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. |
+
 ### 📅 2026-07-03
 
 **22 new papers found**
