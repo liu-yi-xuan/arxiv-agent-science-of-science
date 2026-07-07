@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-07
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery](http://arxiv.org/abs/2607.04508v1) | Kyunghoon Hur, Chihun Lee | Agentic AI-for-Science can automate ideation, planning, and analysis, but final validation still depends on real experiments. |
+| [Rethinking Scientific Discovery in an Agentic Era](http://arxiv.org/abs/2607.03863v1) | Yining Zheng, Yuxin Wang, Jiahao Lu et al. | Artificial intelligence has advanced scientific discovery, but most AI4Science systems remain fragmented tools that rely on humans to coordinate problem formulation, literature grounding, model use... |
+| [Dictionaries, Not Darwin: Set-Level Selection Beats LLM Evolution in Scientific Equation Discovery](http://arxiv.org/abs/2607.04108v1) | Pan Li | Large language models are increasingly used as evolutionary engines for scientific discovery: generate candidates, select winners, feed them back as parents, and repeat. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents](http://arxiv.org/abs/2607.04686v1) | Harsh Soni | Tool calling is central to modern language model agents, but aggregate benchmark scores often hide where tool use fails. |
+| [Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems](http://arxiv.org/abs/2607.04433v1) | Xinyu Lin, Yashar Deldjoo, Sunhao Dai et al. | The rapid integration of large language model-based agents into recommender systems has driven a shift from static, ranking-based pipelines toward autonomous and interactive systems that can reason... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agentic SABRE: An Uncertainty-Aware Neuro-Symbolic Multi-Agent Framework for Adaptive Ransomware Detection](http://arxiv.org/abs/2607.04292v1) | Henry Kabuye, Biju Issac, Jeyamohan Neera | Ransomware has evolved into a complex, adaptive, and fast-moving adversary category in which static signatures and monolithic classifiers fail to generalise under concept drift, evasion, and behavi... |
+
 ### 📅 2026-07-06
 
 *No new papers found today.*

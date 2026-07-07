@@ -1,0 +1,114 @@
+[
+  {
+    "id": "2607.04508v1",
+    "title": "Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery",
+    "authors": [
+      "Kyunghoon Hur",
+      "Chihun Lee"
+    ],
+    "abstract": "Agentic AI-for-Science can automate ideation, planning, and analysis, but final validation still depends on real experiments. A self-driving lab (SDL) can execute those experiments, yet the loop still has bottlenecks: the agent may spend too many rounds on low-value experiments, or each round may require a high-cost experiment. We target these two physical bottlenecks with one agent. First, a prior-aware agentic DOE loop uses domain knowledge and past results to propose feasible and informative next experiments, reducing trials-to-target. Second, a cost-aware surrogate agent predicts high-cost, high-resolution measurements from low-cost, low-resolution measurements. It chooses between a high- and a low-cost measurement based on the predicted uncertainty. We examine these directions in the biology and materials domains, respectively. Together, under a single agent, these components aim to accelerate the SDL loop by reducing both the number of loops and the cost per experiment.",
+    "url": "http://arxiv.org/abs/2607.04508v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.04508v1",
+    "published": "2026-07-05",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.03863v1",
+    "title": "Rethinking Scientific Discovery in an Agentic Era",
+    "authors": [
+      "Yining Zheng",
+      "Yuxin Wang",
+      "Jiahao Lu",
+      "Shicheng Fang",
+      "Weiyi Wang"
+    ],
+    "abstract": "Artificial intelligence has advanced scientific discovery, but most AI4Science systems remain fragmented tools that rely on humans to coordinate problem formulation, literature grounding, model use, simulation, validation, and knowledge reuse. This paper presents \\textbf{SCION (Scientific Collaborative Innovation with Agentic Organizational Nexus)}, an agentic scientific operating system that acts as an \\textbf{organizational nexus}. Through a Science Agent serving as a \\textbf{Meta-Harness}, SCION connects scientific tasks, tools, agents, artifacts, and memory, transforming research into an executable, auditable, and reusable operational process. At its core is the \\textbf{Research Execution Plan (REP)}, which compiles high-level scientific intent into staged objectives, dependencies, verification checkpoints, tool requirements, expected artifacts, and fallback conditions. SCION further integrates hierarchical multi-agent execution, profile-driven specialization, selective context construction, governed delegation, and layered epistemic memory to support long-horizon scientific work. We formulate discovery under SCION as \\textbf{Target-conditioned Inverse Search} and extend it to hidden-target settings through batch active search under finite experimental budgets. Applications in materials analysis, molecule design, and protein or antibody screening, together with experiments on scientific reading, idea generation, molecule generation, and antibody screening, show that SCION outperforms existing autonomous research-agent baselines, especially in decomposition, verification, refinement, and memory reuse. Overall, SCION shifts AI from isolated tools toward a coordinated operational layer for traceable and reusable scientific innovation.",
+    "url": "http://arxiv.org/abs/2607.03863v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.03863v1",
+    "published": "2026-07-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.04108v1",
+    "title": "Dictionaries, Not Darwin: Set-Level Selection Beats LLM Evolution in Scientific Equation Discovery",
+    "authors": [
+      "Pan Li"
+    ],
+    "abstract": "Large language models are increasingly used as evolutionary engines for scientific discovery: generate candidates, select winners, feed them back as parents, and repeat. We audit whether this loop actually compounds discovery in scientific equation discovery, a setting where finite samples make structure underdetermined and interpolation easy. Under matched LLM-call budgets, parent-conditioned evolution is indistinguishable from fresh independent sampling: median OOD NMSE is 0.045 vs. 0.049, instructed multi-parent crossover is worse, final success is predicted by initial proposal quality, and multiple iteration schemes fail to add solved problems. Operationally, the loop reduces to what it produces: a dictionary of candidate terms. We turn that diagnosis into PTB-Search, a one-generation method for componentized scientific discovery. PTB-Search samples independent LLM proposals once, extracts reusable terms into a per-problem dictionary, and performs train-only set-level sparse selection with least-squares coefficients. Its central principle is that underdetermined data identifies the joint behavior of term sets, not reliable per-term credit. On identical dictionaries and zero additional LLM calls, set-level selectors solve 165--169 of 717 cells, while single-term reductions solve only 74--78. On the official 239-problem LLM-SRBench split, PTB-Search reaches 73.2% Acc0.1 with Llama-3.1-8B and 77.0% with a single-seed DeepSeek-V4 anchor, versus 49.2% for the best reported baseline, using one tenth of the standardized call budget. A program-domain stress test gives a scoped boundary: generation count remains unreliable, while retained external state can help in harder non-linear spaces. Across these results, LLMs are best understood as material suppliers; discovery is carried by external set-level selection over reusable components.",
+    "url": "http://arxiv.org/abs/2607.04108v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.04108v1",
+    "published": "2026-07-05",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.04686v1",
+    "title": "ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents",
+    "authors": [
+      "Harsh Soni"
+    ],
+    "abstract": "Tool calling is central to modern language model agents, but aggregate benchmark scores often hide where tool use fails. A model that never calls a needed tool and a model that calls the tool but ignores the result can look similar under final task accuracy. We introduce ToolFailBench, a diagnostic benchmark for measuring tool-use failures across 1,000 tasks in finance, medicine, law, cybersecurity, and real estate. Tool-required tasks return values the model wouldn't guess, forcing it to trust the tool while control tasks attach the same tools but should be answered directly. We label each trace with Tool-Skip, Result-Ignore, Output-Fabrication, and Unnecessary-Tool-Use, using a rule classifier and two LLM judges aggregated by majority vote. Across 19 headline models, the best reaches 86.33% Clean Tool-Use Rate, showing that faithful tool use is not saturated. More importantly, models with similar aggregate scores fail in different ways: most stay disciplined on no-tool controls, while Llama-3.1 models show an Always-Call pattern, and at the same parameter scale Llama-3.1-70B and Qwen2.5-72B differ by 89 percentage points on control-task accuracy. Tool-use evaluation should measure not only whether agents call tools, but whether they use tool outputs correctly and avoid tools when none is needed.",
+    "url": "http://arxiv.org/abs/2607.04686v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.04686v1",
+    "published": "2026-07-06",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.04433v1",
+    "title": "Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems",
+    "authors": [
+      "Xinyu Lin",
+      "Yashar Deldjoo",
+      "Sunhao Dai",
+      "Honghui Bao",
+      "Xiaopeng Ye"
+    ],
+    "abstract": "The rapid integration of large language model-based agents into recommender systems has driven a shift from static, ranking-based pipelines toward autonomous and interactive systems that can reason, plan, and act. This survey provides a comprehensive overview of this emerging landscape by introducing a unified taxonomy grounded in the level of autonomy and three core paradigms of agentic recommender systems: agent-assisted recommendation, agent-as-recommender, and agent-as-user-simulator. The autonomy framework organizes existing methods along increasing capabilities in proactivity, context awareness, interaction flexibility, and adaptivity. Building on this framework, the survey analyzes how each paradigm adopts different agentic architectures and how agents enhance key components such as profiles, memory, tool use, workflows, and optimization mechanisms. We further examine evaluation methodologies for agentic recommendation, covering automated metrics, LLM-based judging, and simulation-based assessment, and discuss their limitations in capturing reasoning quality, user experience, and system behavior. Beyond existing evaluation protocols, we further discuss unresolved issues in evaluating agentic recommender systems, including trajectory-level assessment, agent contribution analysis, and calibration of user simulation. Lastly, the survey outlines open challenges in lifelong user modeling, contextual abstraction, multimodal alignment, controllability, trustworthiness, privacy, scalability, and efficiency. Together, these analyses establish a unified foundation for understanding the current progress of agentic recommender systems and highlight promising opportunities for developing more autonomous, reliable, and human-aligned recommendation agents.",
+    "url": "http://arxiv.org/abs/2607.04433v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.04433v1",
+    "published": "2026-07-05",
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.04292v1",
+    "title": "Agentic SABRE: An Uncertainty-Aware Neuro-Symbolic Multi-Agent Framework for Adaptive Ransomware Detection",
+    "authors": [
+      "Henry Kabuye",
+      "Biju Issac",
+      "Jeyamohan Neera"
+    ],
+    "abstract": "Ransomware has evolved into a complex, adaptive, and fast-moving adversary category in which static signatures and monolithic classifiers fail to generalise under concept drift, evasion, and behavioural polymorphism. In this paper, we present Agentic SABRE (Semantic-Behavioural Arbitration for Ransomware Evaluation), an uncertainty-aware, neuro-symbolic, multi-agent framework for adaptive ransomware detection. SABRE fuses semantic, representation-based evidence with behavioural, time-window forensic telemetry and employs Monte Carlo Dropout inference to quantify epistemic uncertainty for each agent. We introduce a decision-layer orchestrator that performs risk- and uncertainty-aware triage using two interpretable thresholds: a risk score and an uncertainty budget. High-confidence, high-risk samples are automatically contained, while uncertain or borderline cases are escalated to human analysts, establishing a flexible computational contract between autonomous response and analyst oversight. To support auditability and trust, SABRE integrates post-hoc explainability mechanisms, including gradient saliency, permutation importance, and counterfactual analysis, enabling both local and global interpretation of agent decisions. Extensive evaluation on RDset and RanSMAP demonstrates that Agentic SABRE preserves perfect discrimination on saturated semantic datasets, with AUC equal to 1.0, while improving robustness under weak behavioural signals. It achieves up to a 4.9 percent relative reduction in false escalations at equal recall while maintaining calibrated predictive uncertainty. Counterfactual analysis further shows that semantic and behavioural decisions can be reversed with bounded perturbation cost, indicating stable and interpretable decision boundaries.",
+    "url": "http://arxiv.org/abs/2607.04292v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.04292v1",
+    "published": "2026-07-05",
+    "categories": [
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
