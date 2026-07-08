@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-08
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents](http://arxiv.org/abs/2607.05682v1) | Yufeng Wang | LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain dif... |
+| [Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery](http://arxiv.org/abs/2607.04508v1) | Kyunghoon Hur, Chihun Lee | Agentic AI-for-Science can automate ideation, planning, and analysis, but final validation still depends on real experiments. |
+| [Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory](http://arxiv.org/abs/2607.06447v1) | Jihao Liu, Guoxiong Gao, Zeming Sun et al. | Recent LLM-based mathematical reasoning agents have begun to tackle research-level problems and, in several cases, have contributed to the resolution of open problems. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents](http://arxiv.org/abs/2607.04686v1) | Harsh Soni | Tool calling is central to modern language model agents, but aggregate benchmark scores often hide where tool use fails. |
+| [Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems](http://arxiv.org/abs/2607.04433v1) | Xinyu Lin, Yashar Deldjoo, Sunhao Dai et al. | The rapid integration of large language model-based agents into recommender systems has driven a shift from static, ranking-based pipelines toward autonomous and interactive systems that can reason... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A toy framework for single and multi-agent human-AI curiosity ecosystems](http://arxiv.org/abs/2607.06214v1) | Ilya E. Monosov | This paper offers a toy framework for considering curiosity as an ecosystem. First, it suggests that a single agent's inquiry policy (how, when, and why an agent asks a question) depends on how the... |
+| [Agentic SABRE: An Uncertainty-Aware Neuro-Symbolic Multi-Agent Framework for Adaptive Ransomware Detection](http://arxiv.org/abs/2607.04292v1) | Henry Kabuye, Biju Issac, Jeyamohan Neera | Ransomware has evolved into a complex, adaptive, and fast-moving adversary category in which static signatures and monolithic classifiers fail to generalise under concept drift, evasion, and behavi... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications](http://arxiv.org/abs/2607.06411v1) | Evgeny Shilov | Developers increasingly delegate real maintenance work to product-grade coding agents, and many state tasks in their native language, in the style of a customer request rather than a curated Englis... |
+| [PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents](http://arxiv.org/abs/2607.06008v1) | Hongliang Li, Yijin Liu, Zhiwei Zhang et al. | Large language model (LLM) agents have shown strong performance in long-horizon tasks that require planning, tool use, and interaction with external environments. |
+| [EvoAgentBench: Benchmarking Agent Self-Evolution via Ability Transfer](http://arxiv.org/abs/2607.05202v1) | Xingze Gao, Chuanrui Hu, Hongda Chen et al. | Agent self-evolution in long-horizon LLM systems is largely procedural: useful experience is not merely stored information, but reusable procedures for searching, debugging, and verification. |
+| [AgentGym2: Benchmarking Large Language Model Agents in De-Idealized Real-World Environments](http://arxiv.org/abs/2607.05174v1) | Zhiheng Xi, Dingwen Yang, Jiaqi Liu et al. | Language agents, i.e., LLM agents, progress rapidly and are increasingly deployed in production environments. |
+| [CausalGame: Benchmarking Causal Thinking of LLM Agents in Games](http://arxiv.org/abs/2607.04293v1) | Zhenhao Chen, Yongqiang Chen, Chenxi Liu et al. | Building AI Scientist agents with Large Language Models (LLMs) has recently attracted growing attention. |
+
 ### 📅 2026-07-07
 
 **6 new papers found**
