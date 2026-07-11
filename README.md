@@ -24,6 +24,40 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-11
+
+**10 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Physics-Audited Agentic Discovery in Scientific Machine Learning](http://arxiv.org/abs/2607.07379v1) | Diab W. Abueidda, Bilal Ahmed, Panos Pantidis et al. | In agentic scientific machine learning (SciML), large language model (LLM) agents can discover surrogate models and select one by an automated score, typically an error metric. |
+| [Do LLM-Generated Skills Make Better AI Data Scientists? A Component Ablation Across Data-Science Workflows](http://arxiv.org/abs/2607.07504v1) | Wei-Jung Huang | Product data scientists often ask LLM-based agents to help with recurring execution tasks such as cleaning data, writing SQL, choosing statistical tests, and formatting results. |
+| [Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](http://arxiv.org/abs/2607.07663v1) | Mingguang Chen, Licheng Wang, Bo Qu | AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting A... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Attack-Success Rate: Action-Graded Severity Scale for Tool-Using AI Agents](http://arxiv.org/abs/2607.07474v1) | Harry Owiredu-Ashley | Agentic red-teaming benchmarks report whether an injected agent was compromised as a single bit: the attack succeeded, or it did not. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Game Theory Driven Multi-Agent Framework Mitigates Language Model Hallucination](http://arxiv.org/abs/2607.08403v1) | Runzhe Liu, Biquan Bie, Zihao Wang et al. | The application of lightweight Large Language Models in rule-based scientific domains remains severely limited by their tendency to mimic linguistic patterns rather than reproduce axiomatic reasoni... |
+| [SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis](http://arxiv.org/abs/2607.07467v1) | Songhan Wang, Haoang Chi, He Li et al. | Spatial and Single-cell transcriptomics are transformative in deciphering cellular dynamics. As the fundamental paradigm for reconstructing cell developmental paths, trajectory inference (TI) is cr... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets](http://arxiv.org/abs/2607.08681v1) | Shilin Ou, Yifan Xu, Luyao Zhang | As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. |
+| [CausalDS: Benchmarking Causal Reasoning in Data-Science Agents](http://arxiv.org/abs/2607.08093v1) | Andrej Leban, Yuekai Sun | Large language models (LLMs) increasingly act as integrated data-science agents, combining abstract reasoning with advanced tool use. |
+| [Does AI Understand Imaging? A Systematic Benchmark of Agentic AI for Computational Imaging Tasks](http://arxiv.org/abs/2607.07189v1) | Ethan Chung, Chuanjun Zheng, Jasper Tan et al. | Vision-language models (VLMs) and agentic AI have shown strong performance on semantic visual tasks, but it remains unclear whether they can handle the physics and inverse problems that underlie co... |
+| [UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks](http://arxiv.org/abs/2607.08768v1) | Zhekai Chen, Chengqi Duan, Kaiyue Sun et al. | The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real... |
+
 ### 📅 2026-07-10
 
 **15 new papers found**
