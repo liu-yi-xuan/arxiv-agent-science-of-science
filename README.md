@@ -24,6 +24,26 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-15
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Agentic AI Scientific Community for Automated Neural Operator Discovery](http://arxiv.org/abs/2607.12122v1) | Luis Loo, Ulisses Braga-Neto | We present an agentic approach to autonomous neural operator discovery based on an AI scientific community, which consists of a swarm of virtual laboratories that interact under a citation-based ec... |
+| [Are LLMs Ready for Scientific Discovery? A Capability-Oriented Benchmark for AI Scientists](http://arxiv.org/abs/2607.11079v1) | Chuhan Shi, Xiaoquan Ren, Sicheng Song et al. | Existing benchmarks for scientific data analysis evaluate LLMs primarily on code execution or workflow completion, overlooking that scientific analysis serves to support distinct types of scientifi... |
+| [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](http://arxiv.org/abs/2607.12397v1) | Yaopei Zeng, Congchao Wang, JianHang Chen et al. | LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible sid... |
+| [NVAITC AI Scientist: A Governed End-to-End Research System -- A Hypertension GWAS Case Study](http://arxiv.org/abs/2607.11084v1) | Eddie Huang, Ken Liao, Iven Fu et al. | Agentic research systems are emerging as a new paradigm for coordinating scientific workflows beyond isolated model inference, code generation, or statistical analysis. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](http://arxiv.org/abs/2607.12267v1) | Ning Liu | Language agents that interleave reasoning and tool use degrade sharply as reasoning chains lengthen, even when each individual step is easy. |
+| [Route, Communicate, and Reason: Gated Routing and Adaptive Depth for Efficient Multi-Agent Reasoning](http://arxiv.org/abs/2607.10836v1) | Sudipto Ghosh, Tanmoy Chakraborty | Multi-agent ensembling multiplies active parameters and inference cost without answering three basic questions: which agents to consult, how deeply a query should traverse a hierarchy of agents, an... |
+
 ### 📅 2026-07-14
 
 *No new papers found today.*
