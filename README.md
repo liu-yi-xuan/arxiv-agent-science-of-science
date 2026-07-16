@@ -24,6 +24,25 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-16
+
+**5 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Agentic AI Scientific Community for Automated Neural Operator Discovery](http://arxiv.org/abs/2607.12122v1) | Luis Loo, Ulisses Braga-Neto | We present an agentic approach to autonomous neural operator discovery based on an AI scientific community, which consists of a swarm of virtual laboratories that interact under a citation-based ec... |
+| [Experience Memory Graph: One-Shot Error Correction for Agents](http://arxiv.org/abs/2607.13884v1) | Wenjun Wang, Yuchen Fang, Fengrui Liu et al. | Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. |
+| [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](http://arxiv.org/abs/2607.12397v1) | Yaopei Zeng, Congchao Wang, JianHang Chen et al. | LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible sid... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Collaborative Reasoning with Tool-Augmented Evidence for Urban Region Profiling](http://arxiv.org/abs/2607.13558v1) | Xixuan Hao, Yutian Jiang, Jiabo Liu et al. | Urban region profiling constitutes a core problem in urban computing, supporting applications such as population estimation, economic assessment, and environmental monitoring. |
+| [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](http://arxiv.org/abs/2607.12267v1) | Ning Liu | Language agents that interleave reasoning and tool use degrade sharply as reasoning chains lengthen, even when each individual step is easy. |
+
 ### 📅 2026-07-15
 
 **6 new papers found**
