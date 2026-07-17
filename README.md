@@ -24,6 +24,39 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-17
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System](http://arxiv.org/abs/2607.14178v1) | Yutong He, Daibo Li, Guohong Li et al. | Recent advances in Large Language Models have fueled autonomous AI agents capable of tackling complex scientific tasks, yet existing automated research systems remain predominantly focused on empir... |
+| [Collaborative Spatial Learning with Multi-LLM Agents in Networked Social Experiments](http://arxiv.org/abs/2607.14574v1) | Hao He, Chris J. Kuhlman, Xinwei Deng | Collective problem solving often requires that group members consider the tradeoff between exploitation of known solutions and exploration for new ones, where information of known solutions can be ... |
+| [Experience Memory Graph: One-Shot Error Correction for Agents](http://arxiv.org/abs/2607.13884v1) | Wenjun Wang, Yuchen Fang, Fengrui Liu et al. | Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. |
+| [MemoHarness: Agent Harnesses That Learn from Experience](http://arxiv.org/abs/2607.14159v1) | Yue Huang, Wenjie Wang, Han Bao et al. | An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, decoding, and output handling. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RetroAgent: Harnessing LLMs to Search Over Structured Memory for Agentic Retrosynthesis Planning](http://arxiv.org/abs/2607.14512v1) | Yanqiao Zhu, Jingru Gan, Xiaoqi Sun et al. | Multi-step retrosynthesis planning seeks to decompose a target molecule into commercially available building blocks through a sequence of feasible reactions. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Does Multi-Agent Debate Improve AI Feedback on Research Papers?](http://arxiv.org/abs/2607.14713v1) | Tomas Havranek, Zuzana Irsova | Probably not, at least for meta-analyses in economics. In a pre-registered, identity-masked, within-paper experiment, the authors of 44 meta-analyses ranked three AI reports on their own paper by u... |
+| [Multi-Agent Collaborative Reasoning with Tool-Augmented Evidence for Urban Region Profiling](http://arxiv.org/abs/2607.13558v1) | Xixuan Hao, Yutian Jiang, Jiabo Liu et al. | Urban region profiling constitutes a core problem in urban computing, supporting applications such as population estimation, economic assessment, and environmental monitoring. |
+| [Step-Level Preference Learning for Generative Agents in Social Simulations](http://arxiv.org/abs/2607.14485v1) | Wenchang Gao, Pingyue Sheng, Lanlan Qiu et al. | Large language model (LLM)-based generative agents simulate human behavior through long-horizon decision-making processes that comprise intermediate steps such as planning, memory retrieval, reflec... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Female participation in science in the past 125 years: An analysis of the Matilda effect over time](http://arxiv.org/abs/2607.15059v1) | Felix Bittmann, Lutz Bornmann | The Matilda effect describes the systematic under-recognition of women's scientific contributions. We investigated its historical evolution by analyzing over 220 million publications (1900-2025) fr... |
+
 ### 📅 2026-07-16
 
 **5 new papers found**
