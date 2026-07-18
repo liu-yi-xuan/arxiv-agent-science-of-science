@@ -24,6 +24,48 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-18
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System](http://arxiv.org/abs/2607.14178v1) | Yutong He, Daibo Li, Guohong Li et al. | Recent advances in Large Language Models have fueled autonomous AI agents capable of tackling complex scientific tasks, yet existing automated research systems remain predominantly focused on empir... |
+| [Collaborative Spatial Learning with Multi-LLM Agents in Networked Social Experiments](http://arxiv.org/abs/2607.14574v1) | Hao He, Chris J. Kuhlman, Xinwei Deng | Collective problem solving often requires that group members consider the tradeoff between exploitation of known solutions and exploration for new ones, where information of known solutions can be ... |
+| [Experience Memory Graph: One-Shot Error Correction for Agents](http://arxiv.org/abs/2607.13884v1) | Wenjun Wang, Yuchen Fang, Fengrui Liu et al. | Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RetroAgent: Harnessing LLMs to Search Over Structured Memory for Agentic Retrosynthesis Planning](http://arxiv.org/abs/2607.14512v1) | Yanqiao Zhu, Jingru Gan, Xiaoqi Sun et al. | Multi-step retrosynthesis planning seeks to decompose a target molecule into commercially available building blocks through a sequence of feasible reactions. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Does Multi-Agent Debate Improve AI Feedback on Research Papers?](http://arxiv.org/abs/2607.14713v1) | Tomas Havranek, Zuzana Irsova | Probably not, at least for meta-analyses in economics. In a pre-registered, identity-masked, within-paper experiment, the authors of 44 meta-analyses ranked three AI reports on their own paper by u... |
+| [Step-Level Preference Learning for Generative Agents in Social Simulations](http://arxiv.org/abs/2607.14485v1) | Wenchang Gao, Pingyue Sheng, Lanlan Qiu et al. | Large language model (LLM)-based generative agents simulate human behavior through long-horizon decision-making processes that comprise intermediate steps such as planning, memory retrieval, reflec... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Female participation in science in the past 125 years: An analysis of the Matilda effect over time](http://arxiv.org/abs/2607.15059v1) | Felix Bittmann, Lutz Bornmann | The Matilda effect describes the systematic under-recognition of women's scientific contributions. We investigated its historical evolution by analyzing over 220 million publications (1900-2025) fr... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios](http://arxiv.org/abs/2607.14989v1) | Chengyu Shen, Yujie Fu, Gangtao Xin et al. | Large language models are increasingly evolving from text generators into general agents capable of understanding user requests, invoking external tools, and completing complex tasks through intera... |
+| [StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows](http://arxiv.org/abs/2607.14896v1) | Sizhong Qin, Yi Gu, Yao Jiang et al. | Addressing a structural-engineering request requires more than a single answer; it requires a chain of interdependent artifacts: interpreted requirements, a computable model, validation records, so... |
+| [MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers](http://arxiv.org/abs/2607.14642v1) | Huanxi Liu, Kun Hu, Jiaqi Liao et al. | As Model Context Protocol (MCP) servers emerge as the core infrastructure for connecting LLMs with external tools, existing benchmarks leverage real-world MCP servers to evaluate LLM agents' tool-u... |
+| [Alipay-PIBench: A Realistic Payment Integration Benchmark for Coding Agents](http://arxiv.org/abs/2607.14573v1) | Shiyu Ying, Xuejie Cao, Yingfan Ma et al. | Payment integration is a demanding repository-level software task: agents must select a suitable product, implement coordinated client-server flows, verify payment outcomes, and preserve consistenc... |
+| [SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents](http://arxiv.org/abs/2607.14543v1) | Huaigang Yang, Ya Li, Min Ren et al. | Vision-language models (VLMs) are increasingly used as the reasoning backbone of embodied agents, enabling robots to interpret visual scenes, follow language instructions, and plan multi-step actions. |
+| [Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent](http://arxiv.org/abs/2607.14541v1) | Lingyun Yang, Yuxiao Wang, Shenghao Liang et al. | Existing GPU kernel generation benchmarks draw problems from synthetic or curated sources that diverge from deployed workloads. |
+
 ### 📅 2026-07-17
 
 **9 new papers found**
