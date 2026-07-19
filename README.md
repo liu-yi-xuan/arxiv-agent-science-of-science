@@ -24,6 +24,23 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-19
+
+**3 new papers found**
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Female participation in science in the past 125 years: An analysis of the Matilda effect over time](http://arxiv.org/abs/2607.15059v1) | Felix Bittmann, Lutz Bornmann | The Matilda effect describes the systematic under-recognition of women's scientific contributions. We investigated its historical evolution by analyzing over 220 million publications (1900-2025) fr... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios](http://arxiv.org/abs/2607.14989v1) | Chengyu Shen, Yujie Fu, Gangtao Xin et al. | Large language models are increasingly evolving from text generators into general agents capable of understanding user requests, invoking external tools, and completing complex tasks through intera... |
+| [StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows](http://arxiv.org/abs/2607.14896v1) | Sizhong Qin, Yi Gu, Yao Jiang et al. | Addressing a structural-engineering request requires more than a single answer; it requires a chain of interdependent artifacts: interpreted requirements, a computable model, validation records, so... |
+
 ### 📅 2026-07-18
 
 **13 new papers found**

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "2607.15059v1",
+    "title": "Female participation in science in the past 125 years: An analysis of the Matilda effect over time",
+    "authors": [
+      "Felix Bittmann",
+      "Lutz Bornmann"
+    ],
+    "abstract": "The Matilda effect describes the systematic under-recognition of women's scientific contributions. We investigated its historical evolution by analyzing over 220 million publications (1900-2025) from OpenAlex, inferring the gender of roughly 60 million authors. To quantify this under-recognition, we calculated the ratio between the overall share of female authors and female corresponding authors. Because corresponding authorship denotes intellectual leadership and primary academic credit, systematic exclusion from this role directly measures the Matilda effect. Our analysis reveals that overall female participation rose from approximately 10% in the 1910s to over 40% recently. For most of the 20th century, women were disproportionately excluded from corresponding authorship, confirming a historical Matilda effect. However, this trend inverted over the past two decades, indicating a global decline. Despite this overall progress, distinct disparities persist: the physical sciences and Asian countries lag behind, whereas the health sciences and Latin America approach gender parity.",
+    "url": "http://arxiv.org/abs/2607.15059v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.15059v1",
+    "published": "2026-07-16",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2607.14989v1",
+    "title": "OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios",
+    "authors": [
+      "Chengyu Shen",
+      "Yujie Fu",
+      "Gangtao Xin",
+      "Yanheng Hou",
+      "Wenlong Fei"
+    ],
+    "abstract": "Large language models are increasingly evolving from text generators into general agents capable of understanding user requests, invoking external tools, and completing complex tasks through interaction. However, existing agent benchmarks often focus on limited scenarios, tool ecosystems, or interaction formats, making it difficult to systematically characterize model capabilities across heterogeneous application settings. We introduce OmniaBench, a benchmark for evaluating general agents across diverse scenarios with explicit state spaces. We derive application-oriented scenario knowledge from app stores, product documents, industry resources, Web retrieval, and human refinement, forming a hierarchical taxonomy that spans ToC, ToB and ToE with 90 level-1 and 354 level-2 domains. Based on this taxonomy, we construct executable environments and synthesize single-turn and multi-turn tasks through four complementary routes: DAG, DAG-S, Solver, and Program. OmniaBench further introduces a ten-dimensional capability taxonomy and eight compositional atomic difficulty factors to support fine-grained evaluation and analysis. The resulting dataset contains 1,431 tasks, together with a challenging subset of 644 tasks designed to reduce evaluation cost and mitigate potential contamination of the full set after public release. The bench presents substantial challenges to current frontier models, with even Claude-Sonnet-5 and GPT-5.6-Sol achieving Overall Pass@1 scores of only 58.54 and 57.14, respectively. Further analyses reveal clear differences across domains and capabilities, as well as persistent limitations in planning, constraint maintenance, and adaptive correction. OmniaBench provides a broad and diagnostic benchmark for characterizing the capability boundaries of general agents.",
+    "url": "http://arxiv.org/abs/2607.14989v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.14989v1",
+    "published": "2026-07-16",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.14896v1",
+    "title": "StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows",
+    "authors": [
+      "Sizhong Qin",
+      "Yi Gu",
+      "Yao Jiang",
+      "Ao Cai",
+      "Changjian Zhou"
+    ],
+    "abstract": "Addressing a structural-engineering request requires more than a single answer; it requires a chain of interdependent artifacts: interpreted requirements, a computable model, validation records, solver outputs, code-check records, and a final report. Evaluations centered on question answering or script generation rarely verify this complete evidence chain and may therefore reward fluent outputs even when the underlying engineering workflow is incomplete, internally inconsistent, or non-executable. To address this limitation, we present StructureClaw, an artifact-centered workbench in which LLM agents operate through governed engineering skills, typed tools, shared artifact state, and local analysis backends. We also introduce StructureClaw-Bench, an executable benchmark of 150 controlled scenarios spanning standard workflow execution, interactive robustness, and multimodal structural-model reconstruction. A scenario succeeds only when all required artifact- and execution-level assertions pass in a single run. Across ten agent-model configurations, each evaluated on the same 50 standard cases, the average Success Rate rises from 56.8% with the generic-skill baseline to 88.6% with the full automatic workflow. The interactive and multimodal evaluations identify two prominent remaining challenges: safe handling of invalid numerical inputs and fixture-consistent reconstruction of structural models. These findings show that artifact-centered evaluation can expose workflow-level failures that are difficult to identify from final responses alone, providing a more rigorous basis for evaluating and improving structural-engineering agents. The code and benchmark are available at https://github.com/structureclaw/structureclaw.",
+    "url": "http://arxiv.org/abs/2607.14896v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.14896v1",
+    "published": "2026-07-16",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
