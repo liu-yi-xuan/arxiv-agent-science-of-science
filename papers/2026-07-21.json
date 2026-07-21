@@ -1,0 +1,87 @@
+[
+  {
+    "id": "2607.17719v1",
+    "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation",
+    "authors": [
+      "Hanchen Yang",
+      "Kaiwen Yang",
+      "Junpeng Zhuang",
+      "Yang He",
+      "Keting Cen"
+    ],
+    "abstract": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in industrial RS for their simplicity and low serving cost. However, as the online recommendation environment evolves continuously, these statically configured strategies gradually become stale, degrading the user experience. Refining them typically relies on manual inspection, diagnosis, and updates, a process that is slow, costly, and hard to reuse. Although recent LLM-based agents (e.g., RecUserSim, SimUSER, and Self-EvolveRec) offer promising directions, none of them close the full loop of automated, self-evolving strategy refinement. To bridge this gap, we introduce SR-Agent, a Strategy Refinement agentic framework that, to the best of our knowledge, is the first deployed for refining post-ranking strategies in industrial RS. SR-Agent unifies three components: (i) a UserSim agent that applies staged inspection skills to surface user-perceived bad cases; (ii) an Analysis agent that consolidates recurring bad cases into structured, reusable diagnoses; and (iii) a constrained Strategy Refinement Harness that maps diagnoses to typed and bounded actions, gated by a four-stage reward pipeline with reversible rollback. Deployed on the Kuaishou e-commerce platform, SR-Agent continuously runs this refinement loop and, in a one-month online A/B test, increases order volume by 0.71%, browsing depth by 0.34%, and clicked-category diversity by 0.48%, while markedly shortening the refinement cycle and lowering operational cost.",
+    "url": "http://arxiv.org/abs/2607.17719v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17719v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.17100v1",
+    "title": "Auto Research for Materials: Auditable AI-Scientist Workflows with Held-Out Transfer",
+    "authors": [
+      "Jingjie Ning",
+      "Xiaochuan Li",
+      "Shanshan Zhong",
+      "Ji Zeng",
+      "Guolin Ke"
+    ],
+    "abstract": "An AI research agent can improve the score it sees without finding a modelling change that works on new materials. We ask a stricter question. After repeated experiments, does the selected change survive on data that never entered the loop, and can its code be reused? We separate the search into changes to features, models, representations, and training data. Seven searches produce 701 evaluated changes across ten Matbench endpoints. Agents receive only the mean over five inner folds, reducing reliance on any single development split. We then freeze the selected code and evaluate it once on an untouched holdout. Nine of ten choices remain the best tested single intervention. The surviving changes reveal two materials modelling regimes. With composition alone, feature, model, and representation changes provide comparable routes to improvement. They include held-out MAE reductions of 17.4\\% for band gap and 18.6\\% for steel strength, as well as gains on both classification endpoints, while screened external data adds little. For structure tasks, richer geometry descriptors and model or calibration changes lower mean held-out MAE by 14.6\\% and 7.1\\% and lead on different property families, whereas composition embeddings do not transfer. Combining separately found feature and model changes yields a 26.3\\% mean held-out improvement. These results show in materials prediction that closed-loop agents can produce decisions that survive unseen evidence and code changes that can be reused across tasks and combined. More broadly, they provide an evaluation design for testing executable discoveries beyond the feedback loop.",
+    "url": "http://arxiv.org/abs/2607.17100v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17100v1",
+    "published": "2026-07-19",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.16845v1",
+    "title": "From Overload to Insights: How AI Agents Can Support Scientists in Analyzing Complex Data",
+    "authors": [
+      "Tim Fuchs",
+      "Luca Gelisio",
+      "Steffen Hauf",
+      "Walid Maalej"
+    ],
+    "abstract": "Scientists at European XFEL conduct experiments that generate very large and complex datasets. The subsequent data analysis is challenging as scientists must combine their domain expertise with facility- and software-specific knowledge scattered across documentation, tools, and support channels. To address this problem, we designed and evaluated an agentic AI system tailored to the scientists' needs and integrated with the high-performance computing environment of European XFEL. Using a design science research approach, we conducted a rapid literature review, a systematic evaluation of 16 AI tools, multiple interviews, a focus group, and a user study with experts at European XFEL to develop and evaluate two prototypes. Our study identifies key knowledge challenges in scientific data analysis, derives requirements for an AI agent that supports knowledge retrieval and source code generation, and proposes design recommendations for a specialized system adaptable to the evolving AI tool landscape. These findings provide guidance for developing maintainable AI support in highly specialized scientific environments.",
+    "url": "http://arxiv.org/abs/2607.16845v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.16845v1",
+    "published": "2026-07-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.18006v1",
+    "title": "MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models",
+    "authors": [
+      "Martino M. L. Pulici",
+      "Cuong Xuan Chu",
+      "Evgeny Kharlamov",
+      "Zifeng Ding",
+      "Volker Tresp"
+    ],
+    "abstract": "Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\\leq 4 \\, \\mathrm{B}$ parameters) trained under limited budgets. We introduce MADA-RL, a post-training framework that specializes compact models into generator and critic roles and trains them with a debate-aware learning signal, fine-tuning only a small subset of parameters via LoRA adapters. Our central contribution is a counterfactual critic advantage: a dynamic, role-conditioned baseline that redefines the critic's advantage as its reward minus the generator ensemble's per-instance accuracy. This explicitly optimizes critics to improve over generator consensus rather than to merely reproduce a correct answer, yielding more targeted credit assignment than static mean-reward normalization. At deployment, the specialized agents are composed in a lightweight multi-round protocol. Across five mathematical reasoning benchmarks, MADA-RL raises the accuracy of the DeepSeek-R1-Distill-Qwen-1.5B model from $39.9 \\, \\%$ to $41.9 \\, \\%$ ($+2.0$ points, $p < 0.001$) using $16$ times fewer trainable parameters than fully fine-tuned baselines, placing it on the accuracy-trainable-parameter Pareto front. It approaches, but does not surpass, the strongest baselines (DeepScaleR, STILL-3), which are trained on substantially larger datasets; we analyse this gap and the associated inference-time cost directly. A controlled study isolates the source of MADA-RL's gains: the counterfactual advantage produces the highest critic improvement rate of any model evaluated, indicating that trained critics learn to correct generator errors rather than to imitate them.",
+    "url": "http://arxiv.org/abs/2607.18006v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18006v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]

@@ -24,6 +24,24 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-21
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation](http://arxiv.org/abs/2607.17719v1) | Hanchen Yang, Kaiwen Yang, Junpeng Zhuang et al. | User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widel... |
+| [Auto Research for Materials: Auditable AI-Scientist Workflows with Held-Out Transfer](http://arxiv.org/abs/2607.17100v1) | Jingjie Ning, Xiaochuan Li, Shanshan Zhong et al. | An AI research agent can improve the score it sees without finding a modelling change that works on new materials. |
+| [From Overload to Insights: How AI Agents Can Support Scientists in Analyzing Complex Data](http://arxiv.org/abs/2607.16845v1) | Tim Fuchs, Luca Gelisio, Steffen Hauf et al. | Scientists at European XFEL conduct experiments that generate very large and complex datasets. The subsequent data analysis is challenging as scientists must combine their domain expertise with fac... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models](http://arxiv.org/abs/2607.18006v1) | Martino M. L. Pulici, Cuong Xuan Chu, Evgeny Kharlamov et al. | Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\leq 4 \, \mathrm{B}$ parameters) trai... |
+
 ### 📅 2026-07-20
 
 *No new papers found today.*
