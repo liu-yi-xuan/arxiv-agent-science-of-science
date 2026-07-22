@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-22
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation](http://arxiv.org/abs/2607.17719v2) | Hanchen Yang, Kaiwen Yang, Junpeng Zhuang et al. | User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widel... |
+| [Querying Multimodal Scientific Papers with AI: Practices and Preferences Across Blind, Low-Vision, and Sighted Scientists](http://arxiv.org/abs/2607.18514v1) | Arnavi Chheda-Kothary, Lucy Lu Wang, Joseph Chee Chang et al. | Visual diagrams, figures, and tables are central to scientific papers, and convey information beyond what is captured in text. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes](http://arxiv.org/abs/2607.19211v1) | Tina Behzad, Wenbo Li, Reuben Kline et al. | Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. |
+| [AI Tour Meeting: Group Travel Planning by LLM Agents](http://arxiv.org/abs/2607.18806v1) | Daisuke Kikuta | This paper proposes AI Tour Meeting, a group travel planning framework powered by multiple Large Language Model (LLM)-based agents. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models](http://arxiv.org/abs/2607.18006v1) | Martino M. L. Pulici, Cuong Xuan Chu, Evgeny Kharlamov et al. | Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\leq 4 \, \mathrm{B}$ parameters) trai... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance](http://arxiv.org/abs/2607.19262v1) | Harmon Bhasin, Kevin Flyangolts, Dianzhuo Wang et al. | As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. |
+| [Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing](http://arxiv.org/abs/2607.18485v1) | Jie Li | Large language model (LLM) agents are starting to take on routine work in high-performance computing (HPC), including monitoring Slurm jobs, diagnosing failed builds, inspecting simulation output, ... |
+| [Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security](http://arxiv.org/abs/2607.18063v1) | Devina Jain, David Hartmann, Chuan Li | LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation. |
+| [FIFA World Cup 2026 as a Contamination-Free Benchmark for LLM Forecasting Agents: Four Models, a Bookmaker, and 104 Matches](http://arxiv.org/abs/2607.17765v1) | Jiacheng Ding, Cong Guo, Jason Xu | We introduce WC2026-Agents, a benchmark and dataset for evaluating large language models (LLMs) as autonomous forecasting agents on real, future events. |
+| [ProEvent: An Event-centric Benchmark for Proactive Agents](http://arxiv.org/abs/2607.17701v1) | Guanzhen Li, Liangming Pan, Leye Wang | Proactive agents are expected to anticipate user needs and provide autonomous assistance by perceiving environmental context without explicit instructions. |
+| [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](http://arxiv.org/abs/2607.17528v2) | Jinyuan Deng, Zhengrui Chen, Xufeng Wei et al. | LLM-driven agent systems have emerged as a promising paradigm for electronic design automation (EDA), demonstrating strong potential for automating complex design workflows. |
+| [Self-Modifying Lean Proof Agents with Verifier-Grounded Benchmark Coevolution](http://arxiv.org/abs/2607.17352v1) | Yuqing Li, Zeguan Wu, Yu Gan et al. | Designing effective Lean proof agents is a central challenge in formal mathematical reasoning. Beyond building stronger provers, recent work emphasizes the workflow around Lean: how an agent decomp... |
+| [SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation](http://arxiv.org/abs/2607.17288v1) | Jiacheng Ding, Xiaofei Zhang | High quality temporal graph benchmarks with rich semantics and ground-truth anomaly labels are essential for training graph neural networks, yet remain scarce due to privacy constraints and annotat... |
+| [DRNOISE: Benchmarking Deep Research Agents in Misleading Evidence Environments](http://arxiv.org/abs/2607.17291v1) | Jun Nie, Zhiqin Yang, Zhenheng Tang et al. | Deep research agents increasingly operate over the open web, where relevant records coexist with redundant summaries, outdated reports, and misleading documents. |
+
 ### 📅 2026-07-21
 
 **4 new papers found**

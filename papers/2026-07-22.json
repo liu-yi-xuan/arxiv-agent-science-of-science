@@ -1,0 +1,281 @@
+[
+  {
+    "id": "2607.17719v2",
+    "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation",
+    "authors": [
+      "Hanchen Yang",
+      "Kaiwen Yang",
+      "Junpeng Zhuang",
+      "Yang He",
+      "Keting Cen"
+    ],
+    "abstract": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in industrial RS for their simplicity and low serving cost. However, as the online recommendation environment evolves continuously, these statically configured strategies gradually become stale, thereby degrading the user experience. Refining them typically relies on manual inspection, diagnosis, and updates, making it slow, costly, and difficult to scale or reuse. Although recent LLM-based agents (e.g., RecUserSim, SimUSER, and Self-EvolveRec) offer promising directions, none of them close the full loop of automated, self-evolving strategy refinement. To bridge this gap, we introduce SR-Agent, which, to the best of our knowledge, is the first agentic framework deployed to refine post-ranking strategies in industrial RS. SR-Agent unifies three components: (i) a UserSim agent that applies inspection skills to surface user-perceived bad cases; (ii) an Analysis agent that consolidates recurring bad cases into structured, reusable diagnoses; and (iii) a constrained Strategy Refinement Harness that maps diagnoses to typed and bounded actions, gated by a four-stage reward pipeline with reversible rollback. Deployed on the Kuaishou e-commerce platform, SR-Agent continuously runs this refinement loop and, in a one-month online A/B test, increases order volume by 0.71%, browsing depth by 0.34%, and clicked-category diversity by 0.48%, while markedly shortening the refinement cycle and lowering operational cost.",
+    "url": "http://arxiv.org/abs/2607.17719v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.17719v2",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.18514v1",
+    "title": "Querying Multimodal Scientific Papers with AI: Practices and Preferences Across Blind, Low-Vision, and Sighted Scientists",
+    "authors": [
+      "Arnavi Chheda-Kothary",
+      "Lucy Lu Wang",
+      "Joseph Chee Chang",
+      "Jonathan Bragg"
+    ],
+    "abstract": "Visual diagrams, figures, and tables are central to scientific papers, and convey information beyond what is captured in text. While blind or low-vision (BLV) scientists have traditionally relied on static alternative text to access figures in papers, the rise of artificial intelligence (AI) has made interactive question-answering (QA) a feasible paradigm for visual exploration; yet little is known about how scientists use visual QA in practice or how to improve its accessibility. In this work, we interview five BLV and five sighted scientists across different STEM fields to understand how they use two AI tools, ChatGPT and Gemini, to query multimodal scientific documents. Our findings characterize how scientists review multimodal content, including existing practices (along with accessibility workarounds) for engaging with visuals, and feedback on the suitability of AI-generated responses to multimodal queries. We further find that vague or incomplete image descriptions, as well as incorrect AI outputs more broadly, can cause both BLV and sighted scientists to abandon AI workflows. To support future research, we additionally contribute a dataset of 115 queries and responses from our participants' interactions with the AI tools for papers in their field. We close by discussing implications for AI-powered scientific QA systems, emphasizing considerations for access across abilities and domains.",
+    "url": "http://arxiv.org/abs/2607.18514v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18514v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.19211v1",
+    "title": "Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes",
+    "authors": [
+      "Tina Behzad",
+      "Wenbo Li",
+      "Reuben Kline",
+      "Klaus Mueller"
+    ],
+    "abstract": "Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. Recent work has suggested that large language models (LLMs) could automate parts of this process by generating surveys at scale, raising questions about the comparability of such instruments to literature-grounded, human-designed surveys. We present a controlled empirical comparison between GPT-generated surveys and established survey baselines across three social domains: climate change, immigration, and diversity, equity, and inclusion (DEI). GPT-generated surveys were produced using a fixed prompting framework enforcing a 3x3 structure over beliefs, perceptions, and behaviors, while human baselines were assembled from validated instruments to match survey length and construct coverage. We collected responses from U.S.-based participants, who completed both survey types, allowing direct within-subject comparison. We analyze differences in response distributions, clustering behavior, and alignment with self-identified stances. Our results show that GPT-generated surveys capture the same dominant attitudinal divisions as human-designed instruments, while exhibiting differences in the resolution of belief structure and group separation. These findings suggest that LLM-generated surveys are suited for exploratory and large-scale analyses, and can be used to complement expert-designed instruments.",
+    "url": "http://arxiv.org/abs/2607.19211v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19211v1",
+    "published": "2026-07-21",
+    "categories": [
+      "cs.CY"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.18806v1",
+    "title": "AI Tour Meeting: Group Travel Planning by LLM Agents",
+    "authors": [
+      "Daisuke Kikuta"
+    ],
+    "abstract": "This paper proposes AI Tour Meeting, a group travel planning framework powered by multiple Large Language Model (LLM)-based agents. The agents are instantiated with distinct personas and collaboratively seek an itinerary that satisfies their constraints and preferences through natural language discussion. The framework enables easy and flexible orchestration of such discussions by providing interfaces for configuring agent personas, discussion workflows, monitoring, and LLM deployment. Its primary use case is a simulation tool for analyzing the behavior of multiple LLM agents during tour planning discussions. This paper demonstrates the utility of the framework by presenting system validation and several analytical results obtained by the framework.",
+    "url": "http://arxiv.org/abs/2607.18806v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18806v1",
+    "published": "2026-07-21",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.18006v1",
+    "title": "MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models",
+    "authors": [
+      "Martino M. L. Pulici",
+      "Cuong Xuan Chu",
+      "Evgeny Kharlamov",
+      "Zifeng Ding",
+      "Volker Tresp"
+    ],
+    "abstract": "Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\\leq 4 \\, \\mathrm{B}$ parameters) trained under limited budgets. We introduce MADA-RL, a post-training framework that specializes compact models into generator and critic roles and trains them with a debate-aware learning signal, fine-tuning only a small subset of parameters via LoRA adapters. Our central contribution is a counterfactual critic advantage: a dynamic, role-conditioned baseline that redefines the critic's advantage as its reward minus the generator ensemble's per-instance accuracy. This explicitly optimizes critics to improve over generator consensus rather than to merely reproduce a correct answer, yielding more targeted credit assignment than static mean-reward normalization. At deployment, the specialized agents are composed in a lightweight multi-round protocol. Across five mathematical reasoning benchmarks, MADA-RL raises the accuracy of the DeepSeek-R1-Distill-Qwen-1.5B model from $39.9 \\, \\%$ to $41.9 \\, \\%$ ($+2.0$ points, $p < 0.001$) using $16$ times fewer trainable parameters than fully fine-tuned baselines, placing it on the accuracy-trainable-parameter Pareto front. It approaches, but does not surpass, the strongest baselines (DeepScaleR, STILL-3), which are trained on substantially larger datasets; we analyse this gap and the associated inference-time cost directly. A controlled study isolates the source of MADA-RL's gains: the counterfactual advantage produces the highest critic improvement rate of any model evaluated, indicating that trained critics learn to correct generator errors rather than to imitate them.",
+    "url": "http://arxiv.org/abs/2607.18006v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18006v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.19262v1",
+    "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
+    "authors": [
+      "Harmon Bhasin",
+      "Kevin Flyangolts",
+      "Dianzhuo Wang",
+      "Evan Seeyave",
+      "Arjun Banerjee"
+    ],
+    "abstract": "As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. We present BioSecBench-Surveillance, a verifiable benchmark of 100 evaluations testing whether AI agents can infer the right analysis pipeline from raw sequencing data and surveillance context. Each evaluation gives an agent only the data and context a human analyst would have, then grades its structured answer deterministically. The tasks span seven categories, from taxonomic classification to genetic-engineering detection, across diverse sample types and sequencing technologies. Across 3,962 gradable attempts from sixteen model-harness pairs, the strongest configuration cleared only about half. Opus 4.8 with PI led at 50.2 percent, with a 95 percent confidence interval of 40.1 to 60.3 percent across 83 evaluations, tied with GPT-5.5 with Codex at 50.2 percent, with a 95 percent confidence interval of 40.8 to 59.6 percent, followed by Opus 4.7 with PI at 49.6 percent, with a 95 percent confidence interval of 40.0 to 59.2 percent, and Sonnet 4.6 with PI at 48.6 percent, with a 95 percent confidence interval of 38.9 to 58.3 percent. Even when agents invoked the correct workflows, their mistakes came from the choices around them, such as which references, thresholds, filters, and normalization to apply. BioSecBench-Surveillance provides a standard for measuring whether agents can be trusted to perform genomic surveillance when the next outbreak arrives.",
+    "url": "http://arxiv.org/abs/2607.19262v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19262v1",
+    "published": "2026-07-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.18485v1",
+    "title": "Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing",
+    "authors": [
+      "Jie Li"
+    ],
+    "abstract": "Large language model (LLM) agents are starting to take on routine work in high-performance computing (HPC), including monitoring Slurm jobs, diagnosing failed builds, inspecting simulation output, and coordinating scientific workflows. To do this work, an agent commonly acts under its user's credentials and inherits the user's access to files and the scheduler. This arrangement creates a failure mode that ordinary account-level controls do not capture. Adversarial instructions in a log, tool description, shared file, or peer-agent message may redirect the agent beyond the task the user assigned, even though every resulting command is authenticated and permitted for that account. We refer to this as the hijacked authorized agent problem. Existing agent-security studies explain relevant mechanisms, such as indirect prompt injection and tool misuse, but generally evaluate them in web, enterprise, or personal-assistant settings. HPC security, by contrast, has mature controls for identity and isolation but does not ordinarily represent the intent of a particular task. This paper defines the threat model in the HPC setting, identifies attack surfaces created by schedulers, shared storage, multi-project accounts, and scientific workflows, and examines where current controls fall short. It concludes with a research agenda and a plan for an empirical benchmark, TaskBound.",
+    "url": "http://arxiv.org/abs/2607.18485v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18485v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.18063v1",
+    "title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+    "authors": [
+      "Devina Jain",
+      "David Hartmann",
+      "Chuan Li"
+    ],
+    "abstract": "LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation. Most safety benchmarks evaluate defenders against fixed attack pools collected before evaluation, single-turn or multi-turn. We present a 21-scenario benchmark for \\emph{adaptive multi-round attacks against memoryless LLM defenders}: an autonomous LLM attacker observes prior defender responses and pivots across rounds, while each defender response is evaluated as a fresh interaction. Holding the 21 scenarios, attackers, defenders, and structured-output scoring fixed, restricting scoring to the first attacker turn yields $0$-$1\\%$ attack success rate (ASR); allowing 15 rounds of adaptive attack yields $5.4$-$14.0\\%$. Pooling three frontier attacker LLMs uncovers $1.4$-$2.2\\times$ as many unique successful attacks as the best single attacker, and the generated attacks have low cosine similarity ($0.02$-$0.14$) to attacks in existing benchmarks. Claude Opus 4.6 and GPT-5.4 are tied in aggregate ($5.4\\%$ each; overlapping $95\\%$ CIs), but their weaknesses differ sharply: on one scenario Opus reaches $60\\%$ ASR ($95\\%$ CI $36$--$80\\%$) while GPT-5.4 and Gemini each stay at $7\\%$ (CI $1$-$30\\%$; the gap is preserved in a higher-$N$ replication). $13$ of $21$ scenarios distinguish at least one defender pair, yet rankings disagree across scenarios (Kendall's $W = 0.19$). We release the benchmark -- 21 evaluation scenarios, 10 public development scenarios, the orchestrator, baseline harnesses, and a multi-attacker CLI -- plus 945 transcripts from the 3$\\times$3 frontier matrix, an attack-replay dataset, and 18{,}422 gpt-oss-20b battles from an open competition's final scoring rounds.",
+    "url": "http://arxiv.org/abs/2607.18063v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18063v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.17765v1",
+    "title": "FIFA World Cup 2026 as a Contamination-Free Benchmark for LLM Forecasting Agents: Four Models, a Bookmaker, and 104 Matches",
+    "authors": [
+      "Jiacheng Ding",
+      "Cong Guo",
+      "Jason Xu"
+    ],
+    "abstract": "We introduce WC2026-Agents, a benchmark and dataset for evaluating large language models (LLMs) as autonomous forecasting agents on real, future events. For every one of the 104 matches of the 2026 FIFA World Cup, four frontier models -- Claude Opus 4.8, ChatGPT (GPT-5.5, high reasoning), Gemini 3.1 Pro, and Grok (Expert Mode) -- ran an identical search-act-reflect loop: gather evidence with a web tool, commit to a 1X2 (team-A win / draw / team-B win) distribution and a virtual 100-USD bet, and, after the match, reflect given only the final score. Because every match kicked off after the models' training cutoffs, the benchmark is contamination-free by construction. Crucially, we pair the four agents with a fifth competitor drawn from the same information environment -- the pre-match betting market -- collected as per-match 1X2 odds, giving an economically grounded baseline and letting us score not just what an agent predicts but what it does with money. The release contains 416 forecasts and 414 reflections with verbatim reasoning, ground truth (including penalty shootouts), odds, and a reproducible evaluation suite. A reference evaluation surfaces findings that raw accuracy hides: the four agents issue an identical top pick in 92% of matches and none beats the market's Brier score; indeed, a naive flat stake on the market favorite out-earns all four agents. Yet the agents diverge sharply as decision-makers: betting return-on-investment ranges from -18% to +10%, fading the market is unprofitable for all four, the share of forecasts that cite the market ranges from 12% to 100%, and self-reported error rates on wrong picks range from 36% to 86%. The benchmark thus measures calibration, decision quality, and self-knowledge -- axes on which frontier models differ even when their predictions do not. Data and code: https://github.com/graphuofm/FIFA2026LLM",
+    "url": "http://arxiv.org/abs/2607.17765v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17765v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DB"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.17701v1",
+    "title": "ProEvent: An Event-centric Benchmark for Proactive Agents",
+    "authors": [
+      "Guanzhen Li",
+      "Liangming Pan",
+      "Leye Wang"
+    ],
+    "abstract": "Proactive agents are expected to anticipate user needs and provide autonomous assistance by perceiving environmental context without explicit instructions. A fundamental capability of such agents is to identify and track users' upcoming events, enabling continuous and event-specific assistance. For example, by recording the time and location of a planned hike, an agent can deliver weather reminders in advance or provide navigation support before departure. However, existing works on proactive agents largely overlook event-centric assistance, and the open-ended nature of proactive assistance poses challenges for reliable evaluation.   To bridge these gaps, we introduce ProEvent, the first event-centric benchmark designed to assess an agent's ability to proactively maintain a user's timetable based on ongoing instant messaging chats. ProEvent provides synthesized yet realistic chats that consider the dynamic interaction among users, concurrent chat threads, and noise in the real world, and evaluates proactive agents on response timing, single-step response correctness, and multi-step response correctness. Experiments on eight LLMs and pipelines reveal that current agents frequently overact and struggle with event cancellation. Notably, even GPT-5.1 only reacts correctly in 26.7% of scenarios. Further qualitative analysis reveals fundamental limitations of current LLMs as proactive agents, particularly in detecting implicit events and reasoning from the user's first-person perspective.",
+    "url": "http://arxiv.org/abs/2607.17701v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17701v1",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.17528v2",
+    "title": "Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows",
+    "authors": [
+      "Jinyuan Deng",
+      "Zhengrui Chen",
+      "Xufeng Wei",
+      "Tianyu Xing",
+      "Chenyi Wen"
+    ],
+    "abstract": "LLM-driven agent systems have emerged as a promising paradigm for electronic design automation (EDA), demonstrating strong potential for automating complex design workflows. However, existing evaluations primarily examine individual language models on isolated EDA tasks, providing limited insight into how different agent systems perform across complete EDA flows. In this work, we present FluxBench, a systematic evaluation of AI agents on end-to-end EDA workflows under unified prompts, tool environments, and technology library settings. Our evaluation covers representative scenarios, including RTL generation with open-source toolchains and an RTL-to-GDS flow using closed-source commercial EDA tools for industrial applications. Through these workflows, we assess agents' capabilities in RTL code generation, iterative repair, tool-feedback utilization, logic synthesis, placement and routing (P&R), and Engineering Change Order (ECO) automation. To further characterize the efficiency of agent systems, we introduce Token ROI, a cost-efficiency metric that measures effective improvements in EDA artifacts relative to token usage and runtime cost. Experimental results show that, even when built on the same foundation model, different agent system architectures can exhibit performance gaps of up to 86.27%. Moreover, among systems with comparable task performance, Token ROI can differ by as much as $105.92\\times$. In the RTL-to-GDS flow using PicoRV32 as a case study, FluxEDA achieves an end-to-end score of up to 97.94, outperforming Claude Code equipped with domain-specific EDA skills by up to $8.39\\times$. These results indicate that domain-specific skills alone are insufficient to improve agent performance in large-scale EDA scenarios. Instead, both agent system design and foundation model capability play critical roles in enabling effective automated EDA workflows.",
+    "url": "http://arxiv.org/abs/2607.17528v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.17528v2",
+    "published": "2026-07-20",
+    "categories": [
+      "cs.AI",
+      "cs.AR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.17352v1",
+    "title": "Self-Modifying Lean Proof Agents with Verifier-Grounded Benchmark Coevolution",
+    "authors": [
+      "Yuqing Li",
+      "Zeguan Wu",
+      "Yu Gan",
+      "Junyu Liu"
+    ],
+    "abstract": "Designing effective Lean proof agents is a central challenge in formal mathematical reasoning. Beyond building stronger provers, recent work emphasizes the workflow around Lean: how an agent decomposes proof obligations, uses tools and compiler feedback, diagnoses failures, repairs proofs, and maintains structured proof context. Motivated by code-level self-evolving agents, we study whether such workflows can be evolved rather than hand-designed. We present a self-evolving Lean proof agent in which a small fixed, trusted runtime wraps a fully mutable workspace: the proof workflow, prompts, and tools. Unlike most self-evolving systems, which optimize against a fixed external benchmark, our system coevolves the agent and its benchmark. Between generations, the highest-scoring agent (the champion) revises the active task distribution through a mastery-throttled curriculum update that introduces harder proof obligations only after the current level is mastered, and a single-anchor recalibration re-runs the champion on the updated benchmark to keep scores comparable as difficulty rises. All evolution stays inside a Lean-grounded verification loop: however the agent rewrites itself, a success counts only when its behavior yields Lean-verified proofs under a trusted snapshot, and each attempt must emit a machine-readable, Lean-grounded proof context whose representation may evolve but whose groundedness is enforced. We run the coevolving trajectory and a fixed-benchmark baseline for 15 active generations and compare them on a held-out miniF2F test split. The best coevolving agent reaches a 45.1% held-out solve rate, versus 12.7% for the seed and 32.0% for the best fixed-benchmark agent, showing that verifier-grounded self-evolution can improve Lean proof workflows under a coevolving benchmark.",
+    "url": "http://arxiv.org/abs/2607.17352v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17352v1",
+    "published": "2026-07-19",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "quant-ph"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.17288v1",
+    "title": "SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation",
+    "authors": [
+      "Jiacheng Ding",
+      "Xiaofei Zhang"
+    ],
+    "abstract": "High quality temporal graph benchmarks with rich semantics and ground-truth anomaly labels are essential for training graph neural networks, yet remain scarce due to privacy constraints and annotation costs. We present SAGA (Synthetic Agentic Graph Architecture), a system for generating large-scale, semantically rich temporal graphs via a four-phase pipeline. Our Skeleton-First, Semantics-Second architecture decouples structure from semantics: (S) an O(1)-per-edge skeleton generator produces power-law graphs; (A) a dispatcher partitions causally ordered time blocks for parallel execution; (G) LLM agents inject domain semantics using RAG-based rule bases across four domains; and (A) a state alignment engine resolves conflicts via temporal replay, yielding anomaly labels as natural byproducts. Unlike structural generators (e.g., LDBC SNB, Kronecker/R-MAT) or purely LLM-based approaches, SAGA achieves structural realism, semantic richness, and automatic anomaly labeling in a unified framework. On a single H100 GPU with vLLM batching, SAGA generates 500,000 temporal edges with controlled anomalies in under 90 minutes, scaling to 100,000 nodes while maintaining clustering coefficients above 0.99. The system supports real-time pipeline visualization, interactive multi-domain tuning (Finance/AML, Network/IDS, Cyber/APT, Transportation), and a CLI for large-scale GPU-based experiments.",
+    "url": "http://arxiv.org/abs/2607.17288v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17288v1",
+    "published": "2026-07-19",
+    "categories": [
+      "cs.DB",
+      "cs.AI"
+    ],
+    "primary_category": "cs.DB",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.17291v1",
+    "title": "DRNOISE: Benchmarking Deep Research Agents in Misleading Evidence Environments",
+    "authors": [
+      "Jun Nie",
+      "Zhiqin Yang",
+      "Zhenheng Tang",
+      "Yonggang Zhang",
+      "Xiaowen Chu"
+    ],
+    "abstract": "Deep research agents increasingly operate over the open web, where relevant records coexist with redundant summaries, outdated reports, and misleading documents. Existing evaluations offer limited insight into whether agents preserve sound evidential standards when an ordinary-looking false document is deliberately seeded into a searchable environment and offers a direct shortcut to a conflicting answer. We introduce DRNOISE, a 100-task benchmark for answer recovery under misleading evidence. Each task has a unique gold answer supported by two corroborating indirect record chains; the paired noisy condition adds one plausible document that states a conflicting answer directly. The benchmark spans ten families of evidence operations. Across agents with strong clean-task performance, this single intervention causes 66-88 percentage-point accuracy drops. Trace analyses identify verification inertia as the dominant failure mode: agents often retrieve truthful records but stop before completing and reconciling the evidence chain, instead deferring to the answer-like document. Generic verification prompts reduce but do not close this gap. The setting is especially relevant to open-web deployment, where plausible falsehoods arrive through ordinary-looking pages rather than explicit attacks. Reliable deep research therefore requires more than retrieval and citation; it requires active reconciliation of direct claims with record-level evidence.",
+    "url": "http://arxiv.org/abs/2607.17291v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17291v1",
+    "published": "2026-07-19",
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.IR"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
