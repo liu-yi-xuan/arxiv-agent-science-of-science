@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-23
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing](http://arxiv.org/abs/2607.19985v1) | Chengxiao Dai, Zhanhui Lin, Zhaokun Yan et al. | Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time v... |
+| [A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace](http://arxiv.org/abs/2607.19941v1) | Kathrin Paimann, Elizangela Valarini, Sebastian Juhl | As AI agents become integral to business workflows, establishing guiding user experience (UX) principles is crucial for ensuring user trust and successful adoption. |
+| [Querying Multimodal Scientific Papers with AI: Practices and Preferences Across Blind, Low-Vision, and Sighted Scientists](http://arxiv.org/abs/2607.18514v1) | Arnavi Chheda-Kothary, Lucy Lu Wang, Joseph Chee Chang et al. | Visual diagrams, figures, and tables are central to scientific papers, and convey information beyond what is captured in text. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes](http://arxiv.org/abs/2607.19211v1) | Tina Behzad, Wenbo Li, Reuben Kline et al. | Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. |
+| [AI Tour Meeting: Group Travel Planning by LLM Agents](http://arxiv.org/abs/2607.18806v1) | Daisuke Kikuta | This paper proposes AI Tour Meeting, a group travel planning framework powered by multiple Large Language Model (LLM)-based agents. |
+| [DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations](http://arxiv.org/abs/2607.19865v1) | Jiazhen Jiang, Boxi Cao, Lingyong Yan et al. | As autonomous agents rapidly evolve, their ability to reliably manipulate ubiquitous digital documents has become critical for enabling general-purpose AI assistants and automating complex workspac... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models](http://arxiv.org/abs/2607.18006v1) | Martino M. L. Pulici, Cuong Xuan Chu, Evgeny Kharlamov et al. | Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\leq 4 \, \mathrm{B}$ parameters) trai... |
+| [ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems](http://arxiv.org/abs/2607.19432v1) | Om Narayan, Rashmi Jyoti, Ramkinker Singh | The Model Context Protocol (MCP) is an open-source standard that allows AI agents to connect to external tools, databases, and services. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance](http://arxiv.org/abs/2607.19262v1) | Harmon Bhasin, Kevin Flyangolts, Dianzhuo Wang et al. | As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. |
+| [Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing](http://arxiv.org/abs/2607.18485v1) | Jie Li | Large language model (LLM) agents are starting to take on routine work in high-performance computing (HPC), including monitoring Slurm jobs, diagnosing failed builds, inspecting simulation output, ... |
+| [Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security](http://arxiv.org/abs/2607.18063v1) | Devina Jain, David Hartmann, Chuan Li | LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation. |
+| [OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills](http://arxiv.org/abs/2607.20121v1) | Qiyuan Liu, Tingfeng Hui, Kun Zhan et al. | LLM-based agents leverage third-party skills to extend their capabilities in open-world scenarios. However, third-party skills can introduce extra security vulnerabilities, as seemingly harmless sk... |
+
 ### 📅 2026-07-22
 
 **14 new papers found**
