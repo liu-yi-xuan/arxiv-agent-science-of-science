@@ -1,0 +1,221 @@
+[
+  {
+    "id": "2607.21325v1",
+    "title": "Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-concept implementation",
+    "authors": [
+      "M. Llambí-Morillas",
+      "D. Fernández-Fernández"
+    ],
+    "abstract": "Autonomous AI agents increasingly execute actions, invoke tools, and operate on protected resources with limited human oversight. Existing authentication and authorization mechanisms establish identity and delegate authority, but do not inherently provide cryptographic evidence that a concrete request issued by a specific agent satisfies the applicable policy in a specific execution context. This paper hypothesizes that agent authorization can be formalized as a cryptographically verifiable relation, denoted $R_{CVA}$, that jointly binds an agent principal, a concrete authorization request, an execution context, and the satisfaction of an applicable policy, while selectively preserving the confidentiality of private authorization attributes. We introduce a preliminary formal abstraction for Cryptographically Verifiable Agent Authorization (CVA), define a compact set of candidate security properties including authorization soundness, principal binding, request binding, policy binding, and replay resistance, and provide an executable zero-knowledge proof of concept that instantiates selected elements of the model over a Groth16 zk-SNARK construction. We further identify and formalize the structural separation among identity binding, authorization-request binding, and runtime execution binding as a central open problem in the design of secure agentic systems (a distinction {not explicitly addressed by} current agentic security frameworks) and present a falsifiable research agenda for its resolution.",
+    "url": "http://arxiv.org/abs/2607.21325v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21325v1",
+    "published": "2026-07-23",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.19985v1",
+    "title": "Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing",
+    "authors": [
+      "Chengxiao Dai",
+      "Zhanhui Lin",
+      "Zhaokun Yan",
+      "Youyang Ni",
+      "Chenjun Lei"
+    ],
+    "abstract": "Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time variations. Existing multi-agent reinforcement learning approaches treat each disturbance episode independently, discarding valuable coordination experience that could accelerate future adaptation. In this paper, we propose a Graph-Structured Experiential Memory (GSEM) framework for multi-agent coordination in dynamic manufacturing. The framework encodes historical coordination episodes as heterogeneous relational graphs that capture task dependencies, machine states, and inter-agent collaboration patterns. When a new disturbance occurs, a graph neural network-based retrieval mechanism identifies structurally similar past episodes, enabling experience-guided policy adaptation rather than learning from scratch. Experiments on dynamic flexible job-shop scheduling benchmarks with three disturbance types show that GSEM reduces makespan by 4.1%-10.0% and adaptation time by 33%-38% compared to the strongest memory-augmented baseline, with the advantage increasing under higher disturbance frequency. Ablation studies and cross-disturbance transfer experiments further validate the necessity of graph-structured encoding and similarity-based retrieval and demonstrate the cross-disturbance generalizability of learned coordination patterns.",
+    "url": "http://arxiv.org/abs/2607.19985v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19985v1",
+    "published": "2026-07-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.19941v1",
+    "title": "A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace",
+    "authors": [
+      "Kathrin Paimann",
+      "Elizangela Valarini",
+      "Sebastian Juhl"
+    ],
+    "abstract": "As AI agents become integral to business workflows, establishing guiding user experience (UX) principles is crucial for ensuring user trust and successful adoption. To address this, our study uses a multi-method approach - combining participatory design workshop, paper-and-pencil, expert review, meta-analysis, and in-depth interviews - to identify and validate a design framework of eight core UX principles for human-AI agent interaction in the workplace. Together with their underlying criteria, these principles provide actionable guardrails for designers and software engineers, creating a foundation for developing effective and human-centered AI agent interactions. This study contributes to a structured foundation for future empirical studies on agentic AI in enterprise settings.",
+    "url": "http://arxiv.org/abs/2607.19941v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19941v1",
+    "published": "2026-07-22",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.19211v1",
+    "title": "Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes",
+    "authors": [
+      "Tina Behzad",
+      "Wenbo Li",
+      "Reuben Kline",
+      "Klaus Mueller"
+    ],
+    "abstract": "Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. Recent work has suggested that large language models (LLMs) could automate parts of this process by generating surveys at scale, raising questions about the comparability of such instruments to literature-grounded, human-designed surveys. We present a controlled empirical comparison between GPT-generated surveys and established survey baselines across three social domains: climate change, immigration, and diversity, equity, and inclusion (DEI). GPT-generated surveys were produced using a fixed prompting framework enforcing a 3x3 structure over beliefs, perceptions, and behaviors, while human baselines were assembled from validated instruments to match survey length and construct coverage. We collected responses from U.S.-based participants, who completed both survey types, allowing direct within-subject comparison. We analyze differences in response distributions, clustering behavior, and alignment with self-identified stances. Our results show that GPT-generated surveys capture the same dominant attitudinal divisions as human-designed instruments, while exhibiting differences in the resolution of belief structure and group separation. These findings suggest that LLM-generated surveys are suited for exploratory and large-scale analyses, and can be used to complement expert-designed instruments.",
+    "url": "http://arxiv.org/abs/2607.19211v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19211v1",
+    "published": "2026-07-21",
+    "categories": [
+      "cs.CY"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.19865v1",
+    "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations",
+    "authors": [
+      "Jiazhen Jiang",
+      "Boxi Cao",
+      "Lingyong Yan",
+      "Yaojie Lu",
+      "Hongyu Lin"
+    ],
+    "abstract": "As autonomous agents rapidly evolve, their ability to reliably manipulate ubiquitous digital documents has become critical for enabling general-purpose AI assistants and automating complex workspace workflows. In this paper, we introduce DocOps, a deterministically verifiable evaluation framework underpinned by a hierarchical taxonomy that deconstructs document operations inspired by real-world practices into atomic dimensions and escalating workflow complexities. Based on DocOps, we systematically evaluate representative closed- and open-source models across various agentic harnesses, revealing that even the most advanced frontier configurations still exhibit profound limitations when handling highly coupled, long-range tasks. Furthermore, a fine-grained analysis of existing agents' manipulation behaviors uncovers 3 key failure modes: long-term state tracking collapse, shallow semantic verification, and destructive editing of structural metadata. Ultimately, our work exposes the capability boundaries of agents in maintaining global document consistency, shedding light on the future design of robust, non-destructive agents for complex digital ecosystems.",
+    "url": "http://arxiv.org/abs/2607.19865v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19865v1",
+    "published": "2026-07-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2607.21522v1",
+    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+    "authors": [
+      "Hongxin Zhang",
+      "Chunru Lin",
+      "Junyan Li",
+      "Zhou Xian",
+      "Tsun-Hsuan Wang"
+    ],
+    "abstract": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generative foundation models have sparked interest in learning to generate such 4D worlds from large-scale data; however, existing methods still struggle to ensure physical plausibility and controllability. In this work, we take a different path by leveraging foundation models to construct an agentic system that emulates how humans traditionally create 4D worlds, yet automates the entire process. We present GS-Agent, an end-to-end multi-agent framework that integrates physics engines in the loop to generate realistic, dynamic, and controllable 4D physical worlds from natural language. Inspired by how humans build 4D worlds, GS-Agent decomposes the task into entity management, covering 3D asset curation, material tuning, placement, and motion control, and rendering configuration, including camera and lighting manipulation. Multiple agents with distinct expertise interact with the physics engine via code, seek multimodal feedback, and collaborate to iteratively construct 4D worlds that align with the given descriptions. Experimental results show that GS-Agent effectively converts natural language into diverse and physically plausible 4D worlds exhibiting rich interactions among liquids, deformable objects, and rigid bodies, while achieving cinematic camera and lighting control. We envision GS-Agent as a foundation for a new paradigm in 4D world generation, empowering creative content creation and physical AI. Project page at https://umass-embodied-agi.github.io/gs-agent/",
+    "url": "http://arxiv.org/abs/2607.21522v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21522v1",
+    "published": "2026-07-23",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.21327v1",
+    "title": "From Static Bibliometrics to Dynamic Knowledge Graphs: An LLM-Powered Framework for Modernizing Science, Technology, and Innovation (STI) Analytics",
+    "authors": [
+      "Muhsen Hammoud"
+    ],
+    "abstract": "Bibliometric indicators - citation counts, h-indexes, co-authorship networks - have long anchored science, technology, and innovation (STI) analytics, yet suffer from temporal lag, semantic shallowness, and an inability to capture the non-linear dynamics of contemporary knowledge ecosystems. Dynamic knowledge graphs and large language models (LLMs) have each been proposed as remedies, but neither is sufficient alone: existing scholarly knowledge graphs remain largely static, while LLM-driven pipelines are prone to hallucination, opacity, and corpus bias without structured grounding. This paper proposes a hybrid, symbolic-first framework integrating all three traditions under explicit methodological constraint. Organized across five layers - an open scholarly data backbone, a dynamic versioned knowledge graph, a constrained LLM-assisted semantic augmentation layer, a multi-layer validation pipeline, and an analytics layer - the framework positions LLMs strictly as generators of provisional candidate enrichments. Candidates become analytically admissible only after passing structural, evidentiary, comparative, and selective expert validation, with full provenance recorded at every stage. The analytics layer supports both established bibliometric indicators and extended graph-based analyses, including trend emergence detection, science-to-technology pathway mapping, and policy-oriented gap analysis. The framework's central theoretical contribution is treating validation as the mediating principle between semantic flexibility and epistemic discipline, enabling STI analytics that is semantically richer and temporally more responsive than static bibliometrics while remaining aligned with the evidentiary standards of science-of-science research. Governance considerations addressing reproducibility, bias, and auditability are also discussed.",
+    "url": "http://arxiv.org/abs/2607.21327v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21327v1",
+    "published": "2026-07-23",
+    "categories": [
+      "cs.DL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2607.20759v1",
+    "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+    "authors": [
+      "Ankur Singh",
+      "Jinqiu Yang",
+      "Tse-Hsun Chen"
+    ],
+    "abstract": "AI coding agents powered by LLMs are increasingly integrated into real-world software development, where they generate, edit, and execute code with autonomous access to local files and tools. Coding agents inherit security risks from both the LLM backbone, where adversarial prompts, poisoned training data, and backdoor triggers can cause models to emit insecure or attacker-chosen code, and their agentic architecture, where tool-using autonomy enables induced misuse of external APIs, data exfiltration, and persistent compromise of development environments. This paper presents a systematic evaluation of malicious issue requests against state-of-the-art coding agents (Cursor, Claude Code, and Codex Desktop), powered by two major model families (OpenAI GPT-5.3 Codex/GPT-5.4 and Anthropic Sonnet 4.6). Our novel benchmark IssueTrojanBench contains malicious issues that are constructed based on four novel attack categories (i.e., embedded as malicious instructions in issues), six delivery vectors (e.g., PDF, or issue comment), and further augmented by perturbations. Our results reveal critical vulnerabilities in the as-deployed modern coding agents, i.e., 66.5% of the malicious issues from IssueTrojanBench penetrate all the guardrails (agent- and LLM-level) of coding agents. Our further analysis shows that rejection is almost entirely from LLMs rather than the agent frameworks, with GPT models broadly vulnerable and Sonnet 4.6 exhibiting more selective, risk-aware blocking of high-impact actions. Our evaluation also highlights that the current agent-level defense strategy offers limited additional protection for coding agents. Our findings highlight the urgent need for stronger agent- and model-level safety mechanisms to protect AI coding agents.",
+    "url": "http://arxiv.org/abs/2607.20759v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20759v1",
+    "published": "2026-07-22",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.19262v1",
+    "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
+    "authors": [
+      "Harmon Bhasin",
+      "Kevin Flyangolts",
+      "Dianzhuo Wang",
+      "Evan Seeyave",
+      "Arjun Banerjee"
+    ],
+    "abstract": "As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. We present BioSecBench-Surveillance, a verifiable benchmark of 100 evaluations testing whether AI agents can infer the right analysis pipeline from raw sequencing data and surveillance context. Each evaluation gives an agent only the data and context a human analyst would have, then grades its structured answer deterministically. The tasks span seven categories, from taxonomic classification to genetic-engineering detection, across diverse sample types and sequencing technologies. Across 3,962 gradable attempts from sixteen model-harness pairs, the strongest configuration cleared only about half. Opus 4.8 with PI led at 50.2 percent, with a 95 percent confidence interval of 40.1 to 60.3 percent across 83 evaluations, tied with GPT-5.5 with Codex at 50.2 percent, with a 95 percent confidence interval of 40.8 to 59.6 percent, followed by Opus 4.7 with PI at 49.6 percent, with a 95 percent confidence interval of 40.0 to 59.2 percent, and Sonnet 4.6 with PI at 48.6 percent, with a 95 percent confidence interval of 38.9 to 58.3 percent. Even when agents invoked the correct workflows, their mistakes came from the choices around them, such as which references, thresholds, filters, and normalization to apply. BioSecBench-Surveillance provides a standard for measuring whether agents can be trusted to perform genomic surveillance when the next outbreak arrives.",
+    "url": "http://arxiv.org/abs/2607.19262v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19262v1",
+    "published": "2026-07-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.20911v1",
+    "title": "Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction",
+    "authors": [
+      " Tencent WorkBuddy Bench Team",
+      "Siqi Cai",
+      "Shaopeng Chen",
+      "Xiang Fei",
+      "Yong Mao"
+    ],
+    "abstract": "We introduce Tencent WorkBuddy Bench, a multi-domain evaluation suite for coding agents; this report documents its construction methodology, scoring protocol, and a cross-model leaderboard. At its core is a unified evaluation framework for constructing and running distribution-informed coding-agent tasks across four work domains - Code, Web, Office, and Security. Rather than adapting public issue text, every task is reverse-engineered from a real commit, pull request, or business scenario and rewritten as a short, colloquial, role-played request, so that a task's prompt is not recoverable by web-searching the underlying issue, pull request, or commit thread. Because the dataset is released openly - task directories, environment images, evaluation harness, tests, and reference solutions - contamination resistance rests on this construction together with dataset versioning rather than on secrecy. The four subsets - repository-level engineering, front-end development, office and business workflows, and red-/blue-team security - probe complementary facets of real work, each with its own verification style. All are packaged in a uniform task-directory format and run, under a uniform and reproducible protocol, on two agent harnesses (CodeBuddy Code and Claude Code); the full open release makes the benchmark reproducible end to end and directly auditable, since any third party can re-run each task and inspect its content. Because each subset uses a different scoring instrument, scores are not comparable across subsets and the suite reports no suite-wide average. We report a cross-model leaderboard across several model families.",
+    "url": "http://arxiv.org/abs/2607.20911v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20911v1",
+    "published": "2026-07-23",
+    "categories": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.20121v2",
+    "title": "OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills",
+    "authors": [
+      "Qiyuan Liu",
+      "Tingfeng Hui",
+      "Kun Zhan",
+      "Kaike Zhang",
+      "Ning Miao"
+    ],
+    "abstract": "LLM-based agents leverage third-party skills to extend their capabilities in open-world scenarios. However, third-party skills can introduce extra security vulnerabilities, as seemingly harmless skills can contain latent safety risks that only emerge during actual execution. In this work, we conduct a systematic investigation into how well current agent systems recognize and avoid such risks. To support quantitative and qualitative evaluation, we construct OpenSkillRisk, a dedicated safety benchmark containing 263 risky skills collected from public skill marketplaces. We classify these skills into seven categories based on their threat types and pair each skill with a standardized user task and a corresponding sandbox for controlled evaluation. Distinct from prior benchmarks, OpenSkillRisk not only covers more realistic and diverse unsafe scenarios, but also provides a fine-grained analysis to diagnose the behavioral patterns of agents in such scenarios. We conduct comprehensive experiments covering three mainstream CLI agent frameworks and thirteen state-of-the-art LLMs. Experimental results show that no tested system handles risky skills reliably: even the safest configurations still execute unsafe actions in about 17% of cases. Context-dependent and system-level risks are especially difficult for current agent systems to avoid. Our behavioral analysis reveals three recurring failure patterns: agents may fail to recognize the risk, recognize it but fail to intervene before acting, or follow skill instructions beyond the user's intended scope. These findings highlight the need to improve both risk reasoning in LLMs and execution control in agent frameworks.",
+    "url": "http://arxiv.org/abs/2607.20121v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.20121v2",
+    "published": "2026-07-22",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

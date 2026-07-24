@@ -24,6 +24,46 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-24
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-concept implementation](http://arxiv.org/abs/2607.21325v1) | M. Llambí-Morillas, D. Fernández-Fernández | Autonomous AI agents increasingly execute actions, invoke tools, and operate on protected resources with limited human oversight. |
+| [Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing](http://arxiv.org/abs/2607.19985v1) | Chengxiao Dai, Zhanhui Lin, Zhaokun Yan et al. | Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time v... |
+| [A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace](http://arxiv.org/abs/2607.19941v1) | Kathrin Paimann, Elizangela Valarini, Sebastian Juhl | As AI agents become integral to business workflows, establishing guiding user experience (UX) principles is crucial for ensuring user trust and successful adoption. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes](http://arxiv.org/abs/2607.19211v1) | Tina Behzad, Wenbo Li, Reuben Kline et al. | Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. |
+| [DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations](http://arxiv.org/abs/2607.19865v1) | Jiazhen Jiang, Boxi Cao, Lingyong Yan et al. | As autonomous agents rapidly evolve, their ability to reliably manipulate ubiquitous digital documents has become critical for enabling general-purpose AI assistants and automating complex workspac... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [GS-Agent: Creating 4D Physical Worlds With Generative Simulation](http://arxiv.org/abs/2607.21522v1) | Hongxin Zhang, Chunru Lin, Junyan Li et al. | Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Static Bibliometrics to Dynamic Knowledge Graphs: An LLM-Powered Framework for Modernizing Science, Technology, and Innovation (STI) Analytics](http://arxiv.org/abs/2607.21327v1) | Muhsen Hammoud | Bibliometric indicators - citation counts, h-indexes, co-authorship networks - have long anchored science, technology, and innovation (STI) analytics, yet suffer from temporal lag, semantic shallow... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests](http://arxiv.org/abs/2607.20759v1) | Ankur Singh, Jinqiu Yang, Tse-Hsun Chen | AI coding agents powered by LLMs are increasingly integrated into real-world software development, where they generate, edit, and execute code with autonomous access to local files and tools. |
+| [BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance](http://arxiv.org/abs/2607.19262v1) | Harmon Bhasin, Kevin Flyangolts, Dianzhuo Wang et al. | As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. |
+| [Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction](http://arxiv.org/abs/2607.20911v1) |  Tencent WorkBuddy Bench Team, Siqi Cai, Shaopeng Chen et al. | We introduce Tencent WorkBuddy Bench, a multi-domain evaluation suite for coding agents; this report documents its construction methodology, scoring protocol, and a cross-model leaderboard. |
+| [OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills](http://arxiv.org/abs/2607.20121v2) | Qiyuan Liu, Tingfeng Hui, Kun Zhan et al. | LLM-based agents leverage third-party skills to extend their capabilities in open-world scenarios. However, third-party skills can introduce extra security vulnerabilities, as seemingly harmless sk... |
+
 ### 📅 2026-07-23
 
 **12 new papers found**
