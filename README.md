@@ -24,6 +24,17 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-25
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-concept implementation](http://arxiv.org/abs/2607.21325v1) | M. Llambí-Morillas, D. Fernández-Fernández | Autonomous AI agents increasingly execute actions, invoke tools, and operate on protected resources with limited human oversight. |
+| [Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing](http://arxiv.org/abs/2607.19985v1) | Chengxiao Dai, Zhanhui Lin, Zhaokun Yan et al. | Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time v... |
+
 ### 📅 2026-07-24
 
 **11 new papers found**
