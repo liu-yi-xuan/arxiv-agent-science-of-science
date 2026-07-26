@@ -24,6 +24,28 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-26
+
+**3 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-concept implementation](http://arxiv.org/abs/2607.21325v1) | M. Llambí-Morillas, D. Fernández-Fernández | Autonomous AI agents increasingly execute actions, invoke tools, and operate on protected resources with limited human oversight. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [GS-Agent: Creating 4D Physical Worlds With Generative Simulation](http://arxiv.org/abs/2607.21522v1) | Hongxin Zhang, Chunru Lin, Junyan Li et al. | Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Static Bibliometrics to Dynamic Knowledge Graphs: An LLM-Powered Framework for Modernizing Science, Technology, and Innovation (STI) Analytics](http://arxiv.org/abs/2607.21327v1) | Muhsen Hammoud | Bibliometric indicators - citation counts, h-indexes, co-authorship networks - have long anchored science, technology, and innovation (STI) analytics, yet suffer from temporal lag, semantic shallow... |
+
 ### 📅 2026-07-25
 
 **2 new papers found**
