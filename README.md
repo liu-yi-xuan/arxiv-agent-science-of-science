@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-27
+
+**1 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation](http://arxiv.org/abs/2607.22375v1) | Varun Gumma, Navonil Majumder, Soumitra Sinhahajari et al. | Large Language Models (LLMs) have significantly automated the process of scientific discovery over the past few years. |
+
 ### 📅 2026-07-26
 
 **3 new papers found**
