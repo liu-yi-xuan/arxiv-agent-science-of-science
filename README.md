@@ -24,6 +24,37 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-28
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents](http://arxiv.org/abs/2607.24588v1) | Hang Ni, Weijia Zhang, Fan Liu et al. | Early warning of extreme weather is essential for mitigating the societal, economic, and environmental risks posed by hazardous weather events. |
+| [Efficiency Matters in Autonomous Research](http://arxiv.org/abs/2607.24647v1) | Haiqian Yang, Yuan Cao | AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems](http://arxiv.org/abs/2607.24117v1) | Ali Zahid Raja | Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Who Gets Named: Citation Type Predicts Individual Naming by Grounded Language Models, and a Roster Instrument Captures 0.5% of It](http://arxiv.org/abs/2607.23893v1) | Dmitrij Żatuchin | Prior work on AI brand visibility measures the firm: does a model recommend a company, and does that track its reputation. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents](http://arxiv.org/abs/2607.23870v1) | Belal S. Alsinglawi, Weizheng Wang, Junyi Wu et al. | Smart-city airspace is transforming Uncrewed Aerial Vehicles (UAVs) from passive sensing platforms into cyber-physical decision makers that must follow operational rules under degraded observations... |
+| [E-Bench: Benchmarking Multi-Step Tool-Use Agents in Real-World Product Scenarios](http://arxiv.org/abs/2607.23722v1) | Weihuang Zheng, Tianyuan Zou, Eileen Ye et al. | Large Language Models (LLMs) are increasingly deployed as agents that interact with stateful environments over multiple steps: gathering hidden information, composing tool calls, and committing sta... |
+| [Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory](http://arxiv.org/abs/2607.24368v1) | Ruizhe Li, Mingxuan Du, Benfeng Xu et al. | Long-term memory systems store what a user says in an external store and retrieve it when a related query arrives. |
+
 ### 📅 2026-07-27
 
 **1 new papers found**

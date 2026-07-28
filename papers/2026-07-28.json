@@ -1,0 +1,135 @@
+[
+  {
+    "id": "2607.24588v1",
+    "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+    "authors": [
+      "Hang Ni",
+      "Weijia Zhang",
+      "Fan Liu",
+      "Mengqian Lu",
+      "Hao Liu"
+    ],
+    "abstract": "Early warning of extreme weather is essential for mitigating the societal, economic, and environmental risks posed by hazardous weather events. However, expert-centered warning workflows are costly, labor-intensive, and difficult to scale throughout the warning-to-action process. Although recent advances in Large Language Model (LLM) agents have enabled the automation of weather-related tasks, existing studies remain centered on isolated scientific tasks and overlook the chain of interdependent processes required for operational extreme-weather early warning. To bridge this gap, this study investigates automated end-to-end extreme-weather early warning through LLM agents. We first develop SIREN-Bench, a comprehensive benchmark comprising 600 question-answer instances across 19 tasks, and covering four individual warning procedures and an end-to-end warning chain. Evaluation on SIREN-Bench reveals substantial capability gaps in existing weather agent frameworks. This motivates us to develop SIREN, an experience-grounded agent framework inspired by experts' use of historical cases, which combines an agentic execution environment integrating heterogeneous weather evidence and tools with a family of agent harnesses that exploit historical cases through retrieval, skill distillation, and predictive modeling. Extensive experiments demonstrate that SIREN outperforms weather-agent baselines on both individual warning procedures and end-to-end warning chains.",
+    "url": "http://arxiv.org/abs/2607.24588v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.24588v1",
+    "published": "2026-07-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.24647v1",
+    "title": "Efficiency Matters in Autonomous Research",
+    "authors": [
+      "Haiqian Yang",
+      "Yuan Cao"
+    ],
+    "abstract": "AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper, we argue that the efficiency of the solution-search process is an equally important but often overlooked dimension of performance. A strong AR system should not only produce high-quality results, but also reach them with as small a budget as possible. Search efficiency will become increasingly important as AR expands from domains with inexpensive verification, such as mathematics and coding, to real-world scientific settings in which solution evaluation may require costly physical experiments. To capture this dimension, we propose evaluating AR systems using the area under the curve (AUC) of the Pareto frontier, alongside final outcome quality. We compare several families of search algorithms, including hill climbing, beam search, tree search, and evolutionary search, across twelve systems-optimization tasks. We find that no single search structure is consistently the most efficient. We also show that search efficiency and final outcome quality are distinct performance dimensions: a method that eventually achieves the best result may nevertheless improve slowly and consume substantially more evaluation budget before reaching that result. Because the most effective search policy is generally unknown in advance, we introduce an adaptive procedure called fluid search, which uses a portfolio bandit to dynamically allocate a fixed evaluation budget across a forest of search processes. Across the evaluated tasks, fluid search achieves the highest overall search efficiency, closely matching the performance of a per-task oracle that is given the best search structure for each task in advance.",
+    "url": "http://arxiv.org/abs/2607.24647v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.24647v1",
+    "published": "2026-07-27",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2607.24117v1",
+    "title": "Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems",
+    "authors": [
+      "Ali Zahid Raja"
+    ],
+    "abstract": "Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. Existing provenance work records what happened - execution traces, tool calls, evidence links - and source-reliability estimation is long established (truth discovery, reputation systems). What is missing is an operational framework that attaches graded, per-domain transmitter reliability to claim-level transmission chains, with completeness semantics, transformation-typed aggregation, decoupled content criticism, and serve/review/quarantine routing.   Classical Islamic hadith science confronted a structurally similar problem: deciding whether knowledge transmitted through chains of human narrators should be accepted. Over centuries it developed a rigorous methodology - isnad (a complete transmission chain attached to every claim), rijal (systematic grading of each narrator's integrity and precision), weakest-link chain evaluation, corroboration through independent chains, and matn criticism (content evaluated independently of chain quality). This paper transfers that methodology to AI system design.   We contribute a formal mapping from hadith-science concepts to multi-agent pipelines, a relational schema implementing claim chains and a graded narrator registry, a decision matrix combining chain grade with content criticism, and an evaluation on 20,000 claims from real physics textbooks. The evaluation validates weakest-link quarantine and independent-chain corroboration; reports a partial failure of the grade-recovery loop, which missed the highest-fault narrator; and reports two analyses as inconclusive, including a matched-coverage comparison the framework could not reach with the reference content critic. The paper is explicit throughout about which claims the evidence does and does not yet support.",
+    "url": "http://arxiv.org/abs/2607.24117v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.24117v1",
+    "published": "2026-07-27",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2607.23893v1",
+    "title": "Who Gets Named: Citation Type Predicts Individual Naming by Grounded Language Models, and a Roster Instrument Captures 0.5% of It",
+    "authors": [
+      "Dmitrij Żatuchin"
+    ],
+    "abstract": "Prior work on AI brand visibility measures the firm: does a model recommend a company, and does that track its reputation. This study asks the question one level down, in categories where the buyer picks a person. It issued 2,400 grounded API calls in one two-hour window on 24 July 2026: 120 buyer-intent prompts, four models (GPT-5.6 Sol, Gemini 3.6 Flash, Perplexity Sonar Pro, Grok 4.5), five iterations each, four European markets and five query languages. Every response was coded for whether it named an individual professional, by a rule cascade that never consults a roster and that drops detections resolving to a same-named American city (precision 96.9%, recall 61.7%, so every rate below is a lower bound). All inference corrects for clustering within prompt: intraclass correlation 0.258, effective n 407 against a nominal 2,400. Models named an individual in 25.8% of responses. Category dominates: real estate 35.4% and car dealerships 32.9% against insurance 9.1% (chi-square 159.3, p = 5.8e-8 after correction). Models differ four-fold, from Grok 38.0% to Gemini 9.3%. Citation type predicts naming and citation volume does not: naming responses cite the individual's own site 2.6 points more often (95% CI +1.4 to +3.9) and category portals 4.3 points more often, and cite firm-owned pages at the same rate (44.1% against 45.5%). On nine matched translation pairs, English prompts named an individual in 36.7% of responses against 15.6% for the same question in the local language (OR 3.14, clustered p = 0.074, so the direction is clear and the design cannot close it). A 939-person roster built from public LinkedIn search matched 128 of 27,293 name-shaped mentions (0.47%), 26 of the 939 people were ever named, and the roster-derived rates of 0.0% to 25.4% measure that overlap. Roster-based measurement of individual AI visibility sees a small and unrepresentative slice of what models do.",
+    "url": "http://arxiv.org/abs/2607.23893v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.23893v1",
+    "published": "2026-07-26",
+    "categories": [
+      "cs.IR",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2607.23870v1",
+    "title": "MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents",
+    "authors": [
+      "Belal S. Alsinglawi",
+      "Weizheng Wang",
+      "Junyi Wu",
+      "Yi Jiang",
+      "Lianhai Lin"
+    ],
+    "abstract": "Smart-city airspace is transforming Uncrewed Aerial Vehicles (UAVs) from passive sensing platforms into cyber-physical decision makers that must follow operational rules under degraded observations and ambiguous language. Existing UAV and multimodal benchmarks evaluate perception, navigation, collaboration, and reasoning, but few assess whether physical evidence, protocol constraints, and action risk remain coupled during critical decisions. We introduce MulRobBench, an offline, protocol-conditioned benchmark for Vision-Language-Action (VLA) UAV agents in smart-city environments. MulRobBench integrates real UAV multimodal observations, protocol-level security policies, and action-level cyber-physical safety into a unified evaluation framework. The benchmark contains 3,024 samples spanning 17 task taxonomy nodes and 12 scoring dimensions across four stages: operational context understanding, multimodal evidence arbitration, degradation-aware reasoning, and risk-aware action planning. Evaluation combines semantic scoring with structural diagnostics, including policy compliance, format compliance, unsafe actions, parsing failures, and dimension-level validity. Across 17 multimodal models, the best semantic protocol-decision score reaches only 0.5141, while the best strict mean scoring-dimension accuracy is 0.1599. A controlled 20-anchor modality-ablation study changes 4-15 action selections per model, confirming that both visual and textual inputs influence decisions. Analysis identifies modality-trust selection, constraint extraction, glare, missing data, and operator shorthand as the primary causes of decision instability. MulRobBench provides a reproducible benchmark for trustworthy multimodal UAV decision making under realistic operational constraints.",
+    "url": "http://arxiv.org/abs/2607.23870v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.23870v1",
+    "published": "2026-07-26",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.23722v1",
+    "title": "E-Bench: Benchmarking Multi-Step Tool-Use Agents in Real-World Product Scenarios",
+    "authors": [
+      "Weihuang Zheng",
+      "Tianyuan Zou",
+      "Eileen Ye",
+      "Alphet Liu",
+      "Youyong Kong"
+    ],
+    "abstract": "Large Language Models (LLMs) are increasingly deployed as agents that interact with stateful environments over multiple steps: gathering hidden information, composing tool calls, and committing state changes. We refer to this capability as multi-step tool use. Existing benchmarks have advanced tool-use agent evaluation, but often focus on isolated API calls, short trajectories, or settings that are difficult to scale or control. We introduce E-Bench, a fully synthetic benchmark with 323 state-changing tasks across three product domains: Honor of Kings, QQ Music, and Tencent Meeting. E-Bench decouples environment synthesis from task synthesis: graph-guided database filling builds reusable, orphan-free product environments, while generator-solver asymmetry creates tasks with both an information gap and a tool gap, requiring agents to discover hidden data and compose multiple tool calls before changing state. Outcomes are graded deterministically by database-state diffs. Since both environments and tasks are synthetic, E-Bench is controllable at the environment level and scalable at the task level. Benchmarking 11 cutting-edge LLMs shows that multi-step tool use remains challenging: Pass^3 stays below 60% for the strongest models, and even with code execution in the E-Bench-Code extension, reliability (Pass^3) remains below 70%.",
+    "url": "http://arxiv.org/abs/2607.23722v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.23722v1",
+    "published": "2026-07-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.24368v1",
+    "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+    "authors": [
+      "Ruizhe Li",
+      "Mingxuan Du",
+      "Benfeng Xu",
+      "Zhendong Mao"
+    ],
+    "abstract": "Long-term memory systems store what a user says in an external store and retrieve it when a related query arrives. This interface rests on an assumption so natural that it is rarely stated: a memory that is needed will resemble the query that needs it. World knowledge breaks the assumption. A tree-nut allergy should change the answer to a macaron request through their almond-flour ingredient, yet the two texts share no cue a retriever can see. We call this failure mode the implicit-association blind spot and introduce InMind, a 125-task, expert-verified benchmark spanning ten life domains, with 113 tasks grounded in citable public sources. Its paired controls separate three explanations that existing evaluations conflate: the fact was never stored, the model lacks the bridging knowledge, or the fact was stored and never surfaced. The verdict is clean. With the decisive memory placed in context, the backbone answers 84.0 percent of indirect queries; when the same memory must be retrieved, six vector, graph, and agentic memory systems reach at most 14.4 percent, even though they recall the same facts on demand at up to 100 percent. An embedding with eight times the dimensionality raises answer-blind target recall for every system yet leaves the gap essentially intact. A minimal diagnostic probe that keeps memory visible before the query arrives recovers most of the gap, locating the failure in the query-conditioned interface itself and pointing to routing, deciding which facts must stay visible, as the open problem InMind is built to score.",
+    "url": "http://arxiv.org/abs/2607.24368v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.24368v1",
+    "published": "2026-07-27",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
