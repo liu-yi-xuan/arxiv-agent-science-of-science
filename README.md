@@ -24,6 +24,51 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-07-30
+
+**16 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments](http://arxiv.org/abs/2607.25145v1) | Takuya Isogawa, Ryotaro Okabe, Nutdech Phadetsuwannukun et al. | We implement an agentic AI workflow built around a large language model (LLM) agent for autonomous experiments with nitrogen-vacancy (NV) centers in diamond. |
+| [SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents](http://arxiv.org/abs/2607.24588v1) | Hang Ni, Weijia Zhang, Fan Liu et al. | Early warning of extreme weather is essential for mitigating the societal, economic, and environmental risks posed by hazardous weather events. |
+| [OmniQEC: discovering practical quantum error-correcting codes by an AI scientist](http://arxiv.org/abs/2607.25865v1) | Ge Yan, Shanchuan Li, Pengyue Ma et al. | Quantum error correction (QEC) is indispensable for scalable fault-tolerant quantum computing. However, discovering QEC codes that remain effective is challenging, as logical performance depends on... |
+| [Efficiency Matters in Autonomous Research](http://arxiv.org/abs/2607.24647v1) | Haiqian Yang, Yuan Cao | AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning](http://arxiv.org/abs/2607.26977v1) | Jinhu Qi, Wentao Zhang, Siu Man Ng et al. | Travel planning is a demanding stress test for tool-using LLM agents: a usable itinerary is a single artifact that must be right along many axes at once - every flight, hotel, and attraction must e... |
+| [AgentSnare: Learning to Delay, Divert, and Defuse Autonomous Penetration Agents](http://arxiv.org/abs/2607.26998v1) | Ruoyu Wang, Heng Zhao, Renjie Wu et al. | Large language model (LLM) agents automate penetration testing through an observation-action loop, selecting actions based on observations returned by tools. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Debate Strategies: Survey, Taxonomy, and Challenges](http://arxiv.org/abs/2607.26212v1) | Quim Motger, Marc Oriol, Jordi Marco et al. | Multi-Agent Debate (MAD) is a promising paradigm for improving the accuracy and robustness of Large Language Model (LLM)-based agentic systems. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Comparative Analysis of Classification Schemes on Major Bibliometric Platforms: A study of Web of Science, Scopus, the Lens, and Dimensions](http://arxiv.org/abs/2607.25499v1) | Ophélie Fraisier-Vannier | This study examines the classification schemes of four major bibliometric platforms - Web of Science, Scopus, Dimensions, and The Lens - which collectively index hundreds of millions of scholarly d... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](http://arxiv.org/abs/2607.27155v1) | Jingbo Zhou, Yusai Zhao, Qi Bao et al. | Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out off... |
+| [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](http://arxiv.org/abs/2607.27056v1) | Lingyang Zeng, Guangze Chen, Kaichen Yu et al. | Personalized agents are increasingly applied to assist users across a wide range of tasks. Effective personalized assistance requires not only retrieving explicit facts from past interactions store... |
+| [SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response](http://arxiv.org/abs/2607.26791v1) | Lehan Wang, Boli Chen, Ruixue Ding et al. | Large Language Model (LLM) agents are increasingly adopted in real-world security operations with access to host artifacts and command-line interfaces (CLIs), making it critical to thoroughly asses... |
+| [Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation](http://arxiv.org/abs/2607.25891v1) | Stefan Krsteski, Charlotte Meyer, Guillaume Allegre et al. | Evaluating AI agents in interactive environments is hindered by fragmented tasks, scaffolds, verifiers, and scoring rules. |
+| [PatientAgentBench: A Benchmark Framework for Evaluating Patient-Facing Health AI Agents](http://arxiv.org/abs/2607.25485v1) | Korosh Vatanparvar, Ashutosh Joshi, Maria Xenochristou et al. | Health AI is evolving from answering questions to agentic systems that converse with patients, reason about health records, and act on their behalf. |
+| [HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following](http://arxiv.org/abs/2607.25398v1) | Liudas Panavas, Sebastian Minus, Bradley Monton et al. | Language-model agents are increasingly deployed under standing instructions: a system prompt, a policy file, or a skills document is placed in context, and the agent is trusted to let it govern eve... |
+| [WorkSurface-Bench: Benchmarking Enterprise Agents on Multi-Surface Knowledge Routing](http://arxiv.org/abs/2607.25765v1) | Hao Liang, Meiyi Qiang, Sizhe Qiu et al. | Enterprise agents often need to integrate heterogeneous knowledge sources: documents for narrative facts, tables for computation, and dependency graphs for file relationships. |
+| [Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory](http://arxiv.org/abs/2607.24368v1) | Ruizhe Li, Mingxuan Du, Benfeng Xu et al. | Long-term memory systems store what a user says in an external store and retrieve it when a related query arrives. |
+
 ### 📅 2026-07-29
 
 **14 new papers found**
