@@ -24,6 +24,30 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-01
+
+**5 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LabEvolver: Training-Free Experience Evolution for Safe and Grounded Wet-Lab Agents](http://arxiv.org/abs/2607.27690v1) | Jingya Wang, Yuyang Gao, Liuzhenghao Lv et al. | We introduce LabEvolver, a training-free framework that equips safe and grounded wet-lab agents with episodic memory from execution experience. |
+| [FinanceHarness: Autonomous Financial Deep Research Framework](http://arxiv.org/abs/2607.27853v1) | Yijia Xiao, Rujun Han, Yanfei Chen et al. | Powered by advances in LLMs and autonomous agents, deep research has become one of the most widely adopted agentic products. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning](http://arxiv.org/abs/2607.26977v1) | Jinhu Qi, Wentao Zhang, Siu Man Ng et al. | Travel planning is a demanding stress test for tool-using LLM agents: a usable itinerary is a single artifact that must be right along many axes at once - every flight, hotel, and attraction must e... |
+| [AgentSnare: Learning to Delay, Divert, and Defuse Autonomous Penetration Agents](http://arxiv.org/abs/2607.26998v1) | Ruoyu Wang, Heng Zhao, Renjie Wu et al. | Large language model (LLM) agents automate penetration testing through an observation-action loop, selecting actions based on observations returned by tools. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ThreatForest: Multi-Agent Attack Tree Generation with Pluggable TTP Framework Mapping](http://arxiv.org/abs/2607.27528v1) | Cristian Leo, Anton Dykyi, Danny Cortegaca et al. | Threat modeling is essential for secure software development, yet manual analysis of cloud-native architectures is slow and demands scarce security expertise. |
+
 ### 📅 2026-07-31
 
 **7 new papers found**
