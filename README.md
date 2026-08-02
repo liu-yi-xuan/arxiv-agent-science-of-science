@@ -24,6 +24,19 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-02
+
+**4 new papers found**
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How Benchmarks Mis-Score Computer-Use Agents](http://arxiv.org/abs/2607.28367v1) | Zihan Dong, Zhiyuan Ma, Zekun Wang et al. | Computer-use agents (CUA) are being deployed to browse the web and operate desktop software, yet their benchmark scores are still commonly produced by brittle scripted oracles. |
+| [DataClawEval: A Benchmark for Data Engineering Agents in Real Industrial Harness](http://arxiv.org/abs/2607.28033v1) | Debin Meng, Jiaming Yang, Zefang Zong et al. | Large language models (LLMs) and LLM-based agents are increasingly being deployed to automate complex workflows, promising to revolutionize data management and processing. |
+| [Vibe-FDTR: An agent-oriented framework for reproducible frequency-domain thermoreflectance data analysis](http://arxiv.org/abs/2607.28200v1) | Fuwei Yang, Weiheng Li, Bai Song | Frequency-domain thermoreflectance (FDTR) is a laser pump-probe technique widely used to measure thermal properties at the micro- and nanoscale; however, it relies on a complex data analysis proced... |
+| [VISA: A Structured Description Protocol for Agent-Based Simulation Models Towards Machine Reproducibility](http://arxiv.org/abs/2607.28027v1) | Zhou He | Agent-based models (ABMs) are difficult to reproduce: their behavior is spread across prose narratives, platform-specific code, and implicit assumptions, so that two readers routinely reconstruct d... |
+
 ### 📅 2026-08-01
 
 **5 new papers found**

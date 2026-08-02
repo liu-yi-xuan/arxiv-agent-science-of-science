@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2607.28367v1",
+    "title": "How Benchmarks Mis-Score Computer-Use Agents",
+    "authors": [
+      "Zihan Dong",
+      "Zhiyuan Ma",
+      "Zekun Wang",
+      "Yunqing Li",
+      "Zirou Liu"
+    ],
+    "abstract": "Computer-use agents (CUA) are being deployed to browse the web and operate desktop software, yet their benchmark scores are still commonly produced by brittle scripted oracles. A score is the output of a pipeline in which tasks can be stale, trajectories can omit decisive visual evidence, evaluators can reject valid alternatives, and aggregate reports can hide the cause of failure. We organize these problems into a reliability framework spanning task construction, trajectory observation, scoring, and reporting. We then audit 150 public failure-scored trajectories from five web, enterprise-workflow, and desktop-control benchmarks, find that 15.3\\% of FAIL verdicts are wrong: 10.7\\% are evaluator false negatives and 4.7\\% are broken tasks. For genuine failures, a three-tier diagnostic taxonomy shows that verification/feedback and planning failures dominate execution/grounding errors, while a single scalar success rate can not explain. We connect these findings to newer long-horizon CUA benchmarks and derive stage-specific design rules for CUA evaluation.",
+    "url": "http://arxiv.org/abs/2607.28367v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28367v1",
+    "published": "2026-07-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.28033v1",
+    "title": "DataClawEval: A Benchmark for Data Engineering Agents in Real Industrial Harness",
+    "authors": [
+      "Debin Meng",
+      "Jiaming Yang",
+      "Zefang Zong",
+      "Tengyue Xu",
+      "Haining Xie"
+    ],
+    "abstract": "Large language models (LLMs) and LLM-based agents are increasingly being deployed to automate complex workflows, promising to revolutionize data management and processing. However, existing benchmarks predominantly focus on simplified Text-to-SQL translation or data analysis, leaving the critical and complex domain of end-to-end data engineering largely unexplored. To bridge this gap, we introduce DataClawEval, the first comprehensive benchmark designed specifically to evaluate the end-to-end task completion capabilities of autonomous agents in real-world data engineering scenarios. Built upon production-grade code authored by professional enterprise data engineers, it comprises 100 rigorous, end-to-end tasks spanning five execution engines: PySpark, MySQL, HiveSQL, PrestoSQL/Trino, and FlinkSQL. Rather than non-deterministic LLM-as-a-judge scoring, each task is executed within a case-specific, isolated sandbox and graded by deterministic, rule-based scripts. Evaluating 16 frontier agents exposes critical limitations: The strongest model attains only 74.9 overall, and no single model dominates, as each excels on a different engine, revealing strict domain specialization rather than omnipotent proficiency. Thus, autonomous data engineering remains a formidable, unresolved challenge. We release our dataset, containerized environments, and deterministic evaluation scripts at https://github.com/Dicemy/DataClawEval/tree/master",
+    "url": "http://arxiv.org/abs/2607.28033v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28033v1",
+    "published": "2026-07-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.28200v1",
+    "title": "Vibe-FDTR: An agent-oriented framework for reproducible frequency-domain thermoreflectance data analysis",
+    "authors": [
+      "Fuwei Yang",
+      "Weiheng Li",
+      "Bai Song"
+    ],
+    "abstract": "Frequency-domain thermoreflectance (FDTR) is a laser pump-probe technique widely used to measure thermal properties at the micro- and nanoscale; however, it relies on a complex data analysis procedure that demands substantial domain expertise and is susceptible to subtle human errors. Here, we present Vibe-FDTR, an agent-oriented framework that enables large language model (LLM) agents to perform reliable and reproducible FDTR analyses directly from natural language requests. This framework couples a configuration-driven FDTR code package, which enforces physical and parametric consistency, with procedural agent skills that translate user intentions into organized and verifiable analysis steps. We evaluate Vibe-FDTR using a controlled benchmark with two levels: synthetic single-step tasks and real-data multi-step tasks based on measurements of gold-coated graphite samples. Across the two levels, agents using Vibe-FDTR achieve success rates of 100% and 98.9%, respectively. In sharp contrast, ablating skills (Code-agent) reduces performance to 91.4% and 36.7%, which drops further to 38.6% and 0% when the domain package is also omitted (Agent-only). Beyond success rate, Vibe-FDTR also reduces computational cost by 87.7% relative to the Code-agent variant and cuts execution time by more than 60%. Finally, an optional expert mode supports experimental planning via autonomous sensitivity and uncertainty evaluations, and formulates physically grounded recommendations for underspecified tasks. These results demonstrate that encapsulating domain code and expert knowledge into agent skills offers a promising route toward low-barrier, autonomous, and trustworthy thermal metrology.",
+    "url": "http://arxiv.org/abs/2607.28200v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28200v1",
+    "published": "2026-07-30",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "physics.app-ph",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2607.28027v1",
+    "title": "VISA: A Structured Description Protocol for Agent-Based Simulation Models Towards Machine Reproducibility",
+    "authors": [
+      "Zhou He"
+    ],
+    "abstract": "Agent-based models (ABMs) are difficult to reproduce: their behavior is spread across prose narratives, platform-specific code, and implicit assumptions, so that two readers routinely reconstruct different models from the same documentation. We present VISA, a structured, symbol-based description protocol that specifies a model in eight interconnected tables---four at the agent level (Agent, Variable, Sensing, Internal Function) and four at the model level (Associated Data, Input/Output, Schedule, Validation)---under the principle of minimality with completeness. VISA makes a model machine-parseable and unambiguous via two artifacts: nineteen executable consistency rules that turn model validity into a checkable property, and three reusable LLM-executable skills (authoring, checking, and code generation) that operationalize the full author--check--code--reproduce loop. We validate the protocol on three external, independently authored ABMs spanning three platforms: we reproduce two cross-language (NetLogo to Python) directly from their VISA specifications, and we capture a third, an industrial AnyLogic model, in eight tables (passing all nineteen rules) while honestly demarcating where reproduction is blocked by a proprietary movement library and unavailable data---itself a transparency contribution. VISA moves the reproduction barrier from the model, where it is invisible, to a named, localized dependency, where it is actionable.",
+    "url": "http://arxiv.org/abs/2607.28027v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28027v1",
+    "published": "2026-07-30",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
