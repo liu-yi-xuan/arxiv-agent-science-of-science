@@ -24,6 +24,41 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-04
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Long-Horizon Autonomous Architecture Research with a Language-Model Agent: A Behavioural Case Study](http://arxiv.org/abs/2608.01995v1) | Aon Safdar, Mohamed Saadeldin | We study what happens when a single general-purpose large language model acts as the sole researcher on a long-horizon neural architecture design problem. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Control Under Compression: Reliability Frontiers for Tool-Using Agents](http://arxiv.org/abs/2608.01056v1) | Yinghan Hou, Zongyou Yang | Tool-using language-model agents are governed not only by task prompts but also by persistent system-side instructions that specify tools, arguments, policies, execution protocols, and recovery. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Where Reasoning Diverges: Localized Multi-Agent Debate](http://arxiv.org/abs/2608.01463v1) | Weijun Gao, Xiang Ding, Tiancheng Xing et al. | Multi-agent debate commonly exchanges complete reasoning traces even when disagreements concern only a few intermediate claims. |
+| [Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning](http://arxiv.org/abs/2608.02291v1) | Yiqing Liu, Zihao Wang, Hantao Yao et al. | Multi-agent reasoning (MAR) improves reasoning reliability through iterative solution exchange and refinement. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SWE-Touch: Benchmarking Coding Agents When Users Touch the Code](http://arxiv.org/abs/2608.02499v1) | Yuqiao Tan, Jinxiang Meng, Fangyu Lei et al. | Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modify code during an ongoing task, yet existing repository-level benchmarks typic... |
+| [From Profiling to Synthesis: Benchmarking Implicit Behavioral Alignment in Personalized LLM Agents](http://arxiv.org/abs/2608.02171v1) | Jiajia Song, Bobo Li, Haiwen Yi et al. | Large Language Models have enabled increasingly capable autonomous agents, yet personalization remains critical for making such agents practically useful. |
+| [GABench: A Comprehensive Benchmark for Evaluating LLM Agents on Graph Analysis Tasks](http://arxiv.org/abs/2608.01684v1) | Jiarui Tan, Zhongjian Zhang, YaBo Guo et al. | Large language model (LLM) agents are increasingly capable of planning, using tools, and interacting with external environments. |
+| [GISAgentBench: A Practitioner-Sourced Benchmark for Evaluating LLM Agents on GIS Tasks](http://arxiv.org/abs/2608.01645v1) | Abhinav Pothuri, Zhe Jiang, Zelin Xu et al. | Geographic Information System (GIS) professionals rely on multi-step spatial analysis workflows to support decision-making in urban planning, disaster response, and environmental monitoring. |
+| [AgentSLABench: Evaluating and Benchmarking Agentic Systems Under Resource Constraints](http://arxiv.org/abs/2608.00805v1) | Meher Bhaskar Madiraju, Meher Sai Preetam Madiraju | We present AgentSLABench, a resource-aware evaluation framework for autonomous AI agents that measures correctness alongside latency, cost, compute, memory, and network usage under declared resourc... |
+| [FinDeepIndicator: Benchmarking Deep Research Agents in End-to-End Financial Indicator Construction](http://arxiv.org/abs/2608.00764v1) | Chaoqun Yang, Fengbin Zhu, Xinyu Lin et al. | Financial indicators are essential tools for transforming raw financial data into interpretable measures for various downstream tasks, such as valuation, risk assessment, and economic analysis. |
+| [Prompt-Induced Waste in Large Reasoning Models: A Preregistered Two-Harness Benchmark of Coding Agents](http://arxiv.org/abs/2608.01347v1) | Sarel Weinberger, Amir Hozez | Large reasoning models used as coding agents incur costs from deliberation, tool calls, and repeated agent turns, yet the causal effect of prompt wording on this spend has not been measured systema... |
+
 ### 📅 2026-08-03
 
 *No new papers found today.*
