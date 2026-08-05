@@ -24,6 +24,39 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-05
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Towards Improving Sequential Decision-Making in LLM Agents via Experience Memory](http://arxiv.org/abs/2608.03420v1) | Jakub Rada, Viliam Lisý | Large language models have improved substantially on single-shot reasoning tasks, but their performance in sequential decision-making is less well understood. |
+| [Towards Robust Tool Use in Agents via Experience-Driven Adaptive Guidance](http://arxiv.org/abs/2608.03403v1) | Can Wang, Haoran Chen, Li Yu et al. | The performance bottleneck of agents is increasingly shifting from model capability to the robustness of their execution processes. |
+| [Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities](http://arxiv.org/abs/2608.03569v1) | William Bolton, Philip Torr | Benchmarking the ability of AI scientists to generate novel ideas is notoriously difficult. Existing benchmarks in this field have made progress in evaluating scientific reasoning and research repl... |
+| [Long-Horizon Autonomous Architecture Research with a Language-Model Agent: A Behavioural Case Study](http://arxiv.org/abs/2608.01995v1) | Aon Safdar, Mohamed Saadeldin | We study what happens when a single general-purpose large language model acts as the sole researcher on a long-horizon neural architecture design problem. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How Closely Do LLM Reviews Align with Human Peer Review?](http://arxiv.org/abs/2608.03659v1) | Abraham Camelo-Guerrero, Jairo Diaz-Rodriguez | Large language models (LLMs) are increasingly used to generate scientific reviews, yet existing evaluations rarely examine whether different providers align with both conference decisions and human... |
+| [AI-Assisted Peer Review Across Research Communities: From Reviewer AI Policies to LLM Review Quality](http://arxiv.org/abs/2608.03581v1) | Alexander M. Fichtl, Lukas Ellinger, Josefin Kelber et al. | AI-assisted peer review is increasingly discussed and adopted as a tool to support the scientific publishing process, yet there is little systematic understanding of how publication venues regulate... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Where Reasoning Diverges: Localized Multi-Agent Debate for Multi-Hop Question Answering](http://arxiv.org/abs/2608.01463v2) | Weijun Gao, Xiang Ding, Haoyang Liu et al. | Multi-agent debate commonly exchanges complete rationales even when disagreements concern only a few intermediate claims. |
+| [Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning](http://arxiv.org/abs/2608.02291v1) | Yiqing Liu, Zihao Wang, Hantao Yao et al. | Multi-agent reasoning (MAR) improves reasoning reliability through iterative solution exchange and refinement. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A machine-readable catalogue of the Tsiolkovsky papers (fond 555, Archive of the Russian Academy of Sciences), and a way to measure how well its handwriting can be read](http://arxiv.org/abs/2608.03617v1) | Vladimir Beskorovainyi | The personal archive of Konstantin Tsiolkovsky (1857-1935) is held as fond 555 of the Archive of the Russian Academy of Sciences. |
+
 ### 📅 2026-08-04
 
 **11 new papers found**

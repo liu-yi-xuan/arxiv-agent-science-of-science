@@ -1,0 +1,173 @@
+[
+  {
+    "id": "2608.03420v1",
+    "title": "Towards Improving Sequential Decision-Making in LLM Agents via Experience Memory",
+    "authors": [
+      "Jakub Rada",
+      "Viliam Lisý"
+    ],
+    "abstract": "Large language models have improved substantially on single-shot reasoning tasks, but their performance in sequential decision-making is less well understood. We study this on fully-observable two-player zero-sum games, which provide ground-truth evaluation: outcomes are determined by the rules, and optimality of individual moves can be computed or approximated, without relying on a judge model. Across model tiers, LLMs play suboptimally in simple games such as tic-tac-toe or Connect Four, and lose to MCTS opponents. Obfuscations that preserve the game tree but rewrite its surface form leave performance largely unchanged, indicating the gap is not fully explained by recall of memorized strategies. Motivated by this performance gap, we introduce an agentic framework enhanced with an experience memory designed for the sequential setting and addressing common challenges of sequential decision-making such as credit assignment. We show that post-game reflection and rule extraction yield measurable improvements on tic-tac-toe without modifying the model weights.",
+    "url": "http://arxiv.org/abs/2608.03420v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.03420v1",
+    "published": "2026-08-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.03403v1",
+    "title": "Towards Robust Tool Use in Agents via Experience-Driven Adaptive Guidance",
+    "authors": [
+      "Can Wang",
+      "Haoran Chen",
+      "Li Yu",
+      "Ding Hao",
+      "Bohai Zhao"
+    ],
+    "abstract": "The performance bottleneck of agents is increasingly shifting from model capability to the robustness of their execution processes. Tools play a central role as the primary interface through which agents interact with external environments, yet existing methods rarely focus on ensuring robust tool use across diverse runtime conditions. To address this problem, we propose ExpG, a mechanism that builds and refines adaptive guidance capturing each tool's capability boundaries and best practices, thereby enabling agents to use tools more robustly and effectively. ExpG consists of three phases: (1) experience acquisition, which analyzes tool invocation quality from historical execution trajectories, producing structured learnable experiences through multi-aspect attribution; (2) experience distillation, which keeps the experience pool effective by filtering unhelpful experiences, selecting representative ones with an equivalence-class-based method, and summarizing them into generalizable guidance; and (3) experience reuse, which applies the guidance adaptively during future task solving. Extensive experiments show that ExpG brings consistent improvements across the tool selection, tool calling, and response generation tasks, enabling smaller agents to outperform larger ones that do not use ExpG. Moreover, ExpG achieves particularly strong gains in challenging settings, suggesting a promising path toward more robust tool use. Our code, experiments, and results are available.",
+    "url": "http://arxiv.org/abs/2608.03403v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.03403v1",
+    "published": "2026-08-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.03569v1",
+    "title": "Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities",
+    "authors": [
+      "William Bolton",
+      "Philip Torr"
+    ],
+    "abstract": "Benchmarking the ability of AI scientists to generate novel ideas is notoriously difficult. Existing benchmarks in this field have made progress in evaluating scientific reasoning and research replication, but often rely on synthetic tasks or retrospective targets, which may be confounded by prior exposure. We hypothesize that complex, adversarial, fast-moving real-world domains where expert practitioners independently generate observable outputs can provide a practical solution to fill this gap and evaluate the capabilities needed for AI scientists, including reasoning, novelty, and hypothesis formulation. We instantiate this framework in two structurally different domains, Formula 1 (F1), where models ideate around car design concepts for the 2026 season, and real pre-season innovations provide a ground truth, and Magic: The Gathering (MTG), where models propose decks from a recently updated card pool and are evaluated against 19 Pro Tour (PT) decklists. Across both domains, models produce plausible outputs, but few align with real-world expert solutions. In F1, the best model, GPT-5.2 matched 10 of 40 real innovations with 166 ideas proposed across runs. In MTG, the best deck from Gemini 3 Flash recovered 5 of 7 new-set cards from the third-place PT deck, and across all 108 decks, the cards models selected most often were also the cards most widely adopted by PT decks (Spearman $ρ= 0.74$, $p = 0.0003$). These results suggest that a key capability gap for AI scientists is not idea generation, but filtering, prioritization, and coherent novelty.",
+    "url": "http://arxiv.org/abs/2608.03569v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.03569v1",
+    "published": "2026-08-04",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.01995v1",
+    "title": "Long-Horizon Autonomous Architecture Research with a Language-Model Agent: A Behavioural Case Study",
+    "authors": [
+      "Aon Safdar",
+      "Mohamed Saadeldin"
+    ],
+    "abstract": "We study what happens when a single general-purpose large language model acts as the sole researcher on a long-horizon neural architecture design problem. The agent receives a scientific question, an initial hypothesis and motivation, a compute budget, and research affordances (source and experiment management, experiment tracking, literature access, and persistent memory), then autonomously proposes, implements, evaluates, and records experiments over an extended period. The study comprises three phases, separated by human-declared transitions, that progressively expand the agent's tool surface or problem scale. Across approximately 100 sequential experiments, the agent improves a non-standard Vision Transformer from a weak baseline to a stronger, efficient model on small benchmarks and a usable but sub-SOTA model on ImageNet-1K, while producing a dense behavioural trace. We report four findings.(i)Productivity exhibits a clear phase structure: rapid early gains, a multi-dozen-hypothesis saturation wall, and recovery, with recovery triggered by expanding the action surface rather than changing the underlying model.(ii)A single early hypothesis contributes more to accuracy gain, with later improvements long-tailed.(iii)The preference for greedy, incremental hypotheses is largely workflow-induced: a commit-or-discard evaluation rule is isomorphic to greedy hill-climbing; the remainder reflects risk aversion after bold failures and anchoring on familiar literature. (iv)The agent independently rediscovers established results and, in the unfamiliar regime of pure channel attention, overturns a standard design choice. We conclude that workflow design was at least as influential as agent capability in this study and propose diversified search, budgeted moonshot hypotheses, explicit forks, and regime-aware re-validation as testable directions for future autonomous research.",
+    "url": "http://arxiv.org/abs/2608.01995v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.01995v1",
+    "published": "2026-08-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.03659v1",
+    "title": "How Closely Do LLM Reviews Align with Human Peer Review?",
+    "authors": [
+      "Abraham Camelo-Guerrero",
+      "Jairo Diaz-Rodriguez"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used to generate scientific reviews, yet existing evaluations rarely examine whether different providers align with both conference decisions and human reviewing priorities within the same controlled setting. We compare reviews from OpenAI GPT-5.4, Google Gemini 3.1 Pro Preview, and Anthropic Claude Opus 4.6 with human reviews and final decisions for 300 topic-matched ICLR 2026 submissions, equally divided among oral, poster, and rejected papers. Each model reviewed every paper using identical instructions and rating scales after decision information was removed. Our study contributes a cross-provider analysis of three complementary dimensions: alignment with broad and fine-grained decision categories, differences in recommendation-scale usage, and thematic agreement in identified weaknesses. All three LLMs distinguished accepted from rejected papers, but none reproduced the oral versus poster distinction present in human ratings. Scoring patterns were provider-specific: Gemini assigned systematically higher ratings, while OpenAI and Claude were closer to humans for rejected and poster papers but more critical of oral papers. Human and LLM reviews also differed in emphasis, with LLMs more frequently identifying missing baseline comparisons and humans more often raising computational-efficiency concerns. These results show that broad decision alignment does not imply agreement with finer human judgments or reviewing priorities.",
+    "url": "http://arxiv.org/abs/2608.03659v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.03659v1",
+    "published": "2026-08-04",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.03581v1",
+    "title": "AI-Assisted Peer Review Across Research Communities: From Reviewer AI Policies to LLM Review Quality",
+    "authors": [
+      "Alexander M. Fichtl",
+      "Lukas Ellinger",
+      "Josefin Kelber",
+      "Kryštof Olík",
+      "Georg Groh"
+    ],
+    "abstract": "AI-assisted peer review is increasingly discussed and adopted as a tool to support the scientific publishing process, yet there is little systematic understanding of how publication venues regulate its use or of how capable current AI review systems are. We address these questions by first surveying reviewer-facing AI policies across 111 leading AI/NLP conferences and medical journals, revealing substantial regulation differences between the two communities. Second, we evaluate AI-generated peer reviews at ICLR 2026 and Nature Communications using a novel dataset comprising original manuscript submissions and several hundred human- and machine-generated reviews. We compare reviews produced by open-source and proprietary models using complementary evaluation metrics, including LLM-as-a-Judge, score alignment, granularity, and overlap with human reviewers' concerns. Our results show that current LLMs can generate detailed and fluent reviews but exhibit systematic weaknesses, such as overly positive recommendations, generic criticism, and uneven evidence grounding. We demonstrate that aggregate quality scores alone can overestimate review quality and argue for multi-dimensional evaluation of AI-generated peer reviews.",
+    "url": "http://arxiv.org/abs/2608.03581v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.03581v1",
+    "published": "2026-08-04",
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.01463v2",
+    "title": "Where Reasoning Diverges: Localized Multi-Agent Debate for Multi-Hop Question Answering",
+    "authors": [
+      "Weijun Gao",
+      "Xiang Ding",
+      "Haoyang Liu",
+      "Tiancheng Xing"
+    ],
+    "abstract": "Multi-agent debate commonly exchanges complete rationales even when disagreements concern only a few intermediate claims. We introduce Localized Multi-Agent Debate (LMAD), an inference-time protocol that represents agent rationales as nodes, locates their earliest conflict, and restricts debate to the corresponding local segments. Guarded resolution extends a shared committed state so that later conflicts can be addressed without reopening accepted steps. We evaluate LMAD on four multi-hop question-answering benchmarks using ten backbones from four model families. Our method achieves the highest macro-averaged judge accuracy across all ten backbones, outperforming the strongest conventional baseline by up to 7.20 percentage points.",
+    "url": "http://arxiv.org/abs/2608.01463v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.01463v2",
+    "published": "2026-08-02",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.02291v1",
+    "title": "Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning",
+    "authors": [
+      "Yiqing Liu",
+      "Zihao Wang",
+      "Hantao Yao",
+      "Wu Liu",
+      "Yongdong Zhang"
+    ],
+    "abstract": "Multi-agent reasoning (MAR) improves reasoning reliability through iterative solution exchange and refinement. Existing adaptive MAR methods typically learn routing decisions from query-level labels or trajectory-level returns, but such coarse supervision cannot accurately estimate the state-conditioned utility of individual operators in multi-step collaboration. We propose TreeCredit, a shared-prefix credit assignment framework for efficient adaptive MAR. Its core insight is to estimate operator utility through state-matched downstream comparisons, rather than directly attributing trajectory-level outcomes to preceding decisions. TreeCredit constructs shared-prefix collaboration trees by expanding candidate operators from the same intermediate state and assigns each state--operator pair a correctness-prioritized suffix credit based on the terminal correctness and cumulative additional cost of its complete continuation. These structured credits are converted into state-local operator preferences to train a lightweight pairwise state router, which dynamically selects the next admissible operator during inference. Experiments on six reasoning benchmarks show that TreeCredit modestly improves accuracy while substantially reducing inference cost, achieving a better accuracy--cost trade-off than representative MAR methods.",
+    "url": "http://arxiv.org/abs/2608.02291v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.02291v1",
+    "published": "2026-08-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.03617v1",
+    "title": "A machine-readable catalogue of the Tsiolkovsky papers (fond 555, Archive of the Russian Academy of Sciences), and a way to measure how well its handwriting can be read",
+    "authors": [
+      "Vladimir Beskorovainyi"
+    ],
+    "abstract": "The personal archive of Konstantin Tsiolkovsky (1857-1935) is held as fond 555 of the Archive of the Russian Academy of Sciences. The archive scanned the fond and published the images, but with no queryable catalogue, no full-text search and no dataset: the holdings can only be browsed one page at a time. This paper describes a machine-readable catalogue of all 2,019 files and 51,008 scans, a dating for 1,969 files taken from the archive's own descriptions, a page-level classification of every scan into handwriting and typescript, and a growing corpus of machine transcriptions (currently 322 files, 5,454 scans).   It also reports a way to measure handwritten-text-recognition accuracy in an archive with no ground truth. Archives of the typewriter era often preserve one text twice, as manuscript and as a typed copy; transcribing both and comparing isolates the reading error, since source and pipeline are identical and only page difficulty differs. Across 294 such pairs from 27 files, two readings of a handwritten page agree on a median 37% of words. On two files that also have a published edition the estimate can be checked against ground truth: it is unbiased to within a percentage point and ranks pages as the truth does (rank correlation 0.92 where the edition is a faithful witness). This bounds use: two variants of one work here share 19% of words, below the rate at which two readings of a single page agree, so the redactions cannot be collated word by word at this quality. That negative result is reported as such, and the constraint is built into the tool.",
+    "url": "http://arxiv.org/abs/2608.03617v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.03617v1",
+    "published": "2026-08-04",
+    "categories": [
+      "cs.CL",
+      "cs.CV",
+      "cs.DL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Computational Science of Science"
+  }
+]
