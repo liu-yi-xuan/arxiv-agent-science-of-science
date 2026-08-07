@@ -24,6 +24,58 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-07
+
+**28 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SkillHEX: Improving Agent Skills via Hypothesis-Driven Autonomous Exploration and Exploitation](http://arxiv.org/abs/2608.05628v1) | Yuru Feng, Yaoqi Chen, Beidi Zhao et al. | Although agent skills equip LLMs with reusable procedural knowledge, manual maintenance suffers from high costs, unscalability, and misalignment. |
+| [OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents](http://arxiv.org/abs/2608.05990v1) | Ning Xu, Xiang Zheng, Fuqiang Zhong et al. | Autonomous agents choose actions using scores that may not reflect experimental success. We developed OPERA, an operator-residual framework for optical experiments. |
+| [When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems](http://arxiv.org/abs/2608.05563v1) | Jialuo Chen, Lingqi Jiang, Xinhao Deng et al. | Self-evolving skill (SES) systems distill agent trajectories into persistent skills, allowing untrusted experience to become trusted instruction. |
+| [Towards Improving Sequential Decision-Making in LLM Agents via Experience Memory](http://arxiv.org/abs/2608.03420v1) | Jakub Rada, Viliam Lisý | Large language models have improved substantially on single-shot reasoning tasks, but their performance in sequential decision-making is less well understood. |
+| [Towards Robust Tool Use in Agents via Experience-Driven Adaptive Guidance](http://arxiv.org/abs/2608.03403v1) | Can Wang, Haoran Chen, Li Yu et al. | The performance bottleneck of agents is increasingly shifting from model capability to the robustness of their execution processes. |
+| [Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities](http://arxiv.org/abs/2608.03569v1) | William Bolton, Philip Torr | Benchmarking the ability of AI scientists to generate novel ideas is notoriously difficult. Existing benchmarks in this field have made progress in evaluating scientific reasoning and research repl... |
+| [EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v2) | Zhenjiang Ren, Ruiji Li, Xujing Zhang et al. | Autonomous research agents can generate hypotheses, execute experiments, and draft manuscripts, yet their outputs often contain unsupported claims and inconsistencies between research questions, ex... |
+| [Project2Task: Graph-Guided Project-Level Planning for Autonomous Research](http://arxiv.org/abs/2608.05225v1) | Huirui Xu, Runtao Xu, Shuo Ren et al. | Research agents can increasingly search literature, propose hypotheses, generate code, run experiments, and draft manuscripts from a single topic. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How Closely Do LLM Reviews Align with Human Peer Review?](http://arxiv.org/abs/2608.03659v1) | Abraham Camelo-Guerrero, Jairo Diaz-Rodriguez | Large language models (LLMs) are increasingly used to generate scientific reviews, yet existing evaluations rarely examine whether different providers align with both conference decisions and human... |
+| [AI-Assisted Peer Review Across Research Communities: From Reviewer AI Policies to LLM Review Quality](http://arxiv.org/abs/2608.03581v1) | Alexander M. Fichtl, Lukas Ellinger, Josefin Kelber et al. | AI-assisted peer review is increasingly discussed and adopted as a tool to support the scientific publishing process, yet there is little systematic understanding of how publication venues regulate... |
+| [Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies](http://arxiv.org/abs/2608.05993v1) | Alexander Apartsin, Yehudit Aperstein | Much clinical value is conveyed not through structured records but through communication: exchanges in which patients describe symptoms, clinicians reason and give instructions, ambulances hand ove... |
+| [Strategic Evaluation of Planning Strategies for LLM Agents in Cyber-Physical Systems](http://arxiv.org/abs/2608.04265v1) | J. de Curtò, I. de Zarzà | Evaluations of LLM planning agents largely ask whether a task succeeds or a declared plan is followed. |
+| [OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents](http://arxiv.org/abs/2608.05013v1) | Jingsheng Zheng, Xinyuan Fang, Jintian Zhang et al. | LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A machine-readable catalogue of the Tsiolkovsky papers (fond 555, Archive of the Russian Academy of Sciences), and a way to measure how well its handwriting can be read](http://arxiv.org/abs/2608.03617v1) | Vladimir Beskorovainyi | The personal archive of Konstantin Tsiolkovsky (1857-1935) is held as fond 555 of the Archive of the Russian Academy of Sciences. |
+| [Supporting the understanding of ontologies for scientific knowledge graphs with the new version of LODE](http://arxiv.org/abs/2608.04689v1) | Valentina Pasqual, Ahmadreza Nazari, Silvio Peroni | Scientific Knowledge Graphs (SKGs) rely on increasingly complex and heterogeneous semantic models, whose reuse and interoperability require ontologies and other semantic artefacts to be understanda... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents](http://arxiv.org/abs/2608.06329v1) | Noam Koren, Roy Bar-Haim, Abigail Goldsteen | Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. |
+| [FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows](http://arxiv.org/abs/2608.06144v1) | Bo Deng, Kang Zhou, Lifan Guo et al. | Most agent benchmarks evaluate tasks independently and cannot measure whether experience from one task helps with later tasks. |
+| [Evaluating Investment Logic in Large Language Models: A Real-World Benchmark Towards Personalzied Financial Agents](http://arxiv.org/abs/2608.06108v1) | Yuanhong Jiang, Jingjie Zou, Zhenghong Lin et al. | Investment competence is inherently personalized: the same market evidence can justify different actions for investors with different goals, horizons, portfolios, and risk boundaries. |
+| [SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution](http://arxiv.org/abs/2608.05573v1) | Zhi Han, Chenxi Zeng, Liuhaichen Yang et al. | LLM agents increasingly execute long-horizon tasks through tool use and environment interaction, shifting evaluation from final-response scoring to verification of complete executions. |
+| [Agentic self-driving microscopy benchmarks support qualification but do not necessarily generalize to unseen tasks](http://arxiv.org/abs/2608.05266v1) | Nathan S Johnson, Ian Abshire | Large language model agents are increasingly being developed to control a wide range of scientific characterization tools including microscopes and synchrotron beamlines. |
+| [Active-SWE: Benchmarking Coding Agents for Proactive Bug Fixing without Issue Reports](http://arxiv.org/abs/2608.04682v1) | Haobin Li, Ping Deng, Weizhong Qian et al. | Coding agents powered by large language models (LLMs) are increasingly adopted in software engineering (SWE) scenarios, capable of fixing a specific bug in large-scale codebase. |
+| [FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents](http://arxiv.org/abs/2608.04095v1) | Ben Wang, Kang Zhou, Lifan Guo et al. | Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an ... |
+| [Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems](http://arxiv.org/abs/2608.03744v1) | Sebastián Andrés Cajas Ordóñez, Agastya Munnangi, Aldo Marzullo et al. | Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. |
+| [DiagChain: A Diagnostic Benchmark for Evaluating LLM Agents on Evidence-Grounded Attack Chain Reconstruction](http://arxiv.org/abs/2608.03591v1) | Xuyang Liu, Yibin Han, Zhenwei Zhang et al. | Large Language Model (LLM) agents offer a promising approach to attack chain reconstruction by retrieving and interpreting heterogeneous telemetry to infer ordered attacker actions. |
+| [WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks](http://arxiv.org/abs/2608.03499v1) | Prince Zizhuang Wang, Aojie Yuan, Haiyue Zhang et al. | Recent advances in persistent personal-agent frameworks are making human-centered agent networks realistic deployment targets: each user can be served by an AI agent that acts on the user's behalf,... |
+| [CURATE: Leveraging LLM Agents to Compose, Catalog, and Deploy Reproducible Workflows](http://arxiv.org/abs/2608.04270v1) | Nolan Cutler, Chia-Chen Kuo, Nanda Velugoti et al. | Agentic code generation has shown promise in automating and accelerating software development by utilizing Large Language Models (LLMs) to generate, test, and deploy code. |
+| [PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents](http://arxiv.org/abs/2608.04003v1) | Shuhan Xue, Zixin Ding, Yichen Shen et al. | Recursive self-improvement requires agents to turn accumulated experience into better future behavior. |
+| [When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills](http://arxiv.org/abs/2608.03700v1) | Yongli Xiang, Zhifang Zhang, Bojun Yang et al. | Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. |
+
 ### 📅 2026-08-06
 
 **9 new papers found**
