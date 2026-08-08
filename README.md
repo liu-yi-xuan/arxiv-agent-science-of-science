@@ -24,6 +24,43 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-08
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SkillHEX: Improving Agent Skills via Hypothesis-Driven Autonomous Exploration and Exploitation](http://arxiv.org/abs/2608.05628v1) | Yuru Feng, Yaoqi Chen, Beidi Zhao et al. | Although agent skills equip LLMs with reusable procedural knowledge, manual maintenance suffers from high costs, unscalability, and misalignment. |
+| [OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents](http://arxiv.org/abs/2608.05990v1) | Ning Xu, Xiang Zheng, Fuqiang Zhong et al. | Autonomous agents choose actions using scores that may not reflect experimental success. We developed OPERA, an operator-residual framework for optical experiments. |
+| [When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems](http://arxiv.org/abs/2608.05563v1) | Jialuo Chen, Lingqi Jiang, Xinhao Deng et al. | Self-evolving skill (SES) systems distill agent trajectories into persistent skills, allowing untrusted experience to become trusted instruction. |
+| [EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v2) | Zhenjiang Ren, Ruiji Li, Xujing Zhang et al. | Autonomous research agents can generate hypotheses, execute experiments, and draft manuscripts, yet their outputs often contain unsupported claims and inconsistencies between research questions, ex... |
+| [Project2Task: Graph-Guided Project-Level Planning for Autonomous Research](http://arxiv.org/abs/2608.05225v1) | Huirui Xu, Runtao Xu, Shuo Ren et al. | Research agents can increasingly search literature, propose hypotheses, generate code, run experiments, and draft manuscripts from a single topic. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies](http://arxiv.org/abs/2608.05993v1) | Alexander Apartsin, Yehudit Aperstein | Much clinical value is conveyed not through structured records but through communication: exchanges in which patients describe symptoms, clinicians reason and give instructions, ambulances hand ove... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Supporting the understanding of ontologies for scientific knowledge graphs with the new version of LODE](http://arxiv.org/abs/2608.04689v1) | Valentina Pasqual, Ahmadreza Nazari, Silvio Peroni | Scientific Knowledge Graphs (SKGs) rely on increasingly complex and heterogeneous semantic models, whose reuse and interoperability require ontologies and other semantic artefacts to be understanda... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents](http://arxiv.org/abs/2608.06329v1) | Noam Koren, Roy Bar-Haim, Abigail Goldsteen | Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. |
+| [FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows](http://arxiv.org/abs/2608.06144v1) | Bo Deng, Kang Zhou, Lifan Guo et al. | Most agent benchmarks evaluate tasks independently and cannot measure whether experience from one task helps with later tasks. |
+| [Evaluating Investment Logic in Large Language Models: A Real-World Benchmark Towards Personalzied Financial Agents](http://arxiv.org/abs/2608.06108v1) | Yuanhong Jiang, Jingjie Zou, Zhenghong Lin et al. | Investment competence is inherently personalized: the same market evidence can justify different actions for investors with different goals, horizons, portfolios, and risk boundaries. |
+| [SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution](http://arxiv.org/abs/2608.05573v1) | Zhi Han, Chenxi Zeng, Liuhaichen Yang et al. | LLM agents increasingly execute long-horizon tasks through tool use and environment interaction, shifting evaluation from final-response scoring to verification of complete executions. |
+| [Agentic self-driving microscopy benchmarks support qualification but do not necessarily generalize to unseen tasks](http://arxiv.org/abs/2608.05266v1) | Nathan S Johnson, Ian Abshire | Large language model agents are increasingly being developed to control a wide range of scientific characterization tools including microscopes and synchrotron beamlines. |
+| [Active-SWE: Benchmarking Coding Agents for Proactive Bug Fixing without Issue Reports](http://arxiv.org/abs/2608.04682v1) | Haobin Li, Ping Deng, Weizhong Qian et al. | Coding agents powered by large language models (LLMs) are increasingly adopted in software engineering (SWE) scenarios, capable of fixing a specific bug in large-scale codebase. |
+
 ### 📅 2026-08-07
 
 **28 new papers found**
