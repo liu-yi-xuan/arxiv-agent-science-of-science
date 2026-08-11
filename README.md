@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-11
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models](http://arxiv.org/abs/2608.09696v1) | Kevin Murphy | Predicting the answer to interventional ``what if'' questions --- the outcome of an action never taken --- requires a \emph{mechanistic}, causal model, not a curve fit; and learning such a model re... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Social Gym and SPaRTan: Benchmarking and Improving LLM Social Reasoning via Multi-Agent Game Tournaments](http://arxiv.org/abs/2608.09128v1) | Keyu He, Xuhui Zhou, Maarten Sap | LLM agents are increasingly deployed in multi-agent social settings where they must cooperate, negotiate, and adapt to other agents. |
+| [ForestBench: A Unified Graph Framework for Evaluating Multi-Agent Collaboration](http://arxiv.org/abs/2608.08605v1) | Guo Chen, Ziwen Li, Reed Li et al. | Multi-agent systems (MAS) built on Large Language Models (LLMs) are proliferating rapidly, but their heterogeneous execution traces provide no common basis for evaluation across methods. |
+| [STEMMA: An Adversarial Multi-Agent Framework for Evaluating Self-Identity Consistency in LLMs](http://arxiv.org/abs/2608.08164v1) | Nuthakki Siva Gopala Krishna, Kanishka Jain | Knowledge Distillation is a widely adopted technique in the training and fine-tuning of large language models (LLMs) enabling transfer of structured information and functional behavior from a large... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [StatCite: A Large-scale Citation Network Dataset for Statistics and Data Science](http://arxiv.org/abs/2608.08063v1) | Tianang Deng, Tianchen Gao, Rui Pan et al. | In this paper, we introduce StatCite, a large-scale citation network dataset covering publications in statistics and data science from 1981 to 2025. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents](http://arxiv.org/abs/2608.09476v1) | Hongwei Yao, Yiming Liu, Meihui Chen et al. | Cowork agents may complete benign tasks while disclosing protected data, manipulating unauthorized state, invocate unauthorized API. |
+| [A Unified Issue Resolution Benchmark for Requirement Clarification, Planning, and Code Generation for Coding Agents](http://arxiv.org/abs/2608.09072v1) | Xin Zhou, Chun Yong Chong, Kisub Kim et al. | Large language model-powered coding agents are increasingly used to modify existing code repositories, for example, by adding features or fixing bugs. |
+| [Findings of the First Teaching Monster Challenge: A Benchmark of Pedagogical Content Knowledge in AI Agents](http://arxiv.org/abs/2608.08852v1) | Yi-Cheng Lin, Yu-Kai Guo, Szu-Chi Chen et al. | AI agents can now solve problems, answer like subject experts, and generate long-form multimodal content. |
+| [360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents](http://arxiv.org/abs/2608.08814v1) | Kenta Watanabe, Atsuyuki Miyai, Mizuki Takenawa et al. | We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos. |
+| [Business Arena: Benchmarking LLM Agents in a Realistic Marketplace](http://arxiv.org/abs/2608.08621v1) | Yijun Pan, Yukun Lian, Kunyu Shi et al. | Running a business is a challenging form of intelligent work. Operators must infer opportunities from partial signals, commit capital under uncertainty, adapt to delayed outcomes in a changing mark... |
+| [CAP: A Scalable Benchmark for Evaluating Cross-Site Browser Agents with Complex Actions and Perception](http://arxiv.org/abs/2608.08392v1) | Zejun Xu, Taiyi Chen, Jin Li et al. | Large language models are increasingly deployed as autonomous agents that interact with the web through browsers. |
+| [Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives](http://arxiv.org/abs/2608.08160v1) | Yingpeng Ma, Jianhao Yan, Bei Shi et al. | The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid interactive storytelling. |
+| [From Runnable to Verifiable: An Independent Reproducibility Study of LLM/Agent-Driven Vulnerability Validation Artifacts](http://arxiv.org/abs/2608.09567v1) | Bo Chen | Security research artifacts---repositories, PoC exploits, and validation pipelines---are increasingly produced by LLM/agent-driven vulnerability workflows, yet the gap between \emph{publicly availa... |
+| [SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring](http://arxiv.org/abs/2608.09802v1) | Yuling Shi, Jinghan Xu, Kelin Fu et al. | As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a... |
+
 ### 📅 2026-08-10
 
 **1 new papers found**
