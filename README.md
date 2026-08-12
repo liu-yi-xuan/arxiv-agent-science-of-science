@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-12
+
+**1 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Social Gym and SPaRTan: Benchmarking and Improving LLM Social Reasoning via Multi-Agent Game Tournaments](http://arxiv.org/abs/2608.09128v1) | Keyu He, Xuhui Zhou, Maarten Sap | LLM agents are increasingly deployed in multi-agent social settings where they must cooperate, negotiate, and adapt to other agents. |
+
 ### 📅 2026-08-11
 
 **14 new papers found**
