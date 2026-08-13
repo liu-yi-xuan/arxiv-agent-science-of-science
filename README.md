@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-13
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models](http://arxiv.org/abs/2608.09696v2) | Kevin Murphy | Predicting the answer to interventional ``what if'' questions --- the outcome of an action never taken --- requires a \emph{mechanistic}, causal model, not a curve fit; and learning such a model re... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Actions Speak Louder than Words: Measuring Cross-Lingual Policy Retention in Tool-Using Agents](http://arxiv.org/abs/2608.11110v1) | Sourabrata Mukherjee, Kalika Bali, Sunayana Sitaram | When a tool-using agent is given the same task in a different language, does it still take the same steps? |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Advancing MLLM-based UAV Image Understanding and Reasoning: A Benchmark and a Training-Free Multi-Agent System](http://arxiv.org/abs/2608.11738v1) | Haoyu Zhang, Shuoxun Zhang, Peng Ye et al. | Multimodal Large Language Model (MLLM)-based UAV aerial image understanding and reasoning is essential for aerial intelligence yet poses distinct challenges arising from extreme scale variation, ar... |
+| [A Modular Agentic Framework for Synthetically Constrained Multi-Objective Hit-to-Lead Optimization](http://arxiv.org/abs/2608.11483v1) | Kelvin P. Idanwekhai, Enes Kelestemur, Benjamin Strickland et al. | Hit-to-lead optimization requires iterative design of hit analogs across competing potency, selectivity, physicochemical, pharmacokinetic, safety, and synthetic constraints. |
+| [The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI](http://arxiv.org/abs/2608.10153v1) | Srinivas Telukunta, Georgios Nektarios Lilis, Lucio Baron | Enterprises are deploying autonomous AI agents faster than they can govern them, and prevailing approaches stretch a single discipline, typically DevSecOps built for deterministic automation, acros... |
+| [The Signal Rail: A Deterministic Motion Grammar for Communicating Conversational Agent State in Terminal Interfaces](http://arxiv.org/abs/2608.10689v1) | Matteo Grella | Terminal interfaces to conversational agents report rich internal state (listening, thinking, executing tools, awaiting input, failing) almost entirely through text, while the motion channel beside... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FrontierFinance: A Challenging Benchmark for Measuring Frontier Intelligence of Finance Agents](http://arxiv.org/abs/2608.11683v1) | Yuhao Zhang, O. Ozan Koyluoglu, Thejas Venkatesh et al. | AI agents are increasingly deployed for professional investment research, yet no benchmark captures the complexity of the full investor workflow. |
+| [MBA: Multimodal Benchmark and Agents for Real-World Business Ideation](http://arxiv.org/abs/2608.11616v1) | Hojun Choi, Jaeyo Shin, Suin Lee et al. | Agentic systems powered by large language models (LLMs) have opened new opportunities for business ideation. |
+| [The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark](http://arxiv.org/abs/2608.11469v1) | Jeremy Spence, Nicholas Assaderaghi, Jinhao Zhu et al. | AI agents are rapidly improving in cybersecurity capabilities when the source code is available for analysis, yet much of the software most consequential to cybersecurity, including malware, firmwa... |
+| [Benchmarking LLM Judges for Mobile Agent Evaluation](http://arxiv.org/abs/2608.11434v1) | Ziqiang Wan, Li Gu, Zhixiang Chi et al. | Mobile agent benchmarks increasingly rely on LLM-based judges to evaluate task completion, yet the reliability of these judges on mobile agent trajectories remains largely unexamined. |
+| [ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents](http://arxiv.org/abs/2608.09476v1) | Hongwei Yao, Yiming Liu, Meihui Chen et al. | Cowork agents may complete benign tasks while disclosing protected data, manipulating unauthorized state, invocate unauthorized API. |
+| [From Runnable to Verifiable: An Independent Reproducibility Study of LLM/Agent-Driven Vulnerability Validation Artifacts](http://arxiv.org/abs/2608.09567v1) | Bo Chen | Security research artifacts---repositories, PoC exploits, and validation pipelines---are increasingly produced by LLM/agent-driven vulnerability workflows, yet the gap between \emph{publicly availa... |
+| [Total Recall at What Cost? Benchmarking the Serving Cost of Agentic Memory Systems](http://arxiv.org/abs/2608.11879v1) | Natchanon Pollertlam, Witchayut Kornsuwannawit | Long-running conversational agents increasingly rely on a memory system to avoid resending the whole conversation each turn, yet how much that costs to serve has received little systematic benchmar... |
+| [SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring](http://arxiv.org/abs/2608.09802v1) | Yuling Shi, Jinghan Xu, Kelin Fu et al. | As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a... |
+
 ### 📅 2026-08-12
 
 **1 new papers found**
