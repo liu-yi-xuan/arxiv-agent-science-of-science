@@ -24,6 +24,24 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-17
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond](http://arxiv.org/abs/2608.14354v1) | Mingming Zhao, Jiqian Dong, Kangping Xu et al. | Enabling LLM agents to sustain productive, stable, and goal-aligned research over extended horizons is a central challenge for autonomous machine learning and scientific discovery, as progress hing... |
+| [The Past and Future of AI Scientists](http://arxiv.org/abs/2608.14407v1) | Ross D. King | We present a survey of the past and future of AI Scientists: machines capable of automating science. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments](http://arxiv.org/abs/2608.14270v1) | Qingren Yao, Yaxuan Kong, Yuqi Nie et al. | Time series analysis in high-stakes domains relies on recurring data releases, where new observations can alter the evidence base and the validity of later conclusions. |
+| [Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions](http://arxiv.org/abs/2608.14132v1) | Xiaokai Yan, Jingtao Ding, Yong Li et al. | Mobile GUI Agents powered by multimodal large language models (MLLMs) show promise in human-computer intelligence. |
+
 ### 📅 2026-08-16
 
 **4 new papers found**
