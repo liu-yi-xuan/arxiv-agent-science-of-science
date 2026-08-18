@@ -1,0 +1,184 @@
+[
+  {
+    "id": "2608.16620v1",
+    "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+    "authors": [
+      "Peng Du",
+      "Kiran Kamble",
+      "Rakshith Vasudev",
+      "Zhizhuo Yang",
+      "Rohith Nadimpally"
+    ],
+    "abstract": "Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tuning on a compact corpus of verified, synthetic tool-use trajectories, optimized with a Muon + Adam hybrid. The recipe is deliberately conservative and deliberately controlled: 626 trajectories, a single epoch, a low learning rate, and a KL anchor to the frozen base. The model shows substantial gains over the previous default model for Writer Agent, and compares favorably with several recent models on public benchmarks, scoring the highest on BFCL Core at $0.785$ and posts the highest six-benchmark mean of the cohort. Furthermore, the model has shown itself to be competitive or leading relative to comparators in our bias and safety evaluations.",
+    "url": "http://arxiv.org/abs/2608.16620v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16620v1",
+    "published": "2026-08-17",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.16637v1",
+    "title": "PDDLCoder: Agentic PDDL Generation for LLM-Assisted Symbolic Planning",
+    "authors": [
+      "Veit Laule",
+      "Jiangtao Shuai",
+      "Manfred Hauswirth",
+      "Sonja Schimmler"
+    ],
+    "abstract": "LLMs remain unreliable for long-horizon planning, often generating logically inconsistent or non-applicable plans. Recent hybrid methods instead translate natural language into the Planning Domain Definition Language (PDDL), allowing symbolic planners to produce verifiable plans. However, existing methods frequently rely on rigid generation pipelines, a partial PDDL definition, or human feedback. Furthermore, their evaluation is hindered by the lack of standardized benchmarks with automated verification. To address these limitations, we present PDDLCoder, an agentic framework for PDDL generation from natural language that iteratively generates, analyzes, and refines planning specifications. We further introduce NL-pddlgym, a benchmark dataset comprising 711 planning problems across 23 domains with executable gym environments for the automated verification of plan applicability. Experiments on the NL-pddlgym test set containing 106 problems across 4 held-out domains show that PDDLCoder generates applicable plans for 89.6\\% of tested planning problems. This improves upon our adaptations of previous PDDL generation methods, which achieved up to 45.3\\%, and outperforms direct LLM planning approaches, which reached up to 74.5\\% on the same test set. Our work demonstrates the effectiveness of agentic PDDL generation for planning and establishes a reproducible benchmark for future research on LLM-assisted symbolic planning.",
+    "url": "http://arxiv.org/abs/2608.16637v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16637v1",
+    "published": "2026-08-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.15181v1",
+    "title": "Insurance as AI Risk Infrastructure: A Generative-Agent Simulation of AI Adoption",
+    "authors": [
+      "Yixuan Yuan",
+      "Dedai Wei",
+      "Chudong Qian",
+      "Jielin Feng",
+      "Ziyue Lin"
+    ],
+    "abstract": "The rapid evolution of artificial intelligence (AI) tools has demonstrated immense potential to enhance societal well-being and operational efficiency. However, the inherent unreliability and uncertain operational consequences of modern AI systems, typified by large language models (LLMs), have created a significant barrier to enterprise adoption. Many enterprises remain hesitant to integrate these tools deeply into their workflows due to concerns about unpredictable losses and liability exposure. While existing technical safeguards primarily seek to reduce the likelihood or severity of AI-enabled workflow failures, they do not by themselves provide ex post financial protection when residual pecuniary tail losses materialize. In this paper, we introduce a socio-economic framework that complements these safeguards by transferring and absorbing the residual financial consequences of AI adoption through insurance. To evaluate this framework, we develop an LLM-driven agent-based social simulation (LABSS) system. We assess the behavioral validity of the simulation using established economic and sociological theories. Our analysis demonstrates that the proposed insurance framework reduces firm-level financial exposure, thereby accelerating the aggregate adoption of AI tools and improving firm solvency and aggregate capital.",
+    "url": "http://arxiv.org/abs/2608.15181v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.15181v1",
+    "published": "2026-08-15",
+    "categories": [
+      "cs.MA"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.16148v1",
+    "title": "FeatureHospital: A Skill-Driven Multi-Agent Framework for Automated Algorithm Customization in Multi-View Multi-Label Feature Selection",
+    "authors": [
+      "Junxuan Li",
+      "Zhiqi Chen",
+      "Yuzhou Liu",
+      "Peng Zhang",
+      "Huaxiao Liu"
+    ],
+    "abstract": "Multi-view multi-label feature selection aims to identify a compact and informative feature subset from heterogeneous views while preserving discriminative information for multiple labels. Existing methods are generally developed from specific modeling perspectives and incorporate mechanisms tailored to particular data characteristics. Designing suitable feature selection algorithms across datasets with diverse and heterogeneous characteristics still relies heavily on expert knowledge and substantial manual effort, imposing considerable time and labor costs that severely hinder the practical adoption of feature selection. To address this problem, we propose FeatureHospital, a Skill-driven multi-agent framework for automated multi-view multi-label feature selection algorithm design. FeatureHospital first diagnoses the target dataset to identify its feature selection issues. Based on the diagnosis, specialist agents equipped with domain Skills then prescribe corresponding optimization strategies and Loss terms for different issues. After that, the resulting prescriptions are reconciled to remove overlaps and resolve conflicts before being integrated into a compact dataset-specific objective. Finally, the constructed objective is optimized to select the final feature subset. Experimental results demonstrate that FeatureHospital can construct effective feature selection algorithms for different datasets based on their individual characteristics.",
+    "url": "http://arxiv.org/abs/2608.16148v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16148v1",
+    "published": "2026-08-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.15424v1",
+    "title": "ETHOS: Towards a Modular Ethics Framework for Clinical Multi-Agent Systems",
+    "authors": [
+      "Rakesh Sharma",
+      "Sydney Pugh",
+      "Cameron Beeche",
+      "Pankhuri Singhal",
+      "Rachel Wu"
+    ],
+    "abstract": "The rapid adoption of large language models has enabled the development of clinical multi-agent systems (MAS) capable of integrating multimodal patient data and supporting increasingly complex clinical decision-making. However, the deployment of these systems in real-world healthcare settings raises critical ethical concerns related to safety, fairness, accountability, transparency, and patient trust. While numerous organizations, including the World Health Organization, the National Academy of Medicine, and the FUTURE-AI consortium, have proposed ethical frameworks and governance principles for healthcare AI, these efforts remain largely conceptual. To address this challenge, we present ETHOS (Ethics and Trust through Hierarchical Oversight System), a modular ethics framework designed as a governance meta-agent that can be integrated with any existing multi-agent system without requiring changes to its underlying architecture. ETHOS translates stakeholder-informed ethical requirements into executable runtime oversight through a layered governance approach consisting of deterministic checks, contextual reviews, and a final ethics critic. These components continuously evaluate intermediate reasoning steps and final outputs, enabling the system to identify ethical risks, request revisions, or suppress responses that fail predefined safety and trustworthiness criteria. We demonstrate ETHOS within a hepatology clinical decision-support MAS. Results show that ETHOS improves decision reliability by detecting incomplete, inconsistent, or out-of-scope evidence and appropriately increasing abstention when safe recommendations cannot be supported. By embedding ethical governance directly into system operation, ETHOS provides a practical and auditable mechanism for transforming high-level AI ethics principles into deployable safeguards.",
+    "url": "http://arxiv.org/abs/2608.15424v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.15424v1",
+    "published": "2026-08-15",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.16666v1",
+    "title": "Chronocooked: A Benchmark for Implicit Interval Timing in Reinforcement Learning Agents",
+    "authors": [
+      "Amrapali Pednekar",
+      "Alvaro Garrido-Perez",
+      "Yara Khaluf",
+      "Pieter Simoens"
+    ],
+    "abstract": "This paper presents Chronocooked, a reinforcement learning (RL) benchmark suite for studying implicit interval timing in RL agents. Inspired by Overcooked, the suite comprises cooking scenarios that require temporal decision making. The tasks and reward functions are designed such that temporal information is unobserved yet critical for optimal performance. The environment is intentionally kept simple to enable controlled experiments and support biologically plausible models. Evaluation metrics are designed to expose limitations in timing abilities of RL agents, and we report baselines using a non-recurrent, a recurrent, and a biologically plausible model. This work ultimately aims to underscore the need to incorporate time perception and temporal processing in artificial agents designed for human robot interaction and deployment in time dependent human societies.",
+    "url": "http://arxiv.org/abs/2608.16666v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16666v1",
+    "published": "2026-08-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.16349v1",
+    "title": "AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive Virtual Cockpit Environment",
+    "authors": [
+      "Yuchen Yuan",
+      "Zhenghuang Wu",
+      "Yuangan Li",
+      "Liang Ma",
+      "Ke Li"
+    ],
+    "abstract": "Large language model (LLM) agents may assist flight crews with complex decisions and task execution, but existing aviation evaluations centered on static knowledge do not support systematic testing of procedural execution and safety compliance in interactive environments. This paper presents the AeroCopilot Operational Environment (ACOE), a reproducible interactive virtual-cockpit test environment, and AeroCopilotBench, a two-tier aviation agent evaluation benchmark. Tier-1 evaluates aviation knowledge using 1,200 multiple-choice questions, while Tier-2 comprises 73 emergency and abnormal tasks derived from the manufacturers' Pilot's Operating Handbooks (POHs) and instantiated in ACOE. ACOE converts natural-language procedures into executable state transitions, final-state goal conditions, and hard safety constraints, enabling models to interpret cockpit state, diagnose faults, and operate aircraft systems through standardized tool interfaces. We establish a safety-gated evaluation framework in which a trajectory succeeds only when all task goals are achieved without violating any hard safety constraint, while safe goal progress and trajectory safety are measured separately. Across 12 models, the highest Tier-2 success rate is 72.6%, while static knowledge performance does not consistently translate into procedural execution. Analysis of 451 failed episodes from 3 representative models identifies recurring failures in procedural completeness, use of state feedback, and long-horizon execution management. These findings motivate state-aware agent orchestration, joint assessment of task completion and trajectory safety, and repeated regression testing. ACOE and AeroCopilotBench provide a reproducible foundation for testing knowledge application, interactive execution, and operational safety in aviation agents.",
+    "url": "http://arxiv.org/abs/2608.16349v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16349v1",
+    "published": "2026-08-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.15654v1",
+    "title": "When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations",
+    "authors": [
+      "Yuqi Chen",
+      "Sixuan Li",
+      "Yunfeng Cai",
+      "Xueai Li",
+      "Ka Man Yan"
+    ],
+    "abstract": "Large language models can write fluent stories, but open-ended storytelling requires more than local fluency. In evolving world simulations and AI-native games, models must preserve facts, relationships, causal dependencies, and character states as the world changes. We introduce WSE-bench, a process benchmark that separately evaluates sustained generation, canonical coherence, and meaningful development in dynamic LLM storytelling. Generation Coverage records the proportion of planned narrative steps produced; Consistency tracks when canon breaks; and Richness measures how meaningfully branching, player-shaped trajectories develop. Across frontier models, Consistency and Richness do not form a smooth trade-off: their empirical Pareto frontier is non-concave, with several non-dominated intermediate configurations that no positive linear weighting can select. Added structure can enrich trajectories, but it does not uniformly improve coherence and may shorten them. Model scale chiefly improves sustained generation, without producing reliable gains in canonical coherence or meaningful development. These results show that sustained generation, canonical coherence, and meaningful development are distinct and sometimes competing capacities. WSE-bench makes those dynamics visible by extending narrative evaluation from finished stories to the processes that create them.",
+    "url": "http://arxiv.org/abs/2608.15654v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.15654v1",
+    "published": "2026-08-16",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.15389v1",
+    "title": "Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL",
+    "authors": [
+      "Changruo Zhao",
+      "Zujun Peng",
+      "Yu Tian",
+      "Yuting Liu",
+      "Yiyun Su"
+    ],
+    "abstract": "LLM-based Text-to-SQL progress is reported across heterogeneous benchmarks, backbones, and inference protocols, making cross-system comparison fragile. We reframe the field as a leaderboard aggregation: we collect the metrics authors themselves report and organize them along an inference-autonomy axis spanning constrained, in-context, iterative, agentic, and reasoning-internalized generation, with traceable provenance for every cell. To anchor the aggregation empirically, we run a focused case study on Spider, comparing 8B open-source backbones with and without chain-of-thought (CoT) supervision against few-shot DeepSeek~V3 and GLM-4 baselines. Four patterns emerge: Spider gains transfer unevenly to BIRD and Spider~2.0; autonomy buys robustness at non-trivial cost; reasoning internalization sits between answer-only decoding and externally orchestrated agents; and CoT gains concentrate on Hard and Extra-Hard queries. We release a Python harness mirroring the autonomy axis so that future methods can be added directly to the leaderboard.",
+    "url": "http://arxiv.org/abs/2608.15389v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.15389v1",
+    "published": "2026-08-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

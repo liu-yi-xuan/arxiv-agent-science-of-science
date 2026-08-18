@@ -24,6 +24,34 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-18
+
+**9 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning](http://arxiv.org/abs/2608.16620v1) | Peng Du, Kiran Kamble, Rakshith Vasudev et al. | Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tun... |
+| [PDDLCoder: Agentic PDDL Generation for LLM-Assisted Symbolic Planning](http://arxiv.org/abs/2608.16637v1) | Veit Laule, Jiangtao Shuai, Manfred Hauswirth et al. | LLMs remain unreliable for long-horizon planning, often generating logically inconsistent or non-applicable plans. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Insurance as AI Risk Infrastructure: A Generative-Agent Simulation of AI Adoption](http://arxiv.org/abs/2608.15181v1) | Yixuan Yuan, Dedai Wei, Chudong Qian et al. | The rapid evolution of artificial intelligence (AI) tools has demonstrated immense potential to enhance societal well-being and operational efficiency. |
+| [FeatureHospital: A Skill-Driven Multi-Agent Framework for Automated Algorithm Customization in Multi-View Multi-Label Feature Selection](http://arxiv.org/abs/2608.16148v1) | Junxuan Li, Zhiqi Chen, Yuzhou Liu et al. | Multi-view multi-label feature selection aims to identify a compact and informative feature subset from heterogeneous views while preserving discriminative information for multiple labels. |
+| [ETHOS: Towards a Modular Ethics Framework for Clinical Multi-Agent Systems](http://arxiv.org/abs/2608.15424v1) | Rakesh Sharma, Sydney Pugh, Cameron Beeche et al. | The rapid adoption of large language models has enabled the development of clinical multi-agent systems (MAS) capable of integrating multimodal patient data and supporting increasingly complex clin... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Chronocooked: A Benchmark for Implicit Interval Timing in Reinforcement Learning Agents](http://arxiv.org/abs/2608.16666v1) | Amrapali Pednekar, Alvaro Garrido-Perez, Yara Khaluf et al. | This paper presents Chronocooked, a reinforcement learning (RL) benchmark suite for studying implicit interval timing in RL agents. |
+| [AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive Virtual Cockpit Environment](http://arxiv.org/abs/2608.16349v1) | Yuchen Yuan, Zhenghuang Wu, Yuangan Li et al. | Large language model (LLM) agents may assist flight crews with complex decisions and task execution, but existing aviation evaluations centered on static knowledge do not support systematic testing... |
+| [When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations](http://arxiv.org/abs/2608.15654v1) | Yuqi Chen, Sixuan Li, Yunfeng Cai et al. | Large language models can write fluent stories, but open-ended storytelling requires more than local fluency. |
+| [Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL](http://arxiv.org/abs/2608.15389v1) | Changruo Zhao, Zujun Peng, Yu Tian et al. | LLM-based Text-to-SQL progress is reported across heterogeneous benchmarks, backbones, and inference protocols, making cross-system comparison fragile. |
+
 ### 📅 2026-08-17
 
 **4 new papers found**
