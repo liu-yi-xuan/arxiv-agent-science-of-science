@@ -24,6 +24,26 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-19
+
+**6 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning](http://arxiv.org/abs/2608.16620v2) | Peng Du, Kiran Kamble, Rakshith Vasudev et al. | Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tun... |
+| [PlanPO: Group Planning-Aware Policy Optimization for Multi-Turn Agentic LLMs](http://arxiv.org/abs/2608.17289v1) | Dayang Liang, Liyuan He, Xuan Feng et al. | Group-relative policy optimization has emerged as a key paradigm for training agentic large language models (LLMs) on multi-turn interactive tasks. |
+| [PDDLCoder: Agentic PDDL Generation for LLM-Assisted Symbolic Planning](http://arxiv.org/abs/2608.16637v1) | Veit Laule, Jiangtao Shuai, Manfred Hauswirth et al. | LLMs remain unreliable for long-horizon planning, often generating logically inconsistent or non-applicable plans. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL](http://arxiv.org/abs/2608.17253v1) | Yunhao Yang, Yuexin Bian, Yunjie Tian et al. | Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth super... |
+| [KernelArc: A Multi-Agent Framework for GPU Kernel Optimization](http://arxiv.org/abs/2608.17071v1) | Joyjit Kundu, Ben Stoffelen, Kaili Wang et al. | We present KernelArc, a multi-agent framework for autonomous GPU kernel optimization across heterogeneous workloads. |
+| [FeatureHospital: A Skill-Driven Multi-Agent Framework for Automated Algorithm Customization in Multi-View Multi-Label Feature Selection](http://arxiv.org/abs/2608.16148v1) | Junxuan Li, Zhiqi Chen, Yuzhou Liu et al. | Multi-view multi-label feature selection aims to identify a compact and informative feature subset from heterogeneous views while preserving discriminative information for multiple labels. |
+
 ### 📅 2026-08-18
 
 **9 new papers found**
