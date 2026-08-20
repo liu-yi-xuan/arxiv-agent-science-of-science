@@ -24,6 +24,34 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-20
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery](http://arxiv.org/abs/2608.19047v1) | Alizer Wong, Heng Cui, Yi Tan et al. | We present Eureka, a task-conditioned Meta-Agent architecture that compiles long-horizon tasks into dynamic obligation graphs with explicit acceptance semantics. |
+| [Science Done on a Machine by a Machine: AI Agents in Computational Chemistry](http://arxiv.org/abs/2608.18508v1) | Pavlo O. Dral, Hassan Nawaz, Arif Ullah | We are witnessing an explosion of agentic systems for computational chemistry simulations: from half a dozen in 2024 to a dozen in 2025, and the current number approaches fifty, surveyed in this Pe... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning](http://arxiv.org/abs/2608.16620v2) | Peng Du, Kiran Kamble, Rakshith Vasudev et al. | Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tun... |
+| [PlanPO: Group Planning-Aware Policy Optimization for Multi-Turn Agentic LLMs](http://arxiv.org/abs/2608.17289v1) | Dayang Liang, Liyuan He, Xuan Feng et al. | Group-relative policy optimization has emerged as a key paradigm for training agentic large language models (LLMs) on multi-turn interactive tasks. |
+| [PDDLCoder: Agentic PDDL Generation for LLM-Assisted Symbolic Planning](http://arxiv.org/abs/2608.16637v1) | Veit Laule, Jiangtao Shuai, Manfred Hauswirth et al. | LLMs remain unreliable for long-horizon planning, often generating logically inconsistent or non-applicable plans. |
+| [Artifact-centered Claim-aware Observability for Autonomous Scientific Agents](http://arxiv.org/abs/2608.18312v1) | Xiangyu Yin, Ming Du, Michael H. Prince et al. | Autonomous scientific agents now increasingly propose ideas, write code, run experiments, analyze results, and even draft papers. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning](http://arxiv.org/abs/2608.18878v1) | Zijie Meng, Xiwei Dai, Yixuan Tang et al. | Oral diseases affect billions of people worldwide, underscoring a pressing need for accurate and reliable dental assessment that integrates heterogeneous evidence from domain knowledge, radiographs... |
+| [Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL](http://arxiv.org/abs/2608.17253v2) | Yunhao Yang, Yuexin Bian, Yunjie Tian et al. | Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth super... |
+| [KernelArc: A Multi-Agent Framework for GPU Kernel Optimization](http://arxiv.org/abs/2608.17071v1) | Joyjit Kundu, Ben Stoffelen, Kaili Wang et al. | We present KernelArc, a multi-agent framework for autonomous GPU kernel optimization across heterogeneous workloads. |
+
 ### 📅 2026-08-19
 
 **6 new papers found**
