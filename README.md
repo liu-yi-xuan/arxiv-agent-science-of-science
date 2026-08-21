@@ -24,6 +24,45 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-21
+
+**15 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery](http://arxiv.org/abs/2608.19047v1) | Alizer Wong, Heng Cui, Yi Tan et al. | We present Eureka, a task-conditioned Meta-Agent architecture that compiles long-horizon tasks into dynamic obligation graphs with explicit acceptance semantics. |
+| [Symposium: Trust via Auditable Records for Communities of AI Scientist Agents](http://arxiv.org/abs/2608.19511v1) | Dexter Pratt | Symposium is a formal framework and practical implementation to record the operation of AI agents deployed by small scientific research communities. |
+| [Science Done on a Machine by a Machine: AI Agents in Computational Chemistry](http://arxiv.org/abs/2608.18508v1) | Pavlo O. Dral, Hassan Nawaz, Arif Ullah | We are witnessing an explosion of agentic systems for computational chemistry simulations: from half a dozen in 2024 to a dozen in 2025, and the current number approaches fifty, surveyed in this Pe... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving](http://arxiv.org/abs/2608.20129v1) | Mehdi Azarafza, Faezeh Pasandideh, Ali Ehteshami Bejnordi et al. | Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. |
+| [Artifact-centered Claim-aware Observability for Autonomous Scientific Agents](http://arxiv.org/abs/2608.18312v1) | Xiangyu Yin, Ming Du, Michael H. Prince et al. | Autonomous scientific agents now increasingly propose ideas, write code, run experiments, analyze results, and even draft papers. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration](http://arxiv.org/abs/2608.19701v1) | Chenchen Lin, Wenhao Yuan, Xuehe Wang et al. | Long-term multi-agent systems continuously accumulate the memories produced by different agents. Existing memory methods typically treat retrieved memories as independent evidence and combine them ... |
+| [DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning](http://arxiv.org/abs/2608.18878v1) | Zijie Meng, Xiwei Dai, Yixuan Tang et al. | Oral diseases affect billions of people worldwide, underscoring a pressing need for accurate and reliable dental assessment that integrates heterogeneous evidence from domain knowledge, radiographs... |
+| [Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design](http://arxiv.org/abs/2608.20099v1) | Poomphob Suwannapichat, Boonyarit Changaival, Caesar Wu et al. | LLM-based Multi-Agent Systems (MAS) achieve strong performance on complex reasoning tasks by coordinating multiple agents, but at the cost of substantial token consumption. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](http://arxiv.org/abs/2608.20318v1) | Yizhe Chi, Wenyi Li, Deyao Hong et al. | Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. |
+| [MaliciousSkillBench: A Comprehensive Benchmark for Malicious Agent Skill Detection](http://arxiv.org/abs/2608.19901v1) | Yue Wang, Yi Liu, Gelei Deng et al. | Agent Skills extend LLM agents with reusable instruction packages that may also include scripts, resources, and service configuration. |
+| [FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents](http://arxiv.org/abs/2608.18423v1) | Tianyou Wang, Chongyang Gao, Kezhen Chen et al. | Language model agents now execute bounded tasks reliably. Whether they can sustain effective decision-making over long horizons, where actions have cumulative consequences and the environment respo... |
+| [StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows](http://arxiv.org/abs/2608.17800v1) | Liya Zhu, Xin Ma, Tao Liu et al. | Recent advances in Large Language Models(LLMs) and agents have substantially improved the ability of AI systems to execute complex tasks. |
+| [MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps](http://arxiv.org/abs/2608.17659v1) | Sujin Chen, Lijun Li, Tianyi Du et al. | LLM-powered GUI agents that autonomously operate smartphones are rapidly transitioning from research prototypes to early real-world deployment. |
+| [HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety](http://arxiv.org/abs/2608.17597v1) | Yajing Bai, Jinhao Duan, Jie Peng et al. | Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state, permissions, and external actions. |
+| [One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows](http://arxiv.org/abs/2608.19741v1) | Zhuochun Li, Youngmin Ko, Ali Keramati et al. | Recent agent benchmarks increasingly ground evaluation in executable environments, from code repair to web navigation, app APIs, and function calling. |
+
 ### 📅 2026-08-20
 
 **9 new papers found**
