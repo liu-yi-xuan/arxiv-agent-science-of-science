@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-22
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery](http://arxiv.org/abs/2608.19047v1) | Alizer Wong, Heng Cui, Yi Tan et al. | We present Eureka, a task-conditioned Meta-Agent architecture that compiles long-horizon tasks into dynamic obligation graphs with explicit acceptance semantics. |
+| [Symposium: Trust via Auditable Records for Communities of AI Scientist Agents](http://arxiv.org/abs/2608.19511v1) | Dexter Pratt | Symposium is a formal framework and practical implementation to record the operation of AI agents deployed by small scientific research communities. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving](http://arxiv.org/abs/2608.20129v1) | Mehdi Azarafza, Faezeh Pasandideh, Ali Ehteshami Bejnordi et al. | Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration](http://arxiv.org/abs/2608.19701v1) | Chenchen Lin, Wenhao Yuan, Xuehe Wang et al. | Long-term multi-agent systems continuously accumulate the memories produced by different agents. Existing memory methods typically treat retrieved memories as independent evidence and combine them ... |
+| [DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning](http://arxiv.org/abs/2608.18878v1) | Zijie Meng, Xiwei Dai, Yixuan Tang et al. | Oral diseases affect billions of people worldwide, underscoring a pressing need for accurate and reliable dental assessment that integrates heterogeneous evidence from domain knowledge, radiographs... |
+| [Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design](http://arxiv.org/abs/2608.20099v1) | Poomphob Suwannapichat, Boonyarit Changaival, Caesar Wu et al. | LLM-based Multi-Agent Systems (MAS) achieve strong performance on complex reasoning tasks by coordinating multiple agents, but at the cost of substantial token consumption. |
+
 ### 📅 2026-08-21
 
 **15 new papers found**
