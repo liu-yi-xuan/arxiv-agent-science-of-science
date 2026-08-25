@@ -24,6 +24,40 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-25
+
+**10 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents](http://arxiv.org/abs/2608.22339v1) | Zihan Lin, Zhenyu Chen, Jiawen Wei et al. | Extracting skills from past successes is critical for the efficient evolution of Large Language Model (LLM) agents. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets](http://arxiv.org/abs/2608.22045v1) | Aashish Panta, Hugo Lee, Giorgio Scorzelli et al. | Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. |
+| [SSE-Bio: A Structured Self-Evolving Agent with Agentic Retrieval Policy for Multi-Hop Biomedical Reasoning](http://arxiv.org/abs/2608.22132v1) | Zhaohan Meng, Zaiqiao Meng, Siwei Liu et al. | Biomedical multi-hop question answering (QA) requires models to connect evidence across intermediate entities such as diseases, drugs, proteins, and phenotypes. |
+| [SPAR-Hate: An Auditor-Guided Multi-Agent Framework for Bilingual Hate Speech Parsing](http://arxiv.org/abs/2608.22018v1) | Yifan Lyu, Dianqing Lin, Xinran Li et al. | Hate speech detection has recently shifted from coarse-grained classification to structured parsing, where systems must jointly identify hateful targets, arguments, and target-level labels. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study](http://arxiv.org/abs/2608.23421v1) | Mullosharaf K. Arabov | Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards](http://arxiv.org/abs/2608.23525v1) | Zhiqing Cui, Xinxiang Yin, Yihong Tang et al. | Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. |
+| [NetConfArena: An Executable Benchmark for LLM Agents in Closed-Loop Network Configuration](http://arxiv.org/abs/2608.23179v1) | Chang Liu, Xiaohui Xie, Xinyi Chen et al. | Large language model (LLM) agents are increasingly attractive for automating network configuration, yet their reliability and failure patterns are poorly understood. |
+| [MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks](http://arxiv.org/abs/2608.23035v1) | Yi Zhu, Xiongwei Wu, Qiyi Wang et al. | As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. |
+| [Signal or Noise? A Benchmark Study of Agent Skills in Web Development](http://arxiv.org/abs/2608.23067v1) | Ziyue Yang, Fan Ding | Agent Skills are reusable procedural modules that are increasingly injected into coding-agent sessions to encode framework conventions, anti-patterns, and reusable tools. |
+| [Noise Floor Audit for Agent Benchmarks](http://arxiv.org/abs/2608.22331v1) | Yihang Chen, Pin Qian, Su Wang et al. | We audit measurement variability for 3 native tool-calling endpoints across 2 providers on the official BFCL multiple and parallel categories, using matched AST grading. |
+
 ### 📅 2026-08-24
 
 **1 new papers found**

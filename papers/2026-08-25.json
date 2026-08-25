@@ -1,0 +1,198 @@
+[
+  {
+    "id": "2608.22339v1",
+    "title": "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents",
+    "authors": [
+      "Zihan Lin",
+      "Zhenyu Chen",
+      "Jiawen Wei",
+      "Xiaohan Wang",
+      "Jie Cao"
+    ],
+    "abstract": "Extracting skills from past successes is critical for the efficient evolution of Large Language Model (LLM) agents. Prevailing agent self-evolution paradigms typically rely on a core assumption: equipping LLMs with skill memories derived from successful trajectories will monotonically improve their problem-solving capabilities. However, probe analyses reveal that extracting skills solely from successful trajectories traps the model in a \\textbf{Skill Imitation Trap}. For tasks that resemble past successes but require different tools, retrieving more skills paradoxically increases the model's confidence in wrong tool calls---procedure skills raise the wrong-tool margin by $47\\%$ over a memory-free baseline. To overcome this limitation, we propose \\textbf{Boundary-Aware Skill Memory} (BASM), which augments each skill with explicit boundary fields---applicability conditions, risk cues, avoidance rules, and recovery notes. These fields transform each retrieved skill from an unconditional action template into state-conditioned guidance: the agent applies the skill when its conditions hold, suppresses inapplicable tool calls when they do not, and issues targeted repairs when execution fails. Across three agent benchmarks and four model scales, BASM consistently outperforms success-distilled skill-memory baselines: it improves task success rate by up to $23.8\\%$ on AppWorld, accuracy by up to $5.0\\%$ on BFCL, and reduces attack success rate by $4.6\\%$ on AgentDojo, while simultaneously reducing average AppWorld steps by up to $6.6\\%$ relative to the memory-free baseline.",
+    "url": "http://arxiv.org/abs/2608.22339v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22339v1",
+    "published": "2026-08-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.22045v1",
+    "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+    "authors": [
+      "Aashish Panta",
+      "Hugo Lee",
+      "Giorgio Scorzelli",
+      "Kyongsik Yun",
+      "Valerio Pascucci"
+    ],
+    "abstract": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore. Although many datasets are publicly available, using them often requires familiarity with repository organization, data formats, multiresolution structures, and visualization parameters. We present WebVisus, a constrained and resource-aware multi-agent system for discovering and autonomously exploring remote, multiresolution scientific datasets. Given a natural-language research question, WebVisus identifies the user's intent and launches an autonomous exploration agent that examines slices, volumes, and timesteps while adapting data resolution and retrieval quality to available client memory and computational resources. This design supports progressive exploration without complete dataset downloads or manual configuration of low-level visualization parameters using natural languages. We report the system architecture, constrained agent protocol, resource-aware access mechanism, and case studies evaluating autonomous visual exploration and resource-aware agentic access across scientific datasets.",
+    "url": "http://arxiv.org/abs/2608.22045v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22045v1",
+    "published": "2026-08-22",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.22132v1",
+    "title": "SSE-Bio: A Structured Self-Evolving Agent with Agentic Retrieval Policy for Multi-Hop Biomedical Reasoning",
+    "authors": [
+      "Zhaohan Meng",
+      "Zaiqiao Meng",
+      "Siwei Liu",
+      "Hao Xu",
+      "Ke Yuan"
+    ],
+    "abstract": "Biomedical multi-hop question answering (QA) requires models to connect evidence across intermediate entities such as diseases, drugs, proteins, and phenotypes. Existing agents typically rely on static retrieval workflows or coarse-grained prompt rewriting, which can lead to instruction drift when reasoning procedures need to be updated. We propose SSE-Bio, a structured self-evolving agent with an agentic retrieval policy for multi-hop biomedical reasoning. Instead of globally rewriting agent instructions, SSE-Bio maintains a structured state, selectively retrieves knowledge triplets and prior templates through a trainable proxy policy, and improves its reasoning memory through fine-grained template editing. To optimise retrieval decisions, we introduce a proxy-training strategy based on group relative policy optimization, where the proxy is improved through decision-contrastive groups over alternative retrieval choices. Experiments on three biomedical multi-hop QA benchmarks show that SSE-Bio consistently outperforms existing baselines, achieving an improvement of 6.56 absolute points over the strongest self-evolving baseline on BioHopR.",
+    "url": "http://arxiv.org/abs/2608.22132v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22132v1",
+    "published": "2026-08-22",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.22018v1",
+    "title": "SPAR-Hate: An Auditor-Guided Multi-Agent Framework for Bilingual Hate Speech Parsing",
+    "authors": [
+      "Yifan Lyu",
+      "Dianqing Lin",
+      "Xinran Li",
+      "Jiaqi Qiao",
+      "Xiujuan Xu"
+    ],
+    "abstract": "Hate speech detection has recently shifted from coarse-grained classification to structured parsing, where systems must jointly identify hateful targets, arguments, and target-level labels. However, existing studies primarily emphasize benchmark evaluation while paying less attention to the cultural, linguistic, and social-group challenges involved in structured hate speech parsing. To address these challenges, we propose SPAR-Hate, an auditor-guided multi-agent framework for bilingual hate speech parsing. The framework first decomposes documents into clause-level decision units and then generates evidence-grounded judgments from three complementary perspectives: Victim, Moderator, and Cultural Bystander. An evidence-constrained arbitration process resolves conflicts among role-specific predictions and aggregates them into structured sample-level outputs. Experiments on the STATE-ToxiCN and TBO benchmarks show that SPAR-Hate consistently improves bilingual hate parsing across diverse large language models. The framework achieves state-of-the-art results on bilingual multi-tuple extraction tasks, with the largest gains observed under stricter structural evaluation metrics.",
+    "url": "http://arxiv.org/abs/2608.22018v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22018v1",
+    "published": "2026-08-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.23421v1",
+    "title": "A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study",
+    "authors": [
+      "Mullosharaf K. Arabov"
+    ],
+    "abstract": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). Despite this growth, a comprehensive quantitative meta-analysis of the field remains absent. This study presents a large-scale bibliometric and topic-based analysis of 7,120 Arabic NLP papers published between 1960 and 2026, sourced from six collections. We employ BERTopic for topic modeling, regression analysis to identify citation predictors, social network analysis for co-authorship structures, and geographic mapping. Our findings show a significant publication surge after 2020, driven by transformer models and LLMs. Topic modeling identifies 19 substantive themes, the largest centered on text, speech, translation, and recognition. Citation analysis reveals a positive correlation between paper age and citations (r = 0.245, p < 0.001); regression shows that indexing in OpenAlex or Semantic Scholar and institutional affiliation are associated with higher citation counts. Saudi Arabia, the United States, and Egypt lead in research output. A task-dialect gap matrix identifies critical understudied areas, including summarization for Maghrebi, Iraqi, and Sudanese dialects. The largest topic has the highest H-index (87), followed by sentiment analysis (54). Our quantitative approach complements existing qualitative surveys and offers recommendations to prioritize under-resourced dialects and develop culturally aligned benchmarks for Arabic NLP.",
+    "url": "http://arxiv.org/abs/2608.23421v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.23421v1",
+    "published": "2026-08-24",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2608.23525v1",
+    "title": "EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards",
+    "authors": [
+      "Zhiqing Cui",
+      "Xinxiang Yin",
+      "Yihong Tang",
+      "Xinglang Zhang",
+      "Yuanzhe Hu"
+    ],
+    "abstract": "Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. Natural hazards make this work consequential because incomplete evidence can change estimates of severity, exposure, and mechanism. We introduce EarthVerse, a benchmark that evaluates scientific agents through package-scoped investigations. Its 405 reproducible tasks are grounded in 199 documented events and 19 hazard families. Agents inspect heterogeneous event packages, choose compatible evidence, execute transparent calculations, reconcile source differences, and preserve provenance in the final answer. We provide executable ground truth that decomposes each task into fine-grained answer units, together with task-specific rubrics that assess the supporting research process while allowing multiple valid paths. We evaluate 25 model and agent systems under a controlled tool-using protocol, then use controlled studies to locate failures in evidence access, tool selection, memory, reasoning, interaction, and scientific execution. Across systems, the best mean answer-unit accuracy is 84.65%, while the highest Strict@95 is only 34.81%. The gap shows that current agents often complete individual steps without maintaining a consistent chain across evidence, scales, units, calculations, and physical interpretation. EarthVerse provides a reproducible basis for measuring end-to-end scientific reliability in dynamic Earth systems.",
+    "url": "http://arxiv.org/abs/2608.23525v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.23525v1",
+    "published": "2026-08-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.23179v1",
+    "title": "NetConfArena: An Executable Benchmark for LLM Agents in Closed-Loop Network Configuration",
+    "authors": [
+      "Chang Liu",
+      "Xiaohui Xie",
+      "Xinyi Chen",
+      "Yong Cui"
+    ],
+    "abstract": "Large language model (LLM) agents are increasingly attractive for automating network configuration, yet their reliability and failure patterns are poorly understood. An essential prerequisite is to assess such agents in a realistic but risk-free environment. Existing benchmarks, however, fall short: they often treat configuration as static command generation or rely on overly simplified settings. Such evaluations understate the core challenges of network configuration, where correctness requires reasoning about protocol complexity and topology dependence. We present NetConfArena, an executable benchmark for evaluating LLM agents in closed-loop network configuration. NetConfArena places agents in emulated multi-device networks, provides a standardized and compact action interface for task execution, and evaluates the resulting network behavior with hidden task-specific executable test cases. The benchmark relies on an LLM-assisted, emulation-grounded pipeline, which converts human-oriented network materials into reusable parameterized task templates. We evaluate representative LLM agents on 480 task instances instantiated from 96 protocol-focused task templates, yielding 3840 execution trajectories, and show that failures are not limited to command errors. The failures also reveal gaps in task-specification adherence and robust planning and execution. These findings suggest two future directions: using validated trajectories as supervision signals to improve foundation models, and designing harness mechanisms that make agent execution more reliable and accountable.",
+    "url": "http://arxiv.org/abs/2608.23179v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.23179v1",
+    "published": "2026-08-24",
+    "categories": [
+      "cs.NI",
+      "cs.AI"
+    ],
+    "primary_category": "cs.NI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.23035v1",
+    "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+    "authors": [
+      "Yi Zhu",
+      "Xiongwei Wu",
+      "Qiyi Wang",
+      "Tingyu Qu",
+      "Jiajun Liu"
+    ],
+    "abstract": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. Yet existing benchmarks fall into two camps, each with a critical blind spot: GUI-centric benchmarks test surface-level screen manipulation while overlooking background tool use and long-horizon planning, whereas static function-calling benchmarks rely on offline API matching that is detached from real runtime constraints. To close this gap, we present \\textbf{MobilePA-Bench}, an interactive, stateful, and tool-centric benchmark for evaluating the tool-calling and planning abilities of mobile planning agents. MobilePA-Bench runs on an executable sandbox that maintains live application databases and returns structured feedback, spanning $13$ functional domains and $212$ realistic mobile tools. Beyond basic tool use, it evaluates a central planning agent along three advanced dimensions: \\emph{(1)~Sub-agent Collaboration}---decomposing a complex task and delegating specialized work to capable sub-agents; \\emph{(2)~Memory Usage}---recalling stored memories, user profiles, and past preferences to resolve implicit requests; and \\emph{(3)~Skill Usage}---invoking pre-packaged composite skills instead of planning every step from scratch. Extensive experiments show that current frontier LLMs remain unreliable in mobile settings: performance drops sharply under strict tool ordering, permission limits, and unexpected runtime errors. By pairing an interactive function-calling sandbox with evidence-based verification, MobilePA-Bench serves as both a practical diagnostic benchmark and an interactive foundation for agentic reinforcement learning---accelerating the development of dependable mobile agents.",
+    "url": "http://arxiv.org/abs/2608.23035v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.23035v1",
+    "published": "2026-08-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.23067v1",
+    "title": "Signal or Noise? A Benchmark Study of Agent Skills in Web Development",
+    "authors": [
+      "Ziyue Yang",
+      "Fan Ding"
+    ],
+    "abstract": "Agent Skills are reusable procedural modules that are increasingly injected into coding-agent sessions to encode framework conventions, anti-patterns, and reusable tools. However, because each injected Skill expands the prompt of every query, an effective Skill benchmark must determine not only whether an agent can solve a task, but whether the Skill should have been injected at all. We introduce WebDev-Skills-Bench and use it for a controlled empirical study of 31 public WebDev Skills on 50 Web-Bench projects and 1,000 ordered tasks. The benchmark compares four matched conditions, including a length-matched irrelevant control and leave-one-out component ablations. To isolate Skill effects from prompt-length artifacts, we place only SKILL.md in the prompt while mounting auxiliary files into the agent workspace. Across four models, target Skill injection reduces mean Pass@2 by 1.3% to 4.2%, lowers task completion depth, and increases token cost by 72% to 394%, with gains in only 17% to 36% of Skill-project pairs. Length-matched controls reveal two failure modes: some models are length-distracted, where an equally long irrelevant Skill reproduces most of the loss, while others are content-misled, where prompt length is neutral but Skill content still lowers Pass@2 by 1.1% to 1.4%. Further analysis shows that losses concentrate on easy early tasks, Skill rankings transfer weakly across models, and anti-pattern rules outperform example-heavy content within helpful Skills. These findings recast a matched Skill as a hypothesis about a particular Skill-project-model triple rather than a portable asset, reframing injection as a per-deployment routing decision and making length-matched controls and per-model audits a minimum standard for Agent-Skill evaluation.",
+    "url": "http://arxiv.org/abs/2608.23067v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.23067v1",
+    "published": "2026-08-24",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.22331v1",
+    "title": "Noise Floor Audit for Agent Benchmarks",
+    "authors": [
+      "Yihang Chen",
+      "Pin Qian",
+      "Su Wang",
+      "Chong Peng",
+      "Huan Xu"
+    ],
+    "abstract": "We audit measurement variability for 3 native tool-calling endpoints across 2 providers on the official BFCL multiple and parallel categories, using matched AST grading. At temperature 0, reruns are nearly deterministic across Groq endpoints and a thinking-enabled Gemini setting: ever-flip fractions are 0.7%, 2.0%, and 2.7%, with mean run correlations of 0.997, 0.966, and 0.961. Semantics-preserving prompt perturbations create the larger floor on all endpoints, with median perturbation paired SDs 11x to 58x larger than rerun paired SDs. The failure character also shifts: malformed-output failures account for 30%, 7%, and <1% of task failures, so marginal accuracy hides not only stability but also failure mode.",
+    "url": "http://arxiv.org/abs/2608.22331v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22331v1",
+    "published": "2026-08-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
