@@ -24,6 +24,50 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-26
+
+**15 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Retrieval-augmented generation vs. deterministic tax computation in multi-agent financial advisory: A 2x2 factorial experiment](http://arxiv.org/abs/2608.23908v1) | Aryan Brar, Justin Du, Avery Lor et al. | Tax-loss harvesting demonstrates consistent benefits to long-term portfolio growth; yet implementing it efficiently often involves complex considerations that are specific to the holdings within th... |
+| [The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory](http://arxiv.org/abs/2608.22767v1) | Qi Feng, Chris Ding, Jicong Fan | Long-term language-model agents accumulate memories across interactions, but their retrievers typically do not accumulate retrieval experience. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents](http://arxiv.org/abs/2608.22339v1) | Zihan Lin, Zhenyu Chen, Jiawen Wei et al. | Extracting skills from past successes is critical for the efficient evolution of Large Language Model (LLM) agents. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [STRIVE: Multi-Agent Structured Temporal Reasoning with Integrated Verification for Longitudinal Radiology Report Generation](http://arxiv.org/abs/2608.24237v1) | Junyeong Maeng, Eunsong Kang, Heung-Il Suk | Longitudinal radiology report generation (LRRG) requires identifying both current findings and their changes relative to a prior study. |
+| [Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings](http://arxiv.org/abs/2608.24039v1) | Muhammad Tayyab Khan, Lequn Chen, Wenhe Feng et al. | Manufacturing process planning transforms heterogeneous design information into coherent manufacturing decisions. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Shaping the Future of Generative AI for Black Communities: A Frame Analysis of Public Discourse and Empirical Scholarly Research](http://arxiv.org/abs/2608.24767v1) | Angela D. R. Smith, Gabriella Thompson, Christopher L. Dancy et al. | As generative AI (genAI) systems become embedded in education, employment, healthcare, and creative industries, the impact and engagement among marginalized groups have become both a widespread dis... |
+| [A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study](http://arxiv.org/abs/2608.23421v2) | Mullosharaf K. Arabov | Arabic Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards](http://arxiv.org/abs/2608.23525v1) | Zhiqing Cui, Xinxiang Yin, Yihong Tang et al. | Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. |
+| [PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents](http://arxiv.org/abs/2608.24509v1) | Zhi-Kai Chen, Xu-Xiang Zhong, Song-Yan Li et al. | LLM agents increasingly solve tasks by invoking multiple tools, where parallel execution is essential for low latency but difficult to manage safely. |
+| [Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight](http://arxiv.org/abs/2608.24314v1) | Anupam Purwar, Shashank Singh, Kritika Srivastava | Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human eva... |
+| [NetConfArena: An Executable Benchmark for LLM Agents in Closed-Loop Network Configuration](http://arxiv.org/abs/2608.23179v1) | Chang Liu, Xiaohui Xie, Xinyi Chen et al. | Large language model (LLM) agents are increasingly attractive for automating network configuration, yet their reliability and failure patterns are poorly understood. |
+| [Beyond Executable Models: The Pufibara Agent Harness and the Modelica Agent Workflow Benchmark for Physical System Modeling](http://arxiv.org/abs/2608.23653v1) | Zizhe Wang | AI agents are increasingly used for simulation-driven engineering. Physical system modeling presents different requirements from general-purpose code generation in software engineering, because cor... |
+| [MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks](http://arxiv.org/abs/2608.23035v2) | Yi Zhu, Xiongwei Wu, Qiyi Wang et al. | As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. |
+| [Signal or Noise? A Benchmark Study of Agent Skills in Web Development](http://arxiv.org/abs/2608.23067v1) | Ziyue Yang, Fan Ding | Agent Skills are reusable procedural modules that are increasingly injected into coding-agent sessions to encode framework conventions, anti-patterns, and reusable tools. |
+| [Noise Floor Audit for Agent Benchmarks](http://arxiv.org/abs/2608.22331v1) | Yihang Chen, Pin Qian, Su Wang et al. | We audit measurement variability for 3 native tool-calling endpoints across 2 providers on the official BFCL multiple and parallel categories, using matched AST grading. |
+
 ### 📅 2026-08-25
 
 **10 new papers found**
