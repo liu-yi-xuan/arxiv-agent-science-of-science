@@ -24,6 +24,47 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-27
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Retrieval-augmented generation vs. deterministic tax computation in multi-agent financial advisory: A 2x2 factorial experiment](http://arxiv.org/abs/2608.23908v1) | Aryan Brar, Justin Du, Avery Lor et al. | Tax-loss harvesting demonstrates consistent benefits to long-term portfolio growth; yet implementing it efficiently often involves complex considerations that are specific to the holdings within th... |
+| [Federation Is Nearly Free, Reasoning Is Not: Tradeoffs for AI Co-Scientists in Protein Characterization Workflows](http://arxiv.org/abs/2608.25215v1) | Maia Kapur, Timothy Boe, Abby Jerger et al. | Natural language driven autonomous co-scientist workflows involve a fundamental trade-off between flexibility and reasoning at the expense of determinism, reproducibility, and observability. |
+| [AFDBench: A Reasoning-First AI Scientist for NationalWeather Service Forecast Discussions](http://arxiv.org/abs/2608.24954v1) | Manmeet Singh, Somnath Luitel, Prabhjot Singh et al. | Large language models (LLMs) hallucinate numerical values when generating high-stakes meteorological text, posing risks for weather communication. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LifePlanner: Evaluating LLM Agents for Geo-spatial Planning with Social Media Data](http://arxiv.org/abs/2608.25039v1) | Zhen Dong, Yuning Peng, Yutao Shi et al. | Geo-spatial planning, like trip design, is a realistic testbed for LLM agents because it requires grounded tool use, noisy evidence retrieval, and multi-constraint reasoning. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning](http://arxiv.org/abs/2608.25770v1) | Ziqing Qian, Jiaying Lei, Yifang Wang et al. | Large language models (LLMs) have enabled AI scientist systems to automate scientific discovery, yet existing approaches most rely on static prompting or fixed workflows and fail to accumulate expe... |
+| [STRIVE: Multi-Agent Structured Temporal Reasoning with Integrated Verification for Longitudinal Radiology Report Generation](http://arxiv.org/abs/2608.24237v1) | Junyeong Maeng, Eunsong Kang, Heung-Il Suk | Longitudinal radiology report generation (LRRG) requires identifying both current findings and their changes relative to a prior study. |
+| [Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings](http://arxiv.org/abs/2608.24039v1) | Muhammad Tayyab Khan, Lequn Chen, Wenhe Feng et al. | Manufacturing process planning transforms heterogeneous design information into coherent manufacturing decisions. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Shaping the Future of Generative AI for Black Communities: A Frame Analysis of Public Discourse and Empirical Scholarly Research](http://arxiv.org/abs/2608.24767v1) | Angela D. R. Smith, Gabriella Thompson, Christopher L. Dancy et al. | As generative AI (genAI) systems become embedded in education, employment, healthcare, and creative industries, the impact and engagement among marginalized groups have become both a widespread dis... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Paint What You See: Benchmarking Dexterous Visual Tool Use in Multimodal Agents](http://arxiv.org/abs/2608.25417v1) | Shudong Liu, Dongyang Chen, Enci Zhang et al. | Evaluation is shifting from static QA toward agentic settings where models act through external tools. |
+| [BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks](http://arxiv.org/abs/2608.25286v1) | Zane Koch, Asmamaw T. Wassie, Javier Valdes-Aleman et al. | Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. |
+| [PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents](http://arxiv.org/abs/2608.24509v1) | Zhi-Kai Chen, Xu-Xiang Zhong, Song-Yan Li et al. | LLM agents increasingly solve tasks by invoking multiple tools, where parallel execution is essential for low latency but difficult to manage safely. |
+| [Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight](http://arxiv.org/abs/2608.24314v1) | Anupam Purwar, Shashank Singh, Kritika Srivastava | Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human eva... |
+
 ### 📅 2026-08-26
 
 **15 new papers found**
