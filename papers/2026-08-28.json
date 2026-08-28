@@ -1,0 +1,338 @@
+[
+  {
+    "id": "2608.27454v1",
+    "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+    "authors": [
+      "Liyan Tang",
+      "Cyrus Rashtchian",
+      "Chun-Sung Ferng",
+      "Andrew Tomkins",
+      "Da-Cheng Juan"
+    ],
+    "abstract": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperforms state-of-the-art skill-evolution methods and improves over no-skill baselines in most model-benchmark settings. We find that skill evolution complements model scaling: larger models generally benefit more from evolved skills, while smaller models with skills can outperform substantially larger models without them. We also find that evolved skills transfer effectively across models and model families, and skills evolved by other models can outperform self-evolved skills. Finally, our ablation studies confirm that persistent knowledge accumulation in the wiki is critical for effective skill evolution. These results demonstrate the benefits of systematically accumulating and refining agent experience for developing reusable and transferable skills.",
+    "url": "http://arxiv.org/abs/2608.27454v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27454v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.27439v1",
+    "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+    "authors": [
+      "Junjie Zhang",
+      "Hui Liu",
+      "Kecheng Chen",
+      "Xianbo Mo",
+      "Changsheng Chen"
+    ],
+    "abstract": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unclear tool credit, and full trajectories add context overhead while reducing interpretability. We propose RedEvoAgent, a black-box red-teaming agent that distills cross-case attack trajectories into a concise, human-readable attack skill. The attack skill adaptively evolves through tool-effectiveness profiling and Deciding-Tool Attribution for skill updates, and a validation ratchet that retains only updates improving validation performance. Experiments on multiple benchmarks, target models, and target execution harnesses show that RedEvoAgent outperforms fixed and agentic baselines, improves tool efficiency, and transfers across attacker models and target execution harnesses.",
+    "url": "http://arxiv.org/abs/2608.27439v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27439v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.26780v1",
+    "title": "AI Control Scientist: LLM-driven Agentic System for Automated Control Design",
+    "authors": [
+      "Haiteng Wang",
+      "Weihao Li",
+      "Jing Zhang",
+      "Lei Ren"
+    ],
+    "abstract": "Control system design is critical for modern industry, such as chemical process temperature regulation and aero-engine control. However,traditional control design workflows rely heavily on expert knowledge and extensive manual parameter tuning, resulting in limited efficiency and scalability. To this end, this paper proposes AI Control Scientist (AICS), the first large language model (LLM)-driven agent capable of automatically generating optimized controller from language design requirements. Specifically, a Task Modeling Agent interprets user requirements to engineering constraints; a Controller Design Agent generate candidate controller structures and executable code; and a Parameter Tuning Agent refine controller parameters under closed-loop performance criteria. Experiments demonstrate that the proposed agentic system can automatically generate multiple representative control systems, outperforms existing automated baselines in both design success rate and optimization efficiency. This work has the potential to transform control system design from human-driven to agent-driven, paving the way for model predictive control and other advanced control systems design.",
+    "url": "http://arxiv.org/abs/2608.26780v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26780v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.25215v1",
+    "title": "Federation Is Nearly Free, Reasoning Is Not: Tradeoffs for AI Co-Scientists in Protein Characterization Workflows",
+    "authors": [
+      "Maia Kapur",
+      "Timothy Boe",
+      "Abby Jerger",
+      "Paul Rigor"
+    ],
+    "abstract": "Natural language driven autonomous co-scientist workflows involve a fundamental trade-off between flexibility and reasoning at the expense of determinism, reproducibility, and observability. Such agents increasingly must communicate across institutional boundaries, where federation topology can shape latency and cost. We systematically evaluated these tradeoffs using a controlled ablation on a production agentic platform for science. We use a verifiable task: given a protein sequence, we ask an agent to confidently characterize its function by routing across common tools. We compare federation topology, classic RL vs LLM-driven harnesses, language model, and prompt expertise. We also stratify results by protein novelty. We find that the choice of LLM dominated prediction quality far more than topology or prompting (Opus ~92%-94% vs o4-mini ~40%-50%). The PPO policy was nearly as accurate as the best LLM (88%) at zero token cost, fastest latency, and perfect consistency, but yields no reasoning trace. Expert prompted LLMs reached the highest accuracy but were high-cost and less consistent; prompt dependence was largest when the task was hardest. Federation imposed a negligible penalty on performance. These results offer actionable guidance for deploying agents for scientific workflows: for routine, verifiable tasks, a cheap deterministic policy delivers near-frontier accuracy with complete reproducibility, while flexible LLM reasoning is best reserved for open-ended discovery.",
+    "url": "http://arxiv.org/abs/2608.25215v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.25215v1",
+    "published": "2026-08-25",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "q-bio.QM"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2608.27234v1",
+    "title": "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
+    "authors": [
+      "Dylan Girrens",
+      "Guangjing Wang"
+    ],
+    "abstract": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources. Existing defenses typically protect either planning or individual tool interactions, but persistent agents face a broader threat: attacker-controlled data can alter control flow, enter security-sensitive tool arguments, or compromise later queries. We present SPA, a plan-first architecture that secures planning, execution, and cross-query state reuse. SPA invokes the planner once per query to generate a complete executable plan in a declarative domain-specific language, then applies dual-lattice information-flow control to track confidentiality and integrity across explicit data flows and control dependencies. To support persistence without re-exposing untrusted payloads to the planner, SPA stores execution results as labeled artifacts and reveals only semantic metadata during later planning. We evaluate SPA on AgentDojo and AgentDojo-MQ, which is our multi-query extension for measuring secure state reuse and delayed attacks. Under the 'tool_knowledge' attack, SPA with information-flow control reduces attack success to zero on AgentDojo and 0.2% on AgentDojo-MQ. Our results show that plan-first execution combined with label-preserving persistence can substantially strengthen persistent LLM agents, while revealing an important security-utility tradeoff introduced by strict integrity enforcement.",
+    "url": "http://arxiv.org/abs/2608.27234v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27234v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.26546v1",
+    "title": "DuMateBench: Evaluating Autonomous Agents in Complex Real-World Workflows",
+    "authors": [
+      "Zechun Niu",
+      "Yukun Zhao",
+      "Jiaxin Zhang",
+      "Xu Shen",
+      "Jinhua Si"
+    ],
+    "abstract": "Autonomous agents are increasingly adopted to complete complex, multi-tool workflows in real-world settings. However, existing benchmarks typically separate tasks by application or capability and evaluate agents in environments that are cleaner and more stable than those encountered in practice. We introduce DuMateBench, a real-session benchmark reconstructed from anonymized and privacy-screened user sessions collected from a large-scale production agent platform. Each task preserves the relevant pre-solution interaction history, persistent configurations, and workspace state, and is then validated through human verification. The resulting benchmark comprises 200 tasks spanning 8 broad scenarios and 17 fine-grained capability categories, with most tasks requiring multiple capability coordination. We execute these tasks in isolated Docker containers injected with three forms of real-world environmental complexity: Insufficient, Unstable, and Noisy, and assess performance using a hybrid deterministic and LLM-as-Judge evaluation protocol. Experiments across five representative autonomous-agent frameworks paired with four state-of-the-art LLMs reveal substantial gaps in strict task completion. Complementary robustness, efficiency, and diagnostic analyses further show that performance under environmental perturbations is jointly shaped by the capabilities of the LLM and the surrounding agent framework. The code and data are publicly available at https://dumatebench.com/.",
+    "url": "http://arxiv.org/abs/2608.26546v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26546v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2608.25770v1",
+    "title": "HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning",
+    "authors": [
+      "Ziqing Qian",
+      "Jiaying Lei",
+      "Yifang Wang",
+      "Nan Cao"
+    ],
+    "abstract": "Large language models (LLMs) have enabled AI scientist systems to automate scientific discovery, yet existing approaches most rely on static prompting or fixed workflows and fail to accumulate experience for continual improvement. We propose HypoForge, an experience-guided multi-agent framework that learns reusable scientific skills for automated hypothesis generation and hypothesis testing. HypoForge is built on the observation that these two stages involve different supervision signals. For hypothesis generation, where explicit feedback is unavailable, HypoForge adopts an adversarial generator--discriminator mechanism to improve reasoning through comparative critique. For hypothesis testing, where empirical feedback is available, HypoForge learns testing skills from execution outcomes and ground-truth results. By matching skill learning strategies with stage-specific supervision, HypoForge enables continual improvement without fine-tuning foundation models. Experiments on hypothesis generation and testing benchmarks show that HypoForge consistently outperforms existing AI scientist frameworks and skill-level variants. Further analysis demonstrates the effectiveness of the proposed stage-specific skill learning paradigms.",
+    "url": "http://arxiv.org/abs/2608.25770v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.25770v1",
+    "published": "2026-08-26",
+    "categories": [
+      "cs.MA"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.26990v1",
+    "title": "DSA: Evidence-Aware LLM-Agent Orchestration for Multi-Market Stock Research",
+    "authors": [
+      "Linsen Zhu",
+      "Yi Shi"
+    ],
+    "abstract": "Large language models can summarize financial information, but an operational stock-research system must first assemble heterogeneous evidence, expose unavailable data and model capabilities, and control how generated opinions affect a final report. We present DSA, an evidence-aware orchestration framework for multi-market stock research with large language model (LLM) agents. DSA organizes the workflow into evidence acquisition, structured context construction, model-routed analysis, optional role and Strategy Skill reasoning, and report generation with selected context and diagnostics. A default report profile and an optional agentic profile share evidence and model-routing services but use profile-specific output validation and risk safeguards. In the agentic profile, core role outputs are processed by role-specific parsers, whereas Strategy Skill opinions undergo an additional signal-eligibility partition before synthesis; disagreement is supplied explicitly to the decision agent, followed by a conservative risk override. The reference implementation includes six regional market paths, fifteen bundled Strategy Skills, hosted and local model routes, and multiple execution and delivery surfaces. At a frozen software snapshot, a selected manifest of 1,457 portable offline backend contract tests passed; 596 cases were retrospectively mapped to six contract families central to the reported LLM-agent architecture. This evidence establishes implementation conformance for the tested software contracts, not superior report quality, forecasting accuracy, or investment returns.",
+    "url": "http://arxiv.org/abs/2608.26990v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26990v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.27127v1",
+    "title": "TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation",
+    "authors": [
+      "Jingyi Zheng",
+      "Yule Liu",
+      "Zifan Peng",
+      "Tianyi Hu",
+      "Yuemeng Zhao"
+    ],
+    "abstract": "Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and cultural backgrounds. Therefore, adapting memes across cultures and languages is a central challenge for enabling mutual understanding in online communication. Unlike ordinary translation or standalone text rewriting, cross-cultural meme transcreation must jointly preserve communicative intent, adapt culture-dependent meaning for the target audience, and maintain coherence between text and image. In this work, we first provide an explicit task analysis of cross-cultural meme transcreation and identify three core challenges: culture-specific knowledge understanding, intent and tone preservation, and multimodal consistency. Based on this analysis, we propose a multi-agent framework with specialized agents that are coordinated to address these challenges through cultural adaptation, target text rewriting, revision, and conditional visual adjustment. The framework strengthens target text adaptation with coordinated feedback to handle difficult cases that require deeper cultural or visual intervention. We evaluate the framework on bidirectional Chinese-English meme transcreation using both human evaluation and LLM-as-a-Judge. Our method consistently outperforms all baselines across both evaluation settings. In human evaluation, it achieves the best performance on all four dimensions and delivers a 33.1% average improvement over the strongest baseline, while in LLM-as-a-Judge, it attains the highest Top-1 ranking rate (60% versus 26% for the second-best baseline). Further analysis indicates that each component contributes to the performance. Our error analysis suggests that the remaining bottlenecks lie in humor reconstruction and image-text alignment rather than simple cultural knowledge gaps, pointing to future work on humor transfer.",
+    "url": "http://arxiv.org/abs/2608.27127v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27127v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.26626v1",
+    "title": "Risks and Controls for Multi-Agent Systems: an analytical framework for deployment of AI agents across organisational boundaries",
+    "authors": [
+      "Alistair Reid",
+      "Simon O'Callaghan",
+      "Dustin Venini",
+      "Liam Carroll",
+      "Tiberio Caetano"
+    ],
+    "abstract": "This report presents a framework to help organisations, policymakers and researchers reason about the risks that emerge when AI agents interact with each other, how those risks change as interactions cross organisational boundaries, and the controls that may help address them.   As organisations deploy AI agents, those agents will increasingly interact with each other: inside the organisation, with the agents of partners, customers and suppliers, and with unknown counterparties on the open internet. Failures can emerge from the interactions themselves, and once those interactions cross an organisation's perimeter, no single organisation can fully see, control or govern them.   The report introduces three deployment tiers, defined by the minimum common governance binding any two interacting agents: singular governance, where one organisation governs every agent; federated governance, where multiple organisations deploy into a shared environment under agreed rules; and open environments, where agents operate with no central authority and shared standards are adopted voluntarily if at all.   Within each tier, the report examines risk factors, failure modes and available controls. It identifies who is positioned to apply the controls, and where no actor is positioned to act, it characterises the gap and the collective action required to close it.",
+    "url": "http://arxiv.org/abs/2608.26626v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26626v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2608.26409v1",
+    "title": "Gender and the Production of Research Impact",
+    "authors": [
+      "Sanger Wagner",
+      "Charles Rahal",
+      "Melinda C. Mills"
+    ],
+    "abstract": "Evaluating the impact of scientific research beyond academia --- on policy, health, the economy, and cultural life --- has become a cornerstone of science policy and research-funding allocation worldwide. Yet which researchers produce the research underpinning this impact, and how this production is shaped by gender, remains poorly understood. We combine structured and unstructured records from the United Kingdom's latest Research Excellence Framework, the largest national research assessment currently in operation, with large-scale bibliometric data to quantify gender differences among the researchers underpinning documented impact. Women account for 38.16% of these contributors: underrepresented overall, but with a consistently higher share than in research-output authorships (33.63%), both overall and across all four REF panels. Impact production is also strongly gendered across domains: women are better represented in case studies concerning education, health, cultural, and civil-society impact, whereas those concerning commercialisation pathways such as patenting and manufacturing remain dominated by men. These findings reveal critical inequalities across the pathways that connect research to impact beyond academia, offering crucial evidence for policymakers and academic institutions aiming to build more equitable and representative systems for evaluating scientific contributions.",
+    "url": "http://arxiv.org/abs/2608.26409v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26409v1",
+    "published": "2026-08-26",
+    "categories": [
+      "cs.DL",
+      "stat.AP"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2608.27021v1",
+    "title": "FaulT-Bench: Towards Benchmarking Network Troubleshooting LLM Agents under Unreliable User Tickets",
+    "authors": [
+      "Kuan-Hao Tseng",
+      "Niruth Bogahawatta",
+      "Yasod Ginige",
+      "Kunjan Patel",
+      "Kosta Dakic"
+    ],
+    "abstract": "LLM-based agents are increasingly proposed for network fault diagnosis, but existing benchmarks evaluate them only on accurate tickets and always assume a fault is present, conditions rarely met in practice. We present FaulT-Bench, a benchmark of 200 troubleshooting scenarios across eight network topologies, five reimplemented from public practitioner labs, spanning genuine faults, false fault reports, incorrect device attribution, and incorrect root-cause claims. To isolate how ticket wording affects diagnosis, we further rewrite 72 false-premise tickets into five reporter personas that vary reporter confidence and verifiable detail one factor at a time, holding the network state fixed. Our automated harness deploys each scenario in Kathará, lets agents interact through the NIKA tool interface, and scores free-text diagnoses with an LLM judge across outcome, fix, and reasoning quality. Evaluating SADE, ReAct, and Claude Code, we find all three are near-saturated on accurate tickets and robust to misdirection, yet degrade sharply when the network is healthy and the ticket is wrong, probing until a benign condition can be promoted to a root cause rather than concluding nothing is wrong. Persona rewrites show that how a ticket is written matters more than what it claims: a confidently wrong report is handled about as well as an accurate one, while a vague, underspecified report degrades performance sharply. The three agents also fail differently, from constant over-diagnosis to unanswered runs, at very different cost. These results position FaulT-Bench as a benchmark for developing agentic systems that can reason reliably over the noisy, unreliable tickets of real-world network troubleshooting.",
+    "url": "http://arxiv.org/abs/2608.27021v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27021v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.NI",
+      "cs.AI"
+    ],
+    "primary_category": "cs.NI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.26623v1",
+    "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+    "authors": [
+      "Abhigya Verma",
+      "Amit Kumar Saha",
+      "Seganrasan Subramanian",
+      "Sai Harshitha Aluru"
+    ],
+    "abstract": "LLM judges are widely used to evaluate agentic tool-calling systems, yet their reliability on structured, dependency-driven workflows remains largely unexamined. We present AgentJudgeBench, the first benchmark to systematically study LLM-as-a-judge reliability for agentic tool-calling over workflow DAGs, as distinct from the broader LLM-as-a-judge task of open-ended text or preference evaluation. The benchmark comprises 3,808 instances spanning six DAG topologies and three difficulty tiers, evaluated with five generators (3B-70B open-weight models and GPT-5.4) and six judges (20B to frontier scale) under paired with- and without-ground-truth conditions. Judge alignment degrades monotonically with task difficulty, 1.5x faster without ground truth, and on hard queries without ground truth all six judges converge to a narrow 77-82% band regardless of scale, revealing a structural ceiling driven primarily by task difficulty, though its height is partly prompt-dependent for weaker generators, that model capacity alone cannot overcome. Ground-truth exposure is not uniformly beneficial: it reduces alignment for GPT-5.4 (1.5 pp) and Gemini-2.5-Pro (3.9 pp), consistent with over-anchoring. Among mitigation strategies, chain-of-thought reasoning and judge temperature both have negligible effect, while structured evaluation rubrics improve alignment by up to 6.5 pp but do not generalize uniformly across judge-generator pairs. With ground truth, QwQ-32B best matches the programmatic reference, while a human validation study identifies GPT-OSS-120B as the most human-aligned judge; without it, frontier judges lead only marginally within the shared ceiling. These results expose fundamental limitations of current LLM judges and yield practical guidelines for reliable evaluation in agentic systems.",
+    "url": "http://arxiv.org/abs/2608.26623v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26623v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.25417v1",
+    "title": "Paint What You See: Benchmarking Dexterous Visual Tool Use in Multimodal Agents",
+    "authors": [
+      "Shudong Liu",
+      "Dongyang Chen",
+      "Enci Zhang",
+      "Jinwei Liang",
+      "Zheng Ma"
+    ],
+    "abstract": "Evaluation is shifting from static QA toward agentic settings where models act through external tools. We identify a critical yet underexplored capability within this space - dexterous visual tool use: fine-grained, closed-loop parameterized visual action in which models infer tool parameters from visual evidence, and those parameters directly govern the final result. Existing benchmarks cover web navigation, GUI operation, and software engineering, but rarely target this coupling between visual evidence and execution precision. We propose EASEL, a benchmark evaluating a controlled instance of dexterous visual tool use that adopts reference-guided visual reconstruction as its primary proxy task: the agent incrementally paints a canvas to match a reference image. EASEL additionally includes semantic tasks spanning region annotation, handwriting, and path planning. We further provide EASEL-Data, a 440k-sample two-stage curriculum dataset for trajectory supervision, and EASEL-9B to investigate its effect on this capability. Evaluation of 25 models reveals that current multimodal agents systematically struggle on EASEL. Reconstruction similarity bottlenecks at low levels (0.40-0.54), while trajectory diagnostics expose severe closed-loop instability - models typically saturate early or degrade post-peak. Semantic tasks reveal sharp capability boundaries in precision annotation and path planning. EASEL-9B, trained on EASEL-Data, surpasses the base model by a relative 6.3%, ranking third among all evaluated models.",
+    "url": "http://arxiv.org/abs/2608.25417v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.25417v1",
+    "published": "2026-08-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.25286v1",
+    "title": "BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks",
+    "authors": [
+      "Zane Koch",
+      "Asmamaw T. Wassie",
+      "Javier Valdes-Aleman",
+      "Jason Lee",
+      "Michaela M. Hinks"
+    ],
+    "abstract": "Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to carry out computational biology at the scale of complete research studies has not been systematically evaluated. Here we introduce BixBench3, a benchmark that measures the capacity of AI agents to process raw biological data through to scientific results. We designed BixBench3 tasks to mirror the delegation of work from a scientist to an agent: the scientist chooses the research question and high-level methods, then delegates implementation of all analyses to the agent. In each task, an agent receives a research objective, methodological guidance, and raw data derived from a published scientific study, and must execute a sequence of analyses to achieve the research objective. The data artifacts resulting from these analyses - such as peak call matrices or differential expression tables - are programmatically graded against the corresponding artifacts generated and reported in the original study. Across 20 BixBench3 tasks encompassing the generation of 138 unique artifacts, we find that 13 frontier models achieve scores ranging from 0.00 for Gemini 3.1 Flash Lite to 0.48 for GPT 5.6 Sol. Agents perform worse on tasks with larger raw datasets (0.36 on tasks with <100 GB versus 0.10 on tasks with >100 GB) and on analyses requiring more sequential steps (0.36 at 1-2 steps vs 0.24 at 3+). On average, agents use 6.8 hours, 102 million tokens, and $43 to complete each task, with the longest attempts consuming 24 hours, 1.07 billion tokens, and $525. Notably, the highest-scoring agents used fewer tokens and were cheaper than less performant options. These results reveal that LLMs vary substantially in their ability to (1) execute multiple sequential analysis steps coherently, (2) manage large quantities of raw data, and (3) work across scientific domains.",
+    "url": "http://arxiv.org/abs/2608.25286v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.25286v1",
+    "published": "2026-08-26",
+    "categories": [
+      "cs.AI",
+      "q-bio.QM"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.27334v1",
+    "title": "BTS-AgentBench: A Deterministic, Replayable Pipeline from Read-Only Telemetry Logs to Agent Benchmarks",
+    "authors": [
+      "Jeong-Yoon Kim"
+    ],
+    "abstract": "Industrial sites contain large volumes of read-only telemetry, but few benchmarks specify how to compile these records into executable multi-turn agent tasks. We present a telemetry-to-episode construction method instantiated as BTS-AgentBench. The pipeline normalizes BTS metadata and raw histories into a read-only tool store, compiles static tasks with tool-derived gold answers and evidence, and lifts retained tasks into typed, bounded operator-facing episodes. The 532-row release adds clarification, goal revision, timestamp policy, quality-gated reporting, and evidence attribution while preserving the source computation and split. Coded contract preflight reports zero findings, and the construction-exclusion controller completes 0/532 rows. Two independent raw-to-episode builds match all 11 logical tool-store exports and reproduce the released 356/87/89 train/dev/test artifact exactly. Applying the shared construction path to XAI4HEAT produces 204 episodes; on its 41-row held-out test split, the controller completes 0 rows and the retained GPT-5.5 execution completes all 41. Code, artifacts, and replay reports are available at https://github.com/kjy7567/BTS-AgentBench.",
+    "url": "http://arxiv.org/abs/2608.27334v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27334v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2608.27219v1",
+    "title": "BALMS: Benchmarking Agentic LLMs for Longitudinal Mental Health Sensing",
+    "authors": [
+      "Yu Yvonne Wu",
+      "Arvind Pillai",
+      "Yuliang Chen",
+      "Yuwei Zhang",
+      "Sudarshan Regmi"
+    ],
+    "abstract": "Mental health assessment relies on episodic self-report scales, which convert subjective states such as stress into numerical scores but provide only sparse snapshots of wellbeing. Wearable devices offer longitudinal behavioral and physiological signals for continuous, low-burden monitoring. Recent LLM-driven personal-health agents enable natural language queries over wearable signals, but mainly handle short-term, retrieval-based lookups (e.g., highest step count over a week). They do not evaluate whether agents can reason over long-term signals to predict wellbeing scores paired with evidence-grounded rationales. To address this gap, we introduce BALMS, the first systematic benchmark of LLM-based agentic systems for longitudinal mental health sensing. BALMS spans 3 real-world longitudinal datasets, 2 task families (closed-form wellbeing-score prediction and rationale generation auto-graded by an LLM-as-Judge), 3 agentic paradigms evaluated across 5 open- and closed-source LLM backbones. We find that zero-shot agents rarely outperform a simple mean baseline, except with stronger backbones or compact, semantically meaningful features. Chain-of-thought prompting improves reasoning-oriented backbones, but does not guarantee temporal grounding or numerical correctness. Together with more analysis on efficiency and temporal scaling, BALMS highlights the need for longitudinal mental health agents that selectively retrieve history, ground temporal evidence, and reason over interpretable behavioral features.",
+    "url": "http://arxiv.org/abs/2608.27219v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27219v1",
+    "published": "2026-08-27",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
