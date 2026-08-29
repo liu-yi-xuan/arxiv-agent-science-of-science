@@ -24,6 +24,48 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-08-29
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution](http://arxiv.org/abs/2608.27454v1) | Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng et al. | Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. |
+| [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](http://arxiv.org/abs/2608.27439v1) | Junjie Zhang, Hui Liu, Kecheng Chen et al. | LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text ... |
+| [AI Control Scientist: LLM-driven Agentic System for Automated Control Design](http://arxiv.org/abs/2608.26780v1) | Haiteng Wang, Weihao Li, Jing Zhang et al. | Control system design is critical for modern industry, such as chemical process temperature regulation and aero-engine control. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control](http://arxiv.org/abs/2608.27234v1) | Dylan Girrens, Guangjing Wang | Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources. |
+| [DuMateBench: Evaluating Autonomous Agents in Complex Real-World Workflows](http://arxiv.org/abs/2608.26546v1) | Zechun Niu, Yukun Zhao, Jiaxin Zhang et al. | Autonomous agents are increasingly adopted to complete complex, multi-tool workflows in real-world settings. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DSA: Evidence-Aware LLM-Agent Orchestration for Multi-Market Stock Research](http://arxiv.org/abs/2608.26990v1) | Linsen Zhu, Yi Shi | Large language models can summarize financial information, but an operational stock-research system must first assemble heterogeneous evidence, expose unavailable data and model capabilities, and c... |
+| [TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation](http://arxiv.org/abs/2608.27127v1) | Jingyi Zheng, Yule Liu, Zifan Peng et al. | Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and cultural backgrounds. |
+| [Risks and Controls for Multi-Agent Systems: an analytical framework for deployment of AI agents across organisational boundaries](http://arxiv.org/abs/2608.26626v1) | Alistair Reid, Simon O'Callaghan, Dustin Venini et al. | This report presents a framework to help organisations, policymakers and researchers reason about the risks that emerge when AI agents interact with each other, how those risks change as interactio... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Gender and the Production of Research Impact](http://arxiv.org/abs/2608.26409v1) | Sanger Wagner, Charles Rahal, Melinda C. Mills | Evaluating the impact of scientific research beyond academia --- on policy, health, the economy, and cultural life --- has become a cornerstone of science policy and research-funding allocation wor... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FaulT-Bench: Towards Benchmarking Network Troubleshooting LLM Agents under Unreliable User Tickets](http://arxiv.org/abs/2608.27021v1) | Kuan-Hao Tseng, Niruth Bogahawatta, Yasod Ginige et al. | LLM-based agents are increasingly proposed for network fault diagnosis, but existing benchmarks evaluate them only on accurate tickets and always assume a fault is present, conditions rarely met in... |
+| [AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling](http://arxiv.org/abs/2608.26623v1) | Abhigya Verma, Amit Kumar Saha, Seganrasan Subramanian et al. | LLM judges are widely used to evaluate agentic tool-calling systems, yet their reliability on structured, dependency-driven workflows remains largely unexamined. |
+| [BTS-AgentBench: A Deterministic, Replayable Pipeline from Read-Only Telemetry Logs to Agent Benchmarks](http://arxiv.org/abs/2608.27334v1) | Jeong-Yoon Kim | Industrial sites contain large volumes of read-only telemetry, but few benchmarks specify how to compile these records into executable multi-turn agent tasks. |
+| [BALMS: Benchmarking Agentic LLMs for Longitudinal Mental Health Sensing](http://arxiv.org/abs/2608.27219v1) | Yu Yvonne Wu, Arvind Pillai, Yuliang Chen et al. | Mental health assessment relies on episodic self-report scales, which convert subjective states such as stress into numerical scores but provide only sparse snapshots of wellbeing. |
+
 ### 📅 2026-08-28
 
 **17 new papers found**
