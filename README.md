@@ -24,6 +24,49 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-02
+
+**19 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [COGTRL: Training LLMs for Scientific Discovery Assistance using Cognitive Traces via Reinforcement Learning](http://arxiv.org/abs/2608.30109v1) | Shrinidhi Kumbhar Santosh Mashetty Divij Handa Kevin Coutinho, Siddharth Sambhaji Ghule, Chitta Baral | Large Language Models (LLMs) trained on extensive scientific research are increasingly integrated as assistants for scientific discovery. |
+| [Dr. Claw: An AI Scientist Workspace for Vibe Research](http://arxiv.org/abs/2609.00365v1) | Dingjie Song, Hanrong Zhang, Dawei Liu et al. | Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, an... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Polished but Unresolved: Identifying Late-Stage Pressure States in Long-Horizon Tool-Use Agents](http://arxiv.org/abs/2609.00823v1) | Haoyang Chen, Yi Liu, Jianzhi Shao et al. | Long-horizon tool-use agents need not only to search and plan, but also to decide when to finalize. We study late-stage pressure states, in which an agent is biased toward submitting a final answer... |
+| [Will the User Ever Know? Covert Indirect Prompt Injection Attacks on Tool-Using LLM Agents](http://arxiv.org/abs/2608.30362v2) | Yunseok Lee, Yunji Kim, Woojin Lee | As LLM agents take real-world actions through tools, indirect prompt injection (IPI) has emerged as a serious threat. |
+| [Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers](http://arxiv.org/abs/2609.01567v1) | Matteo Merler, Giovanni Bonetta, Davide Zago et al. | Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve... |
+| [E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation](http://arxiv.org/abs/2608.30730v1) | Wei Fan, Xinjie Shen, Xudong Guo et al. | Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns. Their evolving dynamic environments and long-range dependencies require Large Language Models (LLMs) to contin... |
+| [EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents](http://arxiv.org/abs/2608.30429v1) | Doyun Kim, Chanwoo Kim, Sugyeong Eo et al. | LLM-based agent systems increasingly adopt skill-based architectures to reduce repetitive reasoning costs and improve stable, efficient task execution. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RingMoClaw: An Experience-Inspired Multi-Agent Framework for Self-Evolving Research in Remote Sensing](http://arxiv.org/abs/2609.00814v1) | Kaiyue Kang, Qixuan He, Peijin Wang et al. | Remote sensing visual models have continuously advanced various interpretation tasks. However, the research process behind model improvement still heavily relies on manual expertise, requiring exte... |
+| [Jailbreaking Text-to-Image Models Through Cracks: Navigating Heterogeneous Safety Filters via Multi-Agent Debate](http://arxiv.org/abs/2609.01168v1) | Kaiyan Wen, Shijie Zhang, Lu Yu et al. | Text-to-image (T2I) models remain vulnerable to jailbreak attacks that elicit Not-Safe-For-Work (NSFW) content, despite increasingly being guarded by heterogeneous, multi-layer safety stacks combin... |
+| [CM2: Multimodal Cultural Reasoning via an Integrated Multi-Agent Framework](http://arxiv.org/abs/2608.30498v1) | Qi Li, Zhaojie Kang, Yingjie He et al. | Multimodal Large Language Models (MLLMs) have shown remarkable success in STEM domains, where progress is often driven by vertical, step-by-step deduction under relatively stable symbol systems. |
+| [FRAMEWORKERS: A Dynamic Multi-Agent Framework for AI-Generated Video Production](http://arxiv.org/abs/2608.29814v1) | Zhendong Li, Lei Sun, Letian Shi et al. | Modern video generators excel at synthesizing individual clips, but complete video production requires coordinating a long sequence of interdependent creative steps, including scripting, storyboard... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](http://arxiv.org/abs/2609.01603v1) | Kefeng Duan, Dewu Zheng, Yanlin Wang et al. | Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. |
+| [WorldBench: Culturally Grounded Benchmark for Multilingual Agents](http://arxiv.org/abs/2609.01056v1) | Leonardo Ranaldi, Sherrie Shen, Jushi Kai et al. | Despite the growing use of LLM-powered agents to solve multi-step tasks in complex environments, existing benchmarks rarely test state preservation, performance across languages, and application to... |
+| [MutMem-V2: Cryptographically Authorized Mutation in Persistent Agent Memory Portable Verification and Reproducible Evidence](http://arxiv.org/abs/2609.01235v1) | Walid Saidi | MutMem V1 introduced retention-preserving, cryptographically authorized mutation for persistent agent memory but did not provide a complete portable verification contract or clean-install reproduct... |
+| [InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations](http://arxiv.org/abs/2609.01383v1) | Maeve Hutchinson, Syed Mahbubul Huq, Mohammad Albinhassan et al. | Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of intera... |
+| [What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal](http://arxiv.org/abs/2609.01271v1) | Radin Shayanfar, Keheliya Gallaba, Ahmed E. Hassan | Agentic software engineering benchmarks are typically summarized by nominal category labels such as "bug fix" or "feature implementation," yet benchmarks carrying the same label are built through v... |
+| [Toward Workflow-Aware Benchmarking for Healthcare NLP Agents](http://arxiv.org/abs/2609.00296v1) | Junyi Yao, Baichuan Li, Zihao Zheng et al. | Large language model (LLM) agents are increasingly proposed for healthcare tasks such as clinical documentation, evidence retrieval, patient messaging, and care coordination. |
+| [GPAgentBench-2K: Benchmarking Large Language Model Agents in Complex Clinical Action Space](http://arxiv.org/abs/2608.30188v1) | Boqi Chen, Xudong Liu, Yunke Ao et al. | Large Language Models (LLMs) show great potential as clinical agents, yet existing benchmarks reduce clinical workflows to static predictions or unconstrained Markov Decision Processes (MDPs) with ... |
+| [You Know What I Mean: A Benchmark for Agentic Conversational Reference Grounding](http://arxiv.org/abs/2608.29834v1) | Karen Fuchs, Uri Katz, Yoav Goldberg | Collaborative conversations frequently contain references whose targets are indirect rather than named: resolving "this looks like the fix discussed yesterday" requires combining conversational con... |
+
 ### 📅 2026-09-01
 
 **14 new papers found**
