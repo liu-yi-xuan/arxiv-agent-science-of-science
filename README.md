@@ -24,6 +24,57 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-04
+
+**22 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Remember and Reweight: Enhancing Multi-Agent Debate with Experience Memory and Confidence Estimation](http://arxiv.org/abs/2609.03619v1) | Xuanfa Jin, Zhijian Ma, Yongcheng Zeng et al. | Multi-agent debate (MAD) improves the reasoning capabilities of large language models by having multiple agents iteratively refine their responses through discussion. |
+| [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](http://arxiv.org/abs/2609.02786v1) | Qinghua Mao, Wanying Qu, Dadi Guo et al. | The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. |
+| [APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](http://arxiv.org/abs/2609.02253v1) | Jie Ding, Rui Sun, Xinyuan Zhang et al. | Deep research agents augment large language models with external tools to answer complex, long-horizon questions through multi-turn reasoning. |
+| [A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms](http://arxiv.org/abs/2609.04170v1) | Davide Paglieri, Logan Cross, Tim Genewein et al. | Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Guiding LLM Peer Reviewers: The Impact of Score Anchors on Review Evidence and Accuracy](http://arxiv.org/abs/2609.01905v1) | Judita Preiss, Yunhan Yang | Large language models (LLMs) are increasingly used for research quality evaluation, with prior work exploring their scoring accuracy and the plausibility of review rationales. |
+| [Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives](http://arxiv.org/abs/2609.01736v1) | Haibo Jin, Suijin Wang, Xucheng Yu et al. | Large language models (LLMs) augmented with external tools have demonstrated remarkable capability in solving complex real-world tasks. |
+| [Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory](http://arxiv.org/abs/2609.03340v1) | Evan Chen, Shiqiang Wang, Christopher G. Brinton | Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executo... |
+| [NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis](http://arxiv.org/abs/2609.01971v1) | Wuche Liu, Yiran Qiao, Linlin Hou et al. | AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. |
+| [Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers](http://arxiv.org/abs/2609.01567v2) | Giovanni Bonetta, Matteo Merler, Davide Zago et al. | Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ArcticSwarm: Deferring Early Consensus in Long-Horizon Multi-Agent Research](http://arxiv.org/abs/2609.01870v1) | Soyoung Yoon, Boyi Liu, Yite Wang et al. | Multi-agent systems have shown strong performance in domains with reliable verifiers such as coding, where multi-parallel candidate generation selected by a verifier is effective. |
+| [Jailbreaking Text-to-Image Models Through Cracks: Navigating Heterogeneous Safety Filters via Multi-Agent Debate](http://arxiv.org/abs/2609.01168v2) | Kaiyan Wen, Shijie Zhang, Lu Yu et al. | Text-to-image (T2I) models remain vulnerable to jailbreak attacks that elicit Not-Safe-For-Work (NSFW) content, despite increasingly being guarded by heterogeneous, multi-layer safety stacks combin... |
+| [Examining the Vulnerability of Multi-Agent Medical Systems to Human Interventions for Clinical Reasoning](http://arxiv.org/abs/2609.02191v1) | Benjamin C Liu, Dillon Mehta, Rishi Malhotra et al. | Human interventions at fault points can alter the diagnostic accuracy of multi-agent medical systems. |
+| [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](http://arxiv.org/abs/2609.03718v1) | Jiasheng Shi, Tianhan Zhang | Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. |
+| [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](http://arxiv.org/abs/2609.03425v1) | Guangjun Liu | Humans are the transport layer between AI systems, losing context at every hop. We present the Civilization Framework, whose addressable party is the civilization, not the agent (one human sovereig... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HyGRAIL: Cost-Aware and Evidence-Grounded Scientific Hypothesis Discovery over Knowledge Graphs](http://arxiv.org/abs/2609.02056v1) | Yihang Sun, Zhihan Zhu, Zhiyuan Jiang et al. | Scientific knowledge graphs organize entities and relations extracted from scientific literature, but they remain inherently incomplete. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents](http://arxiv.org/abs/2609.03588v1) | Yaxing Lyu, Shengjie Zhou, Binbin Toh et al. | As LLMs increasingly act through tools, they must reconcile user instructions, parametric knowledge, and dynamic environmental observations before taking actions. |
+| [When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents](http://arxiv.org/abs/2609.03467v1) | Wen-Yu Chang, Yun-Nung Chen | Large language models (LLMs) are increas- ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems. |
+| [CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI](http://arxiv.org/abs/2609.02459v1) | Austin Tudor David Andrews, Liam Wilkinson, Jamie Heagerty et al. | We present CivBench, an open-source benchmark for evaluating language model agents in long-horizon, tool-mediated environments through the Model Context Protocol (MCP). |
+| [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](http://arxiv.org/abs/2609.01603v1) | Kefeng Duan, Dewu Zheng, Yanlin Wang et al. | Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. |
+| [MutMem-V2: Cryptographically Authorized Mutation in Persistent Agent Memory Portable Verification and Reproducible Evidence](http://arxiv.org/abs/2609.01235v1) | Walid Saidi | MutMem V1 introduced retention-preserving, cryptographically authorized mutation for persistent agent memory but did not provide a complete portable verification contract or clean-install reproduct... |
+| [InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations](http://arxiv.org/abs/2609.01383v1) | Maeve Hutchinson, Syed Mahbubul Huq, Mohammad Albinhassan et al. | Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of intera... |
+| [What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal](http://arxiv.org/abs/2609.01271v1) | Radin Shayanfar, Keheliya Gallaba, Ahmed E. Hassan | Agentic software engineering benchmarks are typically summarized by nominal category labels such as "bug fix" or "feature implementation," yet benchmarks carrying the same label are built through v... |
+
 ### 📅 2026-09-03
 
 **21 new papers found**

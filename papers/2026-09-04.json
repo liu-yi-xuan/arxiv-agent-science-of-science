@@ -1,0 +1,440 @@
+[
+  {
+    "id": "2609.03619v1",
+    "title": "Remember and Reweight: Enhancing Multi-Agent Debate with Experience Memory and Confidence Estimation",
+    "authors": [
+      "Xuanfa Jin",
+      "Zhijian Ma",
+      "Yongcheng Zeng",
+      "Xinyu Cui",
+      "Haifeng Zhang"
+    ],
+    "abstract": "Multi-agent debate (MAD) improves the reasoning capabilities of large language models by having multiple agents iteratively refine their responses through discussion. However, MAD suffers from a critical vulnerability known as shared misconception: when a majority of agents initially converge on an incorrect answer, the debate process tends to amplify rather than correct the error. Existing methods primarily address peer skew but leave the agents' inherently biased concept priors unaddressed. To mitigate this systematic weakness, we propose R$^2$-MAD (Remember and Reweight for Multi-Agent Debate), a framework that equips agents with an experience memory accumulated from past debates. R$^2$-MAD intervenes on both failure modes through two complementary mechanisms: A debate-state-aware retrieval policy dynamically calibrates the concept prior by retrieving relevant historical evidence based on the current consensus level. Then these retrieved experiences provide a basis for estimating per-agent reliability, yielding confidence weights to modulate peer influence. Experiments on various benchmarks show that R$^2$-MAD achieves consistent improvements over existing single-agent and MAD baselines.",
+    "url": "http://arxiv.org/abs/2609.03619v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03619v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.02786v1",
+    "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+    "authors": [
+      "Qinghua Mao",
+      "Wanying Qu",
+      "Dadi Guo",
+      "Leitao Yuan",
+      "Qingyu Liu"
+    ],
+    "abstract": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. This exposes them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety. We propose SafeEvolve, an experience-driven self-evolving framework for agent safety alignment. SafeEvolve leverages safety experience from completed on-policy trajectories to drive a continual loop of harness-policy co-evolution. On the harness side, SafeEvolve converts trajectory-level safety evidence into bounded, component-level updates across safety prompt and hierarchical skills, yielding auditable and reversible harness artifacts. On the policy side, SafeEvolve follows a two-stage SFT-RL paradigm, where harness-use SFT bootstraps the policy to actively leverage evolved harness artifacts, and harness-augmented RL further shapes autonomous safety behaviors during multi-step exploration via verifier-decomposed rewards. Through harness-policy co-evolution, SafeEvolve converts safety experience into an evolved runtime harness and improved policy behavior. Experiments on agentic safety benchmarks show that SafeEvolve achieves a stronger safety-utility tradeoff than existing baselines. For Qwen3.5-4B, SafeEvolve achieves a $3\\times$ ASR reduction on AgentDojo while improving benign utility from 59.79% to 61.86%.",
+    "url": "http://arxiv.org/abs/2609.02786v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02786v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.02253v1",
+    "title": "APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering",
+    "authors": [
+      "Jie Ding",
+      "Rui Sun",
+      "Xinyuan Zhang",
+      "Zeyu Zhang",
+      "Xin Liu"
+    ],
+    "abstract": "Deep research agents augment large language models with external tools to answer complex, long-horizon questions through multi-turn reasoning. Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden decision-making, or distill procedural skills that remain decoupled from downstream policy adaptation. We propose APEx, a hierarchical experience utilization framework that organizes interaction history into instance-level trajectory memories and category-level procedural skills, and couples them through a closed-loop architecture of Executor, Distiller, and Planner. The three modules are optimized via a three-stage alternating GRPO training paradigm, enabling reward-guided skill distillation rather than fixed-prompt generation. At test time, distilled skills serve as procedural priors for online Planner adaptation through skill-guided test-time reinforcement learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift. Experiments on 7 benchmarks demonstrate that APEx achieves state-of-the-art performance, surpassing GPT-5.4 by 14.7 points and the strongest memory-augmented baseline by 3.0 points.",
+    "url": "http://arxiv.org/abs/2609.02253v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02253v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.04170v1",
+    "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+    "authors": [
+      "Davide Paglieri",
+      "Logan Cross",
+      "Tim Genewein",
+      "Joel Z. Leibo",
+      "Nenad Tomasev"
+    ],
+    "abstract": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. We report a case study on a research collective of 100 autonomous LLM agents tasked with proving formal mathematical conjectures. Within the swarm, cheating spontaneously emerged and was later challenged by whistleblowers - both without any external intervention. When a single agent discovered an exploit in the evaluation system, it propagated across the collective via a shared knowledge library and later through peer-to-peer messages. Despite early reluctance, a cohort of agents adopted the exploit in response to competitive pressure. A separate group of agents produced an emergent counter-response: auditing fraudulent proofs, alerting peers across broadcast and private channels, staging boycotts, lodging formal complaints, and proposing validation patches. In recent incidents, agent swarms coordinated covertly through improvised side-channels (Dalton and Wallace, 2026; Greenblatt et al., 2026). Our setting differs: the same transparent channels that carried the exploit also gave non-cheating agents the visibility they needed to detect fraud, organize resistance, and enforce norms. We cast the problem of managing the agents' shared infrastructure as the knowledge commons governance problem (Ostrom, 1990). To protect the commons from exploits, we propose to adopt institutional mechanisms, such as graduated sanctioning and collective-choice rules, to support decentralized self-governance in autonomous swarms.",
+    "url": "http://arxiv.org/abs/2609.04170v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.04170v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.01905v1",
+    "title": "Guiding LLM Peer Reviewers: The Impact of Score Anchors on Review Evidence and Accuracy",
+    "authors": [
+      "Judita Preiss",
+      "Yunhan Yang"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used for research quality evaluation, with prior work exploring their scoring accuracy and the plausibility of review rationales. However, less is known about whether external score guidance changes the evidence presented in the generated review as well as the final score. This study uses 98 Allied Health Professions research outputs submitted for internal REF-style assessment, with specialist human review reports and adjudicated 1-4 reference scores. No-guidance baseline reviews are compared with oracle-guided reviews, where the supplied score is set to the rounded human reference score; extracted evaluation points are used to compare human and LLM evidence use. Using this design, oracle guidance improves scoring accuracy, with score-following checks showing that models do not simply copy the supplied score. Corrected score mismatches are associated with changes in the generated review frame, showing that the score signal can steer review rationales. This effect is direction-dependent: LLM reviews cover human strength or upgrade points more reliably than human weakness or downgrade points, with the weakest alignment for expert downgrade evidence. The results show that score-guided review generation can be evaluated at the level of review evidence, as well as the final score.",
+    "url": "http://arxiv.org/abs/2609.01905v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01905v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.01736v1",
+    "title": "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives",
+    "authors": [
+      "Haibo Jin",
+      "Suijin Wang",
+      "Xucheng Yu",
+      "Haojing Luo",
+      "Haohan Wang"
+    ],
+    "abstract": "Large language models (LLMs) augmented with external tools have demonstrated remarkable capability in solving complex real-world tasks. However, existing approaches suffer from two key challenges: brittle multi-step and multi-turn reasoning caused by incompatible tool output types and API schemas, and performance degradation under large tool catalogues. To address these, we introduce \\textbf{Tool Primitives}, a design that replaces rigid API schema-based invocation with natural language as the interface for tool calling, where each tool is wrapped with an LLM interface that handles schema resolution and execution internally, enabling natural inter-tool communication for nested and multi-turn tool calling. Building on Tool Primitives, we host \\textbf{ToolFace}, a centralized repository of 25,519 functions from which LLMs dynamically retrieve only the relevant tools at inference time, eliminating the need to enumerate raw API schemas in context. To orchestrate Tool Primitives and ToolFace reliably in complex settings, we further propose \\textbf{HEART}, a \\textbf{H}arness \\textbf{E}ngineering framework via \\textbf{A}gent-native, \\textbf{R}eusable \\textbf{T}ool Primitives, comprising a Planner, Router, and Verifier that jointly support dynamic tool invocation planning, multi-step execution, and feedback-driven recovery.   Experiments on five benchmarks demonstrate that HEART outperforms SFT-based models by $10\\%$ on average and surpasses GPT-5.4, Claude-4.6-Sonnet, and Gemini-3.1-Pro by $6\\%$ on average while reducing API cost by up to $85\\%$. On 50 real-world tasks, HEART achieves $84\\%$ task completion, $3.8\\times$ the average of three frontier commercial models ($22\\%$).",
+    "url": "http://arxiv.org/abs/2609.01736v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01736v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.03340v1",
+    "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+    "authors": [
+      "Evan Chen",
+      "Shiqiang Wang",
+      "Christopher G. Brinton"
+    ],
+    "abstract": "Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive $r_4$ without replacing the plan derived from $r_3$. We call this \\emph{stale-plan execution}: state freshness does not establish that the plan authorizing an action remains valid. We introduce PlanFence, a dependency-scoped action-validation protocol. Plans cite the exact public records they used, and an executor validates only the records that can affect the pending external action, replanning once or blocking when validation is incomplete. In 30 controlled live workflows with a post-plan revision, a freshness-only executor acts on the obsolete plan in every task, whereas PlanFence completes all tasks without an invalid action. Controlled replay reveals two conditional boundaries: proactive synchronization yields lower coordination stall at low churn, while PlanFence avoids repeated update-path coordination as churn grows and avoids validating unrelated state as the shared keyspace grows. These are controlled safety and systems-cost results, not general task-accuracy gains.",
+    "url": "http://arxiv.org/abs/2609.03340v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03340v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.01971v1",
+    "title": "NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis",
+    "authors": [
+      "Wuche Liu",
+      "Yiran Qiao",
+      "Linlin Hou",
+      "Rui Yang",
+      "Shusen Pu"
+    ],
+    "abstract": "AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While pre-trained neural models for physiological data are progressing quickly, their heterogeneous architectures and modality-specific constraints hinder systematic integration, selection, and evaluation. Despite recent advances in large language model (LLM)-based agent systems for intelligent scientific applications, existing approaches often still lack the domain expertise required to effectively select and coordinate diverse neuroscience pre-trained models and handle unique data types in this domain. We present NS-Copilot, an LLM-driven multi-agent system for neuroscience analysis that autonomously supports end-to-end workflows for diverse professional tasks. It unifies domain-specific pre-trained models and supports key neuroscience modalities, including EEG and extracellular spike data, through a natural-language interface. Given raw data and a task description, NS-Copilot orchestrates agents with specialized roles for planning, adaptive control, code generation, and result synthesis, enabling analysis without dataset-specific heuristics. We evaluate NS-Copilot on neuroscience benchmarks spanning Alzheimer's disease, Parkinson's disease, and working memory spike decoding. Across 8 trials per task, the system consistently outperforms strong baselines on the primary metric, demonstrating the ability of NS-Copilot for effective and scalable neuroscience analysis.",
+    "url": "http://arxiv.org/abs/2609.01971v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01971v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.01567v2",
+    "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+    "authors": [
+      "Giovanni Bonetta",
+      "Matteo Merler",
+      "Davide Zago",
+      "Rossella Cancelliere",
+      "Bernardo Magnini"
+    ],
+    "abstract": "Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve from environment interaction, and can repeat systematic errors. We study how to learn a cheap autonomous policy from an online, expensive, and imperfect but informative VLM teacher. We propose SAGE (Selective Agent Guidance via Entropy), a framework that queries a VLM only when the learner is uncertain, executes the suggested action during training, and distills guidance into a lightweight Reinforcement Learning (RL) policy. Because VLM advice is not always reliable, SAGE can weight teacher-action distillation using environment-derived advantages rather than treating all suggestions as equally useful. Across sparse-reward visual reasoning and navigation tasks, SAGE learns policies that act without VLM guidance at evaluation time and improves over unguided RL in several environments, including settings where the learned policy exceeds its VLM teacher. The results show that selective guidance is most beneficial when the VLM can help the agent discover high-reward trajectories, and less useful when unguided exploration already succeeds or teacher actions do not lead to informative experience. SAGE also reduces VLM usage by prompting the teacher only on a fraction of training steps and requiring no VLM calls at deployment. Overall, our results suggest that VLMs don't need to be used as fixed policies to be useful; they can instead act as temporary, imperfect sources of guidance whose value is tested and internalized through interaction.",
+    "url": "http://arxiv.org/abs/2609.01567v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.01567v2",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.01870v1",
+    "title": "ArcticSwarm: Deferring Early Consensus in Long-Horizon Multi-Agent Research",
+    "authors": [
+      "Soyoung Yoon",
+      "Boyi Liu",
+      "Yite Wang",
+      "Ruofan Wu",
+      "Canwen Xu"
+    ],
+    "abstract": "Multi-agent systems have shown strong performance in domains with reliable verifiers such as coding, where multi-parallel candidate generation selected by a verifier is effective. However, such pipelines would not generalize to open-ended, long-horizon research tasks without a verifier. While majority voting or self-consistency is often used to reach consensus as a proxy verifier, parallel agents repeatedly explore the same evidence, while access to peers' partial findings cause search to converge on an early candidate before alternatives are tested. We present ArcticSwarm, a multi-agent research architecture that separates evidence gathering from evidence integration. Subagents publish findings to a shared bulletin board, while gated isolation lets selected search tasks maintain their own prior, preventing early consensus. Structured review at three commitment boundaries enforce only confident candidates to be propagated. As a result, ArcticSwarm reaches 82.6% on the full BrowseComp-Plus set with the open-weight Qwen 3.5-27B model, compared with 78.8% without gated isolation and 74.5% additionally with structured review disabled, outperforming aligned baseline MiroFlow runs (70.6%). Extending to live-web BrowseComp, ArcticSwarm reaches 73.6% with GPT-5, which is well above the reported provider system (54.9%) and MiroFlow (63.4%). Overall, the results show that restricting peer reads during evidence gathering and strengthening commitment boundaries before a hypothesis is shared can broaden search and improve long-horizon multi-agent deep research.",
+    "url": "http://arxiv.org/abs/2609.01870v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01870v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.MA"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.01168v2",
+    "title": "Jailbreaking Text-to-Image Models Through Cracks: Navigating Heterogeneous Safety Filters via Multi-Agent Debate",
+    "authors": [
+      "Kaiyan Wen",
+      "Shijie Zhang",
+      "Lu Yu",
+      "Guangdong Bai"
+    ],
+    "abstract": "Text-to-image (T2I) models remain vulnerable to jailbreak attacks that elicit Not-Safe-For-Work (NSFW) content, despite increasingly being guarded by heterogeneous, multi-layer safety stacks combining text filters, image classifiers, and cross-modal detectors. Existing jailbreak studies either optimize against individual filters or query the complete pipeline with aggregate feedback, making it difficult to identify the active constraint and adapt to conflicts across safety layers. In this paper, we introduce the Detection Surface, a unified geometric framework that characterizes the decision boundaries induced by heterogeneous T2I safety filters and their joint effect on the jailbreak search space. This formulation reveals that successful evasion is governed by a sparse and non-convex region shaped by cross-layer conflicts, where mutations that bypass one filter may increase exposure to another. Motivated by this analysis, we propose CRACK, a multi-agent debate framework for adaptive jailbreak search that decomposes jailbreak search into exploration, diagnosis, and arbitration. CRACK coordinates an Attack Agent, a Defense Agent, and a Judge Agent to iteratively generate prompt mutations, obtain layer-specific diagnostic feedback, and optimize mutation strategies through reward-guided refinement. Through repeated rounds of debate, CRACK adapts its search direction to the evolving cross-layer constraints while preserving the original harmful intent. Extensive experiments across multiple T2I models, datasets, and safety configurations show that CRACK achieves Attack Success Rates (ASR) of up to 99.63% under composite defenses, while requiring fewer queries than existing methods and maintaining semantic fidelity.",
+    "url": "http://arxiv.org/abs/2609.01168v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.01168v2",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.AI",
+      "cs.MM"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.02191v1",
+    "title": "Examining the Vulnerability of Multi-Agent Medical Systems to Human Interventions for Clinical Reasoning",
+    "authors": [
+      "Benjamin C Liu",
+      "Dillon Mehta",
+      "Rishi Malhotra",
+      "Adam Zobian",
+      "Yong Ying Tan"
+    ],
+    "abstract": "Human interventions at fault points can alter the diagnostic accuracy of multi-agent medical systems. We defined fault points as moments in AI agent conversations, in which an agent's reasoning became most vulnerable to external influence. Using the MedQA dataset, this study analyzed simulated doctor-patient conversations to measure how interventions shifted reasoning and accuracy. Correct intervention methods showed an improvement in baseline diagnostic accuracy of up to 40%, while incorrect or bias-related interventions degraded performance by up to 6% and increased diagnostic drift and uncertainty. Beyond performance changes, our analysis revealed behavioral similarities between cognitive biases in simulated agent environments and real-world clinical practice. Examples included premature closure and susceptibility to misleading cues. Overall, these findings demonstrate that identifying and guiding fault points with human interventions may provide a mechanism for improving diagnostic robustness in multi-agent medical systems.",
+    "url": "http://arxiv.org/abs/2609.02191v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02191v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.03718v1",
+    "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+    "authors": [
+      "Jiasheng Shi",
+      "Tianhan Zhang"
+    ],
+    "abstract": "Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. Large language model (LLM) agents promise to turn a natural-language request into a working simulation, and recent CAE agents add simulation-specific machinery: multi-agent decomposition, domain retrieval, and scripted reflection. That machinery suited weak base models; modern harnesses already supply multi-turn reasoning, tool use, and execution feedback. We ask what a CAE simulation agent still needs beyond a generic harness. With information access and repair budget held fixed, a single-agent harness matches or beats multi-agent specialized systems (FoamBench 96.4\\% vs.\\ 88.2\\%).   Ablations trace this to capabilities the harness already provides: execution-feedback repair lifts FoamBench from 71.8\\% with no repair round to 96.4\\%, while scripted reflection adds nothing. The one input that still helps is domain knowledge supplied as solver tutorials, our largest measured gain (80.9\\% to 96.4\\%).",
+    "url": "http://arxiv.org/abs/2609.03718v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03718v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.CE",
+      "cs.CL",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.CE",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.03425v1",
+    "title": "The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems",
+    "authors": [
+      "Guangjun Liu"
+    ],
+    "abstract": "Humans are the transport layer between AI systems, losing context at every hop. We present the Civilization Framework, whose addressable party is the civilization, not the agent (one human sovereign, a persistent ledger, and interchangeable agents), and the Embassy Protocol, a carrier-agnostic overlay: messages arrive asynchronously at a resident ledger endpoint, any online agent of the receiver handles them, and commitment state on both ledgers, not delivery, is ground truth. Authority derives from memory: an agent's power to act for its civilization is capped by the memory it can access and externalized through signed credentials, separate from civilization-level reputation. We identify the temporal-weight effect, a hazard in AI-to-AI communication where what arrives first acquires unearned authority, and test it in one frontier model in a preregistered 1,908-trial experiment. With verification removed, an incorrect upstream claim arriving first captures 54.2% of answers (4.2% under full verification), while the same claim arriving after the receiver has sealed its own answer captures 31.6% (the two prompt shells are not length-matched, so part of that gap may reflect shell form; see Section 7), and both registered question-set specifications agree on these two verdicts (the exclusion specification is preregistered as under-powered). Two secondary results, the mitigation from instruction-level provenance labeling and sealed-answer accuracy equivalence, are specification-dependent, holding only under the all-questions specification. Because a registered check of tool use failed its call-budget condition, the registration classifies the round as inconclusive and every result above, primary and secondary, is reported as exploratory; a replication with harness-enforced budgets is planned. The framework's intra-civilization layer has a working implementation.",
+    "url": "http://arxiv.org/abs/2609.03425v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03425v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.02056v1",
+    "title": "HyGRAIL: Cost-Aware and Evidence-Grounded Scientific Hypothesis Discovery over Knowledge Graphs",
+    "authors": [
+      "Yihang Sun",
+      "Zhihan Zhu",
+      "Zhiyuan Jiang",
+      "Jingyi Ge",
+      "Zixuan Li"
+    ],
+    "abstract": "Scientific knowledge graphs organize entities and relations extracted from scientific literature, but they remain inherently incomplete. Missing typed links in such graphs can therefore represent plausible scientific hypotheses, such as unexplored associations between materials and applications. However, scientific hypothesis discovery is challenging because true discoveries are extremely sparse among typed candidate pairs: graph neural networks (GNNs) are efficient but unreliable for ambiguous cases, while large language models (LLMs) are knowledgeable but too costly to apply exhaustively and are not naturally grounded in graph structures. We propose HyGRAIL, a cost-aware and evidence-grounded framework that combines heterogeneous GNN triage with LLM-based hypothesis review. HyGRAIL first uses a GNN to score candidate hypotheses and identify a validation-calibrated ambiguous region, routing only graph-uncertain cases to LLM review. For each routed hypothesis, HyGRAIL retrieves node-level associations and multi-hop relational paths from the knowledge graph (KG), then converts this structured evidence into natural language through template-based or LLM-based naturalization. An LLM review agent finally judges each hard hypothesis using the naturalized evidence and validation-selected decision criteria. On MatKG, HyGRAIL achieves the best F1 score of 0.429, improving over the strongest prior baseline by 0.242 F1 points and over the GNN-only baseline by 0.322. Meanwhile, GNN triage reduces the LLM call rate by 54.36% on average. Ablation studies further show that retrieved graph evidence is crucial for reliable hypothesis verification and that compact, two-sided evidence is more effective than simply increasing retrieval quantity.",
+    "url": "http://arxiv.org/abs/2609.02056v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02056v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2609.03588v1",
+    "title": "KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents",
+    "authors": [
+      "Yaxing Lyu",
+      "Shengjie Zhou",
+      "Binbin Toh",
+      "Pengyu Zhu",
+      "Lijun Li"
+    ],
+    "abstract": "As LLMs increasingly act through tools, they must reconcile user instructions, parametric knowledge, and dynamic environmental observations before taking actions. We introduce KC-Bench, a controlled multi-turn benchmark for measuring this capability across world-knowledge conflicts, input inconsistencies, and multi-source temporal conflicts. Its 238 tasks are manually screened from more than 1,000 generated candidates and combine a user simulator, stateful tools, deterministic environment assertions, an open-source natural-language evaluator, and human trajectory verification. Evaluation of nine models, including DeepSeek-V4-Flash, GLM-5.2, and MiniMax-M3, shows substantial cross-domain variation: no model handles factual correction, identity consistency checking, and temporal conflict resolution reliably across all settings. In the simulated environments, missed conflicts can propagate to tool calls or synthetic protected-data flows. KC-Bench isolates this model-level behavior rather than ranking complete agent frameworks, and provides a reproducible diagnostic for developing conflict-aware reasoning and execution safeguards.",
+    "url": "http://arxiv.org/abs/2609.03588v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03588v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.03467v1",
+    "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
+    "authors": [
+      "Wen-Yu Chang",
+      "Yun-Nung Chen"
+    ],
+    "abstract": "Large language models (LLMs) are increas- ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems. However, existing benchmarks primarily evaluate memory through QA-style probing rather than in-situ conversational usage. We introduce LOCOMO-CONV, a conversa- tional memory benchmark derived from Lo- CoMo with four query styles: dialog, implicit, counterfactual, and composed. Across five rep- resentative memory systems, we evaluate both retrieval recall and end-to-end response qual- ity. Our experiments show that conversational framing exposes substantial retrieval gaps over- looked by QA benchmarks, especially on im- plicit and composed queries, which multi-facet query rewriting narrows for raw-turn mem- ory but not abstractive memory. We further find that strong retrieval does not fully trans- late into response quality, and that implicit queries exhibit silent grounding, where mem- ory improves contextual grounding without ex- plicitly surfacing the gold fact. These results point to reasoning-based memory elaboration as a promising direction, and we release aux- iliary supportive_memory annotations captur- ing conversationally useful context beyond the original gold evidence.",
+    "url": "http://arxiv.org/abs/2609.03467v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03467v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.02459v1",
+    "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+    "authors": [
+      "Austin Tudor David Andrews",
+      "Liam Wilkinson",
+      "Jamie Heagerty",
+      "Harry Coppock",
+      "Jakob Nicolaus Foerster"
+    ],
+    "abstract": "We present CivBench, an open-source benchmark for evaluating language model agents in long-horizon, tool-mediated environments through the Model Context Protocol (MCP). A single episode spans 300+ turns and produces thousands of tool calls over a large action space, requiring sustained planning, state monitoring, and execution under partial observability. The environment exposes 76 MCP tools and a narration layer that converts visual game state into structured text.   We use CivBench to characterise agent behaviour across four model families in 23 admissible runs. The sample is a pilot, not a model ranking: aggregate outcomes do not reliably discriminate models at this scale. Instead, we introduce two interface-level metrics that the environment makes measurable: Proactive Monitoring Rate (PMR), capturing whether agents actively query latent strategic state, and RAG@10, capturing whether commitments stated in structured planning reflections are executed within ten subsequent turns.   Across runs we observe two consistent patterns under a shared playbook protocol. Agents under-monitor strategically relevant state that is available but requires explicit querying: despite playbook guidance to query victory progress every 20 turns, agents do so only every 30 to 75 turns, and in 7 of 20 detectable defeats they failed to query within the 20 turn warning window before game end. Agents also frequently fail to execute near-term commitments stated in their own planning reflections (RAG@10 between 48.2% and 65.8% across models). Both patterns arise despite tool access and explicit guidance, and we interpret them as deviations under instruction rather than absences of capability.   We release the environment, scenarios, logs, metrics, and analysis pipeline at https://github.com/lmwilki/civ6-mcp",
+    "url": "http://arxiv.org/abs/2609.02459v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02459v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.01603v1",
+    "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+    "authors": [
+      "Kefeng Duan",
+      "Dewu Zheng",
+      "Yanlin Wang",
+      "Xiwen Wang",
+      "Ensheng Shi"
+    ],
+    "abstract": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that fuses process and outcome signals. Historical execution trajectories supply process-level evidence beyond pass/fail, such as explored context, attempted edits, and solving paths, which PTA-IRT uses as privileged information for calibration subset selection and ability estimation. Under low calibration budgets, PTA-IRT consistently outperforms prior IRT baselines on score and ranking recovery across four SWE benchmarks. Code and data are publicly available at https://github.com/DeepSoftwareAnalytics/PTA-IRT.",
+    "url": "http://arxiv.org/abs/2609.01603v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01603v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.01235v1",
+    "title": "MutMem-V2: Cryptographically Authorized Mutation in Persistent Agent Memory Portable Verification and Reproducible Evidence",
+    "authors": [
+      "Walid Saidi"
+    ],
+    "abstract": "MutMem V1 introduced retention-preserving, cryptographically authorized mutation for persistent agent memory but did not provide a complete portable verification contract or clean-install reproduction path. MutMem V2 closes that publication gap without introducing a second memory engine. It specifies exact canonical bytes, domain-separated object and bundle commitments, mandatory recall-evidence membership and ordering, external trust anchors, identity epochs, revocation, authorization, request receipts, ordered disclosure, and three mutation terminal types. The released protocol contains 18 versioned object schemas, 39 recall vectors, 15 mutation vectors, and 37 closed recall failure reasons. Independent Node and Python implementations agree on verdict and primary reason for all 72 structural and cryptographic terminals; a production-conformance corpus agrees on 42/42 cases across 28 required classes. A clean Node v26.8.1 installation reaches first-boot, restart, and scheduler readiness with no experimental memories. A separately scoped 120-unit Canary experiment supports only explicit-marker traversal. Every public table regenerates from a self-hashed aggregate, and an independent verifier reconstructs the statistics and claim boundaries. Historical V1 empirical results remain historical. MutMem V2 supports claims about portable integrity, authorization, traceability, conformance, and reproducibility under stated assumptions; it does not establish semantic truth, universal robustness, or independent replication.",
+    "url": "http://arxiv.org/abs/2609.01235v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01235v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.01383v1",
+    "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
+    "authors": [
+      "Maeve Hutchinson",
+      "Syed Mahbubul Huq",
+      "Mohammad Albinhassan",
+      "Radu Jianu",
+      "Aidan Slingsby"
+    ],
+    "abstract": "Vision Language Models have demonstrated remarkable proficiency in interpreting static visual artifacts, but modern data analysis is inherently dynamic, requiring the active interrogation of interactive environments. Existing benchmarks are predominantly constrained to static imagery and one-shot question answering and fail to capture the epistemic demands of this domain, where evidence is frequently occluded, distributed across linked views, or conditionally revealed through user agency. In this paper, we introduce InSight, a benchmark for agentic claim verification over interactive visualizations. The dataset consists of 21,349 claims derived from human-authored analytical narratives and grounded in fully interactive web-based environments. Agents must navigate these environments to determine whether a natural language claim is supported, refuted or not verifiable given the available evidence. Unlike traditional evaluations, InSight treats interaction traces as intrinsic proxies for reasoning, enabling a rigorous audit of how models seek and synthesize visual evidence. We evaluate state-of-the-art models, revealing that interactive verification remains a non-trivial challenge. We release InSight at https://github.com/maevehutch/insight.",
+    "url": "http://arxiv.org/abs/2609.01383v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01383v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.CL",
+      "cs.CV",
+      "cs.HC"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.01271v1",
+    "title": "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal",
+    "authors": [
+      "Radin Shayanfar",
+      "Keheliya Gallaba",
+      "Ahmed E. Hassan"
+    ],
+    "abstract": "Agentic software engineering benchmarks are typically summarized by nominal category labels such as \"bug fix\" or \"feature implementation,\" yet benchmarks carrying the same label are built through very different curation pipelines. A label thus reveals little about the engineering work a benchmark demands. We introduce the Spread--Novelty--Centrality (SNC) profile, a three-axis characterization of the demands of repository-level coding tasks, grounded in empirical software engineering research. We apply the profile to five widely used benchmarks and 14,922 trajectories of two model families at three scales, and report three findings. (1) A label is an unreliable proxy for task demands, as every pair of benchmarks is statistically separated on at least two SNC axes, and the separations trace back to specific curation decisions. (2) Agent behaviour reveals demands that the human-written gold solution cannot. Agents produce larger solutions than the gold where problem statements withhold hints and smaller ones where curation inflates the gold. How a task is phrased shapes what an agent produces. (3) Task demands correlate with success uniformly, with resolved runs concentrating in the low-SNC region for every family and scale, whereas the behavioural signatures of success are family-specific. Claude succeeds by matching the scope of the gold solution, and its parity share on files rises from $0.17$ at the smallest scale to $0.54$ at the largest. Qwen succeeds by exceeding the gold scope at every scale, and editing too little marks failure for both families.",
+    "url": "http://arxiv.org/abs/2609.01271v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.01271v1",
+    "published": "2026-09-01",
+    "categories": [
+      "cs.SE",
+      "cs.CL"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
