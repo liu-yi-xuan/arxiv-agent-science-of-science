@@ -24,6 +24,39 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-05
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Remember and Reweight: Enhancing Multi-Agent Debate with Experience Memory and Confidence Estimation](http://arxiv.org/abs/2609.03619v1) | Xuanfa Jin, Zhijian Ma, Yongcheng Zeng et al. | Multi-agent debate (MAD) improves the reasoning capabilities of large language models by having multiple agents iteratively refine their responses through discussion. |
+| [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](http://arxiv.org/abs/2609.02786v1) | Qinghua Mao, Wanying Qu, Dadi Guo et al. | The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. |
+| [A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms](http://arxiv.org/abs/2609.04170v1) | Davide Paglieri, Logan Cross, Tim Genewein et al. | Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory](http://arxiv.org/abs/2609.03340v1) | Evan Chen, Shiqiang Wang, Christopher G. Brinton | Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executo... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](http://arxiv.org/abs/2609.03718v1) | Jiasheng Shi, Tianhan Zhang | Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. |
+| [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](http://arxiv.org/abs/2609.03425v1) | Guangjun Liu | Humans are the transport layer between AI systems, losing context at every hop. We present the Civilization Framework, whose addressable party is the civilization, not the agent (one human sovereig... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents](http://arxiv.org/abs/2609.03588v1) | Yaxing Lyu, Shengjie Zhou, Binbin Toh et al. | As LLMs increasingly act through tools, they must reconcile user instructions, parametric knowledge, and dynamic environmental observations before taking actions. |
+| [When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents](http://arxiv.org/abs/2609.03467v1) | Wen-Yu Chang, Yun-Nung Chen | Large language models (LLMs) are increas- ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems. |
+| [CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI](http://arxiv.org/abs/2609.02459v1) | Austin Tudor David Andrews, Liam Wilkinson, Jamie Heagerty et al. | We present CivBench, an open-source benchmark for evaluating language model agents in long-horizon, tool-mediated environments through the Model Context Protocol (MCP). |
+
 ### 📅 2026-09-04
 
 **22 new papers found**

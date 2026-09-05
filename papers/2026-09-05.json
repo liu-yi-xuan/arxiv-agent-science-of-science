@@ -1,0 +1,176 @@
+[
+  {
+    "id": "2609.03619v1",
+    "title": "Remember and Reweight: Enhancing Multi-Agent Debate with Experience Memory and Confidence Estimation",
+    "authors": [
+      "Xuanfa Jin",
+      "Zhijian Ma",
+      "Yongcheng Zeng",
+      "Xinyu Cui",
+      "Haifeng Zhang"
+    ],
+    "abstract": "Multi-agent debate (MAD) improves the reasoning capabilities of large language models by having multiple agents iteratively refine their responses through discussion. However, MAD suffers from a critical vulnerability known as shared misconception: when a majority of agents initially converge on an incorrect answer, the debate process tends to amplify rather than correct the error. Existing methods primarily address peer skew but leave the agents' inherently biased concept priors unaddressed. To mitigate this systematic weakness, we propose R$^2$-MAD (Remember and Reweight for Multi-Agent Debate), a framework that equips agents with an experience memory accumulated from past debates. R$^2$-MAD intervenes on both failure modes through two complementary mechanisms: A debate-state-aware retrieval policy dynamically calibrates the concept prior by retrieving relevant historical evidence based on the current consensus level. Then these retrieved experiences provide a basis for estimating per-agent reliability, yielding confidence weights to modulate peer influence. Experiments on various benchmarks show that R$^2$-MAD achieves consistent improvements over existing single-agent and MAD baselines.",
+    "url": "http://arxiv.org/abs/2609.03619v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03619v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.02786v1",
+    "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+    "authors": [
+      "Qinghua Mao",
+      "Wanying Qu",
+      "Dadi Guo",
+      "Leitao Yuan",
+      "Qingyu Liu"
+    ],
+    "abstract": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. This exposes them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety. We propose SafeEvolve, an experience-driven self-evolving framework for agent safety alignment. SafeEvolve leverages safety experience from completed on-policy trajectories to drive a continual loop of harness-policy co-evolution. On the harness side, SafeEvolve converts trajectory-level safety evidence into bounded, component-level updates across safety prompt and hierarchical skills, yielding auditable and reversible harness artifacts. On the policy side, SafeEvolve follows a two-stage SFT-RL paradigm, where harness-use SFT bootstraps the policy to actively leverage evolved harness artifacts, and harness-augmented RL further shapes autonomous safety behaviors during multi-step exploration via verifier-decomposed rewards. Through harness-policy co-evolution, SafeEvolve converts safety experience into an evolved runtime harness and improved policy behavior. Experiments on agentic safety benchmarks show that SafeEvolve achieves a stronger safety-utility tradeoff than existing baselines. For Qwen3.5-4B, SafeEvolve achieves a $3\\times$ ASR reduction on AgentDojo while improving benign utility from 59.79% to 61.86%.",
+    "url": "http://arxiv.org/abs/2609.02786v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02786v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.04170v1",
+    "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+    "authors": [
+      "Davide Paglieri",
+      "Logan Cross",
+      "Tim Genewein",
+      "Joel Z. Leibo",
+      "Nenad Tomasev"
+    ],
+    "abstract": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. We report a case study on a research collective of 100 autonomous LLM agents tasked with proving formal mathematical conjectures. Within the swarm, cheating spontaneously emerged and was later challenged by whistleblowers - both without any external intervention. When a single agent discovered an exploit in the evaluation system, it propagated across the collective via a shared knowledge library and later through peer-to-peer messages. Despite early reluctance, a cohort of agents adopted the exploit in response to competitive pressure. A separate group of agents produced an emergent counter-response: auditing fraudulent proofs, alerting peers across broadcast and private channels, staging boycotts, lodging formal complaints, and proposing validation patches. In recent incidents, agent swarms coordinated covertly through improvised side-channels (Dalton and Wallace, 2026; Greenblatt et al., 2026). Our setting differs: the same transparent channels that carried the exploit also gave non-cheating agents the visibility they needed to detect fraud, organize resistance, and enforce norms. We cast the problem of managing the agents' shared infrastructure as the knowledge commons governance problem (Ostrom, 1990). To protect the commons from exploits, we propose to adopt institutional mechanisms, such as graduated sanctioning and collective-choice rules, to support decentralized self-governance in autonomous swarms.",
+    "url": "http://arxiv.org/abs/2609.04170v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.04170v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.03340v1",
+    "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+    "authors": [
+      "Evan Chen",
+      "Shiqiang Wang",
+      "Christopher G. Brinton"
+    ],
+    "abstract": "Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive $r_4$ without replacing the plan derived from $r_3$. We call this \\emph{stale-plan execution}: state freshness does not establish that the plan authorizing an action remains valid. We introduce PlanFence, a dependency-scoped action-validation protocol. Plans cite the exact public records they used, and an executor validates only the records that can affect the pending external action, replanning once or blocking when validation is incomplete. In 30 controlled live workflows with a post-plan revision, a freshness-only executor acts on the obsolete plan in every task, whereas PlanFence completes all tasks without an invalid action. Controlled replay reveals two conditional boundaries: proactive synchronization yields lower coordination stall at low churn, while PlanFence avoids repeated update-path coordination as churn grows and avoids validating unrelated state as the shared keyspace grows. These are controlled safety and systems-cost results, not general task-accuracy gains.",
+    "url": "http://arxiv.org/abs/2609.03340v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03340v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.03718v1",
+    "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+    "authors": [
+      "Jiasheng Shi",
+      "Tianhan Zhang"
+    ],
+    "abstract": "Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. Large language model (LLM) agents promise to turn a natural-language request into a working simulation, and recent CAE agents add simulation-specific machinery: multi-agent decomposition, domain retrieval, and scripted reflection. That machinery suited weak base models; modern harnesses already supply multi-turn reasoning, tool use, and execution feedback. We ask what a CAE simulation agent still needs beyond a generic harness. With information access and repair budget held fixed, a single-agent harness matches or beats multi-agent specialized systems (FoamBench 96.4\\% vs.\\ 88.2\\%).   Ablations trace this to capabilities the harness already provides: execution-feedback repair lifts FoamBench from 71.8\\% with no repair round to 96.4\\%, while scripted reflection adds nothing. The one input that still helps is domain knowledge supplied as solver tutorials, our largest measured gain (80.9\\% to 96.4\\%).",
+    "url": "http://arxiv.org/abs/2609.03718v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03718v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.CE",
+      "cs.CL",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.CE",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.03425v1",
+    "title": "The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems",
+    "authors": [
+      "Guangjun Liu"
+    ],
+    "abstract": "Humans are the transport layer between AI systems, losing context at every hop. We present the Civilization Framework, whose addressable party is the civilization, not the agent (one human sovereign, a persistent ledger, and interchangeable agents), and the Embassy Protocol, a carrier-agnostic overlay: messages arrive asynchronously at a resident ledger endpoint, any online agent of the receiver handles them, and commitment state on both ledgers, not delivery, is ground truth. Authority derives from memory: an agent's power to act for its civilization is capped by the memory it can access and externalized through signed credentials, separate from civilization-level reputation. We identify the temporal-weight effect, a hazard in AI-to-AI communication where what arrives first acquires unearned authority, and test it in one frontier model in a preregistered 1,908-trial experiment. With verification removed, an incorrect upstream claim arriving first captures 54.2% of answers (4.2% under full verification), while the same claim arriving after the receiver has sealed its own answer captures 31.6% (the two prompt shells are not length-matched, so part of that gap may reflect shell form; see Section 7), and both registered question-set specifications agree on these two verdicts (the exclusion specification is preregistered as under-powered). Two secondary results, the mitigation from instruction-level provenance labeling and sealed-answer accuracy equivalence, are specification-dependent, holding only under the all-questions specification. Because a registered check of tool use failed its call-budget condition, the registration classifies the round as inconclusive and every result above, primary and secondary, is reported as exploratory; a replication with harness-enforced budgets is planned. The framework's intra-civilization layer has a working implementation.",
+    "url": "http://arxiv.org/abs/2609.03425v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03425v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.03588v1",
+    "title": "KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents",
+    "authors": [
+      "Yaxing Lyu",
+      "Shengjie Zhou",
+      "Binbin Toh",
+      "Pengyu Zhu",
+      "Lijun Li"
+    ],
+    "abstract": "As LLMs increasingly act through tools, they must reconcile user instructions, parametric knowledge, and dynamic environmental observations before taking actions. We introduce KC-Bench, a controlled multi-turn benchmark for measuring this capability across world-knowledge conflicts, input inconsistencies, and multi-source temporal conflicts. Its 238 tasks are manually screened from more than 1,000 generated candidates and combine a user simulator, stateful tools, deterministic environment assertions, an open-source natural-language evaluator, and human trajectory verification. Evaluation of nine models, including DeepSeek-V4-Flash, GLM-5.2, and MiniMax-M3, shows substantial cross-domain variation: no model handles factual correction, identity consistency checking, and temporal conflict resolution reliably across all settings. In the simulated environments, missed conflicts can propagate to tool calls or synthetic protected-data flows. KC-Bench isolates this model-level behavior rather than ranking complete agent frameworks, and provides a reproducible diagnostic for developing conflict-aware reasoning and execution safeguards.",
+    "url": "http://arxiv.org/abs/2609.03588v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03588v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.03467v1",
+    "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
+    "authors": [
+      "Wen-Yu Chang",
+      "Yun-Nung Chen"
+    ],
+    "abstract": "Large language models (LLMs) are increas- ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems. However, existing benchmarks primarily evaluate memory through QA-style probing rather than in-situ conversational usage. We introduce LOCOMO-CONV, a conversa- tional memory benchmark derived from Lo- CoMo with four query styles: dialog, implicit, counterfactual, and composed. Across five rep- resentative memory systems, we evaluate both retrieval recall and end-to-end response qual- ity. Our experiments show that conversational framing exposes substantial retrieval gaps over- looked by QA benchmarks, especially on im- plicit and composed queries, which multi-facet query rewriting narrows for raw-turn mem- ory but not abstractive memory. We further find that strong retrieval does not fully trans- late into response quality, and that implicit queries exhibit silent grounding, where mem- ory improves contextual grounding without ex- plicitly surfacing the gold fact. These results point to reasoning-based memory elaboration as a promising direction, and we release aux- iliary supportive_memory annotations captur- ing conversationally useful context beyond the original gold evidence.",
+    "url": "http://arxiv.org/abs/2609.03467v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03467v1",
+    "published": "2026-09-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.02459v1",
+    "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+    "authors": [
+      "Austin Tudor David Andrews",
+      "Liam Wilkinson",
+      "Jamie Heagerty",
+      "Harry Coppock",
+      "Jakob Nicolaus Foerster"
+    ],
+    "abstract": "We present CivBench, an open-source benchmark for evaluating language model agents in long-horizon, tool-mediated environments through the Model Context Protocol (MCP). A single episode spans 300+ turns and produces thousands of tool calls over a large action space, requiring sustained planning, state monitoring, and execution under partial observability. The environment exposes 76 MCP tools and a narration layer that converts visual game state into structured text.   We use CivBench to characterise agent behaviour across four model families in 23 admissible runs. The sample is a pilot, not a model ranking: aggregate outcomes do not reliably discriminate models at this scale. Instead, we introduce two interface-level metrics that the environment makes measurable: Proactive Monitoring Rate (PMR), capturing whether agents actively query latent strategic state, and RAG@10, capturing whether commitments stated in structured planning reflections are executed within ten subsequent turns.   Across runs we observe two consistent patterns under a shared playbook protocol. Agents under-monitor strategically relevant state that is available but requires explicit querying: despite playbook guidance to query victory progress every 20 turns, agents do so only every 30 to 75 turns, and in 7 of 20 detectable defeats they failed to query within the 20 turn warning window before game end. Agents also frequently fail to execute near-term commitments stated in their own planning reflections (RAG@10 between 48.2% and 65.8% across models). Both patterns arise despite tool access and explicit guidance, and we interpret them as deviations under instruction rather than absences of capability.   We release the environment, scenarios, logs, metrics, and analysis pipeline at https://github.com/lmwilki/civ6-mcp",
+    "url": "http://arxiv.org/abs/2609.02459v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.02459v1",
+    "published": "2026-09-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
