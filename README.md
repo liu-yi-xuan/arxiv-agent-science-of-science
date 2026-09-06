@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-06
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms](http://arxiv.org/abs/2609.04170v1) | Davide Paglieri, Logan Cross, Tim Genewein et al. | Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](http://arxiv.org/abs/2609.03718v1) | Jiasheng Shi, Tianhan Zhang | Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. |
+
 ### 📅 2026-09-05
 
 **9 new papers found**
