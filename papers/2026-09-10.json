@@ -1,0 +1,287 @@
+[
+  {
+    "id": "2609.09849v1",
+    "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
+    "authors": [
+      "Tianzhu Zhang",
+      "Weichen Tao",
+      "Changgang Zheng",
+      "Yusheng Zheng",
+      "Long Chen"
+    ],
+    "abstract": "In recent years, AI agents have evolved into capable assistants that carry out multi-step tasks in digital environments. The network systems community is beginning to explore these capabilities in operational and experimental settings. However, an agent operating in network systems should not be judged solely by whether it completes the immediate task. The experiment record it modifies must also remain trustworthy. We call this property artifact integrity: the record's claims must remain supported by the available evidence, confined to the scope established by that evidence, and traceable through the artifacts that encode their support.   To make this property measurable, we introduce NetArtifactBench, which tests whether AI agents can repair inconsistent records derived from public network-system artifacts while preserving claims that remain supported. The benchmark contains 52 instances with injected inconsistencies ranging from direct contradictions to unstated relations spread across several artifacts. We evaluate 23 agent configurations across three general-purpose AI agent runtimes using deterministic scoring. The average contract pass rate is 65.3 % across 5,980 outputs, but no agent runtime exceeds 30 % when repair requires recovering implicit relations and propagating changes across artifacts. These results reveal a sharp boundary between local correction and complete record-level repair. Therefore, we argue that artifact integrity should become a first-class design and evaluation requirement for AI agents operating on network systems.",
+    "url": "http://arxiv.org/abs/2609.09849v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09849v1",
+    "published": "2026-09-09",
+    "categories": [
+      "cs.NI",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.NI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.09113v1",
+    "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+    "authors": [
+      "Yuqiao Tan",
+      "Shizhu He",
+      "Jun Zhao",
+      "Kang Liu"
+    ],
+    "abstract": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Bench to evaluate whether AI agents can act as scientists utilizing SAE tools for autonomous mechanistic discovery. Given a target concept, an agent designs contrastive probes and navigates a Gemma Scope dictionary of 131K+ features in Gemma-2-9B-IT to discover the optimal feature, evaluated against curated expert reference features anchored on Neuronpedia across activation rank, concept selectivity on contrastive texts, and causal steering. Across 10 agent configurations and 20 tasks, frontier agents demonstrate genuine discovery capabilities and lead different evaluation dimensions, but remain well behind the expert baseline, approaching expert levels on separating target concepts from contrastive controls while lagging substantially in causal generation steering. Further analysis reveals that although agents can design contrasts to rule out spurious candidates, they frequently misinterpret experimental measurements. These results establish experimental model understanding as a measurable capability for closed-loop autonomous AI R&D. Our code is available at https://github.com/Trae1ounG/SAEScientist.",
+    "url": "http://arxiv.org/abs/2609.09113v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09113v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.08288v1",
+    "title": "LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation",
+    "authors": [
+      "Zijian Shen",
+      "Bin Zhou",
+      "Jiguang Wang",
+      "Ya Zhao",
+      "Jintao Ke"
+    ],
+    "abstract": "Travel survey data are essential for transportation planning and travel behavior analysis, yet collecting large-scale representative samples is costly and time-consuming. A practical alternative is to generate synthetic survey records from a few-shot sample. However, such samples provide incomplete coverage of heterogeneous traveler groups and insufficient evidence for recovering the complex dependencies between demographic characteristics and travel behavior. Existing approaches have complementary limitations. Probabilistic generative models such as Bayesian networks (BNs) offer explicit distributional control, but structures learned from few-shot samples may omit meaningful dependencies or retain spurious ones. Large language models (LLMs) can help address these difficulties in BN structure learning by providing behavioral knowledge that complements the limited statistical evidence. We therefore propose LEBGen, an LLM-enhanced BN framework that uses this knowledge to refine network structure for few-shot travel survey data generation. Specifically, the LLM first identifies traveler personas from demographic attribute and travel behavior statistics, then recovers dependencies missed by the persona-augmented BN structure and prune spurious ones. The refined BN is parameterized exclusively from the observed data to generate synthetic records. Under a 2% few-shot setting on the 2022 Hong Kong Travel Characteristics Survey, LEBGen reduces the mean marginal Jensen-Shannon divergence from 0.0671 to 0.0091 and the mean absolute Cramer's V error by 14.3% over the best-performing baseline, substantially improving both distributional and dependency fidelity.",
+    "url": "http://arxiv.org/abs/2609.08288v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08288v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.08965v1",
+    "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+    "authors": [
+      "Yuan Gao",
+      "Sebastian Müller",
+      "Mattia Piccinini",
+      "Marc Kaufeld",
+      "Yuchen Zhang"
+    ],
+    "abstract": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have shown promise across ADS sub-systems such as perception, planning, and control. However, no prior work covers the whole scenario-based testing pipeline for ADSs with a unified LLM-agent framework. We present PlannerForge, an LLM-agent framework that extends all scenario-based testing stages (from Scenario Generation to ADS Assessment) and adds two further LLM-enhanced stages: ADS Enhancement and ADS Benchmarking. We evaluate PlannerForge with 10 off-the-shelf LLMs across all tasks (Generation, Selection, Modification, Module Routing, Planner Testing, and Enhancement) under 5 prompt conditions. Best-per-task scores range from 0.88 to 1.00, and open-source 20-35B backends match commercial APIs on most tasks. Open-source models such as Qwen3.6:35B match commercial APIs on three of the five tasks. Chaining the modules end-to-end retains 83% / 78% of seed queries (commercial / open). It outperforms Scenario Factory 2.0 (Finkeldei et al., 2025) on natural-language generation (193 vs. 144 executable of 200) and realises 92-96% of requested city, road and vehicle attributes. It outperforms BM25 (Robertson and Zaragoza, 2009) at rank 1 selection (92.0% vs. 67.5%) and From-Words-to-Collisions (Gao et al., 2025) on physically valid edits (>=94% vs. 31%). At N=400, cost-tuning lifts planner success from 50.4% to 70.2% and cuts collisions from 19.0% to 8.4%, without domain-specific fine-tuning.",
+    "url": "http://arxiv.org/abs/2609.08965v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08965v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.08016v1",
+    "title": "A Layered Analysis of Disagreement And Answer Quality in Multi-Agent LLM Debate",
+    "authors": [
+      "Chen Qian"
+    ],
+    "abstract": "Multi-agent debate, in which several LLMs exchange arguments before answering, is widely assumed to improve answer quality by surfacing genuine disagreement. That mechanism is rarely checked. We introduce four measurements: (A) the agreement a debater reports; (B) whether its reply text actually pushes back; (C) whether the position persists once the eliciting instruction is removed; and (D) for open-weight models, the stance response in the debater's own token log-probabilities. We evaluate three-model committees debating open-ended GlobalOpinionQA across 750 debates under three tones: friendly (seek common ground), neutral, and hostile (stress-test every position). (A) Tone strongly reshapes reported agreement: full agreement differs by 50.4 percentage points between the friendly and hostile endpoints. (B) A judge that reads only the reply text, never the self-report or the condition, recovers the same pattern. (C) The dissent appears partly tied to the instruction that elicited it: labels revert toward agreement 23.1 points more often after deleting the hostile instruction than under a matched re-ask that keeps it; question-weighted inference is inconclusive on first-round turns alone (p=0.0625), significant pooling all rounds (p=0.016), and only 11/28 first-round reversions also appear in the reply text. (D) Opposing arguments weaken a debater's stance margin more consistently than they shift its direction. For final answers we detect no quality gain: a bias-checked jury returns 299/299 ties (ruling out only large differences), accuracy on a verifiable control task is unchanged, and a jury without the bias check had declared debate the winner 66% of the time -- an artifact of reading order. Taken together, LLM debate readily changes what agents say, but we find much weaker evidence that it changes what they persistently endorse or improves the quality of the final answer.",
+    "url": "http://arxiv.org/abs/2609.08016v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08016v1",
+    "published": "2026-09-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.08468v1",
+    "title": "The conservative turn in science: The changing character of knowledge recombination",
+    "authors": [
+      "Cheng Zhang",
+      "Xinkun Liang",
+      "Yi Bu",
+      "Hongkan Chen"
+    ],
+    "abstract": "This study examines how the dominant mode of cross-disciplinary knowledge combination has changed over time. It addresses a limitation of existing studies that document declining disruptiveness at the level of individual works but do not reveal whether the mechanisms of cross-disciplinary knowledge flow have themselves shifted. Drawing on 56 million publications and 816 million citations from OpenAlex (1960-2025), the study classifies cross-disciplinary citations into five types based on the set relationship between the subfield portfolios of citing and cited publications and introduces a semantic-distance measure derived from SPECTER-v2 embeddings of publication abstracts. It subsequently demonstrates that cross-disciplinary citations have shifted markedly away from configurations with no shared disciplinary ground toward types built on partially overlapping knowledge bases, a reorientation further reflected in a steady decline in average semantic distance between citing and cited fields. This shift co-occurs with a diffusion of brokerage positions across the network and a greater reliance on older literature, consistent with a system that has become broader and more decentralized in its interdisciplinary reach. Finally, this study discusses the implications of these findings for science policy and for the design of cross-disciplinary funding mechanisms.",
+    "url": "http://arxiv.org/abs/2609.08468v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08468v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.SI",
+      "cs.DL"
+    ],
+    "primary_category": "cs.SI",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2609.07611v1",
+    "title": "AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era",
+    "authors": [
+      "Yunxiang Mo",
+      "Tianshi Zheng",
+      "Yisen Gao",
+      "Rui Wang",
+      "Newt Nguyen Kim Hue Nam"
+    ],
+    "abstract": "Scientific ideation is the capacity to formulate novel and testable hypotheses from scientific evidence, and autonomous AI scientists depend on it. Existing evaluations largely assess it by asking models to generate ideas from a static, curated set of reference papers. That passive setup departs from the retrieval-and-reasoning workflow of modern AI scientists, and it becomes less discriminative as models improve. We introduce AgentIdeaBench, a multidisciplinary benchmark that evaluates scientific ideation under two matched settings, static observation and active exploration. We report matched Static-Active evaluations for 33 LLMs across 40 densely scored subfields spanning five disciplines, using a multidimensional, literature-verified scoring framework whose critics assess originality against retrieved prior art. Active exploration reveals considerably more capability headroom, and that headroom is unevenly distributed across models. Performance scales about twice as fast as under static observation, and the exploration gain is capability-gated, favoring the strongest models over the weakest. The gain reflects better grounding, improving feasibility, clarity, and specificity while leaving measured originality unchanged under our critics. We further explore Scientific World Modeling, a generation-time loop that refines a draft hypothesis through structured thought experiments. It benefits mid-capability models, and its impact diminishes among frontier models that appear to have internalized such reasoning patterns already. AgentIdeaBench gives future work on scientific ideation a measurement basis suited to the agent era.",
+    "url": "http://arxiv.org/abs/2609.07611v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.07611v1",
+    "published": "2026-09-07",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.09853v1",
+    "title": "The Era by Eon Benchmark: A Generated Enterprise Estate with Exact Ground Truth for Benchmarking LLM Agents",
+    "authors": [
+      "Benjamin Gruenbaum",
+      "Doron Porat",
+      "Assaf Natanzon",
+      "Roy Zavida",
+      "Chen Dinachi"
+    ],
+    "abstract": "LLM agents for enterprise systems of record cannot be evaluated on customer production data, and no existing substitute provides ground truth. We present the Era by Eon Benchmark for evaluating LLM agents that use enterprise tools. The benchmark is built around a complete fictional company. It includes product simulators, company-specific internal databases, benchmark questions, and computed answer keys. Industry, company size, business model, application portfolio, and a seed define each company. One seeded entity graph supplies shared company data to simulators of Salesforce, Zendesk, Slack, Gong, and other products. A questionconditioned generator creates the schemas and records for internal databases. It takes shared entities, keys, and values from the same graph before generating database-specific facts. Both mechanisms therefore describe one consistent enterprise estate. Every expected answer is computed from the final records, so grading is exact. Design and answer-key checks validate the internal databases. A realism scorecard and adversarial detector validate the entity graph. Across 23 generated companies, the mean realism score rose from 61.8 to 97.0, with zero records flagged as synthetic. In the reported simulator-track comparison, nine models answered the same 33 questions three times each. Accuracy estimates ranged from 42.4% to 76.8%, and three of 36 pairwise differences remained supported after correction.",
+    "url": "http://arxiv.org/abs/2609.09853v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09853v1",
+    "published": "2026-09-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.09754v1",
+    "title": "LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents",
+    "authors": [
+      "Yujin Zhou",
+      "Mingxuan Zheng",
+      "Chuxue Cao",
+      "Huang Yidan",
+      "Jiale Chen"
+    ],
+    "abstract": "As large language models are increasingly deployed as tool-augmented legal agents, they introduce agentic hallucinations where tool-call and reasoning errors cascade into fabricated holdings and miscited authority. However, existing legal benchmarks evaluate only single-turn QA with outcome-level metrics, while agentic hallucination benchmarks lack legal-specific diagnostic capability. Neither answers to what extent and how a legal agent hallucinates along its trajectory. To address these limitations, we introduce LexAgentHallu, a legal agentic hallucination benchmark designed to evaluate to what extent and how legal agents fail along multi-step trajectories. Built through a four-stage expert-in-the-loop pipeline, LexAgentHallu contains 3414 instances across 17 legal categories and 6 task types. Each instance is annotated under a dual-layer hallucination taxonomy of 7 high-level categories and 27 fine-grained subclasses, covering both substantive errors and agent-procedural failures. We further design fine-grained metrics that quantify to what extent and localize how each failure occurs along an agent's execution path. Our evaluation across 18 proprietary and open-source agents uncovers a Right-Answer-Wrong-Reason effect and reveals that hallucination subclasses cluster rather than scatter, forming distinct agentic framework, legal task, and category profiles. These findings, invisible to outcome-level evaluation, validate the diagnostic power of LexAgentHallu for evaluating agentic hallucination in law.",
+    "url": "http://arxiv.org/abs/2609.09754v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09754v1",
+    "published": "2026-09-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.08402v1",
+    "title": "Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method",
+    "authors": [
+      "Boao Yu",
+      "Zimo Chen",
+      "Junreng Rao",
+      "Yue Hu",
+      "Zhengqiu Zhu"
+    ],
+    "abstract": "Air-Ground Object Search (AGOS) in urban environments is a challenging embodied task, which requires an Unmanned Aerial Vehicle (UAV) and an Unmanned Ground Vehicle (UGV) to jointly search for and verify a specified target vehicle from multi-view visual references. To study this underexplored problem, we introduce AGOS-Bench, the first dedicated benchmark for evaluating whether general-purpose Vision-Language Models (VLMs) can integrate aerial discoveries and ground-level verification through UAV-UGV cooperation. We further provide AGOS-Dataset as the companion resource of exemplary trajectories constructed by an automatic pipeline. It consists of 7.7k episodes for searching objects of diverse categories and attributes, spanning three difficulty levels. To address the AGOS task, we propose AGOS-Agent, a training-free and tool-augmented approach. The agentic method relieves VLMs from complex and dynamic coordination via a deliberate search-handoff-verify cooperation protocol, only demanding VLMs for scene understanding and decision-making. Extensive experiments on nine VLMs show that AGOS-Agent improves overall success rate for eight of the nine evaluated backbones while reducing decision steps for all nine. On the hard split, the SR and SPL of Gemini-3.6-Flash increase from 8.6% to 55.7% and from 7.6% to 44.0%, respectively.",
+    "url": "http://arxiv.org/abs/2609.08402v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08402v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.08149v1",
+    "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
+    "authors": [
+      "Pujun Zheng",
+      "Zixin Shang",
+      "Shufan Jiang",
+      "Wenhui Tian",
+      "Dongsheng Zhu"
+    ],
+    "abstract": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks. However, our analysis work show that its evaluation is undermined by two sources of unreliability: \\textbf{reward hacking}, enabled by leakage of gold solutions or hidden evaluation information, and \\textbf{task quality issues}, including misleading problem statements and improperly scoped tests. These issues can inflate benchmark performance and obscure agents' true coding ability. We present \\textbf{SWE-Bench Pro Verified}, a verified version of SWE-Bench Pro that addresses both problems. Our approach combines \\textbf{anti-hacking} safeguards that eliminate major leakage channels without disrupting normal agent functionality, with \\textbf{task refinement} that minimally corrects inconsistencies within flawed instances. Evaluations on SWE-Bench Pro Verified reveal that some models perform substantially worse than previously reported, suggesting that existing results on SWE-Bench Pro may overestimate real software engineering capability. SWE-Bench Pro Verified offers a more trustworthy benchmark for assessing software engineering agents.",
+    "url": "http://arxiv.org/abs/2609.08149v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08149v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.07603v1",
+    "title": "FinCUABuild: Can Agents Build Reliable Benchmarks for Dynamic Financial Computer Use?",
+    "authors": [
+      "Jingpu Yang",
+      "Fengxian Ji",
+      "Jinri Guo",
+      "Tianhao Li",
+      "Qian Jiang"
+    ],
+    "abstract": "Financial scenarios are diverse and complex, spanning varying data conditions, tool configurations, and workflows. Yet existing CUA, Computer-Using Agent, evaluation tasks remain largely manually constructed, limiting scalable coverage of real-world financial scenarios. Then, can agents autonomously construct diverse CUA evaluation tasks for financial scenarios? Evaluating this capability poses three key challenges: scenario coverage of construction requests, fair comparison across construction methods, and reliable assessment of generated task quality. To solve these, we introduce FinCUABuildBench, a benchmark for evaluating financial CUA task construction, featuring: (i) 576 construction requests covering 24 financial workflows and three types of runtime variation; (ii) standardized input, budget, and output specifications; and (iii) a task qualification mechanism based on execution tests and quality checks. We further introduce FinCUABuildAgent, a multi-agent system for automatically constructing dynamic financial CUA evaluation tasks. It consists of three modules that jointly construct tasks, environments, and validators. On FinCUABuildBench, under the same model backbone, existing agent-based construction methods achieve strict qualification rates of only 1.3-8.3%, while FinCUABuildAgent reaches 31.3%. Downstream evaluations further show that the constructed tasks can effectively differentiate CUA task-execution capabilities. These results demonstrate that agents can autonomously construct financial CUA tasks with meaningful evaluation value, offering a practical path toward broader evaluation coverage in financial scenarios. Code: https://github.com/FengxianJi/FinCUABuild",
+    "url": "http://arxiv.org/abs/2609.07603v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.07603v1",
+    "published": "2026-09-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.07712v1",
+    "title": "APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents",
+    "authors": [
+      "Jintian Feng",
+      "Long Chen",
+      "Xiao Yu",
+      "Jiayi Dai",
+      "Chenglong Liu"
+    ],
+    "abstract": "Mobile GUI agents can execute tasks from natural-language instructions, but their evaluation remains difficult to make both realistic and reproducible. Existing benchmarks typically trade off these goals: simplified apps lack real-world mobile complexity, whereas live commercial apps introduce uncontrolled variation from recommendations, advertisements, accounts, and changing content. We propose AppSim-Bench, which addresses this trade-off through controllable simulated apps that preserve task-relevant interaction logic while supporting deterministic evaluation. Built through a coding-agent-assisted and human-verified workflow, it contains 557 tasks across 17 high-frequency Chinese and English apps. Its controllable backend data and outcome-based verification remove major sources of environmental stochasticity, enabling reproducible cross-model comparison. Evaluating 19 GUI agents, spanning general-purpose and GUI-specialized systems, we find that autonomous mobile execution remains far from solved. The best model completes only 50.27% of tasks, and 28.55% of tasks are not solved by any agent. Further analysis shows that failures concentrate in longer workflows, numerical reasoning tasks, and inefficient trajectories marked by high action overhead and budget exhaustion. Our project is available at https://github.com/Acrab-Agentic-Labs/AppSim.",
+    "url": "http://arxiv.org/abs/2609.07712v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.07712v1",
+    "published": "2026-09-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.08887v1",
+    "title": "Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems",
+    "authors": [
+      "Maximilian Schall",
+      "Sedigheh Eslami",
+      "Markus Krimmel",
+      "Antoine Chaffin",
+      "Louis Milliken"
+    ],
+    "abstract": "Evaluating first-stage retrievers in large-scale production RAG requires a benchmark that pairs a large-scale corpus with a large set of agent-reformulated search queries based on real user queries and their conversation threads, and that labels many relevant documents per query. No existing public benchmark evaluates this setting: large-scale collections typically provide only a small number of evaluation queries, whereas benchmarks with many queries generally contain only millions of documents. Moreover, most benchmarks assess human-written queries, while the first-stage retrievers in agentic RAG pipelines serve machine-written reformulations whose distribution differs from human search behavior. To overcome these evaluation gaps, we introduce Q2D-Web (Query2Doc-Web), a large-scale agentic retrieval benchmark consisting of a 190M-document web corpus and 70k agentic search queries in ten languages, reformulated from real-world user queries in production systems. Q2D-Web provides three sets of fixed relevance judgments: agent citations, production rankings, and a combined set that unions both signals and adds LLM-based judgments of unlabeled pooled documents to reduce false negatives. We benchmark 13 retrievers including lexical, dense, and late-interaction models and find that their relative ordering is largely insensitive to the choice of judgment set, while diverging substantially across topical domains, query languages, and query types. To enable fast evaluation, we also study subcorpus sampling as an approximation to full-corpus evaluations. Retaining a third of the corpus, selected by reciprocal rank fusion over pooled retriever runs, preserves the full-corpus model ranking under the combined judgments while raising absolute Recall@1000 only by 3 to 7 points. The public leaderboard is accessible under: https://huggingface.co/spaces/perplexity-ai/q2d-web-leaderboard",
+    "url": "http://arxiv.org/abs/2609.08887v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08887v1",
+    "published": "2026-09-08",
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

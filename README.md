@@ -24,6 +24,49 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-10
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Can AI Agents Detect and Repair Artifact Drift in Network Experiments?](http://arxiv.org/abs/2609.09849v1) | Tianzhu Zhang, Weichen Tao, Changgang Zheng et al. | In recent years, AI agents have evolved into capable assistants that carry out multi-step tasks in digital environments. |
+| [SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?](http://arxiv.org/abs/2609.09113v1) | Yuqiao Tan, Shizhu He, Jun Zhao et al. | While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing t... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation](http://arxiv.org/abs/2609.08288v1) | Zijian Shen, Bin Zhou, Jiguang Wang et al. | Travel survey data are essential for transportation planning and travel behavior analysis, yet collecting large-scale representative samples is costly and time-consuming. |
+| [PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving](http://arxiv.org/abs/2609.08965v1) | Yuan Gao, Sebastian Müller, Mattia Piccinini et al. | Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented mod... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Layered Analysis of Disagreement And Answer Quality in Multi-Agent LLM Debate](http://arxiv.org/abs/2609.08016v1) | Chen Qian | Multi-agent debate, in which several LLMs exchange arguments before answering, is widely assumed to improve answer quality by surfacing genuine disagreement. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The conservative turn in science: The changing character of knowledge recombination](http://arxiv.org/abs/2609.08468v1) | Cheng Zhang, Xinkun Liang, Yi Bu et al. | This study examines how the dominant mode of cross-disciplinary knowledge combination has changed over time. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era](http://arxiv.org/abs/2609.07611v1) | Yunxiang Mo, Tianshi Zheng, Yisen Gao et al. | Scientific ideation is the capacity to formulate novel and testable hypotheses from scientific evidence, and autonomous AI scientists depend on it. |
+| [The Era by Eon Benchmark: A Generated Enterprise Estate with Exact Ground Truth for Benchmarking LLM Agents](http://arxiv.org/abs/2609.09853v1) | Benjamin Gruenbaum, Doron Porat, Assaf Natanzon et al. | LLM agents for enterprise systems of record cannot be evaluated on customer production data, and no existing substitute provides ground truth. |
+| [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](http://arxiv.org/abs/2609.09754v1) | Yujin Zhou, Mingxuan Zheng, Chuxue Cao et al. | As large language models are increasingly deployed as tool-augmented legal agents, they introduce agentic hallucinations where tool-call and reasoning errors cascade into fabricated holdings and mi... |
+| [Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method](http://arxiv.org/abs/2609.08402v1) | Boao Yu, Zimo Chen, Junreng Rao et al. | Air-Ground Object Search (AGOS) in urban environments is a challenging embodied task, which requires an Unmanned Aerial Vehicle (UAV) and an Unmanned Ground Vehicle (UGV) to jointly search for and ... |
+| [SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents](http://arxiv.org/abs/2609.08149v1) | Pujun Zheng, Zixin Shang, Shufan Jiang et al. | SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks. |
+| [FinCUABuild: Can Agents Build Reliable Benchmarks for Dynamic Financial Computer Use?](http://arxiv.org/abs/2609.07603v1) | Jingpu Yang, Fengxian Ji, Jinri Guo et al. | Financial scenarios are diverse and complex, spanning varying data conditions, tool configurations, and workflows. |
+| [APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents](http://arxiv.org/abs/2609.07712v1) | Jintian Feng, Long Chen, Xiao Yu et al. | Mobile GUI agents can execute tasks from natural-language instructions, but their evaluation remains difficult to make both realistic and reproducible. |
+| [Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems](http://arxiv.org/abs/2609.08887v1) | Maximilian Schall, Sedigheh Eslami, Markus Krimmel et al. | Evaluating first-stage retrievers in large-scale production RAG requires a benchmark that pairs a large-scale corpus with a large set of agent-reformulated search queries based on real user queries... |
+
 ### 📅 2026-09-09
 
 **12 new papers found**
