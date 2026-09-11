@@ -24,6 +24,32 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-11
+
+**7 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Can AI Agents Detect and Repair Artifact Drift in Network Experiments?](http://arxiv.org/abs/2609.09849v1) | Tianzhu Zhang, Weichen Tao, Changgang Zheng et al. | In recent years, AI agents have evolved into capable assistants that carry out multi-step tasks in digital environments. |
+| [SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?](http://arxiv.org/abs/2609.09113v1) | Yuqiao Tan, Shizhu He, Jun Zhao et al. | While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing t... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System](http://arxiv.org/abs/2609.10922v1) | Ming Li, Dai Li, Xuying Ning et al. | Auto-research agents have shown the potential to automate hypothesis generation, experiment execution, and iterative refinement. |
+| [PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving](http://arxiv.org/abs/2609.08965v1) | Yuan Gao, Sebastian Müller, Mattia Piccinini et al. | Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented mod... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents](http://arxiv.org/abs/2609.11243v1) | Jiaqiang Li, Yajie Yang, Zhiheng Xi et al. | Autonomous research agents are increasingly expected to search the literature, analyze experimental evidence, and generate scientific hypotheses. |
+| [Debate-to-Skill: Capability-Bound Process Supervision for Industrial Query-to-Agent Annotation](http://arxiv.org/abs/2609.11176v1) | Shiyu Zhang, Leisheng Cheng, Huifu Li | Industrial query-to-agent matching fails when topical relevance is mistaken for executable capability, especially on long-tail and boundary-sensitive requests. |
+| [When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making](http://arxiv.org/abs/2609.11709v1) | Ken Chen, Wei Wang, Sachith Seneviratne et al. | When multiple LLM agents yield conflicting answers, the decision-making process dictates whether agent diversity improves performance or merely compounds shared errors. |
+
 ### 📅 2026-09-10
 
 **14 new papers found**
