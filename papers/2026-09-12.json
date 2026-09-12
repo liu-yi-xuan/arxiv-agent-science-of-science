@@ -1,0 +1,176 @@
+[
+  {
+    "id": "2609.10922v1",
+    "title": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
+    "authors": [
+      "Ming Li",
+      "Dai Li",
+      "Xuying Ning",
+      "Bo Sun",
+      "Rui Li"
+    ],
+    "abstract": "Auto-research agents have shown the potential to automate hypothesis generation, experiment execution, and iterative refinement. However, scaling this paradigm to industry-scale recommendation models introduces two challenges: (1) long feedback loops, where model training can take days, making serial iteration prohibitively slow and requiring parallel exploration across multiple research directions; and (2) system complexity, where large configurations, fragile infrastructure dependencies, and multi-day GPU jobs require robust and recoverable execution. We present Auto-RecSys, an autonomous research system for long-horizon experimentation on industry-scale recommendation models. Auto-RecSys addresses these challenges through three harness designs: (1) distributed asynchronous execution for running multiple experiments in parallel across servers, (2) centralized cross-server memory for persistent and recoverable execution across sessions and failures, and (3) cognitive-procedural separation, where natural-language skill files guide LLM reasoning while deterministic scripts enforce operational correctness. Auto-RecSys further employs a dual-loop self-evolving architecture: an Execution Evolution Loop in which model-specific playbooks accumulate operational knowledge by recording failed attempts and crystallizing successful pipelines, and an Idea Evolution Loop in which experimental outcomes inform subsequent ideation. Evaluated on recommendation models, Auto-RecSys significantly reduces the human time required per experiment cycle and improves execution reliability as its playbooks mature.",
+    "url": "http://arxiv.org/abs/2609.10922v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10922v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.11243v1",
+    "title": "Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents",
+    "authors": [
+      "Jiaqiang Li",
+      "Yajie Yang",
+      "Zhiheng Xi",
+      "Jiadong Chen",
+      "Enyu Zhou"
+    ],
+    "abstract": "Autonomous research agents are increasingly expected to search the literature, analyze experimental evidence, and generate scientific hypotheses. These capabilities require multi-step evidence grounded reasoning that progressively acquires, integrates, and verifies evidence before reaching a conclusion. Existing multimodal benchmarks, however, largely evaluate final-answer accuracy, leaving open whether predictions are actually supported by traceable scientific evidence. We introduce Sci-MMR, a benchmark for multi-step evidence-grounded scientific reasoning built on structured argument graphs linking scientific claims, citation-grounded knowledge, visual evidence, and supporting regions. Sci-MMR comprises 235 multi-hop reasoning tasks spanning four scientific disciplines, with an average of nine figure panels per task. Evaluating eight frontier multimodal models, we find that answer accuracy consistently exceeds complete-evidence recovery rate by more than 20%, revealing a substantial gap that answer-only evaluation is structurally unable to capture. Through controlled interventions, we identify two fundamental bottlenecks. First, evidence acquisition: models struggle to extract complete structured evidence from scientific figures, accounting for 57.2% of failures. While cropping tools yield modest gains (+4.5 points), providing gold evidence improves accuracy by up to 37.0 points, indicating difficulty in assembling complete multi-region evidence. Second, evidence integration: models struggle to translate available evidence into correct conclusions, accounting for 31.8% of failures, while even with gold evidence the strongest model achieves only 69.1% accuracy on the hardest tasks. These findings indicate that current answer-centric benchmarks substantially overestimate the evidence-grounded reasoning capabilities of multimodal research agents",
+    "url": "http://arxiv.org/abs/2609.11243v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11243v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.11176v1",
+    "title": "Debate-to-Skill: Capability-Bound Process Supervision for Industrial Query-to-Agent Annotation",
+    "authors": [
+      "Shiyu Zhang",
+      "Leisheng Cheng",
+      "Huifu Li"
+    ],
+    "abstract": "Industrial query-to-agent matching fails when topical relevance is mistaken for executable capability, especially on long-tail and boundary-sensitive requests. We formulate annotation as \\emph{capability-bound process supervision} and instantiate it with Debate-to-Skill, which uses reusable decision principles, structured deliberation, verifier-based verdict extraction, and disagreement-driven refinement. On an industrial Query2Agent benchmark, we compare Debate-to-Skill with direct-label supervision, reasoning-SFT, and structural ablations. The results test whether gains come from supervising the capability-critical decision process itself, especially on grey-zone cases where semantic relatedness and executable capability diverge.",
+    "url": "http://arxiv.org/abs/2609.11176v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11176v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.11709v1",
+    "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+    "authors": [
+      "Ken Chen",
+      "Wei Wang",
+      "Sachith Seneviratne",
+      "Hansani Weeratunge",
+      "Saman Halgamuge"
+    ],
+    "abstract": "When multiple LLM agents yield conflicting answers, the decision-making process dictates whether agent diversity improves performance or merely compounds shared errors. Existing collective decision-making methods, including voting, electoral rules, and LLM judges, rely on forward reasoning: they map evidence to labels in one direction. Although these methods can combine diverse forward traces, they still aggregate estimates that share this evidence-to-label factorization and can inherit correlated errors within the forward pool. We therefore construct a reverse posterior for each instance through Bayesian backward reasoning from an explicit likelihood. The forward and reverse posteriors provide differently factorized approximations of the underlying posterior. Because estimates from different factorizations may tend to share the same error less often, we use Jensen-Shannon divergence to rank agents by cross-path consistency. This cross-path consistency signal underlies three strategies: hard selection (MinJS), soft reweighting (FwdJS), and log-linear fusion (LogLin). Evaluated on DDXPlus across five LLM backbones, our proposed strategies show consistent improvements: MinJS outperforms random selection across all backbones, FwdJS generally improves over the strongest baseline, and LogLin achieves the best performance among the evaluated methods, with its largest gains on the subset where the agents disagree. Despite its weaker standalone accuracy, the reverse posterior serves as a more useful anchor than forward-only alternatives, providing complementary information for collective decision-making. When labeled data are available, a lightweight two-stage calibration can further refine the reverse anchor and improve aggregation performance.",
+    "url": "http://arxiv.org/abs/2609.11709v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11709v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.11318v1",
+    "title": "Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents",
+    "authors": [
+      "Minghao Guo",
+      "Meng Cao",
+      "Sui Zhao",
+      "Siyu Ning",
+      "Xin Wang"
+    ],
+    "abstract": "Deep research agents are increasingly capable of web search, tool use, multimodal evidence analysis, and information synthesis. However, existing benchmarks mainly evaluate medium-horizon exploration and rarely test whether agents can sustain long, dependency-heavy research processes. We introduce Mr.LHDR (Multimodal real-world Long-Horizon Deep Research), a benchmark for evaluating real-world deep research over long, irreducible chains of interdependent evidence across eight categories. Each question is constructed from a hidden Node-Relation graph and requires an average of 12.1 necessary intermediate conclusions with a mean dependency depth of 10.4 before reaching a short, unique, and verifiable answer. Questions incorporate multimodal evidence, including images, maps, PDFs, logos, charts, tables, and video frames, with at least one non-text element that changes the reasoning state. Mr.LHDR evaluates both final answers and the correctness of intermediate conclusions under annotated dependencies. We evaluate general models, deep research systems, and agent frameworks using Overall Accuracy (OA), Strict Accuracy (SA), Checklist Score (CS), and Dependency-Aware Checklist Score (DACS). Results show that even the strongest system achieves only 43.1% OA and 34.3% SA, indicating that final-answer accuracy substantially overestimates complete research success. Removing images reduces DACS by 12.6 points, demonstrating the importance of multimodal evidence, while SA consistently declines as reasoning chains become longer. These findings reveal sustained, dependency-consistent evidence integration, rather than isolated fact retrieval, as a key bottleneck for current deep research agents.",
+    "url": "http://arxiv.org/abs/2609.11318v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11318v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.11018v1",
+    "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
+    "authors": [
+      "Mia Lassiter",
+      "Brinnae Bent"
+    ],
+    "abstract": "The term agent in artificial intelligence lacks a standard definition, complicating the evaluation, comparison, and reproducibility of AI agent research. We address this ambiguity through a survey organized around five dimensions of agenticness: environmental interaction, learning and adaptation, autonomy, goal-directed behavior, and temporal coherence. For each dimension, we examine how the underlying capability has been conceptualized across prior work and synthesize the metrics, benchmarks, and evaluation frameworks used to assess it. This review provides a structured account of the current landscape of agent evaluation, highlighting both established approaches and areas where evaluation remains limited or inconsistent. We additionally introduce the Agent Compendium, a public-facing digital resource that organizes and extends the evaluation methods identified through this review. Together, the survey and compendium provide a common structure for evaluating and comparing agent capabilities across AI systems, supporting more reproducible research, clearer communication, and more systematic study of artificial agents.",
+    "url": "http://arxiv.org/abs/2609.11018v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11018v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.11728v1",
+    "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
+    "authors": [
+      "Lorena A. Barba"
+    ],
+    "abstract": "Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode.",
+    "url": "http://arxiv.org/abs/2609.11728v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11728v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.SE",
+      "cs.CY"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.11141v1",
+    "title": "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
+    "authors": [
+      "Dong-Jae Koh",
+      "Huisu Kim",
+      "SeongHwan Yoon",
+      "Lasse M. Jantsch",
+      "Chun-Hee Lee"
+    ],
+    "abstract": "Large Language Models (LLMs) are increasingly used to generate structured outputs, but their reliability remains unclear when those outputs must satisfy database-level constraints. We study this issue through database normalization, involving reasoning about functional dependencies, lossless join decompositions, and inter-table constraints. We introduce a Database Normalization Benchmark (DNBENCH), comprising 3,275 samples for evaluating LLM-driven database normalization from 1NF to BCNF. DNBENCH uses a three-axis protocol to measure semantic equivalence, structural accuracy, and logical validity. Across Single, Complex, and Real World levels, DNBENCH uncovers recurring failures in dependency inference, schema decomposition, and inter-table constraint reconstruction. We further propose Multi-Agent Reasoning for Schemas (MARS), which separates evidence extraction, violation diagnosis, and decomposition planning from schema generation and verification. MARS improves the DNB-SCORE by 82.0% over the single-prompt baseline. All artifacts will be released upon acceptance.",
+    "url": "http://arxiv.org/abs/2609.11141v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11141v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.11101v1",
+    "title": "ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation",
+    "authors": [
+      "Zesheng Wei",
+      "Mengfan Li",
+      "Wenhao Liu",
+      "Yixin Zhang",
+      "Zilei Wang"
+    ],
+    "abstract": "Dispute mediation is essential for maintaining social harmony and resilience, yet developing skilled mediators is costly and time-consuming. Existing LLM-based mediation research remains limited by unrealistic task formulations, low-fidelity datasets, and coarse evaluation metrics that obscure turn-by-turn dynamics. To address these gaps, we introduce ProMediConv, a novel benchmarking framework that models mediation as a proactive, multi-stage, and party-aware dialogue process incorporating 11 mediation strategies and four party behavior pattern (BP) states. Using 972 complete real-world cases, we construct a high-fidelity mediation dataset with utterance-level annotations of strategies and BP states. Furthermore, to better assess agent impact, we propose MAD (Mean Attribute Difference), a fine-grained metric that captures BP shifts throughout the dialogue. Leveraging this framework, we establish a comprehensive benchmark by evaluating diverse models alongside our tailored baseline ProMediAgent. Extensive empirical analyses reveal critical behavioral phenomena and underscore the persistent challenges current models face in dynamic, multi-party mediation. Ultimately, ProMediConv provides a rigorous foundation and a vital quantitative standard for advancing AI-assisted conflict resolution. Our dataset and codebase are accessible at https://github.com/ZsWei66/ProMediConv_repo.",
+    "url": "http://arxiv.org/abs/2609.11101v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11101v1",
+    "published": "2026-09-10",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

@@ -24,6 +24,34 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-12
+
+**9 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System](http://arxiv.org/abs/2609.10922v1) | Ming Li, Dai Li, Xuying Ning et al. | Auto-research agents have shown the potential to automate hypothesis generation, experiment execution, and iterative refinement. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents](http://arxiv.org/abs/2609.11243v1) | Jiaqiang Li, Yajie Yang, Zhiheng Xi et al. | Autonomous research agents are increasingly expected to search the literature, analyze experimental evidence, and generate scientific hypotheses. |
+| [Debate-to-Skill: Capability-Bound Process Supervision for Industrial Query-to-Agent Annotation](http://arxiv.org/abs/2609.11176v1) | Shiyu Zhang, Leisheng Cheng, Huifu Li | Industrial query-to-agent matching fails when topical relevance is mistaken for executable capability, especially on long-tail and boundary-sensitive requests. |
+| [When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making](http://arxiv.org/abs/2609.11709v1) | Ken Chen, Wei Wang, Sachith Seneviratne et al. | When multiple LLM agents yield conflicting answers, the decision-making process dictates whether agent diversity improves performance or merely compounds shared errors. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents](http://arxiv.org/abs/2609.11318v1) | Minghao Guo, Meng Cao, Sui Zhao et al. | Deep research agents are increasingly capable of web search, tool use, multimodal evidence analysis, and information synthesis. |
+| [Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks](http://arxiv.org/abs/2609.11018v1) | Mia Lassiter, Brinnae Bent | The term agent in artificial intelligence lacks a standard definition, complicating the evaluation, comparison, and reproducibility of AI agent research. |
+| [Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase](http://arxiv.org/abs/2609.11728v1) | Lorena A. Barba | Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and deci... |
+| [Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization](http://arxiv.org/abs/2609.11141v1) | Dong-Jae Koh, Huisu Kim, SeongHwan Yoon et al. | Large Language Models (LLMs) are increasingly used to generate structured outputs, but their reliability remains unclear when those outputs must satisfy database-level constraints. |
+| [ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation](http://arxiv.org/abs/2609.11101v1) | Zesheng Wei, Mengfan Li, Wenhao Liu et al. | Dispute mediation is essential for maintaining social harmony and resilience, yet developing skilled mediators is costly and time-consuming. |
+
 ### 📅 2026-09-11
 
 **7 new papers found**
