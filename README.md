@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-13
+
+**1 new papers found**
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase](http://arxiv.org/abs/2609.11728v1) | Lorena A. Barba | Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and deci... |
+
 ### 📅 2026-09-12
 
 **9 new papers found**
