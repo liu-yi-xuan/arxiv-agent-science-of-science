@@ -1,0 +1,275 @@
+[
+  {
+    "id": "2609.15161v1",
+    "title": "EMR: Self-Evolving Medical Multi-Agent System via Experience Mining and Reuse",
+    "authors": [
+      "Dongsheng Shi",
+      "Yue Li",
+      "Xin Yi",
+      "Linlin Wang"
+    ],
+    "abstract": "Large language model (LLM) driven multi-agent systems have shown promise in complex clinical reasoning, yet existing approaches rely on static strategies and lack persistent clinical memory, preventing self-evolving from prior diagnostic successes and failures. We present EMR, a self-evolving medical multi-agent system via Experience Mining and Reuse. EMR introduces a hierarchical clinical experience library that organizes accumulated knowledge into three levels: clinical principles, diagnostic patterns, and representative cases. During inference, EMR emulates multidisciplinary consultation: a planner agent coordinates domain-specific department agents for specialized reasoning, while a summary agent synthesizes their analyses into a final decision. Critically, EMR automatically extracts correct diagnostic insights and failure-related warnings from multi-agent reasoning trajectories, incrementally updating the experience library to guide future cases. Experiments on medical reasoning benchmarks demonstrate that EMR consistently outperforms state-of-the-art medical multi-agent baselines. Further analysis reveals that the hierarchical experience enables cross-specialty generalization and transfer across diverse LLM backbones, offering a scalable and in",
+    "url": "http://arxiv.org/abs/2609.15161v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15161v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.14767v1",
+    "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+    "authors": [
+      "Burak Agachan",
+      "Max van Duijn",
+      "Amirhossein Zohrehvand"
+    ],
+    "abstract": "Hierarchical orchestration, in which a Manager agent reviews worker output and can send it back for revision, is the default coordination pattern in production multi-agent LLM frameworks. Classical organizational theory predicts that the authority link speeds convergence on decisive output; work on sycophancy and Degeneration-of-Thought predicts that authoritative critique makes LLM output worse. Prior comparisons vary whole frameworks on tasks with checkable answers, leaving the authority link untested on open-ended work. We present a paired experiment that holds five LLM agents, their roles, prompts, tools, models, and data fixed and varies one link: whether the Manager may reject a worker's output and oblige a revision. Across 43 paired products and 86 runs of a business-intelligence reporting task, a five-model judge panel and a deterministic specification check score every report. The flat organization scores higher on Utility (d = 0.42, p = 0.009) and on Writing Clarity (d = 0.34, p = 0.030); the classical prediction fails. The reports are the same length, but hierarchical reports hedge 53% more, each revision loop is associated with a 0.14-point drop in Writing Clarity, and the hierarchical Writer's first draft is indistinguishable from the flat report: the gap opens inside the revision loop. Specification accuracy is at ceiling in both organizations, and the supervisory tier costs 51.5% more tokens for no quality gain. A supervisor pays for itself when it can verify and becomes a liability when it can only opine.",
+    "url": "http://arxiv.org/abs/2609.14767v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14767v1",
+    "published": "2026-09-13",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL",
+      "econ.GN"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.16305v1",
+    "title": "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents",
+    "authors": [
+      "Sadia Asif",
+      "Mohammad Mohammadi Amiri",
+      "Momin Abbas",
+      "Tejaswini Pedapati",
+      "Prasanna Sattigeri"
+    ],
+    "abstract": "Large language model (LLM) agents increasingly operate over long-horizon interactions involving tool use, persistent state, evolving authorization, and external environment feedback. In such settings, safety failures may emerge only after multiple turns, yet existing evaluations often reduce agent behavior to task or attack success, obscuring whether an agent acts, refuses, or remains appropriately calibrated as the interaction evolves. We introduce Blindspot, a benchmark for trajectory-level safety calibration of long-horizon tool-using agents. Blindspot evaluates complete user-agent-environment trajectories through adaptive adversarial interaction, stateful tool execution, and execution-grounded adjudication. Its current instantiation contains 22 attack families and 35 scenarios across seven domains, yielding more than 2,500 long-horizon trajectories with an average interaction length of 14.7 turns. Each trajectory is assigned one of five outcomes: Safe Completion, Correct Refusal, Unsafe Completion, Over-Refusal, or Indeterminate. Unlike fixed attack datasets, Blindspot is an extensible live-simulation framework in which attacks, scenarios, tools, policies, domains, and agent configurations can be added without redesigning the evaluation pipeline. We evaluate 13 proprietary and open-weight LLMs using eight metrics covering unsafe completion, appropriate refusal, benign utility, over-refusal, repeated-run robustness, and post-refusal failure. Preliminary results reveal substantial differences in safety-utility calibration across models and show that failures can emerge only after several initially safe interaction steps. These findings motivate treating agent safety as a trajectory-level property rather than a single-turn or binary success criterion.",
+    "url": "http://arxiv.org/abs/2609.16305v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16305v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.AI",
+      "cs.CE",
+      "cs.CL",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.16268v1",
+    "title": "Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act",
+    "authors": [
+      "Yiwei Yang",
+      "Haoxiang Zhang",
+      "Bingbing Wen",
+      "Yao Lu",
+      "Yuchen Wu"
+    ],
+    "abstract": "Large language model (LLM) agents increasingly interleave natural language reasoning with external tools such as web search and code execution. These tool-use policies are often optimized via reinforcement learning (RL), which can amplify spurious correlations in the training data. In this work, we study when and why RL-trained agents learn shortcut tool-selection policies: invoking tools based on superficial prompt cues rather than genuine task requirements. We construct controlled synthetic environments combining factual question answering and mathematical reasoning tasks, and inject cues that are strongly correlated with specific tools during training but causally irrelevant to tool necessity. Across counterfactual evaluations where cues are present but the associated tools are not required, agents exhibit substantial shortcut behavior, with spurious tool invocation rates increasing by up to 39 percent. However, shortcut formation is not universal: across the conditions we test, it arises only when the agent has already learned to use the target tool reliably, suggesting that task competence, rather than dataset imbalance alone, is a key factor in shortcut learning. A swapped-cue analysis further shows that semantic alignment between cues and tools substantially amplifies this effect. To mitigate these failures, we introduce a dense, decision-level reward in which an LLM judge evaluates the necessity of each tool call. This tool-necessity reward effectively suppresses cue-driven tool use while preserving task performance, providing a practical approach to improving the robustness of LLM agent tool-use policies.",
+    "url": "http://arxiv.org/abs/2609.16268v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16268v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.15066v1",
+    "title": "Salesforce Koa: An Enterprise Language Model for Agentic Tool Use",
+    "authors": [
+      "Zixiang Chen",
+      "Sufeng Niu",
+      "Yingchi Liu",
+      "Wenting Zhao",
+      "Akshara Prabhakar"
+    ],
+    "abstract": "We present Salesforce Koa, an enterprise language model built by post-training the open-weight Nemotron-3-Super-120B foundation model with reinforcement learning using Group Relative Policy Optimization (GRPO). Salesforce Koa is trained on public and synthetically generated data, with no customer data, to improve tool use and agentic capabilities while preserving strong general-purpose performance. Its distinctive component is a simulation-to-reward pipeline that expands workflow specifications into persona-conditioned multi-turn tasks with task-resolution rewards grounded in successful tool use for data-dependent requests. For enterprise domains, these specifications are written in Agent Script, Salesforce's declarative language for building Agentforce agents; for public tool-use domains, we synthesize the workflow structure directly. The same simulation and grounded-reward machinery drives GRPO across both. Across public tool-use, agentic-reasoning, and enterprise Customer Relationship Management (CRM) benchmarks, Salesforce Koa improves over its open-weight base, with the clearest gains on multi-turn tool use, and surpasses a strong proprietary baseline while remaining below the strongest frontier models. These results show that specification-driven reinforcement learning is a practical path to specializing open-weight foundation models for enterprise agentic tasks.",
+    "url": "http://arxiv.org/abs/2609.15066v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15066v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.15938v1",
+    "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+    "authors": [
+      "Jieyuan Liu",
+      "Mengzhou Hu",
+      "Jefferson Chen",
+      "JungHo Kong",
+      "Pratibha Jagannatha"
+    ],
+    "abstract": "Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new explanations. Recent systems combine scientific agents with evolutionary search through critique, comparison, and revision. However, how different forms of agent collaboration affect hypothesis quality remains an open question. Answering this question requires separating the effects of agents' scientific capabilities from those of their collaboration. A framework must therefore preserve agents' scientific roles and support rules for combining, revising, and retaining hypotheses. Building on this view, we introduce HypoEvolve, which makes collaboration explicit through successive updates to a hypothesis population. Specifically, we propose a generational genetic algorithm to coordinate specialized large language model (LLM) agents that integrate mechanistic arguments, reconsider assumptions, and assess evidence and testability. Each generation specifies how scientific judgments and new proposals reshape the population, making collaboration effects on hypothesis quality directly testable. Moreover, we design our evaluation around scientifically meaningful hypotheses that explain how a proposed intervention could work. Drug repurposing links these explanations to target-level biological claims assessed against external evidence. Specifically, we adapt DepMap and Open Targets into complementary external measures grounded in experimental, genetic, and clinical evidence. Across 34 cancer types, HypoEvolve achieves the highest scores against six baselines on both measures. DepMap selectivity reaches 0.171, versus 0.115 for the strongest baseline. Gains over single-pass generation also generalize to held-out cancer types. HypoEvolve advances a vision of autonomous science in which AI research teams achieve a capacity for discovery beyond that of individual models.",
+    "url": "http://arxiv.org/abs/2609.15938v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15938v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CL",
+      "cs.CE",
+      "cs.MA",
+      "cs.NE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.14761v1",
+    "title": "From Visual Feedback to Textual Reviews: A Multi-Agent Vision-Language Framework for Image-Grounded Review Assistance",
+    "authors": [
+      "Utsav Kumar Nareti",
+      "Ayush Bansal",
+      "Kumari Priya",
+      "Chandranath Adak",
+      "Soumi Chattopadhyay"
+    ],
+    "abstract": "Visual feedback in the form of user-uploaded images and videos is becoming increasingly common in e-commerce platforms because it provides authentic evidence of product quality, defects, packaging conditions, and real-world usage. However, visual feedback alone often lacks the contextual explanations and subjective opinions necessary for informed decision-making, while many users provide limited textual feedback due to the effort required to compose detailed reviews. To bridge this gap, we introduce image-grounded review assistance, a novel task that aims to generate editable review drafts from user-uploaded product images. Unlike conventional image captioning, which focuses on objective visual description, the proposed task requires product-specific understanding, sentiment estimation, and evidence-driven review composition under challenging real-world conditions, including degraded image quality, excessive zoom-in, target ambiguity, and partial product visibility. We propose a multi-agent vision-language framework consisting of four specialised roles: product grounding, visual sentiment estimation, visual evidence generation, and review synthesis. The framework employs explicit intermediate representations, including product entities, predicted ratings, and evidence summaries, to improve interpretability and visual grounding. Experiments on a curated subset of the Amazon Reviews Electronics dataset demonstrate the feasibility of generating coherent, product-aware, and sentiment-aware review drafts from visual feedback. To the best of our knowledge, this is the first study to formulate image-grounded review assistance as a multi-agent vision-language reasoning problem, providing a practical step toward AI-assisted review authoring in e-commerce systems.",
+    "url": "http://arxiv.org/abs/2609.14761v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14761v1",
+    "published": "2026-09-13",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.14514v1",
+    "title": "OptoAgent: A Trustworthy Multi-Agent Framework for Opportunistic Vision Micro-Screening in Classroom Environments",
+    "authors": [
+      "Toqeer Ali Syed",
+      "Ali Akarma",
+      "Adeel Ahmad",
+      "Hammad Muneer"
+    ],
+    "abstract": "A child with reduced distance vision often does not know that anything is wrong. Children adapt, move closer, and rarely report the difficulty, so the problem can survive years of schooling before an adult notices. School screening addresses part of this, but it runs on a schedule, depends on staffing, and is separated from the classroom moments where the difficulty appears. Smartphone and web-based acuity tests have widened access, yet every one of them still needs somebody to start a test. We present SightSentinel, an architecture that turns a wall display a child already reads from into a recurring screening site. Ordinary educational content carries short calibrated optotype probes, and eight specialized agents divide the work. Perception agents recover viewing distance, recognition accuracy, approach behavior, gaze stability, response latency, and interocular difference from each encounter. A quality agent discards observations taken under bad geometry, poor lighting, or inattention. A longitudinal agent accumulates only the surviving evidence against the child's own baseline, and an orchestrator reports a Vision Concern Score routed through a safety gate whose output range excludes diagnosis, refraction, prescription, and reassurance. The design question is whether many cheap, noisy, well-gated encounters can reach a referral decision that one scheduled test reaches late or misses. We state the formulation, the architecture, a four-stage validation protocol against clinical reference standards, and the conditions under which the approach should be rejected.",
+    "url": "http://arxiv.org/abs/2609.14514v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14514v1",
+    "published": "2026-09-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.15079v1",
+    "title": "Translating the Translator: Decomposing the Cost of English-Forced Inter-Agent Communication",
+    "authors": [
+      "Kushagra Agrawal",
+      "Yuming Feng",
+      "Man-Fai Leung"
+    ],
+    "abstract": "Multi-agent LLM architectures, such as LangChain and AutoGen, largely assume English as the lingua franca for internal inter-agent communication, even when the end-user task is non-English. We fill this gap by evaluating a two-agent extraction-answer core, with an additional back-translation agent in the English-forced condition, across four typologically diverse languages (Hindi, Chinese, Spanish, Arabic; n = 300 per language) using the Aya-23-8B model. We compare a native-language pipeline to an English-forced one (which incorporates a final back-translation step from English to the user's language). We discover a statistically significant English-Forcing Tax (surviving a strict Bonferroni correction) that isolates the cost of English routing from general multi-agent orchestration overhead. Forcing inter-agent communication through English reduces Exact Match accuracy by 13.0 percentage points (Spanish) up to 30.6 percentage points (Hindi) compared to native-language multi-agent execution. Using chrF scores as a diagnostic measure of English-reference lexical overlap, we find that lower overlap is strongly associated with pipeline failure, consistent with translation loss being an important contributor to the observed performance drop. These findings suggest a compelling case for native-language routing in agent frameworks when the source and target languages are typologically distant, reducing a compounding translation tax.",
+    "url": "http://arxiv.org/abs/2609.15079v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15079v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.16487v1",
+    "title": "Skill-based Agentic Evaluation for Real-time Data Science Tasks",
+    "authors": [
+      "Aniruddha Tamhane",
+      "Raghavendra Addanki",
+      "Ayushi Aggarwal",
+      "Aditya Bansal",
+      "Rui Wang"
+    ],
+    "abstract": "We present a framework for evaluating data-science agents on live, continuously updated data using executable ground truth and format-agnostic factoid scoring. Consider this example query: \"what were last week's audience sizes\"---the reference answer changes as the underlying data changes, so static references become outdated and standard LLM-as-a-judge pipelines cannot verify responses against a fixed ground truth. Our central contribution, ground-truth-as-code, encodes each expected answer as an executable reference function that recomputes the answer directly from live data at evaluation time, ensuring the reference remains consistent with the system it describes. We combine this with a factoid-level, format-agnostic judge that decomposes both the agent's response and the computed ground truth into atomic claims and scores precision, recall, and accuracy over them, irrespective of the response format (prose, list, table, HTML, etc.). The approach is applicable to agents whose expected outputs can be expressed as executable data computations. We validate the framework through a human--LLM agreement study on an internally developed machine learning skill deployed in production, using a synthetic database constructed to reproduce production schemas and entity relationships. Relative to a natural-language ground-truth baseline, our method achieves a 29% improvement in the Matthews Correlation Coefficient (MCC)---a class-balanced measure of agreement between expert annotators and LLM-as-a-judge predictions---and a 16% reduction in token consumption per test case, while a self-directed baseline lacking explicit ground truth is anti-correlated with human judgment. Agents that perform multi-source data integration and computation over non-stationary data are routinely deployed in industry; we propose ground-truth-as-code as a practical methodology for their evaluation.",
+    "url": "http://arxiv.org/abs/2609.16487v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16487v1",
+    "published": "2026-09-15",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.15939v1",
+    "title": "Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale",
+    "authors": [
+      "Aman Priyanshu",
+      "Supriti Vijay",
+      "Kimia Majd",
+      "Xuhong He",
+      "Fraser Burch"
+    ],
+    "abstract": "Language-model agents increasingly operate over complete software repositories, yet cybersecurity evaluations primarily measure whether they can detect, reproduce, or repair vulnerabilities rather than whether they can locate the relevant code. We study vulnerability localization: given a weakness class and an unfamiliar repository, identify the implementation files associated with that weakness. We introduce the Vulnerability Localization Benchmark (VLoc Bench), comprising 500 real world vulnerabilities from 290 repositories across six package ecosystems and 147 CWE categories. Each task pairs repository snapshots immediately before and after a security fix. On the vulnerable snapshot, an agent receives only the CWE description and read-only terminal access and must return the affected files; on the patched snapshot, it must determine that the recorded vulnerability is no longer present. We evaluate 27 language models and four static-analysis tools under a common agent interface. Repository-scale vulnerability localization remains difficult: the strongest system achieves 0.229 File F1, and 38.4% of tasks receive no correct localization from any evaluated model.   We further find that stronger localization does not imply reliable behavior after remediation: systems that identify vulnerable files effectively can still report unsupported locations on patched repositories. These results establish vulnerability localization as a distinct repository-scale capability and provide a setting for studying both how security agents search for vulnerable code and when they should refrain from reporting it.",
+    "url": "http://arxiv.org/abs/2609.15939v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15939v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.16519v1",
+    "title": "AquiLLM: Evaluating Faithfulness in Open-Weight RAG-LLM Systems for Scientific Research",
+    "authors": [
+      "Bernie Boscoe",
+      "Srinath Saikrishnan",
+      "Vikram Seenivasan",
+      "Jack Stark",
+      "Andrew Lizarraga"
+    ],
+    "abstract": "Scientific research increasingly relies on large, heterogeneous data sources, motivating interest in retrieval-augmented generation (RAG) systems that provide natural language access to scientific knowledge and research workflows. Researchers are exploring the viability of these systems as natural language interfaces for document search and for generating analysis code and pipeline components. At the same time, concerns about data privacy and control over research infrastructure have motivated interest in open-weight models and open-source deployments hosted within research institutions.   In astronomy, this development follows a long history of computational infrastructure development, from archival databases and SQL-based systems to LLM-assisted research tools. This paper presents a domain-expert evaluation of faithfulness for AquiLLM, an open-weight, offline RAG-LLM platform designed to support scientific research groups in the use and preservation of tacit and formal knowledge.   We define faithfulness as the extent to which generated responses remain grounded in retrieved scientific context without unsupported claims or omissions. We report results from an astronomy case study evaluating AquiLLM across retrieval and scientific analysis tasks. AquiLLM performs most reliably on explicit retrieval-oriented questions grounded in the RAG collection, while faithfulness degrades for queries requiring synthesis or ambiguity resolution. These results highlight both the promise and limitations of open-weight RAG-LLM systems for scientific research and demonstrate the importance of domain-expert evaluation beyond standard benchmark leaderboards.",
+    "url": "http://arxiv.org/abs/2609.16519v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16519v1",
+    "published": "2026-09-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.14992v1",
+    "title": "MTAC-IFBench: Benchmarking Instruction-Following in Multi-Turn Agentic Coding",
+    "authors": [
+      "Bosi Wen",
+      "Cunxiang Wang",
+      "Jiayi Gui",
+      "Haoke Zhang",
+      "Yilin Niu"
+    ],
+    "abstract": "Recently, the rapid development of large language models (LLMs) has reshaped software engineering by enabling autonomous code agents that plan, execute, and utilize external tools iteratively to tackle complex tasks. Beyond achieving functional correctness, these agents must faithfully follow process instructions and constraints throughout the development lifecycle. However, existing benchmarks typically focus on final functional correctness or confine instruction-following evaluation to single-turn, general chat or simple code generation scenarios, leaving instruction-following in multi-turn agentic coding underexplored. To bridge this gap, we propose MTAC-IFBench, a comprehensive benchmark for this critical capability. It features multi-turn progressive software development instructions with diverse constraints spanning 6 primary and 18 secondary categories. With an average of 7.04 turns and 91.33 constraints per instance, it poses a rigorous challenge to current LLMs. To make the evaluation reliable, we construct a checklist for each constraint and functional requirement, and integrate verification scripts and judge agents to verify each checklist item. MTAC-IFBench identifies significant deficiencies in existing code agents in multi-turn instruction-following, with their performance degrading rapidly as the interaction session grows longer.",
+    "url": "http://arxiv.org/abs/2609.14992v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14992v1",
+    "published": "2026-09-14",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

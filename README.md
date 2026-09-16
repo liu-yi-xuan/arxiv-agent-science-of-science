@@ -24,6 +24,43 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-16
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EMR: Self-Evolving Medical Multi-Agent System via Experience Mining and Reuse](http://arxiv.org/abs/2609.15161v1) | Dongsheng Shi, Yue Li, Xin Yi et al. | Large language model (LLM) driven multi-agent systems have shown promise in complex clinical reasoning, yet existing approaches rely on static strategies and lack persistent clinical memory, preven... |
+| [Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination](http://arxiv.org/abs/2609.14767v1) | Burak Agachan, Max van Duijn, Amirhossein Zohrehvand | Hierarchical orchestration, in which a Manager agent reviews worker output and can send it back for revision, is the default coordination pattern in production multi-agent LLM frameworks. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents](http://arxiv.org/abs/2609.16305v1) | Sadia Asif, Mohammad Mohammadi Amiri, Momin Abbas et al. | Large language model (LLM) agents increasingly operate over long-horizon interactions involving tool use, persistent state, evolving authorization, and external environment feedback. |
+| [Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act](http://arxiv.org/abs/2609.16268v1) | Yiwei Yang, Haoxiang Zhang, Bingbing Wen et al. | Large language model (LLM) agents increasingly interleave natural language reasoning with external tools such as web search and code execution. |
+| [Salesforce Koa: An Enterprise Language Model for Agentic Tool Use](http://arxiv.org/abs/2609.15066v1) | Zixiang Chen, Sufeng Niu, Yingchi Liu et al. | We present Salesforce Koa, an enterprise language model built by post-training the open-weight Nemotron-3-Super-120B foundation model with reinforcement learning using Group Relative Policy Optimiz... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses](http://arxiv.org/abs/2609.15938v1) | Jieyuan Liu, Mengzhou Hu, Jefferson Chen et al. | Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new explanations. |
+| [From Visual Feedback to Textual Reviews: A Multi-Agent Vision-Language Framework for Image-Grounded Review Assistance](http://arxiv.org/abs/2609.14761v1) | Utsav Kumar Nareti, Ayush Bansal, Kumari Priya et al. | Visual feedback in the form of user-uploaded images and videos is becoming increasingly common in e-commerce platforms because it provides authentic evidence of product quality, defects, packaging ... |
+| [OptoAgent: A Trustworthy Multi-Agent Framework for Opportunistic Vision Micro-Screening in Classroom Environments](http://arxiv.org/abs/2609.14514v1) | Toqeer Ali Syed, Ali Akarma, Adeel Ahmad et al. | A child with reduced distance vision often does not know that anything is wrong. Children adapt, move closer, and rarely report the difficulty, so the problem can survive years of schooling before ... |
+| [Translating the Translator: Decomposing the Cost of English-Forced Inter-Agent Communication](http://arxiv.org/abs/2609.15079v1) | Kushagra Agrawal, Yuming Feng, Man-Fai Leung | Multi-agent LLM architectures, such as LangChain and AutoGen, largely assume English as the lingua franca for internal inter-agent communication, even when the end-user task is non-English. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Skill-based Agentic Evaluation for Real-time Data Science Tasks](http://arxiv.org/abs/2609.16487v1) | Aniruddha Tamhane, Raghavendra Addanki, Ayushi Aggarwal et al. | We present a framework for evaluating data-science agents on live, continuously updated data using executable ground truth and format-agnostic factoid scoring. |
+| [Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale](http://arxiv.org/abs/2609.15939v1) | Aman Priyanshu, Supriti Vijay, Kimia Majd et al. | Language-model agents increasingly operate over complete software repositories, yet cybersecurity evaluations primarily measure whether they can detect, reproduce, or repair vulnerabilities rather ... |
+| [AquiLLM: Evaluating Faithfulness in Open-Weight RAG-LLM Systems for Scientific Research](http://arxiv.org/abs/2609.16519v1) | Bernie Boscoe, Srinath Saikrishnan, Vikram Seenivasan et al. | Scientific research increasingly relies on large, heterogeneous data sources, motivating interest in retrieval-augmented generation (RAG) systems that provide natural language access to scientific ... |
+| [MTAC-IFBench: Benchmarking Instruction-Following in Multi-Turn Agentic Coding](http://arxiv.org/abs/2609.14992v1) | Bosi Wen, Cunxiang Wang, Jiayi Gui et al. | Recently, the rapid development of large language models (LLMs) has reshaped software engineering by enabling autonomous code agents that plan, execute, and utilize external tools iteratively to ta... |
+
 ### 📅 2026-09-15
 
 *No new papers found today.*
