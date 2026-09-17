@@ -24,6 +24,33 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-17
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents](http://arxiv.org/abs/2609.18598v1) | Izumi Takahara, Kazunori Nishio, Akira Aiba et al. | Self-driving laboratories can explore synthesis conditions autonomously, but their decision-making layer is typically a black-box optimizer, and the output is a set of optimized samples, with the m... |
+| [Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents](http://arxiv.org/abs/2609.17708v1) | Caiqi Zhang, Xiaochen Zhu, Chengzu Li et al. | Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated estimate of the probability that an output is correct decides what to ship, wha... |
+| [EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents](http://arxiv.org/abs/2609.17632v1) | Sehee Kim, Yumin Choi, Minki Kang et al. | Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed befo... |
+| [PrimeScientist: Strategic Allocation of Research Effort in Autonomous Research](http://arxiv.org/abs/2609.17846v1) | Xinle Yu, Fan Bai, Kaiser Sun et al. | Autonomous research agents aim to automate scientific workflows, from proposing ideas to conducting experiments and analyzing results. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents](http://arxiv.org/abs/2609.16305v1) | Sadia Asif, Mohammad Mohammadi Amiri, Momin Abbas et al. | Large language model (LLM) agents increasingly operate over long-horizon interactions involving tool use, persistent state, evolving authorization, and external environment feedback. |
+| [Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act](http://arxiv.org/abs/2609.16268v1) | Yiwei Yang, Haoxiang Zhang, Bingbing Wen et al. | Large language model (LLM) agents increasingly interleave natural language reasoning with external tools such as web search and code execution. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses](http://arxiv.org/abs/2609.15938v1) | Jieyuan Liu, Mengzhou Hu, Jefferson Chen et al. | Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new explanations. |
+| [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making](http://arxiv.org/abs/2609.18591v1) | Yu Liu, Wenwen Li, Yifan Dou et al. | In-context learning (ICL) enables large language model (LLM) agents to improve decisions using interaction history, yet it remains unclear whether such improvement reflects refined internal reasoni... |
+
 ### 📅 2026-09-16
 
 **13 new papers found**
