@@ -24,6 +24,23 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-19
+
+**3 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents](http://arxiv.org/abs/2609.18598v1) | Izumi Takahara, Kazunori Nishio, Akira Aiba et al. | Self-driving laboratories can explore synthesis conditions autonomously, but their decision-making layer is typically a black-box optimizer, and the output is a set of optimized samples, with the m... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Use and Effects of LLMs in Peer Review: A Randomized Experiment and Survey at ICML 2026](http://arxiv.org/abs/2609.19420v1) | Sunnie S. Y. Kim, Wesley Hanwen Deng, Jennifer Wortman Vaughan et al. | LLMs are rapidly reshaping peer review, making it important to understand how reviewers use them in practice and how different LLM-use policies affect review outcomes. |
+| [How Do Agent Harnesses Create Value? Planning Information and Release Control in Stateful LLM Agents](http://arxiv.org/abs/2609.20474v1) | Yukun Zhang, Kemu Xu, Yishen Chen | Agent harnesses supply planning guidance, organize execution, and check completion. We study how these components affect success, erroneous acceptance, and cost in two Retail experiments and an Air... |
+
 ### 📅 2026-09-18
 
 *No new papers found today.*
