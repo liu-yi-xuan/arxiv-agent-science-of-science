@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-21
+
+**1 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization](http://arxiv.org/abs/2609.21859v1) | Jiacheng Lin, Zifeng Wang, Zheng Chen et al. | Nearly 90% of drugs entering clinical development ultimately fail, despite billions of dollars in investment. |
+
 ### 📅 2026-09-20
 
 **1 new papers found**
