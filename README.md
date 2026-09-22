@@ -24,6 +24,35 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-22
+
+**10 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Judging a Review by its Cover: A Reliability Analysis of LLM-based Peer Review Evaluation Metrics](http://arxiv.org/abs/2609.23264v1) | Shakiba Amirshahi, Sajad Ebrahimi, Hai Son Le et al. | Peer-review evaluation is increasingly being automated with LLM-as-a-judge metrics, but this creates a measurement risk. |
+| [Canonical Procedural Actions: An Auditable Annotation Protocol for Tool-Use Agent Traces](http://arxiv.org/abs/2609.24264v1) | Songqi Li, Dongqing Li, Zheqiao Cheng | Tool-use agent traces identify messages and API calls, but procedural analyses also need explicit units of action and inspectable links to their evidence. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DiagGen: Agentic Generation of Deformable Assets with Sim-based Diagnostics for Robotic Simulation](http://arxiv.org/abs/2609.23103v1) | Guanxiong Chen, Yiduo Qu, Qianjun Xia et al. | While simulation-ready deformable assets are essential for in-silico robotic manipulation tasks, existing generation frameworks typically assess physical plausibility after generation, leaving an o... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security](http://arxiv.org/abs/2609.24662v1) | Ivan Aleksandrov, German Kochnev, Sabrina Sadiekh et al. | LLM-based agents increasingly operate in environments where they interact with users, tools, and external systems. |
+| [MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents](http://arxiv.org/abs/2609.24259v1) | Ruike Cao, Fanyu Zhao, Fugen Yao et al. | The effectiveness of agent memory ultimately depends on whether the underlying LLM gives each memory in context an appropriate degree of influence over its response. |
+| [MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents](http://arxiv.org/abs/2609.24161v1) | Demetris Paschalides, Moysis Symeonides, George Pallis et al. | As LLM agents increasingly interact with external tools through standardized protocols such as MCP, tool-interface design becomes a critical yet underexplored factor. |
+| [WidgetVA: A Widget-Centric Framework and Benchmark for Agentic Visual Analytics](http://arxiv.org/abs/2609.24094v1) | Yutong Chen, Zhike Tang, Zhihao Mai et al. | Visual analytics (VA) enables sensemaking through interactive visualization, but effective analysis often requires experts to translate high-level intents into long sequences of interface operation... |
+| [PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI](http://arxiv.org/abs/2609.23695v1) | Mohamed Amine Ferrag, Merouane Debbah, Abderrahmane Lakas et al. | Recent advances in Physical AI have accelerated the use of foundation models in autonomous systems such as unmanned aerial vehicles (UAVs), which must perceive, reason, plan, and act in dynamic env... |
+| [TicTacBench: Benchmarking Timing Closure Capabilities of Coding Agents](http://arxiv.org/abs/2609.23363v1) | Bowei Wang, Zhigang Fang, Zhijie Yang et al. | Recent advances in large language models (LLMs) have led to the emergence of coding agents capable of performing complex engineering tasks, including register-transfer level (RTL) design and optimi... |
+| [BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents](http://arxiv.org/abs/2609.23490v1) | Peng Kuang, Yuchun Fan, Jiangnan Li et al. | Large language model (LLM) agents increasingly execute multi-step workflows through tool use and interaction with users and environments. |
+
 ### 📅 2026-09-21
 
 **1 new papers found**

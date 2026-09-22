@@ -1,0 +1,203 @@
+[
+  {
+    "id": "2609.23264v1",
+    "title": "Judging a Review by its Cover: A Reliability Analysis of LLM-based Peer Review Evaluation Metrics",
+    "authors": [
+      "Shakiba Amirshahi",
+      "Sajad Ebrahimi",
+      "Hai Son Le",
+      "Negar Arabzadeh",
+      "Ebrahim Bagheri"
+    ],
+    "abstract": "Peer-review evaluation is increasingly being automated with LLM-as-a-judge metrics, but this creates a measurement risk. A review may receive a high score because it is fluent, organized, and polished, rather than because it provides a strong evaluation of the paper. This risk is especially important in AI-assisted reviewing, where reviewers may use LLMs to improve clarity or presentation while preserving the underlying judgments. We propose a statistical framework for testing whether peer-review evaluation metrics capture substantive review quality beyond surface-level linguistic form. The framework compares original human reviews with faithful LLM rewrites that preserve the same evaluative content while changing wording and presentation. Using a dataset comprising 4,044 meaning-preserving rewrites derived from 674 human reviews from ICLR and NeurIPS, we evaluate 29 content-oriented peer-review evaluation metrics drawn from four prior works through complementary tests of surface sensitivity and robustness. Although these metrics are intended to capture review properties beyond surface-level, writing-dependent characteristics, we find that sensitivity to rewriting is widespread. Under our primary analysis, 23 metrics assign significantly different scores to reviews whose evaluative content is preserved, while only six satisfy our robustness criterion. The patterns are largely consistent across two LLM judge models, suggesting that the issue is not specific to a single judge. These findings show that many peer-review evaluation metrics partially conflate review quality with linguistic presentation, and indicate that robustness to meaning-preserving rewriting should be validated before such metrics are used to compare human-written, AI-assisted, and AI-generated reviews.",
+    "url": "http://arxiv.org/abs/2609.23264v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23264v1",
+    "published": "2026-09-20",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.24264v1",
+    "title": "Canonical Procedural Actions: An Auditable Annotation Protocol for Tool-Use Agent Traces",
+    "authors": [
+      "Songqi Li",
+      "Dongqing Li",
+      "Zheqiao Cheng"
+    ],
+    "abstract": "Tool-use agent traces identify messages and API calls, but procedural analyses also need explicit units of action and inspectable links to their evidence. We present Canonical Procedural Actions (CPAs), an annotation protocol that records a procedural function, its first agent-event anchor, the agent events that realize it, and separate contextual evidence. Multiple actions may share a message anchor without an inferred within-message order. A retail case study produces a versioned 24-entry codebook through open induction, recorded consolidation, and successive application audits. Two isolated LLM contexts annotate 32 trajectories disjoint from development at the trajectory level, producing 499 and 491 occurrences with anchor-label overlap A=0.982. Requiring identical context-event references reduces overlap to 0.798. These are structural repeatability measures, not semantic accuracy: 16 of 26 task IDs also occur in development, and historical tool payloads were truncated to 110 characters. Retrospective controls show that collapsing all labels raises overlap to 0.986, while simple endpoint rules reproduce the tool-anchored portion with 0.997 overlap. Assistant-message actions have 0.971 overlap, with a per-label minimum of 0.816. Applying the frozen codebook to 244 further trajectories yields 4,058 records, including eight diagnostic outcomes. The contribution is an explicit, auditable annotation instrument and a case study of its construction and measurement limits; human-reference validity and downstream utility remain to be established.",
+    "url": "http://arxiv.org/abs/2609.24264v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.24264v1",
+    "published": "2026-09-21",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.23103v1",
+    "title": "DiagGen: Agentic Generation of Deformable Assets with Sim-based Diagnostics for Robotic Simulation",
+    "authors": [
+      "Guanxiong Chen",
+      "Yiduo Qu",
+      "Qianjun Xia",
+      "Pengyu Jing",
+      "Yixian Cheng"
+    ],
+    "abstract": "While simulation-ready deformable assets are essential for in-silico robotic manipulation tasks, existing generation frameworks typically assess physical plausibility after generation, leaving an object's simulated response unused as feedback for repairing upstream errors. We present DiagGen, an agentic framework that turns a single in-the-wild image into a simulation-ready deformable asset through a generate--simulate--diagnose--refine loop. DiagGen constructs part-aware geometry and material parameters, then uses a VLM (vision-language model)-based agent to select semantically informative regions, probe them in a physics simulator, observe material responses, and route evidence-backed repair cues to the responsible generation stage. Experiments on 40 assets show that diagnostics provides useful repair cues and can moderately improve the quality of generated deformable assets. Finally, we show that unlike assets generated from visual foundation models which may not be simulatable, DiagGen-generated deformables can be directly dropped into a high-fidelity physical simulator for the planning and simulation of contact-rich pick-and-place tasks. The project's website is https://diaggen.github.io/.",
+    "url": "http://arxiv.org/abs/2609.23103v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23103v1",
+    "published": "2026-09-19",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.24662v1",
+    "title": "DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security",
+    "authors": [
+      "Ivan Aleksandrov",
+      "German Kochnev",
+      "Sabrina Sadiekh",
+      "Yaroslav Rogoza"
+    ],
+    "abstract": "LLM-based agents increasingly operate in environments where they interact with users, tools, and external systems. Yet most security evaluations assume passive users and static control, ignoring the interactive dynamics that shape real agent behavior. We introduce \\textbf{DUMA-Bench}, a benchmark and evaluation protocol for measuring agent security under \\emph{dual-control} interaction, where both the agent and the user can influence the shared environment state. DUMA-Bench extends $τ^2$-bench ~\\cite{barres2025tau} with adversarial environments covering eight vulnerability classes, including RAG poisoning, cross-agent manipulation, and unsafe output handling. We evaluate \\textbf{14 models from five model families} (OpenAI, Anthropic, DeepSeek, Qwen, and Z.ai) across eight domains and multiple user-behavior regimes. Across our experiments, introducing dual-control interaction increases the attack success rate from \\textbf{26.9\\%} to \\textbf{41.1\\%}. These results show that agent security is not solely a property of the model but emerges from the interaction between the model, the user, and the environment. DUMA-Bench provides a missing evaluation layer for studying security in realistic agent deployments.",
+    "url": "http://arxiv.org/abs/2609.24662v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.24662v1",
+    "published": "2026-09-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.24259v1",
+    "title": "MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents",
+    "authors": [
+      "Ruike Cao",
+      "Fanyu Zhao",
+      "Fugen Yao",
+      "Liang Dong",
+      "Jian Xu"
+    ],
+    "abstract": "The effectiveness of agent memory ultimately depends on whether the underlying LLM gives each memory in context an appropriate degree of influence over its response. Yet this capability has remained largely overlooked. To assess this capability, we introduce MemCalib, a benchmark grounded in realistic memory-system scenarios for evaluating memory use and advancing optimization algorithms. Results on the MemCalib test set reveal that frontier open- and closed-source models struggle to use memory appropriately. They frequently over-use or under-use memory rather than matching each proposition's actual use to its target level, leading to biased, low-quality responses. Experiments with common post-training algorithms, including group relative policy optimization and on-policy self-distillation, further reveal a clear directional skew: trained models improve in one direction while deteriorating in the other. We therefore propose MemCalib-RL, an ordered bidirectional counterfactual credit-assignment algorithm that separates over- and under-use signals and localizes their credit to response tokens through exact atom ablation. Results across model families and scales (Qwen3-8B, Ministral-3-8B-Instruct, and Qwen3.5-35B-A3B) show that MemCalib-RL achieves the best overall performance while better balancing over-use and under-use, with gains generalizing beyond MemCalib in external benchmark evaluation. Further experiments support its design choices and robustness and provide insight into its training dynamics.",
+    "url": "http://arxiv.org/abs/2609.24259v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.24259v1",
+    "published": "2026-09-21",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.24161v1",
+    "title": "MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents",
+    "authors": [
+      "Demetris Paschalides",
+      "Moysis Symeonides",
+      "George Pallis",
+      "Marios D. Dikaiakos"
+    ],
+    "abstract": "As LLM agents increasingly interact with external tools through standardized protocols such as MCP, tool-interface design becomes a critical yet underexplored factor. How funψtionality is decomposed into tools affects whether an agent can select the right tool and construct valid arguments. This choice is especially consequential at the edge, where resource constraints limit which models can run locally and scaling up is often not an option. We present MCP-GRANITE, an open-source extensible benchmark framework that treats tool-interface granularity as a controlled variable for MCP-based agents, evaluated under edge and IoT scenarios. It comprises 81 multi-step scenarios across 9 domains, instantiated at 4 granularity levels from fine-grained primitive tools to a single tool. We evaluate 9 locally deployed models (268M-20.9B parameters) across 8,748 trials using task completion, tool selection F1, argument accuracy, latency, and resource-usage metrics. Results show that a 4-tool interface offers the best trade-off, improving task completion by 16.4% over fine-grained primitives and 33.6% over a single monolithic tool, while nearly doubling argument accuracy. Model size is only weakly correlated with task completion and strongly with latency, while its association with argument accuracy is less robust, and a 3.2B model at the optimal granularity outperforms a 20.9B model at a mismatched one. These findings identify tool-interface granularity as a key design parameter for MCP-based agents.",
+    "url": "http://arxiv.org/abs/2609.24161v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.24161v1",
+    "published": "2026-09-21",
+    "categories": [
+      "cs.DC",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.DC",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.24094v1",
+    "title": "WidgetVA: A Widget-Centric Framework and Benchmark for Agentic Visual Analytics",
+    "authors": [
+      "Yutong Chen",
+      "Zhike Tang",
+      "Zhihao Mai",
+      "Zhihao Shuai",
+      "Danli Luo"
+    ],
+    "abstract": "Visual analytics (VA) enables sensemaking through interactive visualization, but effective analysis often requires experts to translate high-level intents into long sequences of interface operations and iteratively interpret visual feedback. We study whether modern vision-language models (VLMs) can take on this role as autonomous VA operators that observe the interface, plan multi-step exploration, execute interactions, and adapt based on intermediate visual feedback. To support systematic development and evaluation, we first introduce WidgetVA, a widget-centric agentic VA framework that standardizes interactive components as structured widgets with unified action (e.g., filter and zoom) and perception-query (e.g., selection summaries) APIs. This standardization supports two modes of system construction: wrapping an existing VA system to make it agent-operable without rebuilding it, and composing a new system from widgets as modular building blocks. To help agents coordinate across widgets rather than plan each interaction from scratch, each widget further packages reusable analytical workflows, giving agents more than a bare set of callable functions to plan over. Building on this framework, we present WidgetVABench, a benchmark of single- and multi-widget VA tasks that require agents to perform multi-step interactions to uncover evidence and produce verifiable results. Each task also provides fine-grained reference annotations so that WidgetVABench can score Answer, Reference Trace Similarity, and State separately rather than collapsing agent performance into one success score. Experiments across multiple VLMs show that our framework provides an effective scaffold for agentic VA, while the diagnostic measures expose persistent limitations for future work. The WidgetVA framework and WidgetVABench have been released in https://github.com/Hiverwin/widgetva.",
+    "url": "http://arxiv.org/abs/2609.24094v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.24094v1",
+    "published": "2026-09-21",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.23695v1",
+    "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+    "authors": [
+      "Mohamed Amine Ferrag",
+      "Merouane Debbah",
+      "Abderrahmane Lakas",
+      "Manu Perumkunnil",
+      "Norbert Tihanyi"
+    ],
+    "abstract": "Recent advances in Physical AI have accelerated the use of foundation models in autonomous systems such as unmanned aerial vehicles (UAVs), which must perceive, reason, plan, and act in dynamic environments. Existing benchmarks assess physical perception, intuitive physics, embodied navigation, and collaborative reasoning, but rarely evaluate the agentic decision-making required for reliable autonomy. We introduce \\textit{PhysAI-Bench}, a benchmark for evaluating this capability. It contains 10,178 standardized decision instances automatically extracted from conversational traces of autonomous UAV missions. Each instance preserves mission context, temporal dependencies, physical constraints, Model Context Protocol (MCP) tool calls, Agent-to-Agent (A2A) interactions, sensor observations, and AI-native 6G network conditions, including latency, packet loss, throughput, edge load, and network slicing. We expose only information preceding each decision, preventing future-event leakage and approximating online decision-making. We evaluate 29 foundation models using a two-stage protocol. We select model-specific configurations from 12 combinations of zero-, three-, and five-shot prompting and four temperatures, tested in three runs on a 35-instance, human-verified development set. We then freeze each selected configuration and evaluate it in three runs on a fixed, episode-disjoint set of 500 instances. GPT-5.3 achieves the highest accuracy (52.00%), followed by GPT-5.2 (49.40%) and Grok~4.5 (49.07%). Few-shot prompting generally improves performance, while temperature has limited influence. The results demonstrate that reliable agentic decision-making in Physical AI remains an open challenge. The dataset is available at https://github.com/maferrag/physai-bench",
+    "url": "http://arxiv.org/abs/2609.23695v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23695v1",
+    "published": "2026-09-20",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.23363v1",
+    "title": "TicTacBench: Benchmarking Timing Closure Capabilities of Coding Agents",
+    "authors": [
+      "Bowei Wang",
+      "Zhigang Fang",
+      "Zhijie Yang",
+      "Renzhi Chen",
+      "Shanshan Li"
+    ],
+    "abstract": "Recent advances in large language models (LLMs) have led to the emergence of coding agents capable of performing complex engineering tasks, including register-transfer level (RTL) design and optimization. Existing RTL benchmarks mainly evaluate functional correctness and performance, power, and area (PPA) of the generated RTL designs, leaving agents' ability for \\emph{timing closure} under-evaluated. We propose TicTacBench, a benchmark specifically designed to evaluate coding agents' capabilities for RTL-level timing closure under post-place-and-route (post-PnR) evaluation. TicTacBench contains 30 diverse tasks, each provided with a suboptimal RTL design, realistic timing constraints, functional equivalence verification, and timing reports. With over 300 runs of coding agents driven by 8 frontier LLMs, we find that even the best agent can only close 53.3\\% of tasks with 7.18\\% area-delay product (ADP) degradation and 8.83\\% energy-delay-squared product (EDDP) improvement on average. We identify common failure categories that explain why agents fail to close timing. Then we propose TicTacSkill, a new method that guides agents to follow standard timing-closure procedures and improves the Timing Closure Rate by 9\\%. These results suggest that while coding agents have made significant progress in RTL design, their timing-closure capability still has substantial room for improvement.",
+    "url": "http://arxiv.org/abs/2609.23363v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23363v1",
+    "published": "2026-09-20",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.23490v1",
+    "title": "BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents",
+    "authors": [
+      "Peng Kuang",
+      "Yuchun Fan",
+      "Jiangnan Li",
+      "Minghao Wu",
+      "Jialong Tang"
+    ],
+    "abstract": "Large language model (LLM) agents increasingly execute multi-step workflows through tool use and interaction with users and environments. However, current agent evaluations are largely English-centric, limiting our understanding of agent capabilities in multilingual settings. We introduce BabelFlow, a benchmark-general agentic workflow that adapts existing agent benchmarks to new languages by analyzing runtime dependencies, coordinating structure-preserving translation, and combining multi-layer verification with human review to preserve task and evaluation semantics. Using BabelFlow, we construct BabelArena, a task-aligned benchmark comprising 16,146 instances derived from 702 canonical tasks across four benchmark families, 13 domains, and 23 languages. Experiments with five frontier models show that no single model dominates across benchmark families and that cross-language disparities extend well beyond task success. Lower-resource languages exhibit distinct failure patterns, with larger shares of tool-use and control-flow errors rather than answer-quality errors alone, pointing to gaps in reliable task execution across the resource levels of these languages. On the same tasks, agents in low-resource languages also consume substantially more tokens than in English (up to roughly twice the input) without proportional increases in interaction length, and language consistency degrades further on tasks requiring structured output, where switches are directed overwhelmingly toward English. We believe BabelArena provides a foundation for advancing research on reliable and efficient multilingual agents.",
+    "url": "http://arxiv.org/abs/2609.23490v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23490v1",
+    "published": "2026-09-20",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
