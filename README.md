@@ -24,6 +24,46 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-23
+
+**16 new papers found**
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Canonical Procedural Actions: An Auditable Annotation Protocol for Tool-Use Agent Traces](http://arxiv.org/abs/2609.24264v1) | Songqi Li, Dongqing Li, Zheqiao Cheng | Tool-use agent traces identify messages and API calls, but procedural analyses also need explicit units of action and inspectable links to their evidence. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing](http://arxiv.org/abs/2609.25873v1) | Yijia Hao, Pratibha Verma, Dongxu Guo et al. | Analog circuit sizing remains a challenging and time-consuming task due to the large design space, strong performance trade-offs, and increasing circuit complexity in scaled technologies. |
+| [CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation](http://arxiv.org/abs/2609.25821v1) | Yuntian Xiao, Shoulong Zhang, Wenfeng Song et al. | Persuasive video generation (PVG) is a valuable yet under-explored research topic. Despite the significant advances in multimodal content generation, AI-empowered automated creation of human-made-l... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Open Science, Closed Models: How Funding Shapes AI in Science](http://arxiv.org/abs/2609.25347v1) | Ana Trišović, Janakan Sivaloganathan | How funding shapes AI engagement in science is poorly understood despite its structural importance. We analyze 104,226 scientific papers (2018-2025), linking funding acknowledgments to how each pap... |
+| [GitScholar: A Dataset for Predicting AI Research Impact from GitHub Engagement](http://arxiv.org/abs/2609.26361v1) | Emilien Guandalino, Lorenz K. Müller, Beatrice Alessandra Motetti et al. | With the rapid pace of AI research and the hundreds of daily new publications, staying up-to-date with the latest developments has become increasingly difficult. |
+| [ArticleMiner: Ontology-Guided Knowledge Graph Construction from Scientific Publications](http://arxiv.org/abs/2609.25607v1) | Md Abrar Jahin, Craig A. Knoblock, Jay Pujara | Scientific papers keep much of their quantitative content in tables and supplementary files, where a number means something only through its header, caption, unit, analytical method, and the conven... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving](http://arxiv.org/abs/2609.26777v1) | Jennifer Williams, Dave Farris, Jeff Farris et al. | We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. |
+| [Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents: Target-Specific Calibration Transfer Persists Within a Single Benchmark](http://arxiv.org/abs/2609.25647v1) | YanZe Cao | Predicting early outcomes based on trajectory can decrease the expenses associated with agent evaluation by terminating a run once the outcome becomes sufficiently predictable, assuming that the pr... |
+| [Passes Alone, Fails Together: Benchmarking Semantic Coordination in Parallel LLM-Agent Development](http://arxiv.org/abs/2609.25396v1) | Haocheng Xia, Eugene Wu, Yongjoo Park | Parallel coding agents can produce patches that work alone but fail when merged. This happens when one agent changes an interface or rule that another agent still relies on. |
+| [Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers](http://arxiv.org/abs/2609.25237v1) | Weihang Ding, Junfei Zhan | Post-training is becoming a service (PTaaS): a customer hands an operator data and a goal, and a forward-deployed engineer (FDE) returns a fine-tuned, evaluated, and deployed model under a budget, ... |
+| [DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security](http://arxiv.org/abs/2609.24662v1) | Ivan Aleksandrov, German Kochnev, Sabrina Sadiekh et al. | LLM-based agents increasingly operate in environments where they interact with users, tools, and external systems. |
+| [MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents](http://arxiv.org/abs/2609.24259v2) | Ruike Cao, Fanyu Zhao, Fugen Yao et al. | The effectiveness of agent memory ultimately depends on whether the underlying LLM gives each memory in context an appropriate degree of influence over its response. |
+| [MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents](http://arxiv.org/abs/2609.24161v1) | Demetris Paschalides, Moysis Symeonides, George Pallis et al. | As LLM agents increasingly interact with external tools through standardized protocols such as MCP, tool-interface design becomes a critical yet underexplored factor. |
+| [WidgetVA: A Widget-Centric Framework and Benchmark for Agentic Visual Analytics](http://arxiv.org/abs/2609.24094v1) | Yutong Chen, Zhike Tang, Zhihao Mai et al. | Visual analytics (VA) enables sensemaking through interactive visualization, but effective analysis often requires experts to translate high-level intents into long sequences of interface operation... |
+| [PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI](http://arxiv.org/abs/2609.23695v1) | Mohamed Amine Ferrag, Merouane Debbah, Abderrahmane Lakas et al. | Recent advances in Physical AI have accelerated the use of foundation models in autonomous systems such as unmanned aerial vehicles (UAVs), which must perceive, reason, plan, and act in dynamic env... |
+| [FinFIRST: Benchmarking Search Agents for Financial Information Retrieval, Sourcing and Traceability](http://arxiv.org/abs/2609.25192v1) | Wenqing Wang, Haitao Xiang, Xinyi Zhao et al. | Financial search is a highly demanding task for LLM agents, requiring not only a correct final answer but also temporally valid information retrieval, authoritative source selection, entity and per... |
+
 ### 📅 2026-09-22
 
 **10 new papers found**
