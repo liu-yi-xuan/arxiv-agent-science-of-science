@@ -24,6 +24,39 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-24
+
+**14 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate](http://arxiv.org/abs/2609.27150v1) | Boxuan Wang, Zhuoyun Li, Xiaowei Huang et al. | Multi-agent debate (MAD) has emerged as a promising paradigm for improving the reasoning accuracy of large language models (LLMs) through iterative peer interaction. |
+| [Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH](http://arxiv.org/abs/2609.27632v1) | Walter Kurz, Reinhard Magg | We present a compliance-first architecture for AI in regulated finance that treats regulation as an orientation layer rather than a deterministic ruleset. |
+| [AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing](http://arxiv.org/abs/2609.25873v1) | Yijia Hao, Pratibha Verma, Dongxu Guo et al. | Analog circuit sizing remains a challenging and time-consuming task due to the large design space, strong performance trade-offs, and increasing circuit complexity in scaled technologies. |
+| [CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation](http://arxiv.org/abs/2609.25821v1) | Yuntian Xiao, Shoulong Zhang, Wenfeng Song et al. | Persuasive video generation (PVG) is a valuable yet under-explored research topic. Despite the significant advances in multimodal content generation, AI-empowered automated creation of human-made-l... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Open Science, Closed Models: How Funding Shapes AI in Science](http://arxiv.org/abs/2609.25347v1) | Ana Trišović, Janakan Sivaloganathan | How funding shapes AI engagement in science is poorly understood despite its structural importance. We analyze 104,226 scientific papers (2018-2025), linking funding acknowledgments to how each pap... |
+| [GitScholar: A Dataset for Predicting AI Research Impact from GitHub Engagement](http://arxiv.org/abs/2609.26361v1) | Emilien Guandalino, Lorenz K. Müller, Beatrice Alessandra Motetti et al. | With the rapid pace of AI research and the hundreds of daily new publications, staying up-to-date with the latest developments has become increasingly difficult. |
+| [ArticleMiner: Ontology-Guided Knowledge Graph Construction from Scientific Publications](http://arxiv.org/abs/2609.25607v1) | Md Abrar Jahin, Craig A. Knoblock, Jay Pujara | Scientific papers keep much of their quantitative content in tables and supplementary files, where a number means something only through its header, caption, unit, analytical method, and the conven... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents](http://arxiv.org/abs/2609.27490v1) | Jingjie Ning, Xueqi Li, Yibo Kong et al. | AI research agents need reliable knowledge of how their experiments change outcomes. We introduce WhatWorkedBench to measure experimental understanding, the accuracy of predictions about component ... |
+| [SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving](http://arxiv.org/abs/2609.26777v1) | Jennifer Williams, Dave Farris, Jeff Farris et al. | We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. |
+| [Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents: Target-Specific Calibration Transfer Persists Within a Single Benchmark](http://arxiv.org/abs/2609.25647v1) | YanZe Cao | Predicting early outcomes based on trajectory can decrease the expenses associated with agent evaluation by terminating a run once the outcome becomes sufficiently predictable, assuming that the pr... |
+| [Passes Alone, Fails Together: Benchmarking Semantic Coordination in Parallel LLM-Agent Development](http://arxiv.org/abs/2609.25396v1) | Haocheng Xia, Eugene Wu, Yongjoo Park | Parallel coding agents can produce patches that work alone but fail when merged. This happens when one agent changes an interface or rule that another agent still relies on. |
+| [Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers](http://arxiv.org/abs/2609.25237v1) | Weihang Ding, Junfei Zhan | Post-training is becoming a service (PTaaS): a customer hands an operator data and a goal, and a forward-deployed engineer (FDE) returns a fine-tuned, evaluated, and deployed model under a budget, ... |
+| [DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security](http://arxiv.org/abs/2609.24662v1) | Ivan Aleksandrov, German Kochnev, Sabrina Sadiekh et al. | LLM-based agents increasingly operate in environments where they interact with users, tools, and external systems. |
+| [FinFIRST: Benchmarking Search Agents for Financial Information Retrieval, Sourcing and Traceability](http://arxiv.org/abs/2609.25192v1) | Wenqing Wang, Haitao Xiang, Xinyi Zhao et al. | Financial search is a highly demanding task for LLM agents, requiring not only a correct final answer but also temporally valid information retrieval, authoritative source selection, entity and per... |
+
 ### 📅 2026-09-23
 
 **16 new papers found**
