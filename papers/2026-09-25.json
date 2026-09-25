@@ -1,0 +1,85 @@
+[
+  {
+    "id": "2609.30137v1",
+    "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+    "authors": [
+      "Edesio Alcoba",
+      "Kevin Rossell",
+      "Aman Gupta",
+      "Shao Tang",
+      "Jiwoo Hong"
+    ],
+    "abstract": "Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. Improving these agents, especially in regulated industries, is difficult: they must detect intent, follow complex operational policies and use tools reliably. Manual end-to-end testing offers limited coverage, while live experiments expose customers to failures that can erode trust.   We present a hypothesis-driven simulation workflow for screening candidate CX agents before deployment. Synthetic customers react to agent responses and simulated tool outputs enable multi-step agentic workflows without invoking production backends. We use the Snowglobe simulator on Nubank's Card Delivery agent and its expanded successor, Card Management - Nubank's highest-volume chat-support agent in Brazil. Across 4 deployed versions, simulated and production version-level binary evaluator scores show high correlation. Simulation-guided iteration increased transactional net promoter score (tNPS) by 36.69 points in a live A/B test. We also screened open-weight configurations in over 16,000 simulated conversations. In a subsequent live A/B test, the selected model increased self-service rate (SSR) by 8.82 percentage points to the highest level observed at Nubank, with no statistically significant change in tNPS. Simulation made broad exploration of models, reasoning settings, and prompts feasible without customer exposure, enabling production improvements that would have been impractical to pursue through live experimentation alone.",
+    "url": "http://arxiv.org/abs/2609.30137v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.30137v1",
+    "published": "2026-09-24",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.28614v1",
+    "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+    "authors": [
+      "Yue Huang",
+      "Zhangchen Xu",
+      "Yuchen Ma",
+      "Wenjie Wang",
+      "Zheyuan Liu"
+    ],
+    "abstract": "Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward criteria without achieving the intended goal. We study (1) how often models reward-hack without instructions to do so, (2) how effective and detectable their methods are when hacking is allowed, and (3) how they adapt when an LLM review panel returns its decision and reasons. Across 17 language models and 38 tasks, the spontaneous reward-hacking rate is 30.5% on open-ended research-pipeline tasks and 2.9% on task-specific kernels. When hacking is allowed on tasks whose pass thresholds exceed our best compliant baselines, 505/677 attempts (74.6%) are confirmed reward hacks: they both clear the threshold and receive mechanism-verification panel confirmation of an evaluation exploit. An LLM panel reviewing only submitted code and reported scores misses 33/505 confirmed hacks (6.5%). Direct methods that achieve the highest scores are often easy to detect, while less direct methods evade more often. In a five-round loop, the number of model-task pairs with an evasion rises from 7 to 56. Among 79 pairs evaluated under two feedback conditions, cumulative evasion reaches 40.5% with detailed feedback and 20.3% with generic rejection. The detailed condition includes the review decision, reasons, and attempt history, so this comparison does not isolate the effect of explanations. These findings highlight the need for stronger defenses, including metrics kept outside the agent's control and independent recomputation on data chosen to expose likely exploits.",
+    "url": "http://arxiv.org/abs/2609.28614v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.28614v1",
+    "published": "2026-09-23",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.28579v1",
+    "title": "AstroGenesis: A Domain-Specific Multi-Agent AI for Astrophysical Research",
+    "authors": [
+      "N. Sahakyan",
+      "M. Khachatryan",
+      "A. Mahabal",
+      "D. Pasham",
+      "A. Khachatryan"
+    ],
+    "abstract": "Modern astrophysical research requires the integration of rapidly expanding scientific literature, heterogeneous observational data, and increasingly complex physical models. We introduce AstroGenesis (https://astrogenai.com), a domain-specific multi-agent AI framework that integrates literature retrieval, multiwavelength data access and analysis, theoretical modeling, and research ideation within a unified research environment.The current implementation focuses on blazar research, with specialized agents coordinated by a Supervisor Agent and Planner/Replanner architecture. These agents provide capabilities for retrieving and synthesizing literature, accessing and analyzing multiwavelength observations, performing physical modeling, and identifying research directions. A central component is the Theoretical Modeling Agent, which uses pretrained neural-network surrogate models to enable efficient broadband and multimessenger modeling through natural-language interaction. The framework provides natural-language access to science-ready multiwavelength observational data and retrieval-grounded literature through a multi-stage retrieval and ranking pipeline. The literature-retrieval system was evaluated using two benchmarks: a single-paper benchmark, in which each question targets one publication, and a multi-paper benchmark, in which questions may require evidence from several publications. At least one relevant publication was retrieved among the top five results for 76.6% of the single-paper questions and 79.2% of the multi-paper questions. Representative workflows demonstrate how literature, observational data, physical modeling, and hypothesis generation can be combined within traceable analyses. The framework is extensible to additional astrophysical domains, with the goal of streamlining research workflows and enabling efficient, connected, and reproducible scientific investigations.",
+    "url": "http://arxiv.org/abs/2609.28579v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.28579v1",
+    "published": "2026-09-23",
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.GA",
+      "astro-ph.HE"
+    ],
+    "primary_category": "astro-ph.IM",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.27150v1",
+    "title": "Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate",
+    "authors": [
+      "Boxuan Wang",
+      "Zhuoyun Li",
+      "Xiaowei Huang",
+      "Yi Dong"
+    ],
+    "abstract": "Multi-agent debate (MAD) has emerged as a promising paradigm for improving the reasoning accuracy of large language models (LLMs) through iterative peer interaction. Communication topology plays a central role in this process, motivating increasingly sophisticated mechanisms that learn, adapt, or dynamically reconfigure agent interactions to improve accuracy or reasoning reliability. Meanwhile, prior studies suggest that much simpler sparse communication can already achieve competitive performance at substantially lower cost. In this work, we take a closer look at sparse MAD and ask whether complex topology control is actually necessary to improve collective reasoning. We find that a simple random-without-replacement routing policy, which lets each agent debate with two distinct and newly sampled peers at every round, provides a surprisingly strong baseline and consistently improves the accuracy-cost trade-off of sparse MAD. Building on this observation, we further study deliberation stopping and show that lightweight stopping can substantially reduce inference cost while preserving competitive accuracy. Our results suggest that sophisticated topology control such as learned topology adaption should be evaluated against strong simple routing and stopping baselines before its additional complexity is justified.",
+    "url": "http://arxiv.org/abs/2609.27150v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.27150v1",
+    "published": "2026-09-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]

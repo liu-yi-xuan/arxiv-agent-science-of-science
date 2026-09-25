@@ -24,6 +24,29 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-25
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) | Edesio Alcoba, Kevin Rossell, Aman Gupta et al. | Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Reward Hacking Challenges Oversight of Autonomous Research Agents](http://arxiv.org/abs/2609.28614v1) | Yue Huang, Zhangchen Xu, Yuchen Ma et al. | Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AstroGenesis: A Domain-Specific Multi-Agent AI for Astrophysical Research](http://arxiv.org/abs/2609.28579v1) | N. Sahakyan, M. Khachatryan, A. Mahabal et al. | Modern astrophysical research requires the integration of rapidly expanding scientific literature, heterogeneous observational data, and increasingly complex physical models. |
+| [Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate](http://arxiv.org/abs/2609.27150v1) | Boxuan Wang, Zhuoyun Li, Xiaowei Huang et al. | Multi-agent debate (MAD) has emerged as a promising paradigm for improving the reasoning accuracy of large language models (LLMs) through iterative peer interaction. |
+
 ### 📅 2026-09-24
 
 **14 new papers found**
