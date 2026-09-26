@@ -24,6 +24,28 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-26
+
+**3 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) | Edesio Alcoba, Kevin Rossell, Aman Gupta et al. | Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Reward Hacking Challenges Oversight of Autonomous Research Agents](http://arxiv.org/abs/2609.28614v1) | Yue Huang, Zhangchen Xu, Yuchen Ma et al. | Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AstroGenesis: A Domain-Specific Multi-Agent AI for Astrophysical Research](http://arxiv.org/abs/2609.28579v1) | N. Sahakyan, M. Khachatryan, A. Mahabal et al. | Modern astrophysical research requires the integration of rapidly expanding scientific literature, heterogeneous observational data, and increasingly complex physical models. |
+
 ### 📅 2026-09-25
 
 **4 new papers found**
