@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-27
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](http://arxiv.org/abs/2609.30137v1) | Edesio Alcoba, Kevin Rossell, Aman Gupta et al. | Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. |
+
 ### 📅 2026-09-26
 
 **3 new papers found**
