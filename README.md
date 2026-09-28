@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-28
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Agentic Economies for Autonomous Scientific Discovery](http://arxiv.org/abs/2609.31562v1) | Nenad Tomasev, Matija Franklin, Atoosa Kasirzadeh et al. | Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agen... |
+
 ### 📅 2026-09-27
 
 **1 new papers found**
