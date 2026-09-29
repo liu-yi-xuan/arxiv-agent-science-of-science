@@ -24,6 +24,60 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-29
+
+**25 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CORTEX: A Verified Experience Layer for Generalist Agents](http://arxiv.org/abs/2609.33260v1) | Garapati Keerthana, Manik Gupta | An agent can solve a task today and face the same task under new facts, tools, or governing knowledge tomorrow. |
+| [X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization](http://arxiv.org/abs/2609.32993v1) | Sitao Cheng, Xunjian Yin, Zhiyuan Sun et al. | Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down f... |
+| [Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses](http://arxiv.org/abs/2609.35255v1) | Huachi Zhou, Yujing Zhang, Jiahe Du et al. | Large language model agents are increasingly deployed for data-intensive work, yet reliable data analysis requires more than general-purpose reasoning and ad hoc tool augmentation. |
+| [DISCERN: Can AI Agents Work Like Scientists and Guide Discovery?](http://arxiv.org/abs/2609.33357v1) | Nan Huang, Mario Tapia-Pacheco, Kun Zhou et al. | Reliable automated research requires agents to vet data, verify analyses, and generate hypotheses grounded in trustworthy evidence, potentially reducing routine scientific workload while allowing s... |
+| [From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining](http://arxiv.org/abs/2609.35559v1) | Kangcheng Deng, Hui Cai, Jiacheng Lu et al. | Inference scaling has been shown to improve large language model (LLM) performance, and this principle naturally extends to autonomous LLM agents through increased search budgets, which we refer to... |
+| [What Happens During Autonomous Deep Research After the User Steps Away?](http://arxiv.org/abs/2609.33509v1) | Yimin Liu, Yijia Zhang, Yanmin Li et al. | In autonomous deep research, a user provides a task and relevant background, then leaves the agent to conduct an extended investigation without further human intervention. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents](http://arxiv.org/abs/2609.34930v1) | Huayi Lai, Shichao Song, Qingchen Yu et al. | Large language model (LLM) agents are evolving from tool-calling systems that execute isolated instructions into task-oriented agents that pursue user goals through sustained, multi-step interactions. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The Marathon of Scientific Reasoning: Robustness of Scientific Agents to Perturbations in Multi-Turn Interactions](http://arxiv.org/abs/2609.34537v1) | Xiaoting Lyu, Xinbo Ma, Yufei Han et al. | Large language model (LLM)-based scientific agents are increasingly used for scientific problem solving, yet their robustness to imperfections arising during multi-turn interactions remains poorly ... |
+| [AgentHop: A Diagnostic Benchmark for Agentic Multi-Hop Scientific Question Answering](http://arxiv.org/abs/2609.34428v1) | Chanhee Park, Jeongho Yoon, Sungbin Han et al. | Agentic tasks require a large language model to interact with the world, navigating information and gathering evidence across multiple steps with restricted resources. |
+| [Self-Adapting Group of Experts for Multi-Agent Reasoning](http://arxiv.org/abs/2609.35412v1) | Mohammad Atif Quamar, Nurbek Tastan, Karthik Nandakumar et al. | Multi-agent systems bring together language model agents with different roles to propose, review, and refine solutions. |
+| [TMCS: Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving](http://arxiv.org/abs/2609.35336v1) | Shengqin Wang, Jie Jin, Yu Cheng et al. | Despite the promise of Large Language Models (LLMs) in computational chemistry, rigorous combinatorial chemistry problems remain difficult because they require quantitatively constrained molecular ... |
+| [Agentic Multi-Turn Reasoning: A Fairness Approach](http://arxiv.org/abs/2609.33323v1) | Thanh-Dat Truong, Sankalp Pandey, Hugh Churchill et al. | Recent advances in Large Language Models (LLMs) have enabled agentic systems capable of solving complex tasks through multi-turn planning, tool use, verification, and memory updates. |
+| [Towards Communication-Efficient Social Intelligence in Language Agents](http://arxiv.org/abs/2609.35749v1) | Linxiao Gong, Yijie Xu, Tianfu Wang et al. | Socially intelligent language agents must negotiate, coordinate, and resolve conflicting preferences while respecting the time and attention of both participants. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research](http://arxiv.org/abs/2609.35089v1) | Zehao Lu, Xingguo Xiong, Wopke van der Werf et al. | Meta-analysis is the synthesis of information from multiple sources to arrive at an overarching conclusion. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models](http://arxiv.org/abs/2609.35732v1) | Junru Zhu, Shiming Xie, Aime Lu Fan Chen et al. | Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it. |
+| [GPUPhysBench: Benchmarking Coding Agents for Correct and Efficient GPU Physics Simulation](http://arxiv.org/abs/2609.35639v1) | Yuchen Sun, Jinjin He, Sinan Wang et al. | Writing fast GPU code for physical simulation is difficult: implementations must preserve numerical accuracy while handling irregular data access, synchronization, and iterative solvers. |
+| [SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents](http://arxiv.org/abs/2609.35596v1) | Saswat Das, Parvati Viswanathan, Daniel Donnelly et al. | Self-evolving LLM agents have gained prominence for their ability to improve after deployment by modifying their harness, including their controller instructions, memory management protocols, and r... |
+| [JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments](http://arxiv.org/abs/2609.35032v1) | Zhixi Cai, Fucai Ke, Sukai Huang et al. | In complex embodied visual reasoning scenarios, an agent often has only a limited field of view, and the evidence needed to answer a question may be distributed across time, viewpoint, and interact... |
+| [DGF-Bench: A Benchmark for Simulating and Auditing Deception Against Multi-Agent Governance Boards](http://arxiv.org/abs/2609.34913v1) | Jeremy Canale | Tool-using language-model agents can review enterprise projects as governance boards do: they read the evidence, apply written rules and decide whether the project may proceed. |
+| [CoSec: Benchmarking Agent Security in Communities](http://arxiv.org/abs/2609.34790v1) | Hao Chen, Wenhui Dong, Ye Chen et al. | LLM agents operate in persistent collaborative environments involving multiple users, communities, memories, files, and tools. |
+| [FromPitch2Board: Benchmarking LLM Agents in Long-Horizon Football Management](http://arxiv.org/abs/2609.34710v1) | Peiyu Zang | Long-horizon agent benchmarks typically report how far an agent progresses, but do not identify whether its performance comes from the foundation model, scaffold, responsibility scope, match-contro... |
+| [PowerBench: A Benchmark for Agentic Retrieval and Reasoning in Power Systems](http://arxiv.org/abs/2609.34492v1) | Xijing Wang, Yinsheng Yao, Jinru Ding et al. | Large language model (LLM) agents offer new opportunities for automated analysis in industry. However, rigorous evaluation of such agents-for example, within power system scenarios-remains hindered... |
+| [ReproBench: Benchmarking LLM Agents on Reproducing Vulnerability From Scratch](http://arxiv.org/abs/2609.34450v1) | Liang He, Sheng Wu, Haomiao Hao et al. | Large language model (LLM) agents are increasingly evaluated on cybersecurity tasks such as vulnerability reproduction, exploitation, and patching. |
+| [TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces](http://arxiv.org/abs/2609.33295v1) | Dehai Min, Daoan Zhang, Yiming Zeng et al. | An agent can complete a task while exhibiting undesirable behavior during execution. Developers need tests for the specific behaviors encountered in deployment, beyond fixed benchmark suites. |
+| [ECG-Scroll: A Long-Horizon, Streaming Benchmark and Agent Environment for Interpretation of Ambulatory Electrocardiograms](http://arxiv.org/abs/2609.33117v1) | Haitao Li, Chenglin Li, Zhengyao Ding et al. | Multimodal large language models (MLLMs) can now interpret a standard ten-second, twelve-lead electrocardiogram (ECG) with clinically grounded, reward-verified reasoning. |
+
 ### 📅 2026-09-28
 
 **1 new papers found**
