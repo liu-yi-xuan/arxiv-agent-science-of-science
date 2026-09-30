@@ -24,6 +24,36 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-09-30
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora](http://arxiv.org/abs/2609.37673v1) | Changmian Wang, Yuchao Ma, Xuchao Lu et al. | Experienced professionals know more than just facts and conclusions. They know which cues matter, why a judgment is reasonable, and which action to take. |
+| [PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval](http://arxiv.org/abs/2609.36923v1) | Bin Kang, Jiarui Ouyang, Li Jiang et al. | Existing reactive Graphical User Interface (GUI) agents often fail in long-horizon, dynamic scenarios, where unexpected disturbances trigger attention-diverting and cascading failures. |
+| [After the Fix: Transfer of Corrected Agent Experience](http://arxiv.org/abs/2609.34603v2) | Yanfei Zhang, Xu Lin | Does repairing an episode make its experience a better memory for the next task? We transfer the same failed source before and after accepted repair to a fixed target, alongside independent execution. |
+| [Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes](http://arxiv.org/abs/2609.36726v1) | Kargi Chauhan | Can a scientific agent distinguish a law it inferred from evidence from one it merely recognizes? We introduce Synthetic Universes, a controlled benchmark that pairs canonical famous worlds with ma... |
+| [Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses](http://arxiv.org/abs/2609.35255v1) | Huachi Zhou, Yujing Zhang, Jiahe Du et al. | Large language model agents are increasingly deployed for data-intensive work, yet reliable data analysis requires more than general-purpose reasoning and ad hoc tool augmentation. |
+| [From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining](http://arxiv.org/abs/2609.35559v1) | Kangcheng Deng, Hui Cai, Jiacheng Lu et al. | Inference scaling has been shown to improve large language model (LLM) performance, and this principle naturally extends to autonomous LLM agents through increased search budgets, which we refer to... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution](http://arxiv.org/abs/2609.38108v1) | Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera et al. | Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. |
+| [The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents](http://arxiv.org/abs/2609.36829v1) | Xueqi Li, Jingjie Ning, Yibo Kong | An executor can respond strongly to a change in a supplied plan's priority while showing a small change in the same information-selection probability when a default-aligned whole plan is removed. |
+| [PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents](http://arxiv.org/abs/2609.34930v1) | Huayi Lai, Shichao Song, Qingchen Yu et al. | Large language model (LLM) agents are evolving from tool-calling systems that execute isolated instructions into task-oriented agents that pursue user goals through sustained, multi-step interactions. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [The Marathon of Scientific Reasoning: Robustness of Scientific Agents to Perturbations in Multi-Turn Interactions](http://arxiv.org/abs/2609.34537v1) | Xiaoting Lyu, Xinbo Ma, Yufei Han et al. | Large language model (LLM)-based scientific agents are increasingly used for scientific problem solving, yet their robustness to imperfections arising during multi-turn interactions remains poorly ... |
+| [AgentHop: A Diagnostic Benchmark for Agentic Multi-Hop Scientific Question Answering](http://arxiv.org/abs/2609.34428v1) | Chanhee Park, Jeongho Yoon, Sungbin Han et al. | Agentic tasks require a large language model to interact with the world, navigating information and gathering evidence across multiple steps with restricted resources. |
+
 ### 📅 2026-09-29
 
 **25 new papers found**

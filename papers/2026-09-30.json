@@ -1,0 +1,219 @@
+[
+  {
+    "id": "2609.37673v1",
+    "title": "KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora",
+    "authors": [
+      "Changmian Wang",
+      "Yuchao Ma",
+      "Xuchao Lu",
+      "Chen Zhang",
+      "Ping Sun"
+    ],
+    "abstract": "Experienced professionals know more than just facts and conclusions. They know which cues matter, why a judgment is reasonable, and which action to take. Routine work records often leave out this tacit knowledge, making it difficult for Large Language Model (LLM) agents to use professional experience effectively. We introduce KUPAS MASTER, an experience engineering platform built around nine-layer cognitive corpus construction. It turns heterogeneous work records and practitioner interviews into traceable, reusable experience corpora for agents. Six case elements preserve the task process: context, cues, judgment, action, boundaries, and outcomes. Nine-layer cognitive corpus construction organizes tacit experience along nine extraction dimensions and stores the resulting assets in six libraries: rules, constraints, best practices, negative examples, corner cases, and skills. Semantic alignment, individual experience distillation, organizational consolidation, and cross-review preserve source evidence, conditions of use, and unresolved disagreements. The platform packages these assets into callable skills with explicit inputs, steps, dependencies, and stopping conditions, connecting experience collection to task execution and evaluation feedback. Using authorized samples from 20 randomly selected practitioners, the platform processed 1,576 source files into 23,024 individual experience records and 13,113 organizational assets. The evaluation spans multiple professional domains. Under common task inputs and scoring criteria, the base model, raw corpus retrieval-augmented generation (RAG), and KUPAS MASTER agent scored 70.63, 79.75, and 89.58, respectively. The KUPAS MASTER agent improved on raw-corpus RAG in all seven scoring dimensions. The platform provides a practical path from individual tacit experience to organizational knowledge and agent capabilities.",
+    "url": "http://arxiv.org/abs/2609.37673v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37673v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.36923v1",
+    "title": "PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval",
+    "authors": [
+      "Bin Kang",
+      "Jiarui Ouyang",
+      "Li Jiang",
+      "Bin Chen",
+      "Zhuotao Tian"
+    ],
+    "abstract": "Existing reactive Graphical User Interface (GUI) agents often fail in long-horizon, dynamic scenarios, where unexpected disturbances trigger attention-diverting and cascading failures. To address this, we propose PrecogUI, a pre-cognitive architecture that shifts the paradigm from reactive execution to proactive decision-making. Specifically, we design a Proactive Experience Pool (PEP), which caches recurring anomaly and success patterns as \"state-action-result\" tuples in a dual-memory repository. Furthermore, we introduce a Proactive Simulation Executor (PSE) that learns to forecast the next symbolic UI layout given a candidate action, enabling early anomaly avoidance and ranking candidate actions by predicted reliability. Finally, a Pre-cognitive Execution Controller (PEC) fuses these priors and predictions, prioritizes handling of foreseen anomalies, and ensures execution robustness through a closed-loop error correction mechanism. For robust evaluation, we develop AutoTraj, an automatic data-generation engine, to construct InterfereBench, a benchmark for long-horizon tasks with strong disturbances. Experiments demonstrate that PrecogUI surpasses state-of-the-art methods on InterfereBench while maintaining competitive performance on public benchmarks. The code will be publicly available.",
+    "url": "http://arxiv.org/abs/2609.36923v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36923v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.34603v2",
+    "title": "After the Fix: Transfer of Corrected Agent Experience",
+    "authors": [
+      "Yanfei Zhang",
+      "Xu Lin"
+    ],
+    "abstract": "Does repairing an episode make its experience a better memory for the next task? We transfer the same failed source before and after accepted repair to a fixed target, alongside independent execution. Our 3,300 runs cover 100 ThinkingBox pairs and the same 100 APEX pairs with and without source-state inheritance, under eleven conditions. ThinkingBox's Full/Skill/Hybrid correction gains are 44/29/32 percentage points, with corrected performance 25/22/18 points above independence; inference weakens at the task-family level. Yet 12 of Full's 15-point larger correction gap over Skill come from worse uncorrected performance, not better corrected memory. Moreover, 22 of Full's 46 upward transitions restore observed baseline success. Neither APEX regime establishes comparable aggregate correction benefits. Action evidence connects workflow gains with reusable obligations and convention conflicts with source-local choices. Text APEX's accepted execution reaches 52% versus its summary's 40%, without robust global/group-level superiority or an estab- lished advantage over independence. Smaller handoffs reduce input but increase calls. The value of repairing experience is therefore distinct from the value of reusing it: memory updates require both a previous-version reference and a fresh-start reference.",
+    "url": "http://arxiv.org/abs/2609.34603v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.34603v2",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.36726v1",
+    "title": "Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes",
+    "authors": [
+      "Kargi Chauhan"
+    ],
+    "abstract": "Can a scientific agent distinguish a law it inferred from evidence from one it merely recognizes? We introduce Synthetic Universes, a controlled benchmark that pairs canonical famous worlds with matched twisted twins governed by nearby noncanonical mechanisms. We evaluate each reported law twice: by executing it on held-out continuations and transfer settings, and by independently checking whether it recovers the generating mechanism. In the current checkpoint of a pre-specified 60-cell study, 22 trials were graded and one additional run ended in infrastructure failure. Among 20 twin trials, 8 pass predictive verification while 5 recover the generator. The dissociation is bidirectional: six parsable outputs predict successfully while missing the mechanism, whereas three recover the mechanism but fail predictive rollout. Drag exhibits the first pattern (5/5 predictive pass, 1/5 mechanism recovery); Gravity exhibits the second (1/5 predictive pass, 4/5 mechanism recovery). Because matched famous controls, the corrected identifiability sweep, and the Evidence Ladder remain incomplete, we do not claim a confirmatory causal prior-conflict effect. Instead, the completed runs establish a narrower verification result: predictive adequacy and mechanism recovery are distinct scientific claims and require distinct tests.",
+    "url": "http://arxiv.org/abs/2609.36726v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36726v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.35255v1",
+    "title": "Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses",
+    "authors": [
+      "Huachi Zhou",
+      "Yujing Zhang",
+      "Jiahe Du",
+      "Jiacheng Cai",
+      "Zijin Hong"
+    ],
+    "abstract": "Large language model agents are increasingly deployed for data-intensive work, yet reliable data analysis requires more than general-purpose reasoning and ad hoc tool augmentation. Data Agents, equipped with workflow harnesses, offer a promising paradigm for automating the end-to-end data science lifecycle. This paper examines Data Agents from a harness-centric perspective. First, we introduce a taxonomy of Data Agents and associated data environments, organizing the literature around five functional stages: perception, planning, execution, verification, and repair. Second, we analyze the key technical routes within each stage, identifying 15 distinct approaches ranging from data structure probing to data state reconstruction. Third, we identify four open reliability problems: inactive semantic calibration, missing clarification, missing experience transfer, and the missing verification-repair repository. These problems explain why silent failures can persist even when individual components function correctly, highlighting the need for rigorous workflow harnesses and shared reliability resources. Finally, we summarize the horizontal task families of Data Agents, examine their vertical application settings, and benchmarks for evaluation, while maintaining a companion repository at https://github.com/DEEP-PolyU/Awesome-Data-Agents.",
+    "url": "http://arxiv.org/abs/2609.35255v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35255v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.35559v1",
+    "title": "From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining",
+    "authors": [
+      "Kangcheng Deng",
+      "Hui Cai",
+      "Jiacheng Lu",
+      "Chester Zhongshu Qian",
+      "Rui Sun"
+    ],
+    "abstract": "Inference scaling has been shown to improve large language model (LLM) performance, and this principle naturally extends to autonomous LLM agents through increased search budgets, which we refer to as *search scaling*. Although prior work has characterized the mechanisms, scaling behavior, and performance limits of LLM inference scaling, much less is known about these questions in autonomous research. Therefore, we investigate how search scaling affects research performance and what mechanisms drive these gains using 50 quantitative factor-mining tasks grounded in financial research reports. Each task requires an agent to carry out an end-to-end research loop, from interpreting a hypothesis and implementing it in code to evaluating and iteratively refining the resulting factor. Across nine models, we examine how model capability, search depth, and search organization shape factor quality by tracing performance across varying budgets, transferring intermediate research states between models, and comparing different search strategies. We find that (1) initial performance is more strongly associated with model capability, while deeper search can narrow cross-model gaps; (2) model grafting shows that the early research state materially shapes final performance; and (3) parallel search outperforms sequential search under the same iteration budget, consistent with benefits from broader coverage of the search space. Further trajectory analysis shows that higher-performing models more effectively diagnose failures, revise search directions, and preserve the intended economic hypothesis when selecting candidates. These findings suggest that future progress in autonomous research will require stronger models together with adaptive policies for deploying test-time computation throughout the research process.",
+    "url": "http://arxiv.org/abs/2609.35559v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35559v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.38108v1",
+    "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
+    "authors": [
+      "Subba Reddy Oota",
+      "Francisco Herrera",
+      "Jordi Cabot Sagrera",
+      "Marcos López de Prado",
+      "Shadab Khan"
+    ],
+    "abstract": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropriate plan for the task and executing it faithfully. Existing planner--executor systems can fail at either stage, while final task success alone cannot distinguish selection from execution failures. We therefore study the Plan Declaration--Execution Gap and introduce Planning-as-Routing, where an LLM declares one of four planning modes: Predefined, Sequential, Hierarchical, or Search, and a deterministic router dispatches the task to the corresponding pattern-specific executor. Across four benchmarks and three LLMs, we find three consistent patterns. First, generic Plan+ReAct often fails to preserve declared planning structure, especially for longer plans: across three benchmarks, only (22)--(45%) of trajectories preserve it, whereas pattern-specific executors enforce the intended structure. Second, planning-mode effectiveness varies across environments and models: Search performs best on ALFWorld, Hierarchical on SWE-bench, and the strongest pattern can vary across models within the same benchmark. Third, the largest gains come from execution: pattern-specific executors improve task success from (0.48) to (0.92) on ALFWorld and from (0.36) to (0.44) on SWE-bench Verified over Plan+ReAct. Current LLMs, however, do not reliably select the strongest mode for each task, although few-shot examples improve selection in some benchmark--model combinations. Overall, reliable agent planning requires both effective mode selection and faithful execution: routing substantially closes the execution gap, while task-specific mode selection remains open.",
+    "url": "http://arxiv.org/abs/2609.38108v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38108v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.36829v1",
+    "title": "The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents",
+    "authors": [
+      "Xueqi Li",
+      "Jingjie Ning",
+      "Yibo Kong"
+    ],
+    "abstract": "An executor can respond strongly to a change in a supplied plan's priority while showing a small change in the same information-selection probability when a default-aligned whole plan is removed. We call the risk of interpreting the latter as weak responsiveness to alternative priorities the default trap. We compare paired plans that prioritize different information targets with a shared no-plan reference. An accounting identity relates these distinct behavioral contrasts. Across 3,200 decision windows on 160 selected Retail, Airline, and AgentDojo tasks, switching priorities strongly redirects two models' choices, while the two plan-versus-default contrasts differ. In 2,160 additional windows, reversing account-list order shifts default target selection by 63.3-98.3 percentage points; priority-switching effects remain 96.7-100.0 points in either order. A separate 3,240-window component study finds strong control under single priority sentences, with effects of additional text varying by group and direction. Finally, 1,080 full-task episodes yield observed success differences of -19.4 to +8.3 points relative to no plan. All Retail and Airline success intervals include zero; AgentDojo results describe four fixed application worlds. These findings support joint reporting of priority responsiveness, presentation-dependent defaults, and task success and cost.",
+    "url": "http://arxiv.org/abs/2609.36829v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36829v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.34930v1",
+    "title": "PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents",
+    "authors": [
+      "Huayi Lai",
+      "Shichao Song",
+      "Qingchen Yu",
+      "Simin Niu",
+      "Mengwei Wang"
+    ],
+    "abstract": "Large language model (LLM) agents are evolving from tool-calling systems that execute isolated instructions into task-oriented agents that pursue user goals through sustained, multi-step interactions. However, existing benchmarks for personalized tool use largely assess isolated calls or reactive execution, leaving unclear whether agents can formulate, execute, and revise an explicit plan while preserving user preferences throughout long-term interaction. To address this gap, we introduce \\textbf{PDEU-Bench} (\\textbf{P}ersonalized plan \\textbf{D}efinition, plan \\textbf{E}xecution, and plan \\textbf{U}pdate \\textbf{Bench}mark), a benchmark for evaluating the complete planning lifecycle of personalized tool-using agents. PDEU-Bench comprises 214 long-horizon interaction tasks spanning 12 everyday domains and 94 tools, with stage-specific assessments of preference adherence and plan quality. Extensive evaluations of 15 representative open-source and closed-source LLMs reveal a pronounced gap between local tool execution and dynamic planning: LLMs can often instantiate preferences in individual calls, yet struggle to construct coherent plan definition and plan update. We further evaluate mainstream personalization and memory-augmentation methods. Although these methods improve particular stages, none of the evaluated methods reliably propagates user preferences throughout the complete lifecycle, and their gains frequently fail to transfer to subsequent execution. Fine-grained error analysis further reveals that preference omissions and conflicts persist throughout the planning lifecycle, highlighting the need for future research to parameterize LLMs with preference-aware information retrieval and memory capabilities. We provide the relevant code and data in the appendix to support future research.",
+    "url": "http://arxiv.org/abs/2609.34930v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.34930v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.34537v1",
+    "title": "The Marathon of Scientific Reasoning: Robustness of Scientific Agents to Perturbations in Multi-Turn Interactions",
+    "authors": [
+      "Xiaoting Lyu",
+      "Xinbo Ma",
+      "Yufei Han",
+      "Hangwei Qian",
+      "Ziyang Lin"
+    ],
+    "abstract": "Large language model (LLM)-based scientific agents are increasingly used for scientific problem solving, yet their robustness to imperfections arising during multi-turn interactions remains poorly understood. We introduce \\textsc{SciARP} (\\textbf{Sci}entific \\textbf{A}gent \\textbf{R}obustness to \\textbf{P}erturbations), a benchmark for evaluating scientific agents under scientifically plausible perturbations throughout multi-turn problem solving. \\textsc{SciARP} transforms 620 scientific problems into interdependent tasks of 3--13 turns and defines 13 perturbation types spanning problem understanding, evidence processing, reasoning, and conclusion formation. Clean and perturbed versions of each task are independently executed under matched settings, producing paired live trajectories for evaluating both task success and process reliability. Experiments across eight LLMs from four model families reveal three key robustness characteristics. First, different classes of scientific perturbations exhibit distinct robustness profiles and can decouple task progression from scientific reliability: agents may continue advancing through the task even after their information or reasoning has become unreliable. Second, stronger clean-task performance does not necessarily translate into stronger robustness, as models with higher clean-task accuracy can exhibit larger degradation under perturbation. Third, perturbation effects exhibit strong temporal dynamics: they may remain latent for multiple turns before emerging and subsequently propagate through downstream dependencies. Together, these findings show that current scientific agents remain insufficiently robust to scientifically plausible perturbations, with failures often remaining undetected, propagating, and resisting recovery.",
+    "url": "http://arxiv.org/abs/2609.34537v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.34537v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.34428v1",
+    "title": "AgentHop: A Diagnostic Benchmark for Agentic Multi-Hop Scientific Question Answering",
+    "authors": [
+      "Chanhee Park",
+      "Jeongho Yoon",
+      "Sungbin Han",
+      "Hyeonseok Moon",
+      "Heuiseok Lim"
+    ],
+    "abstract": "Agentic tasks require a large language model to interact with the world, navigating information and gathering evidence across multiple steps with restricted resources. Due to this complexity, agentic task failures arise from various sources, and pinpointing these failure causes is essential to diagnose and improve agentic systems. Existing benchmarks, however, tend to focus on a single leaderboard score, leaving the underlying failure modes opaque. To fill this gap, we introduce AgentHop, a diagnostic benchmark of 1,011 multiple-choice questions paired with a controlled seven-tool sandbox under fixed token, turn, and tool-call constraints. AgentHop reveals model vulnerabilities by dissecting a single accuracy score along four axes of agent operation: retrieval, synthesis, tool-call, and resource management. Across 19 models, we find that behavior clusters by model family, with tool-call signatures revealing distinct family fingerprints: GPT models commit early, Anthropic and GLM checkpoints verify before committing, DeepSeek and Kimi over-search, and Gemini-3 Pro stays balanced. Decomposed axes further expose within-family structure: Claude Opus 4.6 and Sonnet 4.6 land within one accuracy point yet diverge on retrieval-versus-synthesis emphasis, with Opus retrieving more and Sonnet synthesizing better. We release the full benchmark set and the harness to support diagnostic agent benchmarking.",
+    "url": "http://arxiv.org/abs/2609.34428v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.34428v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
