@@ -24,6 +24,64 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-01
+
+**34 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Persona and Persuasive Framing in AI Voice Agents: A $2\times2$ Field Experiment with Children](http://arxiv.org/abs/2609.38782v1) | Thilo Tamme, David Steck, Anton Hantel | Conversational agents increasingly interact with children, yet evidence on how their design shapes children's susceptibility to persuasion comes almost entirely from the lab. |
+| [KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora](http://arxiv.org/abs/2609.37673v1) | Changmian Wang, Yuchao Ma, Xuchao Lu et al. | Experienced professionals know more than just facts and conclusions. They know which cues matter, why a judgment is reasonable, and which action to take. |
+| [PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval](http://arxiv.org/abs/2609.36923v1) | Bin Kang, Jiarui Ouyang, Li Jiang et al. | Existing reactive Graphical User Interface (GUI) agents often fail in long-horizon, dynamic scenarios, where unexpected disturbances trigger attention-diverting and cascading failures. |
+| [Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes](http://arxiv.org/abs/2609.36726v1) | Kargi Chauhan | Can a scientific agent distinguish a law it inferred from evidence from one it merely recognizes? We introduce Synthetic Universes, a controlled benchmark that pairs canonical famous worlds with ma... |
+| [Experimental Experience Modeling for Autonomous Research](http://arxiv.org/abs/2609.39392v1) | Wenda Wei, Yingchen Zhang, Ruqing Zhang et al. | Autonomous research agents can generate hypotheses and conduct experiments, but experimentation remains a major source of computational cost. |
+| [From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining](http://arxiv.org/abs/2609.35559v1) | Kangcheng Deng, Hui Cai, Jiacheng Lu et al. | Inference scaling has been shown to improve large language model (LLM) performance, and this principle naturally extends to autonomous LLM agents through increased search budgets, which we refer to... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AIM: Agentic Idea Management for Automated Research](http://arxiv.org/abs/2609.38445v1) | Hyeong Kyu Choi, Bhavana Dalvi Mishra, Jiefeng Chen et al. | Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organ... |
+| [Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution](http://arxiv.org/abs/2609.38108v1) | Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera et al. | Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. |
+| [The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents](http://arxiv.org/abs/2609.36829v1) | Xueqi Li, Jingjie Ning, Yibo Kong | An executor can respond strongly to a change in a supplied plan's priority while showing a small change in the same information-selection probability when a default-aligned whole plan is removed. |
+| [RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](http://arxiv.org/abs/2609.39045v1) | Wenyi Wu, Minghao Fu, Jieyu You et al. | Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RankEvolve: A Reliable Multi-Agent Auto-Research Harness for Evolving Ranking Models](http://arxiv.org/abs/2609.39551v1) | Zheng Chen, Linfeng Liu, Hong Li et al. | Auto-research agents, LLM systems that propose, implement, train, and evaluate model changes across iterations, promise to automate applied ML's experimental loop. |
+| [MiniRep: Robust Reputation-Based Aggregation for Multi-Agent Debate](http://arxiv.org/abs/2609.39297v1) | Jiaming Zhang, Yuwan Liu, Yue Huang et al. | Autonomous agents powered by large language models (LLMs) are rapidly evolving into an open agentic ecosystem. |
+| [MADBench: Benchmarking the Security of Multi-Agent Debate](http://arxiv.org/abs/2609.39146v1) | Yuwan Liu, Jiaming Zhang, Yue Huang et al. | Multi-agent debate (MAD) can improve large language model (LLM) reasoning by allowing multiple agents to exchange and critique their answers to the same task. |
+| [When Order Matters: First-Speaker Bias and Mitigation through Personality in Sequential Multi-Agent Debate](http://arxiv.org/abs/2609.38964v1) | Duofeng Xu, Bryan Hooi, Dandan Qiao | Multi-agent debate (MAD) is often used to improve large language model (LLM) reasoning, but sequential debate is rarely a neutral aggregator of agents' opinions. |
+| [Self-Adapting Group of Experts for Multi-Agent Reasoning](http://arxiv.org/abs/2609.35412v1) | Mohammad Atif Quamar, Nurbek Tastan, Karthik Nandakumar et al. | Multi-agent systems bring together language model agents with different roles to propose, review, and refine solutions. |
+| [TMCS: Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving](http://arxiv.org/abs/2609.35336v1) | Shengqin Wang, Jie Jin, Yu Cheng et al. | Despite the promise of Large Language Models (LLMs) in computational chemistry, rigorous combinatorial chemistry problems remain difficult because they require quantitatively constrained molecular ... |
+| [IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household](http://arxiv.org/abs/2609.38113v1) | Tianqi Liu, Nayoung Kim, Julia Sebastien et al. | Simulations of archaeological sites can make interpretations of past cultural practices observable and examinable. |
+| [Text2Sim: Agentic Physics-Based Simulation Generation with Distilled Expertise](http://arxiv.org/abs/2609.36593v2) | Xiaoyu Xiong, Tsun-Hsuan Wang, Yi-Ling Qiao et al. | Creating diverse physical simulations remains labor-intensive because assets, layout, physical parameters, motion, control, and rendering must be designed and debugged jointly. |
+| [AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC](http://arxiv.org/abs/2609.39964v1) | Yijie Bian, Kai Zhang, Wei Guo et al. | Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. |
+| [OpenCollab: A Multi-Agent Coding Framework with Programmable Collaboration and Controllable Runtime](http://arxiv.org/abs/2609.38345v1) | Chun-Wah Hsu, Kai Gong, Yu Wu et al. | Multi-agent coding systems are designed to tackle complex software engineering tasks through collaboration. |
+| [Towards Communication-Efficient Social Intelligence in Language Agents](http://arxiv.org/abs/2609.35749v1) | Linxiao Gong, Yijie Xu, Tianfu Wang et al. | Socially intelligent language agents must negotiate, coordinate, and resolve conflicting preferences while respecting the time and attention of both participants. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software](http://arxiv.org/abs/2609.39903v1) | Dingyuan Dai, Heli Qi, Lei Liu et al. | Scientific software presents a demanding test for computer-using agents based on visual language models (VLMs): completing a research workflow requires interpreting specialized interfaces, manipula... |
+| [cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents](http://arxiv.org/abs/2609.40284v1) | Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck et al. | Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult lo... |
+| [EHR-RobustGym: Benchmarking and Training Agents for Robust Clinical Reasoning](http://arxiv.org/abs/2609.39371v1) | Yitong Qiao, Yancheng Jin, Lei Liu et al. | In hospital workflows, electronic health records (EHRs) are often noisy, and may not contain the evidence needed to confirm events or measurements referenced in a clinical query. |
+| [RealWorldShop: Benchmarking and Improving Conversational Shopping Agents in Real-World E-commerce](http://arxiv.org/abs/2609.38974v1) | Xinwei Yang, Kelong Mao, Yudong Guo et al. | Large language models are reshaping ecommerce from static recommenders into interactive shopping assistants, yet real-world shopping requires session-level decision support: users reveal and revise... |
+| [Talk2Agent: Benchmarking Voice Interfaces for Text Agents](http://arxiv.org/abs/2609.38867v1) | Terumi Chiba, Guangzhi Sun, Zheqi Yuan et al. | Large language model (LLM) computer-use agents are typically evaluated with clean written instructions, despite speech being an increasingly popular interface for interacting with such systems. |
+| [AgBench: Agentic AI Benchmarks for Personal AI Devices](http://arxiv.org/abs/2609.38652v1) | Yizhou Han, Di Wu, Dhananjay Saikumar et al. | Agentic AI systems increasingly rely on cloud-hosted large language models for planning, tool use, and iterative execution, raising concerns about API cost and data exposure. |
+| [NAQD Env: A benchmark for selective withdrawal in language agents](http://arxiv.org/abs/2609.38460v1) | Mohamed Abouzahra | Language agents must revise planned actions when evidence changes, permission is revoked, or a stop instruction arrives. |
+| [UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training](http://arxiv.org/abs/2609.38043v1) | Ashish Jain, Armaan Sandhu | Interactive agent benchmarks and multi-turn reinforcement learning increasingly place a second language model in the role of the user. |
+| [EnterpriseBench: Benchmarking LLM Agents on Enterprise-Level Strategic Reasoning and Decision-Making](http://arxiv.org/abs/2609.37658v1) | Min Yang, Yichen Pan, Jinghua Piao et al. | LLM agents are increasingly expected to support enterprise workflows, where tasks often involve missing information, uncertainty, feedback, and long-term trade-offs. |
+| [SURE-EVAL: A Systematic and Unified Agentic Framework for Reproducible Evaluation](http://arxiv.org/abs/2609.39030v1) | Jing Peng, Junhao Du, Yixuan Wang et al. | Audio and speech models are released rapidly, but reported scores often conflate model capability with deployment and evaluation choices. |
+| [AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems](http://arxiv.org/abs/2609.37864v1) | Yiming Cheng, Alfin Wijaya Rahardja, Mengshi Zhang et al. | Agent harness bugs exhibit unique characteristics and remain challenging for state-of-the-art software agents to repair. |
+| [Selective Elicitation as a Commercial Influence Channel: A Reproducible Synthetic Shopping-Agent Stress Test](http://arxiv.org/abs/2609.36614v1) | Jiapeng Li | A commercial incentive need not enter the final ranking algorithm to affect a shopping assistant's recommendation: it may instead influence which preference question the assistant asks. |
+| [SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents](http://arxiv.org/abs/2609.35596v2) | Saswat Das, Parvati Viswanathan, Daniel Donnelly et al. | Self-evolving LLM agents have gained prominence for their ability to improve after deployment by modifying their harness, including their controller instructions, memory management protocols, and r... |
+
 ### 📅 2026-09-30
 
 **11 new papers found**

@@ -1,0 +1,680 @@
+[
+  {
+    "id": "2609.38782v1",
+    "title": "Persona and Persuasive Framing in AI Voice Agents: A $2\\times2$ Field Experiment with Children",
+    "authors": [
+      "Thilo Tamme",
+      "David Steck",
+      "Anton Hantel"
+    ],
+    "abstract": "Conversational agents increasingly interact with children, yet evidence on how their design shapes children's susceptibility to persuasion comes almost entirely from the lab. We report a $2\\times2$ randomized field experiment embedded in a public German Santa Claus telephone hotline. Children's calls were randomly routed to one of four LLM voice agents varying persona (Santa, high authority, vs. Helper, low authority) and framing (persuasive nudges toward prosocial wishes vs. neutral). Of 1,072 logged calls, 89 conversations (median age 6) met inclusion criteria. Persuasive framing raised the probability of a prosocial wish from 11.6% to 45.7%, robust to controls. Persona authority showed a near-zero effect: Santa did not outperform the Helper. Persona instead shaped engagement; children hung up on the Helper far more often within the first minute (65% vs. 39%). Where context already lends an agent legitimacy, how it speaks shapes children's compliance more than who it claims to be.",
+    "url": "http://arxiv.org/abs/2609.38782v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38782v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.37673v1",
+    "title": "KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora",
+    "authors": [
+      "Changmian Wang",
+      "Yuchao Ma",
+      "Xuchao Lu",
+      "Chen Zhang",
+      "Ping Sun"
+    ],
+    "abstract": "Experienced professionals know more than just facts and conclusions. They know which cues matter, why a judgment is reasonable, and which action to take. Routine work records often leave out this tacit knowledge, making it difficult for Large Language Model (LLM) agents to use professional experience effectively. We introduce KUPAS MASTER, an experience engineering platform built around nine-layer cognitive corpus construction. It turns heterogeneous work records and practitioner interviews into traceable, reusable experience corpora for agents. Six case elements preserve the task process: context, cues, judgment, action, boundaries, and outcomes. Nine-layer cognitive corpus construction organizes tacit experience along nine extraction dimensions and stores the resulting assets in six libraries: rules, constraints, best practices, negative examples, corner cases, and skills. Semantic alignment, individual experience distillation, organizational consolidation, and cross-review preserve source evidence, conditions of use, and unresolved disagreements. The platform packages these assets into callable skills with explicit inputs, steps, dependencies, and stopping conditions, connecting experience collection to task execution and evaluation feedback. Using authorized samples from 20 randomly selected practitioners, the platform processed 1,576 source files into 23,024 individual experience records and 13,113 organizational assets. The evaluation spans multiple professional domains. Under common task inputs and scoring criteria, the base model, raw corpus retrieval-augmented generation (RAG), and KUPAS MASTER agent scored 70.63, 79.75, and 89.58, respectively. The KUPAS MASTER agent improved on raw-corpus RAG in all seven scoring dimensions. The platform provides a practical path from individual tacit experience to organizational knowledge and agent capabilities.",
+    "url": "http://arxiv.org/abs/2609.37673v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37673v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.36923v1",
+    "title": "PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval",
+    "authors": [
+      "Bin Kang",
+      "Jiarui Ouyang",
+      "Li Jiang",
+      "Bin Chen",
+      "Zhuotao Tian"
+    ],
+    "abstract": "Existing reactive Graphical User Interface (GUI) agents often fail in long-horizon, dynamic scenarios, where unexpected disturbances trigger attention-diverting and cascading failures. To address this, we propose PrecogUI, a pre-cognitive architecture that shifts the paradigm from reactive execution to proactive decision-making. Specifically, we design a Proactive Experience Pool (PEP), which caches recurring anomaly and success patterns as \"state-action-result\" tuples in a dual-memory repository. Furthermore, we introduce a Proactive Simulation Executor (PSE) that learns to forecast the next symbolic UI layout given a candidate action, enabling early anomaly avoidance and ranking candidate actions by predicted reliability. Finally, a Pre-cognitive Execution Controller (PEC) fuses these priors and predictions, prioritizes handling of foreseen anomalies, and ensures execution robustness through a closed-loop error correction mechanism. For robust evaluation, we develop AutoTraj, an automatic data-generation engine, to construct InterfereBench, a benchmark for long-horizon tasks with strong disturbances. Experiments demonstrate that PrecogUI surpasses state-of-the-art methods on InterfereBench while maintaining competitive performance on public benchmarks. The code will be publicly available.",
+    "url": "http://arxiv.org/abs/2609.36923v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36923v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.36726v1",
+    "title": "Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes",
+    "authors": [
+      "Kargi Chauhan"
+    ],
+    "abstract": "Can a scientific agent distinguish a law it inferred from evidence from one it merely recognizes? We introduce Synthetic Universes, a controlled benchmark that pairs canonical famous worlds with matched twisted twins governed by nearby noncanonical mechanisms. We evaluate each reported law twice: by executing it on held-out continuations and transfer settings, and by independently checking whether it recovers the generating mechanism. In the current checkpoint of a pre-specified 60-cell study, 22 trials were graded and one additional run ended in infrastructure failure. Among 20 twin trials, 8 pass predictive verification while 5 recover the generator. The dissociation is bidirectional: six parsable outputs predict successfully while missing the mechanism, whereas three recover the mechanism but fail predictive rollout. Drag exhibits the first pattern (5/5 predictive pass, 1/5 mechanism recovery); Gravity exhibits the second (1/5 predictive pass, 4/5 mechanism recovery). Because matched famous controls, the corrected identifiability sweep, and the Evidence Ladder remain incomplete, we do not claim a confirmatory causal prior-conflict effect. Instead, the completed runs establish a narrower verification result: predictive adequacy and mechanism recovery are distinct scientific claims and require distinct tests.",
+    "url": "http://arxiv.org/abs/2609.36726v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36726v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.39392v1",
+    "title": "Experimental Experience Modeling for Autonomous Research",
+    "authors": [
+      "Wenda Wei",
+      "Yingchen Zhang",
+      "Ruqing Zhang",
+      "Jiafeng Guo",
+      "Daiting Shi"
+    ],
+    "abstract": "Autonomous research agents can generate hypotheses and conduct experiments, but experimentation remains a major source of computational cost. A fundamental challenge is deciding which experiments are worth running, particularly when prior evidence is insufficient to resolve uncertainty. Yet current research agents lack a systematic way to leverage experimental experience when making such decisions. We introduce Experimental Experience Modeling (EEM), a framework for making informed experimental decisions by acquiring, reusing, and accumulating experimental experience. EEM extracts decision-relevant records from earlier experimental trajectories, distills them into reusable experience, and organizes them in an experience library. For a new experimental decision, EEM retrieves relevant historical experience and assesses whether it provides sufficient support for deciding whether a candidate direction warrants further investment. When historical experience is insufficient, EEM conducts a targeted, low-cost pilot experiment to acquire the missing decision-relevant experience on demand. It then combines this newly acquired experience with retrieved historical experience to determine whether the direction warrants full-scale evaluation, which requires substantial resources. The resulting experimental outcomes are further distilled into reusable experience, allowing the library to continually grow through iterative accumulation. Experiments on autonomous research benchmarks show that EEM improves research performance while reducing model interaction overhead, demonstrating the value of reusing accumulated experience and acquiring additional experience only when needed.",
+    "url": "http://arxiv.org/abs/2609.39392v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39392v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.35559v1",
+    "title": "From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining",
+    "authors": [
+      "Kangcheng Deng",
+      "Hui Cai",
+      "Jiacheng Lu",
+      "Chester Zhongshu Qian",
+      "Rui Sun"
+    ],
+    "abstract": "Inference scaling has been shown to improve large language model (LLM) performance, and this principle naturally extends to autonomous LLM agents through increased search budgets, which we refer to as *search scaling*. Although prior work has characterized the mechanisms, scaling behavior, and performance limits of LLM inference scaling, much less is known about these questions in autonomous research. Therefore, we investigate how search scaling affects research performance and what mechanisms drive these gains using 50 quantitative factor-mining tasks grounded in financial research reports. Each task requires an agent to carry out an end-to-end research loop, from interpreting a hypothesis and implementing it in code to evaluating and iteratively refining the resulting factor. Across nine models, we examine how model capability, search depth, and search organization shape factor quality by tracing performance across varying budgets, transferring intermediate research states between models, and comparing different search strategies. We find that (1) initial performance is more strongly associated with model capability, while deeper search can narrow cross-model gaps; (2) model grafting shows that the early research state materially shapes final performance; and (3) parallel search outperforms sequential search under the same iteration budget, consistent with benefits from broader coverage of the search space. Further trajectory analysis shows that higher-performing models more effectively diagnose failures, revise search directions, and preserve the intended economic hypothesis when selecting candidates. These findings suggest that future progress in autonomous research will require stronger models together with adaptive policies for deploying test-time computation throughout the research process.",
+    "url": "http://arxiv.org/abs/2609.35559v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35559v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2609.38445v1",
+    "title": "AIM: Agentic Idea Management for Automated Research",
+    "authors": [
+      "Hyeong Kyu Choi",
+      "Bhavana Dalvi Mishra",
+      "Jiefeng Chen",
+      "Mihir Parmar",
+      "Rui Meng"
+    ],
+    "abstract": "Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM), a fully autonomous framework for managing and exploring research directions in idea-driven automated research. Inspired by Bayesian optimization, AIM uses an Agentic Surrogate and an Agentic Acquisition mechanism to organize discovered ideas and guide their selection. A Solution Auditor maintains idea-solution integrity, while a Resource Planner adaptively allocates the remaining experimental budget across parallel search branches. Experiments on 10 AutoLab benchmark tasks show that AIM surpasses the strongest baseline by 1.6 percentage points on System Optimization tasks and 4.9 percentage points on long-horizon Model Development & CUDA tasks. Notably, AIM reaches the best baseline performance up to 3.1x faster in wall-clock time. We further provide a theoretical analysis of when searching over ideas becomes beneficial. Our analysis shows that explicit idea-level allocation makes semantic coverage directly controllable, and that broader coverage becomes increasingly valuable when competitive research directions are sparse among many plausible alternatives. Project Page: https://imhgchoi.github.io/agentic-idea-manager/",
+    "url": "http://arxiv.org/abs/2609.38445v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38445v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.38108v1",
+    "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
+    "authors": [
+      "Subba Reddy Oota",
+      "Francisco Herrera",
+      "Jordi Cabot Sagrera",
+      "Marcos López de Prado",
+      "Shadab Khan"
+    ],
+    "abstract": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropriate plan for the task and executing it faithfully. Existing planner--executor systems can fail at either stage, while final task success alone cannot distinguish selection from execution failures. We therefore study the Plan Declaration--Execution Gap and introduce Planning-as-Routing, where an LLM declares one of four planning modes: Predefined, Sequential, Hierarchical, or Search, and a deterministic router dispatches the task to the corresponding pattern-specific executor. Across four benchmarks and three LLMs, we find three consistent patterns. First, generic Plan+ReAct often fails to preserve declared planning structure, especially for longer plans: across three benchmarks, only (22)--(45%) of trajectories preserve it, whereas pattern-specific executors enforce the intended structure. Second, planning-mode effectiveness varies across environments and models: Search performs best on ALFWorld, Hierarchical on SWE-bench, and the strongest pattern can vary across models within the same benchmark. Third, the largest gains come from execution: pattern-specific executors improve task success from (0.48) to (0.92) on ALFWorld and from (0.36) to (0.44) on SWE-bench Verified over Plan+ReAct. Current LLMs, however, do not reliably select the strongest mode for each task, although few-shot examples improve selection in some benchmark--model combinations. Overall, reliable agent planning requires both effective mode selection and faithful execution: routing substantially closes the execution gap, while task-specific mode selection remains open.",
+    "url": "http://arxiv.org/abs/2609.38108v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38108v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.36829v1",
+    "title": "The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents",
+    "authors": [
+      "Xueqi Li",
+      "Jingjie Ning",
+      "Yibo Kong"
+    ],
+    "abstract": "An executor can respond strongly to a change in a supplied plan's priority while showing a small change in the same information-selection probability when a default-aligned whole plan is removed. We call the risk of interpreting the latter as weak responsiveness to alternative priorities the default trap. We compare paired plans that prioritize different information targets with a shared no-plan reference. An accounting identity relates these distinct behavioral contrasts. Across 3,200 decision windows on 160 selected Retail, Airline, and AgentDojo tasks, switching priorities strongly redirects two models' choices, while the two plan-versus-default contrasts differ. In 2,160 additional windows, reversing account-list order shifts default target selection by 63.3-98.3 percentage points; priority-switching effects remain 96.7-100.0 points in either order. A separate 3,240-window component study finds strong control under single priority sentences, with effects of additional text varying by group and direction. Finally, 1,080 full-task episodes yield observed success differences of -19.4 to +8.3 points relative to no plan. All Retail and Airline success intervals include zero; AgentDojo results describe four fixed application worlds. These findings support joint reporting of priority responsiveness, presentation-dependent defaults, and task success and cost.",
+    "url": "http://arxiv.org/abs/2609.36829v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36829v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.39045v1",
+    "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+    "authors": [
+      "Wenyi Wu",
+      "Minghao Fu",
+      "Jieyu You",
+      "Kun Zhou",
+      "Siqi Liu"
+    ],
+    "abstract": "Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. Naive iterative refinement can easily overfit a small set of test cases, producing fragile games with unresolved bugs, missing behaviors, and poor generalization to broader player interactions. We introduce RSIGame, an autonomous agentic game development framework with recursive self-improvement. RSIGame organizes development into complementary local and global loops. Concretely, a local explore-diagnose-improve loop broadly explores the executable game, diagnoses and prioritizes discovered issues, and performs evidence-grounded revision, where an evolving checklist continually accumulates new testing and improvement guidance. A global loop tracks overall quality, preserves the best checkpoint, and detects saturation or regression over long-horizon development. Beyond test-time improvement, RSIGame further internalizes successful development experience into the generator through training. Across 140 GameCraft-Bench tasks, two game engines, and five generators, RSIGame consistently improves game quality under matched development budgets. Notably, experience internalization enables Qwen3.8-27B to reach 61.38 on Godot and 58.53 on Phaser, exceeding GPT-5.5 one-shot scores while reducing Qwen's generation tokens by 11 times.",
+    "url": "http://arxiv.org/abs/2609.39045v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39045v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.CL",
+      "cs.GT",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2609.39551v1",
+    "title": "RankEvolve: A Reliable Multi-Agent Auto-Research Harness for Evolving Ranking Models",
+    "authors": [
+      "Zheng Chen",
+      "Linfeng Liu",
+      "Hong Li",
+      "Hong Yan"
+    ],
+    "abstract": "Auto-research agents, LLM systems that propose, implement, train, and evaluate model changes across iterations, promise to automate applied ML's experimental loop. Over long horizons, execution accuracy is a binding constraint: a change can silently leak held-out data, omit normalization, disconnect a gradient, or leave a train/eval flag unwired, invalidating expensive runs and compounding error across iterations. We present RankEvolve, an auto-research framework for evolving generative ranking models. An Executable Operating Protocol (EOP) declares phases, gates, branches, and loops, and the runtime enforces the compiled state machine. A meta-meta-harness composes complete black-box coding-agent products, including Claude Code and Codex, as execution-graph nodes that review and repair one another's work. In a budget-matched evaluation, heterogeneous composition raises all-oracle execution accuracy from the best single-product baseline of 45.8 percent to 62.5 percent (paired +16.7 points, 95 percent CI [6.6, 26.7]) while achieving a 10.4 percent silent critical-defect rate. An implemented knowledge layer carries findings, including negative results, across iterations. In a twelve-iteration deployment on the open-source HSTU recommender, RankEvolve reported NDCG@10 of 0.2192 on MovieLens-20M LARGE (+4.48 percent over the published anchor) and 0.1948 on BASE (+2.80 percent). ExecML-HSTU, seeded by incidents from that deployment, provides the oracle benchmark for the execution-accuracy evaluation. A pre-specified LitGPT transfer split replicates the heterogeneous-composition effect beyond recommendation (+12.5 points, 95 percent CI [3.0, 22.0]), and a paired ablation isolates per-step from full-protocol instruction injection. These results characterize when runtime-controlled composition of coding-agent products improves execution accuracy.",
+    "url": "http://arxiv.org/abs/2609.39551v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39551v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.39297v1",
+    "title": "MiniRep: Robust Reputation-Based Aggregation for Multi-Agent Debate",
+    "authors": [
+      "Jiaming Zhang",
+      "Yuwan Liu",
+      "Yue Huang",
+      "Sisi Duan"
+    ],
+    "abstract": "Autonomous agents powered by large language models (LLMs) are rapidly evolving into an open agentic ecosystem. To support trustworthy collaboration, industry initiatives increasingly assess agent reputation from past behavior and provide performance leaderboards. However, reputation derived from past performance may not reliably predict an agent's behavior on new tasks, particularly when malicious agents can adapt their behavior and influence other agents during collaboration.   We study reputation in multi-agent debate (MAD), where multiple agents answer the same query, debate to improve their answers, and aggregate them into a final output. We present MiniRep, a reputation-based aggregation system for MAD under malicious agents. To ground our threat model in established research, we construct an attack taxonomy drawing on reputation-system attacks and software-testing mutation operators, covering strategic exploitation of reputation and subtle corruption of agent proposals. Guided by this taxonomy, MiniRep evaluates agents based on both their behavior on the current task and their reputation over time, while preventing groups of agents with highly similar responses from dominating the final decision. We assess MiniRep across diverse tasks, LLM-agent compositions, corruption placements, and attack types drawn from our taxonomy. Our experimental results show that, MiniRep outperforms both conventional MAD aggregation and conventional reputation-based approaches on MATH no matter being attacked or not. Also, under a heterogeneous 10-agent setting on MATH, MiniRep outperforms all baselines in all 28 attack conditions.",
+    "url": "http://arxiv.org/abs/2609.39297v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39297v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.39146v1",
+    "title": "MADBench: Benchmarking the Security of Multi-Agent Debate",
+    "authors": [
+      "Yuwan Liu",
+      "Jiaming Zhang",
+      "Yue Huang",
+      "Sisi Duan"
+    ],
+    "abstract": "Multi-agent debate (MAD) can improve large language model (LLM) reasoning by allowing multiple agents to exchange and critique their answers to the same task. However, the interactions that enable agents to correct mistakes can also spread adversarial errors and steer the agents toward an incorrect answer. Although some efforts have been made to examine particular attack types on MAD, systematic evaluation of MAD under diverse attacks remains limited. A central question is whether debate mitigates adversarial influence or amplifies it.   In this paper, we present MADBench, a benchmark for evaluating the security of MAD. We organize attacks into a layered taxonomy following the MAD workflow, incorporating both established attacks and new strategies tailored to debate. We evaluate six attack families over 356 source tasks and 3,958 test cases, examining their effects on the final answer and the propagation of adversarial influence. Our results show that, under attacks, MAD does not necessarily improve LLM reasoning. Compared with a single-agent baseline, MAD can mitigate attacks on answer accuracy in question-answering tasks while amplifying unauthorized reads or writes in both question-answering and workspace tasks. Moreover, even when three out of five agents collude, the attack changes the final answer from correct to wrong on only 28.30\\% of tasks answered correctly without attack, while only 3.26\\% of initially correct honest agents switch to wrong answers during debate.",
+    "url": "http://arxiv.org/abs/2609.39146v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39146v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.38964v1",
+    "title": "When Order Matters: First-Speaker Bias and Mitigation through Personality in Sequential Multi-Agent Debate",
+    "authors": [
+      "Duofeng Xu",
+      "Bryan Hooi",
+      "Dandan Qiao"
+    ],
+    "abstract": "Multi-agent debate (MAD) is often used to improve large language model (LLM) reasoning, but sequential debate is rarely a neutral aggregator of agents' opinions. We show that sequential MAD suffers from a pronounced first-speaker bias: agents disproportionately shape the final answer when they speak first. As a result, placing a stronger model after weaker ones can substantially offset its reasoning advantage. We then focus on the disadvantaged strong-agent-last setting and ask whether personality prompting can mitigate this imbalance. Drawing on the Big Five model, we study agreeableness and extraversion as behavioral interventions applied to either the strong or weak side. We find that their effects are trait-specific. Influence consistently shifts in the direction of lower agreeableness, and assigning low agreeableness to the stronger agent helps restore its lost influence and improves final accuracy. Extraversion, by contrast, produces less systematic changes in influence and accuracy, with its clearest effect appearing in agents' verbosity. These findings show that effective MAD design depends not only on model capability, but also on how speaking order and induced interaction behavior shape the debate process.",
+    "url": "http://arxiv.org/abs/2609.38964v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38964v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.35412v1",
+    "title": "Self-Adapting Group of Experts for Multi-Agent Reasoning",
+    "authors": [
+      "Mohammad Atif Quamar",
+      "Nurbek Tastan",
+      "Karthik Nandakumar",
+      "Junpei Komiyama"
+    ],
+    "abstract": "Multi-agent systems bring together language model agents with different roles to propose, review, and refine solutions. Each agent's response depends on its model's capabilities, the reasoning strategy defined by its system prompt, and the information in its input context. Existing frameworks often adapt communication by changing this context while leaving individual prompts fixed, even when a problem calls for different skills. We study whether agents' initial responses can identify a strategy better suited to the current problem and guide its transfer to other agents. To address this, we introduce SAGE (Self-Adapting Group of Experts), a training-free framework that uses answer agreement, prefix consistency, and reciprocal peer review to select a strategy donor. SAGE transfers the selected donor's reasoning strategy to the other agents while preserving their original roles. This transfer uses only the agents' original system prompts, without access to the problem or generated solutions. After strategy adaptation, agents exchange responses through a dynamic, sparse directed acyclic graph that routes information from higher-scoring agents to lower-scoring agents. Experiments across multiple agent backbones and reasoning benchmarks show that SAGE achieves higher average accuracy than the evaluated baselines. Our code is available at https://github.com/atifquamar07/sage.",
+    "url": "http://arxiv.org/abs/2609.35412v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35412v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.35336v1",
+    "title": "TMCS: Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving",
+    "authors": [
+      "Shengqin Wang",
+      "Jie Jin",
+      "Yu Cheng",
+      "Yihang Chen",
+      "Weilin Luo"
+    ],
+    "abstract": "Despite the promise of Large Language Models (LLMs) in computational chemistry, rigorous combinatorial chemistry problems remain difficult because they require quantitatively constrained molecular modification, candidate validation, and systematic revision after failed attempts. Existing tool-augmented chemical agents demonstrate useful planning and tool use, but they rarely provide a unified loop for property-driven molecular optimization and workflow-level composition. To bridge this gap, we propose Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving (TMCS), a step-by-step multi-agent framework that formalizes chemical problem solving as an interpretable, tool-augmented workflow. At the task level, specialized agents leverage external tools, few-shot trajectory memory, and structured reflection to iteratively refine solutions. At the workflow level, TMCS chains generation, understanding, editing, description, and optimization into a closed-loop pipeline. Evaluations across multiple chemical tasks demonstrate that TMCS consistently enhances chemical reasoning across both open- and closed-source base models, achieving state-of-the-art performance.",
+    "url": "http://arxiv.org/abs/2609.35336v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35336v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.38113v1",
+    "title": "IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household",
+    "authors": [
+      "Tianqi Liu",
+      "Nayoung Kim",
+      "Julia Sebastien",
+      "Kathryn Gleason",
+      "Caitlín Eilís Barrett"
+    ],
+    "abstract": "Simulations of archaeological sites can make interpretations of past cultural practices observable and examinable. Generative multi-agent simulations offer a bottom-up approach to modeling how people collectively moved through and used historical spaces. However, current agents designed to simulate everyday life often plan and act independently, limiting their ability to capture how movement depends on others' actions. We introduce IMPACT (Interdependent Movement Planning through Inter-Agent Constraints and Triggers), an architecture that uses culturally specific roles and obligations to define dependencies among agents' activities and guide coordination. IMPACT connects socially gated milestone planning, wait-or-prompt resolution, structured directive issuance, and directive integration. These mechanisms determine whether and when activities can begin or change as social conditions evolve, producing socially constrained and prompted movement as their primary observable outcome. We instantiate IMPACT in a five-hour simulation of a Pompeian dinner involving ten agents across interdependent roles. Analysis of five simulation runs shows how social roles, responsibilities, and status relations shape household activities and spatial practices, as reflected in patterns of co-location, asymmetric waiting, co-movement, and social directives. In a controlled ablation evaluation, thirty-seven participants rated the complete architecture's behavior as more socially coherent and believable than that of two reduced architectures. Interviews with six archaeology experts highlighted historically plausible movement patterns and the simulation's potential to support archaeological interpretation, while identifying areas requiring stronger historical grounding for future work.",
+    "url": "http://arxiv.org/abs/2609.38113v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38113v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.MA"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.36593v2",
+    "title": "Text2Sim: Agentic Physics-Based Simulation Generation with Distilled Expertise",
+    "authors": [
+      "Xiaoyu Xiong",
+      "Tsun-Hsuan Wang",
+      "Yi-Ling Qiao",
+      "Tao Du",
+      "Minchen Li"
+    ],
+    "abstract": "Creating diverse physical simulations remains labor-intensive because assets, layout, physical parameters, motion, control, and rendering must be designed and debugged jointly. We present Text2Sim, a simulation-specialized agentic pipeline that converts a text-only request into an executable, editable dynamic case. Built on Genesis, Text2Sim uses a hierarchical agentic structure that combines a Planner with specialized Writers, asset-generation tools, and an independent Critic. Compact skills (Debug Cards) distilled from graphics demonstrations provide role-specific physical guidance for execution-based repair. We evaluate physical quality, visual quality, and human preference on 42 held-out prompts spanning rigid, articulated, deformable, and cloth phenomena, with a paper-level split between experience construction and evaluation. We design automatic physical and visual scorers to evaluate the quality of the results, and Text2Sim achieves higher scores than all four state-of-the-art baselines on both metrics. In blinded user studies with these baselines, significantly more participants prefer Text2Sim than prefer the baselines, which is consistent with the results from our automatic scorers. The pipeline also supports a broad range of downstream applications; we select dataset construction and extension to multimodal input as two representative examples. We will release the code, the Debug Card library, and a dataset of generated cases, each pairing the text prompt and rendered video with the executable program, assets, physical parameters, controls, and recorded states.",
+    "url": "http://arxiv.org/abs/2609.36593v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.36593v2",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.GR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.GR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.39964v1",
+    "title": "AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC",
+    "authors": [
+      "Yijie Bian",
+      "Kai Zhang",
+      "Wei Guo",
+      "Zixin Wang",
+      "Shenghui Song"
+    ],
+    "abstract": "Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. Data-driven multi-modal ISAC models depend heavily on annotated real-world data to learn relationships across sensing and wireless observations, thereby constraining scalable deployment. Although synthetic data generation reduces the burden, adapting existing simulation pipelines to a target deployment requires consistent scene, sensing, wireless, and learning configurations, while mismatches among these coupled components impair sim-to-real transferability. To address the challenge, we propose an agentic artificial intelligence (AI) framework for sim-to-real multi-modal ISAC, named AIMS. Given a natural-language deployment request specifying the target task, deployment conditions, and real-data budget, AIMS derives a deployment-specific sim-to-real configuration and coordinates its execution to produce a deployment-specific task model. A two-agent architecture coordinates scene construction with task learning. A scene construction agent generates geographically grounded, synchronized sensing and wireless records from shared physical states, while a scene understanding agent configures task-relevant modalities and mixture-of-experts (MoE) learning for zero-shot inference or few-shot adaptation. Structured domain knowledge guides dependency-aware planning, while validation evidence supports feedback-driven revision of affected decisions. Experiments on the real-world DeepSense~6G dataset demonstrate improved vehicle detection and beam prediction over the considered simulation and fusion baselines. A separate orchestration benchmark evaluates task interpretation, dependency reasoning, and feedback-driven replanning across diverse deployment requests, showing improved plan correctness with structured domain knowledge and validation feedback.",
+    "url": "http://arxiv.org/abs/2609.39964v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39964v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.38345v1",
+    "title": "OpenCollab: A Multi-Agent Coding Framework with Programmable Collaboration and Controllable Runtime",
+    "authors": [
+      "Chun-Wah Hsu",
+      "Kai Gong",
+      "Yu Wu",
+      "Xianhe Chen",
+      "Mengyang Liu"
+    ],
+    "abstract": "Multi-agent coding systems are designed to tackle complex software engineering tasks through collaboration. However, existing evaluations typically assume configured organizations are followed faithfully, whereas reality differs. This behavioral gap, combined with differences in underlying system components, prevents clear attribution of observed gains. To this end, we introduce OpenCollab, a multi-agent coding framework that provides a unified infrastructure for programmable collaboration and controllable runtime. Specifically, OpenCollab unifies organization design, enforces experimental control on a shared runtime, and tracks execution through fine-grained event streams. On this basis, we define Adherence to quantify whether the declared organization is actually realized. Our experiments reveal that agents collaborate very differently across configurations: changing any single dimension shifts Adherence, from 47.2% to as high as 97.2%. Furthermore, extensive agentic coding benchmarks show that a two-coder workflow built on OpenCollab establishes new SOTA performance compared to the mainstream harnesses such as Mini-SWE-agent, Codex CLI, and Claude Code, showing that a well-designed organization can outperform strong existing harnesses, while OpenCollab's single-agent configuration uses the fewest tokens across all evaluated suites. OpenCollab establishes a unified multi-agent infrastructure for easy programmable collaboration and controlled causal evaluation.",
+    "url": "http://arxiv.org/abs/2609.38345v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38345v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.35749v1",
+    "title": "Towards Communication-Efficient Social Intelligence in Language Agents",
+    "authors": [
+      "Linxiao Gong",
+      "Yijie Xu",
+      "Tianfu Wang",
+      "Yin Wu",
+      "Yili Wang"
+    ],
+    "abstract": "Socially intelligent language agents must negotiate, coordinate, and resolve conflicting preferences while respecting the time and attention of both participants. Balancing these demands is challenging because agents must convey enough to address a partner's constraints and advance their goals without adding words that do not help the interaction. In this paper, we propose Teacher-Assisted Communication Training (TACT) to improve social goal attainment while reducing communication cost, making interactions with agents more productive and less demanding. We first characterize communication efficiency in terms of action strategy and expression, whose effects extend beyond the current utterance to the partner's response and subsequent exchanges. We design TACT to revise student-generated actions, test the revisions through partner responses, and distill useful feedback into the student. An expression specialist removes unnecessary detail while preserving the intended action, while a strategy specialist proposes alternatives that may better address the partner's constraints. To determine which revision helps, TACT samples a partner response for each candidate and selects a teacher reference by balancing local goal support against action-token cost. That reference guides on-policy distillation on the student's own generation prefixes, allowing the student to act independently at deployment. We evaluate TACT on SOTOPIA and AgentSense. On SOTOPIA, it achieves the highest Goal among the evaluated methods on All and Hard while using substantially fewer target tokens than SFT+SDPO. On AgentSense, it improves goal success over the initial student while reducing target tokens and interaction messages.",
+    "url": "http://arxiv.org/abs/2609.35749v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35749v1",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2609.39903v1",
+    "title": "OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software",
+    "authors": [
+      "Dingyuan Dai",
+      "Heli Qi",
+      "Lei Liu",
+      "Yinxi Li",
+      "Baiding Chen"
+    ],
+    "abstract": "Scientific software presents a demanding test for computer-using agents based on visual language models (VLMs): completing a research workflow requires interpreting specialized interfaces, manipulating scientific objects, and producing verifiable results. We thus introduce OSWorld-Science, a benchmark and evaluation environment that combines scientifically meaningful tasks, artifact-based evaluation, and an efficient agent harness for studying computer use in the scientific domain. The benchmark contains 12 VLMs and 146 high-quality tasks across several scientific domains and software configurations, covering workflows such as molecular drawing and retrosynthesis, pathology image analysis, statistical computing, and physical simulation. Tasks are developed through expert proposals and iterative human--AI co-design, with selection guided by scientific value and difficulty. Task-specific execution-based evaluators inspect application states and generated artifacts, including molecular structures, segmentation masks, plots, and numerical results, and award partial credit for incomplete outcomes. Our special harness integrates model adapters, interaction-loop control, and trajectory logging to support comparisons of models and interaction strategies. Our results show that current state-of-the-art VLMs with a strong harness still face challenges in addressing key questions in the scientific domains. We also analyze the benchmarking results across multi-linguistics, reasoning efforts, context length and other factors and derive several important conclusions and directions to assist future development. Overall, we provide an integrated framework connecting expert-defined scientific goals to verifiable software outcomes, enabling systematic evaluation of both agent capabilities and harness design in scientific workflows.",
+    "url": "http://arxiv.org/abs/2609.39903v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39903v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.40284v1",
+    "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+    "authors": [
+      "Pranjal Aggarwal",
+      "Lawrence Keunho Jang",
+      "Sean Welleck",
+      "Daniel Fried",
+      "Ruslan Salakhutdinov"
+    ],
+    "abstract": "Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespread adoption and deployment of CUAs remains their speed and cost. Progress towards faster yet capable CUAs requires reliable evaluation of their speed, but many CUA benchmarks currently face a reproducibility crisis. Benchmarks are based on complex infrastructure with varying machine and container configurations that confound the evaluation of the execution speed of CUAs. Towards addressing this gap, we propose cua-speedrun, which introduces standardized infrastructure and task sets, with a focus on evaluating the speed and efficiency of CUAs. cua-speedrun uses a uniform virtual machine setup and execution pipeline, along with a common agent interface that enables single-agent implementations to operate seamlessly across different benchmarks. Across four different CUA benchmarks, we evaluate how reasoning effort, agent harnesses, and environment latency affect performance, speed, and cost. We find no single model family is optimal for all three; none of the open-weight models are on the frontier, and also, unintuitively, for some models increasing the reasoning effort can speed up task completion, while faster environment input-output can slow down overall task completion time. We also demonstrate that we can effectively reduce the evaluation task set of most CUA benchmarks without degrading overall statistical power, allowing for more efficient benchmarking and comparison. We believe cua-speedrun will enable structured progress towards fast, efficient CUAs, unlocking new real-world use cases and applications. All code, infrastructure, and analysis are available at https://cuaspeedrun.com.",
+    "url": "http://arxiv.org/abs/2609.40284v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.40284v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.39371v1",
+    "title": "EHR-RobustGym: Benchmarking and Training Agents for Robust Clinical Reasoning",
+    "authors": [
+      "Yitong Qiao",
+      "Yancheng Jin",
+      "Lei Liu",
+      "Yue Shen",
+      "Jian Wang"
+    ],
+    "abstract": "In hospital workflows, electronic health records (EHRs) are often noisy, and may not contain the evidence needed to confirm events or measurements referenced in a clinical query. Even when database retrieval succeeds, clinical agents can overlook such discrepancies and return plausible but unsupported answers. We introduce EHR-RobustGym, a scalable and interactive environment for evaluating and training robust clinical agents grounded in noisy EHRs. Built on MIMIC-IV hospital records (365K patients, 31 tables, and over 500M records), EHR-RobustGym comprises 5,486 Clean-Noise pairs spanning six clinical intents and both patient-level and population-level queries. The pairs test robustness to Record-level, Value-level, and Query-level noise, while interactive SQL/Python execution and outcome verification support trajectory collection and training. Evaluating multiple LLMs reveals substantial robustness gaps: average task success across proprietary and large-scale open-weight models drops from 62.2% on Clean questions to 37.9% on Noise questions. At k=4, pass^k consistency falls below 50% for most evaluated models, exposing instability in clinical task completion. Supervised fine-tuning and reinforcement learning in EHR-RobustGym improve performance, with gains generalizing to five external EHR benchmarks. Together, these results position EHR-RobustGym as a testbed for evaluating and improving the evidence-grounded robustness of clinical agents.",
+    "url": "http://arxiv.org/abs/2609.39371v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39371v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.38974v1",
+    "title": "RealWorldShop: Benchmarking and Improving Conversational Shopping Agents in Real-World E-commerce",
+    "authors": [
+      "Xinwei Yang",
+      "Kelong Mao",
+      "Yudong Guo",
+      "Sulong Xu",
+      "Simiu Gu"
+    ],
+    "abstract": "Large language models are reshaping ecommerce from static recommenders into interactive shopping assistants, yet real-world shopping requires session-level decision support: users reveal and revise constraints, coordinate multiple goals, and expect product-grounded recommendations over a full conversation. Existing benchmarks are mostly outcome-oriented or execution-oriented, leaving this evolving decision process under-evaluated. We introduce REALWORLDSHOP, a benchmark built on 3.28M grounded products, structured shopping episodes, a profile-grounded and actioncontrolled user simulator, and role-play evaluation. Our analysis shows that current systems produce locally plausible responses but struggle with state tracking, constraint updating, and grounded convergence, especially under ambiguous intent, bundle, and multi-intent scenarios. We further propose REALSHOP_AGENT, an executable session-control framework with explicit state management, shopping-flow control, catalog-grounded retrieval, and runtime guards. Experiments show that REALSHOP_AGENT consistently outperforms strong baselines on REALWORLDSHOP.",
+    "url": "http://arxiv.org/abs/2609.38974v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38974v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.38867v1",
+    "title": "Talk2Agent: Benchmarking Voice Interfaces for Text Agents",
+    "authors": [
+      "Terumi Chiba",
+      "Guangzhi Sun",
+      "Zheqi Yuan",
+      "Chao Zhang"
+    ],
+    "abstract": "Large language model (LLM) computer-use agents are typically evaluated with clean written instructions, despite speech being an increasingly popular interface for interacting with such systems. Speech input introduces an additional failure point: transcription errors can alter task-critical entities, constraints, or targets before the agent begins reasoning, while conventional ASR metrics do not directly measure whether the information required for successful execution has been preserved. We introduce Talk2Agent, a benchmark for evaluating how effectively voice interfaces convey human-spoken instructions to LLM-based computer-use agents. Talk2Agent builds human-spoken versions of tasks from WildClawBench and OSWorld and evaluates a range of voice interfaces, including dedicated ASR models, audio-capable LLMs, contextual biasing, and LLM-based ontology repair. Because repeatedly executing long-horizon computer-use tasks is costly and stochastic, we further propose an execution-free, task-conditioned evaluation framework that projects the original task grader onto prompt-addressable intentions and measures how much task-relevant information is retained after the voice interface. On WildClawBench, Talk2Agent's execution-free native projection provides a practical, execution-grounded measure of voice-interface quality, correlating with downstream task completion and improving Pearson correlation by 0.246 over WER/CER on 32 hours of real human speech.",
+    "url": "http://arxiv.org/abs/2609.38867v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38867v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI",
+      "eess.AS"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.38652v1",
+    "title": "AgBench: Agentic AI Benchmarks for Personal AI Devices",
+    "authors": [
+      "Yizhou Han",
+      "Di Wu",
+      "Dhananjay Saikumar",
+      "Blesson Varghese"
+    ],
+    "abstract": "Agentic AI systems increasingly rely on cloud-hosted large language models for planning, tool use, and iterative execution, raising concerns about API cost and data exposure. Advances in personal AI devices enable agents to execute locally, but limited resources on device may affect task success and performance. Existing benchmarks are inadequate for systematically characterizing these trade-offs across devices, workloads, and deployment architectures. We present AgBench, a benchmark suite and open artifacts for reproducible evaluation of agentic AI on personal devices. Using AgBench, we evaluate local, hybrid, and cloud execution across agentic workloads, examining task success, latency, cloud API cost, and data exposure. Our results, drawn from over 162.07 million data points, show that personal AI devices can complete many agent tasks locally, but local-only execution generally has lower task success and longer completion times than cloud-only execution, especially as concurrency increases. Local-only execution eliminates cloud model API costs and sensitive-information exposure to cloud agents. Hybrid execution can improve task success, but its cloud cost and data exposure depend on how agents divide work and share information. No single architecture performs best across task success, goodput, cloud cost, and data exposure; deployment choices should reflect the intended workload and device capabilities. AgBench is available at https://anonymous.4open.science/r/AgBench-2777.",
+    "url": "http://arxiv.org/abs/2609.38652v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38652v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI",
+      "cs.PF"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.38460v1",
+    "title": "NAQD Env: A benchmark for selective withdrawal in language agents",
+    "authors": [
+      "Mohamed Abouzahra"
+    ],
+    "abstract": "Language agents must revise planned actions when evidence changes, permission is revoked, or a stop instruction arrives. A useful response is selective: suspend affected actions, preserve unaffected work, and resume only after sufficient repair. We introduce NAQD-Env, a synthetic environment that evaluates these decisions against a deterministic reference policy over explicit evidence, authorization, and constraint dependencies. Eleven dependency families support evaluation on development structures, held-out families, and held-out combinations of structures. Metrics distinguish attempted violations from violations permitted by a simulated execution gate and jointly report policy agreement, task value, withdrawal, resumption, and event reporting. We evaluate three open-weight instruction-tuned models from two families under three prompt conditions on 350 frozen scenarios, yielding 3,150 model-prompt episodes before gate replay. Across the reported conditions, withdrawal recall is at most 0.06, no valid resumption is observed at eligible opportunities, and only one episode matches the complete reference policy. Under the NAQD prompt, Qwen2.5-7B has fewer unsafe-attempt episodes than Qwen2.5-3B and Llama-3.1-8B, but also completes less useful work and preserves unaffected actions less accurately. Exploratory supervised fine-tuning probes increase Qwen2.5-3B decision accuracy from 0.45-0.54 to 0.83-0.92; separate diagnostics reveal inappropriate withdrawal after curriculum omissions and a loss of event reporting. These results motivate evaluating selective withdrawal as a distinct component of agent reliability. The setting measures policy application with trusted structured inputs and does not establish real-world containment or source-verification ability.",
+    "url": "http://arxiv.org/abs/2609.38460v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38460v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.38043v1",
+    "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
+    "authors": [
+      "Ashish Jain",
+      "Armaan Sandhu"
+    ],
+    "abstract": "Interactive agent benchmarks and multi-turn reinforcement learning increasingly place a second language model in the role of the user. This simulated user controls what information the agent receives and when, yet current benchmarks score only the agent and do not directly measure whether the user correctly executed its assigned role. We introduce UserProxyBench, an evaluation layer over the tau-bench family, and the User Fidelity Score (UFS), which measures adherence to the benchmark's private user instructions using task-grounded rubric criteria scored independently of agent success. Holding the agent fixed at GPT-5.5 and varying only the user proxy across 375 enterprise tasks changes mean task reward by 15.2 points, while 24.4% of successful episodes contain a user-specification violation. The dominant failure is premature disclosure: users provide information before it is requested. This behavior has little effect on task reward, yet among successful episodes it causes the agent to make 1.06 fewer tool calls on average, changing the interaction being evaluated while preserving the reward. Finally, across seven proxies we identify an empirical cost-fidelity frontier, enabling practitioners to select the least expensive simulator that satisfies a required fidelity level.",
+    "url": "http://arxiv.org/abs/2609.38043v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38043v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.37658v1",
+    "title": "EnterpriseBench: Benchmarking LLM Agents on Enterprise-Level Strategic Reasoning and Decision-Making",
+    "authors": [
+      "Min Yang",
+      "Yichen Pan",
+      "Jinghua Piao",
+      "Dandan Song",
+      "Yongshun Gong"
+    ],
+    "abstract": "LLM agents are increasingly expected to support enterprise workflows, where tasks often involve missing information, uncertainty, feedback, and long-term trade-offs. However, existing enterprise and financial benchmarks mainly test static capabilities such as information extraction, numerical calculation, domain knowledge, and financial QA, leaving interactive and long-horizon decision-making underexplored. To bridge this gap, we introduce EnterpriseBench, a benchmark that evaluates LLM agents across this spectrum, from static question answering to dynamic decision-making. Specifically, EnterpriseBench reorganizes existing enterprise and financial QA datasets into a unified foundational suite annotated by capability and difficulty, and introduces three professional interactive settings: Consulting, based on management-consulting-style business cases for client problem diagnosis through multi-turn information seeking; the Beer Game, adapted from a classic supply-chain management simulation for inventory control under delayed feedback; and Enterprise Digital Twin, a project-based business simulator for workforce, risk, and project planning. Experiments with nine agent methods under four backbone models show that current agents have not yet achieved stable, comprehensive, and cross-task reliability in enterprise scenarios. These results show that EnterpriseBench provides a practical benchmark for evaluating LLM agents in realistic enterprise strategic reasoning and decision-making.",
+    "url": "http://arxiv.org/abs/2609.37658v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37658v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.39030v1",
+    "title": "SURE-EVAL: A Systematic and Unified Agentic Framework for Reproducible Evaluation",
+    "authors": [
+      "Jing Peng",
+      "Junhao Du",
+      "Yixuan Wang",
+      "Bowen Wang",
+      "Hanqi Li"
+    ],
+    "abstract": "Audio and speech models are released rapidly, but reported scores often conflate model capability with deployment and evaluation choices. The same checkpoint can produce different predictions under different runtimes, hardware, decoding settings, or fallback policies. Even fixed predictions can receive different scores under different normalization and metric implementations. Existing speech benchmarks standardize selected datasets or scoring procedures, but rarely connect heterogeneous model onboarding, controlled inference, and versioned scoring in one executable workflow. We introduce SURE-EVAL, a Systematic and Unified Agentic framework for Reproducible Evaluation of audio and speech systems. A Tool Agent Workflow converts model releases into isolated, verified callable tools. A Main Agent Workflow commits task-specific inference and scoring protocols, then delegates all score-bearing operations to versioned deterministic programs. Each result retains its runtime, protocol, pipeline nodes, predictions, and audit artifacts. Across 18 public releases covering automatic speech recognition, text-to-speech, voice conversion, speaker diarization, speaker-attributed recognition, and multi-task audio understanding, a Codex-only baseline completes 12 models in one shot, while the same agent with the SURE-EVAL Tool Agent Workflow completes all 18. We also conduct unified evaluations over seven ASR test conditions and two TTS subsets. A protocol analysis of three TTS systems finds absolute differences of 0.02-0.52 points between paper-reported and unified results, with the direction varying by model and language. These results show that reproducible evaluation requires controlling both model execution and output scoring.",
+    "url": "http://arxiv.org/abs/2609.39030v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.39030v1",
+    "published": "2026-09-30",
+    "categories": [
+      "eess.AS"
+    ],
+    "primary_category": "eess.AS",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.37864v1",
+    "title": "AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems",
+    "authors": [
+      "Yiming Cheng",
+      "Alfin Wijaya Rahardja",
+      "Mengshi Zhang",
+      "Zihao Chen",
+      "Zhenpeng Chen"
+    ],
+    "abstract": "Agent harness bugs exhibit unique characteristics and remain challenging for state-of-the-art software agents to repair. Progress in this area is further hindered by existing benchmarks, which contain only a small and fixed number of executable harness bugs while requiring hundreds of human hours to construct. This work presents AgentBug-Smith, an automated harness bug reproduction approach that continuously discovers and reproduces real-world harness bugs from open-source agentic systems. Across different backbone LLMs, AgentBug-Smith consistently outperforms existing bug reproduction techniques designed for general software, achieving 10.67% - 27.56% higher success rates of reproducing harness bugs. By applying AgentBug-Smith to open-source agentic systems in the wild, we construct Live-Harness-Bench, a live and extensible benchmark that currently contains 200 reproducible harness bugs. We further demonstrate the utility of Live-Harness-Bench through two downstream applications. First, we use Live-Harness-Bench as the evaluation benchmark to systematically evaluate state-of-the-art software agents, revealing their limited capabilities in repairing real-world harness bugs. Second, we use Live-Harness-Bench as a knowledge base of real-world harness bug fixes, from which reusable repair skills can be distilled to improve existing software agents, increasing their harness-bug repair rates by 6.32%. Together, AgentBug-Smith and Live-Harness-Bench establish a scalable foundation for continuously evaluating and improving software agents on harness bug repair, turning real-world agent failures into executable evaluation instances and reusable knowledge for harness improvement, thus contributing to the ultimate goal of recursively self-improving agents.",
+    "url": "http://arxiv.org/abs/2609.37864v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37864v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.36614v1",
+    "title": "Selective Elicitation as a Commercial Influence Channel: A Reproducible Synthetic Shopping-Agent Stress Test",
+    "authors": [
+      "Jiapeng Li"
+    ],
+    "abstract": "A commercial incentive need not enter the final ranking algorithm to affect a shopping assistant's recommendation: it may instead influence which preference question the assistant asks. We make this distinction experimentally observable in a deliberately small, synthetic setting. Each task has two products, three verified numerical attributes, a price limit, and a private fixed preference vector. An honest simulated user answers one pairwise question. A separate recommender receives the products and this answer but not the sponsorship assignment. We contrast a neutral question, a soft commercial instruction, and an explicitly adversarial instruction to ask about the sponsor's advantage while omitting the rival's advantage. Across 40 held-out sponsorship-assignment cases (20 distinct catalog-preference contexts), the soft instruction changes no selections. The targeted instruction raises sponsored selection by 0.30 and reduces mean synthetic utility by 0.0547 relative to neutral questioning (95% context-bootstrap interval [-0.0828, -0.0291]) for one language-model recommender. A fixed Bayesian recommender shows a similar effect; a second model makes the same choices on all 120 frozen question-answer inputs. A terminal-answer consistency judge rates all 20 sampled targeted answers consistent, although five have synthetic regret above 0.05; a separate question-coverage dimension flags their one-sided elicitation. A robust partial-preference certificate remains valid under the stipulated synthetic utility but certifies only 16 of 40 targeted cases and is not better than asking a neutral question directly. These results establish neither typical behavior under advertising incentives nor effects on actual consumers.",
+    "url": "http://arxiv.org/abs/2609.36614v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36614v1",
+    "published": "2026-09-29",
+    "categories": [
+      "cs.LG",
+      "cs.CY"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2609.35596v2",
+    "title": "SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents",
+    "authors": [
+      "Saswat Das",
+      "Parvati Viswanathan",
+      "Daniel Donnelly",
+      "Chang Huang",
+      "Sahar Abdelnabi"
+    ],
+    "abstract": "Self-evolving LLM agents have gained prominence for their ability to improve after deployment by modifying their harness, including their controller instructions, memory management protocols, and reusable tools and skills, in response to user and environment feedback. However, locally useful updates may persist into later tasks where they produce unsafe behavior, even without direct adversarial influence. To study this risk, we introduce SEABench, a benchmark for studying endogenous misalignment arising from agent self-evolution, with 48 longitudinal task sequences that span multiple evolution surfaces, task domains, and harm types in a rich personal-assistant environment. To account for the stochasticity inherent in agentic operations, we provide an adaptive trajectory discovery pipeline that probes for failures while preserving original task intent and supports causal attribution through paired non-evolving agents and attribution scores. Our evaluation across multiple recent LLMs, evolution surfaces, and harm types reveals that self-evolution indeed increases task completion rates but often at the cost of safety failures that are absent for paired non-evolving baseline agents. We also show that qualitatively different safety behaviors emerge across evolution surfaces and harm types. Further, we show that this divergence in safety behavior is reflected in agents' chain-of-thought reasoning, which yields an effective monitoring strategy that can mitigate unsafe behavior with a low false positive rate.",
+    "url": "http://arxiv.org/abs/2609.35596v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.35596v2",
+    "published": "2026-09-28",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
