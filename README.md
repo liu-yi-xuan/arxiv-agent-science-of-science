@@ -24,6 +24,52 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-02
+
+**22 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents](http://arxiv.org/abs/2610.01787v1) | Beining Wu, Zihao Ding, Jun Huang | Self-improving GUI agents keep the trajectories they produce and return them to the agent, by fine-tuning or by retrieval into the prompt, and studies that compare the two destinations disagree. |
+| [Persona and Persuasive Framing in AI Voice Agents: A $2\times2$ Field Experiment with Children](http://arxiv.org/abs/2609.38782v1) | Thilo Tamme, David Steck, Anton Hantel | Conversational agents increasingly interact with children, yet evidence on how their design shapes children's susceptibility to persuasion comes almost entirely from the lab. |
+| [KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora](http://arxiv.org/abs/2609.37673v1) | Changmian Wang, Yuchao Ma, Xuchao Lu et al. | Experienced professionals know more than just facts and conclusions. They know which cues matter, why a judgment is reasonable, and which action to take. |
+| [Can AI Scientists Coordinate at Runtime?](http://arxiv.org/abs/2610.00980v1) | Zijian Liu, Yangzhixin Luo, Junyu Lu et al. | Multi-agent AI scientists have shown improving performance across a diverse range of tasks. Yet a common approach is design-time agentic orchestration, which typically relies on fixed workflows. |
+| [FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification](http://arxiv.org/abs/2610.00885v1) | Naing Oo Lwin | Coding agents increasingly automate Lean proof development, but successful compilation alone does not establish that a candidate proves the intended statement under acceptable assumptions. |
+| [YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents](http://arxiv.org/abs/2610.01097v1) | Yoonkyu Woo, Woojin Lee, Jin-Xia Huang | End-to-end research agents can now produce complete scientific papers, yet manuscript claims often diverge from executed experiments. |
+| [Experimental Experience Modeling for Autonomous Research](http://arxiv.org/abs/2609.39392v1) | Wenda Wei, Yingchen Zhang, Ruqing Zhang et al. | Autonomous research agents can generate hypotheses and conduct experiments, but experimentation remains a major source of computational cost. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AIM: Agentic Idea Management for Automated Research](http://arxiv.org/abs/2609.38445v1) | Hyeong Kyu Choi, Bhavana Dalvi Mishra, Jiefeng Chen et al. | Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organ... |
+| [Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution](http://arxiv.org/abs/2609.38108v1) | Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera et al. | Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. |
+| [Sapien: A Stateful Policy Engine for Autonomous AI Agents](http://arxiv.org/abs/2610.00797v1) | Corinn Tiffany, Wen Zhang, Eugene Bagdasarian et al. | Contextual security defenses prevent AI agents from taking rogue actions by synthesizing a task-specific policy and enforcing it on the agent's tool calls. |
+| [RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](http://arxiv.org/abs/2609.39045v1) | Wenyi Wu, Minghao Fu, Jieyu You et al. | Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence](http://arxiv.org/abs/2610.01027v1) | Xiaoxia Cheng, Linnan Wang, Jiahao Ma et al. | Recent advances in Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) have significantly democratized access to legal information. |
+| [RankEvolve: A Reliable Multi-Agent Auto-Research Harness for Evolving Ranking Models](http://arxiv.org/abs/2609.39551v1) | Zheng Chen, Linfeng Liu, Hong Li et al. | Auto-research agents, LLM systems that propose, implement, train, and evaluate model changes across iterations, promise to automate applied ML's experimental loop. |
+| [MiniRep: Robust Reputation-Based Aggregation for Multi-Agent Debate](http://arxiv.org/abs/2609.39297v1) | Jiaming Zhang, Yuwan Liu, Yue Huang et al. | Autonomous agents powered by large language models (LLMs) are rapidly evolving into an open agentic ecosystem. |
+| [MADBench: Benchmarking the Security of Multi-Agent Debate](http://arxiv.org/abs/2609.39146v1) | Yuwan Liu, Jiaming Zhang, Yue Huang et al. | Multi-agent debate (MAD) can improve large language model (LLM) reasoning by allowing multiple agents to exchange and critique their answers to the same task. |
+| [When Order Matters: First-Speaker Bias and Mitigation through Personality in Sequential Multi-Agent Debate](http://arxiv.org/abs/2609.38964v1) | Duofeng Xu, Bryan Hooi, Dandan Qiao | Multi-agent debate (MAD) is often used to improve large language model (LLM) reasoning, but sequential debate is rarely a neutral aggregator of agents' opinions. |
+| [IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household](http://arxiv.org/abs/2609.38113v1) | Tianqi Liu, Nayoung Kim, Julia Sebastien et al. | Simulations of archaeological sites can make interpretations of past cultural practices observable and examinable. |
+| [A Multi-Agent LLM Framework for Personalized Health Checkup Interpretation and Guidance](http://arxiv.org/abs/2610.01451v1) | HyungJun Kim, Taehan Lee, Soojin Cheon | Personalized interpretation of health checkup results requires reasoning across longitudinal records, medical knowledge, lifestyle guidance, and healthcare navigation. |
+| [AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC](http://arxiv.org/abs/2609.39964v2) | Yijie Bian, Kai Zhang, Wei Guo et al. | Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. |
+| [OpenCollab: A Multi-Agent Coding Framework with Programmable Collaboration and Controllable Runtime](http://arxiv.org/abs/2609.38345v1) | Chun-Wah Hsu, Kai Gong, Yu Wu et al. | Multi-agent coding systems are designed to tackle complex software engineering tasks through collaboration. |
+| [Beyond Final Accuracy: Auditing Communication in LLM Multi-Agent Systems](http://arxiv.org/abs/2610.01042v1) | Shixuan Li, Wei Yang, Peiyu Zhang et al. | Multi-agent communication aims to help agents benefit from one another's information. Yet improvements in system performance leave a fundamental ambiguity: do they reflect effective communication, ... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Foreign-trained faculty and the collaborative organization of high-impact U.S. science](http://arxiv.org/abs/2610.00692v1) | Erjia Yan, Chaoqun Ni, Xiang Zheng et al. | Internationally mobile scientists are central to national research and innovation systems. We link faculty rosters from the Academic Analytics Research Center to OpenAlex publication records for 20... |
+
 ### 📅 2026-10-01
 
 **34 new papers found**
