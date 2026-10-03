@@ -24,6 +24,25 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-03
+
+**5 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents](http://arxiv.org/abs/2610.01787v1) | Beining Wu, Zihao Ding, Jun Huang | Self-improving GUI agents keep the trajectories they produce and return them to the agent, by fine-tuning or by retrieval into the prompt, and studies that compare the two destinations disagree. |
+| [Can AI Scientists Coordinate at Runtime?](http://arxiv.org/abs/2610.00980v1) | Zijian Liu, Yangzhixin Luo, Junyu Lu et al. | Multi-agent AI scientists have shown improving performance across a diverse range of tasks. Yet a common approach is design-time agentic orchestration, which typically relies on fixed workflows. |
+| [FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification](http://arxiv.org/abs/2610.00885v1) | Naing Oo Lwin | Coding agents increasingly automate Lean proof development, but successful compilation alone does not establish that a candidate proves the intended statement under acceptable assumptions. |
+| [YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents](http://arxiv.org/abs/2610.01097v1) | Yoonkyu Woo, Woojin Lee, Jin-Xia Huang | End-to-end research agents can now produce complete scientific papers, yet manuscript claims often diverge from executed experiments. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Sapien: A Stateful Policy Engine for Autonomous AI Agents](http://arxiv.org/abs/2610.00797v1) | Corinn Tiffany, Wen Zhang, Eugene Bagdasarian et al. | Contextual security defenses prevent AI agents from taking rogue actions by synthesizing a task-specific policy and enforcing it on the agent's tool calls. |
+
 ### 📅 2026-10-02
 
 **22 new papers found**

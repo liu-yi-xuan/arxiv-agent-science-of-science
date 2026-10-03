@@ -1,0 +1,99 @@
+[
+  {
+    "id": "2610.01787v1",
+    "title": "Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents",
+    "authors": [
+      "Beining Wu",
+      "Zihao Ding",
+      "Jun Huang"
+    ],
+    "abstract": "Self-improving GUI agents keep the trajectories they produce and return them to the agent, by fine-tuning or by retrieval into the prompt, and studies that compare the two destinations disagree. We attribute this to the unit of experience: a trajectory bundles items with different properties, so a conclusion about the bundle depends on its mix. To address this, (i) we introduce component routing, which splits the experience into locators, procedures, state facts and lessons and sends each component to the context or to the weights, compared on the same items across three backbone families, two environments and three seeds. One pool has two destinations: locators and lessons win in the weights, procedures and state facts in the context. (ii) We fit a rule in two properties measured before any training, recurrence and state-conditionality; it recovers the destination of a held-out backbone family in 24 of 24 cells, two interventions move a component toward the boundary, and routing by the rule beats every whole-trajectory baseline and, by +3.5 points on average, the better single destination of each backbone. (iii) We identify how training and producer-consumer differences change the value of the two destinations: note readout decreases after the same component is written into the weights, most for the items that recur most, context gains increase with the information gap, and weights gains decrease with the policy gap. Code and data will be released.",
+    "url": "http://arxiv.org/abs/2610.01787v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01787v1",
+    "published": "2026-10-01",
+    "categories": [
+      "cs.AI",
+      "cs.GR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.00980v1",
+    "title": "Can AI Scientists Coordinate at Runtime?",
+    "authors": [
+      "Zijian Liu",
+      "Yangzhixin Luo",
+      "Junyu Lu",
+      "Yi Li",
+      "Yu Chen"
+    ],
+    "abstract": "Multi-agent AI scientists have shown improving performance across a diverse range of tasks. Yet a common approach is design-time agentic orchestration, which typically relies on fixed workflows. In contrast, human scientists coordinate and adjust their division of labor at runtime. We therefore ask: can AI scientists also coordinate at runtime? To this end, we introduce Runtime Agent Coordination (RAC), which selects agents from existing AI-scientist hosts during execution, assigns scoped work contracts, and provides artifact-grounded verification. Verification informs subsequent agents without blocking transitions or discarding artifacts. We conduct a single-seed exploratory evaluation across Agent Laboratory, EvoScientist, and ARK on ResearchClawBench, preserving host models, tools, and permissions under host-calibrated budgets. Four cumulative conditions separate native execution, runtime communication, runtime selection, and the combined addition of contracts and verification. Runtime selection yields the highest observed mean score for each host; adding contracts and verification reduces these means, with host-dependent outcomes relative to native execution. These results motivate runtime coordination while exposing the limits of additional coordination mechanisms under constrained budgets. Code is available at https://github.com/systemind-team/Runtime-AI-Scientist.",
+    "url": "http://arxiv.org/abs/2610.00980v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00980v1",
+    "published": "2026-10-01",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.00885v1",
+    "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
+    "authors": [
+      "Naing Oo Lwin"
+    ],
+    "abstract": "Coding agents increasingly automate Lean proof development, but successful compilation alone does not establish that a candidate proves the intended statement under acceptable assumptions. We present FORALL-LEAN-AGENT, a frontend-agnostic framework for auditable reasoning in formal mathematics and software verification. The framework combines isolated workspaces, Lean tools, and fresh review with statement comparison, axiom audits, and independent proof checking where supported. Verification evidence and reviewer decisions are bound to the same candidate artifact, making acceptance traceable. We evaluate the framework on VeriSoftBench, PutnamBench, and both problems in the Lean Eval softwareverification track. On the 100-task VeriSoftBench subset, integration with FORALLLEAN-AGENT raises benchmark-rule success from 93 to 100 for GPT-5.6 Sol at low effort while reducing cost from $69 to $62. The PutnamBench evaluation accepts all 672 problems at an average of $4.72 each. These results show that agent harness design can improve correctness and efficiency while providing evidence beyond aggregate solve counts.",
+    "url": "http://arxiv.org/abs/2610.00885v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00885v1",
+    "published": "2026-10-01",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.LO"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.01097v1",
+    "title": "YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents",
+    "authors": [
+      "Yoonkyu Woo",
+      "Woojin Lee",
+      "Jin-Xia Huang"
+    ],
+    "abstract": "End-to-end research agents can now produce complete scientific papers, yet manuscript claims often diverge from executed experiments. This gap is structural: research state, failure histories, and claim-evidence alignment are not maintained as persistent, verifiable state across long-horizon pipelines. We present YouRA (Your Research Agent), an architecture for stateful, evidence-traceable autonomous research. YouRA preserves research state, execution evidence, and failure history across the research trajectory by integrating three components: a Verification State Architecture (VSA) that tracks hypotheses, gates, and evidence pointers; an Independent Controller that turns state and reflection records into lifecycle, recovery, and debate/review control while separating control from execution; and Stateful Reflection that logs failures as structured lessons and routes recovery through bounded repair, redesign, or reset. On MLR-Bench's predefined ten-task end-to-end subset, YouRA improves over both MLR-Agent and AI Scientist V2 on scalar Overall across all three matched backbones. An automated diagnostic using MLR-Bench's hallucination taxonomy reports intersection/union counts for four fact-based failure types, and data-provenance diagnostic shows more real-data-based outputs. Ablating each of the four components (the VSA, the Independent Controller, MCP tool access, and reflection-guided recovery) supports their separable contributions. Removing either core-state component drops YouRA below the full system. Code: https://github.com/PrayPrey/Your-Research-Agent.",
+    "url": "http://arxiv.org/abs/2610.01097v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01097v1",
+    "published": "2026-10-01",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.00797v1",
+    "title": "Sapien: A Stateful Policy Engine for Autonomous AI Agents",
+    "authors": [
+      "Corinn Tiffany",
+      "Wen Zhang",
+      "Eugene Bagdasarian",
+      "Lillian Tsai"
+    ],
+    "abstract": "Contextual security defenses prevent AI agents from taking rogue actions by synthesizing a task-specific policy and enforcing it on the agent's tool calls. In multi-step tasks, however, which actions are valid often depends on what the agent has already done and learned. We present Sapien, a policy engine for enforcing stateful contextual policies. A Sapien policy specifies permitted tool-call sequences using a regular expression extended with stateful predicates, deferred policy generation, and scoped semantic checks. We show that Sapien stays within a few percent of an unconstrained agent's utility. Even if the agent is fully hijacked, Sapien's policies rule out 93-95% of attacks on AgentDojo and 62-85% on Toolathlon (twice as many as tool allowlists on long-horizon tasks).",
+    "url": "http://arxiv.org/abs/2610.00797v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00797v1",
+    "published": "2026-09-30",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  }
+]
