@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-04
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents](http://arxiv.org/abs/2610.01787v1) | Beining Wu, Zihao Ding, Jun Huang | Self-improving GUI agents keep the trajectories they produce and return them to the agent, by fine-tuning or by retrieval into the prompt, and studies that compare the two destinations disagree. |
+
 ### 📅 2026-10-03
 
 **5 new papers found**
