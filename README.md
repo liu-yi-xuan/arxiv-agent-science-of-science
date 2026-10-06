@@ -24,6 +24,56 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-06
+
+**21 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems](http://arxiv.org/abs/2610.05176v1) | Ao Tian, Jialong Liu, Daqi Zheng et al. | Large language model (LLM)-based multi-agent systems increasingly rely on memory to transform execution trajectories into reusable procedural knowledge. |
+| [From Scientific Observations to Mechanisms: Benchmarking Hypothesis Generation by AI Scientists](http://arxiv.org/abs/2610.05197v1) | Xiaxun Xie, Qingqing Long, Meng Xiao et al. | Data-driven mechanistic hypotheses are essential to scientific discovery because they explain how underlying processes produce observed phenomena. |
+| [Are We Measuring Scientific Intelligence? Rethinking the Evaluation of AI Scientists](http://arxiv.org/abs/2610.04915v1) | Kate Zhang, Yuante Li | AI agents can now carry out data-driven scientific analyses end to end, and benchmarks assess them by giving an agent a question and a dataset and scoring its final answer against a fixed key. |
+| [From Benchmark to Bench: Can Agents Survive Real-World Drug Discovery?](http://arxiv.org/abs/2610.06411v1) | Pierre Llompart, Levent Guner, Helen Lai et al. | Agentic systems increasingly coordinate molecular-design tools, but it is unclear which layer of the stack limits outcomes on real projects. |
+| [Toward a Locally Deployable Agentic Co-Scientist: Small-Model Planning for Early-Stage Drug Discovery](http://arxiv.org/abs/2610.04740v1) | Tian Liang, Jiayu Chang, Alejandro F. Frangi et al. | Early-stage computational drug discovery requires coordinating heterogeneous scientific tools across multi-step workflows. |
+| [MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training](http://arxiv.org/abs/2610.05398v1) | Yuxin Liu, Yuxuan Wang, Zhenxin Lei et al. | Autonomous research seeks sustained model improvements through iterative experimentation and feedback. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions](http://arxiv.org/abs/2610.06191v1) | Chubin Zhang, Zhenglin Wan, Xingrui Yu et al. | An agent whose tool keeps returning nothing useful should stop relying on it. In a retrieval environment with controlled source failures, we separate how agents judge results from what they do. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Ambiguity-Aware Multi-Agent Framework for Automated Operations Research under Logical Inconsistency](http://arxiv.org/abs/2610.05169v1) | Chengxi She, Xingyu Lu, Yue Zhao et al. | Operations research (OR) problems are often described by stakeholders with incomplete knowledge and vague expressions in real-world settings. |
+| [DREAM: Dynamic Resolution Assignment For Multimodal Multi-agent Debate](http://arxiv.org/abs/2610.05615v1) | Khanh-Binh Nguyen, Van Dai Do, Tien Anh Nguyen et al. | Multi-agent debate (MAD) has emerged as an effective paradigm to improve the reasoning capabilities of large language models (LLMs) and is increasingly being extended to multimodal settings. |
+| [When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning](http://arxiv.org/abs/2610.04686v1) | Zihao Zhao, Tunyu Zhang, Haizhou Shi et al. | Multi-agent debate can improve reasoning, yet often fails to beat simple majority voting. We argue that successful debate requires two distinct mechanisms: proposal supply must surface a correct an... |
+| [MedPrune: Topology-Efficient Multimodal Multi-Agent Communication Evolution for Medical VQA Tasks](http://arxiv.org/abs/2610.06695v1) | Jiuheng Wan, Runze Li, Chen Chen et al. | While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspired multi-agent frameworks suffer from interaction patter... |
+| [AECP: Artifact-Exclusive Communication Protocol for Multi-Agent Code Generation](http://arxiv.org/abs/2610.06481v1) | Jiaqi Xue, Yanjun Wang, Xiangci Li et al. | As AI agents increasingly tackle complex repository-level coding tasks, distributing work across multiple agents is a natural way to scale beyond the capabilities of a single agent. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Errors of LLM-Assisted Literature Retrieval in Environmental Science: A Comparison Study of Abstract versus Full-text Based Prompts](http://arxiv.org/abs/2610.05690v1) | Yanjun Chen, Yongfeng Zhang, Lanjing Zhang | Large language models (LLMs) are increasingly used for literature search and synthesis. However, it is unclear whether they retrieve accurate bibliographic information in environmental science. |
+| [Rethinking Inline Citation Verification in Scholarly Communication](http://arxiv.org/abs/2610.05355v1) | Xinrui Fang, Reese Fairchild, Nasi Wang et al. | Inline citations are central to scholarly communication, yet verifying their use is becoming increasingly challenging because of growing review pressures. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents](http://arxiv.org/abs/2610.05140v1) | Dongki Kim, Namkyeong Lee, Surag Nair et al. | As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. |
+| [ANT: A Multi-Granularity Network Traffic Dataset and Benchmark for Agents Behavior Auditing](http://arxiv.org/abs/2610.06514v1) | Fan Li, Xiangyu Gao, Zixuan Liu et al. | The growing adoption of large language model (LLM) agents creates a need for network administrators and security teams to audit agent behavior within organizational networks without inspecting priv... |
+| [Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents](http://arxiv.org/abs/2610.06193v1) | Hai Dang Truong, Rayner Goh, Thanh Le-Cong et al. | Autonomous coding agents now resolve a substantial share of real-world GitHub issues. However, passing functional tests differs fundamentally from producing a high-quality contribution acceptable f... |
+| [Benchmarking Jailbreak Guardrails for Embodied Agents](http://arxiv.org/abs/2610.06122v1) | Xunguang Wang, Qingyue Wang, Yuguang Zhou et al. | Embodied agents powered by large language models and vision-language models are increasingly deployed in physical environments, but jailbreak attacks can induce these agents to perform physically h... |
+| [MedImageOSWorld: Benchmarking GUI Agents for Medical Image Consoles](http://arxiv.org/abs/2610.04800v1) | Ziyang Long, Xinqi Li, Lujing Xing et al. | Graphical consoles offer a practical interface for medical acquisition assistance, allowing agents to work through the controls and visual feedback used by human operators. |
+| [MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability](http://arxiv.org/abs/2610.04672v1) | Qizhi Chu, Zekai Yu, Sijie Wen et al. | Large language models (LLMs) have progressively evolved into the core of autonomous agents. Building on this progress, LLM-based multi-agent systems (MAS) coordinate multiple agents into a synergis... |
+| [SALUS: Automated Auditing of NL-to-SQL Benchmarks through Weak Supervision of Multi-Agent Output](http://arxiv.org/abs/2610.05540v1) | Shiyuan Zhou, Ashwin Gerard Colaco, Sainyam Galhotra et al. | Natural language to SQL (NL-to-SQL) benchmarks are foundational to progress in data analysis research, yet recent work has shown that widely-used benchmarks contain significant annotation errors. |
+
 ### 📅 2026-10-05
 
 *No new papers found today.*

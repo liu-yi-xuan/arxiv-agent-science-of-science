@@ -1,0 +1,430 @@
+[
+  {
+    "id": "2610.05176v1",
+    "title": "AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems",
+    "authors": [
+      "Ao Tian",
+      "Jialong Liu",
+      "Daqi Zheng",
+      "Xin Sun",
+      "Mengting Li"
+    ],
+    "abstract": "Large language model (LLM)-based multi-agent systems increasingly rely on memory to transform execution trajectories into reusable procedural knowledge. Yet repeated retrieval also makes memory errors persistent: memory pollution arises when outdated, weakly supported, or spuriously successful procedures become recurring components of future reasoning. Multi-agent execution introduces an additional structural risk. Scope collapse occurs when procedural knowledge escapes the coordination scope in which it was shown effective and is repeatedly reused at incompatible decision levels, allowing local errors to influence cascades of downstream decisions. Meanwhile, task-level failures provide ambiguous supervision because they rarely reveal which recalled knowledge was responsible. We introduce AECG, a framework for asymmetric experience consolidation and governance for multi-agent systems. AECG turns memory from static experience storage into a dynamic reliability-governance loop, preserving coordination scope and using multi-scale, confidence-aware reliability to detect degradation. It then combines degradation with downstream impact to prioritize high-risk knowledge under a bounded review budget, applies targeted interventions, and reactivates revised skills only after paired replay. Across three multi-agent frameworks and four benchmarks, AECG achieves the best score in 11 of 12 framework--benchmark settings and improves over the strongest competing memory method by as much as 10.23 percentage points; removing scope preservation reduces accuracy by up to 16.89 points. AECG thereby reframes multi-agent memory from passive accumulation into auditable reliability governance. Code is available at https://github.com/fenhg297/AECG",
+    "url": "http://arxiv.org/abs/2610.05176v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05176v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.05197v1",
+    "title": "From Scientific Observations to Mechanisms: Benchmarking Hypothesis Generation by AI Scientists",
+    "authors": [
+      "Xiaxun Xie",
+      "Qingqing Long",
+      "Meng Xiao",
+      "Wei Ju",
+      "Yuanchun Zhou"
+    ],
+    "abstract": "Data-driven mechanistic hypotheses are essential to scientific discovery because they explain how underlying processes produce observed phenomena. AI agents and AI scientists increasingly support scientific data analysis. However, their ability to turn empirical findings into mechanistic hypotheses remains insufficiently examined. To address this gap, we introduce MechHypoBench, the first benchmark for evaluating whether AI agents and AI scientists can generate such hypotheses from empirical data. It combines paper-derived mechanisms from 14 scientific fields with real-world datasets containing 17.98 million records. The construction retains the observational complexity of empirical data while providing a specified underlying mechanism. Agents analyze the observations and propose open-form hypotheses. We develop an evaluation framework that assesses open-form mechanistic hypotheses through their consequences under withheld conditions. Experiments with general agents and AI scientists reveal a substantial gap between generated hypotheses and the underlying mechanisms.",
+    "url": "http://arxiv.org/abs/2610.05197v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05197v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.04915v1",
+    "title": "Are We Measuring Scientific Intelligence? Rethinking the Evaluation of AI Scientists",
+    "authors": [
+      "Kate Zhang",
+      "Yuante Li"
+    ],
+    "abstract": "AI agents can now carry out data-driven scientific analyses end to end, and benchmarks assess them by giving an agent a question and a dataset and scoring its final answer against a fixed key. These benchmarks assume that a correct answer was derived from the supplied data, a property we call evidence grounding. However, an agent can also reach the key from prior knowledge or by ruling out the other options, and a score based on a single run cannot tell these cases apart. We show how to test this assumption and find that it often fails. For each question, we build versions of its data files in which the evidence for the answer is left intact, withdrawn or reversed, check each edit with a pre-registered reference statistic, and run the same agent on every version. We then measure evidence-grounded accuracy, which credits a correct answer only if the agent also responds when the evidence is withdrawn and follows it when it is reversed. We evaluate three agent scaffolds and five models on 18 single-cell questions from BAISBench and four synthetic problems from GeneBench-Pro. On the single-cell questions, the Claude agents are 95% accurate and answer 83% correctly without any data, but their evidence-grounded accuracy is only 41%. Hiding gene names raises the share of runs that follow reversed evidence from 58% to 93% on ten gene tasks, suggesting that prior knowledge competes with the supplied data. The benchmark score and LLM judges can also reward answers that ignore the changed evidence. Measuring scientific intelligence rather than recall therefore requires checking whether answers follow the evidence and whether scores reward them for it.",
+    "url": "http://arxiv.org/abs/2610.04915v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04915v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.06411v1",
+    "title": "From Benchmark to Bench: Can Agents Survive Real-World Drug Discovery?",
+    "authors": [
+      "Pierre Llompart",
+      "Levent Guner",
+      "Helen Lai",
+      "Alessandro Tibo",
+      "Yijie Xu"
+    ],
+    "abstract": "Agentic systems increasingly coordinate molecular-design tools, but it is unclear which layer of the stack limits outcomes on real projects. We developed MAGI, an open modular agent that authors objectives, launches and monitors optimization, interprets structure--activity relationships, and revises its strategy accordingly. MAGI generates molecules either directly through the LLM or by delegating to REINVENT 4, with scoring services interchangeable behind a common contract. We tested it across nine retrospective lead-optimization campaigns from three pharmaceutical companies, replayed under fixed temporal cutoffs. Both routes produced valid structures: LLM proposals stayed closer to local chemistry and reached comparable or higher primary activity in fewer operations, whereas REINVENT explored broader chemical space. Whether a campaign met its objective depended on the predictive models, not on the generation route: attainment followed model accuracy on the chemistry proposed, dropping once that chemistry moved outside the model's applicability domain. Separately, a blinded evaluation asked whether the MAGI's output could pass as expert work: chemists were not able to discriminate agentic proposals from held-out compounds, and judged the SAR reasoning broadly plausible yet incomplete. Together, these results position MAGI as a coordination layer pluggable into existing computational chemistry workflows. The ceiling on real projects, however, remains currently set by scorer applicability rather than by tool orchestration.",
+    "url": "http://arxiv.org/abs/2610.06411v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06411v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.04740v1",
+    "title": "Toward a Locally Deployable Agentic Co-Scientist: Small-Model Planning for Early-Stage Drug Discovery",
+    "authors": [
+      "Tian Liang",
+      "Jiayu Chang",
+      "Alejandro F. Frangi",
+      "Mobarak I. Hoque",
+      "Richard A. Bryce"
+    ],
+    "abstract": "Early-stage computational drug discovery requires coordinating heterogeneous scientific tools across multi-step workflows. We present a lightweight, tool-augmented framework in which a locally deployable compact language model plans calls to 18 modular tools. A Unified Molecular Schema maintains shared molecular records, while a plug-in interface supports tool replacement and extension. We construct 1,263 manually refined query-plan pairs through workflow-graph path coverage and apply LoRA fine-tuning to three compact model families. Under the query-level split, all fine-tuned models generate fully parseable and schema-compliant plans on 47 held-out cross-group queries. Llama 3.2-3B achieves a tool-selection F1 of 0.998, sequence exact match of 0.979, and argument F1 of 0.960. Under the stricter workflow-grouped split, which excludes identical ordered tool sequences across partitions, sequence exact match reaches 0.452 to 0.548, highlighting the remaining difficulty for compact models in generating complete workflow paths unseen during training. These results demonstrate the feasibility of compact, locally deployable planning while identifying compositional generalization as an important direction for further improvement.",
+    "url": "http://arxiv.org/abs/2610.04740v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04740v1",
+    "published": "2026-10-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.05398v1",
+    "title": "MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training",
+    "authors": [
+      "Yuxin Liu",
+      "Yuxuan Wang",
+      "Zhenxin Lei",
+      "Lingchen Meng",
+      "Yuchong Sun"
+    ],
+    "abstract": "Autonomous research seeks sustained model improvements through iterative experimentation and feedback. LLM agents show promise in automating machine learning and language-model post-training, but their ability to sustain multimodal improvement remains unclear. We introduce MMPostTrainBench, a benchmark spanning eight tasks in image, audio, video, and joint audio-video understanding and image-grounded software repair. Agents operate from a common base model within fixed budgets, using development feedback before independent evaluation of their submitted models. Evaluation covers target and non-target model outcomes, iterative model improvement and selection, and research integrity. Across all eight tasks, 52.1% of model--task means fall below the base, and evaluated submissions also exhibit non-target regressions. Model performance does not consistently improve across research iterations, and agents do not reliably select the best evaluated candidate for submission; final submissions trail that candidate by up to 5.38 percentage points. Extending autonomous research from text-only to multimodal tasks introduces additional sources of error in perception, cross-modal alignment, and temporal grounding. The observed regressions and selection gaps highlight the need to balance targeted improvements with non-target capability preservation and to retain gains across research iterations. These requirements motivate MMResearch, a multimodal research framework that connects media-grounded evidence to hypotheses and interventions, carries findings across rounds through hierarchical memory, and retains candidates using development evaluation. Added to existing code-agent runtimes, it improves submitted-model accuracy by up to 7.75 percentage points for Claude Opus 4.8 with Claude Code and 2.33 points for GPT-5.6-sol with Codex.",
+    "url": "http://arxiv.org/abs/2610.05398v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05398v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.06191v1",
+    "title": "Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions",
+    "authors": [
+      "Chubin Zhang",
+      "Zhenglin Wan",
+      "Xingrui Yu",
+      "Jingxuan Wu",
+      "Yaxin Zhou"
+    ],
+    "abstract": "An agent whose tool keeps returning nothing useful should stop relying on it. In a retrieval environment with controlled source failures, we separate how agents judge results from what they do. We compare stopping at the same step after longer and shorter runs of results the agent judged useless; this contrast is zero for clock- or deadline-driven stopping. Where we record their judgments, the seven agents we test call a failing source's results useless 97-100% of the time, yet most of them rarely stop on that judgment. Prompt cues change when they stop but not what they stop on. Permission to answer from memory and a reasoning mode can bring early stops regardless of evidence, a stated budget moves the 7-8B models' stops to the deadline, and a stopping rule or call cost in the prompt is followed at most partly. Stopping follows the evidence only when the harness enforces an integration step that makes the agent answer after five consecutive results it judged useless. This step raises failing-source success for every model, keeps the stopping point fixed when the budget doubles, and needs no extra judgment call when the agent states its judgments. A pre-registered replication on 300 fresh questions confirms the dissociation and the rule's effect.",
+    "url": "http://arxiv.org/abs/2610.06191v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06191v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.05169v1",
+    "title": "Ambiguity-Aware Multi-Agent Framework for Automated Operations Research under Logical Inconsistency",
+    "authors": [
+      "Chengxi She",
+      "Xingyu Lu",
+      "Yue Zhao",
+      "Qitao Shi",
+      "Caihua Chen"
+    ],
+    "abstract": "Operations research (OR) problems are often described by stakeholders with incomplete knowledge and vague expressions in real-world settings. Such ambiguous descriptions can not be used to formulation directly. Thus, automating OR problems solving requires processing this logical inconsistency in advance. To address this challenge, we propose an \\textbf{A}mbiguity-Aware \\textbf{M}ulti-Agent Framework for \\textbf{A}utomated \\textbf{O}R Problem Solving, \\textbf{AMAO}, which first addresses logical inconsistency through two-stage alignment before downstream formulation and coding. Specifically, a logical alignment agent with OR-guided experts structure first produces an aligned candidate using supervised routing over variables, parameters, objectives, and constraints. Then, a source-sufficiency verifier determines whether the original description supports the required repairs. When evidence is insufficient, an interactive repair agent requests additional information and revises the description before modeling and coding. In addition, an ambiguity-aware benchmark and its matched dialogue extension are proposed to support evaluation of both stages. The 32B model achieved 86.8\\% error-recovery success and 60.4\\% solution accuracy, reaching 1.98 and 1.86 times the respective base-model scores. The 8B model achieved 47.9\\% solution accuracy, exceeding the best evaluated variant such as DeepSeek-V4-Flash and Claude-sonnet-4.5. Interactive repair further achieved 90.71\\% complete-description accuracy when cases requiring clarification. These results support combining context-based repair with evidence assessment and targeted user clarification for automated OR modeling.",
+    "url": "http://arxiv.org/abs/2610.05169v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05169v1",
+    "published": "2026-10-04",
+    "categories": [
+      "math.OC"
+    ],
+    "primary_category": "math.OC",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.05615v1",
+    "title": "DREAM: Dynamic Resolution Assignment For Multimodal Multi-agent Debate",
+    "authors": [
+      "Khanh-Binh Nguyen",
+      "Van Dai Do",
+      "Tien Anh Nguyen",
+      "Svetha Venkatesh",
+      "Hung Le"
+    ],
+    "abstract": "Multi-agent debate (MAD) has emerged as an effective paradigm to improve the reasoning capabilities of large language models (LLMs) and is increasingly being extended to multimodal settings. However, existing multimodal MAD frameworks typically expose agents to the same fixed visual input, ignoring substantial variation in the visual scale needed across samples and agents. In addition, these frameworks frequently suffer from groupthink, a phenomenon where agents prematurely abandon correct deductions to conform with confident but hallucinated peer responses. To address these bottlenecks, we introduce DREAM (Dynamic Resolution Assignment For Multimodal Multi-Agent Debate), which operates via two core components: (1) Dynamic Resolution Assignment, a zero-shot probe round where agents test multiple resolutions, quantify uncertainty using Average Normalized Log-Likelihood (ANLL), and use an adaptive threshold to assign each agent to its empirically optimal resolution; (2) Uncertainty-Guided Rollback Aggregation counters groupthink by tracking each agent's uncertainty over rounds and restoring early low-uncertainty answers overridden by group pressure. On six multimodal datasets, DREAM improves the accuracy-token trade-off over multi-agent debate baselines by 1.5-3.2% accuracy without dataset-specific tuning.",
+    "url": "http://arxiv.org/abs/2610.05615v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05615v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.04686v1",
+    "title": "When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning",
+    "authors": [
+      "Zihao Zhao",
+      "Tunyu Zhang",
+      "Haizhou Shi",
+      "Yusong Zhao",
+      "Xinxi Zhang"
+    ],
+    "abstract": "Multi-agent debate can improve reasoning, yet often fails to beat simple majority voting. We argue that successful debate requires two distinct mechanisms: proposal supply must surface a correct answer, and readout must identify that answer when voting misses it. We formalize the first requirement through recoverable headroom, which measures cases where a correct proposal is available but the majority answer is wrong. For the second, we develop Latent Verification Debate (LVD), an accounting model in which candidate proposals receive answer-specific verification evidence before final generation. Controlled fixed-proposal interventions estimate this latent effect in equivalent peer-support units and show that correct evidence changes answer probabilities and generated decisions while proposal supply remains fixed. To improve proposal supply, we construct societies from neural-thicket agents using labeled and label-free coverage objectives. Across two backbones and matched-budget reasoning benchmarks, coverage-selected societies increase complementary proposal supply and improve aggregate accuracy in repeated stochastic evaluations. Round-level controls further show that interaction provides gains beyond applying the same finalizer directly to the initial proposals. These results identify proposal coverage and truth-sensitive evidence use as complementary conditions for debate to outperform voting. Code is available at https://github.com/Wang-ML-Lab/when-debate-helps.",
+    "url": "http://arxiv.org/abs/2610.04686v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04686v1",
+    "published": "2026-10-03",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MA",
+      "cs.SI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.06695v1",
+    "title": "MedPrune: Topology-Efficient Multimodal Multi-Agent Communication Evolution for Medical VQA Tasks",
+    "authors": [
+      "Jiuheng Wan",
+      "Runze Li",
+      "Chen Chen",
+      "Tingyuan Hu",
+      "Daiyang Yu"
+    ],
+    "abstract": "While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspired multi-agent frameworks suffer from interaction patterns and excessive computational overhead caused by redundant communication topologies. In this paper, we propose MedPrune, an efficient medical multimodal multi-agent collaboration framework that dynamically prunes both nodes and edges from the communication topology to enhance reasoning ability and token efficiency. Specifically, we first formulate the diagnostic process as a heterogeneous communication graph, where nodes represent specialist agents from various departments and edges capture intra- and inter-departmental interactions. Building on this graph, we introduce two sparsification mechanisms to enable adaptive collaborative evolution: (1) Heterogeneous Node Sparsification, which eliminates task-irrelevant specialist agents irrelevant to the current multimodal question via reinforcement learning-driven topological optimization, and (2) Heterogeneous Edge Sparsification, which selectively retains only the most diagnostically salient intra- and inter-departmental connections by jointly optimizing task performance and topological complexity. Extensive medical VQA experiments under full-set and few-shot training settings prove MedPrune surpasses multi-agent baselines and boosts token efficiency with strong adversarial robustness.",
+    "url": "http://arxiv.org/abs/2610.06695v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06695v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.06481v1",
+    "title": "AECP: Artifact-Exclusive Communication Protocol for Multi-Agent Code Generation",
+    "authors": [
+      "Jiaqi Xue",
+      "Yanjun Wang",
+      "Xiangci Li",
+      "Lingbo Mo",
+      "Aritra Sengupta"
+    ],
+    "abstract": "As AI agents increasingly tackle complex repository-level coding tasks, distributing work across multiple agents is a natural way to scale beyond the capabilities of a single agent. To coordinate their interdependent work, these agents share findings and agree on interfaces between modules. However, exchanged information often serves only as context, leaving individual agents to interpret it and incorporate it into subsequent work. Consequently, shared findings may go unused and deviations from interface agreements may go undetected, undermining the reliability and efficiency of collaboration. This motivates moving part of the coordination responsibility from individual agents to the execution harness. To make shared information actionable during execution, we introduce the Artifact-Exclusive Communication Protocol (AECP). AECP requires agents to communicate exclusively through structured artifacts and specifies how the harness processes them. The harness supplies findings when agents access relevant code, screens implementations for mismatches with recorded interface commitments, and requires affected agents to revisit revised agreements. These coordination steps become part of harness execution rather than actions that agents must initiate from prior messages. Across Doc2Repo, NL2Repo, and CodeProjectEval, using closed- and open-source models including Opus-4.8 and DeepSeek-V4-Flash, AECP improves average test pass rate by 28.2% and reduces average wall time by 16.5% relative to an agent team using free-form inter-agent messages. Artifact-exclusive communication also blocks the relay of malicious instructions between agents, reducing how often they reach other agents from 95% to 0% and how often those agents act on them from 40% to 0%.",
+    "url": "http://arxiv.org/abs/2610.06481v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06481v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.05690v1",
+    "title": "Errors of LLM-Assisted Literature Retrieval in Environmental Science: A Comparison Study of Abstract versus Full-text Based Prompts",
+    "authors": [
+      "Yanjun Chen",
+      "Yongfeng Zhang",
+      "Lanjing Zhang"
+    ],
+    "abstract": "Large language models (LLMs) are increasingly used for literature search and synthesis. However, it is unclear whether they retrieve accurate bibliographic information in environmental science. Therefore, we quantitatively compared the errors of widely used LLM platforms in retrieving references related to original articles from five leading environmental science journals (Energy and Environmental Science, Nature Sustainability, Nature Climate Change, Lancet Planetary Health, and Environmental Science and Technology) published in 2024 to 2025. Claude, ChatGPT, Grok, DeepSeek, Perplexity, and Gemini were used as the LLM platforms. LLMs retrieved 10 references for each of the 50 randomly selected original article using either the article's abstract or its full-text as prompt. The retrieved references were subject to a multimetric score ratio combining validity of bibliographic data, Google Scholar link, digital object identifier, Scopus Electronic Identifier and relevance score (cited by or being the index paper), and the proportion of complete fabrication that failed all metrics. Abstract-only prompt yielded significantly higher accuracy than full-text one. This advantage was confirmed in multilevel mixed-effect multivariable regression after adjusting for journal, platform, and output order. Source journal and the position of a reference within the output list were also independently associated with retrieval accuracy, with lower-listed references associated with lower accuracy. These findings suggest that LLM assisted literature retrieval in environmental science remains moderately accurate and overall inconsistent, varying significantly by platform, journal, prompt type, and output position. Abstract-based prompting, as task-aligned information compression, may outperform full-text one in literature retrieval. Caution should be used when generalizing our findings.",
+    "url": "http://arxiv.org/abs/2610.05690v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05690v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.DL",
+      "cs.IR",
+      "cs.LG",
+      "stat.AP",
+      "stat.ME"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2610.05355v1",
+    "title": "Rethinking Inline Citation Verification in Scholarly Communication",
+    "authors": [
+      "Xinrui Fang",
+      "Reese Fairchild",
+      "Nasi Wang",
+      "Anran Xu",
+      "Simo Hosio"
+    ],
+    "abstract": "Inline citations are central to scholarly communication, yet verifying their use is becoming increasingly challenging because of growing review pressures. We conducted a mixed-methods exploratory study to investigate how reviewers verify inline citations, the factors shaping their verification practices, and how they envision GenAI supporting this process. Across interviews (n=12) and a survey (n=203) of reviewers from HCI and AI venues, we found that reviewers' perceptions of citation importance, verification practices, and desired AI autonomy varied across citation types, reviewer characteristics, and research backgrounds. These findings highlight the need for adaptive support tailored to different citation types and reviewer practices, while revealing diverse preferences regarding the use of GenAI for this process. Moreover, effective citation verification should involve collaboration among reviewers, authors, and the broader research community, rather than relying solely on individual reviewers.",
+    "url": "http://arxiv.org/abs/2610.05355v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05355v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.HC"
+    ],
+    "primary_category": "cs.HC",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2610.05140v1",
+    "title": "AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents",
+    "authors": [
+      "Dongki Kim",
+      "Namkyeong Lee",
+      "Surag Nair",
+      "Carl Edwards",
+      "Xiner Li"
+    ],
+    "abstract": "As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. Particularly in scientific domains, constructing and updating benchmarks requires substantial time, labor, and domain expertise, making it difficult to keep evaluation aligned with advances in agent capabilities. We address this challenge by investigating whether scientific-agent benchmarks can be automatically generated and iteratively adapted as agent capabilities evolve. We introduce AutoSciBench, a framework that represents each task as a high-level concept specifying the scientific domain, data modality, and required reasoning approach, together with a low-level recipe specifying how the question, environment, and ground-truth answer are constructed and verified. Agents attempt to solve each task, producing solver trajectories and corresponding judge feedback which AutoSciBench uses to revise the recipe or concept, closing observed shortcuts and shifting tasks toward raw-data re-examination, interpretation of intermediate results, and evidence integration. Experience distilled from completed refinement trajectories further guides new concept generation, allowing lessons from earlier task refinement to inform subsequent benchmark construction. Starting from existing benchmarks, we evaluate AutoSciBench across computational biology, materials science, and clinical imaging. Generated benchmarks reduce average solver accuracy by 22.4 and 25.5 percentage points relative to the human-curated benchmarks in computational biology and materials science, respectively, while generated tasks receive higher average quality ratings across all three domains, suggesting that scientific-agent evaluation can adapt as agent capabilities advance.",
+    "url": "http://arxiv.org/abs/2610.05140v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05140v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.06514v1",
+    "title": "ANT: A Multi-Granularity Network Traffic Dataset and Benchmark for Agents Behavior Auditing",
+    "authors": [
+      "Fan Li",
+      "Xiangyu Gao",
+      "Zixuan Liu",
+      "Tong Li",
+      "Chuanpu Fu"
+    ],
+    "abstract": "The growing adoption of large language model (LLM) agents creates a need for network administrators and security teams to audit agent behavior within organizational networks without inspecting private user content. Network traffic offers an observable source of evidence, but how much it reveals about agent tasks and operations remains unclear. Existing traffic datasets lack the joint task and stage annotations needed to evaluate this question. We introduce ANT (Agent Network Traffic), a dataset providing agent behavior information at risk, scenario, and behavior primitive granularities alongside network traffic. ANT contains 3,114 execution episodes across 20 tasks and five scenarios, comprising 276,417 bidirectional flows and 40,049 behavior primitive segments organized into 47 macro groups. We establish a benchmark for agent risk identification, scenario recognition, and behavior primitive classification using 13 representative traffic analysis baselines. The results show that existing methods recover useful but uneven behavioral signals. They struggle to identify risk when malicious workflows resemble benign tasks and to distinguish scenarios with similar traffic patterns. Primitive classification is more reliable for frequent macro groups and those with distinctive traffic patterns than for rare or semantically similar groups. ANT provides a common basis for developing more precise auditing and forensic analysis of agent behavior from network traffic. Our data and code are available at https://anonymous.4open.science/r/ant-main-suite-7BC0/.",
+    "url": "http://arxiv.org/abs/2610.06514v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06514v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.06193v1",
+    "title": "Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents",
+    "authors": [
+      "Hai Dang Truong",
+      "Rayner Goh",
+      "Thanh Le-Cong",
+      "Yintong Huo"
+    ],
+    "abstract": "Autonomous coding agents now resolve a substantial share of real-world GitHub issues. However, passing functional tests differs fundamentally from producing a high-quality contribution acceptable for merging. Mature open-source projects publish repository-specific contribution policies, spanning style, git, testing workflows, to ensure code quality and long-term maintainability. Because existing benchmarks evaluate patches solely on unit tests, agent compliance with repository governance remains unknown. In this paper, we introduce SWE-CC, a benchmark evaluating code and process compliance in autonomous software engineering. We develop a semi-automated pipeline that converts developer documentation across 12 open-source repositories into 823 machine-checkable atomic policies. SWE-CC introduces two features: 1) lightweight, deterministic checker functions that represent each policy, 2) a comprehensive auditing mechanism that inspects both agent runtime behaviors and final deliverables. We evaluate the compliance of agent workflows in 500 end-to-end software contribution tasks extended from SWE-bench Verified. Our evaluation of four LLMs under two agent scaffolds shows that modern agents suffer from coding compliance issues: although agents produce functionally correct patches, they still violate 43.1 percent of applicable project policies, with nearly half of all violations occurring during intermediate execution steps. These results show that functional correctness does not guarantee real-world readiness, highlighting that future software engineering agents must reliably conform to repository governance to enable safe and trustworthy deployment.",
+    "url": "http://arxiv.org/abs/2610.06193v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06193v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.06122v1",
+    "title": "Benchmarking Jailbreak Guardrails for Embodied Agents",
+    "authors": [
+      "Xunguang Wang",
+      "Qingyue Wang",
+      "Yuguang Zhou",
+      "Zongjie Li",
+      "Wenxuan Wang"
+    ],
+    "abstract": "Embodied agents powered by large language models and vision-language models are increasingly deployed in physical environments, but jailbreak attacks can induce these agents to perform physically harmful actions. A growing number of guardrail methods have been proposed to intercept dangerous behavior before it is executed, yet existing safety benchmarks evaluate the embodied models themselves, leaving it unclear how well these guardrails actually defend an embodied agent in practice. We present the first systematic evaluation of jailbreak guardrails for embodied agents. To compare guardrails under identical conditions, we build a pluggable evaluation framework that treats the embodied agent as a fixed backend and each guardrail as a module that can intervene at the perception, planning, or control stage. We subject six representative guardrails to template-based and automated jailbreak attacks as well as safe instructions, and assess them at the system level along three dimensions: defense effectiveness, measured by the bypass rate and the hazard success rate in the simulator; usability, measured by the false-positive rate and the task completion rate on safe instructions; and efficiency, measured by the latency overhead added at runtime. Experiments on guardrails that span different intervention stages, decision mechanisms, and input modalities reveal a clear trade-off among the three dimensions, and show that no single guardrail dominates in all settings. We further analyze how intervention stage, decision mechanism, and input modality shape safety outcomes, and we offer practical guidance for selecting and designing guardrails for embodied agents.",
+    "url": "http://arxiv.org/abs/2610.06122v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.06122v1",
+    "published": "2026-10-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.04800v1",
+    "title": "MedImageOSWorld: Benchmarking GUI Agents for Medical Image Consoles",
+    "authors": [
+      "Ziyang Long",
+      "Xinqi Li",
+      "Lujing Xing",
+      "Hsin-Jung Yang"
+    ],
+    "abstract": "Graphical consoles offer a practical interface for medical acquisition assistance, allowing agents to work through the controls and visual feedback used by human operators. Reliable assistance requires linking on-screen anatomy to acquisition decisions that determine what image evidence becomes available next. We introduce MedImageOSWorld, a benchmark for evaluating this capability in simulated CT, MR, and ultrasound consoles. Using screenshots and mouse-and-keyboard actions, agents configure protocols, plan acquisitions, inspect the resulting images, and make corrective adjustments across seven capability levels, from console operation to feedback-driven control. Evaluation combines task-specific workflow checks with hidden anatomical ground truth to assess procedural completion and acquisition outcomes separately. A common evaluation protocol specifies episode conditions and interaction budgets, while recorded trajectories support analysis of how agents observe, act, and respond to acquisition feedback. Across eleven open-weight agents, success rates range from 3.0 to 25.0 on a 0-100 scale while workflow-progress rates reach 21.5-74.5: agents complete much of the console workflow but rarely acquire the intended anatomy. Success collapses between perception and planning, from 79-90% at the lowest three levels for the best agent to at most 12% for millimetre-level planning and 0% for closed-loop control among open-weight agents. Two proprietary agents reach success rates of about 34 and exceed the best open-weight agent mainly in acquisition quality (61 versus 42). MedImageOSWorld provides a controlled setting for studying whether general-purpose GUI agents can translate visual observations into effective medical acquisition decisions.",
+    "url": "http://arxiv.org/abs/2610.04800v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04800v1",
+    "published": "2026-10-03",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.04672v1",
+    "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
+    "authors": [
+      "Qizhi Chu",
+      "Zekai Yu",
+      "Sijie Wen",
+      "Yang Liu",
+      "Chen Qian"
+    ],
+    "abstract": "Large language models (LLMs) have progressively evolved into the core of autonomous agents. Building on this progress, LLM-based multi-agent systems (MAS) coordinate multiple agents into a synergistic team to accomplish complex tasks that exceed the capabilities of individual agents. The effectiveness of such systems depends not only on the agents themselves, but also on how collaboration mechanisms are designed and organized. Note that real-world collaboration is typically partially observable, where each agent can only access partial information about the environment due to physical or privacy-related constraints. However, many existing multi-agent benchmarks assume global observability, and leave limited support for systematically evaluating collaboration mechanisms. To bridge this gap, we introduce MASBench, a multi-agent collaboration benchmark designed under partially observable constraints. It is organized into three progressive task categories: Reasoning, Scheduling, and Game. Through this structure, we progressively evaluate three representative collaboration mechanisms: Protocol, Memory, and Routing. MASBench further provides deterministic evaluation metrics, including performance score, communication cost, and cost effectiveness, to characterize both collaboration outcomes and communication overhead. Experiments across diverse LLM backbones and mechanism configurations offer empirical guidance for effective MAS design. Code is available at: https://github.com/BUPT-GAMMA/MASBench",
+    "url": "http://arxiv.org/abs/2610.04672v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04672v1",
+    "published": "2026-10-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.05540v1",
+    "title": "SALUS: Automated Auditing of NL-to-SQL Benchmarks through Weak Supervision of Multi-Agent Output",
+    "authors": [
+      "Shiyuan Zhou",
+      "Ashwin Gerard Colaco",
+      "Sainyam Galhotra",
+      "Sharad Mehrotra"
+    ],
+    "abstract": "Natural language to SQL (NL-to-SQL) benchmarks are foundational to progress in data analysis research, yet recent work has shown that widely-used benchmarks contain significant annotation errors. These errors silently corrupt evaluation metrics, penalize correct model output, and distort the field's understanding of state-of-the-art performance. We present SALUS, a system that automatically detects annotation errors in NL-to-SQL benchmarks. SALUS frames benchmark auditing as a weakly supervised error detection: SQL generated by multiple LLM agents drive a suite of complementary weak-labeling functions. By passing this noisy vote matrix through a generative label model, we extract high-confidence training samples without requiring human ground truth. These samples train a decision plane that maps gold SQL query features to per-agent trustworthiness, allowing SALUS to intelligently fuse reliability estimates with raw verdicts for rigorous benchmark error detection. We evaluate on BIRD-Clean-xs, a benchmark of 298 BIRD development tasks with manually verified correctness labels. SALUS achieves F1 = 0.9194, significantly outperforming the state-of-the-art baselines. Applying SALUS to the full development sets, we estimate annotation error rates of approximately 37% on BIRD and 27% on Spider.",
+    "url": "http://arxiv.org/abs/2610.05540v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.05540v1",
+    "published": "2026-10-04",
+    "categories": [
+      "cs.DB",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.DB",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
