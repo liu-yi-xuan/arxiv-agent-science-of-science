@@ -24,6 +24,36 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-07
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness](http://arxiv.org/abs/2610.08621v1) | Jiajun Chen, Haoyu Wu, Mingda Jia et al. | Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. |
+| [EMHO: EMbodied Agent Harness Optimization via Experience Traces](http://arxiv.org/abs/2610.08432v1) | Hyun Jung Lee, Jungtaek Kim, Jongwon Jeong et al. | Improving embodied agents often focuses on optimizing the underlying model through training, while the surrounding agent harness that controls planning, context, and tool use is typically engineered. |
+| [Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?](http://arxiv.org/abs/2610.08215v1) | Yibo Li, Jinhang Qiu, Zhi Zheng et al. | Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. |
+| [Learning from Revision Consequences: Hindsight Meta-Experience Distillation for Self-Improving Agents](http://arxiv.org/abs/2610.07979v1) | Qianhan Feng, Zhongzhen Huang, Yakun Zhu et al. | As agents continuously improve by generating and revising Skills, the process that discovers and refines those Skills becomes a learnable object in its own right. |
+| [ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?](http://arxiv.org/abs/2610.07792v1) | Haizhong Zheng, Yizhuo Di, Ranajoy Sadhukhan et al. | Large language model agents are increasingly deployed to perform complex tasks in real-world environments. |
+| [Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation](http://arxiv.org/abs/2610.07250v1) | Wenxuan Wang, Zekai Liu, Weinan Zhang et al. | Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harness can leverage memory, skills, workflow orchestration, result verification, ... |
+| [From Benchmark to Bench: Can Agents Survive Real-World Drug Discovery?](http://arxiv.org/abs/2610.06411v1) | Pierre Llompart, Levent Guner, Helen Lai et al. | Agentic systems increasingly coordinate molecular-design tools, but it is unclear which layer of the stack limits outcomes on real projects. |
+| [MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training](http://arxiv.org/abs/2610.05398v1) | Yuxin Liu, Yuxuan Wang, Zhenxin Lei et al. | Autonomous research seeks sustained model improvements through iterative experimentation and feedback. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Evidence to Action: How Tool-Using Agents Fail](http://arxiv.org/abs/2610.07753v1) | Hongzhan Lin, Shidong Cao, Ziyang Luo et al. | Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. |
+| [Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions](http://arxiv.org/abs/2610.06191v1) | Chubin Zhang, Zhenglin Wan, Xingrui Yu et al. | An agent whose tool keeps returning nothing useful should stop relying on it. In a retrieval environment with controlled source failures, we separate how agents judge results from what they do. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ST-Bench: A Spatial-Temporal Benchmark for Multi-Agent System Generation on Scientific Research Tasks](http://arxiv.org/abs/2610.07763v1) | Qi Cheng, Rongchao Dong, Shengyu Chen et al. | The rapid progress of LLM-based multi-agent systems (MAS) has shown that they largely outperform single agents on coding, math, and QA tasks, where executable tests provide a binary success signal. |
+
 ### 📅 2026-10-06
 
 **21 new papers found**
