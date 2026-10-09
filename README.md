@@ -24,6 +24,64 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-09
+
+**29 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station](http://arxiv.org/abs/2610.08927v1) | Wenyu Du, Stephen Chung | Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. |
+| [Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents](http://arxiv.org/abs/2610.12124v1) | Xiangyi Zeng, Baihang Liu, Xutong Wang et al. | The evolution of Large Language Model agents from single-task execution to long-term autonomous operation highlights the critical challenge of transforming continuous experiences into reusable know... |
+| [Agent Plasticity: Measuring Self-Improvement Through Experience](http://arxiv.org/abs/2610.08902v1) | Harman Singh, Anton Bakhtin, Rulin Shao et al. | AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet existing evaluations largely measure what an agent can do at a fixed point in tim... |
+| [Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness](http://arxiv.org/abs/2610.08621v1) | Jiajun Chen, Haoyu Wu, Mingda Jia et al. | Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. |
+| [DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1) | Yudi Zhang, Mingyu Cao, Lu Yin et al. | As claims about recursive self-improvement (RSI) and artificial general intelligence (AGI) proliferate, we ask a simple question: do frontier AI models have a sense of data, i.e., can they reliably... |
+| [DrugTargetWorld: A Synthetic Biobank for Training and Benchmarking AI Scientists](http://arxiv.org/abs/2610.09558v1) | Samuel Margolis, Paul Schmiedmayer, Alan Huang et al. | Drug target discovery requires distinguishing molecules that causally drive disease from those that are merely associated with it. |
+| [A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents](http://arxiv.org/abs/2610.10468v1) | Ali Asaria, Deep Gandhi, Tony Salomone | Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review](http://arxiv.org/abs/2610.11087v1) | Rachel S. Y. Teo, Yutaro Yamada, Shashank Kotyan et al. | The rapid growth of scientific publishing has strained peer review, particularly in machine learning, raising concerns about declining review quality and increasing reviewer workload. |
+| [Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](http://arxiv.org/abs/2610.11899v1) | Irene Weber | Large language models (LLMs) are increasingly embedded as components in software systems, marketed under labels such as chatbot, copilot, retrieval-augmented generation, workflow, coding agent and ... |
+| [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](http://arxiv.org/abs/2610.10942v1) | Daksh Raghuvanshi, Ved Vedere, Yifan Wang | Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only w... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding](http://arxiv.org/abs/2610.11171v1) | Runquan Gui, Hanzhu Chen, Zehao Wang et al. | Long-form video understanding often involves multiple questions about different aspects of the same recording. |
+| [Sequential Probabilistic Uncertainty Estimation for Parallel Multi-Agent Reasoning Systems](http://arxiv.org/abs/2610.08901v1) | Tunyu Zhang, Zihao Zhao, Yusong Zhao et al. | LLM-based multi-agent systems (MAS) have attracted growing attention for improving reasoning through interaction among multiple agents. |
+| ["Hot-Blooded" vs "Cold-Blooded": Simulating the Behavioral Phenotypes of Childhood Aggression via Generative Agents](http://arxiv.org/abs/2610.11951v1) | Liping Fu | This study examines the construct validity of LLM-based generative agents in simulating reactive, proactive, and co-occurring aggression in children. |
+| [WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?](http://arxiv.org/abs/2610.08720v1) | Siru Jiang, Yongzhe Lyu, Shuo Lu et al. | LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phen... |
+| [OA-MAP: Evidence-Grounded Multi-Agent Multimodal Framework for Interpretable Knee Osteoarthritis Progression](http://arxiv.org/abs/2610.12134v1) | Sixu Chen, Mingrui Yang, Qiang Guan et al. | Knee osteoarthritis (KOA) progression prediction can support patient monitoring, requiring the integration of multimodal data and multidomain expertise. |
+| [Agent4RE: A Self-Refining Multi-agent Framework for End-to-End Software Requirements Engineering and Benchmarking](http://arxiv.org/abs/2610.10628v1) | Yongjian Tang, Linhan Li, Thomas Runkler | Existing LLM-based approaches for software Requirements Engineering (RE) typically rely on basic prompting strategies or rudimentary agent collaboration, under-utilizing the full potential of multi... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SAIL: Scientific Agentic Intelligence via a Science-Aware Loop](http://arxiv.org/abs/2610.11451v1) |  SAIL Model Team, Boyuan Sun, Bryan Dai et al. | We introduce SAIL, an open model with 35B total and 3B active parameters for literature research, scientific coding, and multi-step research workflows. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](http://arxiv.org/abs/2610.12183v1) | Ming Chen, Rong-Xi Tan, Ke Xue et al. | Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. |
+| [Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild](http://arxiv.org/abs/2610.11328v1) | Yuxuan Cao, Junlong Li, Hao Li et al. | Advances in foundation models are driving efforts to introduce agents to assist people in the physical world. |
+| [Coding-Agent Benchmarks Should Match Their Users' Task Flows](http://arxiv.org/abs/2610.09633v1) | Igor Slinko, Yaroslav Golubev, Sergey Titov | The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent sessions of real software engineers in JetBrains IDEs, which we call Productio... |
+| [TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution](http://arxiv.org/abs/2610.10619v1) | Shuangjie Yao, Hao Wang, Koushik Sen et al. | Large language model (LLM) agents are rapidly reshaping software engineering, accompanied by an explosion of new code benchmarks. |
+| [DUDA-Bench: Benchmarking LLM Agents on Multimodal Data-Driven Urban Diagnosis](http://arxiv.org/abs/2610.09374v1) | Yizhi Song, Hang Ni, Weijia Zhang et al. | Urban diagnosis integrates heterogeneous observations to identify urban problems, localize affected areas, and investigate contributing factors, informing evidence-based urban planning and management. |
+| [RT-Safe: Benchmarking Agent Safety in Real-Time Embodied Environment](http://arxiv.org/abs/2610.09294v1) | Tianruo Rose Xu, Jiawei Ren, Yichi Yang et al. | Rapid progress in AI agents has brought growing attention to agent safety, with extensive evaluation focused on digital environments. |
+| [GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks](http://arxiv.org/abs/2610.09112v1) | Gabriel Diaz-Ireland, Diego Prieto-Herráez, Mario García Peces et al. | Before tool-using LLM agents are deployed in environmental and geospatial workflows, teams need evidence that an agent reliably selects the right operations against real APIs. |
+| [ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences](http://arxiv.org/abs/2610.08691v1) | Mingda Zhang, Wenjin Liu, Tiesunlong Shen et al. | Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process... |
+| [ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding](http://arxiv.org/abs/2610.08662v2) | Hanjun Luo, Xiucheng Zhang, Zhuoning Xu et al. | As coding agents increasingly undertake real-world work autonomously, judging whether their risk treatments are warranted has become important. |
+| [Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows](http://arxiv.org/abs/2610.11482v1) | Jorge García-Carrasco, Javier Sanchis, Alejandro Reina-Reina et al. | Context: Large language model (LLM) agents are increasingly used as software and data-engineering assistants, yet evidence about locally deployable open-weight agents remains limited. |
+| [Cooperation, Defection, and the Commons: Reproducing an Agent-Based Model of Aksum with Three Logistic Equations](http://arxiv.org/abs/2610.09789v1) | Riccardo Vasellini, Federico Cecconi, Daniele Vilone | Cooperative behavior can improve environmental quality, whereas selfish defection can degrade shared resources. |
+| [Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions](http://arxiv.org/abs/2610.08513v1) | Dennis Fucci, Andrea Bacciu, Dong Liu et al. | LLMs are increasingly deployed as autonomous agents in social environments, making it critical to study their ability to faithfully simulate human interactions. |
+
 ### 📅 2026-10-08
 
 **12 new papers found**
