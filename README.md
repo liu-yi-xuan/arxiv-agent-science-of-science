@@ -24,6 +24,48 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-10
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents](http://arxiv.org/abs/2610.12124v1) | Xiangyi Zeng, Baihang Liu, Xutong Wang et al. | The evolution of Large Language Model agents from single-task execution to long-term autonomous operation highlights the critical challenge of transforming continuous experiences into reusable know... |
+| [DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1) | Yudi Zhang, Mingyu Cao, Lu Yin et al. | As claims about recursive self-improvement (RSI) and artificial general intelligence (AGI) proliferate, we ask a simple question: do frontier AI models have a sense of data, i.e., can they reliably... |
+| [A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents](http://arxiv.org/abs/2610.10468v1) | Ali Asaria, Deep Gandhi, Tony Salomone | Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review](http://arxiv.org/abs/2610.11087v1) | Rachel S. Y. Teo, Yutaro Yamada, Shashank Kotyan et al. | The rapid growth of scientific publishing has strained peer review, particularly in machine learning, raising concerns about declining review quality and increasing reviewer workload. |
+| [Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](http://arxiv.org/abs/2610.11899v1) | Irene Weber | Large language models (LLMs) are increasingly embedded as components in software systems, marketed under labels such as chatbot, copilot, retrieval-augmented generation, workflow, coding agent and ... |
+| [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](http://arxiv.org/abs/2610.10942v1) | Daksh Raghuvanshi, Ved Vedere, Yifan Wang | Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only w... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding](http://arxiv.org/abs/2610.11171v1) | Runquan Gui, Hanzhu Chen, Zehao Wang et al. | Long-form video understanding often involves multiple questions about different aspects of the same recording. |
+| ["Hot-Blooded" vs "Cold-Blooded": Simulating the Behavioral Phenotypes of Childhood Aggression via Generative Agents](http://arxiv.org/abs/2610.11951v1) | Liping Fu | This study examines the construct validity of LLM-based generative agents in simulating reactive, proactive, and co-occurring aggression in children. |
+| [OA-MAP: Evidence-Grounded Multi-Agent Multimodal Framework for Interpretable Knee Osteoarthritis Progression](http://arxiv.org/abs/2610.12134v1) | Sixu Chen, Mingrui Yang, Qiang Guan et al. | Knee osteoarthritis (KOA) progression prediction can support patient monitoring, requiring the integration of multimodal data and multidomain expertise. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SAIL: Scientific Agentic Intelligence via a Science-Aware Loop](http://arxiv.org/abs/2610.11451v1) |  SAIL Model Team, Boyuan Sun, Bryan Dai et al. | We introduce SAIL, an open model with 35B total and 3B active parameters for literature research, scientific coding, and multi-step research workflows. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](http://arxiv.org/abs/2610.12183v1) | Ming Chen, Rong-Xi Tan, Ke Xue et al. | Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. |
+| [Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild](http://arxiv.org/abs/2610.11328v1) | Yuxuan Cao, Junlong Li, Hao Li et al. | Advances in foundation models are driving efforts to introduce agents to assist people in the physical world. |
+| [Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows](http://arxiv.org/abs/2610.11482v1) | Jorge García-Carrasco, Javier Sanchis, Alejandro Reina-Reina et al. | Context: Large language model (LLM) agents are increasingly used as software and data-engineering assistants, yet evidence about locally deployable open-weight agents remains limited. |
+
 ### 📅 2026-10-09
 
 **29 new papers found**
