@@ -24,6 +24,62 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-14
+
+**27 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2610.18449v1) | Yibo Wen, Han Liu | AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. |
+| [Output Discipline Sets the Floor: A Falsification-Guided, Model-Agnostic Agent Protocol for Auditable Hypothesis-Driven Decision Making](http://arxiv.org/abs/2610.18298v1) | Jing Liu, Yongxing Qi, Ping Yao et al. | What binds large language models on auditable, hypothesis-driven decision tasks, where every candidate can be checked against the evidence? |
+| [PRAISE: A Reproducible Workflow for Non-Programmer Scientists to Implement Published AI Models](http://arxiv.org/abs/2610.16980v1) | Max Achterweust, Stefan Groot Nibbelink, Vincent J. de Beer et al. | Artificial Intelligence (AI) models are increasingly developed, published and used across scientific fields. |
+| [MADDIE: Multi-Agent Drug Discovery Engine](http://arxiv.org/abs/2610.16975v1) | Ye Liu, Reza Averly, Avery Meyer et al. | Drug discovery remains a resource-intensive and time-consuming process, involving billions of dollars and a decade of development to advance a drug to market. |
+| [JevGPT: Thinking Fast and Slow in Autonomous Research](http://arxiv.org/abs/2610.18272v1) | Yasheng Sun, Yanning Dai, Yimeng Chen et al. | Autonomous research agents must acquire and reason over evidence within a limited budget. Yet relevant sources can remain uninspected or unused, leaving a gap between retrieval coverage and the evi... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting](http://arxiv.org/abs/2610.18435v1) | Hai Lu, Yichen Luo, Luping Yu | Referees increasingly use large language models (LLMs), while finance and accounting journals disagree about whether to allow it. |
+| [Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve](http://arxiv.org/abs/2610.18616v1) | Yuyang Bai, Yu Wang, Yu Zhang | Searching text-rich knowledge graphs requires following relations while examining textual evidence. Predefined graph interfaces constrain what evidence agents can access, even when they write code ... |
+| [When Does an ASR Error Matter? Task-Role Diagnostics for Tool-Using Voice Agents](http://arxiv.org/abs/2610.17619v1) | Xiaolong Wang, Shijie Su, Naqi Xiong | In cascaded voice agents, ASR errors can have markedly different downstream consequences: a small transcription error may leave a tool call unchanged or alter its intent or arguments. |
+| [MENTOR: Procedural Shielding of Tool-Using LLM Agents](http://arxiv.org/abs/2610.17039v1) | Ashwani Anand, Ivi Chatzi, Ritam Raha et al. | Tool-using LLM agents are increasingly used to automate workflows governed by procedural manuals, such as company rules for booking travel or procuring hardware. |
+| [Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments](http://arxiv.org/abs/2610.16867v1) | Xiaoyang Yuan, Ji Zhao, Xingyu Hu et al. | Reliable agentic tool use requires training data that pair diverse multi-step workflows with executable evidence that the requested outcomes were achieved. |
+| [Of Errors and Echoes: Responsibility-Aware Credit Assignment for Tool-Use Agents](http://arxiv.org/abs/2610.16027v1) | Xingjian Diao, Tianyu Yang, Wenjun Huang et al. | Reinforcement learning improves tool-use agents, yet fine-grained credit assignment remains challenging even with step-level feedback. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Answer Sharing: TrueMAD for Targeted Peer Engagement in Multi-Agent Debate](http://arxiv.org/abs/2610.18240v1) | Dezheng Bao, Sihang Du, Renhong Huang et al. | Multi-agent debate (MAD) aims to improve large language model reasoning by exposing agents to alternative solutions and enabling iterative revision. |
+| [Efficient Multi-Agent Reasoning via Confidence-Guided Adaptive Debate](http://arxiv.org/abs/2610.16343v1) | Seungdong Yoa, Ye Seul Sim, Suhee Yoon et al. | Multi-agent debate has shown promise for improving the reasoning of large language models, yet recent theory suggests its benefits are highly regime-dependent. |
+| [ECMR: Evidence-Aware Deliberation Control for Multi-Agent LLM Reasoning](http://arxiv.org/abs/2610.17869v1) | Yuan Liu, Haoyue Peng, Fanliang Hu et al. | Multi-agent Large Language Model (LLM) systems typically commit to a deliberation protocol before inference. |
+| [ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning](http://arxiv.org/abs/2610.18683v1) | Bowen Ding, Mingda Wan, Yuhan Chen et al. | Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fundamental uniform... |
+| [AutoMARS: Automatic and Scalable Multi-Agent Large Language Model Framework for Supply Chain Risk Assessment](http://arxiv.org/abs/2610.17206v1) | Yinzhu Quan, Zefang Liu, Frederick Benaben et al. | We propose AutoMARS (Automatic Multi-Agent Risk Assessment), an agentic framework for automatic and scalable comparative risk assessment in supply chain networks. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How much does the map of science depend on the embedding model?](http://arxiv.org/abs/2610.16639v1) | Alejandro Treny Ortega | Science maps describe relationships between papers. Text embedding models build these relationships by turning a paper's text into a list of numbers that gives it a position. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LifeSearch: Benchmarking Deep Research Agents for Real-World Life and Productivity](http://arxiv.org/abs/2610.18092v1) | Yibo Wang, Senjie Jin, Yansong Ning et al. | Deep research (DR) agents address open-ended information needs through multi-step reasoning, long-horizon web search, and evidence synthesis. |
+| [Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents](http://arxiv.org/abs/2610.18052v1) | Bofan Xie, Chaokun Wang, Guanchen Ge et al. | Long-term memory has become a core component of large language model (LLM) agents. As agents accumulate personal information over long-term use, users increasingly ask them to delete sensitive or o... |
+| [Benchmarking and Training Reward Models for Cross-Source Evidence Grounding in Search Agents](http://arxiv.org/abs/2610.17827v1) | Haochen Zhao, Minsheng Hao, Zheng Li et al. | Existing approaches to training and evaluating search agents focus heavily on final-answer quality, largely neglecting how generated answers map back to retrieved evidence. |
+| [Get In, Decide, Prove: A Merchant-Side Readiness Benchmark for Agentic Commerce](http://arxiv.org/abs/2610.17378v1) | Adrian de Valois-Franklin, Alex Bogdan, Anas Ibrahim et al. | AI agents now browse and buy on people's behalf, and benchmarks measure how well the agents perform. |
+| [PhysCodeGym: Benchmarking Coding Agents for Physically Verifiable 4D Reconstruction](http://arxiv.org/abs/2610.17288v1) | Shuai Shao, Jinchen He, Cunxin Fan et al. | Building physical simulations from video requires coding agents to translate observations into executable models and refine them through tool use. |
+| [Interactive Navigation Beyond Reachability: Benchmark and Agentic Framework](http://arxiv.org/abs/2610.17089v1) | Delun Li, Xueyao Wei, Rui Chen et al. | Existing embodied navigation tasks commonly assume that traversability and object states remain fixed during an episode. |
+| [EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications](http://arxiv.org/abs/2610.16402v1) | David Nukrai, Bar Alon, Nativ Levy et al. | Web application development often proceeds through successive requests that extend an existing implementation. |
+| [When Agent Evaluation Becomes Unreliable: An Empirical Study of Oracle Failures and Configuration-Dependent Measurement in an LLM Agent Benchmark](http://arxiv.org/abs/2610.16067v1) | Junjie Chen | Agent evaluation harnesses are software systems that run test suites, generate inputs, and decide outcomes with test oracles. |
+| [MedHarnessBench: A Unified Benchmark for Healthcare Agent Evaluation](http://arxiv.org/abs/2610.15714v1) | Rui Tang, Hongqiu Wang | Healthcare agents must transform longitudinal clinical evidence into reliable actions through heterogeneous tools and stateful workflows, conditions under which model-centric systems may lose conte... |
+| [SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents](http://arxiv.org/abs/2610.18206v1) | Do Xuan Trong, Duc Anh Nguyen, Do Xuan Long et al. | We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors in coding agents. |
+
 ### 📅 2026-10-13
 
 *No new papers found today.*

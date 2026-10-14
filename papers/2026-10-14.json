@@ -1,0 +1,539 @@
+[
+  {
+    "id": "2610.18449v1",
+    "title": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
+    "authors": [
+      "Yibo Wen",
+      "Han Liu"
+    ],
+    "abstract": "AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial release comprising six budgeted design-build-test-learn campaigns grounded in published experiments across biology, chemistry, and materials science. Agents select batches of designs, receive measurements from a lab service, and use the results to guide subsequent experiments before delivering a predictive model. Success requires passing two calibrated gates: a discovery gate, which evaluates the designs the agent measured, and a learning gate, which evaluates its model's ranking of held-out designs. In a pilot evaluation of eight agent-model configurations and 144 trials, the best configuration succeeds in 67% of trials, while the hardest campaign is solved in only three of 24 attempts. The two gates reveal different weaknesses: some agents build accurate rankings but find too few promising designs, while others find promising designs but fail to predict which unseen designs will perform well. These differences are obscured by overall success rates alone. We release version 0.1 of the campaigns, lab runtime, and public leaderboard at https://yibow.me/autonomous-science-bench.",
+    "url": "http://arxiv.org/abs/2610.18449v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18449v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.18298v1",
+    "title": "Output Discipline Sets the Floor: A Falsification-Guided, Model-Agnostic Agent Protocol for Auditable Hypothesis-Driven Decision Making",
+    "authors": [
+      "Jing Liu",
+      "Yongxing Qi",
+      "Ping Yao",
+      "Ting Wu"
+    ],
+    "abstract": "What binds large language models on auditable, hypothesis-driven decision tasks, where every candidate can be checked against the evidence? On the public TCMEval-SDT benchmark for Traditional Chinese Medicine syndrome differentiation (200 cases), the binding constraint is output discipline and reasoning structure, not model capability alone: two years of model scaling move zero-shot scores by only -0.03 to +0.08, while output-discipline failures (non-terminating reasoning, format non-compliance, large run-to-run spread) persist even in frontier models. We test this with a model-agnostic agent framework formalizing decision making as a five-stage closed loop, enforced by a candidate x evidence matrix falsification protocol: every candidate is judged against every evidence item, at least half of the candidates must be falsified before a conclusion is licensed, and survivors are emitted in a machine-verifiable single-line format. Across five base models, the effect is sign-conditional on zero-shot output discipline: it rescues models whose discipline fails (DeepSeek-V4-Flash: +0.267/+0.271, entirely termination rescue), reduces a high-variance model's run-to-run standard deviation from 0.218 to 0.007 (Kimi K3), and significantly costs already-disciplined models (-0.087 to -0.120 on budget-matched Qwen3-4B/32B). Ablations attribute the cost to the candidate-bounded format layer and show the effect is independent of injected knowledge content (protocol-knowledge decoupling). The protocol also transfers to misinformation-robust mathematical reasoning, detecting injected false premises at 89.8% recall with a 6.8% false-positive rate (MCC 0.54; a flag-everything baseline scores 0) and restoring accuracy to the no-misinformation ceiling. Where zero-shot output discipline is weak, the reasoning protocol sets the floor; base-model capability always sets the ceiling.",
+    "url": "http://arxiv.org/abs/2610.18298v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18298v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.16980v1",
+    "title": "PRAISE: A Reproducible Workflow for Non-Programmer Scientists to Implement Published AI Models",
+    "authors": [
+      "Max Achterweust",
+      "Stefan Groot Nibbelink",
+      "Vincent J. de Beer",
+      "Stefan Schipper",
+      "Zeynep Yüksektepe"
+    ],
+    "abstract": "Artificial Intelligence (AI) models are increasingly developed, published and used across scientific fields. Researchers, students and industry professionals who want to apply these models to their own research questions often lack the programming and data science expertise to do so. Existing guidelines cover single steps, but not the route from a published model to working predictions on one's own data. Here we present the hands-on workflow PRAISE, a Practical, Reproducible AI-model Implementation for Science and Education, that helps non-programmers implement published AI models step by step. Because implementations rarely work the first time, PRAISE anticipates common failures and provides a fallback route for each. As a proof of principle, three BSc chemistry students and their tutor applied PRAISE without prior programming or data science knowledge. They reproduced, validated and extended a state-of-the-art model that predicts enzyme-substrate interactions. This shows that with PRAISE, implementing an AI model from the literature becomes a learnable skill, one that turns non-programmer scientists from users into evaluators and improvers of AI models.",
+    "url": "http://arxiv.org/abs/2610.16980v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16980v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.16975v1",
+    "title": "MADDIE: Multi-Agent Drug Discovery Engine",
+    "authors": [
+      "Ye Liu",
+      "Reza Averly",
+      "Avery Meyer",
+      "Frazier N. Baker",
+      "Ruoxi Gao"
+    ],
+    "abstract": "Drug discovery remains a resource-intensive and time-consuming process, involving billions of dollars and a decade of development to advance a drug to market. While many in silico tools have accelerated this process, operating them still demands substantial time, effort, and expertise from medicinal chemists. Autonomous systems built on Large Language Models (LLMs) have emerged as a promising solution, yet current designs limit their performance. Existing single-agent systems scale poorly to long-horizon, multi-step, and realistic tasks, whereas multi-agent systems typically execute predefined workflows that cannot capture the iterative, non-linear nature of a real drug discovery campaign. Here, we present MADDIE, a multi-agent drug discovery engine. It comprises a central agent, Orchestrator, and four specialized worker agents: HitIdentifier, LeadOptimizer, Synthesizer, and Evaluator, each representing a critical step in a drug discovery campaign. Under Orchestrator's orchestration and coordination, these worker agents are composed into flexible workflows, enabling MADDIE to adapt its strategy and navigate the drug discovery pipeline end-to-end. Across 50 protein targets, MADDIE produces molecules satisfying key property requirements and their synthesis routes, outperforming existing agentic systems, generative models, and general-purpose LLMs by a wide margin. Our analysis reveals how these agents collaborate and that MADDIE can employ different strategies across targets to achieve the campaign's goal, while still being efficient in time and tokens. Together, they demonstrate MADDIE as a low-cost, effective, and efficient autonomous engine for accelerating drug discovery. Code and dataset is available via https://github.com/ninglab/MADDIE.",
+    "url": "http://arxiv.org/abs/2610.16975v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16975v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.18272v1",
+    "title": "JevGPT: Thinking Fast and Slow in Autonomous Research",
+    "authors": [
+      "Yasheng Sun",
+      "Yanning Dai",
+      "Yimeng Chen",
+      "Nanbo Li",
+      "Firas Laakom"
+    ],
+    "abstract": "Autonomous research agents must acquire and reason over evidence within a limited budget. Yet relevant sources can remain uninspected or unused, leaving a gap between retrieval coverage and the evidence that informs research. The challenge is to align fast local judgments with changing evidence needs and feed their findings back into research decisions. We introduce JevGPT, a dual-system architecture for autonomous research that couples fast evidence processing with deliberative research planning. System Two sets evidence objectives and integrates findings, while System One locates support, assesses relevance, and guides further inspection. Independent source judgments run in parallel; selected original passages inform the next research step. Experiments on fixed-corpus question answering and document ranking show that JevGPT achieves leading task performance, with faster completion and lower cost than comparably effective research agents. Evidence analysis shows broader source inspection and greater coverage of supporting documents in the research loop, highlighting efficient evidence processing as a route to more capable autonomous research.",
+    "url": "http://arxiv.org/abs/2610.18272v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18272v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.18435v1",
+    "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting",
+    "authors": [
+      "Hai Lu",
+      "Yichen Luo",
+      "Luping Yu"
+    ],
+    "abstract": "Referees increasingly use large language models (LLMs), while finance and accounting journals disagree about whether to allow it. We ask which part of a referee's job the models can do. GPT-4o, whose training data end before the 2024 conference season, referees the papers presented at the 2024 AFA and NBER finance meetings, and we compare its verdicts with publication in the top-three finance journals over the next two years. Papers the model scores one standard deviation higher are 44\\% more likely to be published, net of author reputation. The result is not driven by look-ahead bias, as the model does not recall the outcomes. The information comes from its judgements of correctness and exposition. Its judgements of originality and significance carry none, and a referee guide that stresses importance does not help. The split between correctness and contribution holds for accounting papers and for a newer model, GPT-5. LLMs can check whether research is right, but not whether it matters. The technical check can go to the model, while the judgement of contribution stays with people.",
+    "url": "http://arxiv.org/abs/2610.18435v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18435v1",
+    "published": "2026-10-13",
+    "categories": [
+      "q-fin.GN",
+      "cs.AI"
+    ],
+    "primary_category": "q-fin.GN",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.18616v1",
+    "title": "Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve",
+    "authors": [
+      "Yuyang Bai",
+      "Yu Wang",
+      "Yu Zhang"
+    ],
+    "abstract": "Searching text-rich knowledge graphs requires following relations while examining textual evidence. Predefined graph interfaces constrain what evidence agents can access, even when they write code to combine tool calls or process retrieved subgraphs. We propose direct knowledge graph interaction (DKGI), a harness in which language model agents create graph access tools directly over complete node and edge files. The agent writes Python code to follow relations, combine node sets, and select textual evidence, interleaving execution with shell search and file inspection. This lets agents process large node sets in bulk while returning selected text for the model to assess. Execution feedback guides tool creation and revision, while the evolving tools determine what evidence the agent gathers next. On benchmark datasets spanning three domains, training-free DKGI exceeds the strongest published baseline by at least 6.7 Hit@1 points on every graph, even with a minimal harness. Controlled ablations show the benefits of multi-turn programming over shell-only access and predefined graph tools, while trajectories show agents revising code to extend searches or address errors. These findings highlight the value of allowing tool creation and tool use to co-evolve during graph search. Our code and data are available at https://github.com/leopoldwhite/DKGI.",
+    "url": "http://arxiv.org/abs/2610.18616v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18616v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.17619v1",
+    "title": "When Does an ASR Error Matter? Task-Role Diagnostics for Tool-Using Voice Agents",
+    "authors": [
+      "Xiaolong Wang",
+      "Shijie Su",
+      "Naqi Xiong"
+    ],
+    "abstract": "In cascaded voice agents, ASR errors can have markedly different downstream consequences: a small transcription error may leave a tool call unchanged or alter its intent or arguments. Conventional word error rate (WER), however, does not capture these differences. We introduce SpeechEvalX, a paired diagnostic protocol that evaluates how task roles affected by ASR errors influence structured tool calls. Controlled edits are matched by source utterance, edit count, and operation, while task-role labels are compared with lexical severity, BERT cosine distance, Semantic-WER, and binary criticality. Across 594 source utterances, joint call accuracy falls from 82.3% with reference transcripts to 71.9-74.9% across three ASR front ends. Number and negation edits cause 21.9-25.7 percentage-point losses, versus 1.4-2.9 points for control edits. Detailed task-role labels improve source-grouped ROC-AUC from 0.73 to 0.78 over binary criticality, showing that downstream impact depends strongly on the task role affected.",
+    "url": "http://arxiv.org/abs/2610.17619v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17619v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.17039v1",
+    "title": "MENTOR: Procedural Shielding of Tool-Using LLM Agents",
+    "authors": [
+      "Ashwani Anand",
+      "Ivi Chatzi",
+      "Ritam Raha",
+      "Anne-Kathrin Schmuck"
+    ],
+    "abstract": "Tool-using LLM agents are increasingly used to automate workflows governed by procedural manuals, such as company rules for booking travel or procuring hardware. These manuals are written in natural language for humans and describe general requirements over such complex workflows. Ensuring compliance of LLM agents with these manuals is difficult, and state-of-the-art techniques use either LLM judges or manually written rules to forbid problematic tool-calls locally at runtime. This is insufficient because (i) only blocking tool calls keeps the agent clueless about how to make correct progress towards fulfilling its task, and (ii) can lead to overly conservative behavior of the agent, as tool calls might only be problematic in certain contexts. To overcome these challenges, we introduce MENTOR, which (i) additionally provides guidance for the agent to make procedural-compliant progress on the task, and (ii) ensures that this compliance is context-aware. We achieve these goals by building a novel history-dependent runtime shield that is obtained from the procedural manual via a multi-step autoformalization pipeline. At its core, MENTOR utilizes a game-based technique to ensure robustness against runtime uncertainty without over-resticting agents' behavior. This yields a formally assisted framework for procedural shielding of LLM agents that improves compliance well beyond existing methods. In particular, MENTOR lifts the compliance of shielded light-weight open-source LLMs above that of non-shielded proprietary models. Since a shield is synthesized once per manual and then serves every task, a MENTOR-shielded agent becomes a viable choice for repeatedly executed workflows, potentially reducing deployment costs when the offline construction cost is amortized over repeated tasks.",
+    "url": "http://arxiv.org/abs/2610.17039v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17039v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "cs.LO"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.16867v1",
+    "title": "Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments",
+    "authors": [
+      "Xiaoyang Yuan",
+      "Ji Zhao",
+      "Xingyu Hu",
+      "Wenhan Wang",
+      "Yutao Hu"
+    ],
+    "abstract": "Reliable agentic tool use requires training data that pair diverse multi-step workflows with executable evidence that the requested outcomes were achieved. Scaling either trajectory coverage or verification alone is insufficient as new environments introduce distinct states, rules, and dependencies that must also be reflected in the success criteria. To address this challenge, we introduce Davinci-Tool, a 30B tool-use model, and Davinci-ToolData, an execution-grounded dataset designed to scale environment coverage and outcome verification together. Davinci-ToolData preserves restorable states, execution traces, outcomes, and verifiers as a unified substrate for supervision. Two complementary pipelines populate this substrate: Execution-Grounded Task Synthesis (EGTS) derives verified demonstrations from independently authored systems, and Executable Environment Synthesis (EES) synthesizes auditable environments, state-grounded tasks, and executable verifiers across single and coordinated domains. These pipelines yield 30,395 verified trajectories spanning 2,260 invoked tool names. We first train on these demonstrations with supervised fine-tuning, then reuse EES states and verifiers to compare alternative actions and construct outcome-grounded preferences for Direct Preference Optimization. Davinci-Tool improves Qwen3-Coder-30B-A3B-Instruct from 52.4 to 88.2 on $τ^2$-bench, from 30.4 to 62.8 on BFCL v4 multi-turn, and from 16.9 to 56.2 on MCP-Atlas, outperforming Qwen3-Coder-480B-A35B-Instruct on all three benchmarks with only 1/16 of its total parameters. Code is available at https://github.com/MassLab-SII/Davinci-Tool.",
+    "url": "http://arxiv.org/abs/2610.16867v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16867v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.16027v1",
+    "title": "Of Errors and Echoes: Responsibility-Aware Credit Assignment for Tool-Use Agents",
+    "authors": [
+      "Xingjian Diao",
+      "Tianyu Yang",
+      "Wenjun Huang",
+      "Xiangchi Yuan",
+      "Chunhui Zhang"
+    ],
+    "abstract": "Reinforcement learning improves tool-use agents, yet fine-grained credit assignment remains challenging even with step-level feedback. An observed error may be inherited from an earlier decision, while multiple responsible decisions may share the same downstream consequence or participate in later recovery. We introduce Error-Chain-Aware Optimization (ECHO), a responsibility-aware credit assignment framework that separates responsibility identification from credit allocation. A frozen judge combines retrospective trajectory analysis with decision-time assessment from the policy-visible prefix to distinguish newly introduced errors, inherited consequences, missed corrections, and successful corrections. ECHO then counts shared downstream consequences once across responsible decisions and constrains rewards for repairing self-induced errors through source-funded recovery, producing bounded action-level supervision alongside terminal supervision. Experiments on six diverse tool-use benchmarks at both 4B and 8B scales show strong and consistent improvements over the compared baselines, with ECHO achieving the highest score on five of six benchmarks at each scale. These results support decision responsibility as a useful basis for fine-grained credit assignment in tool-use agents. Our code is available at https://github.com/xid32/ECHO.",
+    "url": "http://arxiv.org/abs/2610.16027v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16027v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.18240v1",
+    "title": "Beyond Answer Sharing: TrueMAD for Targeted Peer Engagement in Multi-Agent Debate",
+    "authors": [
+      "Dezheng Bao",
+      "Sihang Du",
+      "Renhong Huang",
+      "Zhizhang Yuan",
+      "Yifei Sun"
+    ],
+    "abstract": "Multi-agent debate (MAD) aims to improve large language model reasoning by exposing agents to alternative solutions and enabling iterative revision. However, standard broadcast-style MAD makes peer answers visible without requiring agents to engage with a particular peer claim. As a result, reliable reasoning may be suppressed by conflicting or majority responses, limiting achievable performance, while erroneous reasoning may persist and degrade final predictions without actionable feedback. We propose TrueMAD, a backbone-agnostic test-time plug-in that introduces one-to-one, free-form peer advice between answer broadcasting and self-revision. Each source agent responds to a target's current reasoning through support, rebuttal, refinement, or further questions, while the target retains control over how to revise. The same mechanism can augment standard MAD and its improved variants without parameter updates. Across AIME, GPQA-Diamond, and TruthfulQA with Qwen3-30B-A3B, TrueMAD improves agent-level and strict-majority accuracy over MAD by 3.62 and 3.52 percentage points on average, while TrueDMAD improves DMAD by 4.72 and 4.06 points, respectively. Analyses at the utterance, agent-transition, and group levels further show more peer-specific deliberation, more correction-oriented revisions, and more favorable consensus dynamics.",
+    "url": "http://arxiv.org/abs/2610.18240v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18240v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.16343v1",
+    "title": "Efficient Multi-Agent Reasoning via Confidence-Guided Adaptive Debate",
+    "authors": [
+      "Seungdong Yoa",
+      "Ye Seul Sim",
+      "Suhee Yoon",
+      "Sanghyu Yoon",
+      "Dongmin Kim"
+    ],
+    "abstract": "Multi-agent debate has shown promise for improving the reasoning of large language models, yet recent theory suggests its benefits are highly regime-dependent. While interaction can amplify informative signals under corrective conditions, symmetric debate dynamics are neutral in expectation, often making majority voting preferable. We reconcile these views by arguing that debate is effective only when invoked at the right time and with appropriate structure. Based on this insight, we propose LASE: Leader-Adaptive Structured Engagement, a leader-centric multi-agent debate framework that selectively engages interaction only in non-neutral regimes. LASE introduces an asymmetric leader-supporter architecture that enables directed information flow and selective signal amplification, while defaulting to simple aggregation otherwise. Experiments across diverse reasoning benchmarks show that LASE achieves multi-agent-level performance with near single-agent token cost, substantially improving efficiency over static debate and voting baselines.",
+    "url": "http://arxiv.org/abs/2610.16343v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16343v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.17869v1",
+    "title": "ECMR: Evidence-Aware Deliberation Control for Multi-Agent LLM Reasoning",
+    "authors": [
+      "Yuan Liu",
+      "Haoyue Peng",
+      "Fanliang Hu",
+      "Lei Huang",
+      "Wenli Cai"
+    ],
+    "abstract": "Multi-agent Large Language Model (LLM) systems typically commit to a deliberation protocol before inference. A fixed protocol cannot allocate computation differently to resolved and unresolved instances, and it may mistake repeated support for independent confirmation. We study this failure as semantic false consensus: a confident group answer supported by narrow, duplicated, or correlated rationales. We introduce ECMR, an evidence-aware controller over frozen role-conditioned LLMs. At each step, ECMR summarizes answer concentration, support diversity and independence, contradictions, role behavior, verification history, and remaining budget, then selects whether to propose, challenge, verify, arbitrate, diversify, correct a role, or stop. We formulate this decision as finite-horizon budgeted control and derive sufficient conditions under which state conditioning, risk-triggered verification, and role correction improve cost-adjusted utility. Across a declared held-out evaluation of 9,000 records from MedQA, CaseHOLD, and FinQA, ECMR-Full increases pooled accuracy from 62.1% to 84.9%, reduces false-consensus rate from 40.7% to 17.0%, and raises evidence-support rate from 58.0% to 88.7%. State shuffling loses 11.7 accuracy points with only 0.7 fewer rounds, while harder traces shift from early stopping toward arbitration. ECMR-Full uses the largest token budget, yielding the strongest absolute reliability rather than uniformly superior token efficiency.",
+    "url": "http://arxiv.org/abs/2610.17869v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17869v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.18683v1",
+    "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+    "authors": [
+      "Bowen Ding",
+      "Mingda Wan",
+      "Yuhan Chen",
+      "Jiyao Yuan",
+      "Qi Zhu"
+    ],
+    "abstract": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fundamental uniform credit assignment dilemma that broadcasts trajectory-level advantages equally to all actions. Our analysis reveals that this uniformity inherently reinforces structurally invalid actions in preferred trajectories and ignores the downstream cascading influence of early pivotal deviations in unpreferred ones. To resolve this without introducing critic overhead, we propose Progress-Aware Advantage Shaping (ProAS), a plug-and-play framework that leverages a dynamically evolving Agentic Reference Graph (ARG) to achieve fine-grained credit assignment via Masking Unreasonable Incentives (MUI) and Asymmetric Penalty Redistribution (APR). Extensive experiments across Qwen2.5-1.5B-Instruct and Qwen2.5-7B-Instruct demonstrate that ProAS universally elevates mainstream group-based baselines to new state-of-the-art performance, achieving peak success rates of 91.9\\% and 94.3\\% on ALFWorld, alongside 66.7\\% and 70.8\\% on WebShop, respectively. Furthermore, it accelerates training convergence by up to $2.44\\times$ while maintaining strong robustness against imperfect or distilled ARGs. Codes: https://github.com/LINs-lab/ProAS.",
+    "url": "http://arxiv.org/abs/2610.18683v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18683v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.17206v1",
+    "title": "AutoMARS: Automatic and Scalable Multi-Agent Large Language Model Framework for Supply Chain Risk Assessment",
+    "authors": [
+      "Yinzhu Quan",
+      "Zefang Liu",
+      "Frederick Benaben",
+      "Benoit Montreuil"
+    ],
+    "abstract": "We propose AutoMARS (Automatic Multi-Agent Risk Assessment), an agentic framework for automatic and scalable comparative risk assessment in supply chain networks. The framework enables end-to-end execution of analytical workflows by automatically planning tasks, coordinating specialized agents, invoking external analytical tools, and synthesizing domain-specific results into integrated risk evaluations. AutoMARS further supports scalable risk comparison across multiple locations by parallelizing independent analytical tasks. The framework adopts a multi-domain, multi-agent, and multi-tool architecture that integrates heterogeneous risk factors from socioeconomic, disaster, environmental, and transportation domains. Through coordinated agent interactions and tool integration, AutoMARS enables structured, systematic, and interpretable comparative analysis to support supply chain risk-aware location evaluation.",
+    "url": "http://arxiv.org/abs/2610.17206v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17206v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2610.16639v1",
+    "title": "How much does the map of science depend on the embedding model?",
+    "authors": [
+      "Alejandro Treny Ortega"
+    ],
+    "abstract": "Science maps describe relationships between papers. Text embedding models build these relationships by turning a paper's text into a list of numbers that gives it a position. Would another model give the same picture? I compare ten models using titles and abstracts of 500,000 publications from the OpenAlex bibliographic catalogue, published in 2000-2024 across 26 disciplines, including Medicine and Physics. Representing each discipline by its papers' average position produces similar arrangements across models, including when other papers are selected. Yet within a discipline and period, two models share, on average, only eight of the 25 papers closest to a given paper. Supplying titles alone also changes much of that list, with effects that vary between models. Models can also disagree about which discipline's papers are more spread out. One measure of spread compares angles between lines drawn from a common point to each paper's position. Moving that point can reverse which discipline appears more spread out, even when selecting other papers leaves the answer unchanged. The broad arrangement can remain similar while answers about nearby papers and differences between disciplines depend on the model, the text it receives and how its output is processed.",
+    "url": "http://arxiv.org/abs/2610.16639v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16639v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2610.18092v1",
+    "title": "LifeSearch: Benchmarking Deep Research Agents for Real-World Life and Productivity",
+    "authors": [
+      "Yibo Wang",
+      "Senjie Jin",
+      "Yansong Ning",
+      "Xinbing Liang",
+      "Haotian Luo"
+    ],
+    "abstract": "Deep research (DR) agents address open-ended information needs through multi-step reasoning, long-horizon web search, and evidence synthesis. However, existing benchmarks primarily focus on academic research or synthetic tasks, leaving DR agents' capabilities in real-world life and professional productivity settings insufficiently evaluated. To bridge this gap, we introduce LifeSearch, a challenging benchmark comprising 203 Chinese and English tasks derived from real-user query seeds across 7 concrete life and productivity domains. With more than 4,500 hours of human annotation, we construct over 4,000 expert-written, fine-grained rubrics, covering both report-content criteria for coverage and accuracy and concrete criteria specifying values, units, dates, and URLs. We conduct extensive experiments on 12 advanced DR agents under a unified evaluation harness, systematically analyzing their performance patterns and failure modes. We find that even the best-performing frontier agent, GPT-5.6 Sol, achieves a score of only 63.4%, leaving substantial room for improvement on realistic life and professional DR tasks. We select the grading configuration by comparing candidate LLM judges against human rubric labels, and a human ranking study shows strong alignment between aggregate benchmark scores and human judgments (Spearman's $ρ= 0.89$, Kendall's $τ= 0.81$). LifeSearch provides a rigorous evaluation framework and foundation for advancing DR agents toward real-world life and productivity.",
+    "url": "http://arxiv.org/abs/2610.18092v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18092v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.18052v1",
+    "title": "Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents",
+    "authors": [
+      "Bofan Xie",
+      "Chaokun Wang",
+      "Guanchen Ge",
+      "Songyao Wang",
+      "Fang Niu"
+    ],
+    "abstract": "Long-term memory has become a core component of large language model (LLM) agents. As agents accumulate personal information over long-term use, users increasingly ask them to delete sensitive or outdated facts. A memory system should honor such requests. It should remove exactly what was requested and keep the rest of its memory intact. However, existing memory benchmarks evaluate only memory writing, retrieval, and organization, so whether agents can forget at the user's explicit request remains under-evaluated. To address this gap, we propose Bemula, the first benchmark dedicated to memory unlearning. It comprises 50 multi-session dialogue instances, 135 forget requests of six types, and 1,742 test questions. Each dialogue has a control version without the requests, so that only systems that have stored the target can earn credit for forgetting. Across the paired versions, five test suites measure storage, removal of the requested information, preservation of unrelated memories, relearning of similar facts, and resistance to extraction attacks. On Bemula, we evaluate six mainstream memory systems under three backbone LLMs, together with the Full Context LLM on two of them. The results are negative. Across all evaluated systems and backbones, no system passes more than 1.5% of forget requests end to end, and most pass none at all. These systems either leave the requested information extractable under simple attacks or delete far more than requested. Memory unlearning therefore remains an open challenge for agent memory design. We release our data and code at https://github.com/Nboxff/bemula-benchmark.",
+    "url": "http://arxiv.org/abs/2610.18052v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18052v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.17827v1",
+    "title": "Benchmarking and Training Reward Models for Cross-Source Evidence Grounding in Search Agents",
+    "authors": [
+      "Haochen Zhao",
+      "Minsheng Hao",
+      "Zheng Li",
+      "Yifan Li",
+      "Zikang Liu"
+    ],
+    "abstract": "Existing approaches to training and evaluating search agents focus heavily on final-answer quality, largely neglecting how generated answers map back to retrieved evidence. Recent methods track citations to enforce grounding, but citation support alone does not establish source independence or whether an answer appropriately handles conflicting evidence. We argue that credibility in open-web retrieval depends on principled cross-source evidence grounding that accounts for source independence and systematically attributes and adjudicates conflicting evidence, while hierarchical judgments of these grounding decisions provide a unified signal for training and evaluation. To this end, we propose an evaluation framework, Cross-Source Evidence Grounding (CSEG), that employs a fine-grained, six-layer decision tree over the complete search trajectory. We introduce CSEG-Bench and trainable reward models to provide targeted supervision following this framework. Our approach helps eliminating the severe data skew of natural trajectories by providing targeted coverage over complex, deep-layer decision paths, such as cross-source conflict resolution and nuanced attribution, that standard rollouts fail to capture. Specifically, (1) we define the hierarchy at label, node, and path levels; (2) we construct 1,160 verified trajectories over nine canonical paths by rewriting answers on real retrieved document pools, with independent frontier judges reproducing the entire gold path and human experts deciding inclusion; (3) we train CSEG-RM, which reaches 83.9% exact accuracy on our benchmark while lying on the performance-token efficiency Pareto frontier. Experiments that use this reward alone to supervise a frozen-retrieval answer policy raise the independently judged mean label from 2.83 to 4.19, and show that learning the hierarchy generalizes across layers at a fraction of frontier-judge cost.",
+    "url": "http://arxiv.org/abs/2610.17827v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17827v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.17378v1",
+    "title": "Get In, Decide, Prove: A Merchant-Side Readiness Benchmark for Agentic Commerce",
+    "authors": [
+      "Adrian de Valois-Franklin",
+      "Alex Bogdan",
+      "Anas Ibrahim",
+      "Ibrahim Shaer",
+      "Tamaz Andguladze"
+    ],
+    "abstract": "AI agents now browse and buy on people's behalf, and benchmarks measure how well the agents perform. Far less is known about the other side of the transaction: whether a merchant's website lets an agent in, publishes terms precise enough to decide a purchase, and leaves evidence of what was agreed. This paper presents a merchant-side benchmark built on those three questions and reports a pilot of it. The central measurement, decision sufficiency, rates each criterion of a concrete buyer mandate (total cost, cancellation or return terms, service date, variant identity) as determinate, indeterminate, or unknown from the merchant's own published evidence. Readiness scores carry their evidence coverage and missingness bounds; access is reported separately for a declared bot, a declared headless browser, and a user-present browser; and each observed term is mapped to the RAILS admissibility class of the evidence that could support it in a dispute. Four large merchants received the full assessment: three refused the declared profiles at their offer pages, and no mandate could be confirmed as met, because each merchant left a total or a refund term undetermined. An access census of 555 sites of merchants that two payment processors publicly name as clients found the home page unreadable to both declared profiles at 105 sites (18.9%). A declared assessment of 330 merchants, scored by deterministic rules without a rater, found that evidence coverage rather than the score decides who can be ranked: 115 merchants (35%) reached the ranking threshold, rankable profiles scored a median of 89 to 90, and material terms was the one pillar well below the others, because the all-in total was decidable at 18 merchants. The pilot shows that the measurements can be taken; it does not validate them or rank merchants, and the weights and the projected clearing band await validation against outcomes.",
+    "url": "http://arxiv.org/abs/2610.17378v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17378v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.HC"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.17288v1",
+    "title": "PhysCodeGym: Benchmarking Coding Agents for Physically Verifiable 4D Reconstruction",
+    "authors": [
+      "Shuai Shao",
+      "Jinchen He",
+      "Cunxin Fan",
+      "Zihan Guo",
+      "Shijian Wang"
+    ],
+    "abstract": "Building physical simulations from video requires coding agents to translate observations into executable models and refine them through tool use. We introduce PhysCodeGym, a benchmark for physically verifiable 4D reconstruction with $156$ tasks covering rigid-body, liquid, deformable, and wind-driven motion. Agents autonomously inspect videos, write and run Blender programs, and revise their scenes using simulation feedback. Six metrics combine rule-based measurements with rubric-based judgments to assess visual and physical reconstruction quality. Program inspection, scene measurements, and counterfactual interventions test physical consistency under original and modified conditions. Experiments with frontier coding agents reveal a tradeoff between artifact quality and completion across reasoning-effort settings, while harness comparisons and agent traces link verification behavior with reconstruction performance. Case studies show that matching visible objects and events can coexist with physical defects. Counterfactual tests further expose latent contact and support failures in reconstructions that pass ordinary physical checks, highlighting the gap between reproducing observations and building reliable physical models. Code is available at https://github.com/ShaoShuai0605/PhysCodeGym.",
+    "url": "http://arxiv.org/abs/2610.17288v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17288v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.17089v1",
+    "title": "Interactive Navigation Beyond Reachability: Benchmark and Agentic Framework",
+    "authors": [
+      "Delun Li",
+      "Xueyao Wei",
+      "Rui Chen",
+      "Yifei Wang",
+      "Junzhi Yu"
+    ],
+    "abstract": "Existing embodied navigation tasks commonly assume that traversability and object states remain fixed during an episode. Yet reaching a goal may require opening a door to access a room and then opening a container to reveal a hidden target. We formulate interactive navigation beyond reachability, unifying channel-induced changes in spatial connectivity, container-induced changes in target visibility, and their sequential dependencies. We introduce MultINav-Bench, a 3K-episode ObjectGoal benchmark in MolmoSpaces spanning channel, container, and mixed tasks, with interaction-necessity annotations covering required and unnecessary episodes. Its data generation pipeline automates task construction across multiple task types. The evaluation protocol separately measures navigation success, interaction effectiveness, and cost. We further propose MultINav-Agent, a three-stage agentic framework built on a persistent, state-conditioned interaction graph. Semantic interactive perception grounds entities and interaction states; a vision-language model selects task-relevant actions based on expected changes in connectivity and target observability; and post-interaction verification updates the graph to guide subsequent navigation, exploration, or interaction. Experiments on MultINav-Bench show that MultINav-Agent consistently outperforms adapted baselines across channel, container, and mixed tasks.",
+    "url": "http://arxiv.org/abs/2610.17089v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17089v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.16402v1",
+    "title": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
+    "authors": [
+      "David Nukrai",
+      "Bar Alon",
+      "Nativ Levy",
+      "Ido Andrew Atad",
+      "Ido Cohen"
+    ],
+    "abstract": "Web application development often proceeds through successive requests that extend an existing implementation. Yet web-generation benchmarks primarily evaluate development toward fixed specifications. We introduce EvoWeb, a novel benchmark comprising 320 cumulative requests over 32 web applications, grounded in real-world product features and structured by functional dependency graphs. Agents iteratively modify a persistent codebase, while a multimodal web agent tests each intermediate application in a live browser, assessing newly requested functionality, cross-request integration, and previously requested functionality. To characterize reliability throughout development, we integrate trajectory performance across user-tolerance thresholds rather than impose a fixed stopping criterion. Experiments across open- and closed-source frontier models show that EvoWeb reveals clear performance differences between models, with cross-request integration emerging as a key challenge. Further analysis shows that later requests with deeper or more numerous dependencies are solved less accurately, while runtime errors become more frequent over successive requests. EvoWeb provides a testbed for evaluating and improving coding agents in long-horizon, multi-request development.",
+    "url": "http://arxiv.org/abs/2610.16402v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16402v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.16067v1",
+    "title": "When Agent Evaluation Becomes Unreliable: An Empirical Study of Oracle Failures and Configuration-Dependent Measurement in an LLM Agent Benchmark",
+    "authors": [
+      "Junjie Chen"
+    ],
+    "abstract": "Agent evaluation harnesses are software systems that run test suites, generate inputs, and decide outcomes with test oracles. This paper audits such software for reliability defects that score tables cannot reveal.   We introduce an oracle-integrity auditing approach with five state-integrity invariants and three known-answer controls. We evaluate it by injecting seven oracle defect classes across two task domains and a synthetic domain. All injected defect classes are detected, and the repaired oracle has no false positives. Applied to an agent benchmark, the audit reveals a reward-function defect that changes the environment state before post-run scoring. Across 4,320 episodes, replay-based correction changes database-pass labels from 4,194 to 2,883 and reduces measured success from 94.3% to 65.5%.   We also study configuration-dependent measurement effects. A component ablation over 3,240 episodes shows that the agent's policy documents, tool descriptions, and tool error strings influence observed trajectory reliability, with tool descriptions showing the largest exploratory effect (-9.2 pp) and error strings the smallest (-5.3 pp). A second task domain reverses the sign of the language effect, so the result is bounded to the tested configuration.   Finally, we report a portability boundary: the auditing approach cannot validate a second independently implemented benchmark because the required reference terminal state cannot be reconstructed from its recorded API-call log.   The paper releases a replication package containing the auditing suite, fault-injection catalogue, frozen records, deviation logs, and offline analysis entry points without network access, API keys, or model calls.",
+    "url": "http://arxiv.org/abs/2610.16067v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16067v1",
+    "published": "2026-10-12",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.15714v1",
+    "title": "MedHarnessBench: A Unified Benchmark for Healthcare Agent Evaluation",
+    "authors": [
+      "Rui Tang",
+      "Hongqiu Wang"
+    ],
+    "abstract": "Healthcare agents must transform longitudinal clinical evidence into reliable actions through heterogeneous tools and stateful workflows, conditions under which model-centric systems may lose context, misuse tools, fail to verify consequential transitions, or cross authorization boundaries. Existing medical-agent benchmarks primarily emphasize terminal task outcomes, making it difficult to determine whether execution failures arise from the agent model, the runtime harness, or their interaction. We present the Medical Harness Protocol, an outcome-preserving framework that independently evaluates seven healthcare-specific process dimensions: Care Action Fulfillment, Clinical Resource Competence, Patient-Evidence Alignment, Clinical Workflow Continuity, Clinical Auditability, Closed-Loop Verification, and Clinical Conduct Boundaries. A normalized intervention trace further tracks whether runtime support is available, activated, delivered, adopted by the agent, and propagated into subsequent behavior. We instantiate the protocol as MedHarnessBench, comprising 342 executable tasks across FHIR/EHR operations, healthcare-administration interfaces, and multimodal clinical tools. Across more than 16,000 controlled task executions, MedHarness yields broad improvements in terminal task success, intermediate subtask completion, and healthcare-specific process quality. We further evaluate MedHarness against multiple general-purpose harnesses and use controlled single-fault perturbations to verify the sensitivity and discrimination of the seven-dimensional evaluation. These results demonstrate that healthcare-specific runtime support can substantially improve both task completion and execution quality, while revealing failures that terminal outcomes alone cannot capture. Code and resources are available at https://github.com/Tomry1114/Awesome-Agent-Harness-for-Healthcare.",
+    "url": "http://arxiv.org/abs/2610.15714v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.15714v1",
+    "published": "2026-10-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.18206v1",
+    "title": "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
+    "authors": [
+      "Do Xuan Trong",
+      "Duc Anh Nguyen",
+      "Do Xuan Long",
+      "Ngoc-Hai Nguyen",
+      "Tongyao Zhu"
+    ],
+    "abstract": "We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors in coding agents. It contains 7.4K human-in-the-loop synthesized samples spanning three layers of agent action space: (i) Code Generation, (ii) File Management, and (iii) System Interaction. Across these categories, SWE-MISBEHAVIOR covers 11 distinct misbehaviors with a fully automated evaluation protocol, including coding-action violations, Create/Read/Update/Delete (CRUD) file misbehaviors, system integrity and abuse violations, and task-goal misalignment. Experiments on state-of-the-art open-source coding agents (e.g., OpenHands, smolagents) reveal substantial misaligned behaviors, including dependency misinterpretation (up to 98.5% of cases), unintended modification of user inputs (50.5%), and silent compromise of environment integrity (53%). Motivated by these findings, we further propose CODE-KIT, a lightweight adaptive framework that combines misbehavior-aware guidelines with novel tools to help agents avoid such failures. CODE-KIT reduces misbehaviors by 52% for smolagents and 34% for OpenHands, while simultaneously improving task completion performance.",
+    "url": "http://arxiv.org/abs/2610.18206v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18206v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.SE",
+      "cs.CL"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
