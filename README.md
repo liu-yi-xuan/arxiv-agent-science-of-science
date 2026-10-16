@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-16
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2610.18449v1) | Yibo Wen, Han Liu | AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. |
+| [OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction](http://arxiv.org/abs/2610.21983v1) | Donghyeok Lee, Bong Gyun Kang, Junyong Ahn et al. | Learning from experience requires recovering reusable knowledge and determining when it applies to a new situation. |
+| [XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents](http://arxiv.org/abs/2610.19581v1) | Weihao Li, Jun Bai, Shijie Chen et al. | Large language model (LLM) agents can reuse experience from prior task executions to improve performance on subsequent tasks. |
+| [STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents](http://arxiv.org/abs/2610.19386v1) | Guanhua Zhu, Hanwen Li, Zhi Wei et al. | Large language model (LLM) agents can self-evolve at test time by accumulating experience: retrieving relevant memories before acting and writing new lessons back afterwards. |
+| [EvoWeave: Composing Reusable Agent Experience through Operation Level Graphs](http://arxiv.org/abs/2610.19381v1) | Guanhua Zhu, Bo Shen, Lei Zhang et al. | Different tasks often require interactive agents to perform similar operations at intermediate steps. |
+| [Athanor: An Agent-Native System for Autonomous Post-Training Research](http://arxiv.org/abs/2610.21055v1) | Yufa Zhou, Yichen Wang, Jiakun Fan et al. | Recursive self-improvement, in which AI systems build stronger AI systems, is one promising route to superintelligence. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting](http://arxiv.org/abs/2610.18435v1) | Hai Lu, Yichen Luo, Luping Yu | Referees increasingly use large language models (LLMs), while finance and accounting journals disagree about whether to allow it. |
+| [MAPLE: A Multi-Axis Parametric Knowledge Extraction Lens for LLM Evaluation](http://arxiv.org/abs/2610.19827v1) | Minsuh Joo, Youna Kim, Choonghyun Park et al. | LLMs absorb vast knowledge from training data, yet their inherently probabilistic nature offers no guarantee that this knowledge will surface in their outputs. |
+| [Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents](http://arxiv.org/abs/2610.21463v1) | Zilin Wang, Yinhong Liu, Chao Chen et al. | Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single strong model generate every step, although many steps are routine enough for a m... |
+| [Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve](http://arxiv.org/abs/2610.18616v2) | Yuyang Bai, Yu Wang, Yu Zhang | Searching text-rich knowledge graphs requires following relations while examining textual evidence. Predefined graph interfaces constrain what evidence agents can access, even when they write code ... |
+| [MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering](http://arxiv.org/abs/2610.22344v1) | Shangheng Du, Jinxin Shi, Shuaiyu Zhang et al. | Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward re... |
+
 ### 📅 2026-10-15
 
 **34 new papers found**

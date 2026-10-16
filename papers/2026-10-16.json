@@ -1,0 +1,227 @@
+[
+  {
+    "id": "2610.18449v1",
+    "title": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
+    "authors": [
+      "Yibo Wen",
+      "Han Liu"
+    ],
+    "abstract": "AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial release comprising six budgeted design-build-test-learn campaigns grounded in published experiments across biology, chemistry, and materials science. Agents select batches of designs, receive measurements from a lab service, and use the results to guide subsequent experiments before delivering a predictive model. Success requires passing two calibrated gates: a discovery gate, which evaluates the designs the agent measured, and a learning gate, which evaluates its model's ranking of held-out designs. In a pilot evaluation of eight agent-model configurations and 144 trials, the best configuration succeeds in 67% of trials, while the hardest campaign is solved in only three of 24 attempts. The two gates reveal different weaknesses: some agents build accurate rankings but find too few promising designs, while others find promising designs but fail to predict which unseen designs will perform well. These differences are obscured by overall success rates alone. We release version 0.1 of the campaigns, lab runtime, and public leaderboard at https://yibow.me/autonomous-science-bench.",
+    "url": "http://arxiv.org/abs/2610.18449v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18449v1",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.21983v1",
+    "title": "OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction",
+    "authors": [
+      "Donghyeok Lee",
+      "Bong Gyun Kang",
+      "Junyong Ahn",
+      "Sungroh Yoon"
+    ],
+    "abstract": "Learning from experience requires recovering reusable knowledge and determining when it applies to a new situation. We introduce OntoAct, a hypothesis-based neuro-symbolic framework built on ontological abstraction. OntoAct turns individual experiences into axioms over entity types, relations, and conditions, making their underlying patterns reusable across situations. A large language model (LLM) uses this world knowledge to propose hypotheses and actions, while a symbolic verifier assesses their supporting conditions against current observations. Verification identifies missing evidence, and new observations and intervention outcomes update hypothesis assessments and guide subsequent actions. We also introduce Tacit-FLE, a benchmark built on the Factorio Learning Environment (FLE) for diagnosing and repairing hidden faults in existing factories using inherited operational records. Its synthetic maintenance corpus distributes evidence across records, and an executed repair may leave the fault unresolved, requiring agents to reassess their diagnoses through interaction. Across Tacit-FLE, Mars, and ALFWorld, OntoAct achieves leading task performance with efficient interaction and inference.",
+    "url": "http://arxiv.org/abs/2610.21983v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.21983v1",
+    "published": "2026-10-15",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.19581v1",
+    "title": "XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents",
+    "authors": [
+      "Weihao Li",
+      "Jun Bai",
+      "Shijie Chen",
+      "Qincheng Lu",
+      "Xinyu Wang"
+    ],
+    "abstract": "Large language model (LLM) agents can reuse experience from prior task executions to improve performance on subsequent tasks. Although existing methods enable cross-agent experience sharing, differences in agents' execution histories and task requirements make shared experiences difficult to reuse effectively. We propose XferAgent, a framework for cross-agent experience transfer that organizes reusable experience in local and shared experience graphs. XferAgent reconciles compatible contributions from heterogeneous agents while avoiding unreliable merges. For each new task, it selects shared experiences and integrates them with the target agent's local experience to support task execution. Experiments across diverse task domains show improvements over representative memory-based methods and effective experience transfer between heterogeneous agent frameworks. Cumulative task success also increases over successive task passes as agents update and reuse their experiences.",
+    "url": "http://arxiv.org/abs/2610.19581v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19581v1",
+    "published": "2026-10-14",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.19386v1",
+    "title": "STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents",
+    "authors": [
+      "Guanhua Zhu",
+      "Hanwen Li",
+      "Zhi Wei",
+      "Mengnan Du",
+      "Chenxi Yuan"
+    ],
+    "abstract": "Large language model (LLM) agents can self-evolve at test time by accumulating experience: retrieving relevant memories before acting and writing new lessons back afterwards. Yet most are single-level: trajectories, distilled workflows and reasoning items all land in one undifferentiated pool indexed by embedding similarity, with no typed abstraction hierarchy. They never forget or deduplicate, and are prone to negative transfer, where a superficially similar but directionally opposite experience is recalled and its concrete steps are copied verbatim, actively harming the agent. We introduce STRATA, a structured, outcome-grounded, self-maintaining memory that organizes experience into a three-layer graph of atomic skills and code snippets, task workflows and generalized meta-frameworks, connected by typed edges. STRATA maintains itself through five mechanisms sharing one similarity geometry: a multi-dimensional similarity that scores retrieval by operation and target; a typed reflector crystallizing procedures from successes and pitfalls from failures; community detection that induces meta-frameworks; pressure-triggered garbage collection with articulation-point protection; and contrast edges that flag confusable, direction-opposite experiences. Across four interactive benchmarks (AppWorld, WebArena, ALFWorld, ScienceWorld), two frozen backbones and seven baselines, STRATA attains the best average score while simultaneously using the lowest latency and fewest environment steps of any memory-augmented method, and 44% fewer lines of injected memory than the most context-hungry baseline. We isolate two failure modes of prior memories: single-level memory degrades sharply as the task set grows, and single-level concrete memories suffer catastrophic negative transfer, which contrast edges repair, lifting ScienceWorld from 78.7 to 96.7 within the same system.",
+    "url": "http://arxiv.org/abs/2610.19386v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19386v1",
+    "published": "2026-10-14",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.19381v1",
+    "title": "EvoWeave: Composing Reusable Agent Experience through Operation Level Graphs",
+    "authors": [
+      "Guanhua Zhu",
+      "Bo Shen",
+      "Lei Zhang",
+      "Fadi Deek",
+      "Zhi Wei"
+    ],
+    "abstract": "Different tasks often require interactive agents to perform similar operations at intermediate steps. Retrieving an entire past workflow can introduce irrelevant steps, whereas retrieving isolated operations can discard the dependencies needed to reuse them. We introduce EvoWeave, a framework for experience memory that represents abstract states as nodes and reusable operations as directed edges with input and output contracts, provenance, and capability references. A planner decomposes the current task into a dependency graph; operation retrieval and bounded directed search then assemble relevant experience fragments. An execution agent can inspect these fragments and their referenced capabilities, while reflection separates concrete execution evidence from reusable abstractions. We study the framework across four benchmarks, five evaluation settings, and three language model backbones. Across backbones, AppWorld Normal and Challenge task goal completion average 51.91 and 27.99, respectively, exceeding the baseline without memory by 6.99 and 4.99 percentage points. An AppWorld ablation associates directed connections with an additional improvement of 2.08 points over independent operation cards. The results motivate composition of reusable operations while exposing tradeoffs in retrieval overhead and conditions for valid reuse.",
+    "url": "http://arxiv.org/abs/2610.19381v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19381v1",
+    "published": "2026-10-14",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.21055v1",
+    "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
+    "authors": [
+      "Yufa Zhou",
+      "Yichen Wang",
+      "Jiakun Fan",
+      "Ziqi Shu",
+      "Zhichao Liu"
+    ],
+    "abstract": "Recursive self-improvement, in which AI systems build stronger AI systems, is one promising route to superintelligence. We study a weaker form that can be measured today: frontier agents post-training a small raw base model with public data, as a test of their research potential. We build Athanor, an open agent-native system for autonomous post-training research (AutoPostTrain) on real GPUs. We give the agents full research autonomy, low-friction engineering tools, and efficient starter code. The agents carry out the research themselves: they read datasets and evaluation results, build their training data, write and modify training algorithms, tune hyperparameters, and analyze the results to decide what to try next. They work in a sandbox and cannot use external teacher models. Athanor's services supply frozen evaluation, managed jobs, decontaminated data, a persistent research record, and a held-out suite the agents are unaware of. In a 104-hour campaign, a team of four Claude Opus 5.5 agents, each on an eight-GPU node and given no research advice, improves Qwen3-4B-Base from 15.9 to 67.3 on a six-task development suite and from 9.2 to 48.2 on a held-out suite, against 66.5 and 47.9 for the official Qwen3-4B-Instruct-2507. To our knowledge, this is the first demonstration that a team of frontier agents can autonomously post-train a raw base model into a cross-domain generalist model that matches or surpasses the official instruct version on average. The campaign's full record shows that the agents reach this level by recombining known methods and each other's models: SFT on public reasoning data, RL with a rollout change one agent introduced, weight merges across agents, and rounds of self-distillation. With execution handled, today's agents already have the engineering and research ability to conquer this task. We hope Athanor provides a foundation for scaling autonomous AI research.",
+    "url": "http://arxiv.org/abs/2610.21055v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.21055v1",
+    "published": "2026-10-15",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.18435v1",
+    "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting",
+    "authors": [
+      "Hai Lu",
+      "Yichen Luo",
+      "Luping Yu"
+    ],
+    "abstract": "Referees increasingly use large language models (LLMs), while finance and accounting journals disagree about whether to allow it. We ask which part of a referee's job the models can do. GPT-4o, whose training data end before the 2024 conference season, referees the papers presented at the 2024 AFA and NBER finance meetings, and we compare its verdicts with publication in the top-three finance journals over the next two years. Papers the model scores one standard deviation higher are 44\\% more likely to be published, net of author reputation. The result is not driven by look-ahead bias, as the model does not recall the outcomes. The information comes from its judgements of correctness and exposition. Its judgements of originality and significance carry none, and a referee guide that stresses importance does not help. The split between correctness and contribution holds for accounting papers and for a newer model, GPT-5. LLMs can check whether research is right, but not whether it matters. The technical check can go to the model, while the judgement of contribution stays with people.",
+    "url": "http://arxiv.org/abs/2610.18435v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18435v1",
+    "published": "2026-10-13",
+    "categories": [
+      "q-fin.GN",
+      "cs.AI"
+    ],
+    "primary_category": "q-fin.GN",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.19827v1",
+    "title": "MAPLE: A Multi-Axis Parametric Knowledge Extraction Lens for LLM Evaluation",
+    "authors": [
+      "Minsuh Joo",
+      "Youna Kim",
+      "Choonghyun Park",
+      "Soo Kyung Kim",
+      "Hyunsoo Cho"
+    ],
+    "abstract": "LLMs absorb vast knowledge from training data, yet their inherently probabilistic nature offers no guarantee that this knowledge will surface in their outputs. To bridge this gap, Knowledge Extraction Enhancement (KEE) techniques such as activation steering, decoding adjustments, and prompting modify inference, potentially reinforcing existing predictions or surfacing less accessible answers. Yet their evaluations centered on aggregate accuracy, which obscures diverse effects by collapsing recovered failures and disrupted successes into a single score. We introduce MAPLE, a unified framework for characterizing how KEE techniques affect parametric knowledge extraction. Its diagnostic metrics disentangle these effects at the surface, probability, and beyond-sampling levels by measuring answer recovery and disruption, gold-token rank shifts on unrecovered failures, and recovery of answers missed by fixed-budget sampling. We evaluate six KEE techniques spanning decoding, activation steering, and prompting across three model families: OLMo2, Qwen2.5, and Llama3. Our analysis reveals distinct effects and trade-offs across techniques, highlighting the value of MAPLE for understanding and comparing KEE beyond aggregate accuracy.",
+    "url": "http://arxiv.org/abs/2610.19827v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19827v1",
+    "published": "2026-10-14",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.21463v1",
+    "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+    "authors": [
+      "Zilin Wang",
+      "Yinhong Liu",
+      "Chao Chen",
+      "Qun Liu",
+      "Zhijiang Guo"
+    ],
+    "abstract": "Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single strong model generate every step, although many steps are routine enough for a much smaller model. Existing ways of sharing this work keep the strong model as the generator: routers and collaborative agents decide which model handles each query or step, and speculative methods check a small model's drafts one step at a time, usually against the strong model's own action. We introduce SpecAgent, a collaboration protocol that turns the strong model from the author of each step into a reviewer of steps drafted by a weak model. The weak model executes read-only tool calls as it drafts, so that every step is grounded in real observations, and holds the first action that would modify the environment. The strong model then verifies the drafted segment in a single prefill pass, commits the longest prefix it judges semantically valid, and repairs the first rejected step. Because verification replaces autoregressive decoding with parallel prefill, the strong model decodes only short verdicts and occasional repairs rather than every step. On $τ^2$-Bench, SpecAgent comes within one point of the strong model's success rate while roughly halving memory traffic and wall time, and on AutomationBench and VitaBench it recovers 44-75% of the quality gap while lowering both. In an edge-cloud deployment on MCP-Atlas with three cloud models, it closes 53-75% of the weak-strong quality gap while the strong model generates at most half as many tokens. These results suggest that a strong model need not author every step of an agent: reviewing grounded drafts retains most of its quality while cutting both latency and memory traffic.",
+    "url": "http://arxiv.org/abs/2610.21463v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.21463v1",
+    "published": "2026-10-15",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.18616v2",
+    "title": "Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve",
+    "authors": [
+      "Yuyang Bai",
+      "Yu Wang",
+      "Yu Zhang"
+    ],
+    "abstract": "Searching text-rich knowledge graphs requires following relations while examining textual evidence. Predefined graph interfaces constrain what evidence agents can access, even when they write code to combine tool calls or process retrieved subgraphs. We propose direct knowledge graph interaction (DKGI), a harness in which language model agents create graph access tools directly over complete node and edge files. The agent writes Python code to follow relations, combine node sets, and select textual evidence, interleaving execution with shell search and file inspection. This lets agents process large node sets in bulk while returning selected text for the model to assess. Execution feedback guides tool creation and revision, while the evolving tools determine what evidence the agent gathers next. On benchmark datasets spanning three domains, training-free DKGI exceeds the strongest published baseline by at least 6.7 Hit@1 points on every graph, even with a minimal harness. Controlled ablations show the benefits of multi-turn programming over shell-only access and predefined graph tools, while trajectories show agents revising code to extend searches or address errors. These findings highlight the value of allowing tool creation and tool use to co-evolve during graph search. Our code and data are available at https://github.com/leopoldwhite/DKGI.",
+    "url": "http://arxiv.org/abs/2610.18616v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.18616v2",
+    "published": "2026-10-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.22344v1",
+    "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+    "authors": [
+      "Shangheng Du",
+      "Jinxin Shi",
+      "Shuaiyu Zhang",
+      "Yiming Wu",
+      "Junpeng Zhao"
+    ],
+    "abstract": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously organize experiments and adapt optimization strategies based on execution feedback. However, feedback from each experiment reflects several preceding decisions, and a long MLE run contains many such costly experiments. Training must therefore select useful supervision from long interaction trajectories and learn from intermediate outcomes. We propose a post-training method for autonomous long-horizon MLE optimization and apply it to train MLExpert, a 35B Mixture-of-Experts agentic model. We design the Kaggle-MLE Factory to construct executable tasks and an interaction harness for model-directed experimentation. Hierarchical agentic SFT transfers general tool-use and coding capabilities to MLE through outcome-guided supervision. Windowed Interaction RL (WIRL) treats the multi-turn decisions between successive experiment results as an execution window and assigns it a shared outcome-based reward. Asynchronous collection and policy correction support policy updates before the trajectory ends. On MLE-Bench Lite, MLExpert improves the average medal rate of the base model from 37.9% to 72.7%, achieving performance comparable to larger frontier models such as Kimi-K3 and GLM-5.3. Further experiments show that MLExpert improves performance on NatureBench Lite, agent scaffold optimization, and algorithm optimization, suggesting that the learned optimization capability generalizes to other tasks.",
+    "url": "http://arxiv.org/abs/2610.22344v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22344v1",
+    "published": "2026-10-15",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  }
+]
