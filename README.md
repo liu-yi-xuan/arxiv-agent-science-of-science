@@ -24,6 +24,34 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-17
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction](http://arxiv.org/abs/2610.21983v1) | Donghyeok Lee, Bong Gyun Kang, Junyong Ahn et al. | Learning from experience requires recovering reusable knowledge and determining when it applies to a new situation. |
+| [Athanor: An Agent-Native System for Autonomous Post-Training Research](http://arxiv.org/abs/2610.21055v1) | Yufa Zhou, Yichen Wang, Jiakun Fan et al. | Recursive self-improvement, in which AI systems build stronger AI systems, is one promising route to superintelligence. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents](http://arxiv.org/abs/2610.21463v1) | Zilin Wang, Yinhong Liu, Chao Chen et al. | Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single strong model generate every step, although many steps are routine enough for a m... |
+| [MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering](http://arxiv.org/abs/2610.22344v1) | Shangheng Du, Jinxin Shi, Shuaiyu Zhang et al. | Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward re... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OmicsBench: a long-horizon multi-turn benchmark of AI agents on research-study-scale bioinformatics](http://arxiv.org/abs/2610.21074v1) | Gideon Shaked, Siddharth Nagisetty | Computational biologists increasingly delegate substantial analyses to AI agents in long-horizon, multi-turn sessions, yet most benchmarks of agents' bioinformatics capabilities pose a single short... |
+| [HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration](http://arxiv.org/abs/2610.22195v1) | Yanchen Deng, Jianguo Huang, Yao Long Teng et al. | Orchestrating multiple agents on a complex task requires reconciling local subtask execution with global task planning. |
+| [HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation](http://arxiv.org/abs/2610.20191v1) | Min Xiao, Jin Li, Shoujin Wang et al. | Medication recommendation (MR) is critical for clinical decision support. While existing MR methods are mostly designed for single-center learning, where only one independent hospital is involved, ... |
+| [Lexical Persistence Without Semantic Entrenchment in AI Agent Communities](http://arxiv.org/abs/2610.20365v1) | Chih-Han Lin, Yu-Yun Chang, Po-Ya Angela Wang et al. | AI agent communities sustain lexical persistence, popular terms spread, recur, and achieve broad adoption, but whether they also develop the temporal semantic structure characteristic of human ling... |
+| [Do AI Agents Gossip? Evaluative Talk in Human and AI-Agent Online Communities](http://arxiv.org/abs/2610.20360v1) | Yong-Hui Hua, Chih-Han Lin, Shu-Kai Hsieh | Gossip, defined as evaluative talk about absent third parties, is widely seen as a uniquely human social practice. |
+
 ### 📅 2026-10-16
 
 **11 new papers found**
