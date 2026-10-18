@@ -24,6 +24,35 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-18
+
+**5 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction](http://arxiv.org/abs/2610.21983v1) | Donghyeok Lee, Bong Gyun Kang, Junyong Ahn et al. | Learning from experience requires recovering reusable knowledge and determining when it applies to a new situation. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering](http://arxiv.org/abs/2610.22344v1) | Shangheng Du, Jinxin Shi, Shuaiyu Zhang et al. | Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward re... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration](http://arxiv.org/abs/2610.22195v1) | Yanchen Deng, Jianguo Huang, Yao Long Teng et al. | Orchestrating multiple agents on a complex task requires reconciling local subtask execution with global task planning. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning](http://arxiv.org/abs/2610.22269v1) | Adhwaa Al-Chaab, Ayman Younis, Dario Pompili | The O-RAN ALLIANCE introduces architectural flexibility through disaggregation and AI-driven control. |
+| [WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents](http://arxiv.org/abs/2610.22039v1) | Weihao Li, Zihang Xu, Zhongqiu Wang et al. | Real-world software engineering rarely consists of isolated changes. Features, migrations, and systematic fixes often unfold across multiple pull requests (PRs), requiring coordinated modifications... |
+
 ### 📅 2026-10-17
 
 **9 new papers found**
