@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-19
+
+**1 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery](http://arxiv.org/abs/2610.23791v1) | Yuxing Chen, Zhisheng Zhang, Cheng Tang et al. | Computational drug discovery requires agents to compose scientific operations and adapt to changing evidence and constraints. |
+
 ### 📅 2026-10-18
 
 **5 new papers found**
