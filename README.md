@@ -24,6 +24,48 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-20
+
+**18 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CXBench: A Benchmark for Process-Compliant LLM Agents in Regulated Customer-Experience Workflows](http://arxiv.org/abs/2610.25954v1) | Boxi Yu, Yuzhong Zhang, Zhenfeng Su et al. | Tool-using language agents increasingly perform regulated customer-service workflows, where a correct final state is insufficient: agents must also provide disclosures, obtain consent, and follow r... |
+| [Selecting and Composing Agent Design Patterns: Industrial Case Evidence and Controlled Reference-System Experiments](http://arxiv.org/abs/2610.25629v1) | Jia Huang, Bingsheng Ru, Bo Liang et al. | Agent pattern catalogs describe architectural alternatives, but engineers also need evidence for selecting and composing them. |
+| [ReTRACE: Feedback-Guided LLM Agent in a Chemistry Harness for Retrosynthesis Planning](http://arxiv.org/abs/2610.24744v1) | Jinxiang Xie, Yijian Zhang, Qingyuan Yi et al. | Computer-aided retrosynthesis has advanced through single-step prediction, tree search and route scoring, but complex targets still require judgement over the whole route, where stereochemistry, fu... |
+| [NeuroAct: Advancing EEG Analysis and Decoding via Dual-Loop Autonomous Research](http://arxiv.org/abs/2610.25211v1) | Wei Xiong, Jiangtong Li, Han Zhao et al. | EEG analysis and decoding underpin brain-computer interfaces, cognitive assessment, and sleep monitoring. |
+| [Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research](http://arxiv.org/abs/2610.24944v1) | Yue Huang, Zhangchen Xu, Xiaonan Luo et al. | We present Épi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. |
+| [Autonomous adaptive spectral analysis with an LLM agent for self-driving laboratories](http://arxiv.org/abs/2610.25619v1) | Yuki K. Wakabayashi, Yui Ogawa | Self-driving laboratories accelerate materials exploration through autonomous closed-loop integration of synthesis, characterization, and next-experiment selection. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory](http://arxiv.org/abs/2610.26860v1) | Yu Zhou, Cheng-Fu Yang, Rui Sun et al. | Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled s... |
+| [Memories That Outlive Their Reasons: Dependency-Tethered Memory for Tool-Using LLM Agents](http://arxiv.org/abs/2610.25123v1) | Yiqi Wang, Jinqian Ju, Jiaqi Zhang et al. | Agents now act on the Web, publishing packages, models and datasets through registry APIs, and remembering past verifications spares them the work. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Bridging Concepts: Multi-Agent Reasoning over Scientific Concept Graphs for High-Impact Research Prediction](http://arxiv.org/abs/2610.25281v1) | Donggyu Yoon, Minsung Hwang, Juneha Baek et al. | Within a research community, new topics often emerge when previously unconnected concepts are first studied together. |
+| [Neuro-Inspired Inhibitory Message Passing for Accurate and Token-Efficient Multi-Agent Reasoning](http://arxiv.org/abs/2610.24718v1) | Nima H. Siboni, Magdalena Springer, Vahid Rostami | Multi-agent systems promise to solve problems by bringing together information beyond the reach of any individual agent. |
+| [Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems](http://arxiv.org/abs/2610.26035v1) | Marco Polignano, Het Darshan Mehta, Pasquale Lops et al. | Decision models, such as the commercial Jev, are language models that return one probability for each option of a question instead of generating text. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development](http://arxiv.org/abs/2610.26826v1) | Yuchi Wang, Rongyao Fang, Weihao Yu et al. | Beyond basic tool use and coding skills, effectively incorporating visual references into agentic generation is equally essential for applying AI agents to real-world productivity tasks. |
+| [AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments](http://arxiv.org/abs/2610.25950v1) | Rui Wang, Zishen Lai, Jiayu Liu et al. | Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. |
+| [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](http://arxiv.org/abs/2610.25931v1) | Dastin Huang, Baran Nama, Salaheddin Alzubi | EvoSkill v2 is a three-agent system that edits the instructions (skills) an agent is given, leaving its model and harness intact. |
+| [When Should AI Chime In? Benchmarking Timely Contribution of Proactive Agents in Multi-Party Chat](http://arxiv.org/abs/2610.25896v1) | Ruotong Wang, Brian S. Yu, Xinyi Zhou et al. | Proactive agents can support group collaboration by surfacing useful information without waiting to be asked, but even relevant contributions can be disruptive if poorly timed. |
+| [MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data](http://arxiv.org/abs/2610.25373v1) | Sen Gao, Yongan Li, Han Chen et al. | Long-running agents rely on memory of their past interactions for task state, such as what has been completed and which conditions still hold. |
+| [BrandEval: A Two-Track Multi-Agent Benchmark for Risk-Sensitive LLM Crisis Communication](http://arxiv.org/abs/2610.25208v1) | Haotian Gan, Weidong Tang, Hanbin Sun et al. | Evaluating LLMs for crisis communication requires more than judging isolated responses, because public feedback and competitor actions can reshape trust over time. |
+| [MemBubble: Benchmarking How Agent Memory Shapes LLM Response Diversity](http://arxiv.org/abs/2610.25127v1) | Jiajun Tan, Fei Sun, Xinyu Ma et al. | Memory serves as the core component of LLM-based agents, enabling personalized responses via extracting and using user preferences from past interactions. |
+
 ### 📅 2026-10-19
 
 **1 new papers found**
