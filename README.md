@@ -24,6 +24,61 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-21
+
+**26 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SAPD: Learning from Agent Experience without Environment Interaction](http://arxiv.org/abs/2610.27847v1) | Juncheng Diao, Haibin Wang, Wei Shi et al. | Scaling the training of Large Language Model (LLM) agents typically requires a large collection of executable environments, whose construction, maintenance, and operation constrain the expansion of... |
+| [When Does Experience Memory Help Closed-Loop LLM Driving Agents? A Controlled Evaluation with Resampled Warmup Pools, Token-Matched Fillers, and Audited Baselines](http://arxiv.org/abs/2610.27714v1) | Yingxin Jia, Xuanyi Li | When does experience memory help a closed-loop LLM driving agent? Published gains cannot say, because the two factors we find to matter most, which warmup experiences the pool contains and what any... |
+| [REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents](http://arxiv.org/abs/2610.27377v1) | Xinyi Lisa Chen, Pedro Herrero-Vidal, Xiaohan Chen et al. | Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely ... |
+| [CXBench: A Benchmark for Process-Compliant LLM Agents in Regulated Customer-Experience Workflows](http://arxiv.org/abs/2610.25954v1) | Boxi Yu, Yuzhong Zhang, Zhenfeng Su et al. | Tool-using language agents increasingly perform regulated customer-service workflows, where a correct final state is insufficient: agents must also provide disclosures, obtain consent, and follow r... |
+| [Selecting and Composing Agent Design Patterns: Industrial Case Evidence and Controlled Reference-System Experiments](http://arxiv.org/abs/2610.25629v1) | Jia Huang, Bingsheng Ru, Bo Liang et al. | Agent pattern catalogs describe architectural alternatives, but engineers also need evidence for selecting and composing them. |
+| [Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry](http://arxiv.org/abs/2610.27230v1) | Tao Jiang, Benjamin Navet, Yousouf Taghzouti et al. | Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. |
+| [Autonomous adaptive spectral analysis with an LLM agent for self-driving laboratories](http://arxiv.org/abs/2610.25619v1) | Yuki K. Wakabayashi, Yui Ogawa | Self-driving laboratories accelerate materials exploration through autonomous closed-loop integration of synthesis, characterization, and next-experiment selection. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory](http://arxiv.org/abs/2610.26860v1) | Yu Zhou, Cheng-Fu Yang, Rui Sun et al. | Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled s... |
+| [M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement](http://arxiv.org/abs/2610.27032v1) | Ziyang Liu, Jiakang Yuan, Jiayuan Fan et al. | Large language model (LLM)-based agents have recently demonstrated outstanding performance in single-turn tasks, yet they continue to struggle with long-horizon tasks, particularly in environments ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Bridging Concepts: Multi-Agent Reasoning over Scientific Concept Graphs for High-Impact Research Prediction](http://arxiv.org/abs/2610.25281v1) | Donggyu Yoon, Minsung Hwang, Juneha Baek et al. | Within a research community, new topics often emerge when previously unconnected concepts are first studied together. |
+| [S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents](http://arxiv.org/abs/2610.27746v1) | Yang Li, Di Wan, Yike Wang et al. | Simulating economic responses at society scale requires agents whose decisions reflect household circumstances and the effects of earlier actions. |
+| [Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems](http://arxiv.org/abs/2610.26035v1) | Marco Polignano, Het Darshan Mehta, Pasquale Lops et al. | Decision models, such as the commercial Jev, are language models that return one probability for each option of a question instead of generating text. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Large Teams Consistently Develop Science](http://arxiv.org/abs/2610.27649v1) | Yiling Lin, Lulin Yang, Lingfei Wu | Scientific progress depends on both developing established knowledge and disrupting it to make way for new ideas. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents](http://arxiv.org/abs/2610.28425v1) | Zhiyue Xu, Xukai Wang, Zhiyuan Huang et al. | Modern LLM agents persist state across sessions via two channels: long-lived memory files silently prepended to the system prompt, and scheduled tasks waking the agent without user input. |
+| [CUA-Recovery: Benchmarking Error Recovery in Long-Horizon Computer-Use Agents](http://arxiv.org/abs/2610.27645v1) | Xu Hu, Haoming Li, Yuxiang Wang et al. | As computer-use agents (CUAs) move to long-horizon workflows spanning multiple applications, undetected errors can silently corrupt persistent state and cause cascading failures in subsequent actions. |
+| [DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents](http://arxiv.org/abs/2610.27581v1) | Yuxuan Li, Xiangchen Guan, Kunrong Li et al. | Full-duplex speech agents must update persistent memory while listening and speaking, yet it remains unclear which events should be stored, revised, or excluded. |
+| [Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment](http://arxiv.org/abs/2610.27548v1) | Zhiping Zhang, Franklin Mingzhe Li, Zihao Huang et al. | When an LLM agent acts on behalf of a user, it is expected to act within the authorization scope the user grants. |
+| [MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories](http://arxiv.org/abs/2610.27524v1) | Guorui Chen, Tao Liu, Zhenzhen Huang et al. | Code agents increasingly work on evolving real repositories, and memory systems aim to help them reuse earlier experience. |
+| [LoWAgent: A Low-Resource Multilingual Benchmark for Web Agents](http://arxiv.org/abs/2610.27205v1) | Ocean Monjur, Daud Ahmad Nisar, Shahriar Kabir Nahin et al. | Web agents are typically evaluated on English-language interfaces, leaving their ability to operate across the world's multilingual websites largely unexplored. |
+| [RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development](http://arxiv.org/abs/2610.26826v1) | Yuchi Wang, Rongyao Fang, Weihao Yu et al. | Beyond basic tool use and coding skills, effectively incorporating visual references into agentic generation is equally essential for applying AI agents to real-world productivity tasks. |
+| [ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems](http://arxiv.org/abs/2610.27046v1) | Zeyu Zheng, Yiyang Liu, Yuyang Zhao et al. | As AI systems begin to resolve open research problems, reliable verification becomes increasingly important. |
+| [AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments](http://arxiv.org/abs/2610.25950v1) | Rui Wang, Zishen Lai, Jiayu Liu et al. | Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. |
+| [CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents](http://arxiv.org/abs/2610.28381v1) | Youmna Farag, Svetlana Stoyanchev, Simon Keizer et al. | Reasoning about safety is essential for embodied agents powered by large language models (LLMs). We introduce the Contextual Action and Plan Safety benchmark (CAPSafe), designed to evaluate safety ... |
+| [RealControlBench: A Benchmark for Interpretability-Informed Fine-Grained Control of LLMs and Agents](http://arxiv.org/abs/2610.27295v1) | Xinying Cai, Bin Hu, Mingyu Jin et al. | Existing steering benchmarks are built around simplified, isolated generation tasks and evaluate a single behavioral attribute under controlled settings that do not reflect the diversity and comple... |
+| [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](http://arxiv.org/abs/2610.25931v1) | Dastin Huang, Baran Nama, Salaheddin Alzubi | EvoSkill v2 is a three-agent system that edits the instructions (skills) an agent is given, leaving its model and harness intact. |
+| [MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data](http://arxiv.org/abs/2610.25373v1) | Sen Gao, Yongan Li, Han Chen et al. | Long-running agents rely on memory of their past interactions for task state, such as what has been completed and which conditions still hold. |
+
 ### 📅 2026-10-20
 
 **18 new papers found**
