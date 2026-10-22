@@ -24,6 +24,36 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-22
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis](http://arxiv.org/abs/2610.30072v1) | Xinzhe Wang, Xudong Weng, Zang Li et al. | Data agents built on ReAct-style loops now execute complex analytical workflows over structured data, yet their intermediate reasoning still runs almost entirely through text. |
+| [SAPD: Learning from Agent Experience without Environment Interaction](http://arxiv.org/abs/2610.27847v1) | Juncheng Diao, Haibin Wang, Wei Shi et al. | Scaling the training of Large Language Model (LLM) agents typically requires a large collection of executable environments, whose construction, maintenance, and operation constrain the expansion of... |
+| [When Does Experience Memory Help Closed-Loop LLM Driving Agents? A Controlled Evaluation with Resampled Warmup Pools, Token-Matched Fillers, and Audited Baselines](http://arxiv.org/abs/2610.27714v1) | Yingxin Jia, Xuanyi Li | When does experience memory help a closed-loop LLM driving agent? Published gains cannot say, because the two factors we find to matter most, which warmup experiences the pool contains and what any... |
+| [REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents](http://arxiv.org/abs/2610.27377v1) | Xinyi Lisa Chen, Pedro Herrero-Vidal, Xiaohan Chen et al. | Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely ... |
+| [Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry](http://arxiv.org/abs/2610.27230v1) | Tao Jiang, Benjamin Navet, Yousouf Taghzouti et al. | Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. |
+| [Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home](http://arxiv.org/abs/2610.29913v1) | Marcos Junca, Mauro Junca | Thermal cameras can watch over older people living alone without capturing faces, and multimodal large language models (LLMs) can judge a short video without task-specific training. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [VeriEvolve: Evaluator-First Evolution for Tool-Using Agents](http://arxiv.org/abs/2610.29005v1) | Yueshen Li, Kamer Ali Yuksel, Gokhan Tur et al. | A central obstacle to self-improving agents is the absence of a reliable fitness signal for realistic stateful tasks. |
+| [OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory](http://arxiv.org/abs/2610.26860v1) | Yu Zhou, Cheng-Fu Yang, Rui Sun et al. | Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled s... |
+| [M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement](http://arxiv.org/abs/2610.27032v1) | Ziyang Liu, Jiakang Yuan, Jiayuan Fan et al. | Large language model (LLM)-based agents have recently demonstrated outstanding performance in single-turn tasks, yet they continue to struggle with long-horizon tasks, particularly in environments ... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [RegoMender: A Multi-agent Framework for Automated Rego Policy Repair](http://arxiv.org/abs/2610.29456v1) | Ruijie Zhang, Huaxiao Yin, Li Hu et al. | Policy-as-Code (PaC) has emerged as a foundational paradigm in cloud-native systems. However, repairing Rego policies remains challenging due to their strict syntax, declarative semantics, and spec... |
+| [S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents](http://arxiv.org/abs/2610.27746v2) | Yang Li, Di Wan, Yike Wang et al. | Simulating economic responses at society scale requires agents whose decisions reflect household circumstances and the effects of earlier actions. |
+
 ### 📅 2026-10-21
 
 **26 new papers found**
