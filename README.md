@@ -24,6 +24,52 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-23
+
+**22 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash](http://arxiv.org/abs/2610.31351v1) | Atharv Chandratre, Jai Datar | Feature flags are runtime configuration mechanisms used for gradual feature rollouts, experimentation, and kill switches. |
+| [AgenticEvolve: Evolutionary Program Search with Persistent Language Model Agents that Design and Run Experiments](http://arxiv.org/abs/2610.31326v1) | Ze-Yu Peng, Qing-Yu Lan, Zhan-He Wang et al. | Evolutionary program search with large language models keeps the structure of an evolutionary algorithm and uses the model as its variation operator. |
+| [Separate Field Scoring Protects Unused Tools When Agents Pool Tool-Use Experience](http://arxiv.org/abs/2610.30867v1) | Abhijit Chakraborty | Agents that call tools from a shared catalog can pool what they learn about which tool serves which request. |
+| [Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live](http://arxiv.org/abs/2610.30478v1) | Cheng-Yin Tu | Should an embodied agent's experience be baked into its policy weights, or kept external and retrieved at inference? |
+| [Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis](http://arxiv.org/abs/2610.30072v1) | Xinzhe Wang, Xudong Weng, Zang Li et al. | Data agents built on ReAct-style loops now execute complex analytical workflows over structured data, yet their intermediate reasoning still runs almost entirely through text. |
+| [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1) | Jiening Siow, Amy Xin, Junjie Wang et al. | Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validit... |
+| [SplatLab: Autonomous Scientific Discovery for 3DGS Research](http://arxiv.org/abs/2610.30468v1) | Seemandhar Jain, Manmohan Chandraker | Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. |
+| [Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home](http://arxiv.org/abs/2610.29913v1) | Marcos Junca, Mauro Junca | Thermal cameras can watch over older people living alone without capturing faces, and multimodal large language models (LLMs) can judge a short video without task-specific training. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [VeriEvolve: Evaluator-First Evolution for Tool-Using Agents](http://arxiv.org/abs/2610.29005v1) | Yueshen Li, Kamer Ali Yuksel, Gokhan Tur et al. | A central obstacle to self-improving agents is the absence of a reliable fitness signal for realistic stateful tasks. |
+| [Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core](http://arxiv.org/abs/2610.30557v1) | Yebo Feng, Jingyang Dai, Liangrui Pan et al. | LLM agents that act on live Web data must combine heterogeneous evidence, remember what they have done and improve from outcomes without weakening their own safeguards. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ADAPT for Science: A Multi-Agent System for Self-Evolving Scientific Optimization](http://arxiv.org/abs/2610.30851v1) | Zhaoran Feng, Yuchen Ni, Jianan Liu et al. | Scientific discovery often requires identifying a small number of high-performing designs in vast, constrained search spaces. |
+| [RegoMender: A Multi-agent Framework for Automated Rego Policy Repair](http://arxiv.org/abs/2610.29456v1) | Ruijie Zhang, Huaxiao Yin, Li Hu et al. | Policy-as-Code (PaC) has emerged as a foundational paradigm in cloud-native systems. However, repairing Rego policies remains challenging due to their strict syntax, declarative semantics, and spec... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack](http://arxiv.org/abs/2610.31404v1) | Justin Tan, Miao Li, Ding Zhao | Computer-use agents increasingly handle private information and act on users' behalf across desktop and web applications, including email. |
+| [Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences](http://arxiv.org/abs/2610.30485v1) | Jialin Li, Zhenhao Chen, Hanjun Luo et al. | Personal intelligence systems are taking on increasingly complex everyday tasks, yet repeated questions, unnecessary confirmations, and unwanted outreach can turn capable assistance into interactio... |
+| [Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research](http://arxiv.org/abs/2610.30113v1) | Houde Qian, Zheng Jiang, Wenyi Li et al. | Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. |
+| [MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents](http://arxiv.org/abs/2610.29249v1) | Hong Ting Tsang, Boyi Zhang, Haoyu Huang et al. | Omni-modal assistants must remember not only what users say, but also what they show and convey. Existing long-term memory benchmarks are mostly text-and-image or report a single end-to-end score, ... |
+| [GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development](http://arxiv.org/abs/2610.29014v1) | William Huang, David Li, Xiang 'Anthony' Chen et al. | Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) ap... |
+| [After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents](http://arxiv.org/abs/2610.28425v1) | Zhiyue Xu, Xukai Wang, Zhiyuan Huang et al. | Modern LLM agents persist state across sessions via two channels: long-lived memory files silently prepended to the system prompt, and scheduled tasks waking the agent without user input. |
+| [Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports](http://arxiv.org/abs/2610.31158v1) | Jiahao Meng, Qize Yang, Yuxuan Wang et al. | Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. |
+| [What the Specification Did Not Say: Specification-Oracle Gaps in Test-Graded Coding-Agent Benchmarks](http://arxiv.org/abs/2610.30635v1) | Fei Ding | Coding-agent benchmarks often describe a task in natural language but grade it with tests taken from the upstream project. |
+| [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](http://arxiv.org/abs/2610.30533v1) | Rabindra Lamsal, Sisi Zlatanova, Xuesong Shen | Industry Foundation Classes (IFC), the standard for building information exchange in architecture, engineering, and construction (AEC), is increasingly queried through large language models (LLMs) ... |
+| [CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents](http://arxiv.org/abs/2610.28381v1) | Youmna Farag, Svetlana Stoyanchev, Simon Keizer et al. | Reasoning about safety is essential for embodied agents powered by large language models (LLMs). We introduce the Contextual Action and Plan Safety benchmark (CAPSafe), designed to evaluate safety ... |
+
 ### 📅 2026-10-22
 
 **11 new papers found**
