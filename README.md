@@ -24,6 +24,35 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-24
+
+**10 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash](http://arxiv.org/abs/2610.31351v1) | Atharv Chandratre, Jai Datar | Feature flags are runtime configuration mechanisms used for gradual feature rollouts, experimentation, and kill switches. |
+| [AgenticEvolve: Evolutionary Program Search with Persistent Language Model Agents that Design and Run Experiments](http://arxiv.org/abs/2610.31326v1) | Ze-Yu Peng, Qing-Yu Lan, Zhan-He Wang et al. | Evolutionary program search with large language models keeps the structure of an evolutionary algorithm and uses the model as its variation operator. |
+| [Separate Field Scoring Protects Unused Tools When Agents Pool Tool-Use Experience](http://arxiv.org/abs/2610.30867v1) | Abhijit Chakraborty | Agents that call tools from a shared catalog can pool what they learn about which tool serves which request. |
+| [Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live](http://arxiv.org/abs/2610.30478v1) | Cheng-Yin Tu | Should an embodied agent's experience be baked into its policy weights, or kept external and retrieved at inference? |
+| [Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis](http://arxiv.org/abs/2610.30072v1) | Xinzhe Wang, Xudong Weng, Zang Li et al. | Data agents built on ReAct-style loops now execute complex analytical workflows over structured data, yet their intermediate reasoning still runs almost entirely through text. |
+| [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1) | Jiening Siow, Amy Xin, Junjie Wang et al. | Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validit... |
+| [SplatLab: Autonomous Scientific Discovery for 3DGS Research](http://arxiv.org/abs/2610.30468v1) | Seemandhar Jain, Manmohan Chandraker | Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. |
+| [Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home](http://arxiv.org/abs/2610.29913v1) | Marcos Junca, Mauro Junca | Thermal cameras can watch over older people living alone without capturing faces, and multimodal large language models (LLMs) can judge a short video without task-specific training. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core](http://arxiv.org/abs/2610.30557v1) | Yebo Feng, Jingyang Dai, Liangrui Pan et al. | LLM agents that act on live Web data must combine heterogeneous evidence, remember what they have done and improve from outcomes without weakening their own safeguards. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ADAPT for Science: A Multi-Agent System for Self-Evolving Scientific Optimization](http://arxiv.org/abs/2610.30851v1) | Zhaoran Feng, Yuchen Ni, Jianan Liu et al. | Scientific discovery often requires identifying a small number of high-performing designs in vast, constrained search spaces. |
+
 ### 📅 2026-10-23
 
 **22 new papers found**
