@@ -24,6 +24,18 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-25
+
+**3 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash](http://arxiv.org/abs/2610.31351v1) | Atharv Chandratre, Jai Datar | Feature flags are runtime configuration mechanisms used for gradual feature rollouts, experimentation, and kill switches. |
+| [AgenticEvolve: Evolutionary Program Search with Persistent Language Model Agents that Design and Run Experiments](http://arxiv.org/abs/2610.31326v1) | Ze-Yu Peng, Qing-Yu Lan, Zhan-He Wang et al. | Evolutionary program search with large language models keeps the structure of an evolutionary algorithm and uses the model as its variation operator. |
+| [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1) | Jiening Siow, Amy Xin, Junjie Wang et al. | Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validit... |
+
 ### 📅 2026-10-24
 
 **10 new papers found**
