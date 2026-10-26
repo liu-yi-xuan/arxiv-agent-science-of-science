@@ -24,6 +24,16 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-26
+
+**1 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [J-Comm: Jacobian-Guided Latent Communication between LLM Agents](http://arxiv.org/abs/2610.32871v1) | Xiangwei Wang, Wei Wang, Sachith Seneviratne et al. | Latent communication requires both an effective continuous reasoning process and an interface through which an external model can leverage its intermediate computation. |
+
 ### 📅 2026-10-25
 
 **3 new papers found**
