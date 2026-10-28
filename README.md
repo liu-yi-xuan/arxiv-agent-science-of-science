@@ -24,6 +24,62 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-28
+
+**27 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments](http://arxiv.org/abs/2610.36484v1) | Kianté Fernandez, Caitlin Chen, Jialu Zhou et al. | Claims about the cognitive capabilities of large language models are typically tested by translating behavioral paradigms into text prompts, bypassing the visual interfaces and time pressure throug... |
+| [AskGLP1: A Knowledge Graph LLM Agent for Exploring GLP-1 Experience from Online Patient Narratives](http://arxiv.org/abs/2610.34987v1) | Zhaoqian Xue, Anay Somani, Siddhartha Singh et al. | GLP-1 medications are increasingly used for weight management, and many people share their experiences online. |
+| [SlowLab: Benchmarking Autonomous AI Agents on a Year of Experiments They Cannot Undo](http://arxiv.org/abs/2610.34644v1) | Ningpei Ding, Zai Wen Feng | AI agents are increasingly proposed as autonomous experimenters, yet the benchmarks that test them mostly offer cheap experiments that answer at once. |
+| [Do AI Scientists Know What's New?](http://arxiv.org/abs/2610.36511v1) | Miri Liu, Xiayu Zhao, Encheng Xie et al. | A major challenge facing AI scientific discovery pipelines is how to determine when a generated idea is meaningfully novel. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Style over Substance? Linguistic Bias in LLM-based Peer Review Copy title](http://arxiv.org/abs/2610.35254v1) | Sai Suresh Macharla Vasu, Sumedh Santosh Joshi, Philipp Christmann et al. | The number of paper submissions to major AI conferences has increased dramatically in recent years, substantially increasing the peer-review workload of researchers. |
+| [Interpreting LLM Scores in Peer Review: Alignment and Divergence Across Prompts, Domains, and Manuscript Features](http://arxiv.org/abs/2610.35098v1) | Wenqiang Qin, Renlong Jie, Yanjun Qian et al. | Large language model (LLM) scores are being studied as information for scholarly evaluation. Interpreting these scores requires evidence about agreement with human judgments and its variation acros... |
+| [AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations](http://arxiv.org/abs/2610.36980v1) | Qiming Shi, Yikun Li, Beidi Luan et al. | Large language model (LLM) agents are extending agent-mediated commerce on the Web from shopping for consumers to operating businesses for sellers. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Replication or Corroboration? An Axiomatic Framework for Evidential Dependence in Multi-Agent Debate](http://arxiv.org/abs/2610.36151v1) | Hoang-Loc Cao, Truong Thanh Hung Nguyen, Phuc Truong Loc Nguyen et al. | In multi-agent debates, matching reports can arise for two different reasons: agents may repeat the same evidence (replication), or they may provide separate evidential roots that support the same ... |
+| [Ontology-guided multi-agent reasoning for explainable differential diagnosis](http://arxiv.org/abs/2610.36325v1) | Roxana Ramona Szomiu, George Ursu, Adrian Groza | Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inco... |
+| [Collective Emergent Alignment: Measuring and Amplifying Interaction-Induced Reasoning Alignment in Multi-Agent LLMs](http://arxiv.org/abs/2610.34836v1) | Boxuan Wang, Zhuoyun Li, Sarvapali D. Ramchurn et al. | Multi-agent large language model (LLM) systems can exhibit emergent behaviors through interaction, yet whether a similar phenomenon exists for reasoning alignment remains largely unexplored. |
+| [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](http://arxiv.org/abs/2610.35817v2) | Benjamin Pikus, Daniel Saunders, Mircea Mironenco et al. | A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. |
+| [MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations](http://arxiv.org/abs/2610.36389v1) | Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Aysenur Inan et al. | Evaluating natural language explanations in recommender systems is essential for fostering user trust, transparency, and engagement. |
+| [CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems](http://arxiv.org/abs/2610.34722v1) | Jongha Kim, Seohyun Lee, Jonathan Minho Chung et al. | Multi-agent systems (MAS) require both effective coordination and specialized task execution. Existing prompt optimization approaches typically couple these functions within agent-specific prompts. |
+| [EvolveMAS: A Unified Self-Evolution Framework for Decentralized Multi-Agent Systems](http://arxiv.org/abs/2610.34450v1) | Yalun Wu, Qiwei Ma, Bingbing Xu et al. | Decentralized multi-agent systems (MAS) enable large language model agents to interact without centralized control. |
+| [MulFCoder: Framework-conditioned Multi-agent for MLLM-based Multi-framework Front-end Code Generation](http://arxiv.org/abs/2610.34418v1) | Jie Wu, Haoran Ma, Shisong Tang et al. | Generating runnable front-end code from UI screenshots is a long-standing goal in automated software engineering. |
+| [Test-Time Communication in Trading Agent Swarms](http://arxiv.org/abs/2610.37448v1) | Avid Fayaz, Harry Zhang, Håvard Alstadheim et al. | Communication between agents has mostly been studied on tasks with a shared objective and fast, clear feedback. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Officially corrected errors persist in AI training data: preregistered measurements on EU law, Internet standards and retracted science](http://arxiv.org/abs/2610.34379v1) | Sébastien Gracia | Official texts are corrected after publication: EU corrigenda, verified RFC errata, retractions. We measured whether these corrections are present in four public datasets used to train language mod... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FeatureArc: Benchmarking Coding Agents on Evolving Features](http://arxiv.org/abs/2610.37434v1) | Yunlong Wang, Alyssa Wu, Cuiyun Gao et al. | A software feature usually evolves over time: developers extend its first version as new use cases and requirements arrive, and each extension builds on code written earlier. |
+| [LiveSearch: Questions as Executable Verifier Code for a Live Benchmark of Professional-Source Financial Search Agents](http://arxiv.org/abs/2610.37166v1) | Sinuo Wang, Wentao Zhao, Jiacheng Lu et al. | In finance, the answer that matters is usually the current one: prices, rates, and disclosures hold only as of a given day, so retrieving up-to-date facts is a core capability of a financial agent. |
+| [OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents](http://arxiv.org/abs/2610.37081v1) | Humza Nusrat, Kundan Thind | Background and purpose: Radiotherapy planning agents based on large language models (LLMs) decide when to submit a plan or request review but are evaluated mainly by dose. |
+| [Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements](http://arxiv.org/abs/2610.36584v1) | Binhang Qi, Yiming Liu, Yun Lin et al. | As large language model agents increasingly compile natural-language requirements into repository-level code, requirement-to-test generation grows in importance to provide validation constraints (o... |
+| [NextEval: An Agent-Based Solver and Benchmark for Derivative-Free Optimization](http://arxiv.org/abs/2610.36553v1) | Shuo Chen, Li Cui, Cunxin Huang et al. | Derivative-free optimization (DFO) addresses problems where derivatives are unavailable or costly to obtain. |
+| [Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams](http://arxiv.org/abs/2610.35439v1) | Yinsong Yan, Ling Wang, Yuxuan Wang et al. | Omnimodal large language models (Omni-LLMs) are increasingly expected to assist users while observing continuous audiovisual streams. |
+| [SkillLifeBench: Benchmarking Security Across the Lifecycle of Agent Skills](http://arxiv.org/abs/2610.35215v1) | Chenxu Zhang, Zhou Liu, Wu Xin et al. | Web agents reuse skills whose stored code, selected version, and loaded implementation can diverge across tasks and updates. |
+| [PatentAgentBench: Benchmarking LLM Agents with Professional Patent Task Suites](http://arxiv.org/abs/2610.35031v1) | Yijie Hu, Wei Li, Junjie Zhou et al. | Patent practice lies at the intersection of technical, legal, and linguistic work, making it challenging yet crucial to technological innovation. |
+| [Benchmarking Task Takeover Across Agent Handoffs](http://arxiv.org/abs/2610.36523v1) | Wenyuan Li, Guang Li, Dongyuan Li et al. | As agents collaborate on longer tasks, responsibility may pass between models before the work is complete. |
+| [iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents](http://arxiv.org/abs/2610.34735v1) | Yuting Ning, Ruijia Cheng, Sushobhan Ghosh et al. | An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. |
+
 ### 📅 2026-10-27
 
 **23 new papers found**
