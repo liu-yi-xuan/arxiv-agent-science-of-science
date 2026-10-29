@@ -24,6 +24,44 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-29
+
+**14 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments](http://arxiv.org/abs/2610.36484v1) | Kianté Fernandez, Caitlin Chen, Jialu Zhou et al. | Claims about the cognitive capabilities of large language models are typically tested by translating behavioral paradigms into text prompts, bypassing the visual interfaces and time pressure throug... |
+| [Do AI Scientists Know What's New?](http://arxiv.org/abs/2610.36511v1) | Miri Liu, Xiayu Zhao, Encheng Xie et al. | A major challenge facing AI scientific discovery pipelines is how to determine when a generated idea is meaningfully novel. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations](http://arxiv.org/abs/2610.36980v1) | Qiming Shi, Yikun Li, Beidi Luan et al. | Large language model (LLM) agents are extending agent-mediated commerce on the Web from shopping for consumers to operating businesses for sellers. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Replication or Corroboration? An Axiomatic Framework for Evidential Dependence in Multi-Agent Debate](http://arxiv.org/abs/2610.36151v1) | Hoang-Loc Cao, Truong Thanh Hung Nguyen, Phuc Truong Loc Nguyen et al. | In multi-agent debates, matching reports can arise for two different reasons: agents may repeat the same evidence (replication), or they may provide separate evidential roots that support the same ... |
+| [Ontology-guided multi-agent reasoning for explainable differential diagnosis](http://arxiv.org/abs/2610.36325v1) | Roxana Ramona Szomiu, George Ursu, Adrian Groza | Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inco... |
+| [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](http://arxiv.org/abs/2610.35817v2) | Benjamin Pikus, Daniel Saunders, Mircea Mironenco et al. | A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. |
+| [MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations](http://arxiv.org/abs/2610.36389v1) | Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Aysenur Inan et al. | Evaluating natural language explanations in recommender systems is essential for fostering user trust, transparency, and engagement. |
+| [Test-Time Communication in Trading Agent Swarms](http://arxiv.org/abs/2610.37448v1) | Avid Fayaz, Harry Zhang, Håvard Alstadheim et al. | Communication between agents has mostly been studied on tasks with a shared objective and fast, clear feedback. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FeatureArc: Benchmarking Coding Agents on Evolving Features](http://arxiv.org/abs/2610.37434v1) | Yunlong Wang, Alyssa Wu, Cuiyun Gao et al. | A software feature usually evolves over time: developers extend its first version as new use cases and requirements arrive, and each extension builds on code written earlier. |
+| [LiveSearch: Questions as Executable Verifier Code for a Live Benchmark of Professional-Source Financial Search Agents](http://arxiv.org/abs/2610.37166v1) | Sinuo Wang, Wentao Zhao, Jiacheng Lu et al. | In finance, the answer that matters is usually the current one: prices, rates, and disclosures hold only as of a given day, so retrieving up-to-date facts is a core capability of a financial agent. |
+| [OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents](http://arxiv.org/abs/2610.37081v1) | Humza Nusrat, Kundan Thind | Background and purpose: Radiotherapy planning agents based on large language models (LLMs) decide when to submit a plan or request review but are evaluated mainly by dose. |
+| [Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements](http://arxiv.org/abs/2610.36584v1) | Binhang Qi, Yiming Liu, Yun Lin et al. | As large language model agents increasingly compile natural-language requirements into repository-level code, requirement-to-test generation grows in importance to provide validation constraints (o... |
+| [NextEval: An Agent-Based Solver and Benchmark for Derivative-Free Optimization](http://arxiv.org/abs/2610.36553v1) | Shuo Chen, Li Cui, Cunxin Huang et al. | Derivative-free optimization (DFO) addresses problems where derivatives are unavailable or costly to obtain. |
+| [Benchmarking Task Takeover Across Agent Handoffs](http://arxiv.org/abs/2610.36523v1) | Wenyuan Li, Guang Li, Dongyuan Li et al. | As agents collaborate on longer tasks, responsibility may pass between models before the work is complete. |
+
 ### 📅 2026-10-28
 
 **27 new papers found**
