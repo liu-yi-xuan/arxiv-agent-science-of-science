@@ -24,6 +24,55 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-10-30
+
+**20 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World](http://arxiv.org/abs/2610.37919v1) | Yusheng Zhao, Bowei He, Xue Liu et al. | Large language model agents are increasingly used for scientific discovery. However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen input... |
+| [EmbodiExp: Compositional Experience Transfer for Embodied Agents](http://arxiv.org/abs/2610.39180v1) | Zhifeng Gu, Ying Chen, Rui Jiang et al. | Experience can help embodied agents turn high-level plans into grounded actions, but transferring it across tasks remains challenging: previously effective strategies may be inapplicable to the cur... |
+| [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](http://arxiv.org/abs/2610.40589v1) | El Mustapha Mansouri, Eikichi Kimura, Masato Koga et al. | An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. |
+| [Letting AI Formulate the Research Question: Autonomous Research Agents](http://arxiv.org/abs/2610.39620v1) | Ko Fujimura | Systems such as The AI Scientist have shown that AI agents can carry out and write up research, but in those demonstrations humans chose the research area and selected the outputs to show. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success](http://arxiv.org/abs/2610.40444v1) | Amir H. Rezaeian, Weiyi Sun, Yassine Benajiba et al. | Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents](http://arxiv.org/abs/2610.38332v1) | Haoran Jin, Defu Lian, Xiting Wang et al. | Historical experience can guide scientific coding at multiple levels, but task-level retrieval may miss implementation lessons that become relevant during execution. |
+| [SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning](http://arxiv.org/abs/2610.37935v1) | Yuxuan Zhu, Mohammad Mohammadi Amiri, Pin-Yu Chen et al. | Latent multi-agent systems reduce inference cost by keeping intermediate reasoning and inter-agent communication in continuous representations.\ Reusable skills, however, are commonly supplied as t... |
+| [Governance-Aware Federated Learning for Multi-Agent AI Systems: A Policy-Driven Framework for Trustworthy Collaborative AI](http://arxiv.org/abs/2610.38411v1) | Kiranmayee Janardhan, Karthick S, Madhusmita Panda et al. | Federated Learning (FL) enables collaborative model training without exchanging raw data, but conventional FL provides limited runtime governance, evidence verification, fairness assessment, explai... |
+| [Test-Time Communication in Trading Agent Swarms](http://arxiv.org/abs/2610.37448v1) | Avid Fayaz, Harry Zhang, Håvard Alstadheim et al. | Communication between agents has mostly been studied on tasks with a shared objective and fast, clear feedback. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Behind the Paper Explosion: Author Growth and Widening Gaps in Computer Science](http://arxiv.org/abs/2610.39831v1) | Jiayi Li, Bowen Niu, Bingsheng He et al. | The rapid growth of computer science (CS) papers increases the work needed to review research and find relevant studies. |
+| [Guidance List for repOrting Bibliometric AnaLyses (GLOBAL): A Reporting Guideline Informed by a Two-Round Modified Delphi Study](http://arxiv.org/abs/2610.38748v1) | Jeremy Y. Ng, Henry Liu, Mehvish Masood et al. | Background: Despite the growth of bibliometric analyses, few studies offer guidance on how to report them, resulting in a lack of research transparency and completeness. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DynaRev: Benchmarking Web Agents under Dynamic Goal Revision](http://arxiv.org/abs/2610.40133v1) | Shiqi Zhang, Guochen Zhou, Zesheng Wei et al. | Web agents are typically evaluated with goals fully specified before execution and fixed thereafter, whereas real users often revise their requirements during interaction. |
+| [Bank-World: A Benchmark for Evaluating Agents on Banking Workflows](http://arxiv.org/abs/2610.39733v1) | Daniel Rupawalla | Bank-World is a benchmark of 50 banking tasks across two simulated institutions. Completing banking work requires more than producing the right calculation: agents must reconcile records, obtain pe... |
+| [ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search](http://arxiv.org/abs/2610.39438v1) | Keyun Zhang, Dapeng Yin, Fanfu Wang et al. | Reliable local search is essential for LLM agents to support everyday decisions and longer plans by finding places that meet users' needs at given times and locations. |
+| [AgentDecept: Benchmarking Deceptive Behavior in Tool-Using LLM Agents under Pressure](http://arxiv.org/abs/2610.39377v1) | Yehan Zhang, Qianqi Yan, Hang Yin et al. | LLM agents increasingly carry out multi-turn tasks across everyday applications, yet users often see only the agent's report rather than the observations, API calls, and state changes behind it. |
+| [An Alignment Benchmark for Enterprise Agents on Era by Eon](http://arxiv.org/abs/2610.38544v1) | Hai Sadon, Benjamin Gruenbaum, Doron Porat et al. | AI agents are widely used in enterprises to access business systems and act on them in pursuit of a goal. |
+| [EPSBench: Benchmarking LLM Agents for Earnings Forecasting](http://arxiv.org/abs/2610.38293v1) | Yanbin Yin, Chuyu Xu, Liqin Ye et al. | Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. |
+| [DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms](http://arxiv.org/abs/2610.38175v1) | Sikai Cheng, Tinghan Ye, Arnaud Deza et al. | Benders decomposition and column generation solve large optimization problems by passing cuts, columns, and dual values between a master problem and subproblems, and are hard to implement correctly. |
+| [SkillCT: A Multidimensional Benchmark and Execution-Free Baseline for Agent Skill Assessment](http://arxiv.org/abs/2610.38147v1) | Mengyu Sun, Zunlong Zhou, Ziyuan Yang et al. | Agent skills package instructions, scripts, and resources for specialized tasks and are increasingly distributed through public Web repositories. |
+| [FeatureArc: Benchmarking Coding Agents on Evolving Features](http://arxiv.org/abs/2610.37434v1) | Yunlong Wang, Alyssa Wu, Cuiyun Gao et al. | A software feature usually evolves over time: developers extend its first version as new use cases and requirements arrive, and each extension builds on code written earlier. |
+
 ### 📅 2026-10-29
 
 **14 new papers found**
