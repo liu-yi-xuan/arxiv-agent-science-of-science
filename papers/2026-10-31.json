@@ -1,0 +1,199 @@
+[
+  {
+    "id": "2610.39180v1",
+    "title": "EmbodiExp: Compositional Experience Transfer for Embodied Agents",
+    "authors": [
+      "Zhifeng Gu",
+      "Ying Chen",
+      "Rui Jiang",
+      "Lei Yi",
+      "Bing Wang"
+    ],
+    "abstract": "Experience can help embodied agents turn high-level plans into grounded actions, but transferring it across tasks remains challenging: previously effective strategies may be inapplicable to the current state or fail to produce their intended outcomes. We present EmbodiExp, a framework for constructing transferable experiences and composing them online during embodied task execution. Our key observation is that tasks often share subgoals whose completion can be assessed independently of overall task success. We therefore introduce an outcome-grounded subgoal experience that specifies a subgoal, applicability conditions, an adaptable policy, and a verifiable outcome. During execution, applicable experiences guide action generation, while verified outcomes can establish the conditions required by subsequent experiences, enabling online composition. Subgoal-level outcome attribution further enables failure utilization: failed trajectories can still contribute verified local successes and condition-specific guidance on actions to avoid. Experiments on multiple embodied benchmarks under a fold-based protocol with frozen experience banks demonstrate the effectiveness of EmbodiExp.",
+    "url": "http://arxiv.org/abs/2610.39180v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39180v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.40589v1",
+    "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+    "authors": [
+      "El Mustapha Mansouri",
+      "Eikichi Kimura",
+      "Masato Koga",
+      "Keigo Arai"
+    ],
+    "abstract": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess one another's work and can stop or redirect investigations. They can generate and reject research questions, require separate theoretical checks and conduct experiments designed to challenge their claims. We demonstrate these capabilities by investigating ensembles of quantum spins in diamond. The agents derived the minimum number of calibration settings needed to predict responses to a defined family of microwave pulse sequences. They checked the result computationally and designed experiments to distinguish competing predictions. An initial experiment agreed with the theoretical predictions, but repeated reference measurements showed that the signal was drifting during data collection. The agents therefore treated the result as inconclusive and revised the measurement protocol without relaxing the acceptance criteria. The revised experiment met those criteria and supported the theoretical predictions. This study demonstrates that collaborating AI agents can select research questions, derive theoretical results and test their predictions experimentally.",
+    "url": "http://arxiv.org/abs/2610.40589v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40589v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "quant-ph"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.39620v1",
+    "title": "Letting AI Formulate the Research Question: Autonomous Research Agents",
+    "authors": [
+      "Ko Fujimura"
+    ],
+    "abstract": "Systems such as The AI Scientist have shown that AI agents can carry out and write up research, but in those demonstrations humans chose the research area and selected the outputs to show. We study letting the AI formulate the research question itself, and we report every run. Our system gives an off-the-shelf coding agent an instruction document and two skills: one for formulating the question, in which the agent diverges from recent technologies into problems of other fields, screens its candidates for known failure modes and obtains a critique from a different model; and one for peer review, in which a reviewer from another model family reruns the study from its records before the agent revises the paper. Over 13 development runs, changes to the one or two sentences that set the research area coincided with large shifts in what the candidate questions and the chosen papers were about, which led us to the area of a new technology applied to a societal problem. We froze the system after a pilot run and report five consecutive runs: the pilot, counted by a disclosed amendment to the pre-registration, and four pre-registered runs. All five runs went from question formulation to a revised, re-computable paper, with local computation on a laptop and no research input from humans, and external AI reviewers reading only the papers judged them at or near workshop level. We release the system, the five papers and the records needed to reproduce them.",
+    "url": "http://arxiv.org/abs/2610.39620v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39620v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2610.40444v1",
+    "title": "Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success",
+    "authors": [
+      "Amir H. Rezaeian",
+      "Weiyi Sun",
+      "Yassine Benajiba",
+      "Dan Roth"
+    ],
+    "abstract": "Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. We propose prefix executability as a trajectory-level evaluation protocol for tool-using agents. The protocol measures whether every prefix of a predicted tool-call sequence remains executable under tool schemas, state preconditions, and data dependencies, and summarizes reliability using Prefix Executability Curves (PEC), First-Error Depth (FED), Trajectory Executability Rate (TER), horizon-normalized AUC-PEC, and Recovery Rate (RR). We instantiate the protocol on stratified samples from BFCL-v3 multi-turn and ToolSandbox, and on the complete Airline/Retail base splits of $τ^3$-bench. We observe that outcome-only and prefix-level rankings diverge: agents whose execution is conditioned on an unverified plan often achieve higher point-estimate final success than non-plan-conditioned baselines while substantially lowering TER and AUC-PEC. These divergences are precisely the failure modes that prefix executability is designed to expose: they reveal whether apparent success rests on an executable trajectory, where invalidity first enters, and whether success follows recovery from an earlier failure. As a validation intervention, explicit pre-execution plan checking can improve executable-prefix survival while maintaining competitive terminal success. These results show that final success alone is insufficient for evaluating tool-use agents and that prefix-level executability provides an actionable reliability signal for comparing agents, diagnosing failures, and assessing validation mechanisms.",
+    "url": "http://arxiv.org/abs/2610.40444v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40444v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2610.39831v1",
+    "title": "Behind the Paper Explosion: Author Growth and Widening Gaps in Computer Science",
+    "authors": [
+      "Jiayi Li",
+      "Bowen Niu",
+      "Bingsheng He",
+      "Zhaomin Wu"
+    ],
+    "abstract": "The rapid growth of computer science (CS) papers increases the work needed to review research and find relevant studies. The growing use of AI tools in scientific writing makes it increasingly important to identify the authors behind this growth. Previous studies have tracked publication growth and followed researchers' careers, documenting the increasing number of authors and the many researchers who publish only briefly. However, annual averages of papers per author reflect different sets of researchers and may hide changes among the same authors. This study addresses this gap by linking individual changes to overall CS paper growth using arXiv, DBLP, and conference submission records for 2010-2025. With each paper divided equally among its authors, the total paper count equals the number of authors multiplied by their average papers per author. This relationship provides a decomposition of the two contributions of paper growth. This decomposition attributes nearly all growth in CS paper volume to an increase in the number of publishing authors. The analysis of author numbers further distinguishes expansion through new and returning arXiv authors from the replacement of authors no longer publishing there. Changes in who publishes also affect the average, motivating comparisons of the same authors over time within groups with similar past paper counts. This comparison identifies substantial replacement within the growing author group. New authors average fewer papers under this counting method, keeping the overall average nearly unchanged despite increases among authors who published in both years. Moreover, statistics show that these increases are uneven, with widening gaps even among authors who previously published similar numbers of papers. These findings provide insights into peer review, community participation, researcher evaluation, and equity within the CS community.",
+    "url": "http://arxiv.org/abs/2610.39831v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39831v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.DL",
+      "cs.CY"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2610.38748v1",
+    "title": "Guidance List for repOrting Bibliometric AnaLyses (GLOBAL): A Reporting Guideline Informed by a Two-Round Modified Delphi Study",
+    "authors": [
+      "Jeremy Y. Ng",
+      "Henry Liu",
+      "Mehvish Masood",
+      "Niveen Syed",
+      "Dalia Zubashev"
+    ],
+    "abstract": "Background: Despite the growth of bibliometric analyses, few studies offer guidance on how to report them, resulting in a lack of research transparency and completeness. To address this gap, we developed the Guidance List for the repOrting of Bibliometric AnaLyses (GLOBAL). Methods: An initial list of items for the GLOBAL was generated through a scoping review and refined through a modified two-round Delphi, as recommended by the EQUATOR Network. The guideline was finalized through a pilot test, where participants assessed their manuscripts using the checklist and Elaboration and Explanation (E&E) document, which outlines item expectations and provides examples. Results: The scoping review resulted in 32 items. In Round 1, 24 items reached consensus and thematic content analysis resulted in one additional item. This item, along with the eight items that did not reach consensus, were discussed in detail in Round 2. During the in-person meeting, one item was split into two, totalling ten voting items. Eight out of ten items reached consensus, five for inclusion and three for exclusion. Conclusions: The finalized 28-item GLOBAL (and its accompanying E&E document) provides users with a framework to report bibliometric analyses, aimed at promoting high-quality reporting of bibliometric analyses in scholarly literature.",
+    "url": "http://arxiv.org/abs/2610.38748v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.38748v1",
+    "published": "2026-10-28",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2610.40133v1",
+    "title": "DynaRev: Benchmarking Web Agents under Dynamic Goal Revision",
+    "authors": [
+      "Shiqi Zhang",
+      "Guochen Zhou",
+      "Zesheng Wei",
+      "Hai Zhao",
+      "Zhisong Zhang"
+    ],
+    "abstract": "Web agents are typically evaluated with goals fully specified before execution and fixed thereafter, whereas real users often revise their requirements during interaction. To study such interactions, we introduce DynaRev, a benchmark of 181 tasks to evaluate web agents under dynamic goal revision. DynaRev uses semantic milestones to deliver revisions at task-defined stages, covers additive revisions, unconditional overrides, and runtime-conditioned overrides, and evaluates correctness, responsiveness, and efficiency through trajectory-grounded evaluation. Five-model evaluations show that agents often satisfy only part of the task requirements, with performance varying across task sources, revision types, and models. Further analyses reveal varied milestone timing, mixed effects of dynamic delivery, and contrasting revision-handling outcomes, with gains from instruction rewriting while preserving browser state and losses from browser resets. DynaRev provides a testbed for studying how web agents adapt to evolving user goals. The code and data are available at https://github.com/zsq259/DynaRev.",
+    "url": "http://arxiv.org/abs/2610.40133v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40133v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.39733v1",
+    "title": "Bank-World: A Benchmark for Evaluating Agents on Banking Workflows",
+    "authors": [
+      "Daniel Rupawalla"
+    ],
+    "abstract": "Bank-World is a benchmark of 50 banking tasks across two simulated institutions. Completing banking work requires more than producing the right calculation: agents must reconcile records, obtain permission, execute transactions, and keep instructions and status reports consistent as circumstances change. Bank-World tests these requirements through single-turn assignments and multi-turn interactions with simulated employees who supply information, approve actions, and revise instructions. Grading combines executable checks of recorded actions and state with model judgments of task requirements, including whether valid alternative solutions satisfy them. Across 1,600 attempts by four models, we find that correct decisions often fail to become completed work. Agents charge fees twice, distribute the correct total in incorrect amounts among the recipients, and execute payments while approval is pending. Their strengths also differ: Sol leads single-turn completion, Opus has the highest observed multi-turn completion rate, and Grok succeeds across more multi-turn tasks but less consistently. Bank-World makes these differences inspectable through task-level results and worked examples connecting source evidence, agent decisions, and simulated consequences. We retain the task environments, executable graders, and full trajectories privately to reduce contamination and preserve the benchmark for future evaluations.",
+    "url": "http://arxiv.org/abs/2610.39733v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39733v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.39438v1",
+    "title": "ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search",
+    "authors": [
+      "Keyun Zhang",
+      "Dapeng Yin",
+      "Fanfu Wang",
+      "Shuang Lang",
+      "Zhenyu Zhu"
+    ],
+    "abstract": "Reliable local search is essential for LLM agents to support everyday decisions and longer plans by finding places that meet users' needs at given times and locations. Yet existing benchmarks provide limited coverage of whether search results satisfy mandatory requirements, account for preferences, and ground factual and experiential judgments in place attributes and reviews. We introduce ATLAS-Bench, a benchmark of 1,200 queries across three regions, expanded from real search events using place attributes, reviews, and existing user profiles from the platform. Each query distinguishes mandatory requirements from preferences and factual conditions from subjective judgments, with supporting evidence and criteria for checking each requirement. Queries are validated through iterative assertion checks and cross-model review. We also introduce ATLASBox, a standardized evaluation environment with search tools and a fixed point-of-interest (POI) knowledge base. Given a query, timestamp, and location, an agent searches place attributes and reviews to recommend evidence-supported options or report that no place meets all mandatory requirements. We evaluate answer quality, trajectory quality, and execution cost. Across 14 configurations of 11 models, GPT-6-Luna achieves the highest constraint satisfaction rate among returned recommendations (71.5%) and factual accuracy (95.6%). However, it returns at least one acceptable recommendation for fewer satisfiable queries than GLM-5.3 (67.3% versus 85.3%). These results highlight the challenge of satisfying individual requirements while providing usable recommendations across queries.",
+    "url": "http://arxiv.org/abs/2610.39438v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39438v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2610.39377v1",
+    "title": "AgentDecept: Benchmarking Deceptive Behavior in Tool-Using LLM Agents under Pressure",
+    "authors": [
+      "Yehan Zhang",
+      "Qianqi Yan",
+      "Hang Yin",
+      "Ching-Chen Kuo",
+      "Shan Jiang"
+    ],
+    "abstract": "LLM agents increasingly carry out multi-turn tasks across everyday applications, yet users often see only the agent's report rather than the observations, API calls, and state changes behind it. Existing deception benchmarks have studied long-horizon interactions and tool-use settings, but whether agents faithfully report their actions across realistic, stateful application workflows remains underexplored. To address this gap, we introduce AgentDecept, an executable benchmark for evaluating behavioral deception under pressure. AgentDecept contains 477 pressure variants derived from 257 source tasks across six pressure sources, each paired with a pressure-free counterpart. Interventions enter through event messages, task context, application state, tool responses, and service quotas, spanning explicit events and implicit task or environment changes. Our evidence-grounded protocol evaluates full trajectories by relating user-facing claims to time-ordered observations and executed outcomes, distinguishing falsification, concealment, and equivocation from honest failure and disclosed limitations. The resulting behavioral labels also provide a setting for testing existing activation-based probes. AgentDecept enables controlled analysis of when multi-turn agents' reports diverge from execution in realistic application interactions.",
+    "url": "http://arxiv.org/abs/2610.39377v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39377v1",
+    "published": "2026-10-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
