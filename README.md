@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-01
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](http://arxiv.org/abs/2610.40589v1) | El Mustapha Mansouri, Eikichi Kimura, Masato Koga et al. | An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success](http://arxiv.org/abs/2610.40444v1) | Amir H. Rezaeian, Weiyi Sun, Yassine Benajiba et al. | Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. |
+
 ### 📅 2026-10-31
 
 **10 new papers found**
