@@ -24,6 +24,48 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-03
+
+**13 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Tracing the Scientific Discovery Capacity of LLMs to Their Training Data](http://arxiv.org/abs/2611.03617v1) | Arda Uzunoglu, Mahler Revsine, Michael Schatz et al. | Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. |
+| [Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents](http://arxiv.org/abs/2611.01747v1) | Zeyuan Zhao, Yuanyuan Shi, Peng Yu et al. | Self-evolving agents accumulate experience from task streams, but existing frameworks typically rely on fixed pipelines to retrieve and utilize this experience, neglecting when and how to deploy it. |
+| [Reimagining computational quantum research with AI scientists](http://arxiv.org/abs/2611.02833v1) | Yuxuan Du, Hanqing Zhao, Xinbiao Wang et al. | AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive. |
+| [RxnMiner: A Multimodal Agent for Structured Reaction Data Extraction from Chemistry Figures](http://arxiv.org/abs/2611.02826v1) | Jinbo Hu, Songren Zhang, Chuanxun Fu et al. | Reaction data underpin machine learning for reaction prediction, condition recommendation, and retrosynthetic planning, yet extracting these data from literature figures still requires substantial ... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents](http://arxiv.org/abs/2611.02332v1) | Sreehari Sankar, Debargha Ganguly, Vikash Singh et al. | Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runtime that checks every proposed tool call against a policy written in Lean4 befo... |
+| [Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces](http://arxiv.org/abs/2611.01386v1) | Daniel Chalef, Peter Evans, Pavlo Paliychuk et al. | Memory systems for production LLM agents mostly store semantic memory (facts about users and domains) or episodic memory (earlier interactions). |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems](http://arxiv.org/abs/2611.03301v1) | Jianhong Wang, Yang Li, Samuel Kaski et al. | Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorith... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Growth of global science: reflections on measurability and scientometric insights](http://arxiv.org/abs/2611.01086v1) | Robert Tijssen, Erik van Wijk, Alfredo Yegros | Global science has become much larger and more interconnected in recent years. Such a complex and adaptive social system defies any attempt to systematically and comprehensively measure or monitor ... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DeliverBench: Benchmarking AI Agents on Delivering Realistic Multi-Stage Professional Projects](http://arxiv.org/abs/2611.03412v1) | Yumou Liu, Mingju Chen, Zhoufutu Wen et al. | LLM agents are judged by what they deliver, and in professional work what gets delivered is a project, not a task. |
+| [Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction](http://arxiv.org/abs/2611.03223v1) | Yiwei Zha, Qingyu Meng, Herbert Bos et al. | LLM agents compact long histories to fit their context windows, but the compacted context must still carry the operating rules that govern later actions. |
+| [GeoGuesser Bench: Benchmarking Vision-Language Agents on Interactive Geolocation](http://arxiv.org/abs/2611.02698v1) | Huanzhi Mao, Yichuan Wang, Michael Koo et al. | Vision-language model (VLM) agents that act in the open world need two abilities: world knowledge to interpret what they see, and exploration to find what they cannot yet see. |
+| [Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets](http://arxiv.org/abs/2611.02484v1) | Javad Mohammad Alizadeh, Huanmei Wu | LLM agents are increasingly built into data-analysis software, yet little evidence shows how reliably they preprocess clinical data or whether the tools they invoke give correct, reproducible output. |
+| [MAC-Bench: Benchmarking Multi-Agent Collaboration via Interconnected Tasks](http://arxiv.org/abs/2611.01728v1) | Zerui Chen, Qinggang Zhang, Qichuan Liu et al. | Large language model (LLM)-based multi-agent systems (MAS) tackle challenging tasks by dividing work among agents and coordinating their contributions toward shared objectives. |
+
 ### 📅 2026-11-02
 
 *No new papers found today.*

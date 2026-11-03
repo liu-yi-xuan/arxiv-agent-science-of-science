@@ -1,0 +1,269 @@
+[
+  {
+    "id": "2611.03617v1",
+    "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
+    "authors": [
+      "Arda Uzunoglu",
+      "Mahler Revsine",
+      "Michael Schatz",
+      "Benjamin Van Durme",
+      "Mehrdad Farajtabar"
+    ],
+    "abstract": "Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. How can we trace the scientific discovery capacity of LLMs to their training data? We study this question as one of missing probability mass and develop a theoretical account in which monofacts-the facts observed once during training-set the discovery capacity. In materials science and regulatory genomics, we directly manipulate monofact rates in training sets and find that more monofacts consistently yield more discoveries across two open-weight model families, sampling strategies, and reasoning budgets. Further experiments show the relationship cannot be explained by training-set diversity alone and can transfer across scientific domains when paired with in-domain data. Together, our results identify monofact rate in training data as a key factor governing discoveries in language models.",
+    "url": "http://arxiv.org/abs/2611.03617v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03617v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.01747v1",
+    "title": "Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents",
+    "authors": [
+      "Zeyuan Zhao",
+      "Yuanyuan Shi",
+      "Peng Yu",
+      "Lingyue Fu",
+      "Shao Zhang"
+    ],
+    "abstract": "Self-evolving agents accumulate experience from task streams, but existing frameworks typically rely on fixed pipelines to retrieve and utilize this experience, neglecting when and how to deploy it. We introduce Online Meta-Control of Experience (OMCE), a framework that updates experience memory and learns a meta-control policy from task feedback during test-time adaptation. OMCE employs a lightweight contextual-bandit meta-controller that uses compact retrieval signals to select among four cognitive actions: DIRECT, EPISODE, GUIDE, and DISTILL. This routing mechanism operationalizes three coupled decisions: whether to invoke experience, which memory format to utilize, and when to consolidate new guidance. OMCE evolves online, leveraging task feedback to update the memory bank and refine the routing policy via contextual bandit updates. Experiments on four online adaptation benchmarks across four backbones show that OMCE improves first-attempt success by up to 20.5 percentage points over the strongest compared baseline, while reducing per-task token use by a factor of 5.7 to 62.5 relative to ACE with GPT-5.2. Controlled ablations further support the benefits of learned routing and continued routing policy adaptation.",
+    "url": "http://arxiv.org/abs/2611.01747v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.01747v1",
+    "published": "2026-11-01",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.02833v1",
+    "title": "Reimagining computational quantum research with AI scientists",
+    "authors": [
+      "Yuxuan Du",
+      "Hanqing Zhao",
+      "Xinbiao Wang",
+      "Yiming Lu",
+      "Kaining Zhang"
+    ],
+    "abstract": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive. Here we uncover a fundamental barrier to this transition and demonstrate a route to overcome it in computational quantum science, where advances shape both what we can learn from complex quantum systems and what quantum computing can ultimately deliver. To identify this barrier, we introduce OmniQ, an expert-audited virtual research environment that converts published studies into executable reproduction tasks. Across 59 papers spanning classical simulation, quantum algorithms and quantum-property characterization, we systematically evaluate five agentic systems powered by large language models and six third-party agent harnesses. Our findings reveal that current AI scientists often fail to reproduce published results, exposing a fundamental mismatch between what scientific papers communicate and what autonomous agents require. By contrast, human expert intervention can turn these failures into successful reproductions, showing that the missing information can be identified and converted into reusable research experience. Guided by this observation, we develop Residual Agents (RA), a quantum-tailored self-improving AI scientist that distils externally verified workflow repairs into such experience. RA substantially improves research performance under fixed base models and limited adaptation budgets. For example, RA raises DeepSeek V4.1 Flash performance from 68% to 85%, matching Claude Code with Opus 5 at a third of its cost despite using a weaker base model. We integrate all reproduced results into an extensible platform built on the model context protocol, making verified research workflows directly accessible to AI scientists and allowing new scientific papers to be continuously incorporated.",
+    "url": "http://arxiv.org/abs/2611.02833v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02833v1",
+    "published": "2026-11-02",
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "quant-ph",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.02826v1",
+    "title": "RxnMiner: A Multimodal Agent for Structured Reaction Data Extraction from Chemistry Figures",
+    "authors": [
+      "Jinbo Hu",
+      "Songren Zhang",
+      "Chuanxun Fu",
+      "Jinrui Huang",
+      "Zhen Hao Wong"
+    ],
+    "abstract": "Reaction data underpin machine learning for reaction prediction, condition recommendation, and retrosynthetic planning, yet extracting these data from literature figures still requires substantial manual effort. Many figures encode multiple experiments through shared templates, substituent tables, and product grids. Recovering concrete reaction records therefore requires molecular recognition, association of evidence with individual experimental entries, and reconstruction of indirectly specified participants. We present RxnMiner, a multimodal agent system that combines an expert-informed extraction procedure with a chemistry toolbox to coordinate these operations. The agent reads molecular structures, resolves shared and entry-specific evidence, and instantiates participants from templates to assemble source-linked reaction records. We also introduce ChemRxn-Bench, a benchmark of 603 reaction figures with 8,547 manually annotated and reviewed reaction records, evaluated under a common protocol for exact molecular identity and reactant-product pairing. On this benchmark, with Qwen3.8-Flash-Next as the backbone, RxnMiner raises stereochemistry-aware reaction macro-F1 from 21.0% under direct prediction to 71.0%, compared with 25.0% for the strongest existing extraction system. Across five backbones, it also outperforms the same base agent without the extraction procedure and chemistry toolbox by 9.4 to 25.5 points. Applied without human intervention to 10,107 literature figures, RxnMiner produces a silver corpus of 88,202 source-linked reaction records.",
+    "url": "http://arxiv.org/abs/2611.02826v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02826v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.02332v1",
+    "title": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
+    "authors": [
+      "Sreehari Sankar",
+      "Debargha Ganguly",
+      "Vikash Singh",
+      "Mohsen Hariri",
+      "Weicong Chen"
+    ],
+    "abstract": "Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runtime that checks every proposed tool call against a policy written in Lean4 before the call reaches the environment. Policies combine state predicates with scoped past-time temporal operators over the execution history, evaluation is fail-closed, and the decision procedure is proved equivalent to a LeanLTL semantics. A denied call can be corrected in two ways. With feedback, the agent receives the violated rule and a hint; with proof-guided repair, Lean metaprogramming searches for a nearby call that preserves the user's intent and proves that the policy admits it, without the model. On Tau-Bench with five Qwen models (0.8B-27B), unguarded agents execute at least 33 calls that the Lean policy forbids, while LeanGuard executes none; with feedback, task success does not change significantly. On DTap, LeanGuard reduces direct prompt-injection success from 57.9% to 5.9%, and in telecom, where benign tasks need no writes, benign success is unchanged. Feedback reduces repeated blocked calls and raises task success for four of five models over a bare denial. On replayed denials, repair proves an admissible edit for 88 of 252 denials caused by argument values, in a median of 2,ms.",
+    "url": "http://arxiv.org/abs/2611.02332v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02332v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.01386v1",
+    "title": "Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces",
+    "authors": [
+      "Daniel Chalef",
+      "Peter Evans",
+      "Pavlo Paliychuk",
+      "Mehul Patel",
+      "Preston Rasmussen"
+    ],
+    "abstract": "Memory systems for production LLM agents mostly store semantic memory (facts about users and domains) or episodic memory (earlier interactions). Research systems such as Trace2Skill, WikiSkill, and SkillRevise learn procedures from agent runs, package them as Skills, and evaluate them on benchmarks. We describe Zep Agent Skills, a production service that gives deployed agents this procedural memory. The service uses only verified attempts as evidence, cites the supporting events for each field of a Skill, and governs the admission and distribution of each Skill version. The service records each task attempt as a Trace with ordered events, an outcome, and a verification strength. A compiler with separate Reflector and Curator roles turns verified Traces into versioned Skills. Scans and admission gates control which candidates become active, and verified use outcomes change the search rank of each Skill. The Agent Skills format is an open standard that Anthropic originated and donated to the Agentic AI Foundation, so any host of the format can load a compiled Skill. Agents retrieve Skills through lexical search with progressive disclosure, over an API or MCP. We evaluate Zep Agent Skills on $τ^3$-bench banking, AppWorld, and EnterpriseOps-Gym. Skills compiled from the Traces of a teacher model increase the pass rate of three weaker executor models on the same tasks, at every reasoning effort, by 4.5 to 18.8 points. Most of the gain is on the tasks that the teacher solved. On ALFWorld, Skills compiled from the runs of a small model give a gain similar to or larger than the gain that prior work reports for continuous fine-tuning, with no training.",
+    "url": "http://arxiv.org/abs/2611.01386v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.01386v1",
+    "published": "2026-11-01",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.03301v1",
+    "title": "An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems",
+    "authors": [
+      "Jianhong Wang",
+      "Yang Li",
+      "Samuel Kaski",
+      "Jonathan Lawry"
+    ],
+    "abstract": "Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorithm design. We study this setting through n-agent ad hoc teamwork (NAHT), a recent framework for learning in open multi-agent environments. We propose an axiomatic framework that derives value function learning from the Shapley axioms (Efficiency, Symmetry and Linearity), treating them as structural constraints rather than heuristic design choices. This formulation builds on a novel NAHT decomposition, which characterises the fundamental difference between open and fully controllable multi-agent systems, and establishes a cooperative game-theoretic foundation for learning. We further show that enforcing these axioms on learning individual value functions recovers the Shapley value for Dec-POMDPs, providing a principled bridge between reinforcement learning and classical cooperative game theory. Building on this framework, we introduce Shapley Machines and Banzhaf Machines, two generic algorithmic templates that can be instantiated with standard reinforcement learning methods. When applied to strong base algorithms such as IPPO and POAM, our methods consistently improve learning efficiency and generalisation to unseen agent types and conventions across NAHT benchmark tasks. The code of experiments is published on https://github.com/hsvgbkhgbv/axiomatic-rl-naht.",
+    "url": "http://arxiv.org/abs/2611.03301v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03301v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.01086v1",
+    "title": "Growth of global science: reflections on measurability and scientometric insights",
+    "authors": [
+      "Robert Tijssen",
+      "Erik van Wijk",
+      "Alfredo Yegros"
+    ],
+    "abstract": "Global science has become much larger and more interconnected in recent years. Such a complex and adaptive social system defies any attempt to systematically and comprehensively measure or monitor its growth and evolution. Yet, as it continues to expand and enhance its public value, effective evidence-based assessment has become increasingly critical for understanding its dynamics and managing the system. This paper offers a framework for addressing system-level measurability challenges. Inspired by Derek de Solla Prices pioneering scientometric work in the 1960s, this paper addresses analytical issues related to current measurements of the systems expansion since the turn of the 21st century. Our empirical analysis of global science dynamics presents new macro-level data on several observable megatrends in research publication output worldwide. Acknowledging the limited analytical scope of these trend data to understand the dynamics of global science, we outline currently available options to improve system-level measurability under conditions of ambiguity and uncertainty. Looking forward, we discuss likely future directions to establish integrated, multi-stakeholder measurement infrastructures.",
+    "url": "http://arxiv.org/abs/2611.01086v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.01086v1",
+    "published": "2026-10-31",
+    "categories": [
+      "cs.IR"
+    ],
+    "primary_category": "cs.IR",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2611.03412v1",
+    "title": "DeliverBench: Benchmarking AI Agents on Delivering Realistic Multi-Stage Professional Projects",
+    "authors": [
+      "Yumou Liu",
+      "Mingju Chen",
+      "Zhoufutu Wen",
+      "Qianyu Yang",
+      "Zijie Wang"
+    ],
+    "abstract": "LLM agents are judged by what they deliver, and in professional work what gets delivered is a project, not a task. A project pays off only if the whole package holds, and one weak part can limit the value of the rest. Yet existing benchmarks mostly test agents on one task at a time, leaving a gap between the capability we measure and the outcome that makes agents useful. To address this gap, we introduce DeliverBench, which tests whether agents can carry a project from brief to final delivery. Its 11 projects, spanning financial due diligence, legal contract drafting, and drug safety reporting, are reconstructed with 13 domain experts from real materials and chain 150 subtasks through 2-15 rounds of new materials and client feedback. Because no reference outputs are injected, agents inherit their own errors from one task to the next. Expert rubrics then score every checkpoint as well as the final package. Across seven model-harness systems, even the best system scores only 65.0 out of 100 on final delivery and passes 50.0% of subtasks at a 90-point threshold. The failures are often failures of carrying work forward: in one audit project, all seven systems addressed the review findings, but only one preserved traceability. Together, these results suggest that task-level capability does not simply compose into delivery, which also depends on keeping the work coherent as it evolves.",
+    "url": "http://arxiv.org/abs/2611.03412v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03412v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.03223v1",
+    "title": "Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction",
+    "authors": [
+      "Yiwei Zha",
+      "Qingyu Meng",
+      "Herbert Bos",
+      "Min Chen"
+    ],
+    "abstract": "LLM agents compact long histories to fit their context windows, but the compacted context must still carry the operating rules that govern later actions. Prior work shows that violations rise after compaction, but measures compliance outside a complete agent harness and does not identify where each violation comes from. We introduce ARCBench(Agent Rule Compliance Benchmark), a configurable benchmark built on the open-source pi agent harness. Its tool-calling agent loop lets us measure rule compliance from actions taken during execution, bringing the evaluation closer to deployed agent workflows. Using ARCBench, we examine where violations after compaction come from, and how different compaction configurations and adversarial settings change their sources. We find that compaction rarely deletes the rule: most violations after compaction occur while the rule is still in the compacted history, with the agent treating a later request as permission, ignoring the rule, and proceeding anyway. Where violations come from depends on the configuration: how the rule is delivered decides whether the agent would break it even without compaction, while the compaction strategy and budget decide whether the rule survives. The strongest compactor-targeted attack more than doubles violations by corrupting the rule in the summary and changing how the agents behave, whereas the strongest defense restores the rule in most summary but still violates. Finally, retaining a rule does not guarantee compliance: compacted runs that retain the rule violate more than twice as often as runs with the full history.",
+    "url": "http://arxiv.org/abs/2611.03223v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03223v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.02698v1",
+    "title": "GeoGuesser Bench: Benchmarking Vision-Language Agents on Interactive Geolocation",
+    "authors": [
+      "Huanzhi Mao",
+      "Yichuan Wang",
+      "Michael Koo",
+      "Wenyuan Huang",
+      "Huy Doan"
+    ],
+    "abstract": "Vision-language model (VLM) agents that act in the open world need two abilities: world knowledge to interpret what they see, and exploration to find what they cannot yet see. We study how agents combine the two through interactive visual geolocation. GeoGuesser Bench contains 282 tasks in an offline Street View environment where agents rotate, zoom, and move between real panoramas. Its three task types shift the balance from knowledge to exploration: agents (1) report the coordinates of their starting location, (2) name the enclosing street, city, state, or country, or (3) find, read, and count nearby objects. The coordinate tasks in (1) also include 42 real GeoGuessr World Championship rounds, whose expert guesses provide a human reference. We evaluate 23 VLMs: the best accuracy is 62.5% on place naming and 35.0% on object finding, and the best agent averages 4352.4 GeoGuessr points on the championship rounds, against 4770.3 for the better expert in each round. Beyond these headline numbers, world knowledge and exploration are only weakly correlated across models: agents that localize well do not necessarily explore well. To understand where agents fail, we categorize their errors into vision, navigation, and tool-use failures. Further ablations show that the strongest agents, such as Claude Opus 4.8, still perform well with limited views, while weaker agents degrade; customizing the environment thus adjusts task difficulty. The environment's verifiable rewards and restorable state also support training, and our Planner-Worker-Compressor harness cuts planner tokens by 57-61% by compacting the interaction history. We hope GeoGuesser Bench and its environment serve as a high-quality foundation for simulating real-world exploration at scale.",
+    "url": "http://arxiv.org/abs/2611.02698v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02698v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.02484v1",
+    "title": "Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets",
+    "authors": [
+      "Javad Mohammad Alizadeh",
+      "Huanmei Wu"
+    ],
+    "abstract": "LLM agents are increasingly built into data-analysis software, yet little evidence shows how reliably they preprocess clinical data or whether the tools they invoke give correct, reproducible output. We report a benchmark of THReD, a web-based system that turns electronic health record (EHR) extracts into AI-ready datasets through a chat agent whose proposed steps run only after user confirmation. The agent benchmark has 141 tasks (100 templates) in seven categories, including goal-level requests, failure recovery, requests calling for no action, schema variation and prompt injection through the data, on synthetic tables calibrated to a regional health information exchange; success is judged by checks on the produced data. Over 2,550 episodes with Claude Haiku 5.5 in four context configurations, the deployed agent completed 92.7% (95% CI 88.1-96.4) of tasks on its first answer, abstained on every advice request, recovered from every injected fault, and never proposed an action requested by planted text. Without the data profile, completion fell to 58.0%; goal-level requests were hardest (80.6%). Six experiments on real records of two chronic-disease cohorts and on synthetic data at scale validate the tools: 91-92% of inferred patient classes and 99.7-99.8% of inferred vital-sign labels were correct in masked reconstruction; a dictionary builder combining curated dictionaries with LLM suggestions mapped 99.0% of 2,208 raw variants correctly; all 2,176 replays of 128 saved pipelines gave byte-identical files under pinned dependencies; subgroup differences in inference accuracy vanished within facility and lookup key; and the same-day consolidation rule changed 90-day emergency revisit rates by up to 3.2 points without shifting cohort composition by more than one point. Processing time grew roughly linearly to 5.5 million records while the prompt stayed at about 13 thousand tokens.",
+    "url": "http://arxiv.org/abs/2611.02484v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02484v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.01728v1",
+    "title": "MAC-Bench: Benchmarking Multi-Agent Collaboration via Interconnected Tasks",
+    "authors": [
+      "Zerui Chen",
+      "Qinggang Zhang",
+      "Qichuan Liu",
+      "Zhishang Xiang",
+      "Zhimin Wei"
+    ],
+    "abstract": "Large language model (LLM)-based multi-agent systems (MAS) tackle challenging tasks by dividing work among agents and coordinating their contributions toward shared objectives. Evaluating these systems therefore requires benchmarks that assess not only task-solving performance but also the ability to handle interdependent work. However, existing benchmarks often emphasize task difficulty without substantial collaboration requirements or evaluate only a limited range of predefined collaboration patterns. In this paper, we introduce MAC-Bench, a comprehensive benchmark for evaluating multi-agent collaboration through interconnected tasks. Rather than imposing predefined agent roles or communication protocols, MAC-Bench embeds collaboration requirements directly into task dependencies and shared-resource constraints. Specifically, we mine reusable collaboration structures from selected benchmark tasks at two levels. Local collaboration patterns capture recurring interactions among subtasks, while global task structures characterize how these interactions contribute to complete workflows. Through coarse-to-fine composition, these structures are recombined into task graphs combining different collaboration requirements. Tasks are instantiated in executable environments with automated verification of partial progress and complete task resolution.",
+    "url": "http://arxiv.org/abs/2611.01728v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.01728v1",
+    "published": "2026-11-01",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
