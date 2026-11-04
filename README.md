@@ -24,6 +24,49 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-04
+
+**19 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Tracing the Scientific Discovery Capacity of LLMs to Their Training Data](http://arxiv.org/abs/2611.03617v1) | Arda Uzunoglu, Mahler Revsine, Michael Schatz et al. | Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. |
+| [ScienceVision: Can AI Observe and Reason Like a Scientist?](http://arxiv.org/abs/2611.04087v1) | Tianyi Ma, Jing Gu, Haozhe Zhao et al. | Scientific discovery builds on accurate observations interpreted through domain knowledge and reasoning. |
+| [El Agente Fármaco: A Scalable AI Scientist for Drug Discovery](http://arxiv.org/abs/2611.03832v1) | Marcel Müller, Mohammad Ghazi Vakili, Yoshihiro Ogura et al. | Computational drug discovery offers a growing range of tools for proposing and evaluating molecules, but combining them and deciding what to do next still requires substantial expert effort. |
+| [Reimagining computational quantum research with AI scientists](http://arxiv.org/abs/2611.02833v1) | Yuxuan Du, Hanqing Zhao, Xinbiao Wang et al. | AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive. |
+| [RxnMiner: A Multimodal Agent for Structured Reaction Data Extraction from Chemistry Figures](http://arxiv.org/abs/2611.02826v1) | Jinbo Hu, Songren Zhang, Chuanxun Fu et al. | Reaction data underpin machine learning for reaction prediction, condition recommendation, and retrosynthetic planning, yet extracting these data from literature figures still requires substantial ... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents](http://arxiv.org/abs/2611.02332v1) | Sreehari Sankar, Debargha Ganguly, Vikash Singh et al. | Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runtime that checks every proposed tool call against a policy written in Lean4 befo... |
+| [From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence](http://arxiv.org/abs/2611.05376v1) | Hao Fei | For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A semi-autonomous multi-agent pipeline for high-energy astrophysics research with enforced provenance and verifiable self-extension](http://arxiv.org/abs/2611.05251v1) | Fang Zhou | Large language model (LLM) agents are now applied to astronomical data analysis. They retrieve the literature, reduce observations, and draft conclusions. |
+| [When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation](http://arxiv.org/abs/2611.04289v1) | Qinghua Mao, Xi Lin, Yuxin Qi et al. | Retrieval-augmented Web applications increasingly employ multi-agent debate (MAD) to aggregate conflicting, noisy, and heterogeneous information, yet deliberation is fundamentally a social process ... |
+| [JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks](http://arxiv.org/abs/2611.05263v1) | Shanka Subhra Mondal, Jiayun Wang | Multimodal web agents have shown promising capabilities for interacting with websites through graphical user interfaces (GUIs), yet realistic web tasks often require long-horizon, multi-step planni... |
+| [A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data](http://arxiv.org/abs/2611.03983v1) | Xintong Li, Yufen Lin, Yuhua Wu et al. | Translating population-level exercise guidance into individualized prescriptions requires integrating clinical and wearable data, including diagnoses, medications, functional limitations, and basel... |
+| [An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems](http://arxiv.org/abs/2611.03301v2) | Jianhong Wang, Yang Li, Samuel Kaski et al. | Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorith... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests](http://arxiv.org/abs/2611.04813v1) | Shu Zhou, Ziyang He, Yuxin Rao et al. | Financial agents are becoming an important class of real-world AI systems. Financial tasks vary widely in type and difficulty, and many are open-ended with no ground-truth answers. |
+| [$τ$-Rec-Books: A Disclosure-Controlled Benchmark for Requirement Elicitation in Agentic Recommender Systems](http://arxiv.org/abs/2611.04459v1) | Bharath Sivaram Narasimhan, Karthik R. Narasimhan | While conversational recommendation systems provide a more natural user interface, they face the challenge of progressively discovering a user's needs before they can recommend an item that satisfi... |
+| [DeliverBench: Benchmarking AI Agents on Delivering Realistic Multi-Stage Professional Projects](http://arxiv.org/abs/2611.03412v2) | Yumou Liu, Mingju Chen, Zhoufutu Wen et al. | LLM agents are judged by what they deliver, and in professional work what gets delivered is a project, not a task. |
+| [VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions](http://arxiv.org/abs/2611.03765v1) | Yang Qu, Qiang Fu, Zonghao Ying et al. | Embodied agents are increasingly deployed in open-world environments, yet current robustness evaluations remain biased toward hazardous instructions and jailbreak vulnerabilities. |
+| [Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction](http://arxiv.org/abs/2611.03223v1) | Yiwei Zha, Qingyu Meng, Herbert Bos et al. | LLM agents compact long histories to fit their context windows, but the compacted context must still carry the operating rules that govern later actions. |
+| [GeoGuesser Bench: Benchmarking Vision-Language Agents on Interactive Geolocation](http://arxiv.org/abs/2611.02698v1) | Huanzhi Mao, Yichuan Wang, Michael Koo et al. | Vision-language model (VLM) agents that act in the open world need two abilities: world knowledge to interpret what they see, and exploration to find what they cannot yet see. |
+| [Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets](http://arxiv.org/abs/2611.02484v1) | Javad Mohammad Alizadeh, Huanmei Wu | LLM agents are increasingly built into data-analysis software, yet little evidence shows how reliably they preprocess clinical data or whether the tools they invoke give correct, reproducible output. |
+
 ### 📅 2026-11-03
 
 **13 new papers found**
