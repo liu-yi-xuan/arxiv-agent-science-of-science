@@ -1,0 +1,241 @@
+[
+  {
+    "id": "2611.03617v1",
+    "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
+    "authors": [
+      "Arda Uzunoglu",
+      "Mahler Revsine",
+      "Michael Schatz",
+      "Benjamin Van Durme",
+      "Mehrdad Farajtabar"
+    ],
+    "abstract": "Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. How can we trace the scientific discovery capacity of LLMs to their training data? We study this question as one of missing probability mass and develop a theoretical account in which monofacts-the facts observed once during training-set the discovery capacity. In materials science and regulatory genomics, we directly manipulate monofact rates in training sets and find that more monofacts consistently yield more discoveries across two open-weight model families, sampling strategies, and reasoning budgets. Further experiments show the relationship cannot be explained by training-set diversity alone and can transfer across scientific domains when paired with in-domain data. Together, our results identify monofact rate in training data as a key factor governing discoveries in language models.",
+    "url": "http://arxiv.org/abs/2611.03617v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03617v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.05450v1",
+    "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
+    "authors": [
+      "Shijue Huang",
+      "Hangyu Guo",
+      "Hengheng Zhang",
+      "Guo An",
+      "Zhitao He"
+    ],
+    "abstract": "As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires agents to discover how unfamiliar environments work, reuse what they learn across tasks, and keep that experience current as environments evolve. Existing benchmarks increasingly study experience reuse and adaptation, but provide limited insight into which parts of accumulated experience agents revise, retain, or lose. To address this gap, we introduce ReScopeBench, a benchmark for the experience lifecycle across 18 interactive environments. It distinguishes structural experience about how an environment is organized and accessed from rule experience about reusable principles and constraints that guide decisions across tasks. To study how experience is acquired, reused, and revised, we propose an experience-first construction approach. It builds task streams around shared experience and introduces silent environmental changes. We evaluate task performance and track changes in saved experience throughout each stream. Across 20 models, we find that retained experience improves task performance, but agents struggle to keep it current as environments change. Even when the required experience is correctly recorded, agents do not always complete tasks successfully. These findings identify selective maintenance and effective use as complementary challenges for long-lived agents.",
+    "url": "http://arxiv.org/abs/2611.05450v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.05450v1",
+    "published": "2026-11-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.04087v1",
+    "title": "ScienceVision: Can AI Observe and Reason Like a Scientist?",
+    "authors": [
+      "Tianyi Ma",
+      "Jing Gu",
+      "Haozhe Zhao",
+      "Liang Chen",
+      "Yunfan Zhang"
+    ],
+    "abstract": "Scientific discovery builds on accurate observations interpreted through domain knowledge and reasoning. For scientific 3D data, this requires understanding structures and spatial relationships, from protein contacts to anatomical organization. Existing multimodal benchmarks largely evaluate text and 2D images, while scientific 3D evaluations vary in representations and protocols across disciplines, limiting cross-disciplinary comparison. To assess these foundational capabilities, we introduce ScienceVision, a cross-domain benchmark for scientific 3D understanding and reasoning through expert-level visual question answering (VQA). We construct 250 questions, with 50 each from Biology, Chemistry, Medical Imaging, Mechanical CAD, and Architecture, through a pipeline combining synthetic question generation with domain-expert review and annotation. Each task pairs a native 3D artifact with a scientific question, a specified response format, and a task-specific reference answer, requiring domain knowledge to be applied to geometric or topological evidence. We evaluate 12 models on the same questions in three settings: visual question answering with native 3D artifacts accessed through an agent harness's file and code-execution tools; the same workflow augmented with expert-inspired viewer inspection and measurement tools exposed through the Model Context Protocol (MCP); and visual question answering from prescribed rendered 2D images using an agent harness. All settings use the same task-specific deterministic final-answer scoring. The inspection environment supports view changes, target isolation, and slice inspection. In this main comparison, the best mean answer score is 0.53 out of 1. Mean scores in the native-artifact workflow without additional MCP tools exceed those in the rendered-image workflow for every model, by 17.2 percentage points on average.",
+    "url": "http://arxiv.org/abs/2611.04087v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.04087v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.03832v1",
+    "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+    "authors": [
+      "Marcel Müller",
+      "Mohammad Ghazi Vakili",
+      "Yoshihiro Ogura",
+      "Ella Ashoori",
+      "Shimeng Wang"
+    ],
+    "abstract": "Computational drug discovery offers a growing range of tools for proposing and evaluating molecules, but combining them and deciding what to do next still requires substantial expert effort. Here, we introduce El Agente Fármaco, an AI scientist that uses modern large language model (LLM) technology to turn discovery goals expressed in everyday language into complex, scalable computational screening workflows. The agentic harness selects scientific tools, reviews their results, and adjusts subsequent steps to the target and the user's objectives. Our approach centers on a shared scientific memory: Fármaco Atlas, which stores molecules, structures, and results together with their provenance -- a record of how they were obtained. The agent uses targeted database queries to retrieve the evidence needed for each decision. A single request can launch calculations for an entire collection of molecules, without requiring a separate LLM decision for every compound. This design limits the information the model must process as screening collections grow, while keeping the underlying results available for inspection and further analysis. The integrated tools support molecule generation, prediction of binding and molecular properties, and searches for compounds available for purchase. In a retrospective comparison with an expert-led campaign, the agent proposed chemically distinct candidates with competitive docking scores and higher calculated drug-likeness under explicitly imposed selection criteria. In a 22-task benchmark against plain tool calls and Codex, the agent achieved the highest observed mean model-judged score, with lower median cumulative token use and peak context. Fármaco provides a foundation for flexible, scalable drug discovery workflows that connect scientific reasoning with an enduring, traceable record of computational work.",
+    "url": "http://arxiv.org/abs/2611.03832v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03832v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "q-bio.BM"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.05911v1",
+    "title": "Autonomous agents for electricity-system planning",
+    "authors": [
+      "Yoon Pyo Lee",
+      "Samrendra Roy",
+      "Jay Phil Yoo",
+      "Kazuma Kobayashi",
+      "Souvik Chakraborty"
+    ],
+    "abstract": "Planning electricity systems requires repeated decisions that connect regional resources, investment, operation and network constraints. Here we present an autonomous planning framework that carries prepared regional scenarios through proposal, numerical evaluation, feedback interpretation, redesign and final plan selection. Agents propose investment bounds, storage operating conditions and feeder interventions, interpret numerical feedback, and decide how to revise designs and when to stop. The framework automatically executes annual investment-and-dispatch optimization and representative-feeder verification, applies fixed acceptance criteria and retains the lowest-cost accepted candidate. We evaluate forty carbon-constrained trajectories across ten system-year scenarios in five electricity systems and four countries, using two model deployments and single- and multi-agent architectures. All forty retain candidates satisfying the implemented physical and fixed annual operational carbon-budget checks. Twenty-eight of forty matched reference designs exceed the new scenario ceilings. A separate archive of ninety-six trajectories under a common 1,000 Mt annual ceiling provides matched references and broader regional coverage. The results demonstrate autonomous planning under explicit emissions constraints using public regional data and published institutional demand outlooks.",
+    "url": "http://arxiv.org/abs/2611.05911v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.05911v1",
+    "published": "2026-11-04",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.05376v1",
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "authors": [
+      "Hao Fei"
+    ],
+    "abstract": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change. We give the paradigm a conceptual core, the cognitive gap between what a person could bring to a situation and what they can hold in working memory, and organize its design space as a symbiosis loop of sensing, keeping, understanding, living alongside, acting for and thinking with the person, and growing, enclosed by a personal runtime and by trust. Because a symbiont changes what a person can do in front of others, it also raises risks of a new kind, from covert assistance in examinations to pressure on everyone to adopt it, and we treat their governance as part of the paradigm.",
+    "url": "http://arxiv.org/abs/2611.05376v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.05376v1",
+    "published": "2026-11-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.05251v1",
+    "title": "A semi-autonomous multi-agent pipeline for high-energy astrophysics research with enforced provenance and verifiable self-extension",
+    "authors": [
+      "Fang Zhou"
+    ],
+    "abstract": "Large language model (LLM) agents are now applied to astronomical data analysis. They retrieve the literature, reduce observations, and draft conclusions. Under pressure to complete a task, such agents can fabricate results, and the numbers they report may not come from the analysis they ran. We present auto_research, a semi-autonomous multi-agent pipeline that retrieves and analyses raw data from the High Energy Astrophysics Science Archive Research Center (HEASARC) and writes the analysis tools that it needs. We check the work of the agents at two points. A new tool enters the toolkit after it passes automatic checks, including repeated test runs and a scan for phrases that accompany invented values, and a code review by a model from a different provider; a human decides whether to promote it to the trusted branch. A number in a report passes only if a recorded output of a toolkit tool or the request contains it, or if the report gives its location in a cited paper. We test the pipeline with data from the Imaging X-ray Polarimetry Explorer (IXPE). Of 65 defects that we planted in the toolkit, 47 pass the automatic checks, and one passes the code review as well; the review also rejects 40 of 69 correct changes. The pipeline reproduces the published IXPE results for Cyg X-1: all 14 compared quantities agree within 3 sigma, and the polarization degrees are lower than the published values. With weaker models in the main roles, the pipeline recovers 12 of the 14 quantities and reports the other two as not measured. We also used the pipeline for a polarization-stability analysis of six observations, a survey of polarization against hardness in 29 observations, and a search for a time lag between the Stokes parameters q and u.",
+    "url": "http://arxiv.org/abs/2611.05251v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.05251v1",
+    "published": "2026-11-03",
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "primary_category": "astro-ph.IM",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.04289v1",
+    "title": "When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation",
+    "authors": [
+      "Qinghua Mao",
+      "Xi Lin",
+      "Yuxin Qi",
+      "Zihao Xu",
+      "Jinze Gu"
+    ],
+    "abstract": "Retrieval-augmented Web applications increasingly employ multi-agent debate (MAD) to aggregate conflicting, noisy, and heterogeneous information, yet deliberation is fundamentally a social process susceptible to interpersonal dynamics. When retrieved Web sources contain latent hazards alongside safe factual content, social biases such as conformity pressure and authority deference can override evidence-grounded safety boundaries. In this work, we investigate whether the social structure of deliberation can paradoxically amplify latent Web safety risks. We introduce SafeConflict-Bias, a controlled counterfactual diagnostic protocol spanning six core Web risk categories, which holds queries and retrieved evidence strictly invariant while isolating conversational majority sway, authority cues, and confidence asymmetry. Empirical evaluation across diverse proprietary and open-source backbones reveals that while isolated models reliably reject unsafe guidance, standard MAD catastrophically capitulates to social pressure---surging unsafe adoption from 0.0\\% up to 100.0\\% and systematically silencing safe minority evidence. To resolve this systemic fragility without retraining or debate regeneration, we propose RiskTrace-Debias, an inference-time auditing framework uniting evidence-first precommitment, social-metadata masking, and consistency-gated arbitration. RiskTrace-Debias suppresses worst-case unsafe adoption to $\\le 2.0\\%$ across all architectures without inducing over-refusal, while generating verifiable provenance traces to audit interpersonal manipulation in Web deliberation.",
+    "url": "http://arxiv.org/abs/2611.04289v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.04289v1",
+    "published": "2026-11-03",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.05263v1",
+    "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
+    "authors": [
+      "Shanka Subhra Mondal",
+      "Jiayun Wang"
+    ],
+    "abstract": "Multimodal web agents have shown promising capabilities for interacting with websites through graphical user interfaces (GUIs), yet realistic web tasks often require long-horizon, multi-step planning that remains challenging for monolithic policies. Such agents must jointly infer high-level plans, navigate through intermediate states, track progress over extended interaction histories, and execute visually grounded actions. Although prior work has explored modular multi-agent systems with a separate planner, the planner is typically not updated jointly with the actor. We investigate whether explicitly separating and jointly training planning and execution provides a stronger inductive bias for long-horizon web navigation. We introduce JHiMA-WebRL, a joint hierarchical multi-agent reinforcement learning framework for web agents that couples a task decomposer with an actor. To train the decomposer, we use a strong teacher model to construct structured subtask supervision from multimodal GUI trajectories, and use these annotations to fine-tune both the decomposer and the subtask-conditioned actor. We then extend Group Relative Policy Optimization (GRPO) to jointly optimize the decomposer and actor in the interactive WebArena environment through hierarchical rollout grouping and role-specific advantages. On WebArena-Lite-v2, JHiMA-WebRL-14B, consisting of a 7B actor and a 7B decomposer, achieves an average success rate of 37.2%, compared with 24% for a ScaleCUA-32B agent that we fine-tune with RL on the same training tasks and evaluate under the same protocol. Ablations show that jointly updating the decomposer during RL outperforms updating the actor alone. These results suggest that jointly learned role factorization with smaller models can be a competitive alternative to scaling monolithic agents for long-horizon web tasks.",
+    "url": "http://arxiv.org/abs/2611.05263v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.05263v1",
+    "published": "2026-11-03",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.03983v1",
+    "title": "A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data",
+    "authors": [
+      "Xintong Li",
+      "Yufen Lin",
+      "Yuhua Wu",
+      "Fengran Wang",
+      "Minxiao Wang"
+    ],
+    "abstract": "Translating population-level exercise guidance into individualized prescriptions requires integrating clinical and wearable data, including diagnoses, medications, functional limitations, and baseline activity, with condition-specific recommendations, a process difficult to scale beyond specialist rehabilitation settings. We developed FITTER, a multi-agent framework that integrates these data with condition-specific guidance to generate personalized FITT-VP prescriptions and applies deterministic safety audit and repair to correct rule-checkable violations. We evaluated FITTER using data from 400 All of Us participants (300 cancer, 100 stroke) against five LLM comparators through computational evaluation, ablation, and structured clinician review. FITTER achieved 98.5% safety-constraint compliance versus 75.8-85.8% for comparators and showed greater quantitative dosing precision and guideline alignment. Cancer-cohort ablation identified safety audit and repair as the largest contributor to safety-constraint compliance. Clinicians reviewed 80 prescriptions across safety, personalization, instruction concreteness, anticipated effectiveness, and clinical acceptability. FITTER provides a clinician-facing approach integrating clinical and wearable data, guidance, and explicit safety constraints.",
+    "url": "http://arxiv.org/abs/2611.03983v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03983v1",
+    "published": "2026-11-02",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.06762v1",
+    "title": "U.S. State Guidance on AI in K-12 Education: A Comparative Content and Citation Analysis",
+    "authors": [
+      "Shahan Ali Memon",
+      "Anna-Maria Gueorguieva",
+      "Anukriti Kumar",
+      "Lucy Lu Wang",
+      "Jevin D. West"
+    ],
+    "abstract": "In the years following the public release of ChatGPT in late 2022, more than half of U.S. states have published formal guidelines around AI usage in K-12 education, creating a record of largely independent state education departments responding to a shared technological disruption. In this work, we analyze publicly available AI usage guidance documents from 35 states in the U.S. and Puerto Rico. We compare the guidance in these documents across various dimensions, including pedagogy and instruction, audience, actionability, workforce and career readiness, responsible use and equity, and alignment with state-level demographics and administrative capacity. Finally, we investigate who authored these documents and their cited sources, identifying epistemic foundations underlying their claims. We find that guidance priorities converge on topics anchored in laws such as data privacy and academic integrity, each addressed in 97% of documents. While most documents mention equity of access (86%) and algorithmic bias (97%), fewer discuss specific marginalized populations. Across documents, there is a common framing of urgency around AI integration to prepare students for workforce readiness (86%) and promote loosely-defined personalized learning (86%), which is not matched by specific guidance for capacity-building, actionability, or accountability. State priorities show no relationship to state demographics, capacity, or partisanship. Instead, we identify notable interdependencies between states with shared citations to non-profit organizations like TeachAI and Code.org, with some states reproducing TeachAI's model guidance near-verbatim, and peer citations concentrating on a few early states such as Oregon and Washington. No state includes parents as contributors on these documents, and only five include students.",
+    "url": "http://arxiv.org/abs/2611.06762v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.06762v1",
+    "published": "2026-11-04",
+    "categories": [
+      "cs.CY",
+      "cs.DL"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2611.06596v1",
+    "title": "Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis",
+    "authors": [
+      "Kira Pugh",
+      "Rebecca M Crossley",
+      "Sara Hamis"
+    ],
+    "abstract": "Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do not, raising the question of how much knowledge is exchanged between subfields. We address this question by developing a bibliometric pipeline that combines a database keyword search with coarse- and fine-grained classification by a large language model (LLM). We apply the pipeline to the Web of Science Core Collection, classifying 22,936 ABM articles into ecology, epidemiology, oncology, other-biology, or not-biology. Using citation patterns and author overlap as proxies for knowledge exchange, we find that 83%, 81%, and 69% of citations from ecology, epidemiology, and oncology articles, respectively, go to articles in the same subfield. Furthermore, 91% of authors with at least two articles across these subfields publish exclusively within one subfield. Both proportions far exceed those expected under random assignment of subfields (permutation tests, $p \\leq 0.001$). Terminology also differs, with \"individual-based model\" used mainly in ecology and \"agent-based model\" in epidemiology, oncology, and outside biology. Taken together, our results suggest limited knowledge exchange between biological subfields in ABM research, leading us to discuss opportunities for increased exchange through conferences, journals, and training.",
+    "url": "http://arxiv.org/abs/2611.06596v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.06596v1",
+    "published": "2026-11-04",
+    "categories": [
+      "physics.soc-ph",
+      "q-bio.OT"
+    ],
+    "primary_category": "physics.soc-ph",
+    "our_category": "Computational Science of Science"
+  }
+]

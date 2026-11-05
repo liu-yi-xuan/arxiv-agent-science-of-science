@@ -24,6 +24,42 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-05
+
+**12 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Tracing the Scientific Discovery Capacity of LLMs to Their Training Data](http://arxiv.org/abs/2611.03617v1) | Arda Uzunoglu, Mahler Revsine, Michael Schatz et al. | Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. |
+| [Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments](http://arxiv.org/abs/2611.05450v1) | Shijue Huang, Hangyu Guo, Hengheng Zhang et al. | As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. |
+| [ScienceVision: Can AI Observe and Reason Like a Scientist?](http://arxiv.org/abs/2611.04087v1) | Tianyi Ma, Jing Gu, Haozhe Zhao et al. | Scientific discovery builds on accurate observations interpreted through domain knowledge and reasoning. |
+| [El Agente Fármaco: A Scalable AI Scientist for Drug Discovery](http://arxiv.org/abs/2611.03832v1) | Marcel Müller, Mohammad Ghazi Vakili, Yoshihiro Ogura et al. | Computational drug discovery offers a growing range of tools for proposing and evaluating molecules, but combining them and deciding what to do next still requires substantial expert effort. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Autonomous agents for electricity-system planning](http://arxiv.org/abs/2611.05911v1) | Yoon Pyo Lee, Samrendra Roy, Jay Phil Yoo et al. | Planning electricity systems requires repeated decisions that connect regional resources, investment, operation and network constraints. |
+| [From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence](http://arxiv.org/abs/2611.05376v1) | Hao Fei | For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A semi-autonomous multi-agent pipeline for high-energy astrophysics research with enforced provenance and verifiable self-extension](http://arxiv.org/abs/2611.05251v1) | Fang Zhou | Large language model (LLM) agents are now applied to astronomical data analysis. They retrieve the literature, reduce observations, and draft conclusions. |
+| [When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation](http://arxiv.org/abs/2611.04289v1) | Qinghua Mao, Xi Lin, Yuxin Qi et al. | Retrieval-augmented Web applications increasingly employ multi-agent debate (MAD) to aggregate conflicting, noisy, and heterogeneous information, yet deliberation is fundamentally a social process ... |
+| [JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks](http://arxiv.org/abs/2611.05263v1) | Shanka Subhra Mondal, Jiayun Wang | Multimodal web agents have shown promising capabilities for interacting with websites through graphical user interfaces (GUIs), yet realistic web tasks often require long-horizon, multi-step planni... |
+| [A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data](http://arxiv.org/abs/2611.03983v1) | Xintong Li, Yufen Lin, Yuhua Wu et al. | Translating population-level exercise guidance into individualized prescriptions requires integrating clinical and wearable data, including diagnoses, medications, functional limitations, and basel... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [U.S. State Guidance on AI in K-12 Education: A Comparative Content and Citation Analysis](http://arxiv.org/abs/2611.06762v1) | Shahan Ali Memon, Anna-Maria Gueorguieva, Anukriti Kumar et al. | In the years following the public release of ChatGPT in late 2022, more than half of U.S. states have published formal guidelines around AI usage in K-12 education, creating a record of largely ind... |
+| [Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis](http://arxiv.org/abs/2611.06596v1) | Kira Pugh, Rebecca M Crossley, Sara Hamis | Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do... |
+
 ### 📅 2026-11-04
 
 **19 new papers found**
