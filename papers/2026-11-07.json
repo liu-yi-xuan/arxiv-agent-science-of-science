@@ -1,0 +1,220 @@
+[
+  {
+    "id": "2611.08478v1",
+    "title": "Scientist World: Grow a Research World for AI-Scientists",
+    "authors": [
+      "Taiming Lu",
+      "Sachin Konan",
+      "Zhuang Liu"
+    ],
+    "abstract": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved. We release the first 1,000 verified environments. With the world as an evaluation, we found that frontier AI-Scientists can already surpass the human researchers 74% of the time. As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success. As a training ground, we are able to raise (+158%) a small model to match frontier models in research ideation. At last, AI-Scientists' own world has arrived, grown from and growing with science itself.",
+    "url": "http://arxiv.org/abs/2611.08478v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08478v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.07203v1",
+    "title": "τ-bench-LILT: Evaluating Conversational Agents on Realistic Multilingual Tool-Use Tasks",
+    "authors": [
+      "Kaden Uhlig",
+      "Kiarash Mokhtari",
+      "Anıl Arslan",
+      "Yunsu Kim",
+      "Joern Wuebker"
+    ],
+    "abstract": "Frontier evaluations of tool-using conversational agents are conducted almost exclusively in English, leaving a critical gap for organizations deploying agents in other languages and regions. We present $τ$-bench-LILT, a multilingual extension of ${τ^3}$-bench covering German, Korean, Turkish, and Farsi in the airline, retail, telecom, and banking domains. We natively localize every layer of the benchmark: customer databases are populated with culturally appropriate records, user-simulator prompts are refined iteratively through contrastive annotation by native-language experts, and tasks are updated according to the localized database and to reflect realistic tasks in the target region. Evaluation across eight agent models shows the largest drops compared to English in the Korean and Farsi retail domains, by up to 61 points in pass^4. Code and data released at https://github.com/lilt/tau-bench-lilt.",
+    "url": "http://arxiv.org/abs/2611.07203v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07203v1",
+    "published": "2026-11-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.07611v1",
+    "title": "A Gingerbread House for LLM Agents: Source-Planned Honeypots That Lure Autonomous Attackers into an Isolated Shadow",
+    "authors": [
+      "Seungdeok Roh",
+      "Seokjun Ryu",
+      "Sohee Park",
+      "Daeseon Choi"
+    ],
+    "abstract": "LLM agents can exploit web vulnerabilities fast enough that patching may come too late. Deception against such agents has mostly lured them away from a real target that stays reachable. We study a different arrangement: an LLM defender plans a static honeypot from the application's source, and a router sends every later request of a client it confirms as an attacker, including a working exploit, to an isolated shadow copy. We compare no defence, this static plan, and an augmented configuration with a runtime LLM responder and further router rules, graded by the benchmark's own grader on the real target and, for ARTEX, also on the shadow. On the 40 critical CVE-Bench tasks the static plan cut real compromise from 26/40 to 5/40 for Claude Opus 4.8 and from 20/40 to 0/40 (31 valid runs) for the ARTEX attack framework. On 20 new tasks not used in the design, ARTEX went from 15/20 to 0/20. In about half of the deception-arm runs ARTEX's exploit succeeded on the shadow while the real target stayed intact: the defence moved a working exploit rather than stopping it, and the remaining risk lies in requests that reach the real target before confirmation. ARTEX reported a planted fake secret as genuine on 30 of the 120 deception-arm tasks, five times in a report that labelled another item a decoy. With ARTEX's real compromise at zero in both deception configurations, they did not differ significantly on the remaining outcomes, a comparison that does not isolate the responder.",
+    "url": "http://arxiv.org/abs/2611.07611v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07611v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.08196v1",
+    "title": "SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving",
+    "authors": [
+      "Sai Vallurupalli",
+      "Francis Ferraro"
+    ],
+    "abstract": "Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. We propose a multi-agent framework, SMART, to obtain knowledge through capturing the implicit state of participating entities in a problem context. SMART curates the state knowledge as diverse, complementary and solution-salient premises using a variety of LLMs and a structured role-based prompt strategy. Using knowledge from these real-world verified curated premises, SMART's knowledge guided solution reasoning improves validation performance up to 20% on complex scientific claims spanning 3 datasets. We show that grounding premises in real-world knowledge is necessary and improves performance up to 5%.",
+    "url": "http://arxiv.org/abs/2611.08196v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08196v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.07995v1",
+    "title": "Leveraging deep generative modelling at the agent level in discrete-event simulations",
+    "authors": [
+      "Margherita Molaro",
+      "Matthew M. Graham",
+      "Oliver Watson",
+      "Rachel E. Murray-Watson",
+      "Martin Chalkley"
+    ],
+    "abstract": "Emulators are often invoked to facilitate parameter inference in computationally intensive agent-based simulations (ABSs). Most approaches, however, require a large sample of pre-existing outputs on which such emulators can be trained. For computationally intensive simulations, this sample can be prohibitively expensive to generate. We propose a new approach to leverage emulators at the agent level in event-based ABSs to reduce the computational requirements of the simulation itself. We demonstrate this in a computationally intensive ``multi-disease'' ABS, Thanzi La Onse, which self-consistently simulates a wide range of medical conditions in a population. By applying conditional tabular generative adversarial networks to replace the modelling of one of the simulated causes of ill health, road traffic injuries (RTIs), we are able to improve its simulation run-time by 86.6% (95% bootstrap confidence interval [85.2, 88.1]), while recovering the evolution of cause-specific mean disability adjusted life years with a 13% error, despite the low assumed incidence of fatal RTIs (~2%). Crucially, we do so while retaining the full ABS framework, and correctly recovering multi-disease dynamics. This represents a crucial step towards enabling full-model emulators for very computationally intensive simulations, and making large ABS amenable to rigorous parameter inference and a full understanding of parameter sensitivity.",
+    "url": "http://arxiv.org/abs/2611.07995v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07995v1",
+    "published": "2026-11-05",
+    "categories": [
+      "q-bio.QM",
+      "q-bio.PE"
+    ],
+    "primary_category": "q-bio.QM",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.06762v1",
+    "title": "U.S. State Guidance on AI in K-12 Education: A Comparative Content and Citation Analysis",
+    "authors": [
+      "Shahan Ali Memon",
+      "Anna-Maria Gueorguieva",
+      "Anukriti Kumar",
+      "Lucy Lu Wang",
+      "Jevin D. West"
+    ],
+    "abstract": "In the years following the public release of ChatGPT in late 2022, more than half of U.S. states have published formal guidelines around AI usage in K-12 education, creating a record of largely independent state education departments responding to a shared technological disruption. In this work, we analyze publicly available AI usage guidance documents from 35 states in the U.S. and Puerto Rico. We compare the guidance in these documents across various dimensions, including pedagogy and instruction, audience, actionability, workforce and career readiness, responsible use and equity, and alignment with state-level demographics and administrative capacity. Finally, we investigate who authored these documents and their cited sources, identifying epistemic foundations underlying their claims. We find that guidance priorities converge on topics anchored in laws such as data privacy and academic integrity, each addressed in 97% of documents. While most documents mention equity of access (86%) and algorithmic bias (97%), fewer discuss specific marginalized populations. Across documents, there is a common framing of urgency around AI integration to prepare students for workforce readiness (86%) and promote loosely-defined personalized learning (86%), which is not matched by specific guidance for capacity-building, actionability, or accountability. State priorities show no relationship to state demographics, capacity, or partisanship. Instead, we identify notable interdependencies between states with shared citations to non-profit organizations like TeachAI and Code.org, with some states reproducing TeachAI's model guidance near-verbatim, and peer citations concentrating on a few early states such as Oregon and Washington. No state includes parents as contributors on these documents, and only five include students.",
+    "url": "http://arxiv.org/abs/2611.06762v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.06762v1",
+    "published": "2026-11-04",
+    "categories": [
+      "cs.CY",
+      "cs.DL"
+    ],
+    "primary_category": "cs.CY",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2611.06596v1",
+    "title": "Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis",
+    "authors": [
+      "Kira Pugh",
+      "Rebecca M Crossley",
+      "Sara Hamis"
+    ],
+    "abstract": "Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do not, raising the question of how much knowledge is exchanged between subfields. We address this question by developing a bibliometric pipeline that combines a database keyword search with coarse- and fine-grained classification by a large language model (LLM). We apply the pipeline to the Web of Science Core Collection, classifying 22,936 ABM articles into ecology, epidemiology, oncology, other-biology, or not-biology. Using citation patterns and author overlap as proxies for knowledge exchange, we find that 83%, 81%, and 69% of citations from ecology, epidemiology, and oncology articles, respectively, go to articles in the same subfield. Furthermore, 91% of authors with at least two articles across these subfields publish exclusively within one subfield. Both proportions far exceed those expected under random assignment of subfields (permutation tests, $p \\leq 0.001$). Terminology also differs, with \"individual-based model\" used mainly in ecology and \"agent-based model\" in epidemiology, oncology, and outside biology. Taken together, our results suggest limited knowledge exchange between biological subfields in ABM research, leading us to discuss opportunities for increased exchange through conferences, journals, and training.",
+    "url": "http://arxiv.org/abs/2611.06596v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.06596v1",
+    "published": "2026-11-04",
+    "categories": [
+      "physics.soc-ph",
+      "q-bio.OT"
+    ],
+    "primary_category": "physics.soc-ph",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2611.07689v1",
+    "title": "MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents",
+    "authors": [
+      "Yizhen Jiang",
+      "Haowei Guo",
+      "Tianyi Bai",
+      "Zengjie Hu",
+      "Lu Ma"
+    ],
+    "abstract": "Large language model agents are increasingly deployed through the Model Context Protocol (MCP), which allows them to discover and invoke tools across multiple servers at runtime. Existing MCP benchmarks primarily measure task completion; where they diagnose failures, they do so after execution rather than building specific reasoning, execution, and memory failure risks into task construction.   We introduce MCPHallu, a benchmark for diagnosing hallucination-prone agent failures in MCP environments along three axes: reasoning, execution, and memory. MCPHallu contains 358 tasks across five capability domains and runs on 36 production MCP servers in isolated containers. Each task is designed with a structural trigger that makes one of four subtypes the dominant failure risk: Branch Collapse, Unreachable Goal, Tool Misuse, or Context Forgetting. This design enables subtype-level analysis rather than aggregate task success alone.   We evaluate fourteen frontier LLM agents from eight vendors on 5{,}012 trajectories. Current MCP agents remain vulnerable to hallucination-inducing tool environments, achieving an average score of 0.642 on a $[0,1]$ scale (higher is better). Failures concentrate on Unreachable Goal tasks, where the average score drops to 0.458 and 23.2\\% of runs pass, indicating that agents often continue issuing tool calls or claim successful completion rather than recognizing infeasible goals. Subtype rankings diverge sharply: a model's rank shifts by 6.9 of 13 positions on average across subtypes, and Branch Collapse is uncorrelated with Unreachable Goal across models ($r = -0.12$). MCPHallu is released at https://github.com/J1zz/mcp_hallu.",
+    "url": "http://arxiv.org/abs/2611.07689v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07689v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.07962v1",
+    "title": "TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research",
+    "authors": [
+      "Yifan Luo",
+      "Zhengying Liu",
+      "Yang Yuan",
+      "Zhilin Yang",
+      "Andrew Chi-Chih Yao"
+    ],
+    "abstract": "Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? To study progress toward this goal, we introduce TCSExam, a unified framework and benchmark covering the full range of TCS research. It evaluates theorem proving, solver engineering, and constructions alongside direct attempts to resolve open conjectures, capturing both concrete research accomplishments and progress toward long-standing research goals. TCSExam-Full contains 100 expert-reviewed tasks, with submissions checked by the Lean kernel or an executable task checker. TCSExam-Lite selects 20 tasks, five per track, reducing the number of task attempts by 80% at the same per-attempt budget. We evaluate eight agents on Full and nine on Lite. The TCSExam Index combines all four tracks: GPT-6 Astra leads Full (71.9), and Opus 5.5 leads Lite (72.3). Full and Lite rankings are strongly aligned across eight shared agents (Spearman's $ρ=0.93$), supporting Lite as a compact, discriminative benchmark. The evaluations yield improved solver outputs and mathematical constructions, together with independently verified special cases and bounds from open-conjecture attempts. TCSExam provides an extensible framework with task sources, Docker build recipes, and evaluation tools for reproducible use.",
+    "url": "http://arxiv.org/abs/2611.07962v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07962v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.08281v1",
+    "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+    "authors": [
+      "Zhitao He",
+      "Chi Him Zhang",
+      "Chengru Han",
+      "Yi R Fung"
+    ],
+    "abstract": "Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such attacks insufficiently studied. We introduce Multimodal-SEA, an interactive benchmark comprising 608 expert-designed tasks grounded in real-world fraud cases, covering 14 domains and 152 attack scenarios with prepared multimodal content. The tasks span four difficulty levels and reflect the distinct social and cultural contexts of Chinese and English environments. Agents inspect content, verify requests, and execute actions in simulated applications, with attack outcomes grounded in verifiable tool execution logs. To enable controlled red teaming of personal agents, we design a multimodal attack harness that integrates task information, attack progression control, and multimodal content construction to evaluate their intrinsic security against adaptive social engineering attacks in simulated environments. Evaluating seven widely used multimodal models across six dimensions reveals that all are vulnerable, with attack success rates of 7.1% to 34.5%. Adding multimodal content increases attack success from 19.9% to 29.2%, despite increased proactive verification coverage. Stronger safety instructions reduce attack success without improving recognition of deceptive multimodal content, while lower attack success rates for some models accompany excessive refusal of legitimate requests.",
+    "url": "http://arxiv.org/abs/2611.08281v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08281v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.08237v1",
+    "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+    "authors": [
+      "Xiaojun Wu",
+      "Cehao Yang",
+      "Xuhui Jiang",
+      "Chengjin Xu",
+      "Jia Li"
+    ],
+    "abstract": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked. We introduce TB-MathModel (the Terminal-style Mathematical Modeling Bench), the first benchmark to make complete contest-style modeling problems agentic, verifiable, and terminal at once, over 18 real CUMCM and MCM problems (2023--2025). Each task ships the verbatim statement, official attachments, and figures in a containerized terminal; the agent returns one JSON artifact, scored on the numeric core of the final question against a reproduction of the Outstanding-award paper. Two design choices distinguish it: direction-aware, one-sided scoring, which never penalises beating the anchor, and two-layer feasibility verification---a programmatic gate over six decidable invariant forms plus 624 Lean~4 obligations---with a hard gate that zeroes infeasible answers. Each task is scored against a panel of human outstanding papers rather than one, so a model must be close to many accepted answers; across seven multimodal entries (three seeds each) the strongest reach a multi-reference O-Eval of 64.58\\%, while the \\$2.54 open model holds 59.81\\% at $1/100$ the cost. TB-MathModel turns the numeric core of modeling into a reproducible, machine-checkable signal for measuring long-horizon modeling competence and for collecting agent trajectories. The source code is available at https://github.com/wxj630/terminal-bench-math-modeling.",
+    "url": "http://arxiv.org/abs/2611.08237v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08237v1",
+    "published": "2026-11-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

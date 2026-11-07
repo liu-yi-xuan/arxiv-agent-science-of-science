@@ -24,6 +24,46 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-07
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Scientist World: Grow a Research World for AI-Scientists](http://arxiv.org/abs/2611.08478v1) | Taiming Lu, Sachin Konan, Zhuang Liu | AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [τ-bench-LILT: Evaluating Conversational Agents on Realistic Multilingual Tool-Use Tasks](http://arxiv.org/abs/2611.07203v1) | Kaden Uhlig, Kiarash Mokhtari, Anıl Arslan et al. | Frontier evaluations of tool-using conversational agents are conducted almost exclusively in English, leaving a critical gap for organizations deploying agents in other languages and regions. |
+| [A Gingerbread House for LLM Agents: Source-Planned Honeypots That Lure Autonomous Attackers into an Isolated Shadow](http://arxiv.org/abs/2611.07611v1) | Seungdeok Roh, Seokjun Ryu, Sohee Park et al. | LLM agents can exploit web vulnerabilities fast enough that patching may come too late. Deception against such agents has mostly lured them away from a real target that stays reachable. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving](http://arxiv.org/abs/2611.08196v1) | Sai Vallurupalli, Francis Ferraro | Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. |
+| [Leveraging deep generative modelling at the agent level in discrete-event simulations](http://arxiv.org/abs/2611.07995v1) | Margherita Molaro, Matthew M. Graham, Oliver Watson et al. | Emulators are often invoked to facilitate parameter inference in computationally intensive agent-based simulations (ABSs). |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [U.S. State Guidance on AI in K-12 Education: A Comparative Content and Citation Analysis](http://arxiv.org/abs/2611.06762v1) | Shahan Ali Memon, Anna-Maria Gueorguieva, Anukriti Kumar et al. | In the years following the public release of ChatGPT in late 2022, more than half of U.S. states have published formal guidelines around AI usage in K-12 education, creating a record of largely ind... |
+| [Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis](http://arxiv.org/abs/2611.06596v1) | Kira Pugh, Rebecca M Crossley, Sara Hamis | Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents](http://arxiv.org/abs/2611.07689v1) | Yizhen Jiang, Haowei Guo, Tianyi Bai et al. | Large language model agents are increasingly deployed through the Model Context Protocol (MCP), which allows them to discover and invoke tools across multiple servers at runtime. |
+| [TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research](http://arxiv.org/abs/2611.07962v1) | Yifan Luo, Zhengying Liu, Yang Yuan et al. | Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? |
+| [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](http://arxiv.org/abs/2611.08281v1) | Zhitao He, Chi Him Zhang, Chengru Han et al. | Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such ... |
+| [Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling](http://arxiv.org/abs/2611.08237v1) | Xiaojun Wu, Cehao Yang, Xuhui Jiang et al. | Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible r... |
+
 ### 📅 2026-11-06
 
 **12 new papers found**
