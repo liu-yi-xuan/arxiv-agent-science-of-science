@@ -24,6 +24,29 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-08
+
+**4 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Scientist World: Grow a Research World for AI-Scientists](http://arxiv.org/abs/2611.08478v1) | Taiming Lu, Sachin Konan, Zhuang Liu | AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving](http://arxiv.org/abs/2611.08196v1) | Sai Vallurupalli, Francis Ferraro | Complex problems with limited context, such as claims, require a means to obtain additional knowledge necessary for solution reasoning. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](http://arxiv.org/abs/2611.08281v1) | Zhitao He, Chi Him Zhang, Chengru Han et al. | Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such ... |
+| [Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling](http://arxiv.org/abs/2611.08237v1) | Xiaojun Wu, Cehao Yang, Xuhui Jiang et al. | Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible r... |
+
 ### 📅 2026-11-07
 
 **11 new papers found**
