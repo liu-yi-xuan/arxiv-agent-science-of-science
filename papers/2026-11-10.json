@@ -1,0 +1,225 @@
+[
+  {
+    "id": "2611.12552v1",
+    "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
+    "authors": [
+      "Weimin Wu",
+      "Han Liu"
+    ],
+    "abstract": "We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effectiveness: (i) without shared memory, agents lose observations and repeat work; (ii) fixed role procedures, handoffs, and memory policies perpetuate mistakes despite retained evidence. We address these problems with a shared evidence graph and separate component editors. SciMARS adapts roles and coordination; SciMARS + Memory adds a third editor for how agents record, retrieve, and receive evidence. Candidate probes guide composition and selection of the next harness. We evaluate scientific discovery through experimental-data replay and a digital twin. SciMARS + Memory resolves 12/18 GPT-6-Astra and 2/18 GLM-5.3 attempts on Autonomous Science Bench, compared with 8/18 and 1/18 for the base multi-agent team. On ScienceAgentBench and AppWorld, it solves 14/38 and 11/20 tasks, compared with 11/38 and 5/20 for the base team. These results support combining shared memory with harness adaptation across scientific and interactive tasks.",
+    "url": "http://arxiv.org/abs/2611.12552v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12552v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.12184v1",
+    "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
+    "authors": [
+      "Guowei Xu",
+      "Jiaru Zou",
+      "Mete Erdogan",
+      "Haotian Ye",
+      "Pan Lu"
+    ],
+    "abstract": "Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation. We evaluate BVSR across five proposer models and 12 scientific tasks. Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines. Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals. When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction. These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.",
+    "url": "http://arxiv.org/abs/2611.12184v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12184v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.12222v1",
+    "title": "PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment",
+    "authors": [
+      "Christophe Cruz",
+      "Hussam Ghanem",
+      "Samir Jabbar",
+      "Ait Kbir",
+      "Hocine Cherifi"
+    ],
+    "abstract": "Systematic literature reviews (SRs) remain slow and labor-intensive, and most automation tools address single stages of the workflow. We present PARIS (PRISMA Agentic Research Intelligence System), an open-source framework in which a conductor agent running in Claude Code orchestrates 15 specialized large language model (LLM) agents, from scoping a research question to exporting a manuscript draft. Agents are specified declaratively, coordinate exclusively through persisted artifacts that the conductor validates before every transition, and delegate retrieval, bibliometric analysis and scoring to deterministic Python utilities. Three human checkpoints gate study inclusion, corpus adequacy and the synthesis outline. We also introduce QualityScore, a pre-synthesis index that aggregates normalized network, bibliometric, semantic and process sub-scores into a 0-100 grade. Two case studies illustrate both: AI chatbots and university students' learning (388 records, 100 included) and AI-assisted SR methods (131 records, 123 included, QualityScore 69.1 recomputed with a proxy network sub-score). They show end-to-end feasibility across domains and the diagnostic use of QualityScore: in the first run, corpus improvements chosen at the corpus-adequacy checkpoint raised the score from 74.6 to 81.9 and the number of pre-2023 studies from 1 to 19. Audits of both runs exposed failure modes: incomplete retrieval, counts that drifted between agents, unrecorded or delegated checkpoint decisions and a grade that depends on how citation data are handled. PARIS fully supports 8 of the 27 PRISMA 2020 items and partially supports 11. Output quality has so far been judged only by an internal reviewer agent; independent validation against human reviews is the next step.",
+    "url": "http://arxiv.org/abs/2611.12222v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12222v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.10841v1",
+    "title": "A Gamified Framework for Conflict-Driven Design: Discovering Strategies for Collaborative Resilience with Multi-Agent Learning",
+    "authors": [
+      "Jin Gao"
+    ],
+    "abstract": "Conflicting stakeholder objectives make it difficult to coordinate investments in urban resilience. We model conflict-driven urban design as a non-zero-sum digital board game in which stakeholder agents allocate scarce resources and balance individual payoffs against shared urban development and resilience objectives. We use multi-agent reinforcement learning (MARL) to train policies and examine their behavior across three settings. On a 4 x 4 board, learned policies reach about 84% of the total return found by a simulated annealing benchmark. On an 8 x 8 board with spatial and resource constraints, trained agents favor projects that improve resilience in self-play. In a 12 x 12 simulation initialized from historical maps of Tatsumi, Tokyo, trained agents achieve a mean total score of 452.1, compared with 357.3 for a random-policy baseline across 10,000 simulation runs. Gains in adaptability, sustainability, flood resistance, and greenery come with reductions in vitality and density. A human-in-the-loop interface supports replay and lets participants take over stakeholder decisions, providing a testbed for exploring these trade-offs in participatory urban planning.",
+    "url": "http://arxiv.org/abs/2611.10841v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.10841v1",
+    "published": "2026-11-07",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.12014v1",
+    "title": "Benchmarking language models and agents for scientific reasoning in evolving materials laboratories",
+    "authors": [
+      "Xuyu Dong",
+      "Yixuan Li",
+      "Jianguo Huang",
+      "Feng Chen",
+      "Yiyun Zhou"
+    ],
+    "abstract": "Large language models and the multi-agent systems built around them could accelerate materials discovery by connecting scientific knowledge with experimental decisions. Existing benchmarks establish capabilities in domain knowledge, multimodal interpretation and scientific tool use. As language models increasingly support materials research workflows, their ability to distinguish closely related material states and reason accurately with quantitative evidence remains insufficiently evaluated. These abilities are essential for comparing material responses, assessing mechanisms and maintaining reliable judgements as experimental evidence accumulates. We introduce MatScope to evaluate three connected capabilities. M1 tests unaided, condition-specific reasoning through 200 tasks spanning ten research functions, using aluminium and high-entropy alloys as representative material systems. M2 tests agent-assisted transfer of related knowledge to unresolved materials questions. MatEvoBench-20 tests initial forecasts across scientific dependency chains and revisions of still-hidden responses as observations accumulate. Across eleven model deployments, including GPT-6 Astra and Claude Fable 5.1, given-input calculations and many physical explanations are handled well. Fine-grained response estimates, comparisons between similar states and quantitatively supported choices remain substantially weaker. Related literature improves selected estimates, while condition and baseline mismatches limit transfer. Progressive observations calibrate some downstream responses and destabilize earlier accurate predictions. MatScope establishes measurable targets for developing reliable scientific reasoning in future self-evolving materials laboratories and materials-aware world models.",
+    "url": "http://arxiv.org/abs/2611.12014v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12014v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.12118v1",
+    "title": "Joi-Bench-Task: Benchmarking Task Coordination in Full-duplex Voice Agents through Interactive Simulation",
+    "authors": [
+      "Xiangheng He",
+      "Mingjun Zhao",
+      "Zhehao Fan",
+      "Zhengjia Li",
+      "Xiaopeng Sun"
+    ],
+    "abstract": "Full-duplex voice agents enable natural, hands-free interaction, allowing users to refine requests, redirect ongoing work, and seek clarification while the agent is speaking. However, existing voice-agent benchmarks insufficiently isolate coordination between task execution and conversation. We introduce a benchmark that assesses this coordination by examining whether agents track what is being executed, what has been completed, what has been communicated, and what remains to be reported as the conversation evolves. We propose an interactive user simulator that introduces configurable interventions at designated timing in tool execution and spoken result delivery, supporting controllable and reproducible evaluation conditions. We evaluate five leading commercial voice agents along three dimensions: execution responsiveness, coordination under request changes, and coordination under interruptions. Agent evaluations reveal persistent coordination failures. Under request changes, the highest result completion rate is only 55%, indicating difficulty for current voice agents adapting to new requests while preserving earlier obligations. After user interruption, four of the five agents exhibit average information omission rates of at least 23%. These findings highlight task coordination as a central challenge for current voice agents in complex, evolving conversations.",
+    "url": "http://arxiv.org/abs/2611.12118v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12118v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.11995v1",
+    "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+    "authors": [
+      "Zhengyu Hu",
+      "Zheyuan Xiao",
+      "Yike Wang",
+      "Hamish Ivison",
+      "Haoyu Wang"
+    ],
+    "abstract": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation horizon, while 135 of the 150 runs achieve further improvements during the second half of their budgets. These findings indicate that shorter evaluations can overlook both optimization gains and changes in relative model performance. We also find agents can discover solutions that outperform human-designed baselines: Claude Opus 5.5 increases the mean KV-cache compression ratio from 6.82% with the human-designed Quant-VideoGen codec to 19.86%. Analysis of agent trajectories identifies task violations, unreliable testing, and premature completion as barriers to sustained improvement. Together, Our Infrathon framework provide resources for constructing long-horizon tasks, evaluating frontier agents, and discovering good infrastructure solutions.",
+    "url": "http://arxiv.org/abs/2611.11995v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.11995v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.11896v1",
+    "title": "LEGION: Benchmarking Language Agents on Sparse-Signal Investigation Under Adversarial Noise",
+    "authors": [
+      "Samuel Joseph Amouyal",
+      "Ofek Glick",
+      "Yaniv Menasherov",
+      "Eyal Fisher",
+      "Ohav Barbi"
+    ],
+    "abstract": "Autonomous language-model agents are increasingly deployed on discovery-driven tasks where signal is sparse and most retrieved information is irrelevant. Current benchmarks fail to evaluate this regime due to dense signals, cooperative environments, and ground truth typically being only a few tool calls away. We introduce Legion, a benchmark framework coupling a stochastic enterprise-telemetry simulator (Legion-Sim) with a tiered library of 74 expertly-crafted adversarial scenarios (Legion-Bench) and an evaluation protocol that scores investigation efficiency alongside detection accuracy. Scenarios are injected into freshly simulated companies, allowing independent control over confounder density and event volume. We test five agent architectures on two simulated companies and find that while recall is high (0.82-0.88) precision lags behind (0.61--0.72). They fail to find all of the indicators of compromise of the attack or mistake genuine indicators with attack related ones, which is critical in the context of cybersecurity investigation. Failures are consistent across reasoning tiers and persist across confounder density and event volume. We release Legion, the scenario library, performance on common agent architectures, and pipeline for reproducibility and extension.",
+    "url": "http://arxiv.org/abs/2611.11896v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.11896v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.11796v1",
+    "title": "Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment",
+    "authors": [
+      "Yiqun T. Chen",
+      "Jan Matthias",
+      "Jianing Yao",
+      "Hongyu Eric Zhao",
+      "Stephanie C. Hicks"
+    ],
+    "abstract": "AI agents are increasingly automating data analysis, but responsible adoption requires reliable performance evaluation, which is costly in specialized scientific domains. We introduce a framework that translates scientific publications into auditable benchmarks for AI agents and demonstrate its use on spatial transcriptomics alignment tasks. Across 121 tasks, 16 baseline methods, and six AI agents, the best agents (GPT-6-Astra and Gemini-4-Argon) matched or outperformed all baselines on 80% of tasks, often using surprisingly simple heuristics. Agent performance was robust to prompting and access to pre-installed packages. Benchmark construction also uncovered errors in prior work and shortcuts in current evaluation metrics. Finally, we show that agent-generated solutions can be distilled into a reusable program that ranks in the top 10% of baseline methods on unseen data. Our framework offers a scalable way to evaluate AI agents in specialized scientific domains by leveraging and stress-testing existing papers and metrics.",
+    "url": "http://arxiv.org/abs/2611.11796v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.11796v1",
+    "published": "2026-11-09",
+    "categories": [
+      "q-bio.GN",
+      "cs.AI",
+      "stat.AP"
+    ],
+    "primary_category": "q-bio.GN",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.11437v1",
+    "title": "How to \"train\" a surgeon? Benchmarking generalist agents in surgical scene understanding",
+    "authors": [
+      "Gengyuan Zhang",
+      "Xiao Han",
+      "Shijie Zhou",
+      "Abdullah Koukash",
+      "Jingpei Wu"
+    ],
+    "abstract": "Evaluating general-purpose multimodal large language models (MLLMs) for surgical scene understanding remains limited due to scarce surgical data and fragmented evaluation protocols. We address these challenges through a two-stage evaluation framework for surgical scene understanding. In Stage I, we introduce SurgKnowBench, a diagnostic benchmark that harmonizes public surgical datasets across procedures and tasks and evaluates proprietary and open-source MLLMs to map the boundary of pretrained surgical competence. SurgKnowBench reveals that current models retain partial visual priors but remain weak on relational and procedural understanding and workflow assessment. Building on this failure frontier and motivated by the scaffolded nature of surgical training, we introduce SurgAgentGym, an agentic environment where general-purpose MLLM agents can use bounded knowledge search over SurgWiki and general-purpose visual grounding for surgical tasks. SurgAgentGym evaluates whether generalist agents can improve surgical understanding at inference time through tool-mediated evidence use, without additional surgical training. Our results show that agentic inference narrows the gap mainly for perception-heavy tasks, while fine-grained localization and expert-style assessment remain persistent bottlenecks. This opens a path toward future studies of agentic surgical understanding.",
+    "url": "http://arxiv.org/abs/2611.11437v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.11437v1",
+    "published": "2026-11-08",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.12856v1",
+    "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+    "authors": [
+      "Zheng Jiang",
+      "Fang Niu",
+      "Bo Peng",
+      "Houde Qian",
+      "Wenyi Li"
+    ],
+    "abstract": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the model at run time. The quality of this organization therefore constitutes a distinct capability, yet existing benchmarks either measure end-to-end task completion or evaluate coordination under structures specified in advance. We formalize this capability as workflow orchestration and introduce WorkflowArena, a benchmark of 145 long-horizon tasks spanning 8 professional domains, from software engineering and formal mathematics to legal analysis and 3D production. Each task specifies an initial workspace and an integrated deliverable composed of interdependent components, which is assessed by a hidden verifier. Agents determine autonomously whether and how to delegate, and all delegation is recorded, enabling joint evaluation of deliverable quality and the organization of the underlying work. Experiments with nine models show that no single configuration performs best across all domains and that systems exhibit distinct delegation strategies: at high effort, Claude models in Claude Code invoke workflows less frequently but with larger worker groups, whereas GPT models in Codex delegate more frequently in smaller units. When the executing model is held fixed on a challenging subset of tasks, workflows authored by Claude Opus 5.5 substantially improve weaker executors, indicating that workflow organization is itself a measurable determinant of task performance.",
+    "url": "http://arxiv.org/abs/2611.12856v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12856v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

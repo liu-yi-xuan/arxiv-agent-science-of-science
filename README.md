@@ -24,6 +24,41 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-10
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery](http://arxiv.org/abs/2611.12552v1) | Weimin Wu, Han Liu | We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. |
+| [Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists](http://arxiv.org/abs/2611.12184v1) | Guowei Xu, Jiaru Zou, Mete Erdogan et al. | Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor g... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment](http://arxiv.org/abs/2611.12222v1) | Christophe Cruz, Hussam Ghanem, Samir Jabbar et al. | Systematic literature reviews (SRs) remain slow and labor-intensive, and most automation tools address single stages of the workflow. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A Gamified Framework for Conflict-Driven Design: Discovering Strategies for Collaborative Resilience with Multi-Agent Learning](http://arxiv.org/abs/2611.10841v1) | Jin Gao | Conflicting stakeholder objectives make it difficult to coordinate investments in urban resilience. We model conflict-driven urban design as a non-zero-sum digital board game in which stakeholder a... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Benchmarking language models and agents for scientific reasoning in evolving materials laboratories](http://arxiv.org/abs/2611.12014v1) | Xuyu Dong, Yixuan Li, Jianguo Huang et al. | Large language models and the multi-agent systems built around them could accelerate materials discovery by connecting scientific knowledge with experimental decisions. |
+| [Joi-Bench-Task: Benchmarking Task Coordination in Full-duplex Voice Agents through Interactive Simulation](http://arxiv.org/abs/2611.12118v1) | Xiangheng He, Mingjun Zhao, Zhehao Fan et al. | Full-duplex voice agents enable natural, hands-free interaction, allowing users to refine requests, redirect ongoing work, and seek clarification while the agent is speaking. |
+| [Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization](http://arxiv.org/abs/2611.11995v1) | Zhengyu Hu, Zheyuan Xiao, Yike Wang et al. | In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. |
+| [LEGION: Benchmarking Language Agents on Sparse-Signal Investigation Under Adversarial Noise](http://arxiv.org/abs/2611.11896v1) | Samuel Joseph Amouyal, Ofek Glick, Yaniv Menasherov et al. | Autonomous language-model agents are increasingly deployed on discovery-driven tasks where signal is sparse and most retrieved information is irrelevant. |
+| [Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment](http://arxiv.org/abs/2611.11796v1) | Yiqun T. Chen, Jan Matthias, Jianing Yao et al. | AI agents are increasingly automating data analysis, but responsible adoption requires reliable performance evaluation, which is costly in specialized scientific domains. |
+| [How to "train" a surgeon? Benchmarking generalist agents in surgical scene understanding](http://arxiv.org/abs/2611.11437v1) | Gengyuan Zhang, Xiao Han, Shijie Zhou et al. | Evaluating general-purpose multimodal large language models (MLLMs) for surgical scene understanding remains limited due to scarce surgical data and fragmented evaluation protocols. |
+| [WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2611.12856v1) | Zheng Jiang, Fang Niu, Bo Peng et al. | Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. |
+
 ### 📅 2026-11-09
 
 *No new papers found today.*
