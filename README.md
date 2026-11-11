@@ -24,6 +24,31 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-11
+
+**6 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DrugCoding: A Scientific Programming Agent for Drug Discovery](http://arxiv.org/abs/2611.13651v1) | Junwei Hu, Zhuohao Lin, Kun Li et al. | Drug discovery involves multiple interconnected research stages, including molecular design, property prediction, and virtual screening. |
+| [SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery](http://arxiv.org/abs/2611.12552v1) | Weimin Wu, Han Liu | We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. |
+| [Synapse-Control: Making Agent Experience Actionable with Lightweight Runtime Control](http://arxiv.org/abs/2611.13615v1) | Zhiyuan Huang, Shengan Zheng, Chenghu Yang et al. | Large language model agents reuse execution experience to improve reliability on complex tool-based tasks. |
+| [Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists](http://arxiv.org/abs/2611.12184v1) | Guowei Xu, Jiaru Zou, Mete Erdogan et al. | Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor g... |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment](http://arxiv.org/abs/2611.12222v1) | Christophe Cruz, Hussam Ghanem, Samir Jabbar et al. | Systematic literature reviews (SRs) remain slow and labor-intensive, and most automation tools address single stages of the workflow. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning](http://arxiv.org/abs/2611.13454v1) | Zhiming Xue, Jianan Liu, Weiran Yan et al. | We introduce SafeRoute-MAS, a coverage-aware, risk-calibrated procedure that keeps all specialist messages or removes one using only pre-integration information. |
+
 ### 📅 2026-11-10
 
 **11 new papers found**

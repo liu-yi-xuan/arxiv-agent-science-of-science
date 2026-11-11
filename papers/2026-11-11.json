@@ -1,0 +1,121 @@
+[
+  {
+    "id": "2611.13651v1",
+    "title": "DrugCoding: A Scientific Programming Agent for Drug Discovery",
+    "authors": [
+      "Junwei Hu",
+      "Zhuohao Lin",
+      "Kun Li",
+      "Hengnan Zhang"
+    ],
+    "abstract": "Drug discovery involves multiple interconnected research stages, including molecular design, property prediction, and virtual screening. These processes are characterized by complex workflows, interdependent computational tasks, and diverse specialized tools, placing substantial demands on the coordination of scientific models and computational resources. However, existing large language model (LLM)-based scientific agents still face challenges in autonomous planning of complex tasks, adaptive selection of specialized models, and reliable execution of multi-stage scientific computations, limiting their effectiveness in automating complex drug discovery workflows. To address these challenges, we propose DrugCoding, a scientific programming agent system that integrates scientific task planning, adaptive model routing, multi-agent collaboration, and programmatic tool execution. DrugCoding enables autonomous task planning and dynamic model adaptation for complex research objectives. It can flexibly invoke specialized scientific models, autonomously generate and execute code according to task requirements, and leverage multi-agent collaboration to support efficient execution and reliable validation of complex scientific tasks. To evaluate DrugCoding's performance in scientific tool invocation and multi-stage task execution, we conduct multi-turn tool-calling experiments across diverse language models and scientific tool interfaces. Experimental results demonstrate that DrugCoding achieves an average session-level Pass@1 of 97.35% on the full benchmark, outperforming the strongest baseline, Codex, by 9.24%. On the challenging subset, DrugCoding achieves 97.92%, exceeding the strongest baseline.",
+    "url": "http://arxiv.org/abs/2611.13651v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13651v1",
+    "published": "2026-11-10",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.12552v1",
+    "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
+    "authors": [
+      "Weimin Wu",
+      "Han Liu"
+    ],
+    "abstract": "We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effectiveness: (i) without shared memory, agents lose observations and repeat work; (ii) fixed role procedures, handoffs, and memory policies perpetuate mistakes despite retained evidence. We address these problems with a shared evidence graph and separate component editors. SciMARS adapts roles and coordination; SciMARS + Memory adds a third editor for how agents record, retrieve, and receive evidence. Candidate probes guide composition and selection of the next harness. We evaluate scientific discovery through experimental-data replay and a digital twin. SciMARS + Memory resolves 12/18 GPT-6-Astra and 2/18 GLM-5.3 attempts on Autonomous Science Bench, compared with 8/18 and 1/18 for the base multi-agent team. On ScienceAgentBench and AppWorld, it solves 14/38 and 11/20 tasks, compared with 11/38 and 5/20 for the base team. These results support combining shared memory with harness adaptation across scientific and interactive tasks.",
+    "url": "http://arxiv.org/abs/2611.12552v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12552v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.13615v1",
+    "title": "Synapse-Control: Making Agent Experience Actionable with Lightweight Runtime Control",
+    "authors": [
+      "Zhiyuan Huang",
+      "Shengan Zheng",
+      "Chenghu Yang",
+      "Song Zhang",
+      "Lingyun Li"
+    ],
+    "abstract": "Large language model agents reuse execution experience to improve reliability on complex tool-based tasks. Systems such as Sentry call large models to generate failure diagnoses before retrieving advice, adding inference cost to experience reuse. We present Synapse-Control, an agent runtime whose lightweight control plane selects advice and determines when to send it to the task-executing model. Rules shortlist relevant advice, and a lightweight 1.7B classifier fine-tuned on teacher-labeled state-suggestion pairs scores those candidates instead of generating a diagnosis. Micro-contracts encode reusable interface checks, such as required arguments or valid options, without prescribing complete task programs. A Prompt Value Table records earlier guidance and feedback to limit repeated suggestions through cooldown and token-budget checks. Across 1,308 attempts per method in AppWorld and WebShop, Synapse-Control achieves 270 successes (29.8% more than Base), replaces 4,987 generative diagnosis calls, and reduces auxiliary control time relative to Sentry by 50.2% and 51.0%, respectively.",
+    "url": "http://arxiv.org/abs/2611.13615v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13615v1",
+    "published": "2026-11-10",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.12184v1",
+    "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
+    "authors": [
+      "Guowei Xu",
+      "Jiaru Zou",
+      "Mete Erdogan",
+      "Haotian Ye",
+      "Pan Lu"
+    ],
+    "abstract": "Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation. We evaluate BVSR across five proposer models and 12 scientific tasks. Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines. Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals. When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction. These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.",
+    "url": "http://arxiv.org/abs/2611.12184v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12184v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.12222v1",
+    "title": "PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment",
+    "authors": [
+      "Christophe Cruz",
+      "Hussam Ghanem",
+      "Samir Jabbar",
+      "Ait Kbir",
+      "Hocine Cherifi"
+    ],
+    "abstract": "Systematic literature reviews (SRs) remain slow and labor-intensive, and most automation tools address single stages of the workflow. We present PARIS (PRISMA Agentic Research Intelligence System), an open-source framework in which a conductor agent running in Claude Code orchestrates 15 specialized large language model (LLM) agents, from scoping a research question to exporting a manuscript draft. Agents are specified declaratively, coordinate exclusively through persisted artifacts that the conductor validates before every transition, and delegate retrieval, bibliometric analysis and scoring to deterministic Python utilities. Three human checkpoints gate study inclusion, corpus adequacy and the synthesis outline. We also introduce QualityScore, a pre-synthesis index that aggregates normalized network, bibliometric, semantic and process sub-scores into a 0-100 grade. Two case studies illustrate both: AI chatbots and university students' learning (388 records, 100 included) and AI-assisted SR methods (131 records, 123 included, QualityScore 69.1 recomputed with a proxy network sub-score). They show end-to-end feasibility across domains and the diagnostic use of QualityScore: in the first run, corpus improvements chosen at the corpus-adequacy checkpoint raised the score from 74.6 to 81.9 and the number of pre-2023 studies from 1 to 19. Audits of both runs exposed failure modes: incomplete retrieval, counts that drifted between agents, unrecorded or delegated checkpoint decisions and a grade that depends on how citation data are handled. PARIS fully supports 8 of the 27 PRISMA 2020 items and partially supports 11. Output quality has so far been judged only by an internal reviewer agent; independent validation against human reviews is the next step.",
+    "url": "http://arxiv.org/abs/2611.12222v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12222v1",
+    "published": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.13454v1",
+    "title": "SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning",
+    "authors": [
+      "Zhiming Xue",
+      "Jianan Liu",
+      "Weiran Yan",
+      "Aicheng Xie",
+      "Jing Yang"
+    ],
+    "abstract": "We introduce SafeRoute-MAS, a coverage-aware, risk-calibrated procedure that keeps all specialist messages or removes one using only pre-integration information. On a sealed cache of 5,328 committees, its source-compatible operating point gains +1.80 percentage points (95% CI [+1.13, +2.52]) while removing 12.76% of message tokens. We also run 4,580 controlled integrations over a stratified 458-committee sample on a public gpt-oss-120b endpoint. The sample estimate is -0.09 points; design weighting to the original workload gives +0.94 points (95% CI [-1.31, +3.50]) and 18.72% acted-input reduction. A weighted token-matched comparison likewise does not establish a selector advantage (+1.68 points, CI [-1.27, +5.10]). Only 13 of 88 cached non-neutral labels (14.8%) retain direction by repeated-call majority. Expected-corruption UCL is 4.60% after weighting, but only 2 of 11 prespecified marginals pass the support/risk rule. We therefore propose a numerical qualification with Keep-All fallback, applied here retrospectively rather than validated prospectively.",
+    "url": "http://arxiv.org/abs/2611.13454v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13454v1",
+    "published": "2026-11-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  }
+]
