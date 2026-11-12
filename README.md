@@ -24,6 +24,33 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-12
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [DrugCoding: A Scientific Programming Agent for Drug Discovery](http://arxiv.org/abs/2611.13651v1) | Junwei Hu, Zhuohao Lin, Kun Li et al. | Drug discovery involves multiple interconnected research stages, including molecular design, property prediction, and virtual screening. |
+| [Synapse-Control: Making Agent Experience Actionable with Lightweight Runtime Control](http://arxiv.org/abs/2611.13615v1) | Zhiyuan Huang, Shengan Zheng, Chenghu Yang et al. | Large language model agents reuse execution experience to improve reliability on complex tool-based tasks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning](http://arxiv.org/abs/2611.13454v1) | Zhiming Xue, Jianan Liu, Weiran Yan et al. | We introduce SafeRoute-MAS, a coverage-aware, risk-calibrated procedure that keeps all specialist messages or removes one using only pre-integration information. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents](http://arxiv.org/abs/2611.13713v1) | Wenji Fang, Yao Lu, Jinghua Wang et al. | Recent advances in large language models (LLMs) and autonomous agents are creating new opportunities for hardware design optimization. |
+| [Agent Benchmarks Stop Ranking Before They Run Out of Tasks](http://arxiv.org/abs/2611.13541v1) | Zihan Dong, Qishi Zhan, Minxuan Hu | Data-science and ML-engineering agents are evaluated on benchmarks such as MLE-bench, ALE-Bench, SWE-fficiency and AlgoTune, whose tasks yield a quantity (a Kaggle metric, contest score or speedup). |
+| [AgentScript-Eval: Benchmarking LLMs and Agents for Code Generation in an Enterprise DSL](http://arxiv.org/abs/2611.13183v1) | Dipin Khati, Shubham Mehrotra, Bin Bi et al. | Domain-specific languages (DSLs) are widely used in enterprise software, giving a compact interface to complex tasks, from data access to infrastructure automation. |
+| [ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces](http://arxiv.org/abs/2611.14364v1) | Jiahang Lin, Wanying Ren, Wanghan Xu et al. | Research agents achieve increasingly strong benchmark scores, yet these scores do not necessarily translate into reliable delivery in ongoing research projects. |
+| [WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2611.12856v1) | Zheng Jiang, Fang Niu, Bo Peng et al. | Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. |
+
 ### 📅 2026-11-11
 
 **6 new papers found**
