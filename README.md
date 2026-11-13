@@ -24,6 +24,22 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-13
+
+**2 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Contain, Conform, Compare (Extended Version): A Red-Teamed Evaluation Kit for Small Coding Agents and the Full Record of Its Experiments](http://arxiv.org/abs/2611.16485v1) | Nguyen Minh Thang | A hosted score in the Gemma 4 Developer Agent competition is one noisy number, so development needs a local evaluator that is fast, safe for agent-written code, and matching the hosted scorer's pro... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research](http://arxiv.org/abs/2611.17041v1) | Yuyang Wu, Yang Liu, Zequn Xie et al. | Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. |
+
 ### 📅 2026-11-12
 
 **8 new papers found**
