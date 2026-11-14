@@ -1,0 +1,152 @@
+[
+  {
+    "id": "2611.16485v1",
+    "title": "Contain, Conform, Compare (Extended Version): A Red-Teamed Evaluation Kit for Small Coding Agents and the Full Record of Its Experiments",
+    "authors": [
+      "Nguyen Minh Thang"
+    ],
+    "abstract": "A hosted score in the Gemma 4 Developer Agent competition is one noisy number, so development needs a local evaluator that is fast, safe for agent-written code, and matching the hosted scorer's prompts. drydock-eval evaluates a small coding agent (Gemma 4 E4B) at about 250 runs per hour on one RTX 5090. Contain runs each job in a fresh container without network and passed 200 scripted escape tests; conform provides eight checks that compare a local stack's requests with the scorer's configuration, down to rendered tokens; compare provides paired statistics that respect repository clusters. AI agents built and attacked the kit; a human owner approved machine use and release. This extended version repeats the short paper and adds the full record of the experiments made with and around the kit: 9,660 rows of agent runs, 2,494 grading controls and 72 serving measurements, all released. On four L4 GPUs the 31B model decodes 38.1 tokens per second in one stream and E4B 105.8. Six configurations of a 31B agent solved between 37 and 44 of 70 development tasks, and no pairwise difference was detected. A pre-registered five-arm experiment (231 tasks, 4,620 jobs) measured four prompt divergences: no E4B solve-rate change was detected (largest estimate -2.1 points, 95% interval -4.4 to +0.4). Three changes of the E4B agent led their screens by +1.0 to +6.2 points; each was then tested once on new tasks under a frozen pass rule, and none was confirmed (gains -0.35, -0.39 and +4.10 points). The unchanged baseline, run again on the same 128 tasks, moved by 1.17 points, and 65% of these tasks were solved in none of eight runs. Prompts and agent bundles are withheld; every run-level result is public.",
+    "url": "http://arxiv.org/abs/2611.16485v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16485v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.17041v1",
+    "title": "From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research",
+    "authors": [
+      "Yuyang Wu",
+      "Yang Liu",
+      "Zequn Xie",
+      "Junjie Wang",
+      "Dan Yang"
+    ],
+    "abstract": "Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. Yet delegation helps only when task allocation and subtask execution are coordinated: the main agent must issue useful subtasks, while subagents must return reliable evidence. Existing training either optimizes only the main agent or broadcasts the same team advantage to all agents, which can reward misleading subagent reports and penalize useful ones. We introduce LEAD-RL (Learning Effective Agent Delegation with Reinforcement Learning), a joint main-agent-subagent training framework with contribution-aware credit assignment. A training-time rubric evaluates the research utility of each subagent report and gates its inherited team advantage, while final-answer correctness remains the only team reward; no token, step, or speedup reward is used. Across five benchmarks and two model families, LEAD-RL improves answer quality. On BrowseComp, it improves accuracy by 2.49 percentage points and reduces critical-path cost by 24.5% over joint training with shared team credit. During validation, accuracy increases by 6.78 points at approximately constant critical-path cost. These results show that contribution-aware credit assignment improves the quality-efficiency trade-off of multi-agent deep research.",
+    "url": "http://arxiv.org/abs/2611.17041v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17041v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.17233v1",
+    "title": "Assessing the Reliability of Longitudinal Bibliometric Rankings under Incomplete Citation Histories",
+    "authors": [
+      "João Paulo Papa"
+    ],
+    "abstract": "Longitudinal bibliometric analyses rely on annual citation histories, yet missing annual observations are frequently difficult to distinguish from true zero-citation years. We present a reproducible case-study framework for auditing citation-history gaps, tracing retrieval provenance, and quantifying the sensitivity of longitudinal indicators and rankings to explicit missing-data assumptions. The case study comprises 595 consolidated publications derived from 616 Google Scholar article records, and examines the completed calendar years 2024-2025. Three scenarios are compared: strictly observed annual counts (A), hypothetical zeros for internal gaps only (B), and hypothetical zeros for all missing years within a valid publication interval (C). The number of publications with computable growth and acceleration indicators increases from 196 (A) to 257 (B) and 490 (C); the corresponding counts for a revival indicator are 131, 152, and 177. Although the ordering of publications eligible under both compared scenarios is unchanged (Spearman and Kendall correlations equal to 1.0), complete-ranking positions and Top-K membership may change markedly. In particular, acceleration exhibits a Jaccard overlap of 0.563 at K=50 between A and C, while revival exhibits 0.667 at K=10. These findings demonstrate that unchanged indicator values and perfect correlations on a common subset do not guarantee stable rankings when eligibility changes. The zero assignments are hypothetical sensitivity assumptions, not evidence of provider semantics. The results are descriptive and based on a single researcher profile. A reusable Google Scholar Tracker software workflow supports the audit and sensitivity analysis; version 1.8.5 is publicly available on GitHub and archived on Zenodo (DOI: 10.5281/zenodo.24170285).",
+    "url": "http://arxiv.org/abs/2611.17233v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17233v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.DL"
+    ],
+    "primary_category": "cs.DL",
+    "our_category": "Computational Science of Science"
+  },
+  {
+    "id": "2611.15831v1",
+    "title": "NIBench: benchmarking autonomous AI agents for execution, skill evolution and scientific judgment in neuroimaging",
+    "authors": [
+      "Lujia Zhong",
+      "Yihao Xia",
+      "Jianwei Zhang",
+      "Shuo Huang",
+      "Xinyu Nie"
+    ],
+    "abstract": "Autonomous AI agents are increasingly used to automate biomedical research, creating a growing need to benchmark their capabilities on real scientific data and workflows. Their reliability in neuroimaging remains insufficiently characterized, where plausible analytical outputs can conceal errors that affect scientific conclusions. Existing studies have advanced scientific question answering and tool-based automation, but provide limited evidence on workflow reconstruction, acquisition of procedural expertise and evidence-based scientific judgment. Here we present NIBench, a neuroimaging benchmark comprising three complementary evaluations of autonomous agents. First, we benchmark execution and workflow reconstruction using 56 tasks across seven tool ecosystems, covering structural, diffusion and functional magnetic resonance imaging, positron emission tomography and multimodal analyses. Second, we examine whether agents can evolve their procedural skills through distillation of execution trajectories, evaluating the resulting skills on previously encountered tasks, unseen tasks and other models. Third, we assess scientific judgment using 36 claims from published Alzheimer's disease studies, requiring agents to analyse raw cohort data and provide reproducible evidence. We evaluate 19 language models within a shared agent framework, with selected models undergoing skill distillation and claim evaluation. Leading agents execute supplied analysis protocols nearly perfectly, whereas withholding procedural guidance widens performance differences. Distilled skills improve performance on acquisition tasks and transfer between models, but benefits on unseen tasks are inconsistent. Agents reproduce their reported results yet sometimes reach conclusions inconsistent with expert-derived answers, and access to data does not always improve judgment.",
+    "url": "http://arxiv.org/abs/2611.15831v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.15831v1",
+    "published": "2026-11-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.17267v1",
+    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+    "authors": [
+      "Pengcheng Zhou",
+      "Xuanyu Liu",
+      "Yanchen Yin",
+      "Tianjie Ju",
+      "Bobo Li"
+    ],
+    "abstract": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world states to evolve along their own temporal processes while preserving verifiable state histories. LiveGeo places geographic tasks within this evolving environment, requiring agents to actively acquire task-relevant information, verify whether the evidence supporting prior decisions remains valid, and revise their plans when necessary. Our results reveal that even frontier LLMs struggle with static tasks, with no model consistently excelling across tasks, while strong static performance does not ensure dynamic reliability. Further analysis identifies a key bottleneck: agents struggle to acquire and translate relevant evidence into valid decisions and maintain their correctness as the world evolves. By releasing LiveGeo together with its GeoWorld platform, we aim to provide the community with a flexible and extensible infrastructure for studying the next generation of agents capable of reliable action in evolving geographic worlds.",
+    "url": "http://arxiv.org/abs/2611.17267v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17267v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.16991v1",
+    "title": "AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design",
+    "authors": [
+      " NovaSilicon Team"
+    ],
+    "abstract": "Coding agents have demonstrated strong capabilities in software development, yet their ability to tackle long-horizon engineering tasks governed by physical constraints remains less understood. We study this question through analog circuit layout, which demands domain knowledge, geometric reasoning, and iterative interaction with design and verification tools. We introduce \\textbf{AnalogLayoutWorld}, an open-source agent benchmark with 40 expert-reviewed tasks for end-to-end layout generation from fixed transistor-level netlists. It combines an integrated design environment with independent physical and post-layout electrical verification, as well as objective layout quality metrics co-designed with analog layout experts. Across 13 model--harness configurations, 91.1\\% of attempts produce GDS layouts, but only 23.0\\% satisfy the benchmark's acceptance criteria. We also evaluate Novara, an internally developed agent system, which achieves the highest reported aggregate score. Our analysis links performance differences to test-time scaling under fixed budgets, suggesting that reasoning efficiency and effective use of verification feedback help sustain design quality as task complexity grows.",
+    "url": "http://arxiv.org/abs/2611.16991v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16991v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.16590v1",
+    "title": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
+    "authors": [
+      "You Wu",
+      "Guhong Zhang",
+      "Hongwei Li",
+      "Xinyue Hong",
+      "Yuan Jia"
+    ],
+    "abstract": "Long-term spacecraft autonomy requires embodied agents to use operational history under communication delays, time-critical operations, environmental uncertainty, complex physical interactions, power and computational constraints, and safety and reliability requirements. We introduce AstroMemBench and a Scenario-Challenge-Capability design method that maps these requirements to executable memory tests. The benchmark covers 16 memory subchallenges through 140 templates and 2240 instances across nine tasks in planetary surface operations, on-orbit servicing, and deep-space exploration. A deterministic environment scores actions for task completion, state changes, safety, and resource use. Ablations under nine conditions show that the benchmark is sensitive to how accurately agents recover and use historical information and to differences in memory-system design. Main experiments compare six configurations. Mem0, Chain-of-Memory, LightMem, and retrieval-augmented generation (RAG) improve same-session mean scores over native Pi Agent, with no clear advantage of the three memory systems over RAG. After a session restart, Mem0 outperforms RAG by 12.25 points. Benefits favor instruction retention and result reuse over ongoing state tracking and energy reservation. AstroMemBench supports the design, development, and selection of memory systems for embodied spacecraft agents. AstroMemBench 1.0 and its evaluation code are publicly available: https://github.com/flyingView/AstroMemBench-v1.",
+    "url": "http://arxiv.org/abs/2611.16590v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16590v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.16493v1",
+    "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+    "authors": [
+      "Zipeng Ye",
+      "Shenyu Dai",
+      "Yong Xie",
+      "Kun Wang",
+      "Jiyang Guan"
+    ],
+    "abstract": "As agents perform tasks autonomously in local and cloud environments, auditing their execution trajectories can help service providers identify risks and improve agent harnesses and foundation models. Our analysis of production and red-team trajectories shows that some risks are repeatedly missed across auditing configurations. Overall recall obscures which risks are missed and whether higher recall comes with more false positives on legitimate behavior. Existing benchmarks offer limited insight into these failures. Generated trajectories can contain inconsistent tool calls and responses, conspicuous risky actions, or repetitive attack patterns. Grouping results by risk type also makes it difficult to tell whether auditors overlooked evidence, accepted an unsupported conclusion, or lacked information needed to make a judgment.   We introduce ReA-Bench, a diagnostic benchmark for auditing responsible agent behavior. It organizes auditing challenges into six tiers: internal safety knowledge, contradictions within trajectories, evidence retrieval in long contexts, verification of sources and reasoning, indirect steering, and missing information. It includes challenging benign cases in which actions resemble risky ones but are consistent with the task and its authorization. It also provides paired trajectory versions to test whether auditors detect the same risks more reliably when the trajectory is shortened or missing information is supplied. Most samples are drawn from real production trajectories, with scenarios manually selected and adapted to preserve realistic tasks and risks that could plausibly arise during execution.",
+    "url": "http://arxiv.org/abs/2611.16493v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16493v1",
+    "published": "2026-11-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

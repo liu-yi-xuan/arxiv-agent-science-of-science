@@ -24,6 +24,38 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-14
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Contain, Conform, Compare (Extended Version): A Red-Teamed Evaluation Kit for Small Coding Agents and the Full Record of Its Experiments](http://arxiv.org/abs/2611.16485v1) | Nguyen Minh Thang | A hosted score in the Gemma 4 Developer Agent competition is one noisy number, so development needs a local evaluator that is fast, safe for agent-written code, and matching the hosted scorer's pro... |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research](http://arxiv.org/abs/2611.17041v1) | Yuyang Wu, Yang Liu, Zequn Xie et al. | Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Assessing the Reliability of Longitudinal Bibliometric Rankings under Incomplete Citation Histories](http://arxiv.org/abs/2611.17233v1) | João Paulo Papa | Longitudinal bibliometric analyses rely on annual citation histories, yet missing annual observations are frequently difficult to distinguish from true zero-citation years. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [NIBench: benchmarking autonomous AI agents for execution, skill evolution and scientific judgment in neuroimaging](http://arxiv.org/abs/2611.15831v1) | Lujia Zhong, Yihao Xia, Jianwei Zhang et al. | Autonomous AI agents are increasingly used to automate biomedical research, creating a growing need to benchmark their capabilities on real scientific data and workflows. |
+| [LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds](http://arxiv.org/abs/2611.17267v1) | Pengcheng Zhou, Xuanyu Liu, Yanchen Yin et al. | We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geogra... |
+| [AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design](http://arxiv.org/abs/2611.16991v1) |  NovaSilicon Team | Coding agents have demonstrated strong capabilities in software development, yet their ability to tackle long-horizon engineering tasks governed by physical constraints remains less understood. |
+| [AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents](http://arxiv.org/abs/2611.16590v1) | You Wu, Guhong Zhang, Hongwei Li et al. | Long-term spacecraft autonomy requires embodied agents to use operational history under communication delays, time-critical operations, environmental uncertainty, complex physical interactions, pow... |
+| [ReA-Bench: Benchmarking Responsible Agent Auditing](http://arxiv.org/abs/2611.16493v1) | Zipeng Ye, Shenyu Dai, Yong Xie et al. | As agents perform tasks autonomously in local and cloud environments, auditing their execution trajectories can help service providers identify risks and improve agent harnesses and foundation models. |
+
 ### 📅 2026-11-13
 
 **2 new papers found**
