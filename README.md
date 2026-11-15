@@ -24,6 +24,29 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-15
+
+**4 new papers found**
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research](http://arxiv.org/abs/2611.17041v1) | Yuyang Wu, Yang Liu, Zequn Xie et al. | Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Assessing the Reliability of Longitudinal Bibliometric Rankings under Incomplete Citation Histories](http://arxiv.org/abs/2611.17233v1) | João Paulo Papa | Longitudinal bibliometric analyses rely on annual citation histories, yet missing annual observations are frequently difficult to distinguish from true zero-citation years. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds](http://arxiv.org/abs/2611.17267v1) | Pengcheng Zhou, Xuanyu Liu, Yanchen Yin et al. | We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geogra... |
+| [AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design](http://arxiv.org/abs/2611.16991v1) |  NovaSilicon Team | Coding agents have demonstrated strong capabilities in software development, yet their ability to tackle long-horizon engineering tasks governed by physical constraints remains less understood. |
+
 ### 📅 2026-11-14
 
 **8 new papers found**
