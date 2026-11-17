@@ -24,6 +24,34 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-17
+
+**9 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Towards Agentic Scientific Discovery in Distributed Systems](http://arxiv.org/abs/2611.20031v1) | Rashmita Soni, Abhirup Ghosh, Soumya Banerjee | We investigate when adaptive tool selection helps identify a shared equation across clients with different input coverage. |
+| [Experience Rot: Experienced Agents Fail Where Novices Succeed](http://arxiv.org/abs/2611.20922v1) | Zhen Xu, Hang Yin, Zitao Zhang et al. | Agents are increasingly built to learn from experience: they keep conversation histories, memory files, retrieved notes and skills, and reuse what worked before. |
+| [D'BEAST: Logged Bad Experiences as Explanation for Autonomous Driving Agents](http://arxiv.org/abs/2611.20019v1) | Ahmad Alfan Alfian Irfan, Nur Ahmad Khatim, Mansur Arief | Reinforcement learning agents learn from mistakes, yet their decisions can be difficult to trace back to those experiences. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Same Papers, Different Verdicts: Tracing Version Drift in LLM Peer Review](http://arxiv.org/abs/2611.20608v1) | Jizhou Guo | Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development](http://arxiv.org/abs/2611.21273v1) | Zhiyu Zhou, Tianyou Liu, Xinping Yang et al. | We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. |
+| [VAHBench: A Harness Benchmark for Agentic Long-Video Generation](http://arxiv.org/abs/2611.20535v1) | Hongbo Zhang, Liuyang Song, Hang Zhou et al. | AI agents are commonly used for everyday information retrieval and coding. We ask whether they can also interpret human requests and turn them into complete videos. |
+| [SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations](http://arxiv.org/abs/2611.20218v1) | Xinping Lei, Minghao Liu, Ruijie Zhu et al. | A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. |
+| [Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning](http://arxiv.org/abs/2611.20045v1) | Yang Luo, Guangpu Chen, Yichen Liu et al. | Deep research and agentic search agents autonomously retrieve content from the open web and generate reports with citations, and their outputs are often taken directly as research conclusions. |
+| [LLM Trading Agents Earn Beta, Not Alpha: A Look-Ahead-Free Benchmark](http://arxiv.org/abs/2611.19530v1) | Jackson Wang | Large language model (LLM) trading agents now trade stocks for their users, and benchmarks rank models by their agents' returns. |
+
 ### 📅 2026-11-16
 
 *No new papers found today.*

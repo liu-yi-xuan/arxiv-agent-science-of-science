@@ -1,0 +1,181 @@
+[
+  {
+    "id": "2611.20031v1",
+    "title": "Towards Agentic Scientific Discovery in Distributed Systems",
+    "authors": [
+      "Rashmita Soni",
+      "Abhirup Ghosh",
+      "Soumya Banerjee"
+    ],
+    "abstract": "We investigate when adaptive tool selection helps identify a shared equation across clients with different input coverage. Query-ATLAS (query-conditioned Agentic Tool-based Learning for Aggregating Symbolic Equations) uses an LLM to guide symbolic search from client errors and previous proposals in a simulated distributed system. A four-architecture comparison reveals task-dependent opportunities: relative to fixed PySR-LLM, validation acceptances rise from 3/12 to 7/12 on CRK3 and from 11/12 to 12/12 on oscillator2, while MatSci3 favors the fixed workflow. Across 72 settings in a post-hoc six-task subset of eight development tasks, Query-ATLAS achieves 64 validation and 64 in-distribution passes, versus 62 and 59 for the fixed workflow; both pass 47/60 eligible out-of-distribution tests. The fixed workflow retains lower median errors and cost. Broader query coverage emerges as a promising benefit, motivating task-aware tool selection and client-aware fitting for scientific agents.",
+    "url": "http://arxiv.org/abs/2611.20031v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20031v1",
+    "published": "2026-11-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.20922v1",
+    "title": "Experience Rot: Experienced Agents Fail Where Novices Succeed",
+    "authors": [
+      "Zhen Xu",
+      "Hang Yin",
+      "Zitao Zhang",
+      "Kevin Zhao",
+      "Xuefeng Liu"
+    ],
+    "abstract": "Agents are increasingly built to learn from experience: they keep conversation histories, memory files, retrieved notes and skills, and reuse what worked before. We show that this experience turns against them when their tools change silently. We test a range of models with tools defined as in the Model Context Protocol (MCP). After a silent change, experienced agents fail on most tasks, while agents new to the task mostly succeed. We call this failure Experience Rot. Experienced agents copy their earlier call instead of checking the current interface, even when the tool definition shows the change. Then they report success. When the documentation is incomplete, experience is what makes agents succeed. After a change, the same experience leaves them worse off than no experience at all. The failure appears in every form of memory we test and grows with the amount of experience. Simple remedies fall short: announcing the update barely helps, and pointing the agent to the documentation fails whenever the documentation does not spell out the answer.",
+    "url": "http://arxiv.org/abs/2611.20922v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20922v1",
+    "published": "2026-11-16",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.20019v1",
+    "title": "D'BEAST: Logged Bad Experiences as Explanation for Autonomous Driving Agents",
+    "authors": [
+      "Ahmad Alfan Alfian Irfan",
+      "Nur Ahmad Khatim",
+      "Mansur Arief"
+    ],
+    "abstract": "Reinforcement learning agents learn from mistakes, yet their decisions can be difficult to trace back to those experiences. We investigate whether a tabular agent's decisions can be explained by its bad experiences, defined as the training transitions associated with safety or task events. A fixed training log is replayed from the same initial Q-table under three conditions. FULL retains all updates, SKIP omits bad-experience updates, and NEUTRALIZE retains those updates without their event penalties. We illustrate the method on six classic Markov decision processes and evaluate it in closed-loop driving in CARLA. On the full driving task, FULL reached the goal from 33 of 40 test starts, whereas SKIP and NEUTRALIZE reached it from none, indicating that the bad experiences carry decision-relevant information. At the local level, for 47 decisions shortly before a failure of SKIP or NEUTRALIZE, removing or neutralizing a small group of bad experiences, with a median size of one, caused the trained agent to select the failing policy's action in 46 cases. For this agent, the results indicate that its decisions can be explained by its bad experiences.",
+    "url": "http://arxiv.org/abs/2611.20019v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20019v1",
+    "published": "2026-11-15",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.20608v1",
+    "title": "Same Papers, Different Verdicts: Tracing Version Drift in LLM Peer Review",
+    "authors": [
+      "Jizhou Guo"
+    ],
+    "abstract": "Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months. We audit twenty frontier models from OpenAI, Google and Anthropic on ICLR 2027 submissions while they were under review, with tests registered before the decisions. Between an earlier and a later version of Claude Opus and of Gemini, the share of papers placed on the accept side falls by 52 and 53 percentage points on 183 and 60 randomly drawn submissions, and by 43 to 79 points in six further paired comparisons, with no paper moving up in any of them. Stating a 30% acceptance rate in the prompt leaves a gap of 79 points between the two Opus versions. When score-stripped critiques are swapped between versions, the later critiques alone lower the accept share by 35 points for Opus and 51 for Gemini; for Opus the drop is 35 points under a third-party scorer and 24 after a rewrite that keeps each technical point and removes evaluative wording. On 57 papers, the percentiles of Opus 4.6 and 5.5 correlate at 0.73 while their accept shares differ by 44 points. On 99 to 119 submissions, the self-estimated percentiles of three models correlate with two human reviewers more strongly than a third reviewer does (point estimates 0.17 to 0.21, 95% intervals between -0.04 and +0.42). All twenty models give a 2 or a 3 in 473 of their 475 reviews, against 60 of 72 human reviews. Retrospective tests on decided papers can draw on memory. Claude Opus 5.5 names the true first author of 27 decided ICLR 2026 papers from their titles alone, with no wrong name, and Claude Opus 4.6 accepted all 11 decided papers it said it recognized, against 5 expected. Thresholds on LLM-reviewer scores therefore have to be validated against human decisions for each model version; our tests against the ICLR 2027 decisions follow on 16 December 2026.",
+    "url": "http://arxiv.org/abs/2611.20608v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20608v1",
+    "published": "2026-11-16",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY",
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.21273v1",
+    "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+    "authors": [
+      "Zhiyu Zhou",
+      "Tianyou Liu",
+      "Xinping Yang",
+      "Yiyao Liu",
+      "Jiayi Dong"
+    ],
+    "abstract": "We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. A CAE solver is more than a PDE solver; it must be able to generalize across various inputs, such as different boundary conditions, geometries, and material properties. CAE-Bench evaluates the generalizability of AI-developed CAE solvers by providing the same task, such as a heat transfer problem, multiple cases, with each case specifying an input. The AI agent develops a solver for a fixed task using only a few public cases, and the resulting solver is then tested on held-out cases, i.e., cases it has never seen before. We evaluate 12 models across a range of reasoning settings on 80 computational tasks. Our experiments show that even if a solver developed by an AI agent performs well on the public cases, it may even get 0 score on held-out cases. For tasks such as fluid dynamics problems, even the solver developed by GPT-6 Astra performs poorly on held-out cases. A data format and an SDK for task registration are provided, so the researcher can use the benchmark on their own infrastructure. We hope that CAE-Bench will help the community to develop AI agents that can develop reusable CAE solvers that generalize to various inputs.",
+    "url": "http://arxiv.org/abs/2611.21273v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.21273v1",
+    "published": "2026-11-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.20535v1",
+    "title": "VAHBench: A Harness Benchmark for Agentic Long-Video Generation",
+    "authors": [
+      "Hongbo Zhang",
+      "Liuyang Song",
+      "Hang Zhou",
+      "Xinchen Liu",
+      "Wei He"
+    ],
+    "abstract": "AI agents are commonly used for everyday information retrieval and coding. We ask whether they can also interpret human requests and turn them into complete videos. We introduce VAHBench, a benchmark that tests this ability through five short-drama briefs specifying story, characters, dialogue and duration. Agents plan and carry out production using shared generation tools. Evaluation combines video completeness and basic quality with checks of production reliability and reporting accuracy. Across 240 runs covering 48 configurations of general-purpose and video-specific agents, higher quality scores do not necessarily mean more complete delivery. Missing episodes, repeated footage and static filler reveal gaps between producing a video file and fulfilling the brief. Added composition tools help some agents but do not consistently improve performance. VAHBench measures how well agents translate user intent into finished video content and helps identify where that process breaks down.",
+    "url": "http://arxiv.org/abs/2611.20535v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20535v1",
+    "published": "2026-11-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.20218v1",
+    "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+    "authors": [
+      "Xinping Lei",
+      "Minghao Liu",
+      "Ruijie Zhu",
+      "Xiaohui Hu",
+      "Xingqiao Li"
+    ],
+    "abstract": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior. Starting from a brief handoff, agents must recover requirements distributed across colleagues and workplace records, reconcile conflicting evidence, and implement changes evaluated by private executable tests. We evaluate eleven models and find a substantial gap between partial implementation and complete task delivery. The two leading models satisfy approximately 63% of fail-to-pass (F2P) tests but complete fewer than 8% of assignments. Providing complete requirements upfront improves F2P by approximately 16 percentage points for Seed Evolving and GPT-6 Astra, yet leaves complete task success unchanged. Requirement-level trajectory analysis reveals failures throughout the delivery process: Claude-Opus-5.5 directs a mean of 93% of first questions about queried cards to their accountable owners across runs but obtains only 64% of colleague-held requirements. Deferred questions go unfollowed, implementations remain incomplete even after requirements are acquired, and 31% of requirements reported as completed fail their tests. These findings highlight sustained requirement tracking, from clarification through implementation, verification, and handoff, as a key challenge for reliable autonomous software engineering.",
+    "url": "http://arxiv.org/abs/2611.20218v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20218v1",
+    "published": "2026-11-15",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SE",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.20045v1",
+    "title": "Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning",
+    "authors": [
+      "Yang Luo",
+      "Guangpu Chen",
+      "Yichen Liu",
+      "Zhaoyu Chen",
+      "Yifeng Gao"
+    ],
+    "abstract": "Deep research and agentic search agents autonomously retrieve content from the open web and generate reports with citations, and their outputs are often taken directly as research conclusions. This paper systematizes security research in this area along four stages, namely retrieval, planning, evidence integration, and report generation. We present a unified threat model, a taxonomy of attacks and defenses, and a review of evaluation benchmarks, and we align the area dimension by dimension with retrieval-augmented generation (RAG) poisoning, prompt injection, and generative engine optimization (GEO). Coding 34 primary studies shows that only 26.5% of them involve the planning stage, and none performs an end-to-end poisoning evaluation on commercial products. To address this gap, we propose the agenda seeding attack, in which the attacker writes no instructions and only introduces a fictitious evaluation metric. Across 3,520 sandboxed research runs under the same budget, GEO and prompt injection are nearly ineffective, whereas agenda seeding makes the attacker's target the top pick in 16% to 28% of reports. Injection detection and query anchoring fail against it, verification prompting hurts utility, and our proposed provenance tagging preserves utility but can be bypassed by multi-site bait. Finally, we propose eight research directions.",
+    "url": "http://arxiv.org/abs/2611.20045v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.20045v1",
+    "published": "2026-11-15",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.19530v1",
+    "title": "LLM Trading Agents Earn Beta, Not Alpha: A Look-Ahead-Free Benchmark",
+    "authors": [
+      "Jackson Wang"
+    ],
+    "abstract": "Large language model (LLM) trading agents now trade stocks for their users, and benchmarks rank models by their agents' returns. Yet a single run's return says little about skill. In our study, two runs of the same model that differed only in the random seed ended 5.2 points apart on average, so telling skill from luck takes many backtests across markets, models and seeds. However, live arenas trade each day only once, and backtests either use the few months after a model's training cutoff or run on years the model may remember, often with news joined to prices by calendar date. In this paper, we present rta-bench-1, a backtest over three US markets (a rally, a bear market and a crash). It shows each headline only after its publication minute, plays each period blind and named, and checks every run for look-ahead. It also splits each return into factor exposure and alpha and scores every decision against random choices of the same day and sector. In 91 runs of six models from four vendors, no alpha was significant, market and style exposure accounted for a median 78% of the return, and the decisions did no better than random stocks of the same sector. The agents bought the stocks with the most positive news, yet in ablations they earned as much without their headlines. Still, the agents carried out rules reliably, since a single cash rule in the prompt cut a GPT-based agent's share in stocks by 30.3 points in all six pairs. Builders should therefore supply the edge themselves and report exposures and alpha, and benchmarks should replay news by publication time.",
+    "url": "http://arxiv.org/abs/2611.19530v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.19530v1",
+    "published": "2026-11-14",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
