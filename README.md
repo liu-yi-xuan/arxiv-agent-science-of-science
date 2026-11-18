@@ -24,6 +24,53 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-18
+
+**18 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2611.21847v1) | Prithwish Jana, Nikos Kanakaris, Purak Jain et al. | Large language model (LLM) agents can generate research ideas and improve scientific discovery through iterative experimentation. |
+| [The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements](http://arxiv.org/abs/2611.23068v1) | Yuanhao Zeng, Shaocheng Lan, Ao Lu et al. | Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. |
+| [Experience Rot: Experienced Agents Fail Where Novices Succeed](http://arxiv.org/abs/2611.20922v1) | Zhen Xu, Hang Yin, Zitao Zhang et al. | Agents are increasingly built to learn from experience: they keep conversation histories, memory files, retrieved notes and skills, and reuse what worked before. |
+| [DiscoveryAgent: A Framework for Scientist-centric Agentic AI](http://arxiv.org/abs/2611.21950v1) | Owen Queen, Ioana Ciuca, Emma Dann et al. | AI agents can assist scientific research, but balancing autonomous investigation with scientists' ability to inspect and redirect ongoing work remains a central design challenge. |
+| [AI Scientist Discovered Robust Quantum Control](http://arxiv.org/abs/2611.21765v1) | Jiahao Yan, Xuanying Lai, Xiaoshui Lin et al. | Protecting quantum coherence is a central theme of modern quantum technologies. Carefully designed control pulses can extend coherence by suppressing disorder and unwanted interactions. |
+| [Born for the Task: Rethinking Quantum Chemistry with Foresighted Agentic Computing](http://arxiv.org/abs/2611.22897v1) | Haozhi Han, Junjie Yang, Ruge Zhang et al. | Quantum chemistry relies on general-purpose software, whose generality leaves many large-scale calculations beyond practical resource budgets. |
+| [The Between-Round Decision in Autonomous Research: An LLM Controller That Reads the Whole Trajectory](http://arxiv.org/abs/2611.22661v1) | Caoxin Wang, Shengkai Gan, Xiang Hu et al. | Executing an idea often changes how promising it looks, so the next step in autonomous research should rest on results, not on proposals. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Same Papers, Different Verdicts: Tracing Version Drift in LLM Peer Review](http://arxiv.org/abs/2611.20608v1) | Jizhou Guo | Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [EviDARL: Evidence-Centric Dual-Agent Reasoning via Alternating Reinforcement Learning for Multi-Table Question Answering](http://arxiv.org/abs/2611.22310v1) | Dunhan Li, Leilei Gan, Lirong Gao et al. | Despite advances in LLM-based table reasoning, most studies focus on single-table settings. Multi-table QA requires multi-hop reasoning over complex table relationships and evidence dispersed acros... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Large Language Models Have Not Yet Transformed Science](http://arxiv.org/abs/2611.22975v1) | Ron Bekkerman, Nichole Li, Bahareh Kargar et al. | The emergence of large language models (LLMs) in late 2022 has raised questions about the future of science, but assessing their impact requires understanding how scientific practices were already ... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents](http://arxiv.org/abs/2611.23045v1) | Yicheng Tao, Yuante Li, Zipei Fan | Agents built on large language models (LLMs) increasingly forecast real-world events by searching the Web and reasoning over what they find. |
+| [OfficePrism: Benchmarking Agents on Single-Domain Operations Across Enterprise Business Functions](http://arxiv.org/abs/2611.22262v1) | Hanfeng Liu, Zhenyu Luo, Dongchao Zhang et al. | Broad workplace scores can mix competence within one business function with the extra cost of coordinating across functions and systems, making failures hard to localize. |
+| [RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time](http://arxiv.org/abs/2611.22138v1) | Changxuan Fan, Zhongwei Xie, Boyi Zhang et al. | Multimodal agents can now control robot arms by calling tools and writing code. Existing benchmarks fall short in three ways: most test one or two arms on short tasks, many pause the world while th... |
+| [ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments](http://arxiv.org/abs/2611.22085v1) | Elaine Lau, Antoine Pangas, Alexandre Finot et al. | Professional work involves under-specified assignments, where relevant information is spread across workplace applications and may conflict or change over time. |
+| [CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development](http://arxiv.org/abs/2611.21273v1) | Zhiyu Zhou, Tianyou Liu, Xinping Yang et al. | We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. |
+| [VAHBench: A Harness Benchmark for Agentic Long-Video Generation](http://arxiv.org/abs/2611.20535v1) | Hongbo Zhang, Liuyang Song, Hang Zhou et al. | AI agents are commonly used for everyday information retrieval and coding. We ask whether they can also interpret human requests and turn them into complete videos. |
+| [SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations](http://arxiv.org/abs/2611.20218v1) | Xinping Lei, Minghao Liu, Ruijie Zhu et al. | A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. |
+| [Where Does Hindsight Enter Clinical Agent Benchmarks? An Audit of Simulators and Case Construction](http://arxiv.org/abs/2611.22241v1) | Meilu Zhu, Xiaohan Li, Axiu Mao | Benchmarks for LLM diagnostic agents are built from retrospective records: the case an agent reads is rewritten from discharge summaries, and unrecorded test results are generated by a simulator th... |
+
 ### 📅 2026-11-17
 
 **9 new papers found**
