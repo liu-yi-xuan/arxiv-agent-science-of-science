@@ -24,6 +24,55 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-20
+
+**20 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents](http://arxiv.org/abs/2611.24711v1) | Alexander Boesgaard Lorup | Agents that do science must choose informative experiments and reason from their results, but most discovery benchmarks cannot separate that skill from recall, unstated scoring rules or shortcut po... |
+| [The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements](http://arxiv.org/abs/2611.23068v1) | Yuanhao Zeng, Shaocheng Lan, Ao Lu et al. | Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. |
+| [PlayCraft: Designing Engaging Games from Agent Play Experience](http://arxiv.org/abs/2611.26624v1) | Weihao Cheng | Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. |
+| [FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash](http://arxiv.org/abs/2611.25580v1) | Yuseon Choi, Sanghyeon Park, Eunjong Lee et al. | Embodied agents are emerging as a promising paradigm for complex robotic tasks, leveraging Vision-Language-Action (VLA) and World Action Models (WAMs) to generate actions through Diffusion Transfor... |
+| [TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs](http://arxiv.org/abs/2611.26248v1) | Yang Wan, Linchao Zhu | AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements ... |
+| [Auto-Alpha: A Framework for Autonomous Factor Research](http://arxiv.org/abs/2611.25732v1) | Hui Cai, Kangcheng Deng, Tianyi Ma et al. | Autonomous factor research requires generating economic hypotheses as well as implementing and testing them. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [A closed-loop agentic research environment for MRI development within Siemens IDEA platform](http://arxiv.org/abs/2611.25726v1) | Zimu Huo, Zachary Shah, Adam B Kerr et al. | Motivation: Testing new ideas in MRI can require substantial effort to learn sequence programming and reconstruction tools and to debug implementations before the scientific question can be addressed. |
+| [Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era](http://arxiv.org/abs/2611.26286v1) | Ilya Gusev | Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. |
+| [FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification](http://arxiv.org/abs/2611.25071v1) | Meenakshi Rajpurohit, Anna Phan, Ravikumar Komandur Narayanan et al. | Large language models (LLMs) write fluent financial analyses but miscompute ratios, recall stale prices, and route questions to the wrong tool with high confidence. |
+| [Pro$^2$ Agent: Scientific Problem Probing for Autonomous AI R&D](http://arxiv.org/abs/2611.25357v1) | Yixiong Chen, Liqian Peng, Tian Tan et al. | Large language model (LLM) agents can now autonomously conduct AI research by writing code and running experiments. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation](http://arxiv.org/abs/2611.24406v1) | Songli Yu, Qi Luo | High-quality causal reasoning datasets are essential for developing models with reliable causal understanding, particularly in specialized domains. |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Do Network Mechanisms in Science Vary Across Research Topics? Contextual Relational Hyperevent Models for Large-Scale Bibliometric Data](http://arxiv.org/abs/2611.26052v1) | Jürgen Lerner, Mark Wittek, Raphael Heiberger | Collaboration and citation networks in science are shaped by well-documented mechanisms such as preferential attachment, gender homophily, and self-citation. |
+| [Uncontrolled source titles: When Nature, Science, and PNAS meet Scopus](http://arxiv.org/abs/2611.25627v1) | Weishu Liu, Ruifeng Zhang, Haifeng Wang | Bibliographic databases such as Scopus and Web of Science play a critical role in literature discovery, systematic reviews, bibliometric analyses, and research evaluation, yet their reliability dep... |
+| [Federated Learning for Unmanned Aerial Systems: A Screened Bibliometric Census of an Emergent Sub-Literature](http://arxiv.org/abs/2611.26227v1) | Ameen Ur Rehman, Ali Nasir | We census the literature at the intersection of federated learning (FL) and unmanned aerial systems (UAS) with a broad Scopus query that combines FL, UAV, and delivery/logistics terms (Computer Sci... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [CompAct-Bench: A Benchmark for Working-Context Compaction in Long-Horizon Agent Tasks](http://arxiv.org/abs/2611.25673v1) | Jiayi Chen, Lizhe Chen, Yujia Chen et al. | As language-model agents are applied to increasingly extended tasks, their working context continuously accumulates interaction history, tool observations, intermediate decisions, and task progress. |
+| [AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development](http://arxiv.org/abs/2611.25582v1) | Hang Zhang, Yuzhi Pan, Ziyao Zhong et al. | Retrieval-augmented generation (RAG) is a well-established paradigm for augmenting large language models (LLMs) with information retrieved from external corpora. |
+| [DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents](http://arxiv.org/abs/2611.25066v1) | Jiaru Qian, Jiawei Li, Xiaolong Hu et al. | Design verification (DV) remains a major bottleneck in hardware development, with large-scale verification using the Universal Verification Methodology (UVM) being highly labor-intensive. |
+| [VideoACE: Benchmarking Agentic Video Understanding through High-Frame-Rate Actions](http://arxiv.org/abs/2611.24184v1) | Luoyuan Zhang, Xuanyu Zheng, Yancheng Long et al. | Agentic video understanding requires models to actively interact with video environments to gather evidence and form judgments. |
+| [3D GameDev Arena: Benchmarking Coding Agents That Plan, Build, and Playtest extreme Long-Horizon Browser Games](http://arxiv.org/abs/2611.24073v1) | Bizhe Bai, Jiliang Jian, Yuqing Yan et al. | Coding agents now resolve repository issues and generate compact playable games, but whether they can build a large 3D game from scratch remains open. |
+| [ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents](http://arxiv.org/abs/2611.23045v1) | Yicheng Tao, Yuante Li, Zipei Fan | Agents built on large language models (LLMs) increasingly forecast real-world events by searching the Web and reasoning over what they find. |
+
 ### 📅 2026-11-19
 
 **17 new papers found**
