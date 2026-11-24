@@ -1,0 +1,166 @@
+[
+  {
+    "id": "2611.29467v1",
+    "title": "Beyond Accuracy: A Diagnostic Benchmark for Hypothesis-Driven Experiment Planning in LLM Agents",
+    "authors": [
+      "Ryo Kuroki",
+      "Amin Mansouri",
+      "Philippe Schwaller"
+    ],
+    "abstract": "Evaluating large language model (LLM) agents on scientific tasks typically reduces to final-task accuracy, which obscures where reasoning succeeds or breaks down. We introduce a benchmark and diagnostic evaluation framework for hypothesis-driven adaptive experimental planning in closed-world system identification, instantiated in kinetic mechanism identification. The framework goes beyond final accuracy in two ways. First, we evaluate exploration behavior by quantifying the extent to which agents exhibit space-filling or corner-seeking patterns in the experimental design space. Second, we decompose the reasoning process into four interpretable steps: belief update, hypothesis discrimination, discriminative experiment design, and predictive reasoning under interventions, each scored separately on reasoning traces. Across ten LLM agents, we find that stronger agents outperform both adaptive (Bayesian optimization) and non-adaptive (Latin hypercube) baselines and exhibit exploration patterns inconsistent with naive heuristics. Decomposing reasoning reveals that the stronger agents score consistently well across all four steps, whereas weaker agents often succeed at belief update and hypothesis discrimination but are less reliable at translating them into actionable designs and sharp contrastive predictions. Independent expert annotations support predictive reasoning under our stated validation criteria, while evidence for discriminative experiment design is positive but less consistent. The results suggest a gap between recognizing plausible hypotheses and translating them into contrastive predictions, with more tentative evidence for a corresponding experiment-design bottleneck. The benchmark website is available at https://schwallergroup.github.io/beyond-accuracy/.",
+    "url": "http://arxiv.org/abs/2611.29467v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.29467v1",
+    "published": "2026-11-22",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.LG",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.31082v1",
+    "title": "ChiProgramBench: Can LLM Agents Rebuild Efficient Circuits from Pin-Level Experiments?",
+    "authors": [
+      "Tianrun Gou",
+      "Qingyao Yang",
+      "Wendong Xu",
+      "Liang Chen",
+      "Kuan Li"
+    ],
+    "abstract": "Understanding a system that can be run but not inspected is a core engineering skill: one designs experiments, forms hypotheses about hidden state and timing, discards those that observations refute, and finally builds a replacement that works and is efficient. To evaluate this capability of LLM agents in the hardware domain, we present ChiProgramBench, 18 tasks derived from open-source processors, accelerators, codecs, transforms, interconnects, and control circuits. Agents can only drive and read the pins of a hidden, stateful simulated reference, then submit a gate-level netlist made of public library cells. Agents work in two settings: black-box discovery gives only anonymized functional pins and the interfaces of fixed memories, while function-guided reconstruction adds the circuit's purpose and each pin's role. Hidden test cases compare outputs with the reference cycle by cycle; power, delay, and area earn credit relative to the reference only when every case passes. Across 432 trials of 6 LLM agent configurations, successful agents recover algorithms and numerical conventions, yet only 12.0% of black-box and 14.8% of function-guided trials pass every case. Function-guided reconstruction raises the mean functional score, the cycle-weighted share of passed cases, from 24.6% to 30.9%. Of the 58 fully passing designs, only three improve on the reference's combined power, area, and delay, so behavioral recovery and efficient implementation remain distinct challenges.",
+    "url": "http://arxiv.org/abs/2611.31082v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31082v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI",
+      "cs.AR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.30287v1",
+    "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
+    "authors": [
+      "Yuxuan Chen",
+      "Changwei Lv",
+      "Yunfei Li",
+      "Zhongjing Du",
+      "Kehui Tan"
+    ],
+    "abstract": "AI agents accumulate conversations, images, and documents through long-term interactions with users. Answering later questions often requires connecting evidence across these records, yet the resulting understanding is rarely retained, allowing mistakes to recur on related questions. Existing multimodal memory methods largely focus on storing and retrieving records, with limited mechanisms for learning from completed tasks and consolidating task-specific experience. We therefore propose MMMem, a task-aware multimodal memory framework that extracts and consolidates experience from completed tasks through four complementary strategies. First, source-linked multi-view memory organizes original text, images, and rendered pages alongside generated scene images that combine clues across records for retrieval. Second, source-generated tasks support knowledge alignment at two levels: warm-up consolidates source knowledge into task-relevant experiences in external memory, while self-training adapts the model's parametric knowledge to task demands. Third, the same vision-language model distills completed tasks into experiences that record the task context, conclusion, and support links. Finally, task-aware retrieval recalls source views and relevant experiences for answering and verification, while source-supported reuse guides long-term retention. Across three memory benchmarks and two vision-language readers, MMMem outperforms eight baselines. With Qwen3.5-9B, MMMem achieves relative gains of 36.9%, 17.6%, and 15.2% over the best-performing baselines on LoCoMo, Mem-Gallery, and LooGLE v2, respectively. Ablations show consistent gains from training and memory warm-up, while case studies illustrate how individual components work in practice.",
+    "url": "http://arxiv.org/abs/2611.30287v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30287v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.29902v1",
+    "title": "Autonomous Multireference Quantum Chemistry with Artificial Intelligence Agents",
+    "authors": [
+      "Younghwan Kim",
+      "Ming-Hsiu Hsieh",
+      "Ankit Mathanker",
+      "Arpan Choudhury",
+      "Joshua Zhou"
+    ],
+    "abstract": "Accurately describing chemical reactions that involve strongly correlated electrons remains a major challenge in computational chemistry. Multireference electronic structure methods can address this challenge, but their application requires expert decisions that are di!cult to automate, particularly when the electronic structure changes as chemical bonds form and break. Here we introduce CASPER, an autonomously agentic workflow that performs multireference calculations along chemical reaction pathways. CASPER combines chemical knowledge, electronic structure calculations, and iterative assessment to identify chemically meaningful active spaces and maintain their consistency as bonds form and break. We demonstrate its capabilities on five transition-metal reactions, for which CASPER generates consistent multireference potential energy profiles with minimal human intervention. Importantly, in two reactions, CASPER identifies critical electronic-structure problems that an independent Claude session fails to recognize without the structured workflow. These include an electronic-state crossing and the exclusion of an orbital involved in bond breaking. Our results show the importance of combining language models with chemical knowledge and independent assessment of computational results. Beyond automating calculations, such agents have the potential to help researchers better understand the underlying physics and chemistry and open new opportunities for investigating complex chemical reactivity and generating high-quality quantum chemical data at scale.",
+    "url": "http://arxiv.org/abs/2611.29902v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.29902v1",
+    "published": "2026-11-23",
+    "categories": [
+      "physics.chem-ph",
+      "cs.AI"
+    ],
+    "primary_category": "physics.chem-ph",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.30163v1",
+    "title": "ReVAgent: Multi-Agent Reasoning-Intensive Video Generation",
+    "authors": [
+      "Yehui Yang",
+      "Jing Fan",
+      "Jun Hu",
+      "Shangyao Chen",
+      "Jinhua Bian"
+    ],
+    "abstract": "A central challenge in generating instructional videos for reasoning-intensive topics is to show how and why the state changes at each step. Even when an animation renders successfully, the depicted object relationships and state transitions can conflict with the explanation, making the reasoning difficult to follow. We present ReVAgent, a multi-agent framework that solves a problem, generates keyframes for its explanation, and synthesizes an instructional video. The agents share the execution record of a solution program, reuse intermediate results and constructions in the scenes, and check rendered keyframes to guide revisions to the solution or the scenes. We also introduce a multidimensional rubric for assessing whether generated videos present the problem clearly, organize the steps coherently, and use visuals to explain the reasoning. We calibrate a multimodal judge using human ratings and apply it to instructional videos for mathematics and algorithms. In the evaluated samples, ReVAgent presents multi-step reasoning coherently and uses diagrams to show how key operations lead to subsequent states.",
+    "url": "http://arxiv.org/abs/2611.30163v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30163v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.30200v1",
+    "title": "Adopting AI Technologies without Traps: A Multi-Agent Reinforcement Learning Framework",
+    "authors": [
+      "Jitong Yang",
+      "Avinash Reddy Mudireddy",
+      "Ziqing Lu",
+      "Huan Cai",
+      "Weiyu Xu"
+    ],
+    "abstract": "AI technologies and AI agents play increasingly important roles in human society, including in education, economics, and research. Adopting AI technologies can bring immediate, and sometimes tremendous, rewards such as through productivity boost, but they can also bring negative effects including but not limited to losses of job and training opportunities, and cognitive capability declines. Thus, it is important to investigate the optimal ways of adopting AI technologies without different traps. In this paper, we develop a general multi-agent Markov decision process (MDP) based reinforcement learning (RL or MARL) modeling framework for determining and analyzing optimal adoption of AI technologies. This framework can model the long-term dynamic effects of AI adoption, and lead to finding the optimal AI adoption strategies. In our modeling framework, the negative effects of AI adoption are modeled by undesirable state transitions or negative rewards in the MDPs. The proposed multi-agent RL MDPs incorporate both human agents and AI agents. The key idea of our models is that incorporating AI technologies may not only increase the immediate rewards for AI agents but also alter the states of the involved human and AI agents. In particular, we apply this framework to analyzing AI offloading leading to skill erosion, to analyzing optimal human resource structures for a firm adopting AI, and to analyzing the economic equilibria in the trading/employment among human and AI agents. Since the multi-agent MDP based RL technique is from control, machine learning and AI, this research is essentially using an AI technique to determine the optimal ways of adopting or co-existing with AI without traps.",
+    "url": "http://arxiv.org/abs/2611.30200v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30200v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI",
+      "econ.TH"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.31063v1",
+    "title": "From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems",
+    "authors": [
+      "Wenlong Yu",
+      "Bingxu Lu",
+      "Qilong Wang",
+      "Qinghua Hu",
+      "Qianru Sun"
+    ],
+    "abstract": "In multi-agent systems (MAS) built on large language models (LLMs), errors can propagate through intermediate messages and compromise final answers. However, outcome-based evaluation obscures how agents amplify, attenuate, or correct these errors. We propose Response-Aware Error Propagation among Agents (REPA), a structural model that connects measured local responses to system-level error propagation. REPA separately estimates input assembly and agent processing across multiple error channels, while theoretical analysis relates local modeling errors to endpoint prediction error. Experiments span three Qwen base models, six MAS workflows, and ten knowledge and reasoning settings in ErrPropBench-10. REPA achieves a mean condition-level Spearman correlation of 0.84 across base models, compared with 0.47 for direct regression. Controlled experiments also demonstrate its utility for targeted recovery. REPA-guided retrieval-augmented generation (RAG) improves accuracy over no retrieval by an average of 19 percentage points with 16% additional tokens. By linking local agent behavior to system susceptibility, REPA provides an interpretable foundation for studying error propagation and developing targeted optimization in MAS.",
+    "url": "http://arxiv.org/abs/2611.31063v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31063v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.30771v1",
+    "title": "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
+    "authors": [
+      "Kuan Zhang",
+      "Zhihao Yang",
+      "Yukun Chen",
+      "Xingyilang Yin",
+      "Mingyu Ouyang"
+    ],
+    "abstract": "Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. Studying these abilities calls for diverse, challenging tasks under controlled conditions. We introduce GameDojo, a controllable interactive gameplay benchmark of 120 boss encounters across 20 games for evaluating model capabilities, learning algorithms, and agent harnesses. Coding agents reconstruct the environments and write gameplay scripts, producing GameDojo-Data with 600 hours of gameplay trajectories. Experiments reveal substantial challenges for frontier models, especially in real-time interaction. Training on GameDojo-Data brings GameDojo-4B to frontier performance, with the strongest real-time performance. We also find joint training improves individual tasks, and learned policies transfer across bosses. Together, these findings establish GameDojo as a challenging and valuable interactive gameplay benchmark for the community. Our project page is at https://gamedojo-benchmark.github.io/ , and our code is at https://github.com/THUSI-Lab/GameDojo .",
+    "url": "http://arxiv.org/abs/2611.30771v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30771v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]

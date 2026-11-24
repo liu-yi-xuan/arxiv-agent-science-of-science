@@ -24,6 +24,33 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-24
+
+**8 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Beyond Accuracy: A Diagnostic Benchmark for Hypothesis-Driven Experiment Planning in LLM Agents](http://arxiv.org/abs/2611.29467v1) | Ryo Kuroki, Amin Mansouri, Philippe Schwaller | Evaluating large language model (LLM) agents on scientific tasks typically reduces to final-task accuracy, which obscures where reasoning succeeds or breaks down. |
+| [ChiProgramBench: Can LLM Agents Rebuild Efficient Circuits from Pin-Level Experiments?](http://arxiv.org/abs/2611.31082v1) | Tianrun Gou, Qingyao Yang, Wendong Xu et al. | Understanding a system that can be run but not inspected is a core engineering skill: one designs experiments, forms hypotheses about hidden state and timing, discards those that observations refut... |
+| [MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation](http://arxiv.org/abs/2611.30287v1) | Yuxuan Chen, Changwei Lv, Yunfei Li et al. | AI agents accumulate conversations, images, and documents through long-term interactions with users. |
+| [Autonomous Multireference Quantum Chemistry with Artificial Intelligence Agents](http://arxiv.org/abs/2611.29902v1) | Younghwan Kim, Ming-Hsiu Hsieh, Ankit Mathanker et al. | Accurately describing chemical reactions that involve strongly correlated electrons remains a major challenge in computational chemistry. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ReVAgent: Multi-Agent Reasoning-Intensive Video Generation](http://arxiv.org/abs/2611.30163v1) | Yehui Yang, Jing Fan, Jun Hu et al. | A central challenge in generating instructional videos for reasoning-intensive topics is to show how and why the state changes at each step. |
+| [Adopting AI Technologies without Traps: A Multi-Agent Reinforcement Learning Framework](http://arxiv.org/abs/2611.30200v1) | Jitong Yang, Avinash Reddy Mudireddy, Ziqing Lu et al. | AI technologies and AI agents play increasingly important roles in human society, including in education, economics, and research. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems](http://arxiv.org/abs/2611.31063v1) | Wenlong Yu, Bingxu Lu, Qilong Wang et al. | In multi-agent systems (MAS) built on large language models (LLMs), errors can propagate through intermediate messages and compromise final answers. |
+| [GameDojo: Benchmarking Real-Time Interactive Agents in Video Games](http://arxiv.org/abs/2611.30771v1) | Kuan Zhang, Zhihao Yang, Yukun Chen et al. | Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. |
+
 ### 📅 2026-11-23
 
 *No new papers found today.*
