@@ -24,6 +24,47 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-25
+
+**17 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ExpGuard: Guarding Long-Horizon LLM Agents against Corrupted Experience](http://arxiv.org/abs/2611.32085v1) | Yuzhou Chen, Licheng Pan, Zhixuan Chu et al. | Long-horizon large language model (LLM) agents distill past trajectories into reusable experiences. Misleading or adversarial guidance in source trajectories can corrupt these experiences, allowing... |
+| [SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents](http://arxiv.org/abs/2611.31475v1) | Xiwei Liu, Yulong Li, Xuhui Li et al. | Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) c... |
+| [ChiProgramBench: Can LLM Agents Rebuild Efficient Circuits from Pin-Level Experiments?](http://arxiv.org/abs/2611.31082v1) | Tianrun Gou, Qingyao Yang, Wendong Xu et al. | Understanding a system that can be run but not inspected is a core engineering skill: one designs experiments, forms hypotheses about hidden state and timing, discards those that observations refut... |
+| [MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation](http://arxiv.org/abs/2611.30287v1) | Yuxuan Chen, Changwei Lv, Yunfei Li et al. | AI agents accumulate conversations, images, and documents through long-term interactions with users. |
+| [Autonomous Multireference Quantum Chemistry with Artificial Intelligence Agents](http://arxiv.org/abs/2611.29902v1) | Younghwan Kim, Ming-Hsiu Hsieh, Ankit Mathanker et al. | Accurately describing chemical reactions that involve strongly correlated electrons remains a major challenge in computational chemistry. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents](http://arxiv.org/abs/2611.31756v1) | Ilia Hashemi Rad, Feijie Wu, Haoyu Wang et al. | The growing autonomy of AI agents in using external tools and making decisions has created an urgent need for comprehensive safety benchmarks. |
+
+#### 🧠 Multi-Agent Scientific Collaboration
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [ReVAgent: Multi-Agent Reasoning-Intensive Video Generation](http://arxiv.org/abs/2611.30163v1) | Yehui Yang, Jing Fan, Jun Hu et al. | A central challenge in generating instructional videos for reasoning-intensive topics is to show how and why the state changes at each step. |
+| [Adopting AI Technologies without Traps: A Multi-Agent Reinforcement Learning Framework](http://arxiv.org/abs/2611.30200v1) | Jitong Yang, Avinash Reddy Mudireddy, Ziqing Lu et al. | AI technologies and AI agents play increasingly important roles in human society, including in education, economics, and research. |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway](http://arxiv.org/abs/2611.31480v1) | Komal Thareja, Mats Rynge, Anirban Mandal et al. | Scientific analyses that span many jobs and computing sites depend on workflow management systems to run reliably, but writing a production workflow requires expertise in such a system, which many ... |
+| [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](http://arxiv.org/abs/2611.33093v1) | Guangyuan Wang, Chengran Li, Minchen Luo et al. | A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can ... |
+| [ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds](http://arxiv.org/abs/2611.32649v1) | Qingle Liu, Jieming Li, Pei-lin Li et al. | In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. |
+| [FigmaEval: A Benchmark for Evaluating AI Agents in Professional UI Design](http://arxiv.org/abs/2611.32321v1) | Xinyue Huang, Yongyong Gao, Zhengyuan Pan et al. | Recent advances in AI agents have enabled autonomous UI design using professional tools such as Figma, yet evaluating their design capabilities remains challenging due to the open-ended nature of d... |
+| [GoldiBench: Right Tools, Wrong Amount -- Benchmarking Agents on Effect Judgement in Professional Editing](http://arxiv.org/abs/2611.31590v1) | Wang Yang, Xinpeng Li, Yanyan Zhang et al. | Real editing requests describe a look, not the steps to reach it, so an agent that serves them must judge how much of each tool the look takes. |
+| [From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems](http://arxiv.org/abs/2611.31063v1) | Wenlong Yu, Bingxu Lu, Qilong Wang et al. | In multi-agent systems (MAS) built on large language models (LLMs), errors can propagate through intermediate messages and compromise final answers. |
+| [GameDojo: Benchmarking Real-Time Interactive Agents in Video Games](http://arxiv.org/abs/2611.30771v1) | Kuan Zhang, Zhihao Yang, Yukun Chen et al. | Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. |
+| [Reproducible Social Structure Emerges From Free-Form Interaction Among LLM Agents](http://arxiv.org/abs/2611.31543v1) | Tom Alisch, Sonia Murthy, Robert Hawkins et al. | Multi-agent LLM simulations are increasingly used as models of social systems, but most published findings are anecdotal, i.e., drawn from a single run. |
+| [SecondChance: Benchmarking Reliable Error Recovery in AI Agents](http://arxiv.org/abs/2611.31586v1) | Atahan Dokme, Adar Avsian, Larry Heck | AI agents make errors while they act, and their reliability depends on what they do afterwards. Existing recovery benchmarks mostly inject faults, involve no user and score whether the task is even... |
+
 ### 📅 2026-11-24
 
 **8 new papers found**

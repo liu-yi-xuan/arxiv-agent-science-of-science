@@ -1,0 +1,351 @@
+[
+  {
+    "id": "2611.32085v1",
+    "title": "ExpGuard: Guarding Long-Horizon LLM Agents against Corrupted Experience",
+    "authors": [
+      "Yuzhou Chen",
+      "Licheng Pan",
+      "Zhixuan Chu",
+      "Yunsheng Lu",
+      "Yichen Sun"
+    ],
+    "abstract": "Long-horizon large language model (LLM) agents distill past trajectories into reusable experiences. Misleading or adversarial guidance in source trajectories can corrupt these experiences, allowing harmful instructions to persist across tasks and influence future agent actions. Assessing the risks of potentially corrupted experiences poses three challenges: (1) modeling provenance and execution dependencies before experience reuse, (2) learning task-conditioned risk from trajectory outcomes, and (3) repairing risky experiences at online inference. To address these challenges, we present ExpGuard, a framework for retrieval-triggered experience risk assessment and online repair. Specifically, to tackle challenge (1), ExpGuard integrates experience semantics with provenance and execution dependencies in a task-conditioned heterogeneous graph to predict attack and task-failure risks before experience reuse. To enable task-conditioned risk supervision and tackle challenge (2), we conduct matched counterfactual replays of each original experience and its minimally neutralized counterpart from the same task and environment checkpoint, deriving separate risk labels from differences in attack success and legitimate task completion. To tackle challenge (3) at inference time, ExpGuard repairs candidate experiences flagged as high-risk by the graph-based predictor at retrieval and re-predicts their risks before they enter the agent's active experience context. Extensive experiments demonstrate the effectiveness of ExpGuard in identifying risky experiences and defending agents against experience corruption.",
+    "url": "http://arxiv.org/abs/2611.32085v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.32085v1",
+    "published": "2026-11-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.31475v1",
+    "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+    "authors": [
+      "Xiwei Liu",
+      "Yulong Li",
+      "Xuhui Li",
+      "Zhixiang Lu",
+      "Haolin Yang"
+    ],
+    "abstract": "Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) cannot resolve from pixels alone. Tool access, however, shifts the bottleneck to orchestration: the agent must decide which tools to call, in what order, and how to interpret their outputs, yet a stateless agent repeats the same mistakes across tasks. We ask whether a frozen tool-using agent can improve its orchestration from its own interaction history, without parameter updates. We present SpatialCraft, a self-evolving framework that maintains two forms of external knowledge: Experiences, condition-action tactics distilled by contrasting rollouts of the same task, and Skills, multi-step procedures with explicit activation and termination conditions. Three designs couple the two streams. Experiences can be anchored to a Skill, appearing only while it is active rather than once per task. A Contrastive Utility Score estimates each Experience's effect by randomly withholding it across rollouts of the same task, separating its contribution from task difficulty, and Experiences with consistently positive utility are consolidated into the Skills they support. Across five spatial benchmarks and four backbones, SpatialCraft achieves the best accuracy in all 20 settings, showing that a frozen agent can learn to orchestrate spatial tools from its own experience.",
+    "url": "http://arxiv.org/abs/2611.31475v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31475v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.31082v1",
+    "title": "ChiProgramBench: Can LLM Agents Rebuild Efficient Circuits from Pin-Level Experiments?",
+    "authors": [
+      "Tianrun Gou",
+      "Qingyao Yang",
+      "Wendong Xu",
+      "Liang Chen",
+      "Kuan Li"
+    ],
+    "abstract": "Understanding a system that can be run but not inspected is a core engineering skill: one designs experiments, forms hypotheses about hidden state and timing, discards those that observations refute, and finally builds a replacement that works and is efficient. To evaluate this capability of LLM agents in the hardware domain, we present ChiProgramBench, 18 tasks derived from open-source processors, accelerators, codecs, transforms, interconnects, and control circuits. Agents can only drive and read the pins of a hidden, stateful simulated reference, then submit a gate-level netlist made of public library cells. Agents work in two settings: black-box discovery gives only anonymized functional pins and the interfaces of fixed memories, while function-guided reconstruction adds the circuit's purpose and each pin's role. Hidden test cases compare outputs with the reference cycle by cycle; power, delay, and area earn credit relative to the reference only when every case passes. Across 432 trials of 6 LLM agent configurations, successful agents recover algorithms and numerical conventions, yet only 12.0% of black-box and 14.8% of function-guided trials pass every case. Function-guided reconstruction raises the mean functional score, the cycle-weighted share of passed cases, from 24.6% to 30.9%. Of the 58 fully passing designs, only three improve on the reference's combined power, area, and delay, so behavioral recovery and efficient implementation remain distinct challenges.",
+    "url": "http://arxiv.org/abs/2611.31082v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31082v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI",
+      "cs.AR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.30287v1",
+    "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
+    "authors": [
+      "Yuxuan Chen",
+      "Changwei Lv",
+      "Yunfei Li",
+      "Zhongjing Du",
+      "Kehui Tan"
+    ],
+    "abstract": "AI agents accumulate conversations, images, and documents through long-term interactions with users. Answering later questions often requires connecting evidence across these records, yet the resulting understanding is rarely retained, allowing mistakes to recur on related questions. Existing multimodal memory methods largely focus on storing and retrieving records, with limited mechanisms for learning from completed tasks and consolidating task-specific experience. We therefore propose MMMem, a task-aware multimodal memory framework that extracts and consolidates experience from completed tasks through four complementary strategies. First, source-linked multi-view memory organizes original text, images, and rendered pages alongside generated scene images that combine clues across records for retrieval. Second, source-generated tasks support knowledge alignment at two levels: warm-up consolidates source knowledge into task-relevant experiences in external memory, while self-training adapts the model's parametric knowledge to task demands. Third, the same vision-language model distills completed tasks into experiences that record the task context, conclusion, and support links. Finally, task-aware retrieval recalls source views and relevant experiences for answering and verification, while source-supported reuse guides long-term retention. Across three memory benchmarks and two vision-language readers, MMMem outperforms eight baselines. With Qwen3.5-9B, MMMem achieves relative gains of 36.9%, 17.6%, and 15.2% over the best-performing baselines on LoCoMo, Mem-Gallery, and LooGLE v2, respectively. Ablations show consistent gains from training and memory warm-up, while case studies illustrate how individual components work in practice.",
+    "url": "http://arxiv.org/abs/2611.30287v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30287v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.29902v1",
+    "title": "Autonomous Multireference Quantum Chemistry with Artificial Intelligence Agents",
+    "authors": [
+      "Younghwan Kim",
+      "Ming-Hsiu Hsieh",
+      "Ankit Mathanker",
+      "Arpan Choudhury",
+      "Joshua Zhou"
+    ],
+    "abstract": "Accurately describing chemical reactions that involve strongly correlated electrons remains a major challenge in computational chemistry. Multireference electronic structure methods can address this challenge, but their application requires expert decisions that are di!cult to automate, particularly when the electronic structure changes as chemical bonds form and break. Here we introduce CASPER, an autonomously agentic workflow that performs multireference calculations along chemical reaction pathways. CASPER combines chemical knowledge, electronic structure calculations, and iterative assessment to identify chemically meaningful active spaces and maintain their consistency as bonds form and break. We demonstrate its capabilities on five transition-metal reactions, for which CASPER generates consistent multireference potential energy profiles with minimal human intervention. Importantly, in two reactions, CASPER identifies critical electronic-structure problems that an independent Claude session fails to recognize without the structured workflow. These include an electronic-state crossing and the exclusion of an orbital involved in bond breaking. Our results show the importance of combining language models with chemical knowledge and independent assessment of computational results. Beyond automating calculations, such agents have the potential to help researchers better understand the underlying physics and chemistry and open new opportunities for investigating complex chemical reactivity and generating high-quality quantum chemical data at scale.",
+    "url": "http://arxiv.org/abs/2611.29902v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.29902v1",
+    "published": "2026-11-23",
+    "categories": [
+      "physics.chem-ph",
+      "cs.AI"
+    ],
+    "primary_category": "physics.chem-ph",
+    "our_category": "AI Agents for Scientific Discovery"
+  },
+  {
+    "id": "2611.31756v1",
+    "title": "TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents",
+    "authors": [
+      "Ilia Hashemi Rad",
+      "Feijie Wu",
+      "Haoyu Wang",
+      "Jing Gao"
+    ],
+    "abstract": "The growing autonomy of AI agents in using external tools and making decisions has created an urgent need for comprehensive safety benchmarks. Existing benchmarks test compromised tool channels or adaptive multi-turn attacks, though they may not capture the unique capabilities of policy-governed tool-use agents, which must resist unauthorized requests without abandoning the legitimate work embedded in the same interaction. To fill this gap, we introduce TACT-Bench, a stateful benchmark built around scenario-specific stories, personas, manipulation tactics, and response-adaptive escalation. Each adversarial task targets an action explicitly prohibited by the policy provided to the assistant, while the policy remains hidden from the attacking user. TACT pairs each adversarial task with at least one benign counterpart, and its adversarial tasks retain authorized ground-truth actions when a compliant resolution remains available. We define these base tasks as TACT-Base. We additionally introduce TACT-TrustPrime, which places an independent benign task before an unrelated attack in the same conversation. We also propose Paired Selective Trustworthiness (PST), which combines explicit safe refusal with demonstrated capability on matched benign tasks, to analyze an agent's overcautiousness and practicality. Averaged across 6 different models as assistants, TACT-Base raises Attack-Induced Failure Rate (AFR) by 17.53% over four compatible attack baselines, and TACT-TrustPrime raises it by a further 17.01%. The two evaluated defense methods reduce AFR by only 8.35%--9.41% on average and do not consistently improve PST, underscoring the need for stronger policy-enforcement methods.",
+    "url": "http://arxiv.org/abs/2611.31756v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31756v1",
+    "published": "2026-11-24",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Research Workflow Agents"
+  },
+  {
+    "id": "2611.30163v1",
+    "title": "ReVAgent: Multi-Agent Reasoning-Intensive Video Generation",
+    "authors": [
+      "Yehui Yang",
+      "Jing Fan",
+      "Jun Hu",
+      "Shangyao Chen",
+      "Jinhua Bian"
+    ],
+    "abstract": "A central challenge in generating instructional videos for reasoning-intensive topics is to show how and why the state changes at each step. Even when an animation renders successfully, the depicted object relationships and state transitions can conflict with the explanation, making the reasoning difficult to follow. We present ReVAgent, a multi-agent framework that solves a problem, generates keyframes for its explanation, and synthesizes an instructional video. The agents share the execution record of a solution program, reuse intermediate results and constructions in the scenes, and check rendered keyframes to guide revisions to the solution or the scenes. We also introduce a multidimensional rubric for assessing whether generated videos present the problem clearly, organize the steps coherently, and use visuals to explain the reasoning. We calibrate a multimodal judge using human ratings and apply it to instructional videos for mathematics and algorithms. In the evaluated samples, ReVAgent presents multi-step reasoning coherently and uses diagrams to show how key operations lead to subsequent states.",
+    "url": "http://arxiv.org/abs/2611.30163v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30163v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.30200v1",
+    "title": "Adopting AI Technologies without Traps: A Multi-Agent Reinforcement Learning Framework",
+    "authors": [
+      "Jitong Yang",
+      "Avinash Reddy Mudireddy",
+      "Ziqing Lu",
+      "Huan Cai",
+      "Weiyu Xu"
+    ],
+    "abstract": "AI technologies and AI agents play increasingly important roles in human society, including in education, economics, and research. Adopting AI technologies can bring immediate, and sometimes tremendous, rewards such as through productivity boost, but they can also bring negative effects including but not limited to losses of job and training opportunities, and cognitive capability declines. Thus, it is important to investigate the optimal ways of adopting AI technologies without different traps. In this paper, we develop a general multi-agent Markov decision process (MDP) based reinforcement learning (RL or MARL) modeling framework for determining and analyzing optimal adoption of AI technologies. This framework can model the long-term dynamic effects of AI adoption, and lead to finding the optimal AI adoption strategies. In our modeling framework, the negative effects of AI adoption are modeled by undesirable state transitions or negative rewards in the MDPs. The proposed multi-agent RL MDPs incorporate both human agents and AI agents. The key idea of our models is that incorporating AI technologies may not only increase the immediate rewards for AI agents but also alter the states of the involved human and AI agents. In particular, we apply this framework to analyzing AI offloading leading to skill erosion, to analyzing optimal human resource structures for a firm adopting AI, and to analyzing the economic equilibria in the trading/employment among human and AI agents. Since the multi-agent MDP based RL technique is from control, machine learning and AI, this research is essentially using an AI technique to determine the optimal ways of adopting or co-existing with AI without traps.",
+    "url": "http://arxiv.org/abs/2611.30200v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30200v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI",
+      "econ.TH"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Multi-Agent Scientific Collaboration"
+  },
+  {
+    "id": "2611.31480v1",
+    "title": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
+    "authors": [
+      "Komal Thareja",
+      "Mats Rynge",
+      "Anirban Mandal",
+      "Ewa Deelman"
+    ],
+    "abstract": "Scientific analyses that span many jobs and computing sites depend on workflow management systems to run reliably, but writing a production workflow requires expertise in such a system, which many domain scientists do not have. Coding agents can supply this expertise when they are guided by skills and packaged procedures for recurring tasks. We wrote skills and specialist agents for the Pegasus workflow management system with a frontier model, and the PegasusAI Studio science gateway offers them to scientists through a chat interface. New users without frontier-model credits need an open-weight model, served at no cost on research cyberinfrastructure, but skills written for a frontier model may not work with an open-weight solution. This paper presents a method for adapting such skills. An evaluation harness drives the real gateway as a user would, scores the workflows the agent builds, and feeds recurring failures back to the frontier model that maintains the skills. We evaluated 21 open-weight models on 17 tasks. The five highest-scoring models are close in quality after one trial per task, and their median response times differ twelvefold. In repeated trials with the best of the three open-weight models, we repeated scores of 0.76 on workflow building against 0.82 for Claude. The harness led to five changes to the initial skills. We also identify challenges in evaluating agents within operational systems: evaluation failures can be mistaken for model failures, and agents can circumvent experimental controls within their privilege domain. In a controlled ablation, an initially significant effect disappeared when the restrictions were properly enforced.",
+    "url": "http://arxiv.org/abs/2611.31480v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31480v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.33093v1",
+    "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+    "authors": [
+      "Guangyuan Wang",
+      "Chengran Li",
+      "Minchen Luo",
+      "Jichen Feng",
+      "Mengdi Wang"
+    ],
+    "abstract": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents implement quantized Qwen3.5, Gemma 3, Gemma 4, and Llama 3.2 decoders in synthesizable register-transfer-level (RTL) code against an executable integer reference that specifies the outputs and the stored state at every decoding step. They debug against public tests under fixed budgets; their frozen designs are graded on held-out token sequences, resets, memory stalls, and synthesis, and a second track asks them to speed up a correct design at nearly fixed area. Across 9,136 attempts by four coding agents, the difficulty lies in stored state. Feedback that points to the first state mismatch raises acceptance over output-only feedback in all 12 agent--task cells of a matched study, by 25.0 to 46.9 percentage points, and halves the agent-hours per accepted design. Regraded on new sequences and conditions, 45 of 69 accepted designs fail within the 32 steps their tests required. More than a third of attempts to speed up a correct design end without one. An overall score ranks Sol 5.6 and Fable 5.1 above Astra 6 and Opus 5.5, and both halves of the instances give this order in all 200 random splits. Hardware agents therefore need debugging feedback that exposes stored state, and their benchmarks need final tests well beyond the development cases.",
+    "url": "http://arxiv.org/abs/2611.33093v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33093v1",
+    "published": "2026-11-24",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.32649v1",
+    "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+    "authors": [
+      "Qingle Liu",
+      "Jieming Li",
+      "Pei-lin Li",
+      "Shenghan Zheng",
+      "Ruize Yang"
+    ],
+    "abstract": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations. We present ICLWorld, an online benchmark that evaluates the ICL of agents from digital to physical worlds, covering computer use and robot use, together with UIverse, a unified harness that turns every environment into a user interface. We build 30 environments, record 630 demonstration videos (10+ hours), and design 160 tasks with customized, often counter-intuitive rules that cannot be satisfied without learning from the context. Each task comes with three rule versions, given as text or video, and we test generalization at three levels, from replaying the demonstration to new instances and unseen environments. Across six frontier models, the strongest agents, Claude Opus 5.5 and GPT-6 Astra, succeed on 82% and 76% of computer-use runs but only 27% and 26% of robot-use runs, and a no-rule control reduces success to at most 8%. GPT-6 Astra succeeds under all three rule versions on only 38% of computer-use tasks, half its rate under a single rule, and answers 98% of robot rule questions correctly yet completes only 20% of these tasks. Frontier agents learn rules comparably well from video and from text and transfer them across environments, whereas weaker agents rely on text and lose most of their video-based success once the demonstrated situation is resampled. These findings reveal substantial gaps between the digital and the physical world and between identifying a rule and acting on it.",
+    "url": "http://arxiv.org/abs/2611.32649v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.32649v1",
+    "published": "2026-11-24",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.32321v1",
+    "title": "FigmaEval: A Benchmark for Evaluating AI Agents in Professional UI Design",
+    "authors": [
+      "Xinyue Huang",
+      "Yongyong Gao",
+      "Zhengyuan Pan",
+      "Zheng Wei",
+      "Xinya Liu"
+    ],
+    "abstract": "Recent advances in AI agents have enabled autonomous UI design using professional tools such as Figma, yet evaluating their design capabilities remains challenging due to the open-ended nature of design tasks and the absence of unique ground truths. We introduce FigmaEval, a benchmark for evaluating AI agents on professional UI design tasks, comprising 84 tasks and 783 screens derived from real-world Figma design files. FigmaEval adopts a constrained-specification, open-solution paradigm, standardizing task requirements and design resources while allowing agents to independently determine layouts, visual hierarchies, component composition, and visual presentation. To assess design quality beyond reference similarity, we develop 22 expert-grounded evaluation rubrics across six dimensions and introduce a human evaluation arena where professional designers compare agent-generated designs through blinded pairwise judgments. Evaluating eleven models under a unified Figma agent setup, we find substantial agreement between rubric-based assessments and human preferences, alongside distinct differences in design practices and quality--efficiency trade-offs. FigmaEval provides a framework for systematically assessing professional UI design capabilities and understanding the strengths and limitations of current AI agents.",
+    "url": "http://arxiv.org/abs/2611.32321v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.32321v1",
+    "published": "2026-11-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.31590v1",
+    "title": "GoldiBench: Right Tools, Wrong Amount -- Benchmarking Agents on Effect Judgement in Professional Editing",
+    "authors": [
+      "Wang Yang",
+      "Xinpeng Li",
+      "Yanyan Zhang",
+      "Chaoda Song",
+      "Shouren Wang"
+    ],
+    "abstract": "Real editing requests describe a look, not the steps to reach it, so an agent that serves them must judge how much of each tool the look takes. Existing benchmarks do not measure this: their tasks either state the tools and values, or leave the amount open and are scored by VLM judges that pass more than half of half- and triple-strength results. We introduce GoldiBench, a benchmark of 500 editing tasks in five professional applications (darktable, RawTherapee, GIMP, Inkscape, Blender), solvable by writing a program or by operating the GUI. Each task pairs a START image with a TARGET rendered from a hidden program, so the amount is fixed by a known target; the agent's edit is re-rendered and compared with TARGET, and the same task is posed with the tools and values, the tools only, or the goal only, separating operation from effect judgement. Across 25 open, GUI and closed models, agents operate well (99-100% with programs from 4B up when told the values) but fall off a cliff when they must judge the amount: given only the tools, the best model passes 19% of the tasks with programs and 33% through the GUI, and scale does not close the gap. Manuals barely help; the measured TARGET-START difference more than doubles the pass rate, but the same difference shown as an image does not for open models. Allowed four renders, agents almost always stop after the first; forced to compare, the strong models double their pass rate. Agents know the tools, but neither read nor check the amount.",
+    "url": "http://arxiv.org/abs/2611.31590v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31590v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CV",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.31063v1",
+    "title": "From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems",
+    "authors": [
+      "Wenlong Yu",
+      "Bingxu Lu",
+      "Qilong Wang",
+      "Qinghua Hu",
+      "Qianru Sun"
+    ],
+    "abstract": "In multi-agent systems (MAS) built on large language models (LLMs), errors can propagate through intermediate messages and compromise final answers. However, outcome-based evaluation obscures how agents amplify, attenuate, or correct these errors. We propose Response-Aware Error Propagation among Agents (REPA), a structural model that connects measured local responses to system-level error propagation. REPA separately estimates input assembly and agent processing across multiple error channels, while theoretical analysis relates local modeling errors to endpoint prediction error. Experiments span three Qwen base models, six MAS workflows, and ten knowledge and reasoning settings in ErrPropBench-10. REPA achieves a mean condition-level Spearman correlation of 0.84 across base models, compared with 0.47 for direct regression. Controlled experiments also demonstrate its utility for targeted recovery. REPA-guided retrieval-augmented generation (RAG) improves accuracy over no retrieval by an average of 19 percentage points with 16% additional tokens. By linking local agent behavior to system susceptibility, REPA provides an interpretable foundation for studying error propagation and developing targeted optimization in MAS.",
+    "url": "http://arxiv.org/abs/2611.31063v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31063v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.30771v1",
+    "title": "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
+    "authors": [
+      "Kuan Zhang",
+      "Zhihao Yang",
+      "Yukun Chen",
+      "Xingyilang Yin",
+      "Mingyu Ouyang"
+    ],
+    "abstract": "Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. Studying these abilities calls for diverse, challenging tasks under controlled conditions. We introduce GameDojo, a controllable interactive gameplay benchmark of 120 boss encounters across 20 games for evaluating model capabilities, learning algorithms, and agent harnesses. Coding agents reconstruct the environments and write gameplay scripts, producing GameDojo-Data with 600 hours of gameplay trajectories. Experiments reveal substantial challenges for frontier models, especially in real-time interaction. Training on GameDojo-Data brings GameDojo-4B to frontier performance, with the strongest real-time performance. We also find joint training improves individual tasks, and learned policies transfer across bosses. Together, these findings establish GameDojo as a challenging and valuable interactive gameplay benchmark for the community. Our project page is at https://gamedojo-benchmark.github.io/ , and our code is at https://github.com/THUSI-Lab/GameDojo .",
+    "url": "http://arxiv.org/abs/2611.30771v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30771v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.31543v1",
+    "title": "Reproducible Social Structure Emerges From Free-Form Interaction Among LLM Agents",
+    "authors": [
+      "Tom Alisch",
+      "Sonia Murthy",
+      "Robert Hawkins",
+      "Felix Sosa",
+      "Core Francisco Park"
+    ],
+    "abstract": "Multi-agent LLM simulations are increasingly used as models of social systems, but most published findings are anecdotal, i.e., drawn from a single run. It is therefore unclear which observed phenomena are robust findings of the simulated system itself, and which were random events in one particular run. Here, we introduce a repeatable, goal-free, proactive multi-agent framework in which fifty persona-conditioned agents with persistent memory choose whether, with whom, and how to communicate across three social platforms. The framework supports non-perturbative measurements across temporal snapshots and repetitions. Running the same world ten times from identical initial conditions for a total of 700 hours, we find that most measured network- and agent-level parameters are stable across repetitions. Throughout a run, initially broad communication contracts into sparse sustained dyads in all ten worlds. Importantly, we find that many identical dyads re-form across worlds significantly more often than expected by chance or from agent-specific sociability alone. Static personality similarity largely fails to predict these dyads. Instead, alignment and extremity in the emotions and traits expressed during first contact predict whether a pair later forms a sustained dyad. Additionally, individual agents' emotion and trait expression in their chain-of-thought predicts their future behavior. Finally, swapping either persona prompts or accumulated memories between agents causes recipients to exhibit behavior more similar to donors. Both kinds of transplant move the recipients about 60% of the way toward its donor personality, and state-transplanted agents start behaving similar to their donor agent from their next turn on. Overall, we show that repeated worlds enable robust, statistically-grounded conclusions about emergent within-configuration behavior in agent societies.",
+    "url": "http://arxiv.org/abs/2611.31543v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31543v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.MA",
+      "cs.AI"
+    ],
+    "primary_category": "cs.MA",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  },
+  {
+    "id": "2611.31586v1",
+    "title": "SecondChance: Benchmarking Reliable Error Recovery in AI Agents",
+    "authors": [
+      "Atahan Dokme",
+      "Adar Avsian",
+      "Larry Heck"
+    ],
+    "abstract": "AI agents make errors while they act, and their reliability depends on what they do afterwards. Existing recovery benchmarks mostly inject faults, involve no user and score whether the task is eventually completed, so they cannot show whether an agent undid its own silent error, told the user, or faced an error that could not be fixed. We introduce SecondChance, an error checkpoint dataset and evaluation harness that profiles and measures error-recovery behaviour of AI agents. The errors are natural: they come from agents' own task attempts in $τ^2$-bench, BFCL and AppWorld. Different agents then resume from the same checkpoints under one of four conditions: no assistance, an error notice, the error location, or repair guidance. We measure error correction, task success, policy compliance, preservation of environment state, repair durability and cost. We evaluate 12 models under all four conditions in 5,760 continuations. Recovery is rare: across its environments, the best model completes only 16% of recoveries unaided and 27% with repair guidance. Correcting is not recovering: with repair guidance, Llama-3.3-70B corrects 26% of $τ^2$ errors but completes none, and 40 of 84 successful AppWorld continuations leave the error in place. SecondChance exposes these differences that task success alone cannot capture.",
+    "url": "http://arxiv.org/abs/2611.31586v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31586v1",
+    "published": "2026-11-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "our_category": "Benchmarks & Evaluation for Research Agents"
+  }
+]
