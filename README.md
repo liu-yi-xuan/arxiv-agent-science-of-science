@@ -24,6 +24,41 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-27
+
+**11 new papers found**
+
+#### 🔬 AI Agents for Scientific Discovery
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation](http://arxiv.org/abs/2611.33563v1) | Siyuan Chen, Yuping Gao, Tai Huang et al. | Automated Scientific Hypothesis Generation (ASHG) leveraging large language models (LLMs) aims to harness their strengths in knowledge integration, logical reasoning, and text generation for effici... |
+| [EATS: Scaling Tool-Use Experience for Medical Reasoning Agents](http://arxiv.org/abs/2611.33897v1) | Mingyuan Li, Tong Jia, Haoran Wang et al. | Medical reasoning agents combine large language model (LLM) reasoning with clinical workflows and specialized neural tools. |
+| [Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments](http://arxiv.org/abs/2611.34254v1) | Yinjun Liu, Xinye Li, Ruisen Peng et al. | Large language models (LLMs) perform well on chemistry knowledge benchmarks, which mainly assess question answering and isolated tasks. |
+
+#### 📖 Research Workflow Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Failure Broadens, Success Sharpens: Continual Adaptation of Tool-Use Agents Across Diverse Tasks with Dual-Polarity Memory](http://arxiv.org/abs/2611.33612v1) | Tianmai M. Zhang, Hoda Shajari, Amr Hendy et al. | Large language model agents can self-improve over time by utilizing procedural memory derived from prior task trajectories, yet the distinct utilities of memories derived from local successes and f... |
+
+#### 📊 Computational Science of Science
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [Can Large Language Models Estimate the Likely Technological Impact of Scientific Research? Evidence from Biotechnology](http://arxiv.org/abs/2611.34300v1) | Zhiyu Tao, Mike Thelwall, Danqun Zhao et al. | This study provides large-scale empirical evidence about whether large language model (LLM)-based assessments of the likely technological impact of scientific publications are associated with their... |
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents](http://arxiv.org/abs/2611.34920v1) | Qihao Lin, Guanxu Chen, Shuhang Zheng et al. | Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. |
+| [DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents](http://arxiv.org/abs/2611.34852v1) | Han Huang, Yuchen Yan, Xingyu Wu et al. | Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. |
+| [EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts](http://arxiv.org/abs/2611.34466v1) | Yurun Chen, Biao Yi, Qihang Yu et al. | AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. |
+| [EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams](http://arxiv.org/abs/2611.34400v1) | Wei Chen, Xiaodong Lu, Weihao Shen et al. | Large language model (LLM) agents are evolving from passive chatbots into autonomous systems that operate continuously in dynamic environments. |
+| [Asset4D-Bench: Benchmarking Coding Agents for Editable 3D and 4D Reconstruction](http://arxiv.org/abs/2611.33728v1) | Chengyi Sun, Deyuan Liu, Lei Zhao et al. | A cart can follow its reference trajectory while its cargo floats above the deck. Asset4D-Bench tests whether coding agents recover objects, motion and interactions from visual references as editab... |
+| [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](http://arxiv.org/abs/2611.33093v1) | Guangyuan Wang, Chengran Li, Minchen Luo et al. | A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can ... |
+
 ### 📅 2026-11-26
 
 **21 new papers found**
