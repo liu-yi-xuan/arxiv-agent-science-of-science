@@ -24,6 +24,17 @@ This repo auto-updates daily from ArXiv, tracking papers at the intersection of 
 
 <!-- DAILY_UPDATES_START -->
 
+### 📅 2026-11-28
+
+**2 new papers found**
+
+#### 🛠️ Benchmarks & Evaluation for Research Agents
+
+| Title | Authors | TLDR |
+|-------|---------|------|
+| [$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents](http://arxiv.org/abs/2611.34920v1) | Qihao Lin, Guanxu Chen, Shuhang Zheng et al. | Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. |
+| [DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents](http://arxiv.org/abs/2611.34852v1) | Han Huang, Yuchen Yan, Xingyu Wu et al. | Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. |
+
 ### 📅 2026-11-27
 
 **11 new papers found**
